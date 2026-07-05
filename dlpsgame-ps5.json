@@ -288,11 +288,6 @@
           "version": "01.002"
         },
         {
-          "name": "Rootz [exFAT · PKG · Backport · v01.002]",
-          "url": "https://www.rootz.so/d/29wwIy",
-          "version": "01.002"
-        },
-        {
           "name": "Viki [APR-EMU · PKG · v01.002]",
           "url": "https://vikingfile.com/f/mwFGugA1mM",
           "group": "Standard",
@@ -309,6 +304,11 @@
           "url": "https://1fichier.com/?6ja3d9gqf5wvnqiaep5d&af=4186346",
           "group": "Standard",
           "version": "01.002"
+        },
+        {
+          "name": "Rootz [exFAT · PKG · Backport · v01.002]",
+          "url": "https://www.rootz.so/d/29wwIy",
+          "version": "01.002"
         }
       ],
       "sizeBytes": 3221225472,
@@ -318,9 +318,9 @@
       ],
       "fileFormat": [
         "Backport",
-        "exFAT",
         "APR-EMU",
-        "PKG"
+        "PKG",
+        "exFAT"
       ],
       "_enrichedAt": "2026-06-22T02:35:29.083287+00:00",
       "_rawgMatched": true,
@@ -1002,7 +1002,7 @@
       },
       "_igdbEnrichedAt": "2026-07-01T05:58:15.567648+00:00",
       "_igdbMatched": false,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "PKG"
     },
     {
@@ -3218,7 +3218,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:35:21.411088+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "PKG"
     },
     {
@@ -6014,6 +6014,12 @@
           "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiOEdydC9MU2hhWmZOS0xBR25RNW16RDQwVElkYUpzYS9FczRad0JoZFRZa255Y1NwQ3FWdklncks1YjBrVHhCQ1FpbHVQV2hEMXlKMkxwbHAvcWc3VG85UXJmU2xHZz09IiwiaSI6InQrN3JFKzgzQ1hXckZCS1MiLCJuIjoiVmF1bHQifQ=="
         },
         {
+          "name": "Multihost [PKG · APR-EMU · v01.023]",
+          "url": "https://www.keepshield.org/safe/04e7d936",
+          "group": "Standard",
+          "version": "01.023"
+        },
+        {
           "name": "1File [exFAT · PKG · Backport 4.xx · v01.023]",
           "url": "https://1fichier.com/?m0i7zo6ycvpy0luc0zmv",
           "version": "01.023"
@@ -6026,12 +6032,6 @@
         {
           "name": "Vault [exFAT · PKG · Backport 4.xx · v01.023]",
           "url": "https://datavaults.co/wvcg1eb1lfmw",
-          "version": "01.023"
-        },
-        {
-          "name": "Multihost [APR-EMU · PKG · v01.023]",
-          "url": "https://www.keepshield.org/safe/04e7d936",
-          "group": "Standard",
           "version": "01.023"
         },
         {
@@ -6110,9 +6110,9 @@
       ],
       "fileFormat": [
         "exFAT",
+        "PKG",
         "APR-EMU",
         "Backport 4.xx",
-        "PKG",
         "RAR",
         "Backport"
       ],
@@ -7809,7 +7809,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:35:33.769834+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "Folder · Backport 4.xx"
     },
     {
@@ -7846,6 +7846,42 @@
           "version": "01.000.003"
         },
         {
+          "name": "Viki [PKG · APR-EMU · v01.003]",
+          "url": "https://vikingfile.com/f/0eaXtnQJDN",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "Rootz [PKG · APR-EMU · v01.003]",
+          "url": "https://www.rootz.so/d/1F9Yf2",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.003]",
+          "url": "https://1fichier.com/?zxbp84l7q76uijuj3voc&af=4186346",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "Backport - Viki [Backport · v01.003]",
+          "url": "https://vikingfile.com/f/jOSoMehFOF",
+          "group": "Backport",
+          "version": "01.003"
+        },
+        {
+          "name": "Backport - Rootz [Backport · v01.003]",
+          "url": "https://www.rootz.so/d/1B7hnU",
+          "group": "Backport",
+          "version": "01.003"
+        },
+        {
+          "name": "Backport - 1File [Backport · v01.003]",
+          "url": "https://1fichier.com/?sawt2tsni16i8bpj2mdw&af=4186346",
+          "group": "Backport",
+          "version": "01.003"
+        },
+        {
           "name": "Rootz [exFAT · PKG · Backport · v01.003]",
           "url": "https://www.rootz.so/d/8v2gK",
           "version": "01.003"
@@ -7858,10 +7894,10 @@
       ],
       "fileFormat": [
         "Backport",
-        "exFAT",
-        "APR-EMU",
+        "PKG",
         "Backport 7.xx",
-        "PKG"
+        "exFAT",
+        "APR-EMU"
       ],
       "_enrichedAt": "2026-06-28T21:34:49.082044+00:00",
       "_rawgMatched": false,
@@ -7903,6 +7939,24 @@
           "version": "01.000.100"
         },
         {
+          "name": "Viki [APR-EMU · PKG · v01.000.100]",
+          "url": "https://vikingfile.com/f/GRnhibyGwf",
+          "group": "Standard",
+          "version": "01.000.100"
+        },
+        {
+          "name": "Rootz [APR-EMU · PKG · v01.000.100]",
+          "url": "https://www.rootz.so/d/FwfPk",
+          "group": "Standard",
+          "version": "01.000.100"
+        },
+        {
+          "name": "1File [APR-EMU · PKG · v01.000.100]",
+          "url": "https://1fichier.com/?720ct9cwog37uan2w0ak&af=4186346",
+          "group": "Standard",
+          "version": "01.000.100"
+        },
+        {
           "name": "Rootz [exFAT · PKG · Backport · v01.002]",
           "url": "https://www.rootz.so/d/1DXZia",
           "version": "01.002"
@@ -7933,24 +7987,6 @@
           "version": "01.001"
         },
         {
-          "name": "Viki [APR-EMU · PKG · v01.000.100]",
-          "url": "https://vikingfile.com/f/GRnhibyGwf",
-          "group": "Standard",
-          "version": "01.000.100"
-        },
-        {
-          "name": "Rootz [APR-EMU · PKG · v01.000.100]",
-          "url": "https://www.rootz.so/d/FwfPk",
-          "group": "Standard",
-          "version": "01.000.100"
-        },
-        {
-          "name": "1File [APR-EMU · PKG · v01.000.100]",
-          "url": "https://1fichier.com/?720ct9cwog37uan2w0ak&af=4186346",
-          "group": "Standard",
-          "version": "01.000.100"
-        },
-        {
           "name": "Backport - Data [Backport · v01.000.100]",
           "url": "https://datanodes.to/i41hu7038grq"
         },
@@ -7970,11 +8006,11 @@
       ],
       "fileFormat": [
         "Backport",
-        "exFAT",
         "APR-EMU",
+        "PKG",
+        "exFAT",
         "RAR",
-        "Backport 7.xx",
-        "PKG"
+        "Backport 7.xx"
       ],
       "_enrichedAt": "2026-06-22T12:41:25.188452+00:00",
       "_rawgMatched": true,
@@ -7994,6 +8030,47 @@
       "_igdbEnrichedAt": "2026-06-28T21:35:33.962566+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · PKG · Backport"
+    },
+    {
+      "titleId": "PPSA28609",
+      "title": "Bendy Lone Wolf",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Bendy_Lone_Wolf.avif",
+      "description": "Format: Backport",
+      "downloadLinks": [
+        {
+          "name": "akia_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiR21XVm1rbExWWm56Y3BwUlBscnl1SmZYaktqTmowTytmbGlLMjVOU2JybWNidWsxQ2V4bXRNS2x4OXFONXRITklabHlQOVVLSlpWZjY2MWswZ0pMTGpSZzg1bWxtYi80c0gwPSIsImkiOiJ2YTdMclhlYXhCbk5yNllVIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiK3laOVBqRmJtTFZvTE1zcnV1ODBOYkt6bGVyVCtQeGluWWd4MEJMbDI1ZFgxYTZRL0x4eEs2eGtGcGVoN0NjR2FaT3hWR05rUVcwUVJFQnhrVkYyWmlxTTQzTGdHQ1k9IiwiaSI6Ijkxa2JpMTVUcUtXUCtXdWoiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoidEJvZTJhRUFEUVFudE9jVS9CTUpIRHRYcG5yVHFlVnBsb2l4amFCMHhON25oaUxJL1d5RStEclUxQ1RaNXF1WmFLMmVtWDV0Wnd5S1RLYjBqOUlpZHc4OXNCOFgiLCJpIjoidUd0V0EzS2g0dnRaSzE5eSIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiTWJqcXVmTGZLditSb1djYzZOZmVFRTh5UHk5Q0toNjJLUTdMVmpDZnZES0M4dGwxOWhRYjFaSk4vWXh5VGRPQ2JkRkNvQ1BJc0pBRHYrRW5lMmh3Skl5WkgzeUI0MFk9IiwiaSI6IkFwNVhNbjRIY2F1N2RuTXUiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiMllOQUhSTFlRcjRrSDA0L25WMTRQdWxBeDRUZWo2eVcwSHVUTGVGeEFBeWZtaTNKZjYyS3I4WmMrcCtNMDM0SzFJZVpjTjFDMXYycEhjMHVySDJ1MitNT2tWK2R4Zz09IiwiaSI6ImZ0ZEtxK2NjV3NRdTFwbXIiLCJuIjoiVmF1bHQifQ=="
+        }
+      ],
+      "sizeBytes": 1073741824,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-07-05T05:22:30.905726+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA27640",
@@ -10292,7 +10369,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:35:40.686093+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA19624",
@@ -11416,6 +11493,12 @@
       "description": "Format: PKG\nTags: PPSA26528, v01.028, USA\nSize: 37 GB\nPassword: SuperPSX\nVoices: English\nWorks on 11.xx and higher",
       "downloadLinks": [
         {
+          "name": "Multihost [PKG · v01.028]",
+          "url": "https://www.keepshield.org/safe/1b4c7f6a",
+          "group": "Standard",
+          "version": "01.028"
+        },
+        {
           "name": "1File [PKG · v01.028]",
           "url": "https://1fichier.com/?yfre37fes6fg2b31k56g",
           "version": "01.028"
@@ -11444,24 +11527,18 @@
           "name": "Buzz [PKG · v01.028]",
           "url": "https://buzzheavier.com/pnxw8llaozwe",
           "version": "01.028"
-        },
-        {
-          "name": "Multihost [PKG · v01.028]",
-          "url": "https://www.keepshield.org/safe/1b4c7f6a",
-          "group": "Standard",
-          "version": "01.028"
         }
       ],
+      "sizeBytes": 39728447488,
       "downloadSource": "https://phoenixdl.com",
       "source": [
         "PKG"
       ],
       "fileFormat": [
+        "PKG",
         "unknown",
-        "RAR",
-        "PKG"
+        "RAR"
       ],
-      "sizeBytes": 39728447488,
       "_enrichedAt": "2026-06-22T12:41:36.244909+00:00",
       "_rawgMatched": true,
       "metadata": {
@@ -12337,75 +12414,95 @@
       "version": "01.004",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobjb3.jpg",
-      "description": "Format: exFAT · PKG · Backport 4.xx\nTags: PPSA07809, v1.004, 5.xx, USA\nSize: 34GB\nCredits: Pippo26442999 x SiESPTA\nThanks: SiESPTA for the Files and drakmor for ampr-emu",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA07809, v1.004, 5.xx, USA\nSize: 34GB\nCredits: Pippo26442999 x SiESPTA\nThanks: SiESPTA for the Files and drakmor for ampr-emu",
       "downloadLinks": [
         {
-          "name": "Akia [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Akia [exFAT · PKG · Backport · v01.004]",
           "url": "https://akirabox.com/QN9mEZdqL36d/file",
           "version": "01.004"
         },
         {
-          "name": "Viki [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Viki [exFAT · PKG · Backport · v01.004]",
           "url": "https://vikingfile.com/f/4UXCEzMxw4",
           "version": "01.004"
         },
         {
-          "name": "Data [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Data [exFAT · PKG · Backport · v01.004]",
           "url": "https://datanodes.to/ccu9huip54nn",
           "version": "01.004"
         },
         {
-          "name": "Filek [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Filek [exFAT · PKG · Backport · v01.004]",
           "url": "https://filekeeper.net/ugja6ni19swh",
           "version": "01.004"
         },
         {
-          "name": "Vault [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Vault [exFAT · PKG · Backport · v01.004]",
           "url": "https://datavaults.co/tt1a52owvl20",
           "version": "01.004"
         },
         {
-          "name": "Mediafire [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Backport - backport_akia [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiSjFmSEZJR1JpMXBXM2p0ejMzWEo4WFl0ZjJUUTVxN3I4b01oblg3VldwVzVQaWpDZ2FvaStBYm95R2xLYXVURjVMSVdrVFN5S2l2K3RjRCtMOXU2UGY4UVQ4UG82MjdZK1VZPSIsImkiOiIrY0FaMXcrcVhUelhJY0xHIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "Backport - backport_viki [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoibmdDMzJ4NkJObjdnU2VrWUxhNWpYejBIdHhKdUxrenBUYVV5NHViaWRDR2JTWDlPR2dlQ0lFa0ljeUd0ZEExNndJSEwwQnhhcGM1ek1xN25GOWIrMHRwampSNGp2aG89IiwiaSI6ImIwSG5nRlM1dURNVUl0VGsiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "Backport - backport_data [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoidlEzaHNKd2p0N2phNTg5ei9GTjJxb3JGSXJrMk5oaWRtMHQ0V1FIbWtma1dRTVh0SlNUclE2WE1Jb1JnVkcxd2k4cC94dzhtYm5TQ1E0aXdHeE45c2xjaVZSRloiLCJpIjoid0FZRFBraENnVE9MOU5CSiIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "Backport - backport_filek [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiMExkM1d1anlidDhDOElEd053SDlVdUpZSm9mZkFtSW5jbHZWTFdKWWlJL3RrTlFCMTk2eHU3Z0JCM09NMHN5QWFwRkxGZmMxYkdrZkZWaXl5RzlDUUVsdW1SNThYT1k9IiwiaSI6IlFpaCt6cjAzUWlVcDcwMHkiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "Backport - backport_vault [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiS0lTV0t5WDlSVGVaVnlIUFRQbk8rZkkyUEpiZzBUbjhPOTZDMzJOMzRwZEg4aFNGaENnOHhKZFVUQWgxZVBOK2YyYTVVQTZNVXpwL0xzVTEvaStxQmFRd3NnL2JSZz09IiwiaSI6InV2K3ZBZGJjTDhtYUM5UTEiLCJuIjoiVmF1bHQifQ=="
+        },
+        {
+          "name": "Mediafire [exFAT · PKG · Backport · v01.004]",
           "url": "https://www.mediafire.com/file/u7md5keweh6xq35/[DLPSGAME.COM]-+01.004+PPSA07809.part1.rar/file",
           "version": "01.004"
         },
         {
-          "name": "Viki [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Viki [exFAT · PKG · Backport · v01.004]",
           "url": "https://vikingfile.com/f/Ds1AYpNpRr",
           "version": "01.004"
         },
         {
-          "name": "1File [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "1File [exFAT · PKG · Backport · v01.004]",
           "url": "https://1fichier.com/?1htkv765i0ushar5402f",
           "version": "01.004"
         },
         {
-          "name": "Buzz [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Buzz [exFAT · PKG · Backport · v01.004]",
           "url": "https://buzzheavier.com/hn0bd2wplhjv",
           "version": "01.004"
         },
         {
-          "name": "Rootz [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Rootz [exFAT · PKG · Backport · v01.004]",
           "url": "https://www.rootz.so/d/Ib4vg",
           "version": "01.004"
         },
         {
-          "name": "Mediafire [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Mediafire [exFAT · PKG · Backport · v01.004]",
           "url": "https://www.mediafire.com/file/sqnspn1lpp1y52m/[DLPSGAME.COM]-PPSA07810-app0.part1.rar/file",
           "version": "01.004"
         },
         {
-          "name": "Akia [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Akia [exFAT · PKG · Backport · v01.004]",
           "url": "https://akirabox.com/vgKGxQl74m8Q/file",
           "version": "01.004"
         },
         {
-          "name": "1File [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "1File [exFAT · PKG · Backport · v01.004]",
           "url": "https://1fichier.com/?q5n9yhe710jq8947vd8u",
           "version": "01.004"
         },
         {
-          "name": "Buzz [exFAT · PKG · Backport 4.xx · v01.004]",
+          "name": "Buzz [exFAT · PKG · Backport · v01.004]",
           "url": "https://buzzheavier.com/7o87t50oupih",
           "version": "01.004"
         }
@@ -12413,9 +12510,10 @@
       "sizeBytes": 36507222016,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG · Backport 4.xx"
+        "exFAT · PKG · Backport"
       ],
       "fileFormat": [
+        "Backport",
         "exFAT",
         "APR-EMU",
         "RAR",
@@ -12438,7 +12536,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:35:47.101958+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG · Backport 4.xx"
+      "formatLabel": "exFAT · PKG · Backport"
     },
     {
       "titleId": "PPSA24096",
@@ -13740,47 +13838,50 @@
       "version": "01.000",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24hi.jpg",
-      "description": "Tags: PPSA31977, v1.000\nSize: 27 GB",
+      "description": "Format: PKG\nTags: PPSA31977, v01.000, USA\nSize: 28 GB\nPassword: SuperPSX\nVoices: English, French (France), German, Italian, Japanese, Russian, Spanish, Spanish (Mexico)\nWorks on 12.xx to 11.xx",
       "downloadLinks": [
         {
-          "name": "Gofile [RAR · v01.000]",
+          "name": "Gofile [PKG · v01.000]",
           "url": "https://gofile.io/d/dJQGvX",
+          "group": "Standard",
           "version": "01.000"
         },
         {
-          "name": "Rootz [RAR · v01.000]",
+          "name": "Rootz [PKG · v01.000]",
           "url": "https://www.rootz.so/d/1lOj56"
         },
         {
-          "name": "Mediafire [RAR · v01.000]",
+          "name": "Mediafire [PKG · v01.000]",
           "url": "https://www.mediafire.com/file/xpg0wh8pr8nxr1a/[DLPSGAME.COM]-PPSA31977.part1.rar/file"
         },
         {
-          "name": "Buzz [RAR · v01.000]",
+          "name": "Buzz [PKG · v01.000]",
           "url": "https://buzzheavier.com/h4br9eo2w5tp"
         },
         {
-          "name": "Akia [RAR · v01.000]",
+          "name": "Akia [PKG · v01.000]",
           "url": "https://akirabox.com/qw1zedeYv3Xy/file"
         },
         {
-          "name": "1File [RAR · v01.000]",
+          "name": "1File [PKG · v01.000]",
           "url": "https://1fichier.com/?ayiervceu3fopcimljo2"
         }
       ],
+      "sizeBytes": 30064771072,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "RAR"
+        "PKG"
       ],
       "fileFormat": [
+        "PKG",
         "unknown",
         "RAR"
       ],
-      "sizeBytes": 28991029248,
       "_enrichedAt": "2026-06-28T21:34:50.751680+00:00",
       "_rawgMatched": false,
       "_igdbEnrichedAt": "2026-06-28T21:35:50.692060+00:00",
-      "_igdbMatched": true
+      "_igdbMatched": true,
+      "formatLabel": "PKG"
     },
     {
       "titleId": "PPSA09483",
@@ -14918,8 +15019,28 @@
       "version": "01.013",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ipx.jpg",
-      "description": "Format: PKG · APR-EMU · Backport 4.xx\nTags: PPSA02015, v01.013, USA\nSize: 100 GB\nPassword: SuperPSX\nVoices: Chinese, English, French (France), German, Italian, Japanese, Polish, Portuguese (Brazil), Portuguese (Portugal), Russian, Spanish, Spanish (Mexico)",
+      "description": "Format: exFAT · PKG · Backport 4.xx\nTags: PPSA02015, v01.013, USA\nSize: 100 GB\nPassword: SuperPSX\nVoices: Chinese, English, French (France), German, Italian, Japanese, Polish, Portuguese (Brazil), Portuguese (Portugal), Russian, Spanish, Spanish (Mexico)",
       "downloadLinks": [
+        {
+          "name": "akia_url [exFAT · PKG · Backport 4.xx · v01.013]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiby9rREgrYmVmYjMxaW10WXFFdlJGd1N3dEJOenl5SVRYSFE0V0psRFpqMmxKSjI3M284OVJqTzJUMlpYNnYwRzhRNzJURXF6NXVqNHdld2w0dXcxaXRuQms3aEFXQmZEVzhvPSIsImkiOiJNY2locmdXcGNEWmp5SENUIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [exFAT · PKG · Backport 4.xx · v01.013]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiOXN4aDArRVUzMkdmSUNsWE4zM013cTlEczdRb3F0OWZCTEkwQWdkTE0yaEFwajlacTRXTDhtcTFpWlA2a3kremJJMFFhZGZLdHdHallvb0UycFFRSWRFTmFtcEEyZG89IiwiaSI6Iis0TllaTGV6TmVEVWlzMDMiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [exFAT · PKG · Backport 4.xx · v01.013]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiMHpEMnJBdHk1UnNZeDYvcnR4VUFWcFdPS3U1U1NFWXZWeHdBS2NUQ3lJWURKbVlGdkZaNGp2SzA0ZkhZS2k2aHRiMTJjZm4vU2NMQk9PaXR6cW9sU0VWNGtkM1ciLCJpIjoieFpJczZsb0N2cy84NWVZNSIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [exFAT · PKG · Backport 4.xx · v01.013]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiVzVyTXZ1aVBQVEo1OEswMXdndVIzdTdTOXo2MVMwbTcwRi81enQ3eXBXTXBnVk1BT0ZueDhRZzVlRmVaSzlsV2RleEJqMCtHU3lOZUxmTkhZWTl0WmhtRWVzenVYQW89IiwiaSI6IjJDYWZlNFQ4RnhZS1hpQS8iLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [exFAT · PKG · Backport 4.xx · v01.013]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiVlQxWjFjZXN3aTlUVHppVG1CeXRMWUd6eDhxUktvTE5EK1ZYRlF2Y2lRUDZYbTYxQjhDVDlZaXlUVkQyQUR5K3c5b0ZjM1kzUnlpaTRFVXdHTEJpdE9UYks1NHRTZz09IiwiaSI6IkxPSDgvRUx5cjM0bEZheTMiLCJuIjoiVmF1bHQifQ=="
+        },
         {
           "name": "Gofile [APR-EMU · PKG · v01.013]",
           "url": "https://gofile.io/d/GfmeUs",
@@ -14927,36 +15048,37 @@
           "group": "Standard"
         },
         {
-          "name": "Buzz [PKG · APR-EMU · Backport 4.xx · v01.013]",
+          "name": "Buzz [exFAT · PKG · Backport 4.xx · v01.013]",
           "url": "https://buzzheavier.com/sksin9cx2bcp"
         },
         {
-          "name": "Rootz [PKG · APR-EMU · Backport 4.xx · v01.013]",
+          "name": "Rootz [exFAT · PKG · Backport 4.xx · v01.013]",
           "url": "https://www.rootz.so/d/15fxsO"
         },
         {
-          "name": "Mediafire [PKG · APR-EMU · Backport 4.xx · v01.013]",
+          "name": "Mediafire [exFAT · PKG · Backport 4.xx · v01.013]",
           "url": "https://www.mediafire.com/file/btifn8y9ohw7skh/[DLPSGAME.COM]-PPSA02015.part01.rar/file"
         },
         {
-          "name": "Akia [PKG · APR-EMU · Backport 4.xx · v01.013]",
+          "name": "Akia [exFAT · PKG · Backport 4.xx · v01.013]",
           "url": "https://akirabox.com/Z9dzBKDLqGk1/file"
         },
         {
-          "name": "Viki [PKG · APR-EMU · Backport 4.xx · v01.013]",
+          "name": "Viki [exFAT · PKG · Backport 4.xx · v01.013]",
           "url": "https://vikingfile.com/f/WGZP9h0PZk"
         },
         {
-          "name": "1File [PKG · APR-EMU · Backport 4.xx · v01.013]",
+          "name": "1File [exFAT · PKG · Backport 4.xx · v01.013]",
           "url": "https://1fichier.com/?keepwflcealbyars60o2"
         }
       ],
-      "sizeBytes": 169651208192,
+      "sizeBytes": 170724950016,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PKG · APR-EMU · Backport 4.xx"
+        "exFAT · PKG · Backport 4.xx"
       ],
       "fileFormat": [
+        "exFAT",
         "APR-EMU",
         "PKG",
         "Backport 4.xx",
@@ -14977,7 +15099,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:35:54.653561+00:00",
       "_igdbMatched": true,
-      "formatLabel": "PKG · APR-EMU · Backport 4.xx"
+      "formatLabel": "exFAT · PKG · Backport 4.xx"
     },
     {
       "titleId": "PPSA01968",
@@ -14985,7 +15107,7 @@
       "version": "01.004",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobksf.jpg",
-      "description": "Format: exFAT · PKG\nTags: PPSA01968, v1.004, 2.xx, EUR\nSize: 54GB\nCredits: Pippo26442999 x SiESPTA\nThanks: SiESPTA for the Files and drakmor for ampr-emu",
+      "description": "Format: exFAT · PKG\nTags: PPSA01968, v01.004, EUR\nSize: 62 GB\nPassword: SuperPSX\nVoices: English, French (France), German, Greek, Spanish, Spanish (Mexico), Japanese, Polish, Portuguese (Brazil), Portuguese (Portugal), Russian, Italian\nWorks on 2.xx and higher",
       "downloadLinks": [
         {
           "name": "Akia [exFAT · PKG · v01.004]",
@@ -15010,6 +15132,108 @@
         {
           "name": "Vault [exFAT · PKG · v01.004]",
           "url": "https://datavaults.co/1zbpn8x8imgr",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?v31lhglpg65mji0yuvps&af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?sl0mmwl0zwo7wyeg7ekj&af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?4hrfrujctnsnq17u26lk&af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?ilj1p4emta69o4dscqii&af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?4ccmhfdob1xlqi0epti7&af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?c83an1026prh9z9k7soy&af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?uycw5zvv3k5wnv219w12&af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?v31lhglpg65mji0yuvps&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?sl0mmwl0zwo7wyeg7ekj&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?4hrfrujctnsnq17u26lk&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?ilj1p4emta69o4dscqii&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?4ccmhfdob1xlqi0epti7&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?c83an1026prh9z9k7soy&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.004]",
+          "url": "https://1fichier.com/?uycw5zvv3k5wnv219w12&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "DLC - Viki [DLC · v01.004]",
+          "url": "https://vikingfile.com/f/IcbSxawOJg",
+          "group": "DLC",
+          "version": "01.004"
+        },
+        {
+          "name": "DLC - Rootz [DLC · v01.004]",
+          "url": "https://www.rootz.so/d/bY6NM",
+          "group": "DLC",
+          "version": "01.004"
+        },
+        {
+          "name": "DLC - 1File [DLC · v01.004]",
+          "url": "https://1fichier.com/?va5j6vfuctjsn8lgad0l&af=4186346",
+          "group": "DLC",
           "version": "01.004"
         },
         {
@@ -15050,9 +15274,9 @@
       ],
       "fileFormat": [
         "exFAT",
+        "PKG",
         "APR-EMU",
-        "RAR",
-        "PKG"
+        "RAR"
       ],
       "_enrichedAt": "2026-06-22T02:36:04.697659+00:00",
       "_rawgMatched": true,
@@ -18876,7 +19100,7 @@
       "version": "01.011",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p5n.jpg",
-      "description": "Format: exFAT · PKG\nTags: PPSA01981, v1.011, 3.xx, USA\nSize: 83 GB\nCredits: Pippo26442999 x SiESPTA\nThanks: High-Speed007 for the Files with DLCs",
+      "description": "Format: exFAT · PKG\nTags: PPSA01981, v01.002, USA\nSize: 143 GB\nPassword: SuperPSX\nVoices: English, French (France), Portuguese (Brazil), Spanish (Mexico)\nWorks on 12.xx to 3.xxVery important need install dlc without install dlc campaign will not work",
       "downloadLinks": [
         {
           "name": "Akia [exFAT · PKG · v01.011]",
@@ -18907,6 +19131,36 @@
           "url": "https://datanodes.to/3f3sdboh8g06"
         },
         {
+          "name": "DLC - Multihost [DLC · v01.002]",
+          "url": "https://www.keepshield.org/safe/9e637bd3",
+          "group": "DLC",
+          "version": "01.002"
+        },
+        {
+          "name": "DLC - 1File [DLC · v01.002]",
+          "url": "https://1fichier.com/?ikzu1ubewbvof9timju1&af=4186346",
+          "group": "DLC",
+          "version": "01.002"
+        },
+        {
+          "name": "DLC - 1File [DLC · v01.002]",
+          "url": "https://1fichier.com/?ec6y0qnxphxmzl47d7ee&af=4186346",
+          "group": "DLC",
+          "version": "01.002"
+        },
+        {
+          "name": "DLC - 1File [DLC · v01.002]",
+          "url": "https://1fichier.com/?ikzu1ubewbvof9timju1&amp;af=4186346",
+          "group": "DLC",
+          "version": "01.002"
+        },
+        {
+          "name": "DLC - 1File [DLC · v01.002]",
+          "url": "https://1fichier.com/?ec6y0qnxphxmzl47d7ee&amp;af=4186346",
+          "group": "DLC",
+          "version": "01.002"
+        },
+        {
           "name": "Rootz [exFAT · PKG · v01.011]",
           "url": "https://www.rootz.so/d/AYPrs"
         },
@@ -18923,13 +19177,14 @@
           "url": "https://gofile.io/d/YC0nIx"
         }
       ],
-      "sizeBytes": 89120571392,
+      "sizeBytes": 153545080832,
       "downloadSource": "https://phoenixdl.com",
       "source": [
         "exFAT · PKG"
       ],
       "fileFormat": [
         "exFAT",
+        "APR-EMU",
         "PKG"
       ],
       "_enrichedAt": "2026-06-28T21:34:51.548650+00:00",
@@ -19218,55 +19473,67 @@
       "version": "01.000",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6g6l.jpg",
-      "description": "Format: exFAT · APR-EMU\nTags: PPSA16019, v1.000, 6.xx, EUR\nSize: 1 GB\nCredits: Pippo26442999 x SiESPTA\nThanks: SiESPTA for the Files and drakmor for ampr-emu.",
+      "description": "Format: exFAT · PKG\nTags: PPSA16019, v1.000, 6.xx, EUR\nSize: 1 GB\nCredits: Pippo26442999 x SiESPTA\nThanks: SiESPTA for the Files and drakmor for ampr-emu.",
       "downloadLinks": [
         {
-          "name": "akia_url [exFAT · APR-EMU · v01.000]",
+          "name": "akia_url [exFAT · PKG · v01.000]",
           "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoibGZlVWhFdFRyQkE1Y1Noc2RDcmhPeVpEODJtQkRJT3hFSGRmeWgydFFOZytHc0xSSUNraWFuTnFnaDRTTjBicEVkQWpnaHlyMEpLeU9PRnY3L1AzOHJQVTJHcXRhdEVDUEZRPSIsImkiOiI5d3RvZmxZUUlyWG5UTUpzIiwibiI6IkFraWEifQ=="
         },
         {
-          "name": "viki_url [exFAT · APR-EMU · v01.000]",
+          "name": "viki_url [exFAT · PKG · v01.000]",
           "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiRnQ4dDJocW92c1JZN2N1cnRSSkxHd01sNUVjeENQVndiU2dXaTZQQ0lseDN3dDVlTjZ5SE15QlNPeU81dHV1c2U0c21Wc1lnVi9EbFVEQVNsLzJodm10bzRldml2RWc9IiwiaSI6IjR4UUNzdVpFNGRid0pwQ2ciLCJuIjoiVmlraSJ9"
         },
         {
-          "name": "data_url [exFAT · APR-EMU · v01.000]",
+          "name": "data_url [exFAT · PKG · v01.000]",
           "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiazNTaVZiZkFza3hGTEgzZVJ6enI4aVVtR2pOWWE5Uy9iMWdYSnhFK0JRZ0h6dkRsN0YxaHBpYUsxRXZvdjBERUxhYXhRR2J1bUhXYk9LNzdtSmtqOEhrU1FLWU8iLCJpIjoiN3N0dXdFcHB2OVlvUUdLQiIsIm4iOiJEYXRhIn0="
         },
         {
-          "name": "filek_url [exFAT · APR-EMU · v01.000]",
+          "name": "filek_url [exFAT · PKG · v01.000]",
           "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoic25TK0d5d3JGVTJsS2FPZDN4TDFYbTYyV25teXd0T3ROYk9RR1NkWTd2MUV5TFRlemNmallycVg5SjVzUmRnREFmYTFseXlpcTJKZzRLekpucUVnZXBuazR6Y3NZRUk9IiwiaSI6IlFsMkJMVjhPdWF3WFZvMVIiLCJuIjoiRmlsZUsifQ=="
         },
         {
-          "name": "vault_url [exFAT · APR-EMU · v01.000]",
+          "name": "vault_url [exFAT · PKG · v01.000]",
           "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiYm1XeVNJV3FJRFdIcnArSTlSL0JtTE9LTlpEWERVbmpENWZld3FWaDVJQXlGZjFSRURkZVgwTm5JZWkzSHZWQzBkOEdoZ01CMk5wMlZpSW1nUmVlR2VidmZCNUMxZz09IiwiaSI6IjJlNkMveklSblZ5Ky9iQkgiLCJuIjoiVmF1bHQifQ=="
         },
         {
-          "name": "Rootz [exFAT · APR-EMU · v01.000]",
+          "name": "Rootz [PKG · APR-EMU · v01.000]",
+          "url": "https://www.rootz.so/d/1XqeGm",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.000]",
+          "url": "https://1fichier.com/?f6vzttxgm4b2p0pyooii&af=4186346",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "Rootz [exFAT · PKG · v01.000]",
           "url": "https://www.rootz.so/d/1GbjN2",
           "version": "01.000"
         },
         {
-          "name": "Akia [exFAT · APR-EMU · v01.000]",
+          "name": "Akia [exFAT · PKG · v01.000]",
           "url": "https://akirabox.com/0PdzyQNXLzeA/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [exFAT · APR-EMU · v01.000]",
+          "name": "Viki [exFAT · PKG · v01.000]",
           "url": "https://vikingfile.com/f/aCNcX47wq1",
           "version": "01.000"
         },
         {
-          "name": "Data [exFAT · APR-EMU · v01.000]",
+          "name": "Data [exFAT · PKG · v01.000]",
           "url": "https://datanodes.to/qjumuvid6v7v",
           "version": "01.000"
         },
         {
-          "name": "Filek [exFAT · APR-EMU · v01.000]",
+          "name": "Filek [exFAT · PKG · v01.000]",
           "url": "https://filekeeper.net/kusj9m6xo4k6",
           "version": "01.000"
         },
         {
-          "name": "Vault [exFAT · APR-EMU · v01.000]",
+          "name": "Vault [exFAT · PKG · v01.000]",
           "url": "https://datavaults.co/n3j99xreby0i",
           "version": "01.000"
         }
@@ -19274,10 +19541,11 @@
       "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU"
+        "exFAT · PKG"
       ],
       "fileFormat": [
         "exFAT",
+        "PKG",
         "APR-EMU"
       ],
       "_enrichedAt": "2026-06-30T15:00:57.134891+00:00",
@@ -19299,7 +19567,7 @@
       },
       "_igdbEnrichedAt": "2026-06-30T15:00:58.434544+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · APR-EMU"
+      "formatLabel": "exFAT · PKG"
     },
     {
       "titleId": "PPSA23000",
@@ -21346,6 +21614,30 @@
           "version": "01.000"
         },
         {
+          "name": "Rootz [PKG · APR-EMU · v01.000]",
+          "url": "https://www.rootz.so/d/1NeOlk",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.000]",
+          "url": "https://1fichier.com/?8e1n5uakckf83ft84yor&af=4186346",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "Backport - Rootz [Backport · v01.000]",
+          "url": "https://www.rootz.so/d/F00rw",
+          "group": "Backport",
+          "version": "01.000"
+        },
+        {
+          "name": "Backport - 1File [Backport · v01.000]",
+          "url": "https://1fichier.com/?b48wanxu187iaftcxy5m&af=4186346",
+          "group": "Backport",
+          "version": "01.000"
+        },
+        {
           "name": "Rootz [exFAT · PKG · Backport · v01.000]",
           "url": "https://www.rootz.so/d/27cUts",
           "version": "01.000"
@@ -21358,10 +21650,10 @@
       ],
       "fileFormat": [
         "Backport",
+        "PKG",
+        "Backport 4.xx",
         "exFAT",
         "APR-EMU",
-        "Backport 4.xx",
-        "PKG",
         "unknown"
       ],
       "_enrichedAt": "2026-06-22T02:36:16.874799+00:00",
@@ -24068,27 +24360,41 @@
       "version": "01.003.001",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa5u5.jpg",
-      "description": "Tags: PPSA20548, v1.003.001",
+      "description": "Format: PKG\nTags: PPSA20548, v01.003.001, EUR\nSize: 15GB\nPassword: SuperPSX\nVoices: English\nWorks on 10.xx and higher",
       "downloadLinks": [
         {
-          "name": "1File [v01.003.001]",
+          "name": "Rootz [PKG · v01.003.001]",
+          "url": "https://www.rootz.so/d/XGJfs",
+          "group": "Standard",
+          "version": "01.003.001"
+        },
+        {
+          "name": "1File [PKG · v01.003.001]",
+          "url": "https://1fichier.com/?247ujfvy5a4yzjeg73z6&af=4186346",
+          "group": "Standard",
+          "version": "01.003.001"
+        },
+        {
+          "name": "1File [PKG · v01.003.001]",
           "url": "https://1fichier.com/?hbdlmsu4db5xc48m2xe4",
           "version": "01.003.001"
         },
         {
-          "name": "Viki [v01.003.001]",
+          "name": "Viki [PKG · v01.003.001]",
           "url": "https://vikingfile.com/f/DqECOkJL4G"
         },
         {
-          "name": "Buzz [v01.003.001]",
+          "name": "Buzz [PKG · v01.003.001]",
           "url": "https://buzzheavier.com/isox30ex8wqk"
         }
       ],
+      "sizeBytes": 16106127360,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PS5"
+        "PKG"
       ],
       "fileFormat": [
+        "PKG",
         "unknown"
       ],
       "_enrichedAt": "2026-06-22T16:46:50.316901+00:00",
@@ -24107,7 +24413,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:36:22.801009+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "formatLabel": "PKG"
     },
     {
       "titleId": "PPSA04703",
@@ -24308,8 +24614,28 @@
       "version": "01.020.000",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dns.jpg",
-      "description": "Format: PKG · Backport 4.xx\nTags: PPSA15671, v01.000, USA\nSize: 60GB\nPassword: SuperPSX\nVoices: English, German",
+      "description": "Format: PKG · Backport\nTags: PPSA15671, v01.000, USA\nSize: 60GB\nPassword: SuperPSX\nVoices: English, German",
       "downloadLinks": [
+        {
+          "name": "Backport - backport7xx_akia [Backport · v01.020.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiS05aVTVaeitKRVNFT2RpV2lUU2JXNTNpVWpjTDF3aFBZTTlOZGY0aGFZdlNUOVpKc2RhMVJ5ZUFKZ1FuckFEOS9JMG9ydStIMGs0cUdPd1VxelVIVFhhRmJOckFIelk2NkNRPSIsImkiOiJhWnk0N09BTVdWOFJORmhjIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "Backport - backport7xx_viki [Backport · v01.020.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiQTJubnBqRUd6RDloam9HK2JuVkZRQzhDWXBRQWNlNXVGMkdVTFpHU240akpvTVhTZXFVM1BoN2ZRbnhIOE1RdWZOT1Mvc0ozWVRQMjRaanJLSGczSEMranAwQ0ZXMEU9IiwiaSI6ImpUTmc5K3B2SkdrYWdUZHoiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "Backport - backport7xx_data [Backport · v01.020.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiYXQ5c21XOUhTUmN4OEFYWHRkVFZWSXUwWGc5YTBLM3lxZHVrOWo1M0JHaG9OeExNbE1tcTFDRUZ6UWpUSXZoVU5oUlUvVnJvN0Z2cGRaampzNzRqbEdtWFFTZkoiLCJpIjoiZ1JUSFVGanRXTTlsUFZZRCIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "Backport - backport7xx_filek [Backport · v01.020.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiOFhJQlQwdVQwanZsTDlPNHhDTm94UnAveWdLZnBGMmRieExXNTlmUVExU3Ivam96ZURLVW4xUm1WSk5qdE5XQlpCZGxPSDRkbmQ5RnVaci9CcVZUcFNuWWJhdUdUejg9IiwiaSI6IkNzWTYvRGNVcWR0bDVEc0giLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "Backport - backport7xx_vault [Backport · v01.020.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiNzlaZjZKaHAvUFpEZW0yUnNrQW5HQzhVMWE1MFhxVjlPSjVOMEwySjBlM0xBSVVWRjZGQTVYQ3ZYTTRTdnk5VFJWTVh0dDVuOXpoV1Z0UWFjUEk2UHU0WkhjMkxXQT09IiwiaSI6ImswQ3FycVZaalRhNE1CUHIiLCJuIjoiVmF1bHQifQ=="
+        },
         {
           "name": "Akia [PKG · v01.020.000]",
           "url": "https://akirabox.com/1RgzR7ARGbpB/file",
@@ -24326,120 +24652,121 @@
           "group": "Standard"
         },
         {
-          "name": "Akia [PKG · Backport 4.xx · v01.020.000]",
+          "name": "Akia [PKG · Backport · v01.020.000]",
           "url": "https://akirabox.com/obj3jn1vd3Dx/file",
           "version": "01.020.000"
         },
         {
-          "name": "Viki [PKG · Backport 4.xx · v01.020.000]",
+          "name": "Viki [PKG · Backport · v01.020.000]",
           "url": "https://vikingfile.com/f/L5RtWx2D6M",
           "version": "01.020.000"
         },
         {
-          "name": "1File [PKG · Backport 4.xx · v01.020.000]",
+          "name": "1File [PKG · Backport · v01.020.000]",
           "url": "https://1fichier.com/?7vny8unky3k6fj6xpirr",
           "version": "01.020.000"
         },
         {
-          "name": "Gofile [PKG · Backport 4.xx · v01.020.000]",
+          "name": "Gofile [PKG · Backport · v01.020.000]",
           "url": "https://gofile.io/d/ZXqvsa",
           "version": "01.020.000"
         },
         {
-          "name": "Akia [PKG · Backport 4.xx · v01.000]",
+          "name": "Akia [PKG · Backport · v01.000]",
           "url": "https://akirabox.com/l5YzM6nKGyOA/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [PKG · Backport 4.xx · v01.000]",
+          "name": "Viki [PKG · Backport · v01.000]",
           "url": "https://vikingfile.com/f/ak2e21Gifi",
           "version": "01.000"
         },
         {
-          "name": "1File [PKG · Backport 4.xx · v01.000]",
+          "name": "1File [PKG · Backport · v01.000]",
           "url": "https://1fichier.com/?wwqesk4w6nxp5cifz9fh",
           "version": "01.000"
         },
         {
-          "name": "1File [PKG · Backport 4.xx · v01.000]",
+          "name": "1File [PKG · Backport · v01.000]",
           "url": "https://1fichier.com/?1e4z6omidkg5gosnxss2",
           "version": "01.000"
         },
         {
-          "name": "Akia [PKG · Backport 4.xx · v01.000]",
+          "name": "Akia [PKG · Backport · v01.000]",
           "url": "https://akirabox.com/2WVGr6eOEGkx/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [PKG · Backport 4.xx · v01.000]",
+          "name": "Viki [PKG · Backport · v01.000]",
           "url": "https://vikingfile.com/f/vpX51kXuXK",
           "version": "01.000"
         },
         {
-          "name": "1File [PKG · Backport 4.xx · v01.000]",
+          "name": "1File [PKG · Backport · v01.000]",
           "url": "https://1fichier.com/?ku70iiotjbmplk8c834y",
           "version": "01.000"
         },
         {
-          "name": "1File [PKG · Backport 4.xx · v01.000]",
+          "name": "1File [PKG · Backport · v01.000]",
           "url": "https://1fichier.com/?6044zsptgvz7623gjj74",
           "version": "01.000"
         },
         {
-          "name": "Mediafire [PKG · Backport 4.xx · v01.000]",
+          "name": "Mediafire [PKG · Backport · v01.000]",
           "url": "https://www.mediafire.com/file/lgidvccs7nycnrf/4XX+PPSA14033_–_EUR_V1_00_Everspace_2_Bckport__By_BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000"
         },
         {
-          "name": "Akia [PKG · Backport 4.xx · v01.000]",
+          "name": "Akia [PKG · Backport · v01.000]",
           "url": "https://akirabox.com/vgKGxDe8rG8Q/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [PKG · Backport 4.xx · v01.000]",
+          "name": "Viki [PKG · Backport · v01.000]",
           "url": "https://vikingfile.com/f/yd5diz4XwN",
           "version": "01.000"
         },
         {
-          "name": "1File [PKG · Backport 4.xx · v01.000]",
+          "name": "1File [PKG · Backport · v01.000]",
           "url": "https://1fichier.com/?d3iyw8mfyo7earzpsiyh",
           "version": "01.000"
         },
         {
-          "name": "Mediafire [PKG · Backport 4.xx · v01.000]",
+          "name": "Mediafire [PKG · Backport · v01.000]",
           "url": "https://www.mediafire.com/file/sls5k63pzi5mcon/5XX+PPSA14033_–_EUR_V1_00_Everspace_2_Bckport__By_BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000"
         },
         {
-          "name": "Akia [PKG · Backport 4.xx · v01.000]",
+          "name": "Akia [PKG · Backport · v01.000]",
           "url": "https://akirabox.com/RMKGJJPyXG1o/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [PKG · Backport 4.xx · v01.000]",
+          "name": "Viki [PKG · Backport · v01.000]",
           "url": "https://vikingfile.com/f/0fmtFcrzX6",
           "version": "01.000"
         },
         {
-          "name": "1File [PKG · Backport 4.xx · v01.000]",
+          "name": "1File [PKG · Backport · v01.000]",
           "url": "https://1fichier.com/?6esp0qy9lf24ayker9qe",
           "version": "01.000"
         },
         {
-          "name": "Mediafire [PKG · Backport 4.xx · v01.020.000]",
+          "name": "Mediafire [PKG · Backport · v01.020.000]",
           "url": "https://www.mediafire.com/file/lgidvccs7nycnrf/4XX+PPSA14033_%E2%80%93_EUR_V1_00_Everspace_2_Bckport__By_BADERLINK-[DLPSGAME.COM].zip/file"
         },
         {
-          "name": "Mediafire [PKG · Backport 4.xx · v01.020.000]",
+          "name": "Mediafire [PKG · Backport · v01.020.000]",
           "url": "https://www.mediafire.com/file/sls5k63pzi5mcon/5XX+PPSA14033_%E2%80%93_EUR_V1_00_Everspace_2_Bckport__By_BADERLINK-[DLPSGAME.COM].zip/file"
         }
       ],
-      "sizeBytes": 64424509440,
+      "sizeBytes": 71940702208,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PKG · Backport 4.xx"
+        "PKG · Backport"
       ],
       "fileFormat": [
+        "Backport",
         "PKG",
         "ZIP",
         "Backport 4.xx",
@@ -24461,7 +24788,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:36:25.456755+00:00",
       "_igdbMatched": true,
-      "formatLabel": "PKG · Backport 4.xx"
+      "formatLabel": "PKG · Backport"
     },
     {
       "titleId": "PPSA04170",
@@ -25103,18 +25430,13 @@
           "version": "01.300"
         },
         {
-          "name": "1File [exFAT · PKG · Backport · v01.300]",
-          "url": "https://1fichier.com/?rmi3im9zezyqq73j9po8",
-          "version": "01.300"
-        },
-        {
-          "name": "Rootz [APR-EMU · PKG · v01.300]",
+          "name": "Rootz [PKG · APR-EMU · v01.300]",
           "url": "https://www.rootz.so/d/gQpgu",
           "group": "Standard",
           "version": "01.300"
         },
         {
-          "name": "1File [APR-EMU · PKG · v01.300]",
+          "name": "1File [PKG · APR-EMU · v01.300]",
           "url": "https://1fichier.com/?mmptv72386dq1fmrvdfe&af=4186346",
           "group": "Standard",
           "version": "01.300"
@@ -25129,6 +25451,11 @@
           "name": "Backport - 1File [Backport · v01.300]",
           "url": "https://1fichier.com/?kbctoxdkqn0zl476w2ca&af=4186346",
           "group": "Backport",
+          "version": "01.300"
+        },
+        {
+          "name": "1File [exFAT · PKG · Backport · v01.300]",
+          "url": "https://1fichier.com/?rmi3im9zezyqq73j9po8",
           "version": "01.300"
         },
         {
@@ -25167,10 +25494,10 @@
       ],
       "fileFormat": [
         "Backport",
+        "PKG",
+        "Backport 7.xx",
         "exFAT",
         "APR-EMU",
-        "Backport 7.xx",
-        "PKG",
         "RAR"
       ],
       "_enrichedAt": "2026-06-22T16:46:51.165830+00:00",
@@ -26848,7 +27175,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:36:31.006411+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA05625",
@@ -28526,7 +28853,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:36:34.454142+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "Folder · Backport 4.xx"
     },
     {
@@ -28996,6 +29323,47 @@
       "_igdbEnrichedAt": "2026-06-28T21:36:37.462986+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · PKG"
+    },
+    {
+      "titleId": "PPSA05518",
+      "title": "Gigantosaurus Dino Kart",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Gigantosaurus_Dino_Kart.webp",
+      "description": "Format: Backport",
+      "downloadLinks": [
+        {
+          "name": "akia_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiREQ2dHRucm9Id0VWK09ua3duWVJYZEhvdUhlRHorWGlFL2ZucVdVTC9ZT0s3Ly9sclpJRUtQMEswT3JkZGRrMzdnU0gxY0JjcU5CV0ZmZDljb1g1eU1FVklCcGQxK0VXNTM0PSIsImkiOiIxVmVzVmpoT1E3QUVHU2YzIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiSU5vMWF5T0s0d0owMWZkV2NXN3YvZ3lhUDc3ZzkyZTdHNWRXTUtEaDlWeENydFRJQm5LZ1VCUzNVa3VwalMzckhrMENMakZYdjRIcS9MZ0NhK3hkQ1d3cTcvWnhJcnM9IiwiaSI6ImVxcE91WTh6NWlaUS9XeVkiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiN2ZZWDVEc25Za2RYbmtkaHNkSy9XSVYyMS94MVFFZDJ1cTJXME9ZckQ4V1BtL3laRGcvcWRCUUNTRTV2cit5N3h1RVNBSmNON1R2dFpHSmdhVXcyQTUwMktJTXYiLCJpIjoicFcvN2lISHhETlQ1aW80eSIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiNmZOTDRlN0lPY0pwZzMrbm1WSXlQRDQ0dEFvNkxVZEZvdHVTRHc0eHdnZUJGNDNCM3ZsaDF5UmFMSFRyWjR6bFRiSS9SdHFDQ0tVTjhJYkFNWHNLcFlyTW9nb0FBQ2c9IiwiaSI6Ilc3Z0tSbVkwRjRvMHNVU2UiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoic2ZHejlaSDdXd3RBZEJuZEMyeTN6VDUvSUFyUkM5YTJxaTlyZ3duV2N0NERnTFoxN2Q3QmI3ZnVTeXpJQy9ZdTJpRzRGdldRRW9QUkxlQlRrRkJBZi9uRlhZRjltUT09IiwiaSI6InBsVzF1RnBEMjZrK2tiWDIiLCJuIjoiVmF1bHQifQ=="
+        }
+      ],
+      "sizeBytes": 1073741824,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-07-05T05:22:30.905795+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA04159",
@@ -30702,116 +31070,137 @@
     },
     {
       "titleId": "PPSA13553",
-      "title": "Greyhill Incident Abducted Edition",
+      "title": "Greyhill Incident",
       "version": "01.004",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6lna.jpg",
-      "description": "Format: Backport 4.xx\nTags: PPSA13553, v1.004, 6.xx, 4.xx",
+      "description": "Format: Backport\nTags: PPSA13553, v1.004, 6.xx, 4.xx",
       "downloadLinks": [
         {
-          "name": "Mediafire [Backport 4.xx · v01.004]",
+          "name": "akia_url [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiNklWQ3Mzb0drREM1N2pySTliV1lqNGt5dFJ2bHVMUG8vYzBHZk9scy8rUnpSOE85Z25iQ0ZvQjQ5eWdQVDRTbFpNQSs0YmlXdTZ5cThDQkVsT0FQalBRSjFkRHRRNDJyRmR3PSIsImkiOiIrb09JK0lRb3hJMUNGUU1PIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiM3Ftd2szVVExMlQ1ZnNDa2tTM1RFMzUwK0ZDcWpweUk0YUxIN2VmZWxZYzl3VG1pVm1yWnRPOU5WSnlGYWoxc2RHbjNua3NKdlFlSzFoWitPalpXczVaWUhtMkNOdDg9IiwiaSI6ImppRmxnRnF3c2J5ZEtvQ2EiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiSDVMZ21vd3BEVElRYUlWS0dwSG02VmF5VUpzcVc1NlN5UEZUMFBYRDFha1p3c0YySXFOZWROTmhDWHpLa1MveUZHS2szUjRqUi82eE45N1poWVdCRTdNZXBCNEkiLCJpIjoiRE40M0ZvUlh4K0wrMThNZCIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiRERyUTIvUU91eDNoQ0V2SUdVeGhQenNFWCt3eExiMytITkpPTkFnRVhwcnlNZlMwdDlGVVRxYXowTksxVU1PNVhpTHVUYzRyVmhXTklyaXpnUWloeGpwc0dRc2lJTG89IiwiaSI6IjJTMEJzQTd3Ui9RZ3p1U3giLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [Backport · v01.004]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiYjhsRU1kVktyTWcwN1pXY3FLYnRaeVdSZUd5Mmd2VVJuaU1qTWRTZit5UzllVm1wS1B2QmJZWUxKOVI5OGVSdXFwVzFsajViYThBTEdjTlJCZXhGSXRhR1hDZkFJZz09IiwiaSI6ImVKbEdNTTEzcTFsSk95OSsiLCJuIjoiVmF1bHQifQ=="
+        },
+        {
+          "name": "Mediafire [Backport · v01.004]",
           "url": "https://www.mediafire.com/file/2ohyhfnj35w2u31/[DLPSGAME.COM]-PPSA13553-app0.rar/file",
           "version": "01.004"
         },
         {
-          "name": "Akia [Backport 4.xx · v01.004]",
+          "name": "Akia [Backport · v01.004]",
           "url": "https://akirabox.com/0Pdzyqpv0zeA/file",
           "version": "01.004"
         },
         {
-          "name": "Viki [Backport 4.xx · v01.004]",
+          "name": "Viki [Backport · v01.004]",
           "url": "https://vikingfile.com/f/9uVb5rT5Ew",
           "version": "01.004"
         },
         {
-          "name": "1File [Backport 4.xx · v01.004]",
+          "name": "1File [Backport · v01.004]",
           "url": "https://1fichier.com/?moe7ap9pcl7wkdz83d9r",
           "version": "01.004"
         },
         {
-          "name": "Rootz [Backport 4.xx · v01.004]",
+          "name": "Rootz [Backport · v01.004]",
           "url": "https://rootz.so/d/1XH0Iy",
           "version": "01.004"
         },
         {
-          "name": "Akia [Backport 4.xx · v01.000]",
+          "name": "Akia [Backport · v01.000]",
           "url": "https://akirabox.com/qLQ364pRwG19/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [Backport 4.xx · v01.000]",
+          "name": "Viki [Backport · v01.000]",
           "url": "https://vikingfile.com/f/nmEljzNG8M",
           "version": "01.000"
         },
         {
-          "name": "1File [Backport 4.xx · v01.000]",
+          "name": "1File [Backport · v01.000]",
           "url": "https://1fichier.com/?a1jcqbe87bljjwuheiwm",
           "version": "01.000"
         },
         {
-          "name": "Mediafire [Backport 4.xx · v01.000]",
+          "name": "Mediafire [Backport · v01.000]",
           "url": "https://www.mediafire.com/file/ih22vh5agm2kb7j/4XX+PPSA13553+–+EUR++V1.00++Greyhill+Incident++By+BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000"
         },
         {
-          "name": "Akia [Backport 4.xx · v01.000]",
+          "name": "Akia [Backport · v01.000]",
           "url": "https://akirabox.com/Z9dzBxoaPmk1/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [Backport 4.xx · v01.000]",
+          "name": "Viki [Backport · v01.000]",
           "url": "https://vikingfile.com/f/2AjeyhjsY8",
           "version": "01.000"
         },
         {
-          "name": "Rootz [Backport 4.xx · v01.000]",
+          "name": "Rootz [Backport · v01.000]",
           "url": "https://www.rootz.so/d/1ne3oe",
           "version": "01.000"
         },
         {
-          "name": "Mediafire [Backport 4.xx · v01.000]",
+          "name": "Mediafire [Backport · v01.000]",
           "url": "https://www.mediafire.com/file/1wdli03yijb3bp8/5XX+PPSA13553+–+EUR++V1.00++Greyhill+Incident+By+BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000"
         },
         {
-          "name": "Akia [Backport 4.xx · v01.000]",
+          "name": "Akia [Backport · v01.000]",
           "url": "https://akirabox.com/RMKGJJLEWG1o/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [Backport 4.xx · v01.000]",
+          "name": "Viki [Backport · v01.000]",
           "url": "https://vikingfile.com/f/3TC2KpdJs9",
           "version": "01.000"
         },
         {
-          "name": "Rootz [Backport 4.xx · v01.000]",
+          "name": "Rootz [Backport · v01.000]",
           "url": "https://www.rootz.so/d/axp3I",
           "version": "01.000"
         },
         {
-          "name": "Rootz [Backport 4.xx · v01.004]",
+          "name": "Rootz [Backport · v01.004]",
           "url": "https://www.rootz.so/d/BFk8W"
         },
         {
-          "name": "Mediafire [Backport 4.xx · v01.004]",
+          "name": "Mediafire [Backport · v01.004]",
           "url": "https://www.mediafire.com/file/ih22vh5agm2kb7j/4XX+PPSA13553+%E2%80%93+EUR++V1.00++Greyhill+Incident++By+BADERLINK-[DLPSGAME.COM].zip/file"
         },
         {
-          "name": "Mediafire [Backport 4.xx · v01.004]",
+          "name": "Mediafire [Backport · v01.004]",
           "url": "https://www.mediafire.com/file/1wdli03yijb3bp8/5XX+PPSA13553+%E2%80%93+EUR++V1.00++Greyhill+Incident+By+BADERLINK-[DLPSGAME.COM].zip/file"
         }
       ],
+      "sizeBytes": 5368709120,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "Backport 4.xx"
+        "Backport"
       ],
       "fileFormat": [
+        "Backport",
         "RAR",
         "ZIP",
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "sizeBytes": 3421743130,
       "_enrichedAt": "2026-06-22T12:42:24.973439+00:00",
       "_rawgMatched": true,
       "metadata": {
@@ -30827,7 +31216,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:36:43.275243+00:00",
       "_igdbMatched": true,
-      "formatLabel": "Backport 4.xx"
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA03865",
@@ -31618,6 +32007,24 @@
         {
           "name": "Vault [exFAT · PKG · v01.003]",
           "url": "https://datavaults.co/fa2pin9itj48",
+          "version": "01.003"
+        },
+        {
+          "name": "Viki [PKG · v01.003]",
+          "url": "https://vikingfile.com/f/0rb84q48il",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "Rootz [PKG · v01.003]",
+          "url": "https://www.rootz.so/d/1dKfmC",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "1File [PKG · v01.003]",
+          "url": "https://1fichier.com/?byg27otitil1ihbujfrd&af=4186346",
+          "group": "Standard",
           "version": "01.003"
         },
         {
@@ -35727,26 +36134,6 @@
           "version": "02.330"
         },
         {
-          "name": "Filek [exFAT · PKG · Backport · v02.330]",
-          "url": "https://filekeeper.net/a5l5hhgut59w",
-          "version": "02.330"
-        },
-        {
-          "name": "Data [exFAT · PKG · Backport · v02.330]",
-          "url": "https://datanodes.to/9c2j65zwy4ek",
-          "version": "02.330"
-        },
-        {
-          "name": "Akia [exFAT · PKG · Backport · v02.330]",
-          "url": "https://akirabox.com/E9Qz9Pg0W3OL/file",
-          "version": "02.330"
-        },
-        {
-          "name": "Vault [exFAT · PKG · Backport · v02.330]",
-          "url": "https://datavaults.co/xa4wev4v5rwd",
-          "version": "02.330"
-        },
-        {
           "name": "Viki [PKG · v02.330.000]",
           "url": "https://vikingfile.com/f/ROeCHbpj9f",
           "group": "Standard",
@@ -35819,6 +36206,26 @@
           "version": "02.330.000"
         },
         {
+          "name": "Filek [exFAT · PKG · Backport · v02.330]",
+          "url": "https://filekeeper.net/a5l5hhgut59w",
+          "version": "02.330"
+        },
+        {
+          "name": "Data [exFAT · PKG · Backport · v02.330]",
+          "url": "https://datanodes.to/9c2j65zwy4ek",
+          "version": "02.330"
+        },
+        {
+          "name": "Akia [exFAT · PKG · Backport · v02.330]",
+          "url": "https://akirabox.com/E9Qz9Pg0W3OL/file",
+          "version": "02.330"
+        },
+        {
+          "name": "Vault [exFAT · PKG · Backport · v02.330]",
+          "url": "https://datavaults.co/xa4wev4v5rwd",
+          "version": "02.330"
+        },
+        {
           "name": "Mediafire [exFAT · PKG · Backport · v02.330.000]",
           "url": "https://www.mediafire.com/file/wqz7p5jr9n79ltq/[DLPSGAME.COM]-PPSA04220-app0.rar/file",
           "version": "02.330.000"
@@ -35831,9 +36238,9 @@
       ],
       "fileFormat": [
         "Backport",
-        "exFAT",
-        "Backport 4.xx",
         "PKG",
+        "Backport 4.xx",
+        "exFAT",
         "RAR"
       ],
       "_enrichedAt": "2026-06-22T02:36:55.674990+00:00",
@@ -36315,7 +36722,7 @@
       "version": "01.000",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xgz.jpg",
-      "description": "Format: exFAT · APR-EMU · Backport\nTags: PPSA25153, v1.000, 7.xx, EUR\nSize: 21 GB\nCredits: Pippo26442999 x SiESPTA\nThanks: High-Speed007 for the Files, drakmor for ampr-emu and kerrdec97 for the BackPort.",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA25153, v1.000, 7.xx, EUR\nSize: 21 GB\nCredits: Pippo26442999 x SiESPTA\nThanks: High-Speed007 for the Files, drakmor for ampr-emu and kerrdec97 for the BackPort.",
       "downloadLinks": [
         {
           "name": "Backport - backport7xx_akia [Backport · v01.000]",
@@ -36346,52 +36753,106 @@
           "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiOU80SURVbElpNER1dktKUGQyNE1rVi9yOXhHRFlQUzlzWFlYTEtkeXh6bDM1OTRRT3pYMEp6SUJqcVhCbmNVeGdBZm9DdDBlMHBLQ3NvaUl2cWxJV3RXUWZqc05vTDg9IiwiaSI6IlBuN2taU1d2UzZISnRnTHAiLCJuIjoiRmlsZUsifQ=="
         },
         {
-          "name": "Gofile [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Viki [APR-PFS · PKG · APR-EMU · v01.000]",
+          "url": "https://vikingfile.com/f/ouryHYcvv2",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "Rootz [APR-PFS · PKG · APR-EMU · v01.000]",
+          "url": "https://www.rootz.so/d/1yLA7k",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "1File [APR-PFS · PKG · APR-EMU · v01.000]",
+          "url": "https://1fichier.com/?hmd690drhv9lt8t8vg7d",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "Backport - Viki [Backport · v01.000]",
+          "url": "https://vikingfile.com/f/zmc0V73UFp",
+          "group": "Backport",
+          "version": "01.000"
+        },
+        {
+          "name": "Backport - Rootz [Backport · v01.000]",
+          "url": "https://www.rootz.so/d/PMll2",
+          "group": "Backport",
+          "version": "01.000"
+        },
+        {
+          "name": "Backport - 1File [Backport · v01.000]",
+          "url": "https://1fichier.com/?d5xzq10umd1u8sbjqbv6&af=4186346",
+          "group": "Backport",
+          "version": "01.000"
+        },
+        {
+          "name": "DLC - Viki [DLC · v01.000]",
+          "url": "https://vikingfile.com/f/PEutO0ZNrF",
+          "group": "DLC",
+          "version": "01.000"
+        },
+        {
+          "name": "DLC - Rootz [DLC · v01.000]",
+          "url": "https://www.rootz.so/d/Wtuee",
+          "group": "DLC",
+          "version": "01.000"
+        },
+        {
+          "name": "DLC - Rootz [DLC · v01.000]",
+          "url": "https://www.rootz.so/d/Wtuee&af=4186346",
+          "group": "DLC",
+          "version": "01.000"
+        },
+        {
+          "name": "Gofile [exFAT · PKG · Backport · v01.000]",
           "url": "https://gofile.io/d/PaWt3w",
           "version": "01.000"
         },
         {
-          "name": "Filek [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Filek [exFAT · PKG · Backport · v01.000]",
           "url": "https://filekeeper.net/7xrrf5rg0lon",
           "version": "01.000"
         },
         {
-          "name": "Vault [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Vault [exFAT · PKG · Backport · v01.000]",
           "url": "https://datavaults.co/vme8fqa4r2nc",
           "version": "01.000"
         },
         {
-          "name": "Rootz [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Rootz [exFAT · PKG · Backport · v01.000]",
           "url": "https://www.rootz.so/d/uq8bA",
           "version": "01.000"
         },
         {
-          "name": "Akia [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Akia [exFAT · PKG · Backport · v01.000]",
           "url": "https://akirabox.com/b5Ozd2lJAmB8/file",
           "version": "01.000"
         },
         {
-          "name": "1File [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "1File [exFAT · PKG · Backport · v01.000]",
           "url": "https://1fichier.com/?3f8vef1y7dumm6h2lnh3",
           "version": "01.000"
         },
         {
-          "name": "Buzz [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Buzz [exFAT · PKG · Backport · v01.000]",
           "url": "https://buzzheavier.com/xwpa3r7pi68d",
           "version": "01.000"
         },
         {
-          "name": "Akia [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Akia [exFAT · PKG · Backport · v01.000]",
           "url": "https://akirabox.com/dkD3YZPZ7zLQ/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Viki [exFAT · PKG · Backport · v01.000]",
           "url": "https://vikingfile.com/f/DM9lJsXJVL",
           "version": "01.000"
         },
         {
-          "name": "Data [exFAT · APR-EMU · Backport · v01.000]",
+          "name": "Data [exFAT · PKG · Backport · v01.000]",
           "url": "https://datanodes.to/ewkaayuloxjs",
           "version": "01.000"
         }
@@ -36399,13 +36860,15 @@
       "sizeBytes": 22548578304,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU · Backport"
+        "exFAT · PKG · Backport"
       ],
       "fileFormat": [
         "Backport",
+        "APR-PFS",
+        "PKG",
+        "Backport 7.xx",
         "exFAT",
-        "APR-EMU",
-        "Backport 7.xx"
+        "APR-EMU"
       ],
       "_enrichedAt": "2026-06-28T21:34:55.623796+00:00",
       "_rawgMatched": true,
@@ -36423,7 +36886,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:56:09.976169+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · APR-EMU · Backport"
+      "formatLabel": "exFAT · PKG · Backport"
     },
     {
       "titleId": "PPSA10264",
@@ -37362,12 +37825,32 @@
     },
     {
       "titleId": "PPSA21704",
-      "title": "Kingdom Come Deliverance 2",
-      "version": "01.041",
+      "title": "Kingdom Come Deliverance 2 Royal Edition",
+      "version": "01.052",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qmv.jpg",
       "description": "Format: exFAT · PKG · Backport\nTags: PPSA21704, v1.041, 8.xx, 4.xx\nSize: 130 GB\nThanks: Sazanoff94 for game Working 12.xx – 11.xx – 10.xx – 9.xx Backport 4.xx+",
       "downloadLinks": [
+        {
+          "name": "akia_url [exFAT · PKG · Backport · v01.052]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiZ0hycnZQMkgvY2NDOG5OVEdKZ05RV0hYc3RKMmdIUGVHRCtaeWgrM1VOMDFZQVhzTXBuTE9hWndYdjV6VVRlWlB4eU9jV3VZL0RpVjQzdk5lQUxPd25NRW80ZmlCbGJNcWtNPSIsImkiOiJSV25KSk1uZ3V2a1diL3BaIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [exFAT · PKG · Backport · v01.052]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiS0NFaXpCUUZmTFd5QmY5a1pLRUhkZmtGZzRlc29WZHBtZHNGWjhGN1dUMkxMMWYvZkJQeXpCZW8wZkkwazRQYTVHSXZ1V0R4dG5YZ0thdU5naTM5TUszM1Y0OE1HMmM9IiwiaSI6IlNzRmdKdEFCVzlEOHhpajYiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [exFAT · PKG · Backport · v01.052]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoibUdDOXZuUFgzWDcvTkJLNDdxQXE4ajh0RExwdVZhZnJ4Uk00YVdoQm1SZ2tNZGpKVGFZT0dtNWkrTjVncUUwRzZDcS9mVUtrV3YwYjBvYkRuUlhicVdZM3k2OU0iLCJpIjoiMkFORmxxOGE5WjdkSFYycyIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [exFAT · PKG · Backport · v01.052]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiV0h6YXZ5eEdSdG42N3AyNjVDVmR6c3pGcWRwTUJXc1lUdzAxUGM3TERDcUZIZ2dkSUNnNDB2MklPMkE4dnlQaS8wWVdVTi9kbEdlWW9wajAzejdBdU5zcGUrZmpRdFk9IiwiaSI6IjNnaThGZ1o0Z1oyNlVKZ20iLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [exFAT · PKG · Backport · v01.052]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiODRHK202a1FidHZ6OERjNGdIYklKQkNWSy93ZjZCenVoZSt3MUlia29oTTNXU1JjaUZLVWhYcG1PSWdSMkNHQ3ZyMm9OcmZtNTEwc01CZU5FSVc5NFhxNmkzYm15UT09IiwiaSI6ImJKME9ycytjeGFiWWxMVVoiLCJuIjoiVmF1bHQifQ=="
+        },
         {
           "name": "Akia [exFAT · PKG · Backport · v01.041]",
           "url": "https://akirabox.com/2WVGrBRk4Gkx/file",
@@ -37444,14 +37927,14 @@
           "version": "01.041"
         }
       ],
-      "sizeBytes": 140660178944,
+      "sizeBytes": 173946175488,
       "downloadSource": "https://phoenixdl.com",
       "source": [
         "exFAT · PKG · Backport"
       ],
       "fileFormat": [
-        "Backport",
         "exFAT",
+        "Backport",
         "RAR",
         "Backport 4.xx",
         "PKG"
@@ -39212,20 +39695,50 @@
           "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiT3A1QTZuMUdsMHU1TDNORjhuZUtiZzVtVHhwY0JKTDdMT0pWcmE3ZWM3b2xSeWpjZVVzS1ZFUGdtbGNic2wzNTVQT1RhY203bk5KSERwMFpuakVNMHZZUGttdmxQUT09IiwiaSI6ImpZTGNPWXNERkF1QUt2MVciLCJuIjoiVmF1bHQifQ=="
         },
         {
-          "name": "Viki [PKG · APR-EMU · v01.022]",
-          "url": "https://vikingfile.com/f/qnQKj1Arop",
+          "name": "1File [PKG · APR-EMU · v01.022]",
+          "url": "https://1fichier.com/?nlgq0pndxpsto0ga28jy&af=4186346",
           "group": "Standard",
           "version": "01.022"
         },
         {
           "name": "1File [PKG · APR-EMU · v01.022]",
-          "url": "https://1fichier.com/?bua53j7ejsxmu8mm0f78&af=4186346",
+          "url": "https://1fichier.com/?odtfsmn11kz2yn8lvp4r&af=4186346",
           "group": "Standard",
           "version": "01.022"
         },
         {
           "name": "1File [PKG · APR-EMU · v01.022]",
-          "url": "https://1fichier.com/?bua53j7ejsxmu8mm0f78&amp;af=4186346",
+          "url": "https://1fichier.com/?sdrx4miz23jxhfhcs2lr&af=4186346",
+          "group": "Standard",
+          "version": "01.022"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.022]",
+          "url": "https://1fichier.com/?xck7i0z31qck6hpq257z&af=4186346",
+          "group": "Standard",
+          "version": "01.022"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.022]",
+          "url": "https://1fichier.com/?nlgq0pndxpsto0ga28jy&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.022"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.022]",
+          "url": "https://1fichier.com/?odtfsmn11kz2yn8lvp4r&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.022"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.022]",
+          "url": "https://1fichier.com/?sdrx4miz23jxhfhcs2lr&amp;af=4186346",
+          "group": "Standard",
+          "version": "01.022"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.022]",
+          "url": "https://1fichier.com/?xck7i0z31qck6hpq257z&amp;af=4186346",
           "group": "Standard",
           "version": "01.022"
         },
@@ -39251,6 +39764,24 @@
           "name": "DLC - 1File [DLC · v01.022]",
           "url": "https://1fichier.com/?lcdrwz0dzs65xj16mmtd&af=4186346",
           "group": "DLC",
+          "version": "01.022"
+        },
+        {
+          "name": "Viki [PKG · APR-EMU · v01.022]",
+          "url": "https://vikingfile.com/f/qnQKj1Arop",
+          "group": "Standard",
+          "version": "01.022"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.022]",
+          "url": "https://1fichier.com/?bua53j7ejsxmu8mm0f78&af=4186346",
+          "group": "Standard",
+          "version": "01.022"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.022]",
+          "url": "https://1fichier.com/?bua53j7ejsxmu8mm0f78&amp;af=4186346",
+          "group": "Standard",
           "version": "01.022"
         },
         {
@@ -44680,7 +45211,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:37:17.411645+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "Backport 4.xx"
     },
     {
@@ -44917,7 +45448,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:37:17.635771+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "Folder"
     },
     {
@@ -45890,7 +46421,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:37:20.340367+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA05760",
@@ -46569,11 +47100,6 @@
           "version": "01.001.100"
         },
         {
-          "name": "Rootz [exFAT · PKG · Backport · v01.001.100]",
-          "url": "https://www.rootz.so/d/V3jd2",
-          "version": "01.001.100"
-        },
-        {
           "name": "Viki [APR-EMU · PKG · v01.001.100]",
           "url": "https://vikingfile.com/f/GbR0kAB1zg",
           "group": "Standard",
@@ -46590,6 +47116,11 @@
           "url": "https://1fichier.com/?mdqcvva3vwlbfw2lineh&af=4186346",
           "group": "Standard",
           "version": "01.001.100"
+        },
+        {
+          "name": "Rootz [exFAT · PKG · Backport · v01.001.100]",
+          "url": "https://www.rootz.so/d/V3jd2",
+          "version": "01.001.100"
         }
       ],
       "sizeBytes": 1073741824,
@@ -46599,10 +47130,10 @@
       ],
       "fileFormat": [
         "Backport",
-        "exFAT",
         "APR-EMU",
-        "Backport 7.xx",
-        "PKG"
+        "PKG",
+        "exFAT",
+        "Backport 7.xx"
       ],
       "_enrichedAt": "2026-06-22T12:43:06.862634+00:00",
       "_rawgMatched": true,
@@ -46828,6 +47359,30 @@
           "version": "01.017"
         },
         {
+          "name": "Multihost [PKG · APR-EMU · v01.017]",
+          "url": "https://www.keepshield.org/safe/067384db",
+          "group": "Standard",
+          "version": "01.017"
+        },
+        {
+          "name": "Backport - Viki [Backport · v01.017]",
+          "url": "https://vikingfile.com/f/GgG8bxm6Sx",
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "name": "Backport - Rootz [Backport · v01.017]",
+          "url": "https://www.rootz.so/d/Yy4e0",
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "name": "Backport - 1File [Backport · v01.017]",
+          "url": "https://1fichier.com/?t6gxnisyeremmronwcp6&af=4186346",
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
           "name": "Rootz [exFAT · PKG · Backport · v01.017]",
           "url": "https://www.rootz.so/d/10Pw8G",
           "version": "01.017"
@@ -46860,10 +47415,10 @@
       ],
       "fileFormat": [
         "Backport",
-        "exFAT",
-        "APR-EMU",
+        "PKG",
         "Backport 7.xx",
-        "PKG"
+        "exFAT",
+        "APR-EMU"
       ],
       "_enrichedAt": "2026-06-28T21:34:59.101867+00:00",
       "_rawgMatched": true,
@@ -47487,24 +48042,60 @@
       "version": "01.003",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vjs.jpg",
-      "description": "Tags: PPSA02801, v1.003, 5.xx",
+      "description": "Format: exFAT · PKG\nTags: PPSA02801, v01.003, EUR\nSize: 700 MB\nPassword: SuperPSX\nWorks on 5.xx and higher",
       "downloadLinks": [
         {
-          "name": "Rootz [v01.003]",
+          "name": "akia_url [exFAT · PKG · v01.003]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiT0RYSHY4Qkh0UFlMcEJBT0w1S2RxN3FMVjROT0ZyRCtaNE9mUUgyVHNZMnlPVFZhZEtGdmorRTdSbnJVK1R3L2FEeUZ2bkh6eCtsTUVBbGxpMk9WRmY5YjM4WllkMGYwVFNRPSIsImkiOiJMSHhQMURxMzJOV1dDMXJUIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [exFAT · PKG · v01.003]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoianlqY1FHVFBaVnJWMGtKWHcxWnR4QUoybzY2Ym9xbS8wQnJ2dkhjR0NOemk5bjVCbUdrSzUvMmlUTHFmY2tzR2xlWTVmQVVXRzkxSnVrbk9FZDZrRzNUSmxLdDUzQjg9IiwiaSI6IkhmcFdnaXl0RVdvREhwZHoiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [exFAT · PKG · v01.003]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiT1RtL1hVbDV4K0VscU9uSGYwQ0h1L25mWHVZSTBuMHByb00wdmU1czdXazBiWExrQTl6ekJMWnJhQUFCSEhmd1JrUUdmYnUwaTNHU3dBWEN2NnNVZU9HWkIrSmQiLCJpIjoiakpCbzZ2c2ZnMzYrK3gvSSIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [exFAT · PKG · v01.003]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoianozU29sVFd0Q3B0UWFBZW5odUJWcC9iYU5DaWlWRVd5T3ZIenNIWng2ZHdKNkh6QnlmdFowb3RvdGdhVkk4alZ0dE5KRzRXcDdDNUFsRU81YTBXNm9yWStRWVpMcVk9IiwiaSI6IldrZ05aMkVwWDU5VlI0T3MiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [exFAT · PKG · v01.003]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiZUJMLzQ5eUV6VzlpUEI3R1cyM2xSbTRPWFhyYm1mTkFua3RML2NGYjd1dlh6a29UMG9PR2YzMnNVOXY2S2I5eWlybFh2dkdGZ3p0YWRGMlpsQjVicEJaZUt3c0JZdz09IiwiaSI6InJ4VlBVNVV0bFVJamNDZ1ciLCJuIjoiVmF1bHQifQ=="
+        },
+        {
+          "name": "Rootz [PKG · v01.003]",
+          "url": "https://www.rootz.so/d/1hnJRY",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "1File [PKG · v01.003]",
+          "url": "https://1fichier.com/?d67bfq7q0lrm5dwl14ro&af=4186346",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "Rootz [exFAT · PKG · v01.003]",
           "url": "https://www.rootz.so/d/L5KdM"
         }
       ],
+      "sizeBytes": 1017118720,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PS5"
+        "exFAT · PKG"
       ],
       "fileFormat": [
+        "exFAT",
+        "PKG",
         "unknown"
       ],
       "_enrichedAt": "2026-06-28T21:34:59.101902+00:00",
       "_rawgMatched": false,
       "_igdbEnrichedAt": "2026-06-28T21:37:24.317986+00:00",
-      "_igdbMatched": true
+      "_igdbMatched": true,
+      "formatLabel": "exFAT · PKG"
     },
     {
       "titleId": "PPSA34823",
@@ -48968,7 +49559,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:37:28.727511+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA02118",
@@ -51151,6 +51742,60 @@
       "formatLabel": "exFAT · PKG · Backport"
     },
     {
+      "titleId": "PPSA09706",
+      "title": "Persona 5 Tactica Deluxe Edition",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Persona_5_Tactica.avif",
+      "description": "Format: exFAT",
+      "downloadLinks": [
+        {
+          "name": "akia_url [exFAT · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoic05MT0tyMlNEb00xcy9NamJ2YkFucVlCZTE3MTZUbFhFMHdKKzlKa2owZ2RlSGFkZ2hKRk5MRTF4V1ZXVGozWXpuRndRbmpaVE1qSWYwelNOR0REa1ZCdjhLdkQrTGpmcWpvPSIsImkiOiJOcGJnbGNDV20rVE5HS1k3IiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [exFAT · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiZUxodXc0MWU5M0MreTVHTG1KUFA1TVpLa2V3RUJoTFV0cGdZUVI0aDZac2xTdE11bE5QdEZEZm5xbXRhOFdFcUVnc3ZDSlFsN0JhdmhaK210ZFkwdnBUczlTUXovVzQ9IiwiaSI6InJUTm9FcXlYRWx2LzlEK0IiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [exFAT · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiTm94dktGSDR0L1JBQTNMMzZqekFZbFNXWFBrUjFLQzN2L3UrMmFrcFhoejhkdkJNTGMrTE9TaWtySVFwNFdjaVRRbTFlM0c1dmRvNkljRFMrMUs2Q2d6elMydU8iLCJpIjoiaFRZRm5NZ3pkNXBTV3NGRyIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [exFAT · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiZlljWldnV0tIUlpWQ25CaWF4c0lkclkxTFBnV2tHL0NFeGN0Y1BIZXVNRU1maHVxR0t4OVFoTlF5VHUyMFhWNjM1eG9Tc3JtTlQ5RFl1NHkwdlhPYm5NZTc4RVc2OFE9IiwiaSI6IkFEbGt3YklOOE5MM0l4a2IiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [exFAT · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiRUE3MEh5MXlzcUpwNDdIVE9VTFR6U0lNNzFwUUdvY2s3SGRuK2xTc1dyciszakNoTnNRajlpWEt2SE1hTS9PK054eTE1RkRMbGZIYnE5cXA5dTlTRDBjZkhkTG10QT09IiwiaSI6Ill5cXNHemh3eGdsQjV1eEgiLCJuIjoiVmF1bHQifQ=="
+        }
+      ],
+      "sizeBytes": 25769803776,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT"
+      ],
+      "fileFormat": [
+        "exFAT"
+      ],
+      "_enrichedAt": "2026-07-05T05:22:31.341850+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "persona-5-tactics",
+        "rawgName": "Persona 5 Tactica",
+        "rating": 3.58,
+        "metacritic": null,
+        "released": "2023-11-16",
+        "genres": [
+          "Strategy",
+          "Action",
+          "RPG"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/e33/e33f0377ac6770a6a481b9b7725aacc3.jpg"
+      },
+      "formatLabel": "exFAT"
+    },
+    {
       "titleId": "PPSA07029",
       "title": "Personality and Psychology Premium",
       "version": "01.003",
@@ -52888,6 +53533,61 @@
       "_igdbEnrichedAt": "2026-06-28T21:56:16.445614+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · Folder"
+    },
+    {
+      "titleId": "PPSA01530",
+      "title": "Puyo Puyo Tetris 2",
+      "version": "01.320",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Puyo_Puyo_Tetris_2.avif",
+      "description": "Format: exFAT",
+      "downloadLinks": [
+        {
+          "name": "akia_url [exFAT · v01.320]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiUEsrTjhEZXdJWVJ1V0NscGIrTHlKUmlkQTd4UlUvZDFvWDJVMTdVWjZkVUJoVlN6M2djdTVYZkdBL003RzRzYUZhOHp4VE9ybGtaWjdRb1RkYUlOcjljT2M2VkZjWjhQYlBVPSIsImkiOiJlMEpiUC9KK0VWRWF4QnJoIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [exFAT · v01.320]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoieUZSTFpxTXIyK1NyMVVsV29yZG5QakJGWmxvbnd2VTVZTFNxVHA0L2xWZ0NnN1ZMT1Y5bnNDa2V2SGMxVUVvcG1CK3pzYzFiREdVQzk3VlgzRUlmV0dhZ1Q3dy91YTA9IiwiaSI6ImVPd0E5TVhiOFV4VFRkUjAiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [exFAT · v01.320]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiWkx5UXc5ZUlEQmx4bDNXV2tnaWo4cDY4WjNlU0Q2QTZaUWZESi9TVWt4S2Y3TjdOVFNhQ1cwRkc0MDBqM0JlU2FYR2ZyeEUzMU5SREZiaE1XRWc3ZGNQL0wraUgiLCJpIjoieEkrUWdjWmV6S1B3dTVlWSIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [exFAT · v01.320]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiR21wQVppY1ZYdVB2cTUvdVhaZVkzZzNaTmJFL1pOaEhiWHc5K1l0YnNzVTdDdTd3N0Q5SWl5bHRnUVUweFBTT2hZbTVqeE1PZUlQYjhka3Y4cHZqVmRoUExGcGdydkk9IiwiaSI6InFwL0NKUDdMVU1OM0w5NkMiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [exFAT · v01.320]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiYU52SG04bCtiU1IzY3RvdjBZNDhoNTF3Q2JUeHRBSFFrMDQ2YWtDbyt5UnFWQjVrZEtmZVlwK3NsUi9oSnhsVTA0akJac2ozTHQ2dk4va1RONk5VVHVhWjJqclhWZz09IiwiaSI6IldseTNKRWJlYUduamdYL2YiLCJuIjoiVmF1bHQifQ=="
+        }
+      ],
+      "sizeBytes": 5368709120,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT"
+      ],
+      "fileFormat": [
+        "exFAT"
+      ],
+      "_enrichedAt": "2026-07-05T05:22:31.341889+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "puyo-puyo-tetris-2",
+        "rawgName": "Puyo Puyo Tetris 2",
+        "rating": 3.93,
+        "metacritic": 79,
+        "released": "2020-12-08",
+        "genres": [
+          "Casual",
+          "Family",
+          "Action",
+          "Puzzle"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/screenshots/5bd/5bda059430f96cf5098fdd29b88c500f.jpg"
+      },
+      "formatLabel": "exFAT"
     },
     {
       "titleId": "PPSA01880",
@@ -56565,6 +57265,12 @@
           "version": "01.000"
         },
         {
+          "name": "Multihost [APR-EMU · PKG · v01.000]",
+          "url": "https://www.keepshield.org/safe/48ef0b91",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
           "name": "Rootz [exFAT · PKG · v01.000]",
           "url": "https://www.rootz.so/d/2Bptom",
           "version": "01.000"
@@ -56593,12 +57299,6 @@
           "name": "Buzz [exFAT · PKG · v01.000]",
           "url": "https://buzzheavier.com/4mh0e6fjik9e",
           "version": "01.000"
-        },
-        {
-          "name": "Multihost [APR-EMU · PKG · v01.000]",
-          "url": "https://www.keepshield.org/safe/48ef0b91",
-          "group": "Standard",
-          "version": "01.000"
         }
       ],
       "sizeBytes": 34359738368,
@@ -56609,8 +57309,8 @@
       "fileFormat": [
         "exFAT",
         "APR-EMU",
-        "RAR",
-        "PKG"
+        "PKG",
+        "RAR"
       ],
       "_enrichedAt": "2026-06-22T02:37:49.160226+00:00",
       "_rawgMatched": true,
@@ -56689,12 +57389,18 @@
     },
     {
       "titleId": "PPSA04540",
-      "title": "Rise of The Ronin",
+      "title": "Rise of the Ronin",
       "version": "01.009",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59v0.jpg",
       "description": "Format: PKG\nTags: PPSA04540, v01.009, EUR\nSize: 92 GB\nPassword: SuperPSX\nVoices: English, French (France), Spanish, Japanese, German, Italian\nWorks on 9.xx and higher",
       "downloadLinks": [
+        {
+          "name": "Multihosts [PKG · v01.009]",
+          "url": "https://www.keepshield.org/safe/b3218974",
+          "group": "Standard",
+          "version": "01.009"
+        },
         {
           "name": "Rootz [PKG · v01.009]",
           "url": "https://www.rootz.so/d/1bl7k8",
@@ -56718,12 +57424,6 @@
         {
           "name": "Buzz [PKG · v01.009]",
           "url": "https://buzzheavier.com/c39c7dv3aw7l",
-          "version": "01.009"
-        },
-        {
-          "name": "Multihosts [PKG · v01.009]",
-          "url": "https://www.keepshield.org/safe/b3218974",
-          "group": "Standard",
           "version": "01.009"
         },
         {
@@ -56775,16 +57475,16 @@
           "url": "https://1fichier.com/?720ct9cwog37uan2w0ak&amp;af=4186346"
         }
       ],
+      "sizeBytes": 98784247808,
       "downloadSource": "https://phoenixdl.com",
       "source": [
         "PKG"
       ],
       "fileFormat": [
-        "RAR",
         "PKG",
+        "RAR",
         "unknown"
       ],
-      "sizeBytes": 98784247808,
       "_enrichedAt": "2026-06-22T12:43:39.334225+00:00",
       "_rawgMatched": true,
       "metadata": {
@@ -56850,7 +57550,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:56:26.618366+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA09845",
@@ -57622,32 +58322,52 @@
       "version": "01.000",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co524b.jpg",
-      "description": "Format: exFAT · PKG\nTags: PPSA10050, v1.000, 6.xx, USA\nSize: 9GB\nCredits: Pippo26442999 x SiESPTA\nThanks: Amiibohound for the Files and drakmor for ampr-emu",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA10050, v1.000, 6.xx, USA\nSize: 9GB\nCredits: Pippo26442999 x SiESPTA\nThanks: Amiibohound for the Files and drakmor for ampr-emu",
       "downloadLinks": [
         {
-          "name": "Akia [exFAT · PKG · v01.000]",
+          "name": "Akia [exFAT · PKG · Backport · v01.000]",
           "url": "https://akirabox.com/1RgzR4KLVmbp/file",
           "version": "01.000"
         },
         {
-          "name": "Viki [exFAT · PKG · v01.000]",
+          "name": "Viki [exFAT · PKG · Backport · v01.000]",
           "url": "https://vikingfile.com/f/ntGii4QWhF",
           "version": "01.000"
         },
         {
-          "name": "Data [exFAT · PKG · v01.000]",
+          "name": "Data [exFAT · PKG · Backport · v01.000]",
           "url": "https://datanodes.to/wq9unejzqk3w",
           "version": "01.000"
         },
         {
-          "name": "Filek [exFAT · PKG · v01.000]",
+          "name": "Filek [exFAT · PKG · Backport · v01.000]",
           "url": "https://filekeeper.net/cfg7d5vgla6s",
           "version": "01.000"
         },
         {
-          "name": "Vault [exFAT · PKG · v01.000]",
+          "name": "Vault [exFAT · PKG · Backport · v01.000]",
           "url": "https://datavaults.co/3pd5pygcyopm",
           "version": "01.000"
+        },
+        {
+          "name": "Backport - backport_akia [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiWHpKekRka2s5VzczYzdvK3lFb2hHNVI1SW0vV0JVSTRvTDJuTFVmbDVtNDNiMUVGbkdvb1ZuY3JmVmMvU1VJQmZWeFVNeVpuTHJVWWlxNkt1T29ibUllYkZNN2w4SE54ZG5ZPSIsImkiOiJqUFoyMXFYdTNYZmdmc1JvIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "Backport - backport_viki [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiL3ZzYkIxVCtSZENqNHM2WjNmdkdGZFVNOVI3QUxyRHlrdkJJM0taSHpqM2pNWjlOWGtiRnVHWGQybnRRTVJlb3ZVQXFIV0JLNldaQm15bmFTOEt2cGdyNUlBRmlIU009IiwiaSI6InBJSjl6SlJva3BnVWdCV2siLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "Backport - backport_data [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiR2J2V1laZEVLa1FaMVdXWVRJZzc5ZkVMRWh3RzhiMnhFanFrWk5OMmZibHlpWHRybXFqK1ZWUGU5RHdxQlF2OWcyMUw1eWtoZ3hBcjFWRG1CZEUrdmpDamVJazEiLCJpIjoiaFJwNXhkQVp2L0RSNm9ZMyIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "Backport - backport_filek [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoieFJ6RVhpVS9obGttaEVmbHI3dklvNUR0R2xaQ0gzcjJoeFRGQ1k0Z2M2bEFOZzEyVUZ6dzFXZGlHLzVuZGRhVkNWTy9pV3Vsb1cvY0s3VkRDTmZyUXN5d2ZnY0RpTnc9IiwiaSI6IlNIdHlpbC9FV3l6N2s3bEwiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "Backport - backport_vault [Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiRWRKOW1kVWlWNUY5Z1c3akoyeUFPYWFOamhrSmpLUHRkUjhzSXBubXZEdFFlS0pRM0xyeEdPRFlaL2ZwVkNGaVBFcTE4Q0ZvSXk4TkNrMmJCa1A2T3FXZ0tXRkpIZz09IiwiaSI6IkNiSzJEZTNjRmdVTk01MjUiLCJuIjoiVmF1bHQifQ=="
         },
         {
           "name": "Viki [APR-EMU · PKG · v01.000]",
@@ -57668,7 +58388,7 @@
           "version": "01.000"
         },
         {
-          "name": "Rootz [exFAT · PKG · v01.000]",
+          "name": "Rootz [exFAT · PKG · Backport · v01.000]",
           "url": "https://www.rootz.so/d/m7Rz6",
           "version": "01.000"
         }
@@ -57676,12 +58396,13 @@
       "sizeBytes": 9663676416,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG"
+        "exFAT · PKG · Backport"
       ],
       "fileFormat": [
-        "exFAT",
+        "Backport",
         "APR-EMU",
-        "PKG"
+        "PKG",
+        "exFAT"
       ],
       "_enrichedAt": "2026-06-22T02:37:52.410361+00:00",
       "_rawgMatched": true,
@@ -57699,7 +58420,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:56:29.517113+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG"
+      "formatLabel": "exFAT · PKG · Backport"
     },
     {
       "titleId": "PPSA02807",
@@ -61062,6 +61783,30 @@
       "description": "Format: PKG · Backport 7.xx\nTags: PPSA04962, v01.014, USA\nSize: 36 GB\nPassword: SuperPSX\nVoices: English\nBackport 7.xx\nWorks on 10.xx and higher",
       "downloadLinks": [
         {
+          "name": "Multihost [PKG · v01.014]",
+          "url": "https://www.keepshield.org/safe/bf75415e",
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "name": "Backport - Viki [Backport · v01.014]",
+          "url": "https://vikingfile.com/f/UZypFEQY8q",
+          "group": "Backport",
+          "version": "01.014"
+        },
+        {
+          "name": "Backport - Rootz [Backport · v01.014]",
+          "url": "https://www.rootz.so/d/1I9g6i",
+          "group": "Backport",
+          "version": "01.014"
+        },
+        {
+          "name": "Backport - 1File [Backport · v01.014]",
+          "url": "https://1fichier.com/?4ufhboe101l534quucvk&af=4186346",
+          "group": "Backport",
+          "version": "01.014"
+        },
+        {
           "name": "1File [PKG · v01.014]",
           "url": "https://1fichier.com/?nlgq0pndxpsto0ga28jy&af=4186346",
           "group": "Standard",
@@ -61107,24 +61852,6 @@
           "name": "1File [PKG · v01.014]",
           "url": "https://1fichier.com/?xck7i0z31qck6hpq257z&amp;af=4186346",
           "group": "Standard",
-          "version": "01.014"
-        },
-        {
-          "name": "Backport - Viki [Backport · v01.014]",
-          "url": "https://vikingfile.com/f/UZypFEQY8q",
-          "group": "Backport",
-          "version": "01.014"
-        },
-        {
-          "name": "Backport - Rootz [Backport · v01.014]",
-          "url": "https://www.rootz.so/d/1I9g6i",
-          "group": "Backport",
-          "version": "01.014"
-        },
-        {
-          "name": "Backport - 1File [Backport · v01.014]",
-          "url": "https://1fichier.com/?4ufhboe101l534quucvk&af=4186346",
-          "group": "Backport",
           "version": "01.014"
         },
         {
@@ -65908,37 +66635,62 @@
     },
     {
       "titleId": "PPSA13506",
-      "title": "STORY OF SEASONS A Wonderful Life",
+      "title": "STORY OF SEASONS: A Wonderful Life",
       "version": "01.002",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5adq.jpg",
-      "description": "Format: exFAT · APR-EMU · Backport\nTags: PPSA13506, v1.002, 6.xx, EUR\nSize: 1 GB\nCredits: Pippo26442999 x SiESPTA\nThanks: SiESPTA for the Files, drakmor for ampr-emu, Pkykzhack for DLCs and ManwonHp for the BackPort.",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA13506, v1.002, 6.xx, EUR\nSize: 1 GB\nCredits: Pippo26442999 x SiESPTA\nThanks: SiESPTA for the Files, drakmor for ampr-emu, Pkykzhack for DLCs and ManwonHp for the BackPort.",
       "downloadLinks": [
         {
-          "name": "Rootz [exFAT · APR-EMU · Backport · v01.002]",
+          "name": "Rootz [PKG · APR-EMU · v01.002]",
+          "url": "https://www.rootz.so/d/1tss2C",
+          "group": "Standard",
+          "version": "01.002"
+        },
+        {
+          "name": "1File [PKG · APR-EMU · v01.002]",
+          "url": "https://1fichier.com/?sst6zy20td1hkb0v12td&af=4186346",
+          "group": "Standard",
+          "version": "01.002"
+        },
+        {
+          "name": "DLC - Rootz [DLC · v01.002]",
+          "url": "https://www.rootz.so/d/dAmPI",
+          "group": "DLC",
+          "version": "01.002"
+        },
+        {
+          "name": "DLC - 1File [DLC · v01.002]",
+          "url": "https://1fichier.com/?wb636f5k0rdsg1ah9p5p&af=4186346",
+          "group": "DLC",
+          "version": "01.002"
+        },
+        {
+          "name": "Rootz [exFAT · PKG · Backport · v01.002]",
           "url": "https://www.rootz.so/d/6qsgy"
         },
         {
-          "name": "Rootz [exFAT · APR-EMU · Backport · v01.002]",
+          "name": "Rootz [exFAT · PKG · Backport · v01.002]",
           "url": "https://www.rootz.so/d/1CZsVU"
         }
       ],
+      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU · Backport"
+        "exFAT · PKG · Backport"
       ],
       "fileFormat": [
+        "PKG",
         "exFAT",
         "APR-EMU",
         "Backport",
         "unknown"
       ],
-      "sizeBytes": 1073741824,
       "_enrichedAt": "2026-06-28T21:35:01.881769+00:00",
       "_rawgMatched": false,
       "_igdbEnrichedAt": "2026-06-28T21:56:52.001377+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · APR-EMU · Backport"
+      "formatLabel": "exFAT · PKG · Backport"
     },
     {
       "titleId": "PPSA03233",
@@ -66674,19 +67426,41 @@
       "version": "01.001",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3x7p.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA03416, v1.001, 3.xx",
+      "description": "Format: exFAT · APR-EMU\nTags: PPSA03416, v1.001, 3.xx",
       "downloadLinks": [
         {
-          "name": "Rootz [APR-EMU · v01.001]",
+          "name": "akia_url [exFAT · APR-EMU · v01.001]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoicEhqc2VBb2c0UUNQeXNDTjdhY2kxMWg1NU9oS1JOQkFNNU03ckxuckVsMFZmS0pUdC9sL2N2SEhuSVU5K01lUDBKNEttUUk3R2xPU0QrRlo2MFJJMG13OGQyT1FucXVlWDFrPSIsImkiOiJlQnhNSnYvRGVURURYWjZoIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [exFAT · APR-EMU · v01.001]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoid1FsQ3M3ZkFWN0IvZUhMNytIRnp5MmVLWm9udmFzSm1jK0FrN0tpVTQvclFLYXdpZFIwMzIwNytvR0ZoN3I3anF6dnlvKy9DdXBBb2M1Z01QaXdNb0VhRkswUCtTOG89IiwiaSI6Im0wUHFPT2cwUHdFS0U0eHUiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [exFAT · APR-EMU · v01.001]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiSFdLRGR1alE4Z2VYbUNaN1NFRy93TjFQcW53aVVPTmlyaFM2VlJRT21xVzJHVmxIVk8rY290ZXozQmIycElPSGZyWlV3d2R6OThlRkh6WEFhUVNMVGpiZEl5UG0iLCJpIjoiSHhOUWl2NHRmMnEzV1BtZyIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [exFAT · APR-EMU · v01.001]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiS3kvZXhocjgrbllkK0g3MnVWN25keGJoemhuRThtZUwvcFQyWnAybEt1Mmo4dTkrdXJ1ZGZWY0RLdEFGTm1HcXh0clRBY3EzQXJ4VGFONksrY3R0V0ZQQ2dMUEdxVFU9IiwiaSI6ImFBMWdTeWFBQW94dkJqSGYiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [exFAT · APR-EMU · v01.001]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiTmV5T3M3Tm0yaDJ2TzVBaXJYc0JYd1VrODFYam5KakZTMmE0dWJEV3Iyc3NzVjdLUmFOeTNBSG8wekExUzhWSkhTUVFjL0RmOGUza1pjOXJDWVpBdUJCekIrRE5HUT09IiwiaSI6IjlINnQ1QTFXZmdGNGRWbVciLCJuIjoiVmF1bHQifQ=="
+        },
+        {
+          "name": "Rootz [exFAT · APR-EMU · v01.001]",
           "url": "https://www.rootz.so/d/1Dtyjo",
           "version": "01.001"
         }
       ],
+      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "APR-EMU"
+        "exFAT · APR-EMU"
       ],
       "fileFormat": [
+        "exFAT",
         "APR-EMU"
       ],
       "_enrichedAt": "2026-06-22T12:43:51.529973+00:00",
@@ -66704,7 +67478,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:56:54.310504+00:00",
       "_igdbMatched": true,
-      "formatLabel": "APR-EMU"
+      "formatLabel": "exFAT · APR-EMU"
     },
     {
       "titleId": "PPSA07190",
@@ -67252,6 +68026,30 @@
           "version": "01.010"
         },
         {
+          "name": "Rootz [APR-EMU · PKG · v01.010]",
+          "url": "https://www.rootz.so/d/zTHea",
+          "group": "Standard",
+          "version": "01.010"
+        },
+        {
+          "name": "1File [APR-EMU · PKG · v01.010]",
+          "url": "https://1fichier.com/?ikzu1ubewbvof9timju1&af=4186346",
+          "group": "Standard",
+          "version": "01.010"
+        },
+        {
+          "name": "Backport - Rootz [Backport · v01.010]",
+          "url": "https://www.rootz.so/d/1DxfQu",
+          "group": "Backport",
+          "version": "01.010"
+        },
+        {
+          "name": "Backport - 1File [Backport · v01.010]",
+          "url": "https://1fichier.com/?ec6y0qnxphxmzl47d7ee&af=4186346",
+          "group": "Backport",
+          "version": "01.010"
+        },
+        {
           "name": "Rootz [exFAT · PKG · Backport · v01.010]",
           "url": "https://www.rootz.so/d/18TzRA",
           "version": "01.010"
@@ -67264,10 +68062,10 @@
       ],
       "fileFormat": [
         "Backport",
-        "exFAT",
         "APR-EMU",
+        "PKG",
         "Backport 4.xx",
-        "PKG"
+        "exFAT"
       ],
       "_enrichedAt": "2026-06-22T12:43:53.698475+00:00",
       "_rawgMatched": true,
@@ -67343,7 +68141,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:56:56.798037+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA06958",
@@ -68641,7 +69439,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:57:00.779678+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "Backport 4.xx"
     },
     {
@@ -71919,6 +72717,61 @@
       "_igdbEnrichedAt": "2026-06-28T21:57:07.543961+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · PKG · Backport 4.xx"
+    },
+    {
+      "titleId": "PPSA03026",
+      "title": "The Forgotten City",
+      "version": "01.005",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/The_Forgotten_City.webp",
+      "description": "Format: exFAT",
+      "downloadLinks": [
+        {
+          "name": "akia_url [exFAT · v01.005]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiVjVOWitVbjNkbjFlZ2JLczh4NGIzTU9oTUx5bE9yS3ZSc1hYcUd0UWpzcmZCWEJMZS9HaVlNMmQ3NEp1cmV6ZGlmUnBSVlpFOW8rc0tiWlRFRXFmSCs4N1lhVlpkVWxmUTdjPSIsImkiOiI2SUdLVWQvYzF1eGd3dUFuIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [exFAT · v01.005]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoicmQwWDRjV3ZhYyt2OVhTcFJFRkNydkZ4OVdtRXZ1bENuTldPTGllbmZHaW5DMVBLeWc0RlpZMzczZFdmcDhtNmMveHg5cTBkSzhjLzltamZmUHlvYVRzSndXekZxaU09IiwiaSI6InBSWVlZZWd6aGF1YVpTUjMiLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [exFAT · v01.005]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiYkVldlhjUTExMU80UzkxOW0veFNqM2VHdXAxbllhMXVxcnZTU2tjbXp5bnJqWGZNM1ZuUCswRlVaMTJSL3ZpS1V4RzRvSUNnSDh2TUVUeEk5MEkrTlRQaXBmeVUiLCJpIjoibERncGh5cVJxU21wVTR5bCIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [exFAT · v01.005]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiRnhiZjNTam1nZllFckErZXlqWFgzaEIrRWdZcitha0ZEUXFMclBIOXoyOVdLWjNYWkkvSUFzUHZFcTFiZlFITnpXUVVzZHQ0YkNtZjVuWTkyZ3oyOEl3Q2g5REFBQ1E9IiwiaSI6Ijd0dGVnUXhScVgzS1lnQnUiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [exFAT · v01.005]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiUmk1K2p6NGxnV3NVSTVYL1kvZS9KK1pKaEY0dm01bDFhMk5tRHNsY0tGZDA4dUFBY2lKWTNKcTJuVDZMQVUrV0tTUnk5eWo0cWQxSlpLZWxtUGd1dnlYYmxXbEJKQT09IiwiaSI6IlAzS2hYbGZGWlYrS0VMdzQiLCJuIjoiVmF1bHQifQ=="
+        }
+      ],
+      "sizeBytes": 26843545600,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT"
+      ],
+      "fileFormat": [
+        "exFAT"
+      ],
+      "_enrichedAt": "2026-07-05T05:22:31.764777+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "forgotten-city",
+        "rawgName": "The Forgotten City",
+        "rating": 4.24,
+        "metacritic": null,
+        "released": "2021-07-28",
+        "genres": [
+          "Indie",
+          "Adventure",
+          "Action",
+          "RPG"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/6e9/6e9136f09bb9daaaed5a0e6d508028b4.jpg"
+      },
+      "formatLabel": "exFAT"
     },
     {
       "titleId": "PPSA24203",
@@ -77000,12 +77853,6 @@
           "version": "01.007"
         },
         {
-          "name": "Transit [APR-EMU · PKG · v01.007]",
-          "url": "https://transfer.it/t/kmiWCOoz3RBQ",
-          "group": "Standard",
-          "version": "01.007"
-        },
-        {
           "name": "Viki [APR-EMU · PKG · v01.007]",
           "url": "https://vikingfile.com/f/gr30sJQL4J",
           "group": "Standard",
@@ -77039,6 +77886,12 @@
           "name": "Backport - 1File [Backport · v01.007]",
           "url": "https://1fichier.com/?rcq5zv5t3su0tpa98t0g&af=4186346",
           "group": "Backport",
+          "version": "01.007"
+        },
+        {
+          "name": "Transit [APR-EMU · PKG · v01.007]",
+          "url": "https://transfer.it/t/kmiWCOoz3RBQ",
+          "group": "Standard",
           "version": "01.007"
         },
         {
@@ -77078,8 +77931,8 @@
       "fileFormat": [
         "exFAT",
         "APR-EMU",
-        "Backport 4.xx",
         "PKG",
+        "Backport 4.xx",
         "RAR"
       ],
       "_enrichedAt": "2026-06-22T02:38:59.228877+00:00",
@@ -77540,7 +78393,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:57:27.560306+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "Folder · Backport 4.xx"
     },
     {
@@ -77963,8 +78816,28 @@
       "version": "01.000",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar0k.jpg",
-      "description": "Format: PKG\nTags: PPSA15350, v01.000, USA\nSize: 38GB\nPassword: SuperPSX\nVoices: English\nOnly working 6.xx — 7.xx",
+      "description": "Format: PKG · Backport\nTags: PPSA15350, v01.000, USA\nSize: 38GB\nPassword: SuperPSX\nVoices: English\nOnly working 6.xx — 7.xx",
       "downloadLinks": [
+        {
+          "name": "akia_url [PKG · Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiMTdRbko4cWF3UjlFaFJ0WDdSTDEyV0RYS0p0c25iQkQxRmlpWVBENk9LYlcwNGtUT2thcDlqdFl4Yk5NazRtajVsZUl4TktIREdDSjc0YlBSTkdqOWQ5TElBaU9QS2VIWVk4PSIsImkiOiJNTlp6LzdUN0RUbnhHMzNIIiwibiI6IkFraWEifQ=="
+        },
+        {
+          "name": "viki_url [PKG · Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiRVVMaDlwVHVLSDRzRk5qTGgrbVRBMFV1UkpGT1YzbWwydFU0a1h4c0h1TlMvWlZhMGQ5NUZJNUFZazh0d3RTRWUyY1Z0TUg3WThzdEdLR0VwRU1LT25kTFdjWDJpc2c9IiwiaSI6IlhuSFJ4RHkxcU92Ymw5N28iLCJuIjoiVmlraSJ9"
+        },
+        {
+          "name": "data_url [PKG · Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiRk1EaFQyQVVkeFFBREhZNFNxWCtLUFRIbklLRGttaXlhYkFwMEt0K3VIdVp5SEhBRmNLOFRkSi9Cc1pPM0NxWXhIbjgranAwa2VTOXdjc0c5WGtSRTR6N3JpSk4iLCJpIjoidEYvQ2JON0JKenNXU25WWCIsIm4iOiJEYXRhIn0="
+        },
+        {
+          "name": "filek_url [PKG · Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiQVJVSjllam8zOWRzSGFTNFVnWllFRHlVdUwvWWlBWXVhSlg2TzU5blZ4NVNISzlIYzhTRy82Q1dzNEhqNHRkMi9TU00wd1BnbFV2NXlRQkloVWNrWDBsTEVoVis2VmM9IiwiaSI6ImZSc3ZOaE4zVnl0ckNVNXYiLCJuIjoiRmlsZUsifQ=="
+        },
+        {
+          "name": "vault_url [PKG · Backport · v01.000]",
+          "url": "https://pippo26442999.github.io/library-decrypt/decrypt-public.html#eyJ2IjoiMC4wLjEiLCJlIjoiWndpK3BaMjFJd3Z0cmpBOXFvelREM1lOdnFtZnkwdnZPT0lNVW9Ua0FiOUZwWXkxeGozWjNrMGFQOVpiaWdJUGZvQ2QwODd6WlpUbkhlZG5mRG1HSy96NFpGUldpUT09IiwiaSI6Im1jbmQyQzV1UncwN2VtY28iLCJuIjoiVmF1bHQifQ=="
+        },
         {
           "name": "Akia [PKG · v01.000]",
           "url": "https://akirabox.com/jar3XVaw2G2d/file",
@@ -77987,16 +78860,17 @@
       "sizeBytes": 40802189312,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PKG"
+        "PKG · Backport"
       ],
       "fileFormat": [
+        "Backport",
         "PKG"
       ],
       "_enrichedAt": "2026-06-28T21:35:10.209666+00:00",
       "_rawgMatched": false,
       "_igdbEnrichedAt": "2026-06-28T21:57:27.560331+00:00",
       "_igdbMatched": true,
-      "formatLabel": "PKG"
+      "formatLabel": "PKG · Backport"
     },
     {
       "titleId": "PPSA15349",
@@ -79947,7 +80821,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:57:32.004054+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA15186",
@@ -81544,7 +82418,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:57:37.578613+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00",
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00",
       "formatLabel": "PKG"
     },
     {
@@ -82917,7 +83791,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:57:41.559442+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA08105",
@@ -83938,7 +84812,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:57:45.545938+00:00",
       "_igdbMatched": true,
-      "_sizeProbedAt": "2026-07-03T05:19:38.370859+00:00"
+      "_sizeProbedAt": "2026-07-05T05:22:32.388335+00:00"
     },
     {
       "titleId": "PPSA32457",
