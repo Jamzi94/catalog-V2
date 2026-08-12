@@ -36,6 +36,12 @@ RAWG_SEARCH = "https://api.rawg.io/api/games"
 # Budget RAWG : ~5 req/s côté API (gratuit). On reste poliment en dessous.
 RAWG_RATE_PER_SEC = 5.0
 
+# Disjoncteur : au-delà de N erreurs réseau consécutives, on considère RAWG
+# indisponible et on cesse d'appeler pour ce run. Sans ça, une panne de l'API
+# (ex. 522 Cloudflare : ~19 s par appel, mesuré) fait dépasser le timeout du
+# job et emporte tout ce qui suit (IGDB, finalize, commit).
+ERROR_STREAK_LIMIT = 10
+
 
 # ---------------------------------------------------------------------------
 # Token-bucket partagé (thread-safe) — borne le débit global quel que soit le
@@ -219,7 +225,8 @@ def enrich_catalog(catalog: dict, api_key: str, *, ttl_days: int,
     # Prioriser : jeux jamais enrichis en premier
     packages = _prioritize_packages(packages)
     stats = {"total": len(packages), "fresh": 0, "enriched": 0,
-             "matched": 0, "unmatched": 0, "errors": 0, "calls": 0, "capped": 0}
+             "matched": 0, "unmatched": 0, "errors": 0, "calls": 0, "capped": 0,
+             "aborted": 0}
 
     # Présélection (mono-thread, déterministe) : on ne garde que les jeux à
     # enrichir et on applique le plafond --max-calls AVANT de paralléliser, pour
@@ -247,15 +254,21 @@ def enrich_catalog(catalog: dict, api_key: str, *, ttl_days: int,
     bucket = TokenBucket(RAWG_RATE_PER_SEC)
     workers = max(1, concurrency)
 
-    def _do(pkg: dict) -> tuple[dict, dict | None, Exception | None]:
+    # Armé par le consommateur quand la série d'erreurs dépasse le seuil : les
+    # tâches encore en file rendent la main sans appeler RAWG.
+    breaker = threading.Event()
+
+    def _do(pkg: dict) -> tuple[dict, dict | None, Exception | None, bool]:
+        if breaker.is_set():
+            return pkg, None, None, True  # non tenté
         title = (pkg.get("title") or "").strip()
         bucket.acquire()
         # Jitter léger pour désynchroniser les threads et lisser les rafales.
         time.sleep(random.uniform(0.1, 0.3))
         try:
-            return pkg, fetch_rawg(title, api_key), None
+            return pkg, fetch_rawg(title, api_key), None, False
         except Exception as exc:  # noqa: BLE001
-            return pkg, None, exc
+            return pkg, None, exc, False
 
     if workers <= 1:
         results_iter = (_do(p) for p in todo)
@@ -264,14 +277,25 @@ def enrich_catalog(catalog: dict, api_key: str, *, ttl_days: int,
         results_iter = pool.map(_do, todo)
 
     # Consommation mono-thread des résultats (mutation pkg + stats sûre).
-    for pkg, result, exc in results_iter:
+    streak = 0
+    for pkg, result, exc, untried in results_iter:
+        if untried:
+            stats["aborted"] += 1
+            continue
         title = (pkg.get("title") or "").strip()
         stats["calls"] += 1
         if exc is not None:
             stats["errors"] += 1
+            streak += 1
             print(f"  [warn] {title}: {exc}", file=sys.stderr)
+            if streak >= ERROR_STREAK_LIMIT and not breaker.is_set():
+                breaker.set()
+                print(f"  [abort] {streak} erreurs consécutives — RAWG considérée "
+                      f"indisponible, arrêt de l'enrichissement pour ce run.",
+                      file=sys.stderr)
             # on n'écrit pas _enrichedAt => sera retenté au prochain run
             continue
+        streak = 0
         apply_rawg(pkg, result)
         stats["enriched"] += 1
         if pkg.get("_rawgMatched"):
@@ -285,7 +309,53 @@ def enrich_catalog(catalog: dict, api_key: str, *, ttl_days: int,
     return stats
 
 
+def _self_test() -> int:
+    """Auto-test du disjoncteur : `python3 scripts/enrich_rawg.py --self-test`.
+
+    Deux témoins, sans quoi le test ne prouverait rien :
+      - positif : API en panne => on s'arrête vite au lieu d'appeler les 60 jeux ;
+      - négatif : API saine    => on ne s'arrête PAS (le disjoncteur ne mord pas
+        sur un run normal).
+    """
+    g = globals()
+    real_fetch, real_rate = g["fetch_rawg"], g["RAWG_RATE_PER_SEC"]
+    g["RAWG_RATE_PER_SEC"] = 1000.0  # le token-bucket ne doit pas dominer le test
+    catalog = lambda: {"packages": [{"title": f"Jeu {i}"} for i in range(60)]}
+    ok = True
+
+    def check(label, cond):
+        nonlocal ok
+        print(f"  {'ok  ' if cond else 'FAIL'} {label}")
+        ok = ok and cond
+
+    try:
+        # Témoin positif : chaque appel échoue comme un 522.
+        def _down(title, api_key, *, timeout=20):
+            raise OSError("HTTP Error 522: <none>")
+        g["fetch_rawg"] = _down
+        s = enrich_catalog(catalog(), "k", ttl_days=0, max_calls=0, delay=0, concurrency=4)
+        check(f"panne: {s['calls']} appels tentés (< 30)", s["calls"] < 30)
+        check(f"panne: {s['aborted']} jeux non tentés (> 0)", s["aborted"] > 0)
+        check("panne: rien d'enrichi", s["enriched"] == 0)
+
+        # Témoin négatif : l'API répond, le disjoncteur ne doit pas se déclencher.
+        def _up(title, api_key, *, timeout=20):
+            return {"slug": "x", "name": title}
+        g["fetch_rawg"] = _up
+        s = enrich_catalog(catalog(), "k", ttl_days=0, max_calls=0, delay=0, concurrency=4)
+        check(f"sain: {s['calls']}/60 appels", s["calls"] == 60)
+        check("sain: disjoncteur au repos", s["aborted"] == 0)
+        check("sain: 60 enrichis", s["enriched"] == 60)
+    finally:
+        g["fetch_rawg"], g["RAWG_RATE_PER_SEC"] = real_fetch, real_rate
+
+    print("ALL OK" if ok else "SOME FAILURES")
+    return 0 if ok else 1
+
+
 def main(argv: list[str] | None = None) -> int:
+    if (sys.argv[1:] if argv is None else argv)[:1] == ["--self-test"]:
+        return _self_test()
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("catalog", type=Path, help="Catalogue Pegasus à enrichir")
     ap.add_argument("--out", type=Path, default=None, help="Fichier de sortie (défaut: sur place)")
@@ -321,7 +391,15 @@ def main(argv: list[str] | None = None) -> int:
         f"({stats['matched']} trouvés, {stats['unmatched']} non trouvés) | "
         f"{stats['errors']} erreurs | {stats['calls']} appels API"
         + (f" | {stats['capped']} reportés (plafond)" if stats['capped'] else "")
+        + (f" | {stats['aborted']} non tentés (disjoncteur)" if stats['aborted'] else "")
     )
+
+    # Un run qui n'enrichit rien mais accumule les erreurs est un run vert qui
+    # ment : l'annotation le rend visible dans l'onglet Actions sans faire
+    # échouer le job (le catalogue scrapé doit rester commitable).
+    if stats["errors"] and not stats["enriched"]:
+        print(f"::warning title=RAWG indisponible::{stats['errors']} erreurs, "
+              f"0 jeu enrichi — aucune métadonnée RAWG écrite ce run.")
     return 0
 
 
