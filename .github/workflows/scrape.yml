@@ -589,7 +589,7 @@ jobs:
           print(f\"- Jeux avec taille : {m.get('games_with_size', '?')}/{m.get('total_games', '?')}\")
           print(f\"- Jeux avec poster : {m.get('games_with_poster', '?')}\")
           print(f\"- Liens moyens/jeu : {m.get('avg_links_per_game', '?')}\")
-          " 2>/dev/null || true
+          " 2>/dev/null >> $GITHUB_STEP_SUMMARY || true
           fi
           if [ -f diff-report.json ]; then
             echo "" >> $GITHUB_STEP_SUMMARY
@@ -598,7 +598,7 @@ jobs:
           import json
           d = json.load(open('diff-report.json'))
           print(f\"- Ajoutés : {d.get('added', 0)} | Supprimés : {d.get('removed', 0)} | Modifiés : {d.get('updated', 0)}\")
-          " 2>/dev/null || true
+          " 2>/dev/null >> $GITHUB_STEP_SUMMARY || true
           fi
 
       - name: Commit & push
@@ -653,6 +653,22 @@ jobs:
               sleep $((attempt * 3))
             done
           fi
+
+          # URL publiques du catalogue, ajoutées au résumé du run (le résumé est
+          # partagé entre steps : ce bloc atterrit sous « Catalogue généré »).
+          # Écrit ICI et pas dans « Show summary » : ce step-là s'exécute AVANT
+          # le push, l'URL n'y pointerait pas encore sur le contenu du run.
+          RAW="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main"
+          {
+            echo ""
+            echo "### URL du catalogue"
+            echo ""
+            echo '```'
+            echo "$RAW/dlpsgame-ps5.json"
+            [ -f games-list.csv ] && echo "$RAW/games-list.csv"
+            [ -f games-list.md ]  && echo "$RAW/games-list.md"
+            echo '```'
+          } >> $GITHUB_STEP_SUMMARY
 
       - name: Upload artifact
         if: always()
