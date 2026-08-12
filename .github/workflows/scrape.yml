@@ -433,6 +433,7 @@ jobs:
       # ──────────────────────────────────────────────────────────────
       - name: Enrich metadata (RAWG, dynamic TTL)
         if: env.MERGE_SKIPPED != '1'
+        continue-on-error: true
         timeout-minutes: 30
         env:
           RAWG_API_KEY: ${{ secrets.RAWG_API_KEY }}
