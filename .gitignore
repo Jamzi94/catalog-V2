@@ -11,12 +11,12 @@
 # .scrape_manifest_superpsx.json
 
 # Intermediate / temporary files
-dlpsgame-ps5.fresh.json
+ps5-catalog.fresh.json
 superpsx-ps5.fresh.json
 exfat-ps5.fresh.json
-dlpsgame-ps5.previous.json
-dlpsgame-ps5.merged.json
-dlpsgame-ps5.fresh.warnings.txt
+ps5-catalog.previous.json
+ps5-catalog.merged.json
+ps5-catalog.fresh.warnings.txt
 
 # Metrics & diff reports (regenerated each run)
 scrape-metrics.json

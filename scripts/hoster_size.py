@@ -22,7 +22,7 @@ router via curl/FlareSolverr en CI si besoin.
 
 CLI :
   python hoster_size.py "https://vikingfile.com/f/HASH"
-  python hoster_size.py --catalog dlpsgame-ps5.json --max 300   # remplit sizeBytes manquants
+  python hoster_size.py --catalog ps5-catalog.json --max 300   # remplit sizeBytes manquants
 """
 from __future__ import annotations
 

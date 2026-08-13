@@ -19,7 +19,7 @@ enrichissements. Elle :
      des jeux n'ont aucun lien valide.
 
 Usage :
-  python pegasus_finalize.py dlpsgame-ps5.json
+  python pegasus_finalize.py ps5-catalog.json
   python pegasus_finalize.py in.json --out out.json --strict
 """
 from __future__ import annotations

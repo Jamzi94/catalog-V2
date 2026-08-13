@@ -7,7 +7,7 @@ et la validation en une seule commande.
 
 Usage:
     # Pipeline complet (toutes les sources)
-    python pipeline.py --out dlpsgame-ps5.json
+    python pipeline.py --out ps5-catalog.json
 
     # Sources spécifiques seulement
     python pipeline.py --sources dlpsgame,superpsx
@@ -59,8 +59,8 @@ ALL_SOURCES = ["dlpsgame", "superpsx", "exfat", "wp_api"]
 
 # Fresh output files produced by each source scraper
 SOURCE_OUTPUTS: dict[str, str] = {
-    "dlpsgame": "dlpsgame-ps5.fresh.json",
-    "wp_api": "dlpsgame-ps5.fresh.json",  # same output, preferred over HTML
+    "dlpsgame": "ps5-catalog.fresh.json",
+    "wp_api": "ps5-catalog.fresh.json",  # same output, preferred over HTML
     "superpsx": "superpsx-ps5.fresh.json",
     "exfat": "exfat-ps5.fresh.json",
 }
@@ -645,7 +645,7 @@ def run_pipeline(args: argparse.Namespace) -> int:
 
     # --- Determine output paths ---
     output_cfg = config.get("output", {})
-    catalog_file = args.out or output_cfg.get("catalog_file", "dlpsgame-ps5.json")
+    catalog_file = args.out or output_cfg.get("catalog_file", "ps5-catalog.json")
     catalog_path = PROJECT_DIR / catalog_file
     metrics_file = output_cfg.get("metrics_file", "scrape-metrics.json")
     metrics_path = PROJECT_DIR / metrics_file
@@ -889,7 +889,7 @@ def build_parser() -> argparse.ArgumentParser:
         epilog="""\
 examples:
   # Full pipeline (all sources)
-  python pipeline.py --out dlpsgame-ps5.json
+  python pipeline.py --out ps5-catalog.json
 
   # Specific sources only
   python pipeline.py --sources dlpsgame,superpsx
@@ -934,7 +934,7 @@ return codes:
     parser.add_argument(
         "--out",
         default=None,
-        help="Output catalog path. Default: dlpsgame-ps5.json (or config value)",
+        help="Output catalog path. Default: ps5-catalog.json (or config value)",
     )
 
     # Limits

@@ -1,6 +1,6 @@
 {
   "timestamp": "2026-08-13T19:09:38.723753+00:00",
-  "catalog": "dlpsgame-ps5.json",
+  "catalog": "ps5-catalog.json",
   "total_games": 1005,
   "sources": {
     "exfat · pkg · backport": 223,

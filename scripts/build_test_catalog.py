@@ -7,7 +7,7 @@ jeux seulement, choisis parmi les plus PETITS pour qu'un téléchargement de
 bout en bout reste rapide.
 
 Usage :
-  python3 scripts/build_test_catalog.py dlpsgame-ps5.json --out dlpsgame-ps5.test.json
+  python3 scripts/build_test_catalog.py ps5-catalog.json --out demo-3-games.json
   python3 scripts/build_test_catalog.py catalogue.json --count 3 --seed 42
   python3 scripts/build_test_catalog.py --self-test
 """
@@ -95,7 +95,7 @@ def main(argv: list[str] | None = None) -> int:
         return _self_test()
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("catalog", type=Path, help="Catalogue complet en entrée")
-    ap.add_argument("--out", type=Path, default=Path("dlpsgame-ps5.test.json"))
+    ap.add_argument("--out", type=Path, default=Path("demo-3-games.json"))
     ap.add_argument("--count", type=int, default=3, help="Nombre de jeux (défaut 3)")
     ap.add_argument("--seed", type=int, default=None,
                     help="Graine du tirage (défaut : aléatoire à chaque run)")

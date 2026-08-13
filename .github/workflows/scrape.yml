@@ -255,7 +255,7 @@ jobs:
             exit 0
           fi
           echo "=== Scraping via API WordPress ==="
-          ARGS=("--out" "dlpsgame-ps5.fresh.json")
+          ARGS=("--out" "ps5-catalog.fresh.json")
           ARGS+=("--flaresolverr-url" "http://localhost:8191/v1")
           ARGS+=("--mode" "${{ steps.config.outputs.mode }}")
           # ITEM 8 : pré-résolution concurrente des redirections (le correctif du 3h30).
@@ -273,7 +273,7 @@ jobs:
           python scripts/scrape_wp_api.py "${ARGS[@]}"
 
           # ITEM 1 : on expose le nombre de jeux produits pour décider du fallback HTML.
-          N=$(python3 -c "import json; print(len(json.load(open('dlpsgame-ps5.fresh.json')).get('packages',[])))" 2>/dev/null || echo 0)
+          N=$(python3 -c "import json; print(len(json.load(open('ps5-catalog.fresh.json')).get('packages',[])))" 2>/dev/null || echo 0)
           echo "  WP API : $N jeux produits"
           echo "games=$N" >> "$GITHUB_OUTPUT"
 
@@ -309,7 +309,7 @@ jobs:
           if [ "${{ github.event.inputs.no_cache }}" = "true" ]; then
             ARGS+=("--no-cache")
           fi
-          ARGS+=("--out" "dlpsgame-ps5.fresh.json")
+          ARGS+=("--out" "ps5-catalog.fresh.json")
           ARGS+=("--verbose")
           python scripts/scrape_dlpsgame.py "${ARGS[@]}"
 
@@ -368,11 +368,11 @@ jobs:
         # produit des données ; le garde-fou merge conserve l'existant si tout est vide.
         if: ${{ !cancelled() }}
         run: |
-          OUT=dlpsgame-ps5.json
+          OUT=ps5-catalog.json
           FRESHES=()
 
           # On collecte les sources fraîches RÉELLEMENT produites et non vides.
-          for f in dlpsgame-ps5.fresh.json exfat-ps5.fresh.json superpsx-ps5.fresh.json; do
+          for f in ps5-catalog.fresh.json exfat-ps5.fresh.json superpsx-ps5.fresh.json; do
             if [ -f "$f" ]; then
               N=$(python3 -c "import json; print(len(json.load(open('$f')).get('packages',[])))" 2>/dev/null || echo 0)
               echo "  $f : $N jeux"
@@ -384,7 +384,7 @@ jobs:
           # est conservé intact (jamais écrasé par un cycle où tout a échoué).
           if [ ${#FRESHES[@]} -eq 0 ]; then
             echo "::warning::Aucune source fraîche exploitable — catalogue existant conservé intact."
-            rm -f dlpsgame-ps5.fresh.json exfat-ps5.fresh.json superpsx-ps5.fresh.json
+            rm -f ps5-catalog.fresh.json exfat-ps5.fresh.json superpsx-ps5.fresh.json
             echo "MERGE_SKIPPED=1" >> "$GITHUB_ENV"
             exit 0
           fi
@@ -401,18 +401,18 @@ jobs:
 
           # Sauvegarder le catalogue existant pour le diff
           if [ -f "$OUT" ]; then
-            cp "$OUT" dlpsgame-ps5.previous.json
+            cp "$OUT" ps5-catalog.previous.json
             # Fusion incrémentale : sources fraîches d'abord (métadonnées à jour),
             # catalogue existant ensuite (préserve jeux disparus, miroirs accumulés,
             # et tout l'enrichissement RAWG via _enrichedAt / metadata).
             echo "Fusion incrémentale dans $OUT (sources : ${FRESHES[*]}, existant)…"
-            if python3 scripts/merge_catalogs.py dlpsgame-ps5.merged.json "${MERGE_FLAGS[@]}" "${FRESHES[@]}" "$OUT"; then
-              mv dlpsgame-ps5.merged.json "$OUT"
+            if python3 scripts/merge_catalogs.py ps5-catalog.merged.json "${MERGE_FLAGS[@]}" "${FRESHES[@]}" "$OUT"; then
+              mv ps5-catalog.merged.json "$OUT"
             else
               rc=$?
               echo "::warning::Merge refusé (rc=$rc) — catalogue existant conservé intact, commit ignoré."
-              rm -f dlpsgame-ps5.merged.json dlpsgame-ps5.previous.json
-              rm -f dlpsgame-ps5.fresh.json exfat-ps5.fresh.json superpsx-ps5.fresh.json
+              rm -f ps5-catalog.merged.json ps5-catalog.previous.json
+              rm -f ps5-catalog.fresh.json exfat-ps5.fresh.json superpsx-ps5.fresh.json
               echo "MERGE_SKIPPED=1" >> "$GITHUB_ENV"
               exit 0
             fi
@@ -421,11 +421,11 @@ jobs:
             python3 scripts/merge_catalogs.py "$OUT" "${MERGE_FLAGS[@]}" "${FRESHES[@]}"
           fi
 
-          rm -f dlpsgame-ps5.fresh.json exfat-ps5.fresh.json superpsx-ps5.fresh.json
+          rm -f ps5-catalog.fresh.json exfat-ps5.fresh.json superpsx-ps5.fresh.json
 
           # On aligne le nom du fichier de warnings sur le catalogue canonique.
-          if [ -f dlpsgame-ps5.fresh.warnings.txt ]; then
-            mv -f dlpsgame-ps5.fresh.warnings.txt dlpsgame-ps5.warnings.txt
+          if [ -f ps5-catalog.fresh.warnings.txt ]; then
+            mv -f ps5-catalog.fresh.warnings.txt ps5-catalog.warnings.txt
           fi
 
       # ──────────────────────────────────────────────────────────────
@@ -445,8 +445,8 @@ jobs:
           # NB : RAWG sert UNIQUEMENT aux métadonnées (note, genres, date,
           # metacritic). Il ne fournit PAS de jaquette → ne touche plus posterUrl.
           # ITEM 9 : --concurrency 4 (débit global auto-borné ~5 req/s par token-bucket).
-          if [ -f dlpsgame-ps5.json ]; then
-            python3 scripts/enrich_rawg.py dlpsgame-ps5.json --ttl-days 30 --max-calls 900 --concurrency 4
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/enrich_rawg.py ps5-catalog.json --ttl-days 30 --max-calls 900 --concurrency 4
           fi
 
       # ──────────────────────────────────────────────────────────────
@@ -464,12 +464,12 @@ jobs:
           # pose dans posterUrl. Sans secrets TWITCH_CLIENT_ID/SECRET, no-op.
           # En l'absence de jaquette IGDB, on garde la cover scrapée du site.
           # ITEM 9 : --concurrency 3 (débit plafonné STRICTEMENT à 4 req/s par token-bucket).
-          if [ -f dlpsgame-ps5.json ]; then
+          if [ -f ps5-catalog.json ]; then
             # --max-calls 900 : couvre tout le catalogue (~840) en un seul run
             # (4 req/s strict → ~4 min) ; fini les jeux « reportés (plafond) ».
             # --recheck-unmatched : ré-essaie les « non trouvés » à chaque run
             # (matching nettoyé + IGDB s'enrichit) ; les matchés restent cachés.
-            python3 scripts/enrich_igdb.py dlpsgame-ps5.json --ttl-days 30 \
+            python3 scripts/enrich_igdb.py ps5-catalog.json --ttl-days 30 \
               --max-calls 900 --concurrency 3 --recheck-unmatched
           fi
 
@@ -484,11 +484,11 @@ jobs:
           # Complète les sizeBytes manquants en interrogeant vikingfile/mega/
           # gofile/mediafire (octets exacts, sans téléchargement). Non bloquant.
           # ITEM 9 : --concurrency 6 (hébergeurs distincts, pas de rate-limit strict).
-          if [ -f dlpsgame-ps5.json ]; then
+          if [ -f ps5-catalog.json ]; then
             # --retry-ttl-days 0 : ré-essaie à chaque run les jeux sondés sans
             # succès (le cache de tailles est éphémère ; le set est petit et se
             # vide à mesure que les tailles tombent). Récupère vikingfile/mediafire.
-            python3 scripts/hoster_size.py --catalog dlpsgame-ps5.json --max 400 \
+            python3 scripts/hoster_size.py --catalog ps5-catalog.json --max 400 \
               --concurrency 6 --retry-ttl-days 0
           fi
 
@@ -501,8 +501,8 @@ jobs:
           # Surface le format (formatLabel + ligne "Format:" dans la description),
           # canonicalise fileFormat, retire les tailles aberrantes (> 2 To), et
           # nettoie les liens invalides. Idempotent.
-          if [ -f dlpsgame-ps5.json ]; then
-            python3 scripts/pegasus_finalize.py dlpsgame-ps5.json
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/pegasus_finalize.py ps5-catalog.json
           fi
 
       - name: Generate games list
@@ -511,8 +511,8 @@ jobs:
           # Liste lisible de TOUS les jeux disponibles + leur format. Régénérée
           # à partir du catalogue cumulatif : chaque run l'enrichit des nouveaux
           # jeux sans perdre les anciens (merge non destructif + mémoire incr.).
-          if [ -f dlpsgame-ps5.json ]; then
-            python3 scripts/build_games_list.py dlpsgame-ps5.json \
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/build_games_list.py ps5-catalog.json \
               --md games-list.md --csv games-list.csv
           fi
 
@@ -523,9 +523,9 @@ jobs:
           # production, 3 jeux seulement, tirés au sort parmi les plus PETITS
           # pour qu'un test de téléchargement de bout en bout reste rapide.
           # Tirage non figé : la sélection change d'un run à l'autre.
-          if [ -f dlpsgame-ps5.json ]; then
-            python3 scripts/build_test_catalog.py dlpsgame-ps5.json \
-              --out dlpsgame-ps5.test.json --count 3
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/build_test_catalog.py ps5-catalog.json \
+              --out demo-3-games.json --count 3
           fi
 
       # ──────────────────────────────────────────────────────────────
@@ -534,19 +534,19 @@ jobs:
       - name: Generate metrics and diff
         if: always()
         run: |
-          if [ -f dlpsgame-ps5.json ]; then
-            python3 scripts/scrape_metrics.py metrics dlpsgame-ps5.json --out scrape-metrics.json 2>/dev/null || true
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/scrape_metrics.py metrics ps5-catalog.json --out scrape-metrics.json 2>/dev/null || true
           fi
-          if [ -f dlpsgame-ps5.previous.json ] && [ -f dlpsgame-ps5.json ]; then
-            python3 scripts/scrape_metrics.py diff dlpsgame-ps5.previous.json dlpsgame-ps5.json --out diff-report.json 2>/dev/null || true
-            rm -f dlpsgame-ps5.previous.json
+          if [ -f ps5-catalog.previous.json ] && [ -f ps5-catalog.json ]; then
+            python3 scripts/scrape_metrics.py diff ps5-catalog.previous.json ps5-catalog.json --out diff-report.json 2>/dev/null || true
+            rm -f ps5-catalog.previous.json
           fi
 
       - name: Health check
         if: always()
         run: |
-          if [ -f dlpsgame-ps5.json ]; then
-            python3 scripts/scrape_metrics.py health dlpsgame-ps5.json --min-games 500 2>/dev/null || true
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/scrape_metrics.py health ps5-catalog.json --min-games 500 2>/dev/null || true
           fi
 
       - name: Show cache stats
@@ -576,10 +576,10 @@ jobs:
         run: |
           echo "### Catalogue généré" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          if [ -f dlpsgame-ps5.json ]; then
-            GAMES=$(python3 -c 'import json; print(len(json.load(open("dlpsgame-ps5.json"))["packages"]))' 2>/dev/null || echo "0")
-            SIZE=$(du -h dlpsgame-ps5.json | cut -f1)
-            echo "- Fichier : \`dlpsgame-ps5.json\` ($SIZE)" >> $GITHUB_STEP_SUMMARY
+          if [ -f ps5-catalog.json ]; then
+            GAMES=$(python3 -c 'import json; print(len(json.load(open("ps5-catalog.json"))["packages"]))' 2>/dev/null || echo "0")
+            SIZE=$(du -h ps5-catalog.json | cut -f1)
+            echo "- Fichier : \`ps5-catalog.json\` ($SIZE)" >> $GITHUB_STEP_SUMMARY
             echo "- Nombre de jeux : **$GAMES**" >> $GITHUB_STEP_SUMMARY
             if [ "$GAMES" = "0" ]; then
               echo "" >> $GITHUB_STEP_SUMMARY
@@ -588,8 +588,8 @@ jobs:
           else
             echo "- ⚠ Aucun fichier JSON généré" >> $GITHUB_STEP_SUMMARY
           fi
-          if [ -f dlpsgame-ps5.warnings.txt ]; then
-            WARNINGS=$(wc -l < dlpsgame-ps5.warnings.txt)
+          if [ -f ps5-catalog.warnings.txt ]; then
+            WARNINGS=$(wc -l < ps5-catalog.warnings.txt)
             echo "- Pages en échec : $WARNINGS" >> $GITHUB_STEP_SUMMARY
           fi
           if [ -f scrape-metrics.json ]; then
@@ -622,13 +622,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           echo "--- Fichiers présents ---"
-          ls -la dlpsgame-ps5.json dlpsgame-ps5.warnings.txt scrape-metrics.json 2>&1 || true
+          ls -la ps5-catalog.json ps5-catalog.warnings.txt scrape-metrics.json 2>&1 || true
           echo "--- git status (avant add) ---"
           git status --short
 
-          git add -f dlpsgame-ps5.json
-          [ -f dlpsgame-ps5.test.json ] && git add -f dlpsgame-ps5.test.json || true
-          [ -f dlpsgame-ps5.warnings.txt ] && git add -f dlpsgame-ps5.warnings.txt || true
+          git add -f ps5-catalog.json
+          [ -f demo-3-games.json ] && git add -f demo-3-games.json || true
+          [ -f ps5-catalog.warnings.txt ] && git add -f ps5-catalog.warnings.txt || true
           [ -f scrape-metrics.json ] && git add -f scrape-metrics.json || true
           [ -f games-list.md ] && git add -f games-list.md || true
           [ -f games-list.csv ] && git add -f games-list.csv || true
@@ -677,20 +677,20 @@ jobs:
             echo "### URL du catalogue"
             echo ""
             echo '```'
-            echo "$RAW/dlpsgame-ps5.json"
+            echo "$RAW/ps5-catalog.json"
             [ -f games-list.csv ] && echo "$RAW/games-list.csv"
             [ -f games-list.md ]  && echo "$RAW/games-list.md"
             echo '```'
-            if [ -f dlpsgame-ps5.test.json ]; then
+            if [ -f demo-3-games.json ]; then
               echo ""
               echo "### Catalogue de TEST (3 petits jeux, à donner à un client)"
               echo ""
               echo '```'
-              echo "$RAW/dlpsgame-ps5.test.json"
+              echo "$RAW/demo-3-games.json"
               echo '```'
               python3 -c "
           import json
-          d = json.load(open('dlpsgame-ps5.test.json', encoding='utf-8'))
+          d = json.load(open('demo-3-games.json', encoding='utf-8'))
           for p in d['packages']:
               print(f\"- {p['title']} — {p.get('sizeBytes',0)/2**30:.2f} Go — {len(p.get('downloadLinks') or [])} liens\")
           " 2>/dev/null || true
@@ -701,10 +701,10 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: dlpsgame-ps5-catalog
+          name: ps5-catalog-catalog
           path: |
-            dlpsgame-ps5.json
-            dlpsgame-ps5.warnings.txt
+            ps5-catalog.json
+            ps5-catalog.warnings.txt
             scrape-metrics.json
             diff-report.json
             games-list.md

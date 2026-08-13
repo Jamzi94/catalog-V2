@@ -549,10 +549,10 @@ def main(argv: list[str] | None = None) -> int:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""\
 examples:
-  python scrape_metrics.py metrics dlpsgame-ps5.json
-  python scrape_metrics.py metrics dlpsgame-ps5.json --out metrics.json
+  python scrape_metrics.py metrics ps5-catalog.json
+  python scrape_metrics.py metrics ps5-catalog.json --out metrics.json
   python scrape_metrics.py diff old.json new.json --out diff.json
-  python scrape_metrics.py health dlpsgame-ps5.json --min-games 500
+  python scrape_metrics.py health ps5-catalog.json --min-games 500
 """,
     )
     parser.add_argument(

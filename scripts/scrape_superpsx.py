@@ -5,7 +5,7 @@ Scraper SuperPSX - PS5 Games Catalog
 Crawls https://www.superpsx.com/category/ps5/ps5-games/ (pagination /page/N/),
 visits each game page to extract metadata from the info table, then visits each
 DLL page (/dll-*) to extract download links, firmware requirements, and format
-tags. Produces a JSON catalog in the SAME format as dlpsgame-ps5.json.
+tags. Produces a JSON catalog in the SAME format as ps5-catalog.json.
 
 superpsx.com est désormais derrière Cloudflare : un curl simple reçoit un
 HTTP 403 « Just a moment ». Le backend FlareSolverr (--http-backend
@@ -1531,7 +1531,7 @@ def scrape_game(
             miroirs résolus (``_keepshieldMirrors``), on réinjecte ces miroirs
             au lieu de re-résoudre keepshield (économise ~3-4,5 s/jeu).
 
-    Returns a package dict matching the dlpsgame-ps5.json format, or None on failure.
+    Returns a package dict matching the ps5-catalog.json format, or None on failure.
     """
     overrides = dict(keepshield_overrides or {})
 
@@ -1970,7 +1970,7 @@ def build_catalog(packages: list[dict]) -> dict:
 def main(argv: Iterable[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="SuperPSX PS5 Games Scraper — produces a JSON catalog "
-                    "compatible with dlpsgame-ps5.json format.",
+                    "compatible with ps5-catalog.json format.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""\
 Examples:

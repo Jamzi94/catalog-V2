@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Génère une liste lisible de TOUS les jeux du catalogue, avec leur format.
 
-Entrée : le catalogue mergé (``dlpsgame-ps5.json``).
+Entrée : le catalogue mergé (``ps5-catalog.json``).
 Sorties (SANS liens ni sources — projet privé) :
   - ``games-list.md``  : index Markdown trié (titre, format, version)
                          + une répartition par format en tête.
@@ -128,8 +128,8 @@ def build(catalog_path: Path, md_path: Path, csv_path: Path) -> int:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("catalog", nargs="?", default="dlpsgame-ps5.json",
-                        help="catalogue JSON d'entrée (défaut: dlpsgame-ps5.json)")
+    parser.add_argument("catalog", nargs="?", default="ps5-catalog.json",
+                        help="catalogue JSON d'entrée (défaut: ps5-catalog.json)")
     parser.add_argument("--md", default="games-list.md",
                         help="sortie Markdown (défaut: games-list.md)")
     parser.add_argument("--csv", default="games-list.csv",

@@ -1,4 +1,4 @@
-# Configuration centrale du pipeline dlpsgame-ps5-catalog
+# Configuration centrale du pipeline ps5-catalog-catalog
 # Tous les scripts lisent ce fichier (fallback vers les valeurs par défaut si absent)
 
 sources:
@@ -119,8 +119,8 @@ http:
   keepalive_time: 60
 
 output:
-  catalog_file: "dlpsgame-ps5.json"
-  warnings_file: "dlpsgame-ps5.warnings.txt"
+  catalog_file: "ps5-catalog.json"
+  warnings_file: "ps5-catalog.warnings.txt"
   metrics_file: "scrape-metrics.json"
   diff_file: "diff-report.json"
-  artifact_name: "dlpsgame-ps5-catalog"
+  artifact_name: "ps5-catalog-catalog"

@@ -1365,7 +1365,7 @@ def scrape_all(
             # Checkpointing : sauvegarde partielle tous les N jeux
             if checkpoint_every > 0 and i % checkpoint_every == 0 and packages:
                 _checkpoint = build_catalog(packages)
-                _cp_path = Path("dlpsgame-ps5.checkpoint.json")
+                _cp_path = Path("ps5-catalog.checkpoint.json")
                 _cp_path.write_text(json.dumps(_checkpoint, ensure_ascii=False, indent=2), encoding="utf-8")
                 log.info("  Checkpoint : %d jeux sauvegardés", len(packages))
             time.sleep(PAGE_DELAY)
@@ -1452,7 +1452,7 @@ def main(argv: Iterable[str] | None = None) -> int:
                    help="Limite le nombre de pages de catégorie parcourues")
     p.add_argument("--max-games", type=int, default=None,
                    help="Limite le nombre de jeux scraped (utile pour test)")
-    p.add_argument("--out", type=Path, default=Path("dlpsgame-ps5.json"),
+    p.add_argument("--out", type=Path, default=Path("ps5-catalog.json"),
                    help="Chemin du fichier JSON de sortie")
     p.add_argument("--concurrency", type=int, default=2,
                    help="Nombre de threads pour scraper les pages de jeu "

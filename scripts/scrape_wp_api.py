@@ -15,7 +15,7 @@ extraire titleId, version, size, download links — identique au scraper HTML.
 
 Usage:
     # Full scrape via API
-    python scrape_wp_api.py --out dlpsgame-ps5.api.json
+    python scrape_wp_api.py --out ps5-catalog.api.json
 
     # Discovery only (just list game URLs)
     python scrape_wp_api.py --discover-only
@@ -24,7 +24,7 @@ Usage:
     python scrape_wp_api.py --max-pages 1 --verbose
 
     # Incremental mode (only new/changed games)
-    python scrape_wp_api.py --mode incremental --out dlpsgame-ps5.api.json
+    python scrape_wp_api.py --mode incremental --out ps5-catalog.api.json
 """
 
 from __future__ import annotations
@@ -1737,8 +1737,8 @@ def main(argv: list[str] | None = None) -> int:
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
-        "--out", type=Path, default=Path("dlpsgame-ps5.api.json"),
-        help="Output JSON path (default: dlpsgame-ps5.api.json)",
+        "--out", type=Path, default=Path("ps5-catalog.api.json"),
+        help="Output JSON path (default: ps5-catalog.api.json)",
     )
     parser.add_argument(
         "--max-pages", type=int, default=None,
