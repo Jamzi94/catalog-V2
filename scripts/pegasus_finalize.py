@@ -67,6 +67,10 @@ BRAND_SOURCE_URL = "https://phoenixdl.com"
 
 # Conteneurs (pas un format de jeu) et libellés de section (axe orthogonal).
 _CONTAINER_FMT = {"rar", "zip", "7z", "iso", "tar", "gz", "part"}
+
+# Priorité d'affichage des formats de base : ce qui dit le TYPE du paquet
+# d'abord, ce qui n'est qu'une modalité de livraison ensuite.
+_BASE_FMT_ORDER = {"pkg": 0, "fpkg": 0, "apr-emu": 1, "folder": 10}
 _SECTION_FMT = {"exfat", "backport", "dlc", "dump", "standard", "fix"}
 
 
@@ -82,7 +86,11 @@ def _base_format(file_format) -> str:
             continue
         if str(f) not in tags:
             tags.append(str(f))
-    return " · ".join(tags)
+    # Ordre CANONIQUE, pas l'ordre d'arrivée : le même jeu de formats sortait
+    # « APR-EMU · PKG » ou « PKG · APR-EMU » selon la source, ce qui affichait
+    # deux libellés différents pour une réalité identique (1 078 vs 1 035 liens
+    # mesurés). Le type de paquet d'abord, les qualificatifs ensuite.
+    return " · ".join(sorted(tags, key=lambda t: (_BASE_FMT_ORDER.get(t.lower(), 50), t.lower())))
 
 
 def _strip_unknown(fmt_str: str) -> str:
@@ -129,10 +137,17 @@ def _link_format(name: str, url: str, game_fmt: str, base_fmt: str, group: str) 
     if detected:
         return detected
 
-    # 3) Section « Standard » -> format de paquet de base ; 4) sinon format du jeu
+    # 3) Section « Standard » -> format de paquet de base
     if g.lower() == "standard" and base_fmt:
         return base_fmt
-    return game_fmt
+    # 4) Dernier repli. On rend le format de BASE du paquet (PKG/FPKG/APR-EMU…),
+    # pas `game_fmt` : ce dernier est la CONCATÉNATION de tous les formats du
+    # jeu (« exFAT · PKG · Backport »), recopiée telle quelle sur un lien dont
+    # on ignore justement la nature — elle affirme trois formats là où on n'en
+    # connaît aucun, et 70 % des liens du catalogue portaient cette étiquette.
+    # `base_fmt` est déjà calculé et déjà passé ici : il était simplement
+    # inutilisé dans ce cas.
+    return base_fmt or game_fmt
 
 
 def _clean_links(pkg: dict) -> int:

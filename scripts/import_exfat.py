@@ -305,6 +305,25 @@ def _extract_url_from_obj(obj: Any) -> str | None:
     return None
 
 
+_BACKPORT_TAG_RE = re.compile(r"(\d)\.xx\s*backpo", re.IGNORECASE)
+
+
+def _backport_from_tags(record: dict) -> str:
+    """Section « Backport N.xx » lue dans les tags de la fiche, sinon "".
+
+    Seul signal de section exploitable pour les clés nues. Volontairement
+    restrictif : tout autre tag (région, version, « DLCs Merged ») est ignoré,
+    car aucun n'indique la nature du lien.
+    """
+    tags = record.get("tags")
+    if isinstance(tags, str):
+        tags = [tags]
+    if not isinstance(tags, list):
+        return ""
+    m = _BACKPORT_TAG_RE.search(" ".join(str(t) for t in tags))
+    return f"Backport {m.group(1)}.xx" if m else ""
+
+
 def _linklock_name(url: str) -> str | None:
     """Nom d'hébergeur en clair du fragment LinkLock (champ « n »), ou None.
 
@@ -536,7 +555,16 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
             elif "dump" in k:
                 group = "Dump"
             else:
-                group = ""
+                # Clé NUE (akia_url, viki_url…) : elle ne porte aucune section,
+                # et c'est la famille la plus nombreuse de la source. Sans
+                # section, pegasus_finalize retombait sur le format du PAQUET
+                # et recopiait « exFAT · PKG · Backport » sur chaque lien.
+                # `tags` porte l'info : « 4.xx BackPort » sur 276 des 419 fiches
+                # concernées. On ne lit QUE ce signal-là.
+                # NE PAS déduire DLC de « DLCs Merged » : ça veut dire que les
+                # DLC sont intégrés aux fichiers du jeu, PAS que le lien est un
+                # DLC — l'inverse de ce qu'on croirait.
+                group = _backport_from_tags(record)
             flat_links.append({"url": v, "_key": k, "_group": group})
         raw_links = flat_links
 
