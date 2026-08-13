@@ -198,12 +198,21 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     for link in pkg.get("downloadLinks") or []:
         if not (isinstance(link, dict) and link.get("name")):
             continue
-        base = re.sub(r"\s*\[[^\]]*\]\s*$", "", link["name"]).rstrip()
+        # Idempotent : on retire l'étiquette qu'elle soit en tête (format actuel)
+        # ou en fin (format historique, avant l'inversion ci-dessous).
+        base = re.sub(r"^\s*\[[^\]]*\]\s*", "", link["name"])
+        base = re.sub(r"\s*\[[^\]]*\]\s*$", "", base).strip()
         link_fmt = _strip_unknown(_link_format(base, link.get("url", ""), fmt, base_fmt, link.get("group", "")))
         # Version PROPRE au lien (section), sinon version du jeu en repli.
         link_version = (link.get("version") or "").strip() or version
-        tag = " · ".join(p for p in (link_fmt, f"v{link_version}" if link_version else "") if p)
-        link["name"] = f"{base} [{tag}]" if tag else base
+        # ÉTIQUETTE EN TÊTE, version d'abord. L'app rend ce nom dans une boîte
+        # `white-space: nowrap; text-overflow: ellipsis` d'environ 31 caractères
+        # (mesuré : 180 px utiles pour 281 px requis, panneau de 319 px à 1920×1080).
+        # En fin de chaîne, version et type de lien étaient TOUJOURS coupés.
+        # `base` (nom du miroir) passe en dernier : il est déjà affiché juste en
+        # dessous par `.download-link-host` (« 1fichier.com »), donc redondant.
+        tag = " · ".join(p for p in (f"v{link_version}" if link_version else "", link_fmt) if p)
+        link["name"] = f"[{tag}] {base}" if tag else base
 
     # 4) Validation Pegasus
     if not (pkg.get("titleId") or "").strip():
