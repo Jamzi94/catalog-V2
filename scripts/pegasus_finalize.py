@@ -71,6 +71,13 @@ _CONTAINER_FMT = {"rar", "zip", "7z", "iso", "tar", "gz", "part"}
 # Priorité d'affichage des formats de base : ce qui dit le TYPE du paquet
 # d'abord, ce qui n'est qu'une modalité de livraison ensuite.
 _BASE_FMT_ORDER = {"pkg": 0, "fpkg": 0, "apr-emu": 1, "folder": 10}
+
+# « Backport - Viki », « DLC - Data », « Backport 4.xx - Akia »… : préfixe de
+# section écrit dans le nom par les anciennes versions des scrapers. La section
+# est désormais portée par le champ `group` et affichée dans l'étiquette [...].
+_SECTION_PREFIX_RE = re.compile(
+    r"^(?:Backport(?:\s+\d\.xx)?|DLC|Dump|Fix|exFAT|Standard)\s*-\s*", re.IGNORECASE
+)
 _SECTION_FMT = {"exfat", "backport", "dlc", "dump", "standard", "fix"}
 
 
@@ -225,6 +232,13 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # ou en fin (format historique, avant l'inversion ci-dessous).
         base = re.sub(r"^\s*\[[^\]]*\]\s*", "", link["name"])
         base = re.sub(r"\s*\[[^\]]*\]\s*$", "", base).strip()
+        # Préfixe de section resté dans le nom (« Backport - Viki »). Les
+        # scrapers ne l'écrivent plus, mais merge_links() ne remplace jamais un
+        # `name` déjà renseigné : les liens connus des runs précédents gardaient
+        # le leur indéfiniment (416 mesurés). On le retire ici, où toutes les
+        # entrées repassent à chaque run — c'est le seul endroit qui répare
+        # aussi l'existant.
+        base = _SECTION_PREFIX_RE.sub("", base).strip() or base
         link_fmt = _strip_unknown(_link_format(base, link.get("url", ""), fmt, base_fmt, link.get("group", "")))
         # Version PROPRE au lien (section), sinon version du jeu en repli.
         link_version = (link.get("version") or "").strip() or version
