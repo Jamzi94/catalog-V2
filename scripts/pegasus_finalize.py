@@ -29,7 +29,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 from formats import display_label, normalize_formats
 
@@ -78,6 +78,28 @@ _BASE_FMT_ORDER = {"pkg": 0, "fpkg": 0, "apr-emu": 1, "folder": 10}
 _SECTION_PREFIX_RE = re.compile(
     r"^(?:Backport(?:\s+\d\.xx)?|DLC|Dump|Fix|exFAT|Standard)\s*-\s*", re.IGNORECASE
 )
+
+# Segments d'attribution repris des pages sources (« Credits: … », « Thanks: … »).
+# Ils sont retirés de la description publiée : ce catalogue ne relaie pas ces
+# mentions. Appliqué à la finalisation, donc les descriptions déjà en base sont
+# nettoyées au run suivant, pas seulement les nouvelles.
+_CREDITS_SEG_RE = re.compile(r"^\s*(?:credits?|thanks?|thx)\s*[:\-]", re.IGNORECASE)
+
+
+def _strip_credits(desc: str) -> str:
+    """Retire les segments d'attribution d'une description.
+
+    La description est une suite de segments « A | B | C » (et parfois de
+    lignes). On retire tout segment qui EST une mention d'attribution ; on ne
+    touche à rien d'autre — un segment « Size: … » ou « Tags: … » est conservé.
+    """
+    lignes = []
+    for ligne in (desc or "").split("\n"):
+        gardes = [s for s in ligne.split("|") if not _CREDITS_SEG_RE.match(s)]
+        nouvelle = " | ".join(s.strip() for s in gardes if s.strip())
+        if nouvelle or not ligne.strip():
+            lignes.append(nouvelle)
+    return "\n".join(lignes).strip()
 _SECTION_FMT = {"exfat", "backport", "dlc", "dump", "standard", "fix"}
 
 
@@ -157,6 +179,36 @@ def _link_format(name: str, url: str, game_fmt: str, base_fmt: str, group: str) 
     return base_fmt or game_fmt
 
 
+_PART_RE = re.compile(r"[._\-\s]part\s*(\d{1,3})\b", re.IGNORECASE)
+
+
+def _number_parts(pkg: dict) -> None:
+    """Suffixe « n/N » aux liens d'une archive découpée (sur place).
+
+    Le numéro vient du nom de fichier contenu dans l'URL. On ne numérote QUE
+    les groupes où chaque lien du même libellé porte un numéro distinct : si
+    l'information manque ou se répète, on ne peut rien affirmer et on laisse
+    le libellé tel quel plutôt que d'inventer un ordre.
+    """
+    links = pkg.get("downloadLinks") or []
+    groupes: dict[str, list] = {}
+    for link in links:
+        if isinstance(link, dict) and link.get("name"):
+            groupes.setdefault(link["name"], []).append(link)
+    for nom, groupe in groupes.items():
+        if len(groupe) < 2:
+            continue
+        numeros = []
+        for link in groupe:
+            m = _PART_RE.search(unquote(link.get("url", "")))
+            numeros.append(int(m.group(1)) if m else None)
+        if any(n is None for n in numeros) or len(set(numeros)) != len(numeros):
+            continue
+        total = max(numeros)
+        for link, n in zip(groupe, numeros):
+            link["name"] = f"{nom} {n:02d}/{total:02d}"
+
+
 def _clean_links(pkg: dict) -> int:
     """Retire les downloadLinks à URL vide/non-http ET les link-lockers (filecrypt/
     shrinkearn/clk : captcha, pas de lien direct) — sauf si ce sont les SEULS liens
@@ -199,7 +251,7 @@ def finalize_package(pkg: dict, stats: dict) -> None:
 
     # 3) Surfaçage du format (idempotent)
     label = display_label(pkg.get("fileFormat"))
-    desc = pkg.get("description") or ""
+    desc = _strip_credits(pkg.get("description") or "")
     desc_lines = [l for l in desc.split("\n") if not l.startswith("Format:")]
     desc_body = "\n".join(desc_lines).lstrip("\n")
     if label:
@@ -250,6 +302,12 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # dessous par `.download-link-host` (« 1fichier.com »), donc redondant.
         tag = " · ".join(p for p in (f"v{link_version}" if link_version else "", link_fmt) if p)
         link["name"] = f"[{tag}] {base}" if tag else base
+    # Archives découpées : « …part01.rar », « …part02.rar »… produisaient N
+    # libellés IDENTIQUES (12 mesurés sur Marvels Spider Man 2, PPSA03016), ce
+    # qui donne l'impression de doublons alors que ce sont N fichiers dont il
+    # faut la TOTALITÉ. Le numéro est dans l'URL, jamais dans le nom : on le
+    # remonte, avec le total, pour qu'un manquant se voie.
+    _number_parts(pkg)
 
     # 4) Validation Pegasus
     if not (pkg.get("titleId") or "").strip():
