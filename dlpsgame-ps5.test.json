@@ -3,228 +3,6 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA13871",
-      "title": "Neko Rescue Tale",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6rki.jpg",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA13871, v1.000, 4.xx, 5.xx, EUR\nSize: 207 MB\nCredits: Pippo26442999 x SiESPTA\nThanks: SiESPTA for the Files and kerrdec97 for the BackPort.",
-      "downloadLinks": [
-        {
-          "name": "[v01.000 · PKG] Akia",
-          "url": "https://akirabox.com/Y2xm01j6q3RO/file",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · PKG] Viki",
-          "url": "https://vikingfile.com/f/G4RpThBp7T",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · PKG] Data",
-          "url": "https://datanodes.to/jp5em1bvkf7o",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Backport] Akia",
-          "url": "https://akirabox.com/jJD3VLZa0Ga5/file",
-          "group": "Backport"
-        },
-        {
-          "name": "[v01.000 · Backport] Viki",
-          "url": "https://vikingfile.com/f/4SyTQ7SVLn",
-          "group": "Backport"
-        },
-        {
-          "name": "[v01.000 · Backport] Data",
-          "url": "https://datanodes.to/5voo5e38uboo",
-          "group": "Backport"
-        },
-        {
-          "name": "[v01.000 · Backport] Filek",
-          "url": "https://filekeeper.net/mordlp1crto2",
-          "group": "Backport"
-        },
-        {
-          "name": "[v01.000 · Backport] Vault",
-          "url": "https://datavaults.co/sxoqhotmg6jb",
-          "group": "Backport"
-        },
-        {
-          "name": "[v01.000 · PKG] Viki",
-          "url": "https://vikingfile.com/f/wTXaqrvTYm",
-          "group": "Standard",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · PKG] Rootz",
-          "url": "https://www.rootz.so/d/o8ktM",
-          "group": "Standard",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · PKG] 1File",
-          "url": "https://1fichier.com/?gfphzj1kwsoiycdwuat1",
-          "group": "Standard",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Backport] Viki",
-          "url": "https://vikingfile.com/f/po750h7SpQ",
-          "group": "Backport",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Backport] Rootz",
-          "url": "https://www.rootz.so/d/1slHrU",
-          "group": "Backport",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Backport] 1File",
-          "url": "https://1fichier.com/?c4mkzioibqupygqdw09b",
-          "group": "Backport",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · PKG] Rootz",
-          "url": "https://www.rootz.so/d/1F13wW",
-          "version": "01.000"
-        }
-      ],
-      "sizeBytes": 524288000,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "PKG",
-        "Backport 4.xx",
-        "exFAT"
-      ],
-      "_enrichedAt": "2026-07-23T05:32:03.331802+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "neko-nin-exheart",
-        "rawgName": "NEKO-NIN exHeart",
-        "rating": 3.67,
-        "metacritic": null,
-        "released": "2017-04-21",
-        "genres": [
-          "Casual",
-          "Indie",
-          "Action",
-          "Simulation"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:37:22.828748+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG · Backport"
-    },
-    {
-      "titleId": "PPSA24515",
-      "title": "Alone in The Dark 2 1996",
-      "version": "01.000.003",
-      "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Alone_in_The_Dark_2_1996.webp",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA24515, v1.000.003, 4.xx, EUR\nSize: 1 GB\nCredits: Pippo26442999\nThanks: DLPS Team for the Files and DecKerr97 for the BackPort.",
-      "downloadLinks": [
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Akia",
-          "url": "https://akirabox.com/RMKGJQ41wz1o/file",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Viki",
-          "url": "https://vikingfile.com/f/vAoCIez7lW",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Data",
-          "url": "https://datanodes.to/3c47d0dn548a",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Filek",
-          "url": "https://filekeeper.net/ilrdhtjnap2y",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Vault",
-          "url": "https://datavaults.co/ztibv6ge1u0n",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · PKG] Viki",
-          "url": "https://vikingfile.com/f/kwMWUUv1sb",
-          "group": "Standard",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · PKG] Rootz",
-          "url": "https://www.rootz.so/d/z0gMq",
-          "group": "Standard",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · PKG] 1File",
-          "url": "https://1fichier.com/?tvsmk452irqnzepw3d6w&af=4186346",
-          "group": "Standard",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · Backport] Viki",
-          "url": "https://vikingfile.com/f/kBpImc5XWn",
-          "group": "Backport",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · Backport] Rootz",
-          "url": "https://www.rootz.so/d/2Bgv44",
-          "group": "Backport",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · Backport] 1File",
-          "url": "https://1fichier.com/?x67yyxeabstc14zx723n&af=4186346",
-          "group": "Backport",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · PKG] Rootz",
-          "url": "https://www.rootz.so/d/1KhXmK",
-          "version": "01.000.003"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "PKG",
-        "Backport 4.xx",
-        "exFAT"
-      ],
-      "_enrichedAt": "2026-08-01T05:58:21.381192+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "alone-in-the-dark-2022",
-        "rawgName": "Alone in the Dark",
-        "rating": 3.56,
-        "metacritic": null,
-        "released": "2024-03-20",
-        "genres": [
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/719/7197c4abfd5cfac909548dce23b74daa.jpg"
-      },
-      "formatLabel": "exFAT · PKG · Backport"
-    },
-    {
       "titleId": "PPSA16617",
       "title": "The Lord of The Rings Return to Moria",
       "version": "01.000",
@@ -385,6 +163,186 @@
       "_igdbEnrichedAt": "2026-06-28T21:57:10.699320+00:00",
       "_igdbMatched": true,
       "formatLabel": "Backport 4.xx"
+    },
+    {
+      "titleId": "PPSA19268",
+      "title": "Juicy Realm",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27oq.jpg",
+      "description": "Format: exFAT · PKG\nTags: PPSA19268, v01.000, USA\nSize: 300 MB\nPassword: SuperPSX\nVoices: English, French (France), Portuguese (Brazil), Spanish (Mexico)\nWorks on 8.xx and higher",
+      "downloadLinks": [
+        {
+          "name": "[v01.000 · PKG] Akia",
+          "url": "https://akirabox.com/qLQ36xbDYG19/file",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Viki",
+          "url": "https://vikingfile.com/f/mPrR9asFz6",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Data",
+          "url": "https://datanodes.to/pmcx4p3e9v21",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Viki",
+          "url": "https://vikingfile.com/f/Br86u8xMmJ",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Rootz",
+          "url": "https://www.rootz.so/d/1Dxals",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] 1File",
+          "url": "https://1fichier.com/?8awk3lf1siq3svtmk6q7&af=4186346",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Rootz",
+          "url": "https://rootz.so/d/27UXwm",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Buzz",
+          "url": "https://buzzheavier.com/5z6hwsjbrgoy",
+          "version": "01.000"
+        }
+      ],
+      "sizeBytes": 461373440,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · PKG"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "PKG"
+      ],
+      "_enrichedAt": "2026-07-23T05:31:42.569534+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "juicy-realm",
+        "rawgName": "Juicy Realm",
+        "rating": 4.0,
+        "metacritic": null,
+        "released": "2019-11-07",
+        "genres": [
+          "Indie",
+          "Adventure",
+          "Action",
+          "RPG"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:36:56.225821+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "exFAT · PKG"
+    },
+    {
+      "titleId": "PPSA16159",
+      "title": "Monster Jam Showdown",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8oel.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA16159, v1.000, 4.xx, 5.xx",
+      "downloadLinks": [
+        {
+          "name": "[v01.000 · Folder] Akia",
+          "url": "https://akirabox.com/l76mZDE6nzan/file",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Folder] Viki",
+          "url": "https://vikingfile.com/f/wrMCfiqvuN",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Folder] 1File",
+          "url": "https://1fichier.com/?f1yrtj8l3e43cxv1vl5f",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Backport] Mediafire",
+          "url": "https://www.mediafire.com/file/7krgpvrz3s854kw/4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Folder] Viki",
+          "url": "https://vikingfile.com/f/vdQx57zORx",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Folder] 1File",
+          "url": "https://1fichier.com/?1w81h59yuffezg4czpud",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Folder] Rootz",
+          "url": "https://www.rootz.so/d/1lU38a",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Backport] Mediafire",
+          "url": "https://www.mediafire.com/file/70t5407d2kdqvee/5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Folder] Viki",
+          "url": "https://vikingfile.com/f/WGY0sgANyy",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Folder] 1File",
+          "url": "https://1fichier.com/?e98v7xlxhrbneo5bn56x",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Folder] Rootz",
+          "url": "https://www.rootz.so/d/1ziV0q",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · Backport] Mediafire",
+          "url": "https://www.mediafire.com/file/7krgpvrz3s854kw/4XX+PPSA16159_%E2%80%93_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file"
+        },
+        {
+          "name": "[v01.000 · Backport] Mediafire",
+          "url": "https://www.mediafire.com/file/70t5407d2kdqvee/5XX+PPSA16159_%E2%80%93_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Folder · Backport 4.xx"
+      ],
+      "fileFormat": [
+        "Folder",
+        "ZIP",
+        "Backport 4.xx",
+        "Backport 5.xx"
+      ],
+      "sizeBytes": 99503004,
+      "_enrichedAt": "2026-07-23T05:31:59.295739+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "monster-jam-showdown",
+        "rawgName": "Monster Jam Showdown",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2024-08-29",
+        "genres": [
+          "Racing",
+          "Sports"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:37:17.703951+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "Folder · Backport 4.xx"
     }
   ]
 }
