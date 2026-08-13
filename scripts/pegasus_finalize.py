@@ -39,6 +39,14 @@ from formats import display_label, normalize_formats
 _LOCKER_HOSTS = {
     "filecrypt.cc", "filecrypt.co", "filecrypt.to",
     "shrinkearn.com", "clk.sh", "ouo.io", "linkvertise.com",
+    # Link-Lock du site exFAT : une page HTML qui ne révèle l'URL réelle qu'en
+    # exécutant du JS. import_exfat.py la résout désormais (les deux schémas,
+    # mot de passe public « pippo »), donc un lien qui porte ENCORE cet hôte est
+    # soit un résidu d'avant le correctif, soit un déchiffrement échoué : dans
+    # les deux cas il téléchargerait une page web, pas un jeu. Le retirer
+    # supprime aussi les doublons « chiffré + déchiffré » du même fichier, que
+    # merge_links() ne peut pas voir puisqu'il dédoublonne par chaîne d'URL.
+    "pippo26442999.github.io",
 }
 
 # Garde-fou : aucun jeu PS5 réel n'approche 900 Go (le SSD console fait 825 Go).
