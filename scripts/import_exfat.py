@@ -602,20 +602,16 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
 
         group = normalize_group(raw_group or raw_name)
         mirror = detect_mirror(url, fallback=(payload_name or raw_name or None))
-        if is_flat:
-            # Section PORTÉE PAR LE CHAMP `group`, pas recopiée dans le nom.
-            # Deux raisons : pegasus_finalize l'affiche déjà dans l'étiquette
-            # [...] — la préfixer ici donnait « [v01.007 · DLC] DLC - Data » —
-            # et surtout elle n'était nulle part stockée, donc _link_format
-            # devait la redeviner depuis le texte du nom, ce qui perdait la
-            # précision : « Backport 4.xx » redevenait « Backport ».
-            # On garde la section BRUTE (avec sa version) plutôt que celle
-            # aplatie par normalize_group().
-            name = mirror
-            section = (raw_group or "").strip() or group
-        else:
-            name = f"{group} - {mirror}" if group in ("Backport", "DLC", "Dump", "exFAT") else mirror
-            section = (raw_group or "").strip() or group
+        # Section PORTÉE PAR LE CHAMP `group`, jamais recopiée dans le nom.
+        # Deux raisons : pegasus_finalize l'affiche déjà dans l'étiquette
+        # [...] — la préfixer ici donnait « [v01.200.007 · Backport] Backport
+        # - Viki », le mot écrit deux fois pour 11 caractères perdus sur les 31
+        # visibles — et surtout, stockée dans `group`, elle garde sa précision
+        # (« Backport 4.xx ») au lieu d'être redevinée depuis le texte du nom.
+        # Vaut pour TOUTES les sources : le garde `is_flat` n'existe plus, la
+        # branche structurée (SuperPSX, dlpsgame) suit la même règle.
+        name = mirror
+        section = (raw_group or "").strip() or group
 
         seen_urls.add(url)
         link: dict[str, str] = {"name": name, "url": url}

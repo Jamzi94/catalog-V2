@@ -1350,10 +1350,13 @@ def parse_dll_page(url: str) -> dict | None:
                     group = current_section_label
 
                 for link in dl_links:
+                    # La section n'est PAS recopiee dans le nom : elle part
+                    # dans le champ `group` ci-dessous, et pegasus_finalize
+                    # l'affiche deja dans l'etiquette [...]. La prefixer ici
+                    # donnait « [v01.200.007 · Backport] Backport - Viki », le
+                    # mot ecrit deux fois pour 11 caracteres perdus sur les 31
+                    # visibles dans l'app.
                     link_name = link["name"]
-                    # Prefix with group name for non-Standard groups
-                    if group in ("Backport", "DLC", "Fix", "Dump", "exFAT"):
-                        link_name = f"{group} - {link_name}"
                     all_links.append({
                         "name": link_name,
                         "url": link["url"],
@@ -1369,7 +1372,7 @@ def parse_dll_page(url: str) -> dict | None:
 
                 dl_links = _extract_download_links_from_cell(value_cell)
                 for link in dl_links:
-                    link_name = f"Fix - {link['name']}"
+                    link_name = link["name"]  # section portee par `group`
                     all_links.append({
                         "name": link_name,
                         "url": link["url"],
@@ -1385,7 +1388,7 @@ def parse_dll_page(url: str) -> dict | None:
 
                 dl_links = _extract_download_links_from_cell(value_cell)
                 for link in dl_links:
-                    link_name = f"Backport - {link['name']}"
+                    link_name = link["name"]  # section portee par `group`
                     all_links.append({
                         "name": link_name,
                         "url": link["url"],
@@ -1397,7 +1400,7 @@ def parse_dll_page(url: str) -> dict | None:
             elif row_label_lower.startswith("dlc"):
                 dl_links = _extract_download_links_from_cell(value_cell)
                 for link in dl_links:
-                    link_name = f"DLC - {link['name']}"
+                    link_name = link["name"]  # section portee par `group`
                     all_links.append({
                         "name": link_name,
                         "url": link["url"],

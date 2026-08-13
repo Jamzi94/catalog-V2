@@ -1050,18 +1050,28 @@ def build_download_links(
             # On recalcule le nom du miroir à partir de l'URL finale (plus fiable)
             mirror = extract_mirror_name(direct, text)
 
-            # Si on a un groupe spécifique (Backport/DLC/Dump/exFAT), on préfixe
-            # le nom pour rester compatible avec le script.js convertSingleGame.
-            if group in ("Backport", "DLC", "Dump", "exFAT"):
-                name = f"{group} - {mirror}"
-            else:
-                name = mirror
+            # La section n'est PAS recopiée dans le nom : elle voyage dans le
+            # champ `group` du lien, et pegasus_finalize l'affiche déjà dans
+            # l'étiquette [...]. La préfixer ici donnait « [v… · Backport]
+            # Backport - Viki », le mot écrit deux fois pour 11 caractères
+            # perdus sur les 31 visibles dans l'app.
+            # `group` DOIT être écrit ici : ce script ne le posait pas, donc
+            # retirer le préfixe sans l'ajouter aurait fait disparaître la
+            # section au lieu de la déplacer.
+            # (L'ancien commentaire invoquait la compatibilité avec
+            # `script.js` / convertSingleGame : ce fichier n'existe dans aucun
+            # des deux dépôts, et l'app se contente d'AFFICHER link.name sans
+            # jamais le découper.)
+            name = mirror
 
             dedupe_key = direct
             if dedupe_key in seen_urls:
                 continue
             seen_urls.add(dedupe_key)
-            out.append({"name": name, "url": direct})
+            link: dict[str, str] = {"name": name, "url": direct}
+            if group and group != "Standard":
+                link["group"] = group
+            out.append(link)
 
     return out
 

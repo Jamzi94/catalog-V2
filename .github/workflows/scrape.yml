@@ -516,6 +516,18 @@ jobs:
               --md games-list.md --csv games-list.csv
           fi
 
+      - name: Generate test catalog (3 small games)
+        if: env.MERGE_SKIPPED != '1'
+        run: |
+          # Mini-catalogue à donner à un client : même structure que la
+          # production, 3 jeux seulement, tirés au sort parmi les plus PETITS
+          # pour qu'un test de téléchargement de bout en bout reste rapide.
+          # Tirage non figé : la sélection change d'un run à l'autre.
+          if [ -f dlpsgame-ps5.json ]; then
+            python3 scripts/build_test_catalog.py dlpsgame-ps5.json \
+              --out dlpsgame-ps5.test.json --count 3
+          fi
+
       # ──────────────────────────────────────────────────────────────
       # MÉTRIQUES ET DIFF
       # ──────────────────────────────────────────────────────────────
@@ -615,6 +627,7 @@ jobs:
           git status --short
 
           git add -f dlpsgame-ps5.json
+          [ -f dlpsgame-ps5.test.json ] && git add -f dlpsgame-ps5.test.json || true
           [ -f dlpsgame-ps5.warnings.txt ] && git add -f dlpsgame-ps5.warnings.txt || true
           [ -f scrape-metrics.json ] && git add -f scrape-metrics.json || true
           [ -f games-list.md ] && git add -f games-list.md || true
@@ -668,6 +681,20 @@ jobs:
             [ -f games-list.csv ] && echo "$RAW/games-list.csv"
             [ -f games-list.md ]  && echo "$RAW/games-list.md"
             echo '```'
+            if [ -f dlpsgame-ps5.test.json ]; then
+              echo ""
+              echo "### Catalogue de TEST (3 petits jeux, à donner à un client)"
+              echo ""
+              echo '```'
+              echo "$RAW/dlpsgame-ps5.test.json"
+              echo '```'
+              python3 -c "
+          import json
+          d = json.load(open('dlpsgame-ps5.test.json', encoding='utf-8'))
+          for p in d['packages']:
+              print(f\"- {p['title']} — {p.get('sizeBytes',0)/2**30:.2f} Go — {len(p.get('downloadLinks') or [])} liens\")
+          " 2>/dev/null || true
+            fi
           } >> $GITHUB_STEP_SUMMARY
 
       - name: Upload artifact
