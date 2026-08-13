@@ -545,9 +545,9 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
             if "standard" in k:
                 group = "Standard"
             elif "backport7xx" in k:
-                group = "Backport"
+                group = "Backport 7.xx"
             elif "backport4xx" in k:
-                group = "Backport"
+                group = "Backport 4.xx"
             elif "backport" in k:
                 group = "Backport"
             elif "dlc" in k:
@@ -571,7 +571,8 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
     for item in raw_links:
         # Support both dict items (from flat extraction or structured downloadLinks)
         # and the iter_links output format.
-        if isinstance(item, dict) and "_key" in item:
+        is_flat = isinstance(item, dict) and "_key" in item
+        if is_flat:
             raw_url = item.get("url", "")
             raw_group = item.get("_group", "")
             raw_name = item.get("_key", "")
@@ -601,13 +602,26 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
 
         group = normalize_group(raw_group or raw_name)
         mirror = detect_mirror(url, fallback=(payload_name or raw_name or None))
-        if group in ("Backport", "DLC", "Dump", "exFAT"):
-            name = f"{group} - {mirror}"
-        else:
+        if is_flat:
+            # Section PORTÉE PAR LE CHAMP `group`, pas recopiée dans le nom.
+            # Deux raisons : pegasus_finalize l'affiche déjà dans l'étiquette
+            # [...] — la préfixer ici donnait « [v01.007 · DLC] DLC - Data » —
+            # et surtout elle n'était nulle part stockée, donc _link_format
+            # devait la redeviner depuis le texte du nom, ce qui perdait la
+            # précision : « Backport 4.xx » redevenait « Backport ».
+            # On garde la section BRUTE (avec sa version) plutôt que celle
+            # aplatie par normalize_group().
             name = mirror
+            section = (raw_group or "").strip() or group
+        else:
+            name = f"{group} - {mirror}" if group in ("Backport", "DLC", "Dump", "exFAT") else mirror
+            section = (raw_group or "").strip() or group
 
         seen_urls.add(url)
-        extracted_links.append({"name": name, "url": url})
+        link: dict[str, str] = {"name": name, "url": url}
+        if section and section != "Standard":
+            link["group"] = section
+        extracted_links.append(link)
 
     if not extracted_links:
         return None
