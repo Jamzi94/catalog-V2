@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import base64
 import datetime as dt
+import functools
 import hashlib
 import json
 import logging
@@ -38,6 +39,22 @@ LOG = logging.getLogger("import_exfat")
 # rapportées en fin d'import : un échec massif signale un changement de schéma
 # côté site, pas un lien isolé cassé.
 DECRYPT_FAILURES: list[str] = []
+
+# Jeux de paramètres PBKDF2 des déploiements Link-Lock du site, essayés dans
+# cet ordre. Le moins coûteux d'abord. En ajouter un plutôt que d'en remplacer
+# un : les deux déploiements coexistent.
+PBKDF2_ITERATIONS = (100_000, 600_000)
+
+
+@functools.lru_cache(maxsize=1024)
+def _derive_key(salt: bytes, iterations: int) -> bytes:
+    """Clé AES dérivée du mot de passe public « pippo ».
+
+    Mise en cache : sans elle, chaque lien refaisait la dérivation complète
+    (jusqu'à 600 000 tours de HMAC), soit des dizaines de milliers de fois par
+    run pour au plus quelques centaines de sels distincts.
+    """
+    return hashlib.pbkdf2_hmac("sha256", b"pippo", salt, iterations, dklen=32)
 
 MIRROR_PATTERNS = [
     ("akirabox", "Akia"),
@@ -334,12 +351,7 @@ def decrypt_linklock(url: str) -> str:
         encrypted = b64url_decode(str(payload_obj["e"]))
         salt = b64url_decode(str(payload_obj.get("s"))) if payload_obj.get("s") else b"\x00" * 16
         iv = b64url_decode(str(payload_obj.get("i"))) if payload_obj.get("i") else b"\x00" * 12
-        # 600 000 itérations : valeur LUE dans le JS du site le 2026-08-13
-        # (pippo26442999.github.io/library-decrypt/api.js — `iterations: 600000`).
-        # À 100 000 le GCM échouait sur 100 % des liens (InvalidTag).
-        key = hashlib.pbkdf2_hmac("sha256", b"pippo", salt, 600000, dklen=32)
 
-        tag = None
         if payload_obj.get("t"):
             tag = b64url_decode(str(payload_obj["t"]))
             ciphertext = encrypted
@@ -347,9 +359,25 @@ def decrypt_linklock(url: str) -> str:
             ciphertext = encrypted[:-16]
             tag = encrypted[-16:]
 
-        decryptor = Cipher(algorithms.AES(key), modes.GCM(iv, tag)).decryptor()
-        plain = decryptor.update(ciphertext) + decryptor.finalize()
-        text = plain.decode("utf-8", errors="replace").strip()
+        # Le site sert DEUX déploiements Link-Lock qui ne dérivent pas la clé
+        # de la même façon (les deux LUS dans leur api.js le 2026-08-13) :
+        #   link-lock-pippo/                    -> 100 000, sel porté par la charge
+        #   library-decrypt/decrypt-public.html -> 600 000, sel nul
+        # On essaie les deux : GCM authentifie, donc le bon jeu se reconnaît
+        # tout seul et il n'y a aucun risque de confusion. Ne JAMAIS coder un
+        # seul nombre ici — fixer l'un casse silencieusement l'autre (constaté).
+        text = None
+        for iterations in PBKDF2_ITERATIONS:
+            try:
+                key = _derive_key(salt, iterations)
+                decryptor = Cipher(algorithms.AES(key), modes.GCM(iv, tag)).decryptor()
+                plain = decryptor.update(ciphertext) + decryptor.finalize()
+            except Exception:  # noqa: BLE001 — mauvais jeu de paramètres, on essaie le suivant
+                continue
+            text = plain.decode("utf-8", errors="replace").strip()
+            break
+        if text is None:
+            raise ValueError(f"aucun jeu PBKDF2 connu ne déchiffre {PBKDF2_ITERATIONS}")
 
         if text.startswith("{"):
             nested = json.loads(text)
