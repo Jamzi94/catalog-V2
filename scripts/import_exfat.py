@@ -34,6 +34,11 @@ STATE_VERSION = 1
 
 LOG = logging.getLogger("import_exfat")
 
+# URL dont le déchiffrement LinkLock a échoué sur ce run. Comptées et
+# rapportées en fin d'import : un échec massif signale un changement de schéma
+# côté site, pas un lien isolé cassé.
+DECRYPT_FAILURES: list[str] = []
+
 MIRROR_PATTERNS = [
     ("akirabox", "Akia"),
     ("vikingfile", "Viki"),
@@ -272,11 +277,32 @@ def _extract_url_from_obj(obj: Any) -> str | None:
     if isinstance(obj, str):
         return obj.strip() or None
     if isinstance(obj, dict):
-        for key in ("url", "href", "link", "download", "src"):
+        # « u » : clé utilisée par la charge LinkLock déchiffrée
+        # ({"v":"0.0.1","u":"https://…"}). Sans elle, le déchiffrement
+        # réussissait mais l'URL extraite était None → on retombait
+        # silencieusement sur la page de redirection.
+        for key in ("url", "href", "link", "download", "src", "u"):
             v = obj.get(key)
             if isinstance(v, str) and v.strip():
                 return v.strip()
     return None
+
+
+def _linklock_name(url: str) -> str | None:
+    """Nom d'hébergeur en clair du fragment LinkLock (champ « n »), ou None.
+
+    Sert de repli d'affichage quand le déchiffrement échoue : sans lui,
+    `detect_mirror` retombe sur la clé brute du JSON source (« akia_url »).
+    """
+    frag = urlparse(url).fragment
+    if not frag:
+        return None
+    try:
+        obj = json.loads(b64url_decode(unquote(frag)).decode("utf-8"))
+    except Exception:
+        return None
+    name = obj.get("n") if isinstance(obj, dict) else None
+    return str(name).strip() or None if name else None
 
 
 def decrypt_linklock(url: str) -> str:
@@ -308,7 +334,10 @@ def decrypt_linklock(url: str) -> str:
         encrypted = b64url_decode(str(payload_obj["e"]))
         salt = b64url_decode(str(payload_obj.get("s"))) if payload_obj.get("s") else b"\x00" * 16
         iv = b64url_decode(str(payload_obj.get("i"))) if payload_obj.get("i") else b"\x00" * 12
-        key = hashlib.pbkdf2_hmac("sha256", b"pippo", salt, 100000, dklen=32)
+        # 600 000 itérations : valeur LUE dans le JS du site le 2026-08-13
+        # (pippo26442999.github.io/library-decrypt/api.js — `iterations: 600000`).
+        # À 100 000 le GCM échouait sur 100 % des liens (InvalidTag).
+        key = hashlib.pbkdf2_hmac("sha256", b"pippo", salt, 600000, dklen=32)
 
         tag = None
         if payload_obj.get("t"):
@@ -331,7 +360,13 @@ def decrypt_linklock(url: str) -> str:
             return text
         return url
     except Exception as exc:
-        LOG.debug("Déchiffrement LinkLock ignoré (%s): %s", url, exc)
+        # WARNING, pas DEBUG : c'est ce silence qui a laissé 1 752 liens non
+        # déchiffrés (11,5 % du catalogue, 301 jeux) pendant des mois. Un
+        # changement de schéma côté site doit être bruyant.
+        DECRYPT_FAILURES.append(url)
+        LOG.warning("Déchiffrement LinkLock ÉCHOUÉ (%s): %s — le lien restera "
+                    "une page de redirection, pas un fichier.",
+                    url[:80], type(exc).__name__)
         return url
 
 
@@ -497,6 +532,10 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
         url = (raw_url or "").strip()
         if not url:
             continue
+        # Le nom d'hébergeur voyage EN CLAIR dans la charge utile (champ « n »).
+        # On le capte AVANT le déchiffrement : si celui-ci échoue, on affichera
+        # « Akia » plutôt que la clé brute du JSON source (« akia_url »).
+        payload_name = _linklock_name(url) if "#" in url else None
         if "#" in url:
             url = decrypt_linklock(url)
         if not url.startswith(("http://", "https://")):
@@ -505,7 +544,7 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
             continue
 
         group = normalize_group(raw_group or raw_name)
-        mirror = detect_mirror(url, fallback=(raw_name or None))
+        mirror = detect_mirror(url, fallback=(payload_name or raw_name or None))
         if group in ("Backport", "DLC", "Dump", "exFAT"):
             name = f"{group} - {mirror}"
         else:
