@@ -1359,6 +1359,16 @@ def parse_dll_page(url: str) -> dict | None:
                         "url": link["url"],
                         "group": group,
                         **({"version": version} if version else {}),
+                        # Edition de CETTE table : une page SuperPSX en
+                        # contient plusieurs, chacune avec sa ligne
+                        # « Version -> PPSA... - EUR ». Les variables sont
+                        # reaffectees a chaque table, donc au moment de
+                        # l'ajout elles portent bien celles de la table
+                        # courante. Avant, elles n'allaient qu'au PAQUET :
+                        # seule la derniere table survivait et aucun lien
+                        # ne disait a quelle edition il appartient.
+                        **({"region": region} if region else {}),
+                        **({"editionId": title_id} if title_id else {}),
                     })
 
             # Fix row: "Fix X.xx (@USER) ⇛ download links"
@@ -1375,6 +1385,16 @@ def parse_dll_page(url: str) -> dict | None:
                         "url": link["url"],
                         "group": "Fix",
                         **({"version": version} if version else {}),
+                        # Edition de CETTE table : une page SuperPSX en
+                        # contient plusieurs, chacune avec sa ligne
+                        # « Version -> PPSA... - EUR ». Les variables sont
+                        # reaffectees a chaque table, donc au moment de
+                        # l'ajout elles portent bien celles de la table
+                        # courante. Avant, elles n'allaient qu'au PAQUET :
+                        # seule la derniere table survivait et aucun lien
+                        # ne disait a quelle edition il appartient.
+                        **({"region": region} if region else {}),
+                        **({"editionId": title_id} if title_id else {}),
                     })
 
             # Backport row: "Backport X.xx (@USER) ⇛ download links"
@@ -1391,6 +1411,16 @@ def parse_dll_page(url: str) -> dict | None:
                         "url": link["url"],
                         "group": "Backport",
                         **({"version": version} if version else {}),
+                        # Edition de CETTE table : une page SuperPSX en
+                        # contient plusieurs, chacune avec sa ligne
+                        # « Version -> PPSA... - EUR ». Les variables sont
+                        # reaffectees a chaque table, donc au moment de
+                        # l'ajout elles portent bien celles de la table
+                        # courante. Avant, elles n'allaient qu'au PAQUET :
+                        # seule la derniere table survivait et aucun lien
+                        # ne disait a quelle edition il appartient.
+                        **({"region": region} if region else {}),
+                        **({"editionId": title_id} if title_id else {}),
                     })
 
             # DLC row: "DLC (@USER) ⇛ download links"
@@ -1403,6 +1433,16 @@ def parse_dll_page(url: str) -> dict | None:
                         "url": link["url"],
                         "group": "DLC",
                         **({"version": version} if version else {}),
+                        # Edition de CETTE table : une page SuperPSX en
+                        # contient plusieurs, chacune avec sa ligne
+                        # « Version -> PPSA... - EUR ». Les variables sont
+                        # reaffectees a chaque table, donc au moment de
+                        # l'ajout elles portent bien celles de la table
+                        # courante. Avant, elles n'allaient qu'au PAQUET :
+                        # seule la derniere table survivait et aucun lien
+                        # ne disait a quelle edition il appartient.
+                        **({"region": region} if region else {}),
+                        **({"editionId": title_id} if title_id else {}),
                     })
 
             # FW REQUIRED row
@@ -1447,6 +1487,16 @@ def parse_dll_page(url: str) -> dict | None:
                             "url": link["url"],
                             "group": section_inconnue,
                             **({"version": version} if version else {}),
+                        # Edition de CETTE table : une page SuperPSX en
+                        # contient plusieurs, chacune avec sa ligne
+                        # « Version -> PPSA... - EUR ». Les variables sont
+                        # reaffectees a chaque table, donc au moment de
+                        # l'ajout elles portent bien celles de la table
+                        # courante. Avant, elles n'allaient qu'au PAQUET :
+                        # seule la derniere table survivait et aucun lien
+                        # ne disait a quelle edition il appartient.
+                        **({"region": region} if region else {}),
+                        **({"editionId": title_id} if title_id else {}),
                         })
 
     # Default password
