@@ -300,7 +300,13 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # En fin de chaîne, version et type de lien étaient TOUJOURS coupés.
         # `base` (nom du miroir) passe en dernier : il est déjà affiché juste en
         # dessous par `.download-link-host` (« 1fichier.com »), donc redondant.
-        tag = " · ".join(p for p in (f"v{link_version}" if link_version else "", link_fmt) if p)
+        # Region du lien (EUR/USA/JPN...), lue sur le libelle de rubrique de la
+        # page source par les scrapers. Presente sur 84 % des rubriques mesurees.
+        # Placee EN DERNIER dans l'etiquette : version et section restent
+        # prioritaires dans les ~31 caracteres visibles de l'app.
+        link_region = (link.get("region") or "").strip()
+        tag = " · ".join(p for p in (f"v{link_version}" if link_version else "",
+                                     link_fmt, link_region) if p)
         link["name"] = f"[{tag}] {base}" if tag else base
     # Archives découpées : « …part01.rar », « …part02.rar »… produisaient N
     # libellés IDENTIQUES (12 mesurés sur Marvels Spider Man 2, PPSA03016), ce

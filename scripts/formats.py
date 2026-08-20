@@ -337,3 +337,33 @@ def detect_section(label: str) -> str:
                 return f"Backport {m.group(1)}" if m else "Backport"
             return nom
     return ""
+
+
+# ---------------------------------------------------------------------------
+# Region et identifiant portes par le libelle de rubrique
+# ---------------------------------------------------------------------------
+# Mesure sur 153 fiches reelles / 312 rubriques (2026-08-20) :
+#   titleId present : 261 (84 %)   region presente : 263 (84 %)
+#   EUR 107 · USA 106 · JPN 31 · HK 10 · ASIA 9
+# Le libelle « PPSA08710 - USA (v01.005) » dit a quelle EDITION appartient le
+# lien. 11 fiches sur 153 melangent plusieurs titleId : des liens d'une autre
+# edition se retrouvent dans le meme paquet, et la page le disait.
+_REGION_RE = re.compile(r"\b(EUR|USA|JPN|JAP|ASIA|HK|KOR|CHN|WORLD|MULTI)\b", re.I)
+_TITLEID_RE = re.compile(r"\b((?:PPSA|CUSA|PLAS|PCAS)\d{4,6})\b", re.I)
+
+_REGION_CANON = {"JAP": "JPN"}
+
+
+def detect_region(label: str) -> str:
+    """Region d'une rubrique (EUR/USA/JPN/...), "" si absente."""
+    m = _REGION_RE.search(label or "")
+    if not m:
+        return ""
+    r = m.group(1).upper()
+    return _REGION_CANON.get(r, r)
+
+
+def detect_title_id(label: str) -> str:
+    """Identifiant de jeu porte par la rubrique, "" si absent."""
+    m = _TITLEID_RE.search(label or "")
+    return m.group(1).upper() if m else ""

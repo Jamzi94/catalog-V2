@@ -37,7 +37,7 @@ from urllib.parse import urljoin, urlparse, parse_qs
 
 from bs4 import BeautifulSoup
 
-from formats import detect_formats, detect_section
+from formats import detect_formats, detect_region, detect_section, detect_title_id
 from sizes import extract_size
 
 # ---------------------------------------------------------------------------
@@ -1050,6 +1050,11 @@ def build_download_links(
 
     for label, html_fragment in groups:
         group = detect_group(label)
+        # Edition du lien portee par le libelle de rubrique : region (84 % des
+        # rubriques mesurees) et titleId (84 %). Meme traitement que le chemin
+        # WP API, qui est celui qui tourne en CI.
+        region = detect_region(label)
+        edition = detect_title_id(label)
         for text, href in extract_links_from_html(html_fragment, page_url):
             # On calcule d'abord le miroir à partir du TEXTE du lien (Akia/Viki/...)
             # car c'est la seule info fiable avant résolution.
@@ -1090,6 +1095,10 @@ def build_download_links(
             link: dict[str, str] = {"name": name, "url": direct}
             if group and group != "Standard":
                 link["group"] = group
+            if region:
+                link["region"] = region
+            if edition:
+                link["editionId"] = edition
             out.append(link)
 
     return out

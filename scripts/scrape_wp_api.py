@@ -54,7 +54,7 @@ try:
 except ImportError:
     ScrapeManifest = None  # type: ignore[assignment,misc]
 
-from formats import detect_formats, detect_section
+from formats import detect_formats, detect_region, detect_section, detect_title_id
 from sizes import extract_size
 
 try:
@@ -1209,6 +1209,13 @@ def build_download_links_from_groups(
         if not decoded or not decoded.strip():
             continue
         grp = detect_group(label) if (label or "").strip() else ""
+        # Le libelle de rubrique porte aussi l'EDITION du lien. Mesure sur 153
+        # fiches reelles / 312 rubriques : titleId present 84 %, region 84 %
+        # (EUR 107 · USA 106 · JPN 31 · HK 10 · ASIA 9). Et 11 fiches sur 153
+        # melangent plusieurs titleId : des liens d'une AUTRE edition finissent
+        # dans le meme paquet, alors que la page le disait.
+        region = detect_region(label)
+        edition = detect_title_id(label)
         ver = _version_from_text(decoded)  # version propre à CETTE section
         for text, href in extract_links_from_html(decoded, page_url):
             mirror_hint = extract_mirror_name(href, text).lower()
@@ -1228,6 +1235,10 @@ def build_download_links_from_groups(
                 link["group"] = grp
             if ver:
                 link["version"] = ver
+            if region:
+                link["region"] = region
+            if edition:
+                link["editionId"] = edition
             out.append(link)
 
     return out
