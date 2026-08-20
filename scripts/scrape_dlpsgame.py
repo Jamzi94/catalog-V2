@@ -958,6 +958,12 @@ def extract_main_title(soup: BeautifulSoup) -> str:
     return ""
 
 
+# Groupes de liens dont le libelle de rubrique n'a pas pu etre lu. Compte et
+# rapporte en fin de scrape : c'est ce silence qui a laisse 6 groupes sur 6
+# sans section sur Silent Hill 2 pendant des mois, sans qu'aucun log ne le dise.
+LABEL_MISSES: list[str] = []
+
+
 def find_spoiler_groups(soup: BeautifulSoup) -> list[tuple[str, str]]:
     """Retourne la liste des (label_text, decoded_html) pour chaque
     div.secure-data trouvé sur la page. Le label est déterminé par le
@@ -983,7 +989,18 @@ def find_spoiler_groups(soup: BeautifulSoup) -> list[tuple[str, str]]:
         # Recherche du label : on remonte aux ancêtres de type su-spoiler,
         # puis on cherche le <p> précédent.
         label = ""
-        spoiler = secure.find_parent("div", class_=re.compile(r"su-spoiler"))
+        # ATTENTION : class_=re.compile("su-spoiler") matche AUSSI
+        # « su-spoiler-content », qui est le conteneur INTERIEUR. On remontait
+        # donc au mauvais element et on parcourait les freres A L'INTERIEUR du
+        # spoiler, ou il n'y a que le titre generique « Link Download » — que le
+        # code ecarte volontairement juste en dessous. Resultat : label vide sur
+        # 6 groupes sur 6 (mesure sur la page reelle de Silent Hill 2), donc
+        # aucune section, donc repli sur le format du paquet.
+        # Le texte de section (« … (Backport) (exFAT) ») est un frere du
+        # conteneur ENTIER : on vise donc la classe exacte, avec repli sur
+        # l'ancien comportement si la page a une autre structure.
+        spoiler = (secure.find_parent("div", class_="su-spoiler")
+                   or secure.find_parent("div", class_=re.compile(r"su-spoiler")))
         if spoiler:
             prev = spoiler.find_previous_sibling()
             # On remonte jusqu'à trouver un <p> ou <h*> non vide
@@ -993,6 +1010,10 @@ def find_spoiler_groups(soup: BeautifulSoup) -> list[tuple[str, str]]:
                     label = txt
                     break
                 prev = prev.find_previous_sibling()
+        if not label.strip():
+            LABEL_MISSES.append(soup.title.get_text(strip=True) if soup.title else "?")
+            log.warning("  Aucun libelle de rubrique pour un groupe de liens "
+                        "-> section inconnue, repli sur le format du paquet.")
         groups.append((label, decoded))
     return groups
 
