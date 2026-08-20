@@ -61,7 +61,7 @@ from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup, Tag
 
-from formats import detect_formats, normalize_formats
+from formats import detect_formats, detect_section, normalize_formats
 from sizes import extract_size, parse_size_bytes
 
 # content_hash : même fonction de hachage que celle utilisée par ScrapeManifest
@@ -1247,13 +1247,10 @@ def parse_dll_page(url: str) -> dict | None:
         if section_label is not None:
             current_section = section_label
             # Try to extract variant label (e.g., "exFAT")
-            section_lower = section_label.lower()
-            if "exfat" in section_lower:
-                current_section_label = "exFAT"
-            elif "backport" in section_lower:
-                current_section_label = "Backport"
-            else:
-                current_section_label = ""
+            # Meme detecteur que les autres sources : conserve la version de
+            # firmware (« Backport 4.xx ») et reconnait Cheat/DLC/Fix/Dump/
+            # Update/APR-EMU, qu'aucun scraper ne captait jusqu'ici.
+            current_section_label = detect_section(section_label)
 
             sections.append({
                 "label": section_label,

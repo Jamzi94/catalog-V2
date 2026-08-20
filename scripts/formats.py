@@ -281,3 +281,59 @@ if __name__ == "__main__":
     print("primary exFAT/FFPFSC ->", primary_install_format(["exFAT", "FFPFSC"]))
     print("ALL OK" if ok else "SOME FAILURES")
     raise SystemExit(0 if ok else 1)
+
+
+# ---------------------------------------------------------------------------
+# Section d'un lien (Cheat / DLC / Fix / Backport N.xx / exFAT …)
+# ---------------------------------------------------------------------------
+# Vocabulaire RELEVÉ sur 150 fiches réelles de la source le 2026-08-16 :
+#   exFAT 35 · BackPort 9 · APR-EMU 4 · Ffpfsc 2 · BackPort 4.xx+ 2
+#   BackPort 7.xx+ 2 · Backport Only 4.xx 1 · Backport 5.xx+ 1 · @pseudos
+# Les libellés cumulent plusieurs jetons : « PPSA08709 – EUR (v0.1.006)
+# (Backport) (exFAT) ». L'ancien detect_group testait « exfat » EN PREMIER et
+# rendait donc « exFAT » pour ce libellé : la mention Backport était perdue.
+#
+# ORDRE = pouvoir DISCRIMINANT, pas ordre arbitraire. exFAT est présent sur
+# presque tout (35/150) : il ne distingue rien. Cheat/DLC/Fix/Dump/Backport
+# sont ce qui différencie deux liens du même jeu, donc ils passent avant.
+_SECTION_RULES = (
+    ("Cheat",  re.compile(r"\bcheats?\b|\btrainer\b", re.I)),
+    ("DLC",    re.compile(r"\bdlcs?\b", re.I)),
+    ("Fix",    re.compile(r"\bfix(es|ed)?\b", re.I)),
+    ("Dump",   re.compile(r"\bdumps?\b", re.I)),
+    ("Update", re.compile(r"\bupdates?\b|\bpatch\b", re.I)),
+    ("Backport", _BACKPORT_BARE_RE),
+    ("APR-EMU", re.compile(r"apr[\s._-]?emu", re.I)),
+    ("FFPFSC", re.compile(r"\bffpfsc\b", re.I)),
+    ("exFAT",  re.compile(r"\bexfat\b", re.I)),
+)
+
+# Pseudos d'attribution « (@High-Speed007) », « (@SiESPta Team) » : jamais une
+# section, et ils n'ont pas à ressortir dans les libellés publiés.
+_FW_XX_RE = re.compile(r"\b(\d+\.xx)\b", re.I)
+
+_HANDLE_RE = re.compile(r"\(@[^)]*\)|@[\w.-]+")
+
+
+def detect_section(label: str) -> str:
+    """Section d'un lien depuis le libellé de sa rubrique, "" si indéterminée.
+
+    Rend « Backport 4.xx » plutôt que « Backport » quand la version de
+    firmware est présente — c'est elle qui dit si le jeu démarrera sur la
+    console. Les variantes relevées (« 4.xx+ », « Only 4.xx ») sont ramenées
+    à la même forme.
+    """
+    t = _HANDLE_RE.sub(" ", label or "")
+    if not t.strip():
+        return ""
+    for nom, motif in _SECTION_RULES:
+        if motif.search(t):
+            if nom == "Backport":
+                # La version peut etre detachee du mot (« Backport Only 4.xx »),
+                # donc on la cherche dans TOUT le libelle. On vise la forme
+                # firmware « N.xx » : la version du JEU (« v0.1.006 ») ne peut
+                # pas s'y confondre, elle n'a jamais de « xx ».
+                m = _FW_XX_RE.search(t) or _BACKPORT_RE.search(t)
+                return f"Backport {m.group(1)}" if m else "Backport"
+            return nom
+    return ""

@@ -37,7 +37,7 @@ from urllib.parse import urljoin, urlparse, parse_qs
 
 from bs4 import BeautifulSoup
 
-from formats import detect_formats
+from formats import detect_formats, detect_section
 from sizes import extract_size
 
 # ---------------------------------------------------------------------------
@@ -121,18 +121,16 @@ MIRROR_PATTERNS = [
 # - "files" = groupe par défaut (liens divers)
 # - "standard" / "backport" / "dlc" / "dump" / "exFAT"
 def detect_group(label_text: str) -> str:
-    t = label_text.lower()
-    if "exfat" in t:
-        return "exFAT"
-    if "backport" in t:
-        return "Backport"
-    if "dlc" in t:
-        return "DLC"
-    if "dump" in t:
-        return "Dump"
-    if "standard" in t or "update" in t:
-        return "Standard"
-    return "Standard"
+    """Section d'une rubrique de la page source.
+
+    Delegue a formats.detect_section : vocabulaire releve sur les pages
+    reelles (Cheat, DLC, Fix, Dump, Update, Backport N.xx, APR-EMU, FFPFSC,
+    exFAT), version de firmware conservee, et surtout ORDRE DISCRIMINANT.
+    L'ancienne version testait « exfat » en premier : le libelle
+    « (Backport) (exFAT) », courant sur ces pages, rendait donc « exFAT » et
+    la mention Backport etait perdue.
+    """
+    return detect_section(label_text) or "Standard"
 
 
 # Les URLs passant par ces domaines sont des pages de redirection :
