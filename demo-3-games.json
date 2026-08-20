@@ -3,6 +3,99 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA19268",
+      "title": "Juicy Realm",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27oq.jpg",
+      "description": "Format: exFAT · PKG\nTags: PPSA19268, v01.000, USA\nSize: 300 MB\nPassword: SuperPSX\nVoices: English, French (France), Portuguese (Brazil), Spanish (Mexico)\nWorks on 8.xx and higher",
+      "downloadLinks": [
+        {
+          "name": "[v01.000 · PKG · USA] Buzz",
+          "url": "https://buzzheavier.com/5z6hwsjbrgoy",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA19268"
+        },
+        {
+          "name": "[v01.000 · exFAT · USA] Akia",
+          "url": "https://akirabox.com/qLQ36xbDYG19/file",
+          "group": "exFAT",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA19268"
+        },
+        {
+          "name": "[v01.000 · exFAT · USA] Viki",
+          "url": "https://vikingfile.com/f/mPrR9asFz6",
+          "group": "exFAT",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA19268"
+        },
+        {
+          "name": "[v01.000 · exFAT · USA] Data",
+          "url": "https://datanodes.to/pmcx4p3e9v21",
+          "group": "exFAT",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA19268"
+        },
+        {
+          "name": "[v01.000 · PKG] Viki",
+          "url": "https://vikingfile.com/f/Br86u8xMmJ",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Rootz",
+          "url": "https://www.rootz.so/d/1Dxals",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] 1File",
+          "url": "https://1fichier.com/?8awk3lf1siq3svtmk6q7&af=4186346",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Rootz",
+          "url": "https://rootz.so/d/27UXwm",
+          "group": "Standard",
+          "version": "01.000"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · PKG"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "PKG"
+      ],
+      "sizeBytes": 461373440,
+      "_enrichedAt": "2026-08-19T04:32:49.220058+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "juicy-realm",
+        "rawgName": "Juicy Realm",
+        "rating": 4.0,
+        "metacritic": null,
+        "released": "2019-11-07",
+        "genres": [
+          "Indie",
+          "Adventure",
+          "Action",
+          "RPG"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:36:56.225821+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "exFAT · PKG"
+    },
+    {
       "titleId": "PPSA20931",
       "title": "Electronics Puzzle Lab",
       "version": "01.000",
@@ -13,6 +106,7 @@
         {
           "name": "[v01.000 · APR-EMU] Mediafire",
           "url": "https://www.mediafire.com/file/k3jo1rzzzda9jxt/[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar/file",
+          "group": "Standard",
           "version": "01.000"
         }
       ],
@@ -44,43 +138,62 @@
       "formatLabel": "APR-EMU"
     },
     {
-      "titleId": "PPSA10240",
-      "title": "Stroke The Snake",
-      "version": "01.000",
+      "titleId": "PPSA06699",
+      "title": "Hot Shots Golf 2 (PS1)",
+      "version": "01.000.004",
       "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/07/6-fgn.jpg",
-      "description": "Format: exFAT · Backport 4.xx\nTags: PPSA10240, v1.000, 4.xx, 5.xx, USA\nSize: 292 MB",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9qpn.jpg",
+      "description": "Format: exFAT · Backport 4.xx\nTags: PPSA06699, v1.004, 4.xx, USA\nSize: 751 MB",
       "downloadLinks": [
         {
-          "name": "[v01.000 · exFAT · Backport 4.xx] Rootz",
-          "url": "https://www.rootz.so/d/uNXJQ",
-          "group": "Standard",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Backport 4.xx] Akia",
-          "url": "https://akirabox.com/wgWGq7xEQ34o/file",
+          "name": "[v01.000.004 · Backport 4.xx] Akia",
+          "url": "https://akirabox.com/QN9mEq687m6d/file",
           "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.000 · Backport 4.xx] Viki",
-          "url": "https://vikingfile.com/f/uyl0iqiQWG",
+          "name": "[v01.000.004 · Backport 4.xx] Viki",
+          "url": "https://vikingfile.com/f/VQhBzhgvuh",
           "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.000 · Backport 4.xx] Data",
-          "url": "https://datanodes.to/nsz5al1349a3",
+          "name": "[v01.000.004 · Backport 4.xx] Data",
+          "url": "https://datanodes.to/lpmkq80yag3j",
           "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.000 · Backport 4.xx] Filek",
-          "url": "https://filekeeper.net/li74mkxkud6k",
+          "name": "[v01.000.004 · Backport 4.xx] Filek",
+          "url": "https://filekeeper.net/cjyih8c56n51",
           "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.000 · Backport 4.xx] Vault",
-          "url": "https://datavaults.co/22qqqzqerm8r",
+          "name": "[v01.000.004 · Backport 4.xx] Vault",
+          "url": "https://datavaults.co/vncxbzln1i6p",
           "group": "Backport 4.xx"
+        },
+        {
+          "name": "[v01.004 · exFAT · Backport 4.xx] Mediafire",
+          "url": "https://www.mediafire.com/file/nyrtwfi3hjn9q0c/[DLPSGAME.COM]-PPSA06699-app0.rar/file",
+          "version": "01.004"
+        },
+        {
+          "name": "[v01.000.004 · Backport 4.xx] Mediafire",
+          "url": "https://www.mediafire.com/file/xzea5twwwkselo1/[DLPSGAME.COM]-PPSA06699+Backport+4.xx+By+baderlink.zip/file",
+          "version": "01.000.004"
+        },
+        {
+          "name": "[v01.000.004 · exFAT · Backport 4.xx] Viki",
+          "url": "https://vikingfile.com/f/wElHmJaIcp",
+          "version": "01.000.004"
+        },
+        {
+          "name": "[v01.000.004 · exFAT · Backport 4.xx] 1File",
+          "url": "https://1fichier.com/?72pge2ro1228cx6nz2s0",
+          "version": "01.000.004"
+        },
+        {
+          "name": "[v01.000.004 · exFAT · Backport 4.xx] Rootz",
+          "url": "https://rootz.so/d/wO4P2",
+          "version": "01.000.004"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -91,49 +204,27 @@
         "exFAT",
         "Backport 4.xx",
         "Backport",
-        "unknown"
+        "RAR",
+        "ZIP"
       ],
-      "sizeBytes": 306184192,
-      "_enrichedAt": "2026-08-19T04:33:17.466879+00:00",
-      "_rawgMatched": false,
-      "formatLabel": "exFAT · Backport 4.xx"
-    },
-    {
-      "titleId": "PPSA02800",
-      "title": "3D Billiards Pool and Snooker Remastered",
-      "version": "01.002",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kft.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA02800, v1.002, 3.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.002 · APR-EMU] Mediafire",
-          "url": "https://www.mediafire.com/file/k5dqeo54wto62j8/[DLPSGAME.COM]-PPSA02800-Game+(v01.002)+[APR-EMU].rar/file",
-          "version": "01.002"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "APR-EMU"
-      ],
-      "fileFormat": [
-        "APR-EMU",
-        "RAR"
-      ],
-      "sizeBytes": 685521178,
-      "_enrichedAt": "2026-08-19T04:32:20.323273+00:00",
-      "_rawgMatched": false,
+      "sizeBytes": 787480576,
+      "_enrichedAt": "2026-07-23T05:31:37.819814+00:00",
+      "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "3d-billiards-pool-snooker",
-        "rawgName": "3D Billiards - Pool & Snooker",
-        "rating": 0.0,
+        "rawgSlug": "hot-shots-golf-2",
+        "rawgName": "Hot Shots Golf 2",
+        "rating": 3.67,
         "metacritic": null,
-        "released": "2018-11-29",
-        "genres": []
+        "released": "1999-07-29",
+        "genres": [
+          "Simulation",
+          "Sports"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/e59/e59c0f47261587323dc4d58ab78e5216.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:35:13.258605+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:58:13.224057+00:00",
       "_igdbMatched": true,
-      "formatLabel": "APR-EMU"
+      "formatLabel": "exFAT · Backport 4.xx"
     }
   ]
 }
