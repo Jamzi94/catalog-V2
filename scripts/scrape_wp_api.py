@@ -54,7 +54,7 @@ try:
 except ImportError:
     ScrapeManifest = None  # type: ignore[assignment,misc]
 
-from formats import detect_formats
+from formats import detect_formats, detect_section
 from sizes import extract_size
 
 try:
@@ -498,18 +498,15 @@ def is_ignored_link(text: str) -> bool:
 
 
 def detect_group(label_text: str) -> str:
-    t = label_text.lower()
-    if "exfat" in t:
-        return "exFAT"
-    if "backport" in t:
-        return "Backport"
-    if "dlc" in t:
-        return "DLC"
-    if "dump" in t:
-        return "Dump"
-    if "standard" in t or "update" in t:
-        return "Standard"
-    return "Standard"
+    """Section d'une rubrique. Delegue au detecteur partage (formats.py).
+
+    Ce fichier portait une COPIE de l'ancienne version, corrigee ailleurs :
+    « exfat » teste en premier, donc le libelle « (Backport) (exFAT) » — le
+    plus courant sur ces pages — rendait « exFAT » et perdait la mention
+    Backport. C'est ce chemin-ci qui tourne reellement en CI (le scraper
+    HTML est en fallback, step « skipped »).
+    """
+    return detect_section(label_text) or "Standard"
 
 
 # ---------------------------------------------------------------------------
@@ -945,7 +942,14 @@ def extract_payload_groups_from_content(content_rendered: str) -> list[tuple[str
         if not decoded or not decoded.strip():
             continue
         label = ""
-        spoiler = secure.find_parent("div", class_=re.compile(r"su-spoiler"))
+        # class_=re.compile("su-spoiler") matche AUSSI « su-spoiler-content »,
+        # le conteneur INTERIEUR : on remontait au mauvais element et on
+        # parcourait les freres A L'INTERIEUR du spoiler, ou il n'y a que le
+        # titre generique « Link Download » — ecarte deux lignes plus bas.
+        # Mesure sur la page reelle de Silent Hill 2 : 6 groupes, 6 libelles
+        # VIDES. Le texte de section est un frere du conteneur ENTIER.
+        spoiler = (secure.find_parent("div", class_="su-spoiler")
+                   or secure.find_parent("div", class_=re.compile(r"su-spoiler")))
         if spoiler:
             prev = spoiler.find_previous_sibling()
             while prev is not None:
