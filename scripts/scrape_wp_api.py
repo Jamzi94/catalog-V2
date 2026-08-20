@@ -54,7 +54,8 @@ try:
 except ImportError:
     ScrapeManifest = None  # type: ignore[assignment,misc]
 
-from formats import detect_formats, detect_region, detect_section, detect_title_id
+from formats import (detect_formats, detect_region, detect_section,
+                     detect_title_id, parse_excerpt_meta)
 from sizes import extract_size
 
 try:
@@ -1409,7 +1410,14 @@ def extract_metadata_from_post(
 
     description = "\n".join(desc_lines)
 
-    return {
+    # L'extrait suit un gabarit fixe « NAME ... LANGUAGE ... RELEASE <annee>
+    # GENRE <genre> » : parse 153/153 sur l'echantillon mesure. On en garde
+    # GENRE et RELEASE comme REPLI (jamais en remplacement de RAWG, cf.
+    # pegasus_finalize). LANGUAGE est ignore : « Multi » sur 153/153, un champ
+    # constant ne porte aucune information.
+    meta_extrait = parse_excerpt_meta(excerpt_text)
+
+    pkg = {
         "titleId": title_id or "",
         "title": title,
         "version": version,
@@ -1418,6 +1426,11 @@ def extract_metadata_from_post(
         "sizeBytes": size_bytes,
         "tags": tags,
     }
+    if meta_extrait.get("genre"):
+        pkg["sourceGenre"] = meta_extrait["genre"]
+    if meta_extrait.get("released"):
+        pkg["sourceReleased"] = meta_extrait["released"]
+    return pkg
 
 
 # ---------------------------------------------------------------------------

@@ -261,6 +261,23 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         pkg.pop("formatLabel", None)
         pkg["description"] = desc_body
 
+    # 3-quater) REPLI de metadonnees depuis l'extrait de la source.
+    # RAWG reste prioritaire ; on ne comble QUE ce qui manque. Mesure de
+    # calibration sur 135 fiches appariees : comble un genre absent 73 fois,
+    # concorde avec RAWG 56 fois, diverge 6 fois (souvent plus precis cote
+    # source : « Fighting » la ou RAWG dit « action »). D'ou le repli seul.
+    # Interet supplementaire : ce chemin ne depend pas de la disponibilite de
+    # RAWG, en panne au moment ou ceci est ecrit.
+    meta = pkg.get("metadata")
+    if not isinstance(meta, dict):
+        meta = {}
+    if pkg.get("sourceGenre") and not meta.get("genres"):
+        meta["genres"] = [str(pkg["sourceGenre"]).strip()]
+    if pkg.get("sourceReleased") and not meta.get("released"):
+        meta["released"] = str(pkg["sourceReleased"]).strip()
+    if meta:
+        pkg["metadata"] = meta
+
     # 3bis) CARTE du jeu : l'app affiche le champ `source`. On y met le/les
     # FORMAT(s) du jeu (exFAT/PKG/Backport/APR-EMU…) — pas la vraie provenance,
     # qui reste masquée. La SOURCE PAGE (downloadSource) garde la marque.

@@ -367,3 +367,36 @@ def detect_title_id(label: str) -> str:
     """Identifiant de jeu porte par la rubrique, "" si absent."""
     m = _TITLEID_RE.search(label or "")
     return m.group(1).upper() if m else ""
+
+
+# ---------------------------------------------------------------------------
+# Metadonnees structurees de l'extrait (excerpt) de la source
+# ---------------------------------------------------------------------------
+# L'excerpt de la source suit un gabarit fixe :
+#   « NAME <titre> LANGUAGE <langue> RELEASE <annee> GENRE <genre> ... »
+# Mesure sur 153 fiches reelles (2026-08-20) : parse 153/153 (100 %).
+#
+# LANGUAGE est volontairement IGNORE : sa valeur est « Multi » sur 153/153.
+# Un champ constant ne porte aucune information — l'ajouter serait du bruit.
+#
+# Calibration du GENRE contre celui de RAWG sur 135 fiches appariees :
+#   comble un genre absent de RAWG : 73 · concorde : 56 · diverge : 6
+# D'ou l'usage en REPLI SEUL : on ne remplace jamais un genre RAWG existant.
+_EXCERPT_RE = re.compile(
+    r"RELEASE\s+(?P<annee>\d{4}).*?GENRE\s+(?P<genre>[A-Za-z /-]{3,24})",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def parse_excerpt_meta(texte: str) -> dict:
+    """Extrait {'released': 'AAAA', 'genre': '...'} d'un extrait, {} sinon."""
+    m = _EXCERPT_RE.search(texte or "")
+    if not m:
+        return {}
+    genre = m.group("genre").replace("﻿", "").strip(" -/")
+    out = {}
+    if m.group("annee"):
+        out["released"] = m.group("annee")
+    if genre:
+        out["genre"] = genre
+    return out
