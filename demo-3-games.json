@@ -3,222 +3,17 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA13557",
-      "title": "VR Skater",
-      "version": "01.013",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zh1.jpg",
-      "description": "Format: Folder · Backport 4.xx\nTags: PPSA13557, v1.013, 6.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.013 · Folder] Viki",
-          "url": "https://vikingfile.com/f/QIylefoOGV",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] 1File",
-          "url": "https://1fichier.com/?o1szuys3hoa1cytfvm5h",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Rootz",
-          "url": "https://rootz.so/d/1pUjk8",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Viki",
-          "url": "https://vikingfile.com/f/deUSxR3mUK",
-          "group": "Standard",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Rootz",
-          "url": "https://www.rootz.so/d/KSliy",
-          "group": "Standard",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Akia",
-          "url": "https://akirabox.com/jJD3VvV2l3a5/file",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Viki",
-          "url": "https://vikingfile.com/f/kkU5cmRpqK",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] 1File",
-          "url": "https://1fichier.com/?6oqp38e2lm4jeayshtyu",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Backport] Mediafire",
-          "url": "https://www.mediafire.com/file/avar230khrv02vq/4_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Akia",
-          "url": "https://akirabox.com/rk9zKlOVZG0l/file",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Viki",
-          "url": "https://vikingfile.com/f/1WCpvzYh0C",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] 1File",
-          "url": "https://1fichier.com/?tulmscys1kbd0hga4dok",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Rootz",
-          "url": "https://www.rootz.so/d/2AAPVA",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Backport] Mediafire",
-          "url": "https://www.mediafire.com/file/lx86n21akui73gv/5_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Akia",
-          "url": "https://akirabox.com/l76mZDkKnzan/file",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Viki",
-          "url": "https://vikingfile.com/f/cXQTuIedcX",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] 1File",
-          "url": "https://1fichier.com/?7otzc0dxrgofe80904ir",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Folder] Rootz",
-          "url": "https://www.rootz.so/d/tSJwO",
-          "version": "01.013"
-        },
-        {
-          "name": "[v01.013 · Backport] Mediafire",
-          "url": "https://www.mediafire.com/file/avar230khrv02vq/4_XX+PPSA13557_%E2%80%93_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file"
-        },
-        {
-          "name": "[v01.013 · Backport] Mediafire",
-          "url": "https://www.mediafire.com/file/lx86n21akui73gv/5_XX+PPSA13557_%E2%80%93_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "Folder · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "Folder",
-        "ZIP",
-        "Backport 4.xx",
-        "Backport 5.xx"
-      ],
-      "sizeBytes": 72529570,
-      "_enrichedAt": "2026-08-19T04:33:34.303172+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "vr-skater",
-        "rawgName": "VR Skater",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2021-04-30",
-        "genres": [
-          "Racing",
-          "Action",
-          "Simulation",
-          "Sports",
-          "Indie"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:57:34.573331+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "Folder · Backport 4.xx"
-    },
-    {
-      "titleId": "PPSA02798",
-      "title": "Panda Hero Remastered",
+      "titleId": "PPSA20931",
+      "title": "Electronics Puzzle Lab",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Panda_Hero_Remastered.avif",
-      "description": "Format: exFAT · PKG\nTags: PPSA02798, v01.000, USA\nSize: 100 MB\nPassword: SuperPSX\nWorks on 2.xx and higher",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q99.jpg",
+      "description": "Format: APR-EMU\nTags: PPSA20931, v1.000, 9.xx",
       "downloadLinks": [
         {
-          "name": "[v01.000 · PKG · APR-EMU] Akia",
-          "url": "https://akirabox.com/EL73g0JXYz9B/file"
-        },
-        {
-          "name": "[v01.000 · PKG · APR-EMU] Viki",
-          "url": "https://vikingfile.com/f/H9DrfDJLhP"
-        },
-        {
-          "name": "[v01.000 · PKG · APR-EMU] Data",
-          "url": "https://datanodes.to/wky9hsgg7ecm"
-        },
-        {
-          "name": "[v01.000 · PKG · APR-EMU] Filek",
-          "url": "https://filekeeper.net/36esksn39yf4"
-        },
-        {
-          "name": "[v01.000 · PKG · APR-EMU] Vault",
-          "url": "https://datavaults.co/1m9ypn0sk9ku"
-        },
-        {
-          "name": "[v01.000 · PKG · APR-EMU] Viki",
-          "url": "https://vikingfile.com/f/nqaI2hhQiq",
-          "group": "Standard",
+          "name": "[v01.000 · APR-EMU] Mediafire",
+          "url": "https://www.mediafire.com/file/k3jo1rzzzda9jxt/[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar/file",
           "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · PKG · APR-EMU] Rootz",
-          "url": "https://www.rootz.so/d/16TRPk",
-          "group": "Standard",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · PKG · APR-EMU] 1File",
-          "url": "https://1fichier.com/?6u11ekm8fvl7in8tqwql&af=4186346",
-          "group": "Standard",
-          "version": "01.000"
-        }
-      ],
-      "sizeBytes": 586153984,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "PKG",
-        "APR-EMU"
-      ],
-      "_enrichedAt": "2026-08-19T04:33:03.880389+00:00",
-      "_rawgMatched": false,
-      "formatLabel": "exFAT · PKG"
-    },
-    {
-      "titleId": "PPSA17697",
-      "title": "Yatzi",
-      "version": "01.000.100",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7c2e.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA17697, v1.000.100, 8.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.000.100 · APR-EMU] Rootz",
-          "url": "https://www.rootz.so/d/1hNusq",
-          "version": "01.000.100"
-        },
-        {
-          "name": "[v01.000.100 · APR-EMU] Mediafire",
-          "url": "https://www.mediafire.com/file/lcfkkyy7wdbmk3y/[DLPSGAME.COM]-PPSA17697-Game+(v01.000.100)+[APR-EMU].rar/file"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -229,23 +24,177 @@
         "APR-EMU",
         "RAR"
       ],
-      "sizeBytes": 333963222,
-      "_enrichedAt": "2026-08-19T04:33:36.167291+00:00",
+      "sizeBytes": 668420466,
+      "_enrichedAt": "2026-08-19T04:32:38.358133+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "yatzi",
-        "rawgName": "Yatzi",
+        "rawgSlug": "electronics-puzzle-lab",
+        "rawgName": "Electronics Puzzle Lab",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2024-03-26",
+        "released": "2024-02-13",
         "genres": [
           "Casual",
-          "Strategy"
+          "Indie",
+          "Simulation"
         ]
       },
-      "_igdbEnrichedAt": "2026-06-28T21:57:45.210431+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:36:22.387729+00:00",
       "_igdbMatched": true,
       "formatLabel": "APR-EMU"
+    },
+    {
+      "titleId": "PPSA07029",
+      "title": "Personality and Psychology Premium",
+      "version": "01.003",
+      "category": "game",
+      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2025/12/5-9.jpg",
+      "description": "Tags: PPSA07029, v1.003, 9.xx, 8.xx\nSize: 86 MB",
+      "downloadLinks": [
+        {
+          "name": "[v01.003] Akia",
+          "url": "https://akirabox.com/M2BGwOPVNGj4/file",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003] Viki",
+          "url": "https://vikingfile.com/f/4NfBJa7yUy",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003] 1File",
+          "url": "https://1fichier.com/?k2j8ob8u41md931osm6g",
+          "version": "01.003"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "PS5"
+      ],
+      "fileFormat": [
+        "unknown"
+      ],
+      "sizeBytes": 90177536,
+      "_enrichedAt": "2026-08-19T04:33:04.480200+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "personality-and-psychology-premium",
+        "rawgName": "Personality and Psychology Premium",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2018-05-31",
+        "genres": [
+          "Educational"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:20.035922+00:00",
+      "_igdbMatched": false
+    },
+    {
+      "titleId": "PPSA11132",
+      "title": "Ape Academy 2",
+      "version": "01.001",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9zg7.jpg",
+      "description": "Format: exFAT · Backport 4.xx\nTags: PPSA11132, v1.001, 4.xx, EUR\nSize: 1 GB",
+      "downloadLinks": [
+        {
+          "name": "[v01.001 · exFAT · Backport 4.xx] Mediafire",
+          "url": "https://www.mediafire.com/file/le1pfkb0vxifd3i/PPSA11132-[DLPSGAME.COM].rar/file",
+          "version": "01.001"
+        },
+        {
+          "name": "[v01.001 · Backport 4.xx] Akia",
+          "url": "https://akirabox.com/0JgG7PgljmoY/file",
+          "group": "Backport 4.xx"
+        },
+        {
+          "name": "[v01.001 · Backport 4.xx] Viki",
+          "url": "https://vikingfile.com/f/TGjl8Cv2cE",
+          "group": "Backport 4.xx"
+        },
+        {
+          "name": "[v01.001 · Backport 4.xx] Data",
+          "url": "https://datanodes.to/8g5szb81aa4d",
+          "group": "Backport 4.xx"
+        },
+        {
+          "name": "[v01.001 · Backport 4.xx] Filek",
+          "url": "https://filekeeper.net/gb28jofi2unx",
+          "group": "Backport 4.xx"
+        },
+        {
+          "name": "[v01.001 · Backport 4.xx] Vault",
+          "url": "https://datavaults.co/xbc06uoni14o",
+          "group": "Backport 4.xx"
+        },
+        {
+          "name": "[v01.001 · Backport 4.xx] Mediafire",
+          "url": "https://www.mediafire.com/file/6ks3hy0ccuxwdno/PPSA11132+–+EUR+Ape+Academy+2+v1.001+4.xx+By+BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.001"
+        },
+        {
+          "name": "[v01.001 · exFAT · Backport 4.xx] Viki",
+          "url": "https://vikingfile.com/f/fHQLIPqxSy",
+          "version": "01.001"
+        },
+        {
+          "name": "[v01.001 · exFAT · Backport 4.xx] 1File",
+          "url": "https://1fichier.com/?vptv5fc5irsmv60juqjr",
+          "version": "01.001"
+        },
+        {
+          "name": "[v01.001 · Backport 5.xx] Mediafire",
+          "url": "https://www.mediafire.com/file/9kb55qks0edmpr5/PPSA11132+–+EUR+Ape+Academy+2+v1.001+5.xx+By+BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.001"
+        },
+        {
+          "name": "[v01.001 · exFAT · Backport 4.xx] Viki",
+          "url": "https://vikingfile.com/f/XNI0Gck8Q8",
+          "version": "01.001"
+        },
+        {
+          "name": "[v01.001 · exFAT · Backport 4.xx] 1File",
+          "url": "https://1fichier.com/?5axljaffynlvbhcnakqb",
+          "version": "01.001"
+        },
+        {
+          "name": "[v01.001 · Backport 4.xx] Mediafire",
+          "url": "https://www.mediafire.com/file/6ks3hy0ccuxwdno/PPSA11132+%E2%80%93+EUR+Ape+Academy+2+v1.001+4.xx+By+BADERLINK-[DLPSGAME.COM].zip/file"
+        },
+        {
+          "name": "[v01.001 · Backport 5.xx] Mediafire",
+          "url": "https://www.mediafire.com/file/9kb55qks0edmpr5/PPSA11132+%E2%80%93+EUR+Ape+Academy+2+v1.001+5.xx+By+BADERLINK-[DLPSGAME.COM].zip/file"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · Backport 4.xx"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "RAR",
+        "Backport 4.xx",
+        "Backport",
+        "ZIP",
+        "Backport 5.xx"
+      ],
+      "sizeBytes": 1073741824,
+      "_enrichedAt": "2026-08-19T04:32:22.409592+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "ape-academy-2",
+        "rawgName": "Ape Academy 2",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2006-09-29",
+        "genres": [
+          "Action"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:35:19.922447+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "exFAT · Backport 4.xx"
     }
   ]
 }
