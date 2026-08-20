@@ -1429,6 +1429,26 @@ def parse_dll_page(url: str) -> dict | None:
             elif row_label_lower in ("screen languages", "screenlanguages"):
                 screen_languages = full_info.strip()
 
+            # FILET : rubrique inconnue du chainage ci-dessus (Cheat, Dump,
+            # APR-EMU, FFPFSC...). Avant, ses liens tombaient dans le vide :
+            # aucun `elif` ne matchait, donc ils n'etaient JAMAIS extraits.
+            # detect_section rend "" sur les lignes de metadonnees (Game Name,
+            # Platform, Genre, Size, Version...), donc seules les vraies
+            # rubriques passent. Garde supplementaire : il faut que la ligne
+            # porte effectivement des liens — « Size (Game + Update) » ressemble
+            # a une section mais n'en contient aucun.
+            else:
+                section_inconnue = detect_section(row_label)
+                if section_inconnue:
+                    dl_links = _extract_download_links_from_cell(value_cell)
+                    for link in dl_links:
+                        all_links.append({
+                            "name": link["name"],
+                            "url": link["url"],
+                            "group": section_inconnue,
+                            **({"version": version} if version else {}),
+                        })
+
     # Default password
     if not password:
         password = "SuperPSX"
