@@ -3,228 +3,367 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA19268",
-      "title": "Juicy Realm",
-      "version": "01.000",
+      "titleId": "PPSA13557",
+      "title": "VR Skater",
+      "version": "01.013",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27oq.jpg",
-      "description": "Format: exFAT · PKG\nTags: PPSA19268, v01.000, USA\nSize: 300 MB\nPassword: SuperPSX\nVoices: English, French (France), Portuguese (Brazil), Spanish (Mexico)\nWorks on 8.xx and higher",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zh1.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA13557, v1.013, 6.xx",
       "downloadLinks": [
         {
-          "name": "[v01.000 · PKG · USA] Buzz",
-          "url": "https://buzzheavier.com/5z6hwsjbrgoy",
+          "name": "[v01.013 · Folder · EUR] Viki",
+          "url": "https://vikingfile.com/f/QIylefoOGV",
           "group": "Standard",
-          "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA19268"
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
         },
         {
-          "name": "[v01.000 · exFAT · USA] Akia",
-          "url": "https://akirabox.com/qLQ36xbDYG19/file",
-          "group": "exFAT",
-          "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA19268"
-        },
-        {
-          "name": "[v01.000 · exFAT · USA] Viki",
-          "url": "https://vikingfile.com/f/mPrR9asFz6",
-          "group": "exFAT",
-          "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA19268"
-        },
-        {
-          "name": "[v01.000 · exFAT · USA] Data",
-          "url": "https://datanodes.to/pmcx4p3e9v21",
-          "group": "exFAT",
-          "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA19268"
-        },
-        {
-          "name": "[v01.000 · PKG] Viki",
-          "url": "https://vikingfile.com/f/Br86u8xMmJ",
+          "name": "[v01.013 · Folder · EUR] 1File",
+          "url": "https://1fichier.com/?o1szuys3hoa1cytfvm5h",
           "group": "Standard",
-          "version": "01.000"
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
         },
         {
-          "name": "[v01.000 · PKG] Rootz",
-          "url": "https://www.rootz.so/d/1Dxals",
+          "name": "[v01.013 · Folder · EUR] Rootz",
+          "url": "https://rootz.so/d/1pUjk8",
           "group": "Standard",
-          "version": "01.000"
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
         },
         {
-          "name": "[v01.000 · PKG] 1File",
-          "url": "https://1fichier.com/?8awk3lf1siq3svtmk6q7&af=4186346",
+          "name": "[v01.013 · Folder · EUR] Akia",
+          "url": "https://akirabox.com/jJD3VvV2l3a5/file",
           "group": "Standard",
-          "version": "01.000"
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
         },
         {
-          "name": "[v01.000 · PKG] Rootz",
-          "url": "https://rootz.so/d/27UXwm",
+          "name": "[v01.013 · Folder · EUR] Viki",
+          "url": "https://vikingfile.com/f/kkU5cmRpqK",
           "group": "Standard",
-          "version": "01.000"
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] 1File",
+          "url": "https://1fichier.com/?6oqp38e2lm4jeayshtyu",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Backport · EUR] Mediafire",
+          "url": "https://www.mediafire.com/file/avar230khrv02vq/4_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] Akia",
+          "url": "https://akirabox.com/rk9zKlOVZG0l/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] Viki",
+          "url": "https://vikingfile.com/f/1WCpvzYh0C",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] 1File",
+          "url": "https://1fichier.com/?tulmscys1kbd0hga4dok",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] Rootz",
+          "url": "https://www.rootz.so/d/2AAPVA",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Backport · EUR] Mediafire",
+          "url": "https://www.mediafire.com/file/lx86n21akui73gv/5_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] Akia",
+          "url": "https://akirabox.com/l76mZDkKnzan/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] Viki",
+          "url": "https://vikingfile.com/f/cXQTuIedcX",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] 1File",
+          "url": "https://1fichier.com/?7otzc0dxrgofe80904ir",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder · EUR] Rootz",
+          "url": "https://www.rootz.so/d/tSJwO",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[v01.013 · Folder] Viki",
+          "url": "https://vikingfile.com/f/deUSxR3mUK",
+          "group": "Standard",
+          "version": "01.013"
+        },
+        {
+          "name": "[v01.013 · Folder] Rootz",
+          "url": "https://www.rootz.so/d/KSliy",
+          "group": "Standard",
+          "version": "01.013"
+        },
+        {
+          "name": "[v01.013 · Backport] Mediafire",
+          "url": "https://www.mediafire.com/file/avar230khrv02vq/4_XX+PPSA13557_%E2%80%93_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file"
+        },
+        {
+          "name": "[v01.013 · Backport] Mediafire",
+          "url": "https://www.mediafire.com/file/lx86n21akui73gv/5_XX+PPSA13557_%E2%80%93_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG"
+        "Folder · Backport 4.xx"
       ],
       "fileFormat": [
-        "exFAT",
-        "PKG"
+        "Folder",
+        "ZIP",
+        "Backport 4.xx",
+        "Backport 5.xx"
       ],
-      "sizeBytes": 461373440,
-      "_enrichedAt": "2026-08-19T04:32:49.220058+00:00",
+      "sizeBytes": 72529570,
+      "_enrichedAt": "2026-08-19T04:33:34.303172+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "juicy-realm",
-        "rawgName": "Juicy Realm",
-        "rating": 4.0,
-        "metacritic": null,
-        "released": "2019-11-07",
-        "genres": [
-          "Indie",
-          "Adventure",
-          "Action",
-          "RPG"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:36:56.225821+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG"
-    },
-    {
-      "titleId": "PPSA20931",
-      "title": "Electronics Puzzle Lab",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q99.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA20931, v1.000, 9.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.000 · APR-EMU] Mediafire",
-          "url": "https://www.mediafire.com/file/k3jo1rzzzda9jxt/[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar/file",
-          "group": "Standard",
-          "version": "01.000"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "APR-EMU"
-      ],
-      "fileFormat": [
-        "APR-EMU",
-        "RAR"
-      ],
-      "sizeBytes": 668420466,
-      "_enrichedAt": "2026-08-19T04:32:38.358133+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "electronics-puzzle-lab",
-        "rawgName": "Electronics Puzzle Lab",
+        "rawgSlug": "vr-skater",
+        "rawgName": "VR Skater",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2024-02-13",
+        "released": "2021-04-30",
         "genres": [
-          "Casual",
-          "Indie",
-          "Simulation"
+          "Racing",
+          "Action",
+          "Simulation",
+          "Sports",
+          "Indie"
         ]
       },
-      "_igdbEnrichedAt": "2026-06-28T21:36:22.387729+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:57:34.573331+00:00",
       "_igdbMatched": true,
-      "formatLabel": "APR-EMU"
+      "formatLabel": "Folder · Backport 4.xx"
     },
     {
-      "titleId": "PPSA06699",
-      "title": "Hot Shots Golf 2 (PS1)",
-      "version": "01.000.004",
+      "titleId": "PPSA07029",
+      "title": "Personality and Psychology Premium",
+      "version": "01.003",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9qpn.jpg",
-      "description": "Format: exFAT · Backport 4.xx\nTags: PPSA06699, v1.004, 4.xx, USA\nSize: 751 MB",
+      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2025/12/5-9.jpg",
+      "description": "Tags: PPSA07029, v1.003, 9.xx, 8.xx\nSize: 86 MB",
       "downloadLinks": [
         {
-          "name": "[v01.000.004 · Backport 4.xx] Akia",
-          "url": "https://akirabox.com/QN9mEq687m6d/file",
-          "group": "Backport 4.xx"
+          "name": "[v01.003] Akia",
+          "url": "https://akirabox.com/M2BGwOPVNGj4/file",
+          "group": "Standard",
+          "version": "01.003"
         },
         {
-          "name": "[v01.000.004 · Backport 4.xx] Viki",
-          "url": "https://vikingfile.com/f/VQhBzhgvuh",
-          "group": "Backport 4.xx"
+          "name": "[v01.003] Viki",
+          "url": "https://vikingfile.com/f/4NfBJa7yUy",
+          "group": "Standard",
+          "version": "01.003"
         },
         {
-          "name": "[v01.000.004 · Backport 4.xx] Data",
-          "url": "https://datanodes.to/lpmkq80yag3j",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.004 · Backport 4.xx] Filek",
-          "url": "https://filekeeper.net/cjyih8c56n51",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.004 · Backport 4.xx] Vault",
-          "url": "https://datavaults.co/vncxbzln1i6p",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.004 · exFAT · Backport 4.xx] Mediafire",
-          "url": "https://www.mediafire.com/file/nyrtwfi3hjn9q0c/[DLPSGAME.COM]-PPSA06699-app0.rar/file",
-          "version": "01.004"
-        },
-        {
-          "name": "[v01.000.004 · Backport 4.xx] Mediafire",
-          "url": "https://www.mediafire.com/file/xzea5twwwkselo1/[DLPSGAME.COM]-PPSA06699+Backport+4.xx+By+baderlink.zip/file",
-          "version": "01.000.004"
-        },
-        {
-          "name": "[v01.000.004 · exFAT · Backport 4.xx] Viki",
-          "url": "https://vikingfile.com/f/wElHmJaIcp",
-          "version": "01.000.004"
-        },
-        {
-          "name": "[v01.000.004 · exFAT · Backport 4.xx] 1File",
-          "url": "https://1fichier.com/?72pge2ro1228cx6nz2s0",
-          "version": "01.000.004"
-        },
-        {
-          "name": "[v01.000.004 · exFAT · Backport 4.xx] Rootz",
-          "url": "https://rootz.so/d/wO4P2",
-          "version": "01.000.004"
+          "name": "[v01.003] 1File",
+          "url": "https://1fichier.com/?k2j8ob8u41md931osm6g",
+          "group": "Standard",
+          "version": "01.003"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · Backport 4.xx"
+        "PS5"
       ],
       "fileFormat": [
-        "exFAT",
-        "Backport 4.xx",
-        "Backport",
-        "RAR",
-        "ZIP"
+        "unknown"
       ],
-      "sizeBytes": 787480576,
-      "_enrichedAt": "2026-07-23T05:31:37.819814+00:00",
-      "_rawgMatched": true,
+      "sizeBytes": 90177536,
+      "_enrichedAt": "2026-08-19T04:33:04.480200+00:00",
+      "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "hot-shots-golf-2",
-        "rawgName": "Hot Shots Golf 2",
-        "rating": 3.67,
+        "rawgSlug": "personality-and-psychology-premium",
+        "rawgName": "Personality and Psychology Premium",
+        "rating": 0.0,
         "metacritic": null,
-        "released": "1999-07-29",
+        "released": "2018-05-31",
         "genres": [
-          "Simulation",
-          "Sports"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/e59/e59c0f47261587323dc4d58ab78e5216.jpg"
+          "Educational"
+        ]
       },
-      "_igdbEnrichedAt": "2026-06-28T21:58:13.224057+00:00",
+      "_igdbEnrichedAt": "2026-07-01T05:58:20.035922+00:00",
+      "_igdbMatched": false
+    },
+    {
+      "titleId": "PPSA02801",
+      "title": "New Joe and Mac Caveman Ninja",
+      "version": "01.003",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vjs.jpg",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA02801, v1.003, 4.xx, 5.xx, EUR\nSize: 970 MB",
+      "downloadLinks": [
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Akia",
+          "url": "https://akirabox.com/LJlGnWdDem15/file"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Viki",
+          "url": "https://vikingfile.com/f/SM6BB8NzIC"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Data",
+          "url": "https://datanodes.to/p68pvo6xjlsu"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Filek",
+          "url": "https://filekeeper.net/tjuuuv78u8uw"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Vault",
+          "url": "https://datavaults.co/7zl3jkyqsjao"
+        },
+        {
+          "name": "[v01.003 · Backport] Akia",
+          "url": "https://akirabox.com/LK0G1b55am91/file",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · Backport] Viki",
+          "url": "https://vikingfile.com/f/nmblVAl1Fe",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · Backport] Data",
+          "url": "https://datanodes.to/a6ts7c2itm6u",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · Backport] Filek",
+          "url": "https://filekeeper.net/x1aaq0i240m0",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · Backport] Vault",
+          "url": "https://datavaults.co/aab39feyr3td",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU · EUR] Akia",
+          "url": "https://akirabox.com/Y2xm01MX63RO/file",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "EUR",
+          "editionId": "PPSA02801"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU · EUR] Viki",
+          "url": "https://vikingfile.com/f/8IjWFXdMPf",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "EUR",
+          "editionId": "PPSA02801"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU · EUR] 1File",
+          "url": "https://1fichier.com/?lh8uvczvq1cqktq9j19j",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "EUR",
+          "editionId": "PPSA02801"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Rootz",
+          "url": "https://www.rootz.so/d/1hnJRY",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] 1File",
+          "url": "https://1fichier.com/?d67bfq7q0lrm5dwl14ro&af=4186346",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Rootz",
+          "url": "https://www.rootz.so/d/L5KdM",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Rootz",
+          "url": "https://rootz.so/d/tC4G0",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Mediafire",
+          "url": "https://www.mediafire.com/file/027w6rhu8s2bhcu/[DLPSGAME.COM]-PPSA02801-app0.rar/file",
+          "version": "01.003"
+        }
+      ],
+      "sizeBytes": 1017118720,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · PKG · Backport"
+      ],
+      "fileFormat": [
+        "Backport",
+        "exFAT",
+        "APR-EMU",
+        "Backport 4.xx",
+        "PKG",
+        "RAR",
+        "unknown"
+      ],
+      "_enrichedAt": "2026-08-19T04:33:02.253155+00:00",
+      "_rawgMatched": false,
+      "_igdbEnrichedAt": "2026-06-28T21:37:24.317986+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · Backport 4.xx"
+      "formatLabel": "exFAT · PKG · Backport"
     }
   ]
 }
