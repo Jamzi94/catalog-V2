@@ -25,6 +25,7 @@ Usage :
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import sys
@@ -180,15 +181,20 @@ def _link_format(name: str, url: str, game_fmt: str, base_fmt: str, group: str) 
 
 
 _PART_RE = re.compile(r"[._\-\s]part\s*(\d{1,3})\b", re.IGNORECASE)
+# Numerotation posee par un run precedent (« Viki 03/60 », « Viki #03 ») : on la
+# retire avant de recalculer. Sans ca, un groupe qui s'agrandit se retrouve avec
+# deux « #01 », puis « #01 #01 » au run suivant.
+_RANK_SUFFIX_RE = re.compile(r"\s+(?:#\d{1,3}|\d{2,3}/\d{2,3})$")
 
 
 def _number_parts(pkg: dict) -> None:
     """Suffixe « n/N » aux liens d'une archive découpée (sur place).
 
-    Le numéro vient du nom de fichier contenu dans l'URL. On ne numérote QUE
-    les groupes où chaque lien du même libellé porte un numéro distinct : si
-    l'information manque ou se répète, on ne peut rien affirmer et on laisse
-    le libellé tel quel plutôt que d'inventer un ordre.
+    Le numéro vient du nom de fichier contenu dans l'URL. Quand chaque lien du
+    même libellé porte un numéro distinct, on écrit « n/N » : c'est l'ordre réel
+    des parties, et un manquant se voit. Sinon (hébergeur à URL opaque), on ne
+    peut rien affirmer de tel : on écrit un simple RANG « #n », qui distingue
+    les liens sans prétendre à un ordre de parties ni à une totalité.
     """
     links = pkg.get("downloadLinks") or []
     groupes: dict[str, list] = {}
@@ -203,6 +209,17 @@ def _number_parts(pkg: dict) -> None:
             m = _PART_RE.search(unquote(link.get("url", "")))
             numeros.append(int(m.group(1)) if m else None)
         if any(n is None for n in numeros) or len(set(numeros)) != len(numeros):
+            # Hebergeur a URL opaque (vikingfile.com/f/2hlmuAlxRy,
+            # 1fichier.com/?id) : pas de nom de fichier, donc pas de numero de
+            # partie a remonter. 4 877 liens sur 652 jeux portaient un libelle
+            # STRICTEMENT identique a un autre du meme jeu (catalogue du
+            # 2026-08-25) — l'app les affiche comme des doublons. Le rang les
+            # distingue ; pas de total, faute de savoir si ce sont des parties
+            # ou des miroirs.
+            # ponytail: rang d'affichage, passer a « n/N » si la source finit
+            # par donner le decoupage.
+            for i, link in enumerate(groupe, 1):
+                link["name"] = f"{nom} #{i:02d}"
             continue
         total = max(numeros)
         for link, n in zip(groupe, numeros):
@@ -215,10 +232,24 @@ def _clean_links(pkg: dict) -> int:
     du jeu (mieux que rien). Renvoie le nb gardé."""
     links = pkg.get("downloadLinks") or []
     valid = []
+    vus: set[str] = set()
     for l in links:
         url = (l.get("url") or "").strip() if isinstance(l, dict) else ""
-        if url.startswith(("http://", "https://")):
-            valid.append(l)
+        if not url.startswith(("http://", "https://")):
+            continue
+        # Entite HTML non decodee : la page source ecrit bien
+        # `1fichier.com/?id&amp;af=...` dans le href (releve le 2026-08-26 sur
+        # superpsx.com/dllsh2ps5/). Le chemin d'extraction qui lit le href sans
+        # parseur garde l'entite, celui qui passe par BeautifulSoup la decode :
+        # le MEME lien entre deux fois, et merge_links() ne peut pas le voir
+        # puisqu'il dedoublonne par chaine d'URL brute. 428 liens strictement
+        # identiques hors URL, sur 55 jeux (catalogue du 2026-08-25).
+        url = html.unescape(url)
+        if url in vus:
+            continue
+        vus.add(url)
+        l["url"] = url
+        valid.append(l)
 
     def _host(u: str) -> str:
         try:
@@ -308,6 +339,7 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # entrées repassent à chaque run — c'est le seul endroit qui répare
         # aussi l'existant.
         base = _SECTION_PREFIX_RE.sub("", base).strip() or base
+        base = _RANK_SUFFIX_RE.sub("", base).strip() or base
         link_fmt = _strip_unknown(_link_format(base, link.get("url", ""), fmt, base_fmt, link.get("group", "")))
         # Version PROPRE au lien (section), sinon version du jeu en repli.
         link_version = (link.get("version") or "").strip() or version
