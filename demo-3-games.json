@@ -3,208 +3,64 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA19015",
-      "title": "Arcade Game Zone",
-      "version": "01.000",
+      "titleId": "PPSA28061",
+      "title": "Earthion",
+      "version": "01.006",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8cmy.jpg",
-      "description": "Format: PKG\nTags: PPSA19015, v01.000, 10.xx – 9.xx, USA\nSize: 1GB\nPassword: SuperPSX\nFW Compat: 10.xx – 9.xx\nWorking 10.xx – 9.xx – 8.xx – 7.xx",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Earthion.avif",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA28061, v01.006, USA\nSize: 100 MB\nPassword: SuperPSX\nWorks on 12.xx and higher",
       "downloadLinks": [
         {
-          "name": "[v01.000 · PKG] Viki",
-          "url": "https://vikingfile.com/f/VEJN2GnbXa",
-          "group": "Standard",
-          "version": "01.000"
+          "name": "[v01.006 · Backport 4.xx] Akia",
+          "url": "https://akirabox.com/k0emb0ovVzVb/file",
+          "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.000 · PKG] Rootz #01",
-          "url": "https://www.rootz.so/d/wdavw",
-          "group": "Standard",
-          "version": "01.000"
+          "name": "[v01.006 · Backport 4.xx] Viki",
+          "url": "https://vikingfile.com/f/NXXho74hTF",
+          "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.000 · PKG] 1File",
-          "url": "https://1fichier.com/?4peel760e7a1mrrkyzvi&af=4186346",
-          "group": "Standard",
-          "version": "01.000"
+          "name": "[v01.006 · Backport 4.xx] Data",
+          "url": "https://datanodes.to/5rvtggswn0qf",
+          "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.003 · PKG] Akia",
-          "url": "https://akirabox.com/QN9mEaqRym6d/file",
-          "group": "Standard",
-          "version": "01.003"
+          "name": "[v01.006 · Backport 4.xx] Filek",
+          "url": "https://filekeeper.net/lctcilx7jhep",
+          "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.003 · PKG] Viki",
-          "url": "https://vikingfile.com/f/WSFf2wKaTK",
-          "group": "Standard",
-          "version": "01.003"
+          "name": "[v01.006 · Backport 4.xx] Vault",
+          "url": "https://datavaults.co/r3n53caidedg",
+          "group": "Backport 4.xx"
         },
         {
-          "name": "[v01.003 · PKG] 1File",
-          "url": "https://1fichier.com/?y5s2n86sgb0lxesvem2s",
+          "name": "[v01.006 · PKG] Viki",
+          "url": "https://vikingfile.com/f/KnFrFTDz8h",
           "group": "Standard",
-          "version": "01.003"
+          "version": "01.006"
         },
         {
-          "name": "[v01.000 · PKG] Akia",
-          "url": "https://akirabox.com/gXeGOabed3Aa/file",
+          "name": "[v01.006 · PKG] Rootz #01",
+          "url": "https://www.rootz.so/d/Sw1Kq",
           "group": "Standard",
-          "version": "01.000"
+          "version": "01.006"
         },
         {
-          "name": "[v01.000 · PKG] Rootz #02",
-          "url": "https://www.rootz.so/d/1FQ0bA",
+          "name": "[v01.006 · PKG] 1File",
+          "url": "https://1fichier.com/?bly1tpz6cewe0g7hdc9w&af=4186346",
           "group": "Standard",
-          "version": "01.000"
+          "version": "01.006"
+        },
+        {
+          "name": "[v01.006 · PKG] Rootz #02",
+          "url": "https://www.rootz.so/d/ma704",
+          "group": "Standard",
+          "version": "01.006"
         }
       ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PKG"
-      ],
-      "fileFormat": [
-        "PKG",
-        "unknown"
-      ],
-      "_enrichedAt": "2026-08-19T04:32:22.409599+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "arcade-game-series-galaga",
-        "rawgName": "ARCADE GAME SERIES: GALAGA",
-        "rating": 3.81,
-        "metacritic": null,
-        "released": "2016-04-19",
-        "genres": [
-          "Action"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:35:21.561419+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "PKG"
-    },
-    {
-      "titleId": "PPSA20931",
-      "title": "Electronics Puzzle Lab",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q99.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA20931, v1.000, 9.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.000 · APR-EMU] Mediafire",
-          "url": "https://www.mediafire.com/file/k3jo1rzzzda9jxt/[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar/file",
-          "group": "Standard",
-          "version": "01.000"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "APR-EMU"
-      ],
-      "fileFormat": [
-        "APR-EMU",
-        "RAR"
-      ],
-      "sizeBytes": 668420466,
-      "_enrichedAt": "2026-08-19T04:32:38.358133+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "electronics-puzzle-lab",
-        "rawgName": "Electronics Puzzle Lab",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2024-02-13",
-        "genres": [
-          "Casual",
-          "Indie",
-          "Simulation"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:36:22.387729+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "APR-EMU"
-    },
-    {
-      "titleId": "PPSA24515",
-      "title": "Alone in The Dark 2 1996",
-      "version": "01.000.003",
-      "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Alone_in_The_Dark_2_1996.webp",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA24515, v01.000.003, EUR\nSize: 400 MB\nPassword: SuperPSX\nVoices: English\nBackport 4.xx\nWorks on 11.xx and higher",
-      "downloadLinks": [
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Akia",
-          "url": "https://akirabox.com/RMKGJQ41wz1o/file",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Viki",
-          "url": "https://vikingfile.com/f/vAoCIez7lW",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Data",
-          "url": "https://datanodes.to/3c47d0dn548a",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Filek",
-          "url": "https://filekeeper.net/ilrdhtjnap2y",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · Backport 4.xx] Vault",
-          "url": "https://datavaults.co/ztibv6ge1u0n",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[v01.000.003 · PKG] Viki",
-          "url": "https://vikingfile.com/f/kwMWUUv1sb",
-          "group": "Standard",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · PKG] Rootz",
-          "url": "https://www.rootz.so/d/z0gMq",
-          "group": "Standard",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · PKG] 1File",
-          "url": "https://1fichier.com/?tvsmk452irqnzepw3d6w&af=4186346",
-          "group": "Standard",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · Backport] Viki",
-          "url": "https://vikingfile.com/f/kBpImc5XWn",
-          "group": "Backport",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · Backport] Rootz",
-          "url": "https://www.rootz.so/d/2Bgv44",
-          "group": "Backport",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · Backport] 1File",
-          "url": "https://1fichier.com/?x67yyxeabstc14zx723n&af=4186346",
-          "group": "Backport",
-          "version": "01.000.003"
-        },
-        {
-          "name": "[v01.000.003 · PKG · EUR] Rootz",
-          "url": "https://www.rootz.so/d/1KhXmK",
-          "group": "Standard",
-          "version": "01.000.003",
-          "region": "EUR",
-          "editionId": "PPSA24515"
-        }
-      ],
-      "sizeBytes": 1073741824,
+      "sizeBytes": 186646528,
       "downloadSource": "https://phoenixdl.com",
       "source": [
         "exFAT · PKG · Backport"
@@ -212,24 +68,139 @@
       "fileFormat": [
         "Backport",
         "PKG",
-        "Backport 4.xx",
-        "exFAT"
+        "exFAT",
+        "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-08-01T05:58:21.381192+00:00",
-      "_rawgMatched": true,
+      "_enrichedAt": "2026-08-19T04:32:37.822179+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "exFAT · PKG · Backport"
+    },
+    {
+      "titleId": "PPSA24651",
+      "title": "The Messenger",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1th.jpg",
+      "description": "Tags: PPSA24651, v1.000, 9.xx",
+      "downloadLinks": [
+        {
+          "name": "[v01.000 · RAR · USA] Mediafire",
+          "url": "https://www.mediafire.com/file/isfq78zdaort28t/01.000+PPSA24643-[DLPSGAME.COM].rar/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA"
+        },
+        {
+          "name": "[v01.000 · RAR · EUR] Mediafire",
+          "url": "https://www.mediafire.com/file/xibso3innmclmfa/[DLPSGAME.COM]-PPSA24651-app0.rar/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA24651"
+        },
+        {
+          "name": "[v01.000 · RAR · EUR] Akia",
+          "url": "https://akirabox.com/EL73g2XgKm9B/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA24651"
+        },
+        {
+          "name": "[v01.000 · RAR · EUR] Viki",
+          "url": "https://vikingfile.com/f/lzTBMfVcEt",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA24651"
+        },
+        {
+          "name": "[v01.000 · RAR · EUR] 1File",
+          "url": "https://1fichier.com/?jd1277zxd2dyzvvzkdg6",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA24651"
+        },
+        {
+          "name": "[v01.000 · RAR · EUR] Rootz",
+          "url": "https://rootz.so/d/OkYUa",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA24651"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "RAR"
+      ],
+      "fileFormat": [
+        "RAR"
+      ],
+      "sizeBytes": 325304678,
+      "_enrichedAt": "2026-08-19T04:33:25.176785+00:00",
+      "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "alone-in-the-dark-2022",
-        "rawgName": "Alone in the Dark",
-        "rating": 3.56,
-        "metacritic": null,
-        "released": "2024-03-20",
+        "rawgSlug": "the-messenger-2018",
+        "rawgName": "The Messenger",
+        "rating": 4.29,
+        "metacritic": 84,
+        "released": "2018-08-30",
         "genres": [
           "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/719/7197c4abfd5cfac909548dce23b74daa.jpg"
+          "Action",
+          "RPG",
+          "Indie",
+          "Platformer"
+        ]
       },
-      "formatLabel": "exFAT · PKG · Backport"
+      "_igdbEnrichedAt": "2026-06-28T21:57:13.675451+00:00",
+      "_igdbMatched": true
+    },
+    {
+      "titleId": "PPSA19639",
+      "title": "Minecraft Preview",
+      "version": "01.024.000",
+      "category": "game",
+      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/01/1-2.png",
+      "description": "Format: Backport 4.xx\nTags: PPSA19639, v1.024.000, 4.xx",
+      "downloadLinks": [
+        {
+          "name": "[v01.024.000 · Backport 4.xx] Mediafire",
+          "url": "https://www.mediafire.com/file/h3wewa4y7394hgm/PPSA19639-[DLPSGAME.COM].rar/file",
+          "group": "Standard",
+          "version": "01.024.000"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport 4.xx"
+      ],
+      "fileFormat": [
+        "RAR",
+        "Backport 4.xx"
+      ],
+      "sizeBytes": 675463009,
+      "_enrichedAt": "2026-08-19T04:32:56.303806+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "minecraft",
+        "rawgName": "Minecraft",
+        "rating": 4.44,
+        "metacritic": 83,
+        "released": "2009-05-10",
+        "genres": [
+          "Action",
+          "Arcade",
+          "Simulation",
+          "Indie",
+          "Massively Multiplayer"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:20.035900+00:00",
+      "_igdbMatched": false,
+      "formatLabel": "Backport 4.xx"
     }
   ]
 }
