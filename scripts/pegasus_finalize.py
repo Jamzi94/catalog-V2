@@ -30,6 +30,7 @@ import json
 import re
 import sys
 from pathlib import Path
+import unicodedata
 from urllib.parse import unquote, urlparse
 
 from formats import display_label, normalize_formats
@@ -377,6 +378,53 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         stats["placeholder_titleId"] += 1
 
 
+def _cle_titre(titre: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", titre or "")
+                  .encode("ascii", "ignore").decode().lower())
+
+
+def _absorber_fiches_placeholder(packages: list, stats: dict) -> list:
+    """Fond une fiche a identifiant fabrique dans la fiche REELLE du meme jeu.
+
+    Un titleId `GAME_xxxxx` n'identifie rien : c'est un repli quand la page ne
+    donne pas le vrai. Deux consequences mesurees le 2026-08-27 :
+
+    - 13 groupes de titres en double contenaient une fiche a identifiant
+      fabrique a cote de la vraie (« Avatar Frontiers of Pandora » GAME_23531
+      contre PPSA01576) : le meme jeu, deux fois dans la liste.
+    - le passage de `hash()` a sha1 change la forme de ces identifiants ; sans
+      absorption, la prochaine visite de chacune de ces 15 pages creerait une
+      fiche de plus a cote de l'ancienne.
+
+    On n'absorbe QUE vers une fiche a titleId reel, et seulement s'il y en a
+    EXACTEMENT une qui porte le meme titre normalise. Deux titleId reels ne
+    fusionnent jamais entre eux : « Bugsnax » PPSA01502 et PPSA01503 sont deux
+    editions regionales, pas un doublon — c'est une decision de catalogue, pas
+    une reparation, et elle ne se prend pas ici.
+    """
+    reels = {}
+    for pkg in packages:
+        tid = (pkg.get("titleId") or "").strip().upper()
+        if REAL_TITLEID_RE.match(tid):
+            reels.setdefault(_cle_titre(pkg.get("title")), []).append(pkg)
+    gardees, absorbees = [], 0
+    for pkg in packages:
+        tid = (pkg.get("titleId") or "").strip().upper()
+        cible = reels.get(_cle_titre(pkg.get("title")), [])
+        if REAL_TITLEID_RE.match(tid) or len(cible) != 1:
+            gardees.append(pkg)
+            continue
+        hote = cible[0]
+        vus = {l.get("url") for l in (hote.get("downloadLinks") or []) if isinstance(l, dict)}
+        for link in pkg.get("downloadLinks") or []:
+            if isinstance(link, dict) and link.get("url") not in vus:
+                hote.setdefault("downloadLinks", []).append(link)
+                vus.add(link.get("url"))
+        absorbees += 1
+    stats["fiches_absorbees"] = absorbees
+    return gardees
+
+
 def _purger_liens_etrangers(packages: list, stats: dict) -> None:
     """Retire d'une fiche les liens qui, de leur propre aveu, appartiennent a une autre.
 
@@ -434,14 +482,20 @@ def finalize_catalog(catalog: dict) -> dict:
         "total": 0, "size_dropped": 0, "missing_titleId": 0, "missing_title": 0,
         "no_valid_links": 0, "placeholder_titleId": 0, "with_size": 0,
         "with_formatLabel": 0, "liens_etrangers": 0, "fiches_delestees": 0,
+        "fiches_absorbees": 0,
     }
     # Nom du catalogue rebrandé (sinon « SuperPSX PS5 » / « exFAT PS5 » fuite
     # la source, y compris dans l'en-tête de la liste de jeux générée ensuite).
     catalog["name"] = f"{BRAND} PS5"
     packages = catalog.get("packages", [])
     stats["total"] = len(packages)
-    # Avant tout etiquetage : un lien qui appartient a une autre fiche n'a rien a
-    # faire ici, et fausserait le comptage des doublons de libelle.
+    # 1) Une fiche a identifiant fabrique est le meme jeu que la vraie : on y
+    #    verse ses liens et on la retire de la liste.
+    packages = _absorber_fiches_placeholder(packages, stats)
+    catalog["packages"] = packages
+    stats["total"] = len(packages)
+    # 2) Un lien qui appartient a une autre fiche n'a rien a faire ici, et
+    #    fausserait le comptage des doublons de libelle.
     _purger_liens_etrangers(packages, stats)
     for pkg in packages:
         finalize_package(pkg, stats)
@@ -478,7 +532,8 @@ def main(argv: list[str] | None = None) -> int:
         f"{stats['placeholder_titleId']} titleId placeholder | "
         f"{stats['missing_title']} sans titre | "
         f"{stats['liens_etrangers']} liens etrangers retires "
-        f"({stats['fiches_delestees']} fiches)"
+        f"({stats['fiches_delestees']} fiches) | "
+        f"{stats['fiches_absorbees']} fiches a identifiant fabrique absorbees"
     )
     if args.strict and stats["no_valid_links"] > 0:
         print("::error::Des jeux n'ont aucun lien de téléchargement valide.", file=sys.stderr)
