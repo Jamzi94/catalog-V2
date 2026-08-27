@@ -3,64 +3,123 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA28061",
-      "title": "Earthion",
-      "version": "01.006",
+      "titleId": "PPSA02801",
+      "title": "New Joe and Mac Caveman Ninja",
+      "version": "01.003",
       "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Earthion.avif",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA28061, v01.006, USA\nSize: 100 MB\nPassword: SuperPSX\nWorks on 12.xx and higher",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vjs.jpg",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA02801, v01.003, EUR\nSize: 700 MB\nPassword: SuperPSX\nWorks on 5.xx and higher",
       "downloadLinks": [
         {
-          "name": "[v01.006 · Backport 4.xx] Akia",
-          "url": "https://akirabox.com/k0emb0ovVzVb/file",
-          "group": "Backport 4.xx"
+          "name": "[v01.003 · PKG · APR-EMU] Akia",
+          "url": "https://akirabox.com/LJlGnWdDem15/file"
         },
         {
-          "name": "[v01.006 · Backport 4.xx] Viki",
-          "url": "https://vikingfile.com/f/NXXho74hTF",
-          "group": "Backport 4.xx"
+          "name": "[v01.003 · PKG · APR-EMU] Viki",
+          "url": "https://vikingfile.com/f/SM6BB8NzIC"
         },
         {
-          "name": "[v01.006 · Backport 4.xx] Data",
-          "url": "https://datanodes.to/5rvtggswn0qf",
-          "group": "Backport 4.xx"
+          "name": "[v01.003 · PKG · APR-EMU] Data",
+          "url": "https://datanodes.to/p68pvo6xjlsu"
         },
         {
-          "name": "[v01.006 · Backport 4.xx] Filek",
-          "url": "https://filekeeper.net/lctcilx7jhep",
-          "group": "Backport 4.xx"
+          "name": "[v01.003 · PKG · APR-EMU] Filek",
+          "url": "https://filekeeper.net/tjuuuv78u8uw"
         },
         {
-          "name": "[v01.006 · Backport 4.xx] Vault",
-          "url": "https://datavaults.co/r3n53caidedg",
-          "group": "Backport 4.xx"
+          "name": "[v01.003 · PKG · APR-EMU] Vault",
+          "url": "https://datavaults.co/7zl3jkyqsjao"
         },
         {
-          "name": "[v01.006 · PKG] Viki",
-          "url": "https://vikingfile.com/f/KnFrFTDz8h",
+          "name": "[v01.003 · Backport] Akia",
+          "url": "https://akirabox.com/LK0G1b55am91/file",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · Backport] Viki",
+          "url": "https://vikingfile.com/f/nmblVAl1Fe",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · Backport] Data",
+          "url": "https://datanodes.to/a6ts7c2itm6u",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · Backport] Filek",
+          "url": "https://filekeeper.net/x1aaq0i240m0",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · Backport] Vault",
+          "url": "https://datavaults.co/aab39feyr3td",
+          "group": "Backport"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Multihost",
+          "url": "https://link-vault.org/c/9ko355j1",
           "group": "Standard",
-          "version": "01.006"
+          "version": "01.003"
         },
         {
-          "name": "[v01.006 · PKG] Rootz #01",
-          "url": "https://www.rootz.so/d/Sw1Kq",
-          "group": "Standard",
-          "version": "01.006"
+          "name": "[v01.003 · Backport] Multihost",
+          "url": "https://link-vault.org/c/uy6fm92q",
+          "group": "Backport",
+          "version": "01.003"
         },
         {
-          "name": "[v01.006 · PKG] 1File",
-          "url": "https://1fichier.com/?bly1tpz6cewe0g7hdc9w&af=4186346",
+          "name": "[v01.003 · PKG · APR-EMU] Rootz #01",
+          "url": "https://www.rootz.so/d/1hnJRY",
           "group": "Standard",
-          "version": "01.006"
+          "version": "01.003"
         },
         {
-          "name": "[v01.006 · PKG] Rootz #02",
-          "url": "https://www.rootz.so/d/ma704",
+          "name": "[v01.003 · PKG · APR-EMU] 1File",
+          "url": "https://1fichier.com/?d67bfq7q0lrm5dwl14ro&af=4186346",
           "group": "Standard",
-          "version": "01.006"
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU · EUR] Akia",
+          "url": "https://akirabox.com/Y2xm01MX63RO/file",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "EUR",
+          "editionId": "PPSA02801"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU · EUR] Viki",
+          "url": "https://vikingfile.com/f/8IjWFXdMPf",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "EUR",
+          "editionId": "PPSA02801"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU · EUR] 1File",
+          "url": "https://1fichier.com/?lh8uvczvq1cqktq9j19j",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "EUR",
+          "editionId": "PPSA02801"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Rootz #02",
+          "url": "https://www.rootz.so/d/L5KdM",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Rootz #03",
+          "url": "https://rootz.so/d/tC4G0",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003 · PKG · APR-EMU] Mediafire",
+          "url": "https://www.mediafire.com/file/027w6rhu8s2bhcu/[DLPSGAME.COM]-PPSA02801-app0.rar/file",
+          "version": "01.003"
         }
       ],
-      "sizeBytes": 186646528,
+      "sizeBytes": 1017118720,
       "downloadSource": "https://phoenixdl.com",
       "source": [
         "exFAT · PKG · Backport"
@@ -68,12 +127,67 @@
       "fileFormat": [
         "Backport",
         "PKG",
+        "Backport 4.xx",
         "exFAT",
-        "Backport 4.xx"
+        "APR-EMU",
+        "RAR",
+        "unknown"
       ],
-      "_enrichedAt": "2026-08-19T04:32:37.822179+00:00",
+      "_enrichedAt": "2026-08-19T04:33:02.253155+00:00",
       "_rawgMatched": false,
+      "_igdbEnrichedAt": "2026-06-28T21:37:24.317986+00:00",
+      "_igdbMatched": true,
       "formatLabel": "exFAT · PKG · Backport"
+    },
+    {
+      "titleId": "PPSA07029",
+      "title": "Personality and Psychology Premium",
+      "version": "01.003",
+      "category": "game",
+      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2025/12/5-9.jpg",
+      "description": "Tags: PPSA07029, v1.003, 9.xx, 8.xx\nSize: 86 MB",
+      "downloadLinks": [
+        {
+          "name": "[v01.003] Akia",
+          "url": "https://akirabox.com/M2BGwOPVNGj4/file",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003] Viki",
+          "url": "https://vikingfile.com/f/4NfBJa7yUy",
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "[v01.003] 1File",
+          "url": "https://1fichier.com/?k2j8ob8u41md931osm6g",
+          "group": "Standard",
+          "version": "01.003"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "PS5"
+      ],
+      "fileFormat": [
+        "unknown"
+      ],
+      "sizeBytes": 90177536,
+      "_enrichedAt": "2026-08-19T04:33:04.480200+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "personality-and-psychology-premium",
+        "rawgName": "Personality and Psychology Premium",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2018-05-31",
+        "genres": [
+          "Educational"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:20.035922+00:00",
+      "_igdbMatched": false
     },
     {
       "titleId": "PPSA24651",
@@ -157,50 +271,6 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:57:13.675451+00:00",
       "_igdbMatched": true
-    },
-    {
-      "titleId": "PPSA19639",
-      "title": "Minecraft Preview",
-      "version": "01.024.000",
-      "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/01/1-2.png",
-      "description": "Format: Backport 4.xx\nTags: PPSA19639, v1.024.000, 4.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.024.000 · Backport 4.xx] Mediafire",
-          "url": "https://www.mediafire.com/file/h3wewa4y7394hgm/PPSA19639-[DLPSGAME.COM].rar/file",
-          "group": "Standard",
-          "version": "01.024.000"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "Backport 4.xx"
-      ],
-      "fileFormat": [
-        "RAR",
-        "Backport 4.xx"
-      ],
-      "sizeBytes": 675463009,
-      "_enrichedAt": "2026-08-19T04:32:56.303806+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "minecraft",
-        "rawgName": "Minecraft",
-        "rating": 4.44,
-        "metacritic": 83,
-        "released": "2009-05-10",
-        "genres": [
-          "Action",
-          "Arcade",
-          "Simulation",
-          "Indie",
-          "Massively Multiplayer"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-07-01T05:58:20.035900+00:00",
-      "_igdbMatched": false,
-      "formatLabel": "Backport 4.xx"
     }
   ]
 }
