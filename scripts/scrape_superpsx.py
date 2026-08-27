@@ -948,7 +948,21 @@ def parse_game_page(url: str) -> dict | None:
     # puis h1/entry-title (suffixe " PS5" retiré), puis og:title. On écarte les
     # valeurs réduites au slug numérique (ex. "26528-2626", le slug WordPress).
     def _looks_like_slug(s: str) -> bool:
-        return bool(re.fullmatch(r"\d+[-–]\d+", (s or "").strip()))
+        """Un identifiant de page, pas un nom de jeu.
+
+        Deux formes relevees sur superpsx.com le 2026-08-27 : le slug WordPress
+        numerique (« 26528-2626 ») et le slug de page de telechargement
+        (« DLL-SH2PS5 », « DLL-NBA2K25PS5 »), ce dernier servi tel quel dans
+        og:title — une fiche du catalogue s'appelait « DLL-NBA2K25PS5 ».
+        """
+        s = (s or "").strip()
+        if re.fullmatch(r"\d+[-–]\d+", s):
+            return True
+        if re.match(r"(?i)^dll[-_]", s):
+            return True
+        # Un seul bloc sans espace, melange de lettres et de chiffres, finissant
+        # par PS5 : c'est une reference de page. Un vrai titre a des espaces.
+        return bool(re.fullmatch(r"(?i)[A-Z0-9._-]{6,}PS5", s))
 
     title = ""
     for _k, _v in info.items():
@@ -956,7 +970,15 @@ def parse_game_page(url: str) -> dict | None:
             title = _v.strip()
             break
     if not title or _looks_like_slug(title):
-        h1 = soup.select_one("h1.entry-title") or soup.find("h1")
+        # UNIQUEMENT h1.entry-title : le repli `soup.find("h1")` prenait le
+        # PREMIER h1 du document. Releve le 2026-08-27 sur superpsx.com : le
+        # seul h1 des pages DLL est celui d'un widget de dons en barre
+        # laterale, <aside id="block-8"><h1>CyB1K Need Us!</h1> + iframe
+        # GoFundMe. 15 fiches du catalogue portaient ce libelle comme nom de
+        # jeu, pour 15 jeux differents. Une page qui ne nomme pas le jeu doit
+        # rendre un titre VIDE : name_from_titleid.py le nomme ensuite depuis
+        # son titleId, seule identite fiable de ces pages.
+        h1 = soup.select_one("h1.entry-title")
         if h1:
             title = h1.get_text(strip=True)
     if not title or _looks_like_slug(title):
@@ -966,6 +988,8 @@ def parse_game_page(url: str) -> dict | None:
     # Nettoyage : retire un suffixe éditeur et un " PS5" final éventuel.
     title = re.sub(r"\s*[-–]\s*(SuperPSX|Download).*$", "", title, flags=re.I).strip()
     title = re.sub(r"\s+PS5$", "", title, flags=re.I).strip()
+    if _looks_like_slug(title):
+        title = ""
 
     # Poster URL
     poster_url = extract_poster_url(soup, url)

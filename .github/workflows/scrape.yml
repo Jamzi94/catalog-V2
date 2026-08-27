@@ -505,6 +505,19 @@ jobs:
             python3 scripts/pegasus_finalize.py ps5-catalog.json
           fi
 
+      - name: Nommer les fiches que la page source ne nomme pas
+        if: env.MERGE_SKIPPED != '1'
+        run: |
+          # Les pages DLL de superpsx ne portent AUCUN nom de jeu : le slug dans
+          # og:title et un h1 de widget de dons en barre laterale. On nomme donc
+          # depuis Sony, par titleId — seule identite fiable de ces pages. Ne
+          # touche que les titres juges sans valeur (vide, slug, libelle porte
+          # par >= 3 titleId reels). Une panne de la source laisse le titre en
+          # l'etat : elle ne doit pas casser le run.
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/name_from_titleid.py ps5-catalog.json || true
+          fi
+
       - name: Generate games list
         if: env.MERGE_SKIPPED != '1'
         run: |

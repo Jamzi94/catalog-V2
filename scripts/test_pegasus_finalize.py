@@ -14,7 +14,9 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from pegasus_finalize import _clean_links, _number_parts  # noqa: E402
+from pegasus_finalize import (  # noqa: E402
+    _clean_links, _number_parts, _purger_liens_etrangers,
+)
 
 
 def _pkg(*urls, nom="Viki"):
@@ -45,5 +47,40 @@ p = {"downloadLinks": [{"name": "Viki", "url": "https://vikingfile.com/f/aaa"},
                        {"name": "Rootz", "url": "https://rootz.so/d/bbb"}]}
 _number_parts(p)
 assert [l["name"] for l in p["downloadLinks"]] == ["Viki", "Rootz"]
+
+# C) Un lien dont l'editionId nomme une autre fiche est retire de l'usurpatrice
+# et conserve chez son proprietaire.
+def _cat():
+    return [
+        {"titleId": "PPSA00001", "title": "Proprietaire", "downloadLinks": [
+            {"name": "Viki", "url": "https://h.tld/a", "editionId": "PPSA00001"}]},
+        {"titleId": "PPSA00002", "title": "Usurpatrice", "downloadLinks": [
+            {"name": "Viki", "url": "https://h.tld/a"},
+            {"name": "Viki", "url": "https://h.tld/propre"}]},
+    ]
+st = {"liens_etrangers": 0, "fiches_delestees": 0}
+c = _cat(); _purger_liens_etrangers(c, st)
+assert [l["url"] for l in c[0]["downloadLinks"]] == ["https://h.tld/a"], c[0]
+assert [l["url"] for l in c[1]["downloadLinks"]] == ["https://h.tld/propre"], c[1]
+assert st["liens_etrangers"] == 1 and st["fiches_delestees"] == 1, st
+
+# C) Temoin negatif : sans editionId, un lien partage n'accuse personne, rien ne bouge.
+st = {"liens_etrangers": 0, "fiches_delestees": 0}
+c = _cat(); del c[0]["downloadLinks"][0]["editionId"]
+_purger_liens_etrangers(c, st)
+assert st["liens_etrangers"] == 0 and len(c[1]["downloadLinks"]) == 2, (st, c[1])
+
+# C) Temoin negatif : proprietaire annonce absent du catalogue -> on ne touche a rien.
+st = {"liens_etrangers": 0, "fiches_delestees": 0}
+c = _cat(); c[0]["downloadLinks"][0]["editionId"] = "PPSA99999"; c[0]["titleId"] = "PPSA00003"
+_purger_liens_etrangers(c, st)
+assert st["liens_etrangers"] == 0, st
+
+# C) Temoin negatif : editionId contradictoires sur la meme URL -> personne n'est
+# designe, on s'abstient.
+st = {"liens_etrangers": 0, "fiches_delestees": 0}
+c = _cat(); c[1]["downloadLinks"][0]["editionId"] = "PPSA00002"
+_purger_liens_etrangers(c, st)
+assert st["liens_etrangers"] == 0, st
 
 print("OK")

@@ -377,17 +377,72 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         stats["placeholder_titleId"] += 1
 
 
+def _purger_liens_etrangers(packages: list, stats: dict) -> None:
+    """Retire d'une fiche les liens qui, de leur propre aveu, appartiennent a une autre.
+
+    Un lien porte parfois `editionId` : le titleId releve sur le libelle de rubrique
+    de la page source (« Version ⇛ PPSA04477 – EUR »). Quand TOUTES les occurrences
+    d'une meme URL portent le meme editionId, ce lien nomme son proprietaire.
+
+    Mesure du 2026-08-27 sur le catalogue publie : 1 450 URL sont portees par
+    plusieurs titleId ; 581 d'entre elles nomment un proprietaire unique, et les 581
+    sont posees sur au moins une fiche qui n'est pas lui. Deux ont ete ouvertes au
+    navigateur : le nom de fichier reel confirme le proprietaire annonce
+    (`[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-...part01.rar`, colle aussi sur
+    Armored Core 6, Dying Light 2 et No Man's Sky).
+
+    On ne retire QUE ce cas. Un lien sans editionId n'accuse personne : il reste en
+    place, meme partage — la cause du recollage n'est pas tracee, et un filet qui
+    devine ferait disparaitre de vrais liens.
+    """
+    proprio: dict[str, set] = {}
+    porteurs: dict[str, list] = {}
+    for pkg in packages:
+        for link in pkg.get("downloadLinks") or []:
+            if not isinstance(link, dict) or not link.get("url"):
+                continue
+            proprio.setdefault(link["url"], set()).add(link.get("editionId"))
+            porteurs.setdefault(link["url"], []).append(pkg)
+    vrais = {(p.get("titleId") or "").strip().upper() for p in packages}
+    a_retirer = {}
+    for url, eds in proprio.items():
+        eds = {e for e in eds if e}
+        if len(eds) != 1:
+            continue
+        ed = eds.pop().strip().upper()
+        if not REAL_TITLEID_RE.match(ed) or ed not in vrais:
+            continue  # proprietaire inconnu du catalogue : on ne touche a rien
+        if any((p.get("titleId") or "").strip().upper() != ed for p in porteurs[url]):
+            a_retirer[url] = ed
+    if not a_retirer:
+        return
+    touchees = 0
+    for pkg in packages:
+        tid = (pkg.get("titleId") or "").strip().upper()
+        avant = pkg.get("downloadLinks") or []
+        apres = [l for l in avant
+                 if not (isinstance(l, dict) and a_retirer.get(l.get("url")) not in (None, tid))]
+        if len(apres) != len(avant):
+            touchees += 1
+            stats["liens_etrangers"] += len(avant) - len(apres)
+            pkg["downloadLinks"] = apres
+    stats["fiches_delestees"] = touchees
+
+
 def finalize_catalog(catalog: dict) -> dict:
     stats = {
         "total": 0, "size_dropped": 0, "missing_titleId": 0, "missing_title": 0,
         "no_valid_links": 0, "placeholder_titleId": 0, "with_size": 0,
-        "with_formatLabel": 0,
+        "with_formatLabel": 0, "liens_etrangers": 0, "fiches_delestees": 0,
     }
     # Nom du catalogue rebrandé (sinon « SuperPSX PS5 » / « exFAT PS5 » fuite
     # la source, y compris dans l'en-tête de la liste de jeux générée ensuite).
     catalog["name"] = f"{BRAND} PS5"
     packages = catalog.get("packages", [])
     stats["total"] = len(packages)
+    # Avant tout etiquetage : un lien qui appartient a une autre fiche n'a rien a
+    # faire ici, et fausserait le comptage des doublons de libelle.
+    _purger_liens_etrangers(packages, stats)
     for pkg in packages:
         finalize_package(pkg, stats)
         if pkg.get("sizeBytes"):
@@ -421,7 +476,9 @@ def main(argv: list[str] | None = None) -> int:
         f"{stats['size_dropped']} tailles aberrantes retirées | "
         f"{stats['no_valid_links']} sans lien valide | "
         f"{stats['placeholder_titleId']} titleId placeholder | "
-        f"{stats['missing_title']} sans titre"
+        f"{stats['missing_title']} sans titre | "
+        f"{stats['liens_etrangers']} liens etrangers retires "
+        f"({stats['fiches_delestees']} fiches)"
     )
     if args.strict and stats["no_valid_links"] > 0:
         print("::error::Des jeux n'ont aucun lien de téléchargement valide.", file=sys.stderr)

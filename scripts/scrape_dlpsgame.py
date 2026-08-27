@@ -1321,7 +1321,15 @@ def scrape_game_page(url: str, session=None) -> dict | None:
         return None
 
     # Si pas de titleId, on en génère un placeholder
-    title_id = meta["titleId"] or f"GAME_{abs(hash(url)) % 100000:05d}"
+    # Identifiant de repli quand la page ne donne aucun titleId. `hash()` sur
+    # une chaine est RANDOMISE par processus (PYTHONHASHSEED) : trois executions
+    # sur la meme URL rendaient trois GAME_xxxxx differents, mesure le
+    # 2026-08-27. Chaque scrape reattribuait donc une identite neuve au meme
+    # jeu, et la fusion par titleId creait une fiche de plus : 13 groupes de
+    # titres en double contiennent une fiche a identifiant fabrique. sha1 est
+    # stable entre processus et entre machines — meme forme que
+    # import_exfat.py:505, qui avait deja le bon motif.
+    title_id = meta["titleId"] or f"GAME_{hashlib.sha1(url.encode('utf-8')).hexdigest()[:10].upper()}"
 
     package = {
         "titleId": title_id,
