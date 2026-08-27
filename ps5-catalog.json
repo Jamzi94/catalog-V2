@@ -10597,71 +10597,6 @@
       "formatLabel": "PKG · Backport"
     },
     {
-      "titleId": "GAME_23531",
-      "title": "Avatar Frontiers of Pandora",
-      "version": "01.020",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9oe3.jpg",
-      "description": "Format: exFAT · APR-EMU · Backport 4.xx\nTags: v1.020, 7.xx\nSize: 193 GB",
-      "downloadLinks": [
-        {
-          "name": "[v01.020 · APR-EMU] Mediafire",
-          "url": "https://www.mediafire.com/file/vhtxnf7p9g2p4p0/[DLPSGAME.COM]-PPSA01576.part10.rar/file"
-        },
-        {
-          "name": "[v01.020 · APR-EMU] Akia",
-          "url": "https://akirabox.com/qw1zedPRj3Xy/file"
-        },
-        {
-          "name": "[v01.020 · APR-EMU] Viki",
-          "url": "https://vikingfile.com/f/sYrzkt5MWZ"
-        },
-        {
-          "name": "[v01.020 · APR-EMU] 1File",
-          "url": "https://1fichier.com/?suzqd5lzbhex5s0z7bo0"
-        },
-        {
-          "name": "[v01.020 · APR-EMU] Rootz",
-          "url": "https://rootz.so/d/1Bk2ee"
-        },
-        {
-          "name": "[v01.020 · APR-EMU] Buzz",
-          "url": "https://buzzheavier.com/gldznwcjtonl"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · APR-EMU · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "APR-EMU",
-        "Backport 4.xx",
-        "Backport 5.xx",
-        "Backport 6.xx",
-        "Backport 7.xx",
-        "RAR"
-      ],
-      "sizeBytes": 207232172032,
-      "_enrichedAt": "2026-08-23T04:43:25.225654+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "avatar-frontiers-of-pandora",
-        "rawgName": "Avatar: Frontiers of Pandora",
-        "rating": 2.67,
-        "metacritic": null,
-        "released": "2023-12-07",
-        "genres": [
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/983/9837c2e9a13a92c55c47327dfc22a81f.jpeg"
-      },
-      "formatLabel": "exFAT · APR-EMU · Backport 4.xx",
-      "_igdbEnrichedAt": "2026-06-28T21:35:31.535934+00:00",
-      "_igdbMatched": true
-    },
-    {
       "titleId": "PPSA01575",
       "title": "Avatar Frontiers of Pandora Complete Edition",
       "version": "01.020",
@@ -31160,118 +31095,6 @@
       "formatLabel": "exFAT · Folder · Backport"
     },
     {
-      "titleId": "GAME_67564",
-      "title": "Dragon Age The Veilguard",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8gj5.jpg",
-      "description": "Format: Folder · Backport 4.xx\nTags: v1.000, 4.xx, 5.xx\nSize: 165GB",
-      "downloadLinks": [
-        {
-          "name": "[v01.000 · Backport] Mediafire #01",
-          "url": "https://www.mediafire.com/file/q1dsk5qk8m1gbd7/4_XX+PPSA01390_01_00_Dragon_Age_The_Veilguard_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Akia #01",
-          "url": "https://akirabox.com/9QWmpgbYAGEB/file",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Viki #01",
-          "url": "https://vikingfile.com/f/sa6YUW38BB",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] 1File #01",
-          "url": "https://1fichier.com/?3c2ogq1bo8k49k7j2fy2",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Rootz #01",
-          "url": "https://www.rootz.so/d/nn5tI",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Backport] Mediafire #02",
-          "url": "https://www.mediafire.com/file/u839p3hig6jxqf8/5_XX+PPSA01390_01_00_Dragon_Age_The_Veilguard_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Akia #02",
-          "url": "https://akirabox.com/obj3jvBbd3Dx/file",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Viki #02",
-          "url": "https://vikingfile.com/f/FVskUHYBV8",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] 1File #02",
-          "url": "https://1fichier.com/?g9x7e6oicjks43c3fyp5",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Rootz #02",
-          "url": "https://www.rootz.so/d/20TKaW",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Akia #03",
-          "url": "https://akirabox.com/dZxG5WZvP3Vj/file",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Viki #03",
-          "url": "https://vikingfile.com/f/L7kJFWH4G3",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] 1File #03",
-          "url": "https://1fichier.com/?2n28hetbxgbb2obfji26",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Rootz #03",
-          "url": "https://rootz.so/d/91DDU",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000 · Folder] Akia #04",
-          "url": "https://akirabox.com/BnkmWE97rzR0/file",
-          "version": "01.000"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "Folder · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "Folder",
-        "ZIP",
-        "Backport 4.xx",
-        "Backport 5.xx"
-      ],
-      "sizeBytes": 177167400960,
-      "_enrichedAt": "2026-08-23T04:43:46.463773+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "dragon-age-4-tba",
-        "rawgName": "Dragon Age: The Veilguard",
-        "rating": 2.88,
-        "metacritic": null,
-        "released": "2024-10-31",
-        "genres": [
-          "RPG"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/4c5/4c5a391237b78ea96aeff8206f63d3f5.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:36:13.588765+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "Folder · Backport 4.xx"
-    },
-    {
       "titleId": "PPSA09790",
       "title": "Dragon Ball Fighter Z",
       "version": "01.010",
@@ -34885,125 +34708,6 @@
       "formatLabel": "exFAT · PKG · Backport 4.xx"
     },
     {
-      "titleId": "GAME_64805",
-      "title": "EA Sports FC 25",
-      "version": "01.007",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa755.jpg",
-      "description": "Format: exFAT · Backport 4.xx\nTags: v1.007, 4.xx, 6.xx\nSize: 145GB",
-      "downloadLinks": [
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Buzz",
-          "url": "https://buzzheavier.com/l4yi1jutxyms"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Akia #01",
-          "url": "https://akirabox.com/E1x3AbaYnzyk/file"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Viki #01",
-          "url": "https://vikingfile.com/f/RsAxuiFcRq"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] 1File #01",
-          "url": "https://1fichier.com/?2sbecvor7n9u3j1hefr9"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Rootz #01",
-          "url": "https://rootz.so/d/1S87xw"
-        },
-        {
-          "name": "[v01.007 · Backport 7.xx] Mediafire",
-          "url": "https://www.mediafire.com/file/x3rdr73r695nsz4/EA+Sports+FC+25+[+PPSA20049+][+01.007+++FW+7.xx-[DLPSGAME.COM].zip/file"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Akia #02",
-          "url": "https://akirabox.com/ZvqzlArkyGaD/file"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Viki #02",
-          "url": "https://vikingfile.com/f/A0Ukce0p1z"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] 1File #02",
-          "url": "https://1fichier.com/?clzoadvr51u98zcyp5lw"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Rootz #02",
-          "url": "https://www.rootz.so/d/Y0y80"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Akia #03",
-          "url": "https://akirabox.com/EL73g6M9am9B/file"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Viki #03",
-          "url": "https://vikingfile.com/f/7enlxAQqxQ"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Rootz #03",
-          "url": "https://www.rootz.so/d/EQZ9s"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Gofile",
-          "url": "https://gofile.io/d/hcbix9"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Akia #04",
-          "url": "https://akirabox.com/M2BGwqLJk3j4/file"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Viki #04",
-          "url": "https://vikingfile.com/f/fbQg9nyFmI"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] 1File #03",
-          "url": "https://1fichier.com/?auljt5pq94dovi5swmyu"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Rootz #04",
-          "url": "https://rootz.so/d/1Qxq2C"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Rootz #05",
-          "url": "https://www.rootz.so/d/18Ms1w"
-        },
-        {
-          "name": "[v01.007 · exFAT · Backport 4.xx] Akia #05",
-          "url": "https://akirabox.com/Pbe3P1bQJzlX/file"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "Backport 4.xx",
-        "Backport 6.xx",
-        "Backport 7.xx",
-        "ZIP"
-      ],
-      "sizeBytes": 155692564480,
-      "_enrichedAt": "2026-08-23T04:43:48.826212+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "ea-sports-fc-25",
-        "rawgName": "EA SPORTS FC 25",
-        "rating": 3.33,
-        "metacritic": null,
-        "released": "2024-09-26",
-        "genres": [
-          "Simulation",
-          "Sports"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/928/9289953b354ac641e3f1b83d43e18521.jpg"
-      },
-      "formatLabel": "exFAT · Backport 4.xx",
-      "_igdbEnrichedAt": "2026-06-28T21:36:18.978679+00:00",
-      "_igdbMatched": true
-    },
-    {
       "titleId": "PPSA27360",
       "title": "EA SPORTS FC 26",
       "version": "01.000",
@@ -35560,86 +35264,6 @@
       "_igdbEnrichedAt": "2026-06-28T21:36:19.018390+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · PKG · Backport"
-    },
-    {
-      "titleId": "GAME_42502",
-      "title": "EA Sports PGA Tour",
-      "version": "01.002",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co60xh.jpg",
-      "description": "Format: exFAT · Backport 4.xx\nTags: v1.002, 4.xx, 5.xx\nSize: 44GB",
-      "downloadLinks": [
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Akia #01",
-          "url": "https://akirabox.com/rk9zKaVoRm0l/file"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Viki #01",
-          "url": "https://vikingfile.com/f/SdGj86KZ9X"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] 1File",
-          "url": "https://1fichier.com/?044kxcq1zcdq6s8ltgjj"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Rootz #01",
-          "url": "https://www.rootz.so/d/1dnSNs"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Rootz #02",
-          "url": "https://rootz.so/d/27Hk6i"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Akia #02",
-          "url": "https://akirabox.com/0rpmvLeE7zRg/file"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Viki #02",
-          "url": "https://vikingfile.com/f/6wc4qEBzQH"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Akia #03",
-          "url": "https://akirabox.com/2bJG8WDgkzOB/file"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Akia #04",
-          "url": "https://akirabox.com/QN9mEKgw7z6d/file"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Viki #03",
-          "url": "https://vikingfile.com/f/BrVDQkepmL"
-        },
-        {
-          "name": "[v01.002 · exFAT · Backport 4.xx] Buzz",
-          "url": "https://buzzheavier.com/2gyq9nuik411"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "Backport 4.xx"
-      ],
-      "sizeBytes": 47244640256,
-      "_enrichedAt": "2026-08-23T04:43:49.520564+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "ea-sports-pga-tour",
-        "rawgName": "EA SPORTS PGA TOUR",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2023-04-04",
-        "genres": [
-          "Simulation",
-          "Sports"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/aa9/aa97374fecd55a2957da6843140227b1.jpg"
-      },
-      "formatLabel": "exFAT · Backport 4.xx",
-      "_igdbEnrichedAt": "2026-06-28T21:36:19.023800+00:00",
-      "_igdbMatched": true
     },
     {
       "titleId": "PPSA03541",
@@ -49508,8 +49132,14 @@
           "version": "01.000"
         },
         {
-          "name": "[v01.000 · PKG] Akia",
+          "name": "[v01.000 · PKG] Akia #01",
           "url": "https://akirabox.com/b5OzdM0n4GB8/file",
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "name": "[v01.000 · PKG] Akia #02",
+          "url": "https://akirabox.com/M2BGwOnNPGj4/file",
           "group": "Standard",
           "version": "01.000"
         }
@@ -49527,44 +49157,6 @@
       "_igdbEnrichedAt": "2026-06-28T21:36:43.555842+00:00",
       "_igdbMatched": true,
       "formatLabel": "PKG"
-    },
-    {
-      "titleId": "GAME_38338",
-      "title": "Gundam Breaker 4",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co92s8.jpg",
-      "description": "Tags: v1.000, 4.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.000] Akia",
-          "url": "https://akirabox.com/M2BGwOnNPGj4/file",
-          "group": "Standard",
-          "version": "01.000"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PS5"
-      ],
-      "fileFormat": [
-        "unknown"
-      ],
-      "_enrichedAt": "2026-08-19T04:32:45.112548+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "gundam-breaker-4",
-        "rawgName": "GUNDAM BREAKER 4",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": null,
-        "genres": [
-          "Action",
-          "RPG"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:36:43.291282+00:00",
-      "_igdbMatched": true
     },
     {
       "titleId": "PPSA03683",
@@ -56693,8 +56285,14 @@
           "version": "01.004"
         },
         {
-          "name": "[v01.004 · PKG] Akia",
+          "name": "[v01.004 · PKG] Akia #01",
           "url": "https://akirabox.com/qPez4WyM53OY/file",
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "name": "[v01.004 · PKG] Akia #02",
+          "url": "https://akirabox.com/2WVGr1lrkzkx/file",
           "group": "Standard",
           "version": "01.004"
         }
@@ -56724,45 +56322,6 @@
       "_igdbEnrichedAt": "2026-06-28T21:36:53.644852+00:00",
       "_igdbMatched": true,
       "formatLabel": "PKG"
-    },
-    {
-      "titleId": "GAME_55107",
-      "title": "Iron Harvest Complete Edition",
-      "version": "01.004",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co409p.jpg",
-      "description": "Tags: v1.004, 2.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.004] Akia",
-          "url": "https://akirabox.com/2WVGr1lrkzkx/file",
-          "group": "Standard",
-          "version": "01.004"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PS5"
-      ],
-      "fileFormat": [
-        "unknown"
-      ],
-      "_enrichedAt": "2026-08-23T04:44:04.531501+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "iron-harvest",
-        "rawgName": "Iron Harvest",
-        "rating": 3.33,
-        "metacritic": 75,
-        "released": "2020-08-31",
-        "genres": [
-          "Strategy",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/8b7/8b7c5b4656959c608b8fcc23f166d7e0.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:36:53.737583+00:00",
-      "_igdbMatched": true
     },
     {
       "titleId": "PPSA02343",
@@ -60212,70 +59771,6 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:37:00.068889+00:00",
       "_igdbMatched": true
-    },
-    {
-      "titleId": "GAME_86453",
-      "title": "KLONOA Phantasy Reverie Series",
-      "version": "01.002",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tns.jpg",
-      "description": "Tags: v1.002, 4.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.002 · RAR] Mediafire #01",
-          "url": "https://www.mediafire.com/file/dunpohppjwtuu20/01.002+PPSA04795-[DLPSGAME.COM].rar/file"
-        },
-        {
-          "name": "[v01.002 · RAR] Mediafire #02",
-          "url": "https://www.mediafire.com/file/ktwysukpcmc263k/[DLPSGAME.COM]-PPSA04795.rar/file"
-        },
-        {
-          "name": "[v01.002 · RAR] Akia",
-          "url": "https://akirabox.com/9AqGQlLENzMn/file"
-        },
-        {
-          "name": "[v01.002 · RAR] Viki",
-          "url": "https://vikingfile.com/f/rmOauFqkXw"
-        },
-        {
-          "name": "[v01.002 · RAR] 1File",
-          "url": "https://1fichier.com/?pt1bc4d0t00ue11kxm61"
-        },
-        {
-          "name": "[v01.002 · RAR] Rootz #01",
-          "url": "https://rootz.so/d/mWKmG"
-        },
-        {
-          "name": "[v01.002 · RAR] Rootz #02",
-          "url": "https://www.rootz.so/d/2DBmfQ"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "RAR"
-      ],
-      "fileFormat": [
-        "RAR"
-      ],
-      "_enrichedAt": "2026-08-23T04:44:06.913145+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "klonoa-phantasy-reverie-series",
-        "rawgName": "KLONOA Phantasy Reverie Series",
-        "rating": 3.64,
-        "metacritic": null,
-        "released": "2022-07-07",
-        "genres": [
-          "Casual",
-          "Platformer",
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/eb4/eb40f087008b37e1410bc405c0cc1aa9.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:37:00.068900+00:00",
-      "_igdbMatched": true,
-      "sizeBytes": 7755340624
     },
     {
       "titleId": "PPSA04795",
@@ -77335,102 +76830,6 @@
       "formatLabel": "exFAT · PKG · Backport"
     },
     {
-      "titleId": "GAME_97462",
-      "title": "Need for Speed Unbound",
-      "version": "01.027",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5fsv.jpg",
-      "description": "Format: exFAT · Backport 4.xx\nTags: v1.027, 4.xx, 5.xx\nSize: 32GB",
-      "downloadLinks": [
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Akia #01",
-          "url": "https://akirabox.com/l76mZDPBZzan/file"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Akia #02",
-          "url": "https://akirabox.com/b5OzdjolamB8/file"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Viki #01",
-          "url": "https://vikingfile.com/f/fNHj07Ukpa"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] 1File #01",
-          "url": "https://1fichier.com/?dedooyi75zdc5t6y4dai"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Rootz #01",
-          "url": "https://www.rootz.so/d/24M4J6"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Akia #03",
-          "url": "https://akirabox.com/gXeGOBqY6zAa/file"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Viki #02",
-          "url": "https://vikingfile.com/f/XAeb3KrYBU"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] 1File #02",
-          "url": "https://1fichier.com/?3yi7rkzfpdao120jnsjn"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Rootz #02",
-          "url": "https://rootz.so/d/1Fj9xg"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Akia #04",
-          "url": "https://akirabox.com/wgWGq9bqQG4o/file"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Akia #05",
-          "url": "https://akirabox.com/wgWGq9D16G4o/file"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Viki #03",
-          "url": "https://vikingfile.com/f/iAdat8JSik"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] 1File #03",
-          "url": "https://1fichier.com/?2tp8eyab14cgrqtedbxm"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Rootz #03",
-          "url": "https://rootz.so/d/L94C0"
-        },
-        {
-          "name": "[v01.027 · exFAT · Backport 4.xx] Rootz #04",
-          "url": "https://www.rootz.so/d/5sXFw"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "Backport 4.xx"
-      ],
-      "sizeBytes": 34359738368,
-      "_enrichedAt": "2026-08-23T04:44:18.413405+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "need-for-speed-unbound",
-        "rawgName": "Need for Speed Unbound",
-        "rating": 3.41,
-        "metacritic": null,
-        "released": "2022-11-29",
-        "genres": [
-          "Racing",
-          "Arcade"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/d7b/d7b45d416ca18bf86f9f1638ee331efa.jpg"
-      },
-      "formatLabel": "exFAT · Backport 4.xx",
-      "_igdbEnrichedAt": "2026-06-28T21:37:22.644073+00:00",
-      "_igdbMatched": true
-    },
-    {
       "titleId": "PPSA13871",
       "title": "Neko Rescue Tale",
       "version": "01.000",
@@ -78611,98 +78010,6 @@
       "_igdbEnrichedAt": "2026-06-28T21:37:25.183612+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · Folder · Backport"
-    },
-    {
-      "titleId": "GAME_33287",
-      "title": "NHL 24",
-      "version": "01.060",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6xmf.jpg",
-      "description": "Format: exFAT · Backport 4.xx\nTags: v1.060, 4.xx, 5.xx\nSize: 158GB",
-      "downloadLinks": [
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Akia #01",
-          "url": "https://akirabox.com/0PdzyvokdGeA/file"
-        },
-        {
-          "name": "[v01.060 · Backport 4.xx] Mediafire",
-          "url": "https://www.mediafire.com/file/f95hm2w4gc44y46/4.XX+PPSA11193+][+01.060+NHL+24[+Backport++By+BADERLINK-[DLPSGAME.COM].zip/file"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Akia #02",
-          "url": "https://akirabox.com/1RgzR1Aj83bp/file"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Viki #01",
-          "url": "https://vikingfile.com/f/PjrwoLvJNa"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] 1File #01",
-          "url": "https://1fichier.com/?30jwlhd13fjeef40tvpj"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Rootz #01",
-          "url": "https://www.rootz.so/d/28X2Jc"
-        },
-        {
-          "name": "[v01.060 · Backport 5.xx] Mediafire",
-          "url": "https://www.mediafire.com/file/65eivmre0ynbet2/5.XX+PPSA11193+][+01.060+NHL+24[+Backport++By+BADERLINK-[DLPSGAME.COM].zip/file"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Akia #03",
-          "url": "https://akirabox.com/l5YzMgkK8myO/file"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Viki #02",
-          "url": "https://vikingfile.com/f/v2zyqwc2m9"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] 1File #02",
-          "url": "https://1fichier.com/?mxyxva03g7fffpumpcuk"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Rootz #02",
-          "url": "https://www.rootz.so/d/vqncO"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Akia #04",
-          "url": "https://akirabox.com/vgKGxL9N8G8Q/file"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Viki #03",
-          "url": "https://vikingfile.com/f/eWlhBoDCgr"
-        },
-        {
-          "name": "[v01.060 · exFAT · Backport 4.xx] Data",
-          "url": "https://datanodes.to/hnx1aq99g4f4"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "Backport 4.xx",
-        "Backport 5.xx",
-        "ZIP"
-      ],
-      "sizeBytes": 169651208192,
-      "_enrichedAt": "2026-08-19T04:33:02.642472+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "nhl-21",
-        "rawgName": "NHL 21",
-        "rating": 3.21,
-        "metacritic": 76,
-        "released": "2020-10-16",
-        "genres": [
-          "Sports"
-        ]
-      },
-      "formatLabel": "exFAT · Backport 4.xx",
-      "_igdbEnrichedAt": "2026-06-28T21:37:25.183632+00:00",
-      "_igdbMatched": true
     },
     {
       "titleId": "PPSA26785",
@@ -81083,45 +80390,6 @@
         ]
       },
       "_igdbEnrichedAt": "2026-06-28T22:19:36.091001+00:00",
-      "_igdbMatched": true
-    },
-    {
-      "titleId": "GAME_59391",
-      "title": "Oddworld Soulstorm",
-      "version": "01.160",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ysw.jpg",
-      "description": "Tags: v1.160, 1.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.160] Akia",
-          "url": "https://akirabox.com/N2p3DqDLAzMa/file"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PS5"
-      ],
-      "fileFormat": [
-        "unknown"
-      ],
-      "_enrichedAt": "2026-08-23T04:44:21.844861+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "oddworld-soulstorm",
-        "rawgName": "Oddworld: Soulstorm",
-        "rating": 2.59,
-        "metacritic": 70,
-        "released": "2021-04-06",
-        "genres": [
-          "Indie",
-          "Platformer",
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/399/3992a9f92ea0387a839e70a22a26ec34.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:37:29.458645+00:00",
       "_igdbMatched": true
     },
     {
@@ -109727,65 +108995,6 @@
       "formatLabel": "exFAT · PKG · Backport"
     },
     {
-      "titleId": "GAME_29711",
-      "title": "Sword Art Online Fractured Daydream",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qt6.jpg",
-      "description": "Tags: v1.000, 7.xx",
-      "downloadLinks": [
-        {
-          "name": "[v01.000] Akia #01",
-          "url": "https://akirabox.com/b5OzdjbO4mB8/file",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000] Akia #02",
-          "url": "https://akirabox.com/5pVzNBa8bz7w/file",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000] Viki",
-          "url": "https://vikingfile.com/f/ZcFSRHTG4A",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000] 1File",
-          "url": "https://1fichier.com/?oevhh51ove16sel55ev7",
-          "version": "01.000"
-        },
-        {
-          "name": "[v01.000] Rootz",
-          "url": "https://rootz.so/d/qCP7A",
-          "version": "01.000"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PS5"
-      ],
-      "fileFormat": [
-        "unknown"
-      ],
-      "_enrichedAt": "2026-08-19T04:33:19.659607+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "sword-art-online-fractured-daydream",
-        "rawgName": "SWORD ART ONLINE Fractured Daydream",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2024-10-03",
-        "genres": [
-          "Casual",
-          "Action",
-          "RPG"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:56:56.798037+00:00",
-      "_igdbMatched": true,
-      "_sizeProbedAt": "2026-08-27T11:47:25.606359+00:00"
-    },
-    {
       "titleId": "PPSA06958",
       "title": "Sword Art Online Last Recollection",
       "version": "01.021",
@@ -134422,65 +133631,6 @@
       "formatLabel": "exFAT · PKG · Backport 4.xx"
     },
     {
-      "titleId": "",
-      "title": "WWE 2K22",
-      "version": "01.007",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4den.jpg",
-      "description": "Format: PKG\nTags: v01.007, EUR\nSize: 60GB\nPassword: SuperPSX\nVoices: English",
-      "downloadLinks": [
-        {
-          "name": "[v01.007 · PKG] Viki",
-          "url": "https://vikingfile.com/f/dcWVRM6ffS",
-          "group": "Standard",
-          "version": "01.007"
-        },
-        {
-          "name": "[v01.007 · PKG] Rootz",
-          "url": "https://www.rootz.so/d/1wWEsq",
-          "group": "Standard",
-          "version": "01.007"
-        },
-        {
-          "name": "[v01.007 · PKG] 1File",
-          "url": "https://1fichier.com/?1zvrh77xoxed27wtgrdy&af=4186346",
-          "group": "Standard",
-          "version": "01.007"
-        },
-        {
-          "name": "[v01.007 · PKG] Akia",
-          "url": "https://akirabox.com/2WVGrYkkzkx7/file",
-          "group": "Standard",
-          "version": "01.007"
-        }
-      ],
-      "sizeBytes": 64424509440,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PKG"
-      ],
-      "fileFormat": [
-        "PKG"
-      ],
-      "_enrichedAt": "2026-07-29T05:50:31.430576+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "wwe-2k22",
-        "rawgName": "WWE 2K22",
-        "rating": 3.88,
-        "metacritic": null,
-        "released": "2022-03-08",
-        "genres": [
-          "Simulation",
-          "Sports"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/d4b/d4b1fdea321085ab1193398cd916cc63.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:57:41.559437+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "PKG"
-    },
-    {
       "titleId": "PPSA03150",
       "title": "WWE 2K22",
       "version": "01.007",
@@ -134503,6 +133653,12 @@
         {
           "name": "[v01.007] 1File",
           "url": "https://1fichier.com/?1zvrh77xoxed27wtgrdy&af=4186346",
+          "group": "Standard",
+          "version": "01.007"
+        },
+        {
+          "name": "[v01.007] Rootz",
+          "url": "https://www.rootz.so/d/1wWEsq",
           "group": "Standard",
           "version": "01.007"
         }
