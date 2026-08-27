@@ -51,6 +51,13 @@ _LOCKER_HOSTS = {
     "pippo26442999.github.io",
 }
 
+# URL qui ne menent a AUCUN fichier, meme si l'hote en heberge par ailleurs :
+# un encart d'affiliation vers l'offre premium et une image de promotion.
+# Mesure du 2026-08-27 : 52 liens rapidgator dans le catalogue, 43 en
+# /article/premium/ref (le MEME encart sur 43 fiches) et 9 en /images/pics —
+# aucun en /file. Aucune fiche n'a que ceux-la, donc aucune ne se vide.
+_CHEMINS_SANS_FICHIER = ("rapidgator.net/article/", "rapidgator.net/images/")
+
 # Garde-fou : aucun jeu PS5 réel n'approche 900 Go (le SSD console fait 825 Go).
 # Le bug historique « to » produit toujours des tailles >= 1 To ("1 to"=1 To,
 # "2 to"=2 To…), donc 900 Go sépare proprement le réel des artefacts.
@@ -246,6 +253,8 @@ def _clean_links(pkg: dict) -> int:
         # puisqu'il dedoublonne par chaine d'URL brute. 428 liens strictement
         # identiques hors URL, sur 55 jeux (catalogue du 2026-08-25).
         url = html.unescape(url)
+        if any(motif in url for motif in _CHEMINS_SANS_FICHIER):
+            continue
         if url in vus:
             continue
         vus.add(url)
@@ -355,8 +364,22 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # Placee EN DERNIER dans l'etiquette : version et section restent
         # prioritaires dans les ~31 caracteres visibles de l'app.
         link_region = (link.get("region") or "").strip()
-        tag = " · ".join(p for p in (f"v{link_version}" if link_version else "",
+        # La version n'est ecrite QUE si elle differe de celle de la fiche : la
+        # vue detail affiche deja « Version 01.031 » en en-tete, juste au-dessus
+        # de la liste. Mesure du 2026-08-27 dans l'app (boite de 180 px, police
+        # Manrope 650 13px, mesure canvas validee a 0,48 px pres contre le DOM) :
+        # sur 100 jeux et 1729 liens, 67 % des libelles etaient coupes par
+        # l'ellipse, faisant disparaitre le rang de partie (602 cas) et la region
+        # (134). La version etait repetee sur 1214 d'entre eux. En la retirant
+        # quand elle est redondante : 26 %. Elle reste ecrite quand elle differe,
+        # c'est-a-dire exactement quand elle distingue deux liens.
+        version_utile = link_version if link_version != version else ""
+        tag = " · ".join(p for p in (f"v{version_utile}" if version_utile else "",
                                      link_fmt, link_region) if p)
+        if not tag and link_version:
+            # Ni format ni region : sans la version, l'etiquette dirait seulement
+            # l'hebergeur, deja affiche dessous. On la remet.
+            tag = f"v{link_version}"
         link["name"] = f"[{tag}] {base}" if tag else base
     # Archives découpées : « …part01.rar », « …part02.rar »… produisaient N
     # libellés IDENTIQUES (12 mesurés sur Marvels Spider Man 2, PPSA03016), ce

@@ -10,13 +10,14 @@ libelle unique) passerait pour correct.
 """
 from __future__ import annotations
 
+import collections
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pegasus_finalize import (  # noqa: E402
     _absorber_fiches_placeholder, _clean_links, _number_parts,
-    _purger_liens_etrangers,
+    _purger_liens_etrangers, finalize_package,
 )
 
 
@@ -114,5 +115,35 @@ c = [{"titleId": "PPSA00001", "title": "Bugsnax", "downloadLinks": []},
      {"titleId": "PPSA00002", "title": "Bugsnax", "downloadLinks": []},
      {"titleId": "GAME_11111", "title": "Bugsnax", "downloadLinks": []}]
 assert len(_absorber_fiches_placeholder(c, st)) == 3 and st["fiches_absorbees"] == 0
+
+# E) L'etiquette ne repete pas la version de la fiche, mais l'ecrit quand elle
+# differe — c'est-a-dire quand elle distingue deux liens.
+def _etiquettes(version, liens):
+    pkg = {"titleId": "PPSA00001", "title": "Jeu", "version": version,
+           "fileFormat": ["PKG"], "downloadLinks": liens}
+    finalize_package(pkg, collections.defaultdict(int))
+    return [l["name"] for l in pkg["downloadLinks"]]
+
+noms = _etiquettes("01.031", [
+    {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Standard", "version": "01.031"},
+    {"name": "Rootz", "url": "https://rootz.so/d/b", "group": "Backport", "version": "01.005"},
+])
+assert noms[0] == "[PKG] Viki", noms          # meme version que la fiche -> tue
+assert noms[1] == "[v01.005 · Backport] Rootz", noms   # version differente -> ecrite
+
+# E) Temoin negatif : sans format ni region, l'etiquette garderait le seul nom
+# d'hote (deja affiche dessous) — la version revient.
+noms = _etiquettes("01.031", [{"name": "Viki", "url": "https://vikingfile.com/f/a",
+                               "group": "", "version": "01.031"}])
+assert noms[0].startswith("["), noms
+
+# F) Une URL qui ne mene a aucun fichier est retiree ; un vrai lien du meme
+# hebergeur ne le serait pas (temoin negatif).
+p2 = {"downloadLinks": [
+    {"name": "Mirror", "url": "https://rapidgator.net/article/premium/ref/21929"},
+    {"name": "Promo", "url": "https://rapidgator.net/images/pics/142_782x9.jpg"},
+    {"name": "Fichier", "url": "https://rapidgator.net/file/abc123"}]}
+assert _clean_links(p2) == 1, p2["downloadLinks"]
+assert p2["downloadLinks"][0]["name"] == "Fichier", p2["downloadLinks"]
 
 print("OK")
