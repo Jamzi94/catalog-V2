@@ -484,6 +484,52 @@ def is_non_host_url(url: str) -> bool:
     return host in NON_HOST_HOSTS
 
 
+# Alias entre le libelle employe par le site et le NOM d'hebergeur de
+# MIRROR_PATTERNS, qui reste la seule source de verite pour les motifs d'URL.
+# La table precedente donnait ses propres motifs et divergeait deja : elle
+# disait « datanodes » la ou MIRROR_PATTERNS dit « datanodes.to ». Sans
+# consequence ici (le motif sert de sous-chaine), mais deux tables qui se
+# recopient finissent toujours par se contredire.
+_ALIAS_MIROIR = {
+    "akia": "Akia", "viki": "Viki", "data": "Data", "filek": "Filek",
+    "vault": "Vault", "buzz": "Buzz", "buznew": "Buzz", "1file": "1File",
+    "mediafire": "Mediafire", "rootz": "Rootz",
+}
+
+
+def motif_pour_indice(indice: str) -> str | None:
+    """Motif d'URL correspondant au libelle de miroir, ou None si inconnu.
+
+    Le site ne s'en tient pas a un libelle par hebergeur : « Buznew » designe
+    Buzzheavier et ne figurait dans aucune table (releve le 2026-08-28, 5 fois
+    sur 4 pages). L'indice ne correspondait alors a rien, et resolve_redirect
+    retombait sur « le premier lien vers un hebergeur connu » : sonde du meme
+    jour sur downloadgameps3.net/archives/37448, l'indice « buznew » rendait
+    akirabox.com/qw1zed8p43Xy/file, c'est-a-dire le miroir Akia. Le lien etant
+    ensuite renomme d'apres son URL reelle, il devenait un doublon d'Akia,
+    dedoublonne plus loin : le miroir Buzzheavier disparaissait sans bruit.
+
+    La table d'alias est ETROITE a dessein. J'avais d'abord ajoute un repli par
+    prefixe de trois lettres pour encaisser les futures variantes : il s'est
+    revele intestable — les noms d'hebergeurs font quatre lettres, donc un
+    mutant qui porte le prefixe a cinq passe la suite sans broncher — et il
+    devinait sur des libelles inconnus. Un indice non reconnu rend None, et
+    resolve_redirect reprend son chemin ordinaire ; le lien obtenu y est de
+    toute facon renomme d'apres son URL reelle, donc il n'annonce jamais un
+    hebergeur qu'il n'est pas. Le jour ou le site invente un libelle, on
+    l'ajoute ici : une ligne, et un test qui la garde.
+    """
+    indice = (indice or "").strip().lower()
+    if not indice:
+        return None
+    nom = _ALIAS_MIROIR.get(indice)
+    if nom is None:
+        nom = next((n for _, n in MIRROR_PATTERNS if n.lower() == indice), None)
+    if nom is None:
+        return None
+    return next(m for m, n in MIRROR_PATTERNS if n == nom)
+
+
 def extract_mirror_name(url: str, link_text: str) -> str:
     url_lower = url.lower()
     for pattern, name in MIRROR_PATTERNS:
@@ -671,14 +717,7 @@ def resolve_redirect(url: str, mirror_hint: str | None = None) -> str | None:
                     # Try to match mirror_hint
                     if mirror_hint and secure_links:
                         hint_lower = mirror_hint.lower()
-                        mirror_to_pattern = {
-                            "akia": "akirabox", "viki": "vikingfile",
-                            "data": "datanodes", "filek": "filekeeper",
-                            "vault": "datavaults", "buzz": "buzzheavier",
-                            "1file": "1fichier", "mediafire": "mediafire",
-                            "rootz": "rootz",
-                        }
-                        target_pattern = mirror_to_pattern.get(hint_lower, hint_lower)
+                        target_pattern = motif_pour_indice(hint_lower) or hint_lower
                         for domain, path_val, _text in secure_links:
                             if target_pattern in domain.lower() or target_pattern in path_val.lower():
                                 resolved = _assemble_secure_url(domain, path_val)
