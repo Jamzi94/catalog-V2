@@ -24,11 +24,14 @@ assert pkg, "la fiche n'a pas produit de paquet"
 groupes = {l["url"]: l.get("group") for l in pkg["downloadLinks"]}
 assert groupes, groupes
 
-# La fiche porte le tag « 4.xx BackPork » : la variante est conservee, et exFAT
-# vient devant — c'est lui qui survit a l'ellipse de l'app (boite de 180 px).
+# La fiche porte le tag « 4.xx BackPork ». « Backport N.xx » IMPLIQUE exFAT —
+# mesure du 2026-08-30 : sur 732 liens de cette section dont le nom de fichier a
+# ete releve, 621 disent exFAT et AUCUN ne dit PKG. On ne prefixe donc pas : ca
+# n'apprendrait rien et ca ferait passer la troncature de 3 % a 23 %, en
+# chassant la region hors du cadre.
 for url, g in groupes.items():
-    assert g and g.startswith("exFAT"), (url, g)
-    assert "Backport" in g, (url, g)
+    assert g and g.startswith("Backport"), (url, g)
+    assert "exFAT" not in g, (url, g)
 
 # Temoin negatif : une fiche sans tag de variante reste « exFAT » tout court,
 # on n'invente pas de Backport.

@@ -624,7 +624,16 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
         # avec ellipse, donc c'est la tete qui survit a la coupe, et le
         # contenant est ce qui change ce qu'on fait du fichier.
         if section and section.lower() != "standard":
-            if "exfat" not in section.lower():
+            # ... SAUF quand la variante l'implique deja. Mesure du 2026-08-30
+            # sur 732 liens de section « Backport N.xx » dont le nom de fichier
+            # a ete releve chez l'hebergeur : 621 disent exFAT, ZERO dit PKG.
+            # Ecrire « exFAT » devant n'apprend donc rien, et coute cher : la
+            # troncature de ces etiquettes passe de 3 % a 23 % (boite de 180 px,
+            # table de largeurs relevee dans l'app), et ce qui sort du cadre est
+            # la REGION — elle, non redondante. On garde l'information qui
+            # discrimine plutot que celle qui se deduit.
+            implique = re.match(r"(?i)backport\s*\d", section) is not None
+            if "exfat" not in section.lower() and not implique:
                 section = f"exFAT · {section}"
         else:
             section = "exFAT"
