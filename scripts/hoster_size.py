@@ -451,9 +451,14 @@ def fill_link_sizes(catalog: dict, *, max_probe: int = 0, delay: float = 0.3,
                     seulement_bp: bool = True) -> dict:
     """Sonde UNE taille par rubrique et la pose sur le lien sonde.
 
-    Pourquoi par rubrique : les liens d'une meme rubrique sont le MEME fichier
-    chez plusieurs hebergeurs (« Backport 4.xx+ ⇛ Viki – Rootz – OneFile »).
-    Une sonde suffit, pegasus_finalize propage ensuite aux miroirs.
+    UNE SONDE PAR LIEN, et non plus une par rubrique. L'economie reposait sur
+    « une rubrique = un fichier » : le temoin l'a tuee. En sondant un second
+    miroir de 61 rubriques deja mesurees, 53 rendent une taille DIFFERENTE et 15
+    changent de classement — un lien Mediafire de 43 Mo avait herite de 39,7 Go.
+    Tant que le libelle brut de la rubrique n'est pas stocke, aucune cle ne
+    regroupe fiablement des miroirs. On paie donc une requete par lien : 1227
+    liens BP sondables sur ce catalogue, UNE fois, puis le cache disque les
+    ressert (SONDE_VERSION invalide quand la sonde change).
 
     Pourquoi seulement les BP : c'est la ou la taille TRANCHE. Un lien « BP »
     est tantot le jeu repackage, tantot le seul binaire a deposer dans le
@@ -469,25 +474,17 @@ def fill_link_sizes(catalog: dict, *, max_probe: int = 0, delay: float = 0.3,
         for link in liens:
             if seulement_bp and "BP" not in (link.get("name") or ""):
                 continue
-            g = _grappe(link)
-            if g in vues:
-                continue
-            vues.add(g)
             stats["rubriques"] += 1
-            fratrie = [l for l in liens if _grappe(l) == g]
-            if any(l.get("sizeBytes") and not l.get("_tailleHeritee") for l in fratrie):
+            if link.get("sizeBytes"):
                 continue
-            cible = next((l for l in fratrie
-                          if _host(l.get("url", "")) in PROBEABLE_HOSTS), None)
-            if cible is None:
+            if _host(link.get("url", "")) not in PROBEABLE_HOSTS:
                 continue
             if max_probe and stats["sondees"] >= max_probe:
                 continue
             stats["sondees"] += 1
-            taille = probe_size(cible["url"])
+            taille = probe_size(link["url"])
             if taille:
-                cible["sizeBytes"] = taille
-                cible.pop("_tailleHeritee", None)
+                link["sizeBytes"] = taille
                 stats["trouvees"] += 1
             if delay:
                 time.sleep(delay)

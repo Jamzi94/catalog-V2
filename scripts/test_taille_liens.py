@@ -33,9 +33,16 @@ assert _taille_courte(101 * Go) == "101 Go"
 assert _taille_courte(None) == ""
 assert _taille_courte(0) == ""
 
-# --- propagation dans la rubrique -------------------------------------------
-# Les liens d'une meme rubrique sont le MEME fichier sur plusieurs hebergeurs :
-# une seule sonde suffit. C'est ce qui fait passer la couverture de 32 % a 94 %.
+# --- l'heritage de taille est INTERDIT ---------------------------------------
+# Il avait ete pose le 2026-08-30 sur l'hypothese « une rubrique = un fichier ».
+# TEMOIN : en sondant un SECOND miroir de 61 rubriques deja mesurees, 53 rendent
+# une taille DIFFERENTE et 15 changent de classement. Exemple mesure : sur
+# Lollipop Chainsaw RePoP, un lien Mediafire de 43 Mo avait herite de 39,7 Go.
+# La cause est que `group` ne capture pas l'identite de la rubrique : il vaut
+# souvent None ou « Standard » pour des lignes source differentes, et une meme
+# grappe melangeait 10 liens dont un correctif et le jeu.
+# Une taille fausse est pire qu'une taille absente : on n'affiche que ce qui a
+# ete MESURE sur CE lien.
 pkg = {"downloadLinks": [
     {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport 4.xx",
      "version": "01.000", "region": "EUR", "sizeBytes": 45 * Mo},
@@ -48,11 +55,10 @@ pkg = {"downloadLinks": [
 ]}
 _propager_tailles(pkg)
 L = pkg["downloadLinks"]
-assert L[1].get("sizeBytes") == 45 * Mo, L[1]
-assert L[1].get("_tailleHeritee") is True, L[1]
+assert "sizeBytes" not in L[1], ("l heritage a resservi", L[1])
 assert "sizeBytes" not in L[2], L[2]
 
-# Temoin negatif : une taille propre n'est jamais ecrasee par celle d'un voisin.
+# Une taille propre reste evidemment intacte.
 pkg2 = {"downloadLinks": [
     {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
      "sizeBytes": 45 * Mo},
@@ -92,18 +98,51 @@ noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a",
                "group": "Backport 4.xx", "version": "01.000"}])
 assert noms[0] == "[BP 4.xx] Viki", noms
 
-# INTEGRATION : la taille HERITEE doit atteindre l'etiquette. C'est tout
-# l'interet de la propagation — le miroir akirabox n'est pas sondable, mais il
-# partage sa rubrique avec un vikingfile qui l'est.
+# INTEGRATION : seul le lien MESURE porte sa taille. Le miroir non sondable
+# n'herite de rien — c'est le prix de l'exactitude, et il est assume.
 noms = _noms([
     {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport 4.xx",
      "version": "01.000", "sizeBytes": 45 * Mo},
     {"name": "Akia", "url": "https://akirabox.com/b/file", "group": "Backport 4.xx",
      "version": "01.000"},
 ])
-assert noms == ["[BP 4.xx · 45 Mo] Viki", "[BP 4.xx · 45 Mo] Akia"], noms
+assert noms == ["[BP 4.xx · 45 Mo] Viki", "[BP 4.xx] Akia"], noms
 
-# Le seuil est bien dans la vallee mesuree, pas sur un mode.
-assert 133 * Mo <= SEUIL_CORRECTIF <= 307 * Mo, SEUIL_CORRECTIF
+# Le seuil doit tomber dans l'intervalle OU AUCUNE TAILLE N'A ETE OBSERVEE.
+# Sur les 214 tailles mesurees de la section « Backport » — la seule population
+# ou la vallee existe reellement (densite au creux : 3,5 % du pic, contre 88,6 %
+# pour « Backport N.xx » qui n'a aucun correctif sur 398 mesures) — les deux
+# observations qui encadrent le creux sont 217 Mo et 893 Mo. Tout seuil entre
+# les deux donne EXACTEMENT le meme classement : 119 correctifs, 95 jeux.
+# Ce n'est donc plus un choix, c'est un intervalle mesure.
+assert 217 * Mo < SEUIL_CORRECTIF < 893 * Mo, SEUIL_CORRECTIF
+
+# --- le NOM DE FICHIER prime sur la taille ------------------------------------
+# Il tranche 81 % des liens contre 60 % pour la taille, avec 99 % d'exactitude,
+# et il est disponible chez des hebergeurs dont la taille ne l'est pas.
+
+# Nom disant « backport » : correctif, meme SANS taille mesuree.
+noms = _noms([{"name": "Akia", "url": "https://akirabox.com/a/file", "group": "Backport",
+               "version": "01.000",
+               "fileName": "[SuperPSX]-Jeu-PPSA1-EUR-Backport 4.xx+ (@BestPig)-PS5.rar"}])
+assert noms[0] == "[BP · fix] Akia", noms
+
+# Avec la taille en plus, c'est la taille qui s'affiche : elle en dit davantage.
+noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
+               "version": "01.000", "sizeBytes": 91 * Mo,
+               "fileName": "Jeu-Backport 4.xx.zip"}])
+assert noms[0] == "[BP · 91 Mo] Viki", noms
+
+# TEMOIN — le nom qui dit JEU l'emporte sur une taille sous le seuil. Un
+# « .exfat » de 300 Mo reste une image, pas un binaire a deposer.
+noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
+               "version": "01.000", "sizeBytes": 300 * Mo,
+               "fileName": "PPSA31246.exfat"}])
+assert noms[0] == "[BP] Viki", noms
+
+# TEMOIN NEGATIF — un nom muet ne fait rien basculer : la taille reprend la main.
+noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
+               "version": "01.000", "sizeBytes": 91 * Mo, "fileName": "file.rar"}])
+assert noms[0] == "[BP · 91 Mo] Viki", noms
 
 print("OK")

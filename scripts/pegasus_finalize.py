@@ -151,11 +151,51 @@ _LEGENDE_BP = "BP = Backport"
 # Un lien « BP » est tantot le JEU entier repackage, tantot le seul binaire a
 # deposer dans le dossier du jeu. Mesure du 2026-08-30 sur 114 tailles relevees
 # chez les hebergeurs, tirees au sort parmi les liens BP : la distribution est
-# BIMODALE — 49 sous 100 Mo (dont 5 sous 10 Mo), UN SEUL dans tout l'intervalle
-# 133-307 Mo, puis 58 au-dessus de 1 Go et jusqu'a 101 Go. Le seuil est pose au
-# milieu de cette vallee : n'importe quelle valeur entre 133 et 307 Mo donne le
-# meme classement, ce qui est la definition d'un seuil robuste.
-SEUIL_CORRECTIF = 200 * 1024 ** 2
+# BIMODALE — mais SEULEMENT dans la section « Backport » sans numero. Reprise
+# sur 858 tailles mesurees (et non plus 114) :
+#   « Backport N.xx » (n=398) : mediane 22,8 Go, ZERO correctif sous 100 Mo, et
+#       la densite au « creux » vaut 88,6 % du pic — il n'y a pas de vallee, ce
+#       sont tous des jeux. Ma premiere lecture, sur 114 points, etait fausse.
+#   « Backport » seul (n=214) : vallee REELLE, densite au creux 3,5 % du pic.
+# Le seuil est derive, pas choisi : les deux observations qui encadrent le creux
+# sont 217 Mo et 893 Mo — un saut x4,1 sans une seule mesure entre les deux, et
+# tout seuil dans cet intervalle donne le MEME classement (119 correctifs,
+# 95 jeux). 440 Mo en est le milieu geometrique. Le test tient l'intervalle.
+SEUIL_CORRECTIF = 440 * 1024 ** 2
+
+
+# Marques du NOM DE FICHIER releve chez l'hebergeur. Validees le 2026-08-30 sur
+# 1206 liens ayant a la fois un nom releve et une taille mesuree : le
+# classifieur tranche 978 d'entre eux (81 %) et se trompe 8 fois — 99 %
+# d'exactitude sur ce qu'il tranche, contre un seuil de taille qui ne couvre que
+# 1123 liens et depend d'une vallee statistique.
+#   « backport » 163/163 correctifs · « .zip » 132/132 · « @bestpig » 22/22 ·
+#   « 4.xx » 115/117 · « .exfat » 5/429 (99 % de jeux) · « partNN » 0/13.
+_MARQUES_JEU = (".exfat",)
+_MARQUES_CORRECTIF = ("backport", "@bestpig", ".zip")
+
+
+def classer_par_nom(nom) -> str:
+    """« jeu », « correctif » ou « inconnu », d'apres le seul nom de fichier.
+
+    Les marques de JEU l'emportent : un nom qui porte les deux (« Backport ...
+    part03.rar », « PPSA31246-backport.exfat ») designe un jeu decoupe ou une
+    image exFAT, pas le binaire a deposer dans le dossier. C'est la lecture des
+    contre-exemples, pas une preference.
+
+    On rend « inconnu » plutot que de basculer vers la classe majoritaire : un
+    classifieur qui repond toujours ne se trompe jamais a moitie, il se trompe
+    silencieusement.
+    """
+    b = (nom or "").strip().lower()
+    if not b:
+        return "inconnu"
+    if any(m in b for m in _MARQUES_JEU) or re.search("part[ ._-]*[0-9]", b):
+        return "jeu"
+    if (any(m in b for m in _MARQUES_CORRECTIF)
+            or any(f"{n}.xx" in b for n in "456789")):
+        return "correctif"
+    return "inconnu"
 
 
 def _taille_courte(octets) -> str:
@@ -181,26 +221,28 @@ def _grappe(link: dict) -> tuple:
 
 
 def _propager_tailles(pkg: dict) -> None:
-    """Etend la taille mesuree aux miroirs de la MEME rubrique.
+    """NE PROPAGE PLUS RIEN — elle NETTOIE les tailles heritees d'avant.
 
-    32 % des liens BP sont chez un hebergeur sondable ; 62 % de plus partagent
-    leur rubrique avec l'un d'eux. La propagation porte la couverture a 94 %
-    des 3806 etiquettes BP. La taille heritee est marquee `_tailleHeritee` :
-    c'est une DEDUCTION, pas une mesure, et elle doit pouvoir se distinguer.
+    Cette fonction etendait la taille mesuree aux miroirs de la meme rubrique,
+    sur l'hypothese « une rubrique = un fichier ». Elle portait la couverture de
+    32 % a 87 % des etiquettes BP. Le temoin l'a tuee : en sondant un SECOND
+    miroir de 61 rubriques deja mesurees, 53 rendent une taille DIFFERENTE et
+    15 changent de classement jeu/correctif. Un cas mesure : sur « Lollipop
+    Chainsaw RePoP », un lien Mediafire que la sonde donne a 43 Mo avait herite
+    de 39,7 Go.
+
+    La cause est que `group` ne capture pas l'identite de la rubrique source :
+    il vaut souvent None ou « Standard » pour des lignes differentes, et une
+    meme grappe melangeait dix liens dont un correctif et le jeu. Tant que le
+    libelle brut de la rubrique n'est pas stocke (le `srcLabel` du plan), il n'y
+    a aucune cle fiable pour regrouper des miroirs.
+
+    On n'affiche donc que ce qui a ete MESURE sur CE lien. Une taille fausse est
+    pire qu'une taille absente : elle se lit comme une preuve.
     """
-    liens = [l for l in (pkg.get("downloadLinks") or []) if isinstance(l, dict)]
-    connues: dict = {}
-    for l in liens:
-        t = l.get("sizeBytes")
-        if isinstance(t, (int, float)) and t > 0 and not l.get("_tailleHeritee"):
-            connues.setdefault(_grappe(l), t)
-    for l in liens:
-        if l.get("sizeBytes"):
-            continue
-        t = connues.get(_grappe(l))
-        if t:
-            l["sizeBytes"] = t
-            l["_tailleHeritee"] = True
+    for l in (pkg.get("downloadLinks") or []):
+        if isinstance(l, dict) and l.pop("_tailleHeritee", None):
+            l.pop("sizeBytes", None)
 
 
 def _noyau(v: str) -> str:
@@ -561,12 +603,19 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # pas le jeu : on affiche sa taille, qui le dit sans legende. Au-dessus,
         # c'est le jeu — la fiche porte deja sa taille et les pixels sont
         # comptes (boite de 180 px). Voir SEUIL_CORRECTIF pour la mesure.
+        # Jeu ou correctif ? Le NOM DE FICHIER releve chez l'hebergeur tranche
+        # 81 % des cas a 99 % d'exactitude (1206 liens de controle) ; la taille
+        # ne tranche que 60 % et depend d'un seuil statistique. Le nom prime
+        # donc, et la taille ne sert qu'a departager ce qu'il laisse « inconnu ».
         taille = link.get("sizeBytes")
-        if ("BP" in link_fmt and isinstance(taille, (int, float))
-                and 0 < taille < SEUIL_CORRECTIF):
-            court = _taille_courte(taille)
-            if court:
-                link_fmt = f"{link_fmt} · {court}"
+        classe = classer_par_nom(link.get("fileName"))
+        if classe == "inconnu" and isinstance(taille, (int, float)) and taille > 0:
+            classe = "correctif" if taille < SEUIL_CORRECTIF else "jeu"
+        if "BP" in link_fmt and classe == "correctif":
+            # La taille si on l'a — elle dit tout sans legende ; sinon « fix »,
+            # qui dit au moins que ce n'est pas le jeu.
+            court = _taille_courte(taille) if isinstance(taille, (int, float)) else ""
+            link_fmt = f"{link_fmt} · {court or 'fix'}"
         tag = " · ".join(p for p in (link_fmt, link_region,
                                      f"v{version_utile}" if version_utile else "") if p)
         if not tag and link_version:
