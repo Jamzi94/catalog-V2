@@ -612,6 +612,22 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
         # branche structurée (SuperPSX, dlpsgame) suit la même règle.
         name = mirror
         section = (raw_group or "").strip() or group
+        # TOUT ce que publie ce flux est une image exFAT : la source est
+        # `.exFAT/exFAT.json`, ses 670 fiches mentionnent toutes exfat et
+        # AUCUNE ne mentionne PKG (mesure du 2026-08-30), et les noms de
+        # fichiers releves chez les hebergeurs finissent en « .exfat »
+        # (PPSA31246.exfat, PPSA09823 exfat). Or la section venait des tags —
+        # « Backport 4.xx », « DLC » — et l'etiquette ne disait donc JAMAIS
+        # exFAT : sur 117 liens dont le nom de fichier a pu etre lu chez
+        # l'hebergeur, 36 contredisaient l'etiquette sur ce seul point.
+        # exFAT passe EN TETE : l'etiquette est rendue dans une boite de 180 px
+        # avec ellipse, donc c'est la tete qui survit a la coupe, et le
+        # contenant est ce qui change ce qu'on fait du fichier.
+        if section and section.lower() != "standard":
+            if "exfat" not in section.lower():
+                section = f"exFAT · {section}"
+        else:
+            section = "exFAT"
 
         seen_urls.add(url)
         link: dict[str, str] = {"name": name, "url": url}
