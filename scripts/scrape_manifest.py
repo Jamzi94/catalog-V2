@@ -44,6 +44,23 @@ from typing import Any
 
 DEFAULT_MANIFEST_PATH = Path(".scrape_manifest.json")
 MANIFEST_VERSION = 1
+
+# Version du PARSEUR, distincte du format du manifeste. A incrementer des qu'un
+# scraper change sa facon de LIRE une page (nouveau jeton capte, rubrique
+# reconnue autrement, format deduit d'une autre ligne).
+#
+# Pourquoi : le manifeste met en cache le PAQUET DEJA ANALYSE, pas le HTML. Tant
+# que le content_hash d'une page ne bouge pas, aucun correctif de parseur ne
+# l'atteint. Mesure du 2026-08-30 sur .scrape_manifest_superpsx.json : 1139
+# entrees, 1139 paquets en cache, 4091 liens — les correctifs des 29 et 30 aout
+# y etaient inertes. Un bump largue les paquets et garde les entrees : la page
+# sera re-analysee au prochain run (~1150 requetes UNE fois), sans repartir de
+# zero sur l'historique incremental.
+#
+# 2 : ligne « Version ⇛ ... (exFAT) » lue par scrape_superpsx, prefixe exFAT
+#     d'import_exfat, notation « 4XX » sans point, compteur de rubriques non
+#     reconnues.
+PARSER_VERSION = 2
 INCREMENTAL_MAX_AGE_DAYS = 7
 CONTENT_HASH_LENGTH = 16  # first 16 hex chars of SHA-256
 
@@ -94,6 +111,7 @@ class ScrapeManifest:
         self.path = Path(path) if path else DEFAULT_MANIFEST_PATH
         self._data: dict[str, Any] = {
             "version": MANIFEST_VERSION,
+            "parser_version": PARSER_VERSION,
             "updated_at": None,
             "last_run": None,
             "entries": {},
@@ -126,6 +144,22 @@ class ScrapeManifest:
             )
             return
         self._data = data
+        # Un paquet analyse par un parseur ANTERIEUR est un fossile : il porte
+        # les defauts qu'on vient de corriger. On le largue, en gardant
+        # l'entree (content_hash, last_seen) pour ne pas transformer chaque bump
+        # en re-scrape total du site.
+        if data.get("parser_version") != PARSER_VERSION:
+            ancienne = data.get("parser_version")
+            largues = 0
+            for entree in data["entries"].values():
+                if isinstance(entree, dict) and entree.pop("package", None) is not None:
+                    largues += 1
+            data["parser_version"] = PARSER_VERSION
+            LOG.warning(
+                "Parseur v%s attendu, manifeste ecrit par v%s — %d paquet(s) en "
+                "cache largue(s), les pages seront re-analysees",
+                PARSER_VERSION, ancienne, largues,
+            )
         LOG.info("Loaded manifest with %d entries from %s", len(data["entries"]), self.path)
 
     def save(self) -> None:
@@ -299,6 +333,10 @@ class ScrapeManifest:
             mode,
         )
         return result
+
+    def list_entries_urls(self) -> list[str]:
+        """URL presentes au manifeste (utile aux tests et au diagnostic)."""
+        return list(self._data["entries"])
 
     def get_cached_package(self, url: str) -> dict | None:
         """Return the cached parsed package for *url*, if available.

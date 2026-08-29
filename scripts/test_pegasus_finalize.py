@@ -186,4 +186,53 @@ p2 = {"downloadLinks": [
 assert _clean_links(p2) == 1, p2["downloadLinks"]
 assert p2["downloadLinks"][0]["name"] == "Fichier", p2["downloadLinks"]
 
+# --- T3 : la notation « 4XX » sans point ----------------------------------
+# _link_format cherchait « 4.xx » AVEC un point ; les noms de fichiers et les
+# URL ecrivent « 4XX PPSA10965 – USA ». 361 liens portent cette notation,
+# 261 sans « Backport » dans l'etiquette : un backport annonce PKG.
+noms = _etiquettes("01.007.004", [
+    {"name": "Mediafire", "group": "", "version": "01.007.004",
+     "url": "https://www.mediafire.com/file/noxnx2hel81dr92/4XX+PPSA10965+-+USA+v1.07.zip"}])
+assert "BP 4.xx" in noms[0], noms
+
+# Temoins de la regex, executes : un hash d'hebergeur ne doit JAMAIS etre pris
+# pour une notation de firmware, sinon on etiquette au hasard 3623 liens.
+noms = _etiquettes("01.000", [
+    {"name": "Viki", "group": "", "version": "01.000",
+     "url": "https://vikingfile.com/f/noxnx2hel81dr92"}])
+assert "BP" not in noms[0], noms
+noms = _etiquettes("01.000", [
+    {"name": "Viki", "group": "", "version": "01.000",
+     "url": "https://vikingfile.com/f/abc4xxdef"}])
+assert "BP" not in noms[0], noms
+noms = _etiquettes("01.000", [
+    {"name": "Viki", "group": "", "version": "01.000",
+     "url": "https://vikingfile.com/f/PPSA4XX999"}])
+assert "BP" not in noms[0], noms
+
+# --- T4 : dedoublonnage intra-fiche sur URL normalisee --------------------
+# _clean_links ne dedoublonnait que sur la chaine brute apres html.unescape :
+# ni le pourcent-encodage ni le « www. » n'etaient normalises. 458 liens en
+# double dans la meme fiche, sur 121 jeux, dont 229 portent DEUX etiquettes
+# differentes — au moins une des deux est fausse, et _number_parts les numerote
+# comme s'il fallait telecharger les deux.
+p = {"downloadLinks": [
+    {"name": "Mediafire", "url": "https://www.mediafire.com/file/abc/4XX+PPSA1.zip"},
+    {"name": "Mediafire", "url": "https://mediafire.com/file/abc/4XX%2BPPSA1.zip"}]}
+assert _clean_links(p) == 1, p["downloadLinks"]
+
+# Temoin negatif : deux URL REELLEMENT differentes survivent toutes les deux.
+# Sans lui, une normalisation trop gourmande mangerait des liens en silence.
+p = {"downloadLinks": [
+    {"name": "Viki", "url": "https://vikingfile.com/f/aaa"},
+    {"name": "Viki", "url": "https://vikingfile.com/f/bbb"}]}
+assert _clean_links(p) == 2, p["downloadLinks"]
+
+# Temoin negatif : le chemin compte. Deux fichiers du meme hote, memes octets
+# d'identifiant mais chemins distincts, restent deux liens.
+p = {"downloadLinks": [
+    {"name": "Data", "url": "https://datanodes.to/d/abc"},
+    {"name": "Data", "url": "https://datanodes.to/f/abc"}]}
+assert _clean_links(p) == 2, p["downloadLinks"]
+
 print("OK")

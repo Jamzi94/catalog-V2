@@ -1200,6 +1200,24 @@ def resolve_keepshield(url: str) -> list[dict[str, str]]:
     return mirrors
 
 
+def _porte_des_liens(value_cell) -> bool:
+    """La cellule contient-elle au moins un lien exploitable ?
+
+    Garde du compteur T2 : « Size (Game + Update) » ressemble a une rubrique
+    mais ne porte aucun lien — la signaler noierait le signal utile.
+    """
+    try:
+        liens = _extract_download_links_from_cell(value_cell)
+    except Exception:                                        # noqa: BLE001
+        return False
+    # ... et vers un HEBERGEUR, pas vers un guide. La table reelle de reference
+    # porte une ligne « How to Play (Optional) » dont le lien mene a un tutoriel :
+    # la signaler noierait le signal utile sous du bruit permanent, et un
+    # compteur qui crie toujours ne vaut pas mieux qu'un compteur muet.
+    return any(any(motif in (l.get("url") or "").lower() for motif, _ in MIRROR_PATTERNS)
+               for l in liens)
+
+
 def parse_dll_page(url: str) -> dict | None:
     """Parse a DLL page to extract download links, firmware, and format info.
 
@@ -1251,6 +1269,7 @@ def parse_dll_page(url: str) -> dict | None:
 
     # Results
     all_links: list[dict[str, str]] = []
+    rubriques_non_reconnues: list[str] = []
     title_id: str | None = None
     version: str | None = None
     region: str | None = None
@@ -1528,6 +1547,15 @@ def parse_dll_page(url: str) -> dict | None:
             # a une section mais n'en contient aucun.
             else:
                 section_inconnue = detect_section(row_label)
+                if not section_inconnue and _porte_des_liens(value_cell):
+                    # T2 — Le vocabulaire de detect_section est FERME : neuf
+                    # regex tenues a la main. Une rubrique qu'il ne reconnait
+                    # pas voit sa ligne ENTIEREMENT ignoree, ses liens ne sont
+                    # jamais extraits, et le run se termine en succes. Le jour
+                    # ou le site renomme « Backport » en autre chose, 3007 liens
+                    # disparaissent sans un bruit. On ne devine pas ce que
+                    # signifie la rubrique — on NOTE qu'on ne la comprend pas.
+                    rubriques_non_reconnues.append(row_label.strip()[:80])
                 if section_inconnue:
                     dl_links = _extract_download_links_from_cell(value_cell)
                     for link in dl_links:
@@ -1585,6 +1613,10 @@ def parse_dll_page(url: str) -> dict | None:
         "file_formats": file_formats,
         "notes": notes,
         "sections": sections,
+        # Rubriques porteuses de liens que detect_section n'a pas su nommer.
+        # Vide en regime normal ; non vide = le site a change de vocabulaire et
+        # des liens sont en train de disparaitre.
+        "rubriques_non_reconnues": rubriques_non_reconnues,
     }
 
 
@@ -1667,6 +1699,15 @@ def scrape_game(
     if not dll_data:
         log.warning("  ✗ No DLL data for %s", dll_url)
         return None
+
+    # T2 — alarme : une rubrique porteuse de liens d'hebergeur que le
+    # vocabulaire ferme de detect_section n'a pas su nommer. Ses liens n'ont PAS
+    # ete extraits. En regime normal cette liste est vide ; non vide, elle dit
+    # que le site a change de vocabulaire et que des telechargements
+    # disparaissent en silence.
+    for libelle in dll_data.get("rubriques_non_reconnues") or []:
+        log.warning("  ⚠ rubrique non reconnue (liens PERDUS) : %r sur %s",
+                    libelle, dll_url)
 
     # Mémoire keepshield (cas « déjà vu, périmé, mais liens de DL inchangés ») :
     # si le hash des liens keepshield correspond à celui stocké au run précédent

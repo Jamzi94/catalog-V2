@@ -138,6 +138,14 @@ def _strip_unknown(fmt_str: str) -> str:
     return " · ".join(parts)
 
 
+# Notation de firmware SANS point : les pages et les noms de fichiers ecrivent
+# « 4XX PPSA10965 – USA » la ou le detecteur ne cherchait que la forme pointee.
+# 361 liens portent cette notation, 261 sans « Backport » dans l etiquette : un
+# backport annonce PKG. Les bornes non-alphanumeriques evitent d attraper un
+# hash d hebergeur — « abc4xxdef », « PPSA4XX999 » et « noxnx2hel81dr92 » ne
+# matchent pas (temoins executes dans test_pegasus_finalize).
+_RE_FW_SANS_POINT = re.compile("(?<![a-z0-9])([4-9])xx(?![a-z0-9])")
+
 _LEGENDE_BP = "BP = Backport"
 
 
@@ -219,7 +227,8 @@ def _link_format(name: str, url: str, game_fmt: str, base_fmt: str, group: str) 
     blob = f"{name} {url}".lower()
 
     def _backport_with_version() -> str:
-        m = re.search(r"\b([4-9])\.xx\b", blob) or re.search(r"[-_/]([4-9])\.\d{2}[-_/]", blob)
+        m = (re.search(r"\b([4-9])\.xx\b", blob) or re.search(r"[-_/]([4-9])\.\d{2}[-_/]", blob)
+             or _RE_FW_SANS_POINT.search(blob))
         return f"Backport {m.group(1)}.xx" if m else "Backport"
 
     # 1) Section identifiée au scraping (sauf « Standard », traité plus bas)
@@ -238,7 +247,8 @@ def _link_format(name: str, url: str, game_fmt: str, base_fmt: str, group: str) 
         fmts.append("PKG")
     if re.search(r"apr[\s_-]?emu", blob):
         fmts.append("APR-EMU")
-    if re.search(r"\b([4-9])\.xx\b", blob) or re.search(r"[-_/]([4-9])\.\d{2}[-_/]", blob):
+    if (re.search(r"\b([4-9])\.xx\b", blob) or re.search(r"[-_/]([4-9])\.\d{2}[-_/]", blob)
+            or _RE_FW_SANS_POINT.search(blob)):
         fmts.append(_backport_with_version())
     elif "backport" in blob:
         fmts.append("Backport")
@@ -305,6 +315,32 @@ def _number_parts(pkg: dict) -> None:
             link["name"] = f"{nom} {n:02d}/{total:02d}"
 
 
+def _cle_url(url: str) -> str:
+    """Cle de dedoublonnage : la MEME ressource sous deux ecritures.
+
+    On ne dedoublonnait que sur la chaine brute apres html.unescape, donc ni le
+    « www. » ni le pourcent-encodage n'etaient normalises. Mesure du
+    2026-08-30 : 458 liens en double dans une meme fiche, sur 121 jeux, dont 229
+    portant DEUX etiquettes differentes — au moins une des deux est fausse, et
+    _number_parts les numerote comme s'il fallait telecharger les deux.
+
+    On normalise l'hote (minuscule, sans « www. ») et on dechiffre le
+    pourcent-encodage du chemin et de la requete. On ne touche NI au chemin
+    lui-meme NI a l'ordre des parametres : deux ressources differentes doivent
+    rester deux liens, et le test le verifie.
+    """
+    try:
+        u = urlparse(url)
+    except Exception:                                        # noqa: BLE001
+        return url
+    hote = (u.hostname or "").lower()
+    if hote.startswith("www."):
+        hote = hote[4:]
+    chemin = unquote(u.path or "").replace("+", " ")
+    requete = unquote(u.query or "").replace("+", " ")
+    return f"{hote}{chemin}?{requete}" if requete else f"{hote}{chemin}"
+
+
 def _clean_links(pkg: dict) -> int:
     """Retire les downloadLinks à URL vide/non-http ET les link-lockers (filecrypt/
     shrinkearn/clk : captcha, pas de lien direct) — sauf si ce sont les SEULS liens
@@ -326,9 +362,10 @@ def _clean_links(pkg: dict) -> int:
         url = html.unescape(url)
         if any(motif in url for motif in _CHEMINS_SANS_FICHIER):
             continue
-        if url in vus:
+        cle = _cle_url(url)
+        if cle in vus:
             continue
-        vus.add(url)
+        vus.add(cle)
         l["url"] = url
         valid.append(l)
 

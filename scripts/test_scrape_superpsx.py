@@ -51,4 +51,29 @@ with tempfile.TemporaryDirectory() as tmp:
     backport = TABLE.replace("Game (v01.200.000) ⇛", "Game (v01.200.000) (Backport) ⇛")
     assert _rubriques(backport)[VIKI] == "Backport", _rubriques(backport)
 
+# --- T2 : une rubrique inconnue ne doit plus disparaitre en silence --------
+# detect_section est un vocabulaire FERME de neuf regex tenues a la main. Le
+# jour ou le site renomme « Backport » en « FW Bypass », la ligne entiere est
+# ignoree, ses liens ne sont JAMAIS extraits, et le run se termine en succes.
+# 3007 liens Backport dependent aujourd'hui de ce vocabulaire.
+INCONNUE = TABLE.replace(
+    "<strong>Game (v01.200.000) ⇛</strong>",
+    "<strong>FW Bypass Machin ⇛</strong>")
+assert "FW Bypass" in INCONNUE
+
+faux = "https://exemple.invalide/dll-inconnue"
+S._cache_set(faux, PAGE.format(INCONNUE))
+res = S.parse_dll_page(faux)
+assert res, "page non parsee"
+assert res.get("rubriques_non_reconnues"), res.get("rubriques_non_reconnues")
+assert any("FW Bypass" in x for x in res["rubriques_non_reconnues"]), res["rubriques_non_reconnues"]
+
+# Temoin negatif : la table d'origine, dont toutes les rubriques sont connues,
+# ne doit RIEN signaler. Sans lui, un compteur qui crie tout le temps ne vaut
+# pas mieux qu'un compteur muet.
+faux2 = "https://exemple.invalide/dll-connue"
+S._cache_set(faux2, PAGE.format(TABLE))
+res2 = S.parse_dll_page(faux2)
+assert not res2.get("rubriques_non_reconnues"), res2.get("rubriques_non_reconnues")
+
 print("OK")
