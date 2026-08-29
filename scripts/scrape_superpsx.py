@@ -1254,6 +1254,8 @@ def parse_dll_page(url: str) -> dict | None:
     title_id: str | None = None
     version: str | None = None
     region: str | None = None
+    # Format porte par la ligne « Version » de la table courante (voir plus bas).
+    edition_group = ""
     firmware: str | None = None
     firmware_compat: str | None = None
     password: str | None = None
@@ -1351,6 +1353,23 @@ def parse_dll_page(url: str) -> dict | None:
                 if region_match:
                     region = region_match.group(1)
 
+                # Le FORMAT est parfois porte par CETTE ligne, pas par la
+                # rubrique des liens. Releve le 2026-08-29 sur
+                # superpsx.com/dll-re9r/ (Resident Evil Requiem) :
+                #     Version ⇛ PPSA31246 – EUR (exFAT) @Pippo26442999 x SiESPTA
+                #     Game (v01.200.000) ⇛ DataN – AKR – Viki
+                # La rubrique ne dit rien, donc detect_group rendait
+                # « Standard » et les liens sortaient etiquetes « PKG ». Or le
+                # fichier derriere le lien Viki de cette table s'appelle
+                # PPSA31246.exfat — releve sur la page de l'hebergeur
+                # (vik1ngfile.site/f/BHQuBFHoGm, titre de la page). L'utilisateur
+                # cherchait sa version exFAT et ne la trouvait pas : elle etait
+                # rangee sous PKG. Comme la region et l'editionId, ce format
+                # vaut pour TOUTE la table et se reaffecte a chaque ligne
+                # « Version ».
+                fmt_edition = detect_group(full_info)
+                edition_group = fmt_edition if fmt_edition != "Standard" else ""
+
             # Game row: "Game (vXX.XXX) [TAG] ⇛ download links"
             elif row_label_lower.startswith("game") or row_label_lower.startswith("update"):
                 # Extract version from the label
@@ -1369,6 +1388,12 @@ def parse_dll_page(url: str) -> dict | None:
                 group = detect_group(row_label)
                 if current_section_label:
                     group = current_section_label
+                if group in ("", "Standard") and edition_group:
+                    # Ni la rubrique ni la section ne disent le format : on
+                    # prend celui de la ligne « Version » de la table. Une
+                    # rubrique explicite (« Game (...) (Backport) ») garde le
+                    # dessus, elle est plus proche des liens.
+                    group = edition_group
 
                 for link in dl_links:
                     # La section n'est PAS recopiee dans le nom : elle part
