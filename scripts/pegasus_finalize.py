@@ -138,6 +138,77 @@ def _strip_unknown(fmt_str: str) -> str:
     return " · ".join(parts)
 
 
+_LEGENDE_BP = "BP = Backport"
+
+
+def _noyau(v: str) -> str:
+    """Version reduite au minimum : zero de tete et segments de queue nuls otes."""
+    p = [x for x in (v or "").split(".")]
+    while len(p) > 2 and p[-1].strip("0") == "":
+        p.pop()
+    if p and p[0][:1] == "0" and p[0].strip("0") != "":
+        p[0] = p[0].lstrip("0")
+    return ".".join(p)
+
+
+def abreger_versions(versions) -> dict:
+    """Forme la plus courte NON AMBIGUE de chaque version, fiche par fiche.
+
+    « 01.200.000 » seul sur sa fiche devient « 1.200 » : les zeros de queue et
+    le zero de tete ne portent aucune information. Mais s'il cohabite avec
+    « 01.200.007 », la forme courte serait le PREFIXE de l'autre — un lecteur ne
+    saurait plus laquelle il lit. On remonte alors d'un cran, jusqu'a une forme
+    qui ne prefixe aucune autre version de la fiche et qu'aucune ne prefixe.
+
+    C'est pourquoi l'abreviation est calculee par fiche et non une fois pour
+    toutes : elle depend des versions qui se cotoient a l'ecran.
+    """
+    versions = {v for v in versions if v is not None}
+    out: dict = {}
+    for v in versions:
+        autres = versions - {v}
+        interdits = {a for a in autres} | {_noyau(a) for a in autres}
+        p = v.split(".")
+        sans_queue = list(p)
+        while len(sans_queue) > 2 and sans_queue[-1].strip("0") == "":
+            sans_queue.pop()
+        def _sans_tete(bouts):
+            b = list(bouts)
+            if b and b[0][:1] == "0" and b[0].strip("0") != "":
+                b[0] = b[0].lstrip("0")
+            return ".".join(b)
+        candidats = [_sans_tete(sans_queue), ".".join(sans_queue), _sans_tete(p), v]
+        vus = []
+        for c in candidats:
+            if c not in vus:
+                vus.append(c)
+        choisi = v
+        for c in sorted(vus, key=len):
+            if any(c and (c.startswith(a) or a.startswith(c)) for a in interdits if a):
+                continue
+            choisi = c
+            break
+        out[v] = choisi
+    return out
+
+
+
+def _abreger(fmt: str) -> str:
+    """« Backport » -> « BP » dans l'ETIQUETTE seulement.
+
+    Le champ `group` garde le mot entier : c'est de la donnee, pas de
+    l'affichage, et les scrapers comme les tests s'appuient dessus. L'etiquette,
+    elle, est rendue dans une boite de 180 px avec ellipse, ou « Backport 4.xx »
+    pese six caracteres de trop. La legende « BP = Backport » est ajoutee a la
+    description de la fiche pour que l'abreviation ne soit pas un rebus.
+
+    Remplacement litteral : les seules formes produites en amont sont
+    « Backport » et « Backport N.xx » (detect_group dans formats.py et
+    _backport_with_version ci-dessous), toutes deux capitalisees ainsi.
+    """
+    return (fmt or "").replace("Backport", "BP")
+
+
 def _link_format(name: str, url: str, game_fmt: str, base_fmt: str, group: str) -> str:
     """Format SPÉCIFIQUE d'un lien. Priorité :
       1) la SECTION captée au scraping (group : exFAT/Backport/DLC/Dump) — fiable ;
@@ -293,7 +364,7 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     # 3) Surfaçage du format (idempotent)
     label = display_label(pkg.get("fileFormat"))
     desc = _strip_credits(pkg.get("description") or "")
-    desc_lines = [l for l in desc.split("\n") if not l.startswith("Format:")]
+    desc_lines = [l for l in desc.split("\n") if not l.startswith("Format:") and l.strip() != _LEGENDE_BP]
     desc_body = "\n".join(desc_lines).lstrip("\n")
     if label:
         pkg["formatLabel"] = label
@@ -335,6 +406,13 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     _clean_links(pkg)
     version = (pkg.get("version") or "").strip()
     base_fmt = _base_format(pkg.get("fileFormat"))
+    # Abreviation des versions, calculee POUR CETTE FICHE : elle depend des
+    # versions qui se cotoient a l'ecran. La version de la fiche entre dans le
+    # calcul sans etre affichee — une forme courte ne doit pas non plus se
+    # confondre avec celle de l'en-tete.
+    _abrege = abreger_versions(
+        {(l.get("version") or "").strip() for l in pkg.get("downloadLinks") or []
+         if isinstance(l, dict)} | {version})
     for link in pkg.get("downloadLinks") or []:
         if not (isinstance(link, dict) and link.get("name")):
             continue
@@ -373,10 +451,21 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # (134). La version etait repetee sur 1214 d'entre eux. En la retirant
         # quand elle est redondante : 26 %. Elle reste ecrite quand elle differe,
         # c'est-a-dire exactement quand elle distingue deux liens.
-        version_utile = link_version if link_version != version else ""
-        tag = " · ".join(p for p in (f"v{version_utile}" if version_utile else "",
-                                     link_fmt, link_region) if p)
+        version_utile = _abrege.get(link_version, link_version) if link_version != version else ""
+        # ORDRE : format, puis region, puis version. L'ellipse mange la FIN, et
+        # la version est ce dont on peut le plus se passer — decision de
+        # l'utilisateur, le 2026-08-30. Le reordonnancement ne change pas le
+        # nombre d'etiquettes coupees (2964 sur 15955, la largeur est la meme),
+        # il change ce qu'elles emportent : sur le catalogue entier, le format
+        # disparaissait 290 fois et la region 369 fois ; en mettant la version
+        # en dernier, 67 et 104. La version, elle, sort du cadre 465 fois — et
+        # elle n'est ecrite que lorsqu'elle DIFFERE de celle de la fiche, que
+        # l'en-tete affiche juste au-dessus.
+        link_fmt = _abreger(link_fmt)
+        tag = " · ".join(p for p in (link_fmt, link_region,
+                                     f"v{version_utile}" if version_utile else "") if p)
         if not tag and link_version:
+            link_version = _abrege.get(link_version, link_version)
             # Ni format ni region : sans la version, l'etiquette dirait seulement
             # l'hebergeur, deja affiche dessous. On la remet.
             tag = f"v{link_version}"
@@ -387,6 +476,14 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     # faut la TOTALITÉ. Le numéro est dans l'URL, jamais dans le nom : on le
     # remonte, avec le total, pour qu'un manquant se voie.
     _number_parts(pkg)
+
+    # Legende. L'etiquette abrege « Backport » en « BP » faute de place ; on
+    # l'explique dans la description, EN PLUS de ce qu'elle porte deja (la ligne
+    # « Format: … », qui, elle, garde le mot entier). Ajoutee seulement si une
+    # etiquette de cette fiche emploie l'abreviation, et retiree en tete de
+    # traitement a chaque run, donc idempotente.
+    if any("BP" in (l.get("name") or "") for l in pkg.get("downloadLinks") or []):
+        pkg["description"] = ((pkg.get("description") or "") + "\n" + _LEGENDE_BP).strip("\n")
 
     # 4) Validation Pegasus
     if not (pkg.get("titleId") or "").strip():

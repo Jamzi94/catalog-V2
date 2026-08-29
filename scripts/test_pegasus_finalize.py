@@ -129,7 +129,47 @@ noms = _etiquettes("01.031", [
     {"name": "Rootz", "url": "https://rootz.so/d/b", "group": "Backport", "version": "01.005"},
 ])
 assert noms[0] == "[PKG] Viki", noms          # meme version que la fiche -> tue
-assert noms[1] == "[v01.005 · Backport] Rootz", noms   # version differente -> ecrite
+# Version differente -> ecrite, mais EN DERNIER : l'ellipse mange la fin, et la
+# version est ce dont on peut le plus se passer. Mesure du 2026-08-30 : dans
+# l'ordre inverse, le format sortait du cadre 290 fois et la region 369 ; dans
+# cet ordre-ci, 67 et 104.
+# La version est abregee selon ce que porte la fiche : « 01.005 » y est seule
+# de son espece, donc « 1.005 » suffit et ne peut se confondre avec rien.
+assert noms[1] == "[BP · v1.005] Rootz", noms
+
+# E) Abreviation DYNAMIQUE : deux versions dont l'une prefixe l'autre restent
+# distinguables — on ne raccourcit pas jusqu'a l'ambiguite.
+noms = _etiquettes("01.031", [
+    {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "", "version": "01.200.000"},
+    {"name": "Rootz", "url": "https://rootz.so/d/b", "group": "", "version": "01.200.007"},
+])
+assert len(set(noms)) == 2, noms
+assert "1.200" in noms[0] and "200.007" in noms[1], noms
+
+# G) « Backport » est abrege en « BP » dans l'ETIQUETTE, et la fiche porte la
+# legende. Le champ `group` garde le mot entier : c'est de la donnee.
+pkg = {"titleId": "PPSA00001", "title": "Jeu", "version": "01.031", "fileFormat": ["PKG"],
+       "description": "Tags: PPSA00001", "downloadLinks": [
+           {"name": "Rootz", "url": "https://rootz.so/d/b", "group": "Backport 4.xx",
+            "version": "01.005"}]}
+finalize_package(pkg, collections.defaultdict(int))
+assert pkg["downloadLinks"][0]["name"] == "[BP 4.xx · v1.005] Rootz", pkg["downloadLinks"]
+assert pkg["downloadLinks"][0]["group"] == "Backport 4.xx", pkg["downloadLinks"]
+assert "BP = Backport" in pkg["description"], pkg["description"]
+assert "Tags: PPSA00001" in pkg["description"], pkg["description"]
+
+# G) Idempotent : un second passage ne double ni l'etiquette ni la legende.
+avant = dict(pkg)
+finalize_package(pkg, collections.defaultdict(int))
+assert pkg["downloadLinks"][0]["name"] == "[BP 4.xx · v1.005] Rootz", pkg["downloadLinks"]
+assert pkg["description"].count("BP = Backport") == 1, pkg["description"]
+
+# G) Temoin negatif : une fiche sans BP ne recoit pas la legende.
+pkg2 = {"titleId": "PPSA00002", "title": "Jeu", "version": "01.000", "fileFormat": ["PKG"],
+        "description": "Tags: PPSA00002", "downloadLinks": [
+            {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "exFAT"}]}
+finalize_package(pkg2, collections.defaultdict(int))
+assert "BP = Backport" not in pkg2["description"], pkg2["description"]
 
 # E) Temoin negatif : sans format ni region, l'etiquette garderait le seul nom
 # d'hote (deja affiche dessous) — la version revient.
