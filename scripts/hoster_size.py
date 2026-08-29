@@ -44,13 +44,24 @@ from urllib.parse import urlparse
 USER_AGENT = "dlpsgame-pegasus-size/1.0"
 HTTP_TIMEOUT = 25
 CACHE_DIR = Path(".scrape_cache_sizes")
+
+# Version des SONDES. A incrementer des qu'une sonde change de facon de
+# mesurer. Le cache garde aussi bien une taille qu'un None, et un None cache par
+# une sonde aveugle est indistinguable d'un « vraiment insondable » : c'est ce
+# qui s'est passe pour vikingfile, dont la sonde interrogeait une API disparue.
+# Le correctif serait reste inerte sur les 3623 liens deja caches.
+# 2 : vikingfile lit desormais la page (id="size") et reconnait vik1ngfile.site.
+SONDE_VERSION = 2
 CACHE_ENABLED = True
 MAX_SANE_BYTES = 900 * 1024 ** 3  # garde-fou : > 900 Go = aberrant (cf. pegasus_finalize)
 
 # Hôtes que l'on sait sonder (cf. RESOLVERS). Un jeu sans aucun de ces miroirs
 # est « insondable » : inutile de l'inclure dans le budget --max.
-PROBEABLE_HOSTS = ("vikingfile.com", "mega.nz", "mega.co.nz", "gofile.io",
-                   "mediafire.com", "www.mediafire.com")
+# vik1ngfile.site : le site a change de domaine, l ancien redirige. Sans cette
+# entree, les 3623 liens vikingfile — premier hebergeur du catalogue — etaient
+# declares insondables alors que la page annonce sa taille en clair.
+PROBEABLE_HOSTS = ("vikingfile.com", "vik1ngfile.site", "mega.nz", "mega.co.nz",
+                   "gofile.io", "mediafire.com", "www.mediafire.com")
 
 # TTL (jours) de ré-essai pour un jeu sondé SANS succès : on évite de re-sonder
 # en boucle les ~49 insondables à chaque run.
@@ -95,9 +106,14 @@ def _cache_get(url: str) -> int | None | bool:
     f = CACHE_DIR / (hashlib.sha256(url.encode()).hexdigest()[:20] + ".json")
     if f.exists():
         try:
-            return json.loads(f.read_text()).get("size")
+            donnee = json.loads(f.read_text())
         except Exception:
             return False
+        # Ecrit par une sonde anterieure : on ne peut pas savoir si son None
+        # etait un « insondable » ou un « je n'ai pas su regarder ». On re-sonde.
+        if donnee.get("sonde") != SONDE_VERSION:
+            return False
+        return donnee.get("size")
     return False
 
 
@@ -107,7 +123,7 @@ def _cache_set(url: str, size: int | None) -> None:
     try:
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
         f = CACHE_DIR / (hashlib.sha256(url.encode()).hexdigest()[:20] + ".json")
-        f.write_text(json.dumps({"url": url, "size": size}))
+        f.write_text(json.dumps({"url": url, "size": size, "sonde": SONDE_VERSION}))
     except Exception:
         pass
 
@@ -140,24 +156,42 @@ def _sane(size) -> int | None:
 # vikingfile.com — POST /api/check-files (hash) -> size  (sans clé)
 # ---------------------------------------------------------------------------
 def _size_vikingfile(url: str) -> int | None:
-    m = re.search(r"vikingfile\.com/(?:f|d)/([A-Za-z0-9]+)", url)
-    if not m:
-        return None
-    h = m.group(1)
-    body = urllib.parse.urlencode({"hash": h}).encode()
-    status, raw = _FETCH("https://vikingfile.com/api/check-files", method="POST",
-                         data=body, headers={"Content-Type": "application/x-www-form-urlencoded"})
-    if status != 200:
+    """Taille lue sur la PAGE du fichier.
+
+    L'ancienne sonde interrogeait POST vikingfile.com/api/check-files et ne
+    reconnaissait que le domaine .com. Le site a bascule sur vik1ngfile.site :
+    elle rendait None sur les 3623 liens vikingfile du catalogue — premier
+    hebergeur — et le lien etait classe « insondable » alors que l'instrument
+    etait simplement aveugle. Un None n'est pas une mesure.
+
+    La page porte la taille dans un bloc dedie :
+        <div id="file-information">
+          <h2 id="filename">PPSA31246.exfat</h2>
+          <p id="size">121.09 GB</p>
+        </div>
+    On vise CE bloc et pas le premier nombre venu : la page contient aussi des
+    « 70KB », « 4MB » et « 20GB » dans son script obfusque et ses encarts. Le
+    test le verifie sur une page reelle.
+    """
+    if not re.search(r"vik(?:ing|1ng)file\.(?:com|site)/(?:f|d)/", url):
         return None
     try:
-        data = json.loads(raw.decode("utf-8", "replace"))
-    except Exception:
+        status, raw = _FETCH(url)
+    except Exception:                                        # noqa: BLE001
         return None
-    rows = data if isinstance(data, list) else data.get("files") or data.get("data") or []
-    for row in rows if isinstance(rows, list) else []:
-        if isinstance(row, dict) and row.get("size") is not None:
-            return _sane(row.get("size"))
-    return None
+    if status != 200:
+        return None
+    page = raw.decode("utf-8", "replace")
+    m = re.search(r"id=.size.[^>]*>\s*([\d.,]+)\s*([KMGT]?i?B)", page, re.I)
+    if not m:
+        return None
+    nombre = m.group(1).replace(",", "")
+    unite = m.group(2).upper().replace("I", "")
+    facteurs = {"B": 1, "KB": 1024, "MB": 1024 ** 2, "GB": 1024 ** 3, "TB": 1024 ** 4}
+    try:
+        return _sane(int(float(nombre) * facteurs.get(unite, 1)))
+    except ValueError:
+        return None
 
 
 # ---------------------------------------------------------------------------
@@ -405,6 +439,58 @@ def fill_missing_sizes(catalog: dict, *, max_probe: int = 0, delay: float = 0.3,
 
     if workers > 1:
         pool.shutdown(wait=True)
+    return stats
+
+
+def _grappe(link: dict) -> tuple:
+    return (link.get("group"), link.get("version"),
+            link.get("region"), link.get("editionId"))
+
+
+def fill_link_sizes(catalog: dict, *, max_probe: int = 0, delay: float = 0.3,
+                    seulement_bp: bool = True) -> dict:
+    """Sonde UNE taille par rubrique et la pose sur le lien sonde.
+
+    Pourquoi par rubrique : les liens d'une meme rubrique sont le MEME fichier
+    chez plusieurs hebergeurs (« Backport 4.xx+ ⇛ Viki – Rootz – OneFile »).
+    Une sonde suffit, pegasus_finalize propage ensuite aux miroirs.
+
+    Pourquoi seulement les BP : c'est la ou la taille TRANCHE. Un lien « BP »
+    est tantot le jeu repackage, tantot le seul binaire a deposer dans le
+    dossier — mesure du 2026-08-30 : 49 liens sous 100 Mo contre 58 au-dessus de
+    1 Go, et un seul dans la vallee. Ailleurs, la taille n'apprend rien que la
+    fiche ne dise deja. 953 rubriques BP a sonder sur ce catalogue, une fois,
+    puis le cache disque les ressert.
+    """
+    stats = {"rubriques": 0, "sondees": 0, "trouvees": 0, "budget": max_probe}
+    for pkg in catalog.get("packages", []):
+        liens = [l for l in (pkg.get("downloadLinks") or []) if isinstance(l, dict)]
+        vues: set = set()
+        for link in liens:
+            if seulement_bp and "BP" not in (link.get("name") or ""):
+                continue
+            g = _grappe(link)
+            if g in vues:
+                continue
+            vues.add(g)
+            stats["rubriques"] += 1
+            fratrie = [l for l in liens if _grappe(l) == g]
+            if any(l.get("sizeBytes") and not l.get("_tailleHeritee") for l in fratrie):
+                continue
+            cible = next((l for l in fratrie
+                          if _host(l.get("url", "")) in PROBEABLE_HOSTS), None)
+            if cible is None:
+                continue
+            if max_probe and stats["sondees"] >= max_probe:
+                continue
+            stats["sondees"] += 1
+            taille = probe_size(cible["url"])
+            if taille:
+                cible["sizeBytes"] = taille
+                cible.pop("_tailleHeritee", None)
+                stats["trouvees"] += 1
+            if delay:
+                time.sleep(delay)
     return stats
 
 

@@ -505,6 +505,31 @@ jobs:
             python3 scripts/pegasus_finalize.py ps5-catalog.json
           fi
 
+      - name: Sonder la taille des liens Backport
+        if: env.MERGE_SKIPPED != '1'
+        run: |
+          # Un lien « BP » est tantot le JEU repackage, tantot le seul binaire a
+          # deposer dans le dossier du jeu. Mesure du 2026-08-30 sur 114 tailles
+          # relevees : distribution bimodale, 49 sous 100 Mo contre 58 au-dessus
+          # de 1 Go, UN SEUL lien dans la vallee 133-307 Mo. On sonde UNE taille
+          # par rubrique (les miroirs d'une rubrique sont le meme fichier) :
+          # 953 requetes la premiere fois, puis le cache disque les ressert.
+          # pegasus_finalize propage ensuite aux miroirs et affiche la taille
+          # sous le seuil. Une panne d'hebergeur laisse le lien indetermine :
+          # elle ne doit pas casser le run.
+          if [ -f ps5-catalog.json ]; then
+            python3 - <<'PY' || true
+          import json, sys
+          sys.path.insert(0, "scripts")
+          import hoster_size as H
+          cat = json.load(open("ps5-catalog.json", encoding="utf-8"))
+          st = H.fill_link_sizes(cat, max_probe=500, delay=0.2)
+          print("tailles de liens :", st)
+          json.dump(cat, open("ps5-catalog.json", "w", encoding="utf-8"),
+                    ensure_ascii=False, indent=2)
+          PY
+          fi
+
       - name: Nommer les fiches que la page source ne nomme pas
         if: env.MERGE_SKIPPED != '1'
         run: |

@@ -148,6 +148,60 @@ _RE_FW_SANS_POINT = re.compile("(?<![a-z0-9])([4-9])xx(?![a-z0-9])")
 
 _LEGENDE_BP = "BP = Backport"
 
+# Un lien « BP » est tantot le JEU entier repackage, tantot le seul binaire a
+# deposer dans le dossier du jeu. Mesure du 2026-08-30 sur 114 tailles relevees
+# chez les hebergeurs, tirees au sort parmi les liens BP : la distribution est
+# BIMODALE — 49 sous 100 Mo (dont 5 sous 10 Mo), UN SEUL dans tout l'intervalle
+# 133-307 Mo, puis 58 au-dessus de 1 Go et jusqu'a 101 Go. Le seuil est pose au
+# milieu de cette vallee : n'importe quelle valeur entre 133 et 307 Mo donne le
+# meme classement, ce qui est la definition d'un seuil robuste.
+SEUIL_CORRECTIF = 200 * 1024 ** 2
+
+
+def _taille_courte(octets) -> str:
+    """« 45 Mo », « 1.1 Go » — deux caracteres significatifs, pas trois."""
+    if not octets or not isinstance(octets, (int, float)) or octets <= 0:
+        return ""
+    Mo = 1024 ** 2
+    if octets < 1024 ** 3:
+        return f"{round(octets / Mo)} Mo"
+    go = octets / 1024 ** 3
+    return f"{go:.1f} Go" if go < 10 else f"{round(go)} Go"
+
+
+def _grappe(link: dict) -> tuple:
+    """Rubrique d'un lien : meme section, meme version, meme edition.
+
+    Les liens d'une meme rubrique sont le MEME fichier chez plusieurs
+    hebergeurs — « Backport 4.xx+ ⇛ Viki – Rootz – OneFile » sur la page source.
+    Une seule sonde de taille vaut donc pour toute la rubrique.
+    """
+    return (link.get("group"), link.get("version"),
+            link.get("region"), link.get("editionId"))
+
+
+def _propager_tailles(pkg: dict) -> None:
+    """Etend la taille mesuree aux miroirs de la MEME rubrique.
+
+    32 % des liens BP sont chez un hebergeur sondable ; 62 % de plus partagent
+    leur rubrique avec l'un d'eux. La propagation porte la couverture a 94 %
+    des 3806 etiquettes BP. La taille heritee est marquee `_tailleHeritee` :
+    c'est une DEDUCTION, pas une mesure, et elle doit pouvoir se distinguer.
+    """
+    liens = [l for l in (pkg.get("downloadLinks") or []) if isinstance(l, dict)]
+    connues: dict = {}
+    for l in liens:
+        t = l.get("sizeBytes")
+        if isinstance(t, (int, float)) and t > 0 and not l.get("_tailleHeritee"):
+            connues.setdefault(_grappe(l), t)
+    for l in liens:
+        if l.get("sizeBytes"):
+            continue
+        t = connues.get(_grappe(l))
+        if t:
+            l["sizeBytes"] = t
+            l["_tailleHeritee"] = True
+
 
 def _noyau(v: str) -> str:
     """Version reduite au minimum : zero de tete et segments de queue nuls otes."""
@@ -441,6 +495,10 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     # avec son format (+ version) à côté de l'hébergeur. Idempotent : on retire un
     # éventuel « [..] » terminal avant de réappliquer.
     _clean_links(pkg)
+    # AVANT l'etiquetage : une taille heritee d'un miroir de la meme rubrique
+    # doit pouvoir atteindre l'etiquette. Posee apres, elle arrivait trop tard —
+    # le test d'integration l'a montre.
+    _propager_tailles(pkg)
     version = (pkg.get("version") or "").strip()
     base_fmt = _base_format(pkg.get("fileFormat"))
     # Abreviation des versions, calculee POUR CETTE FICHE : elle depend des
@@ -499,6 +557,16 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # elle n'est ecrite que lorsqu'elle DIFFERE de celle de la fiche, que
         # l'en-tete affiche juste au-dessus.
         link_fmt = _abreger(link_fmt)
+        # Un BP sous le seuil est le BINAIRE a deposer dans le dossier du jeu,
+        # pas le jeu : on affiche sa taille, qui le dit sans legende. Au-dessus,
+        # c'est le jeu — la fiche porte deja sa taille et les pixels sont
+        # comptes (boite de 180 px). Voir SEUIL_CORRECTIF pour la mesure.
+        taille = link.get("sizeBytes")
+        if ("BP" in link_fmt and isinstance(taille, (int, float))
+                and 0 < taille < SEUIL_CORRECTIF):
+            court = _taille_courte(taille)
+            if court:
+                link_fmt = f"{link_fmt} · {court}"
         tag = " · ".join(p for p in (link_fmt, link_region,
                                      f"v{version_utile}" if version_utile else "") if p)
         if not tag and link_version:
