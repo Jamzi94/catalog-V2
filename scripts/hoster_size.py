@@ -307,6 +307,94 @@ _HOST_PRIORITY = ["vikingfile.com", "mega.nz", "mega.co.nz", "gofile.io",
                   "mediafire.com", "www.mediafire.com"]
 
 
+_ACCUEILS = {"datanodes.to": "https://datanodes.to/",
+             "filekeeper.net": "https://filekeeper.net/"}
+
+
+def _page_avec_session(url: str) -> str | None:
+    """Page du fichier, obtenue comme le fait un navigateur.
+
+    Une requete nue rend 404 sur datanodes.to et filekeeper.net — 8 liens sur 8
+    testes le 2026-08-30, ce qui laissait croire que 1793 liens du catalogue
+    etaient morts. Ils ne le sont pas : c'est une defense anti-robot. Il suffit
+    d'ouvrir l'accueil pour recevoir le cookie de session, puis de demander le
+    fichier avec ce cookie — exactement ce que fait le navigateur, verifie a
+    l'identique via Playwright avant d'ecrire ceci.
+    """
+    import http.cookiejar
+    import urllib.request as _u
+    hote = _host(url)
+    accueil = _ACCUEILS.get(hote)
+    if not accueil:
+        return None
+    entetes = [("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
+               ("Accept", "text/html,application/xhtml+xml,*/*;q=0.8"),
+               ("Accept-Language", "fr-FR,fr;q=0.9,en;q=0.8")]
+    try:
+        jar = http.cookiejar.CookieJar()
+        op = _u.build_opener(_u.HTTPCookieProcessor(jar))
+        op.addheaders = entetes
+        with op.open(accueil, timeout=HTTP_TIMEOUT) as r:
+            r.read(1000)
+        with op.open(url, timeout=HTTP_TIMEOUT) as r:
+            return r.read(300000).decode("utf-8", "replace")
+    except Exception:                                        # noqa: BLE001
+        return None
+
+
+def _octets(nombre: str, unite: str) -> int | None:
+    facteurs = {"B": 1, "KB": 1024, "MB": 1024 ** 2, "GB": 1024 ** 3, "TB": 1024 ** 4}
+    try:
+        return int(float(nombre.replace(",", "")) * facteurs[unite.upper().replace("I", "")])
+    except (ValueError, KeyError):
+        return None
+
+
+def nom_et_taille(url: str) -> tuple:
+    """(nom de fichier, octets) pour les hotes lisibles par session, sinon (None, None).
+
+    Les deux hotes exposent l'information a un endroit STABLE et sans ambiguite :
+      datanodes  : <meta property="og:title" content="PPSA01500.7z (67.3 GB)">
+      filekeeper : <title>Telechargement ...</title> + un span de taille
+    On vise ces ancres et pas le premier nombre venu : les deux pages portent
+    par ailleurs des tailles d'encart (« 870 KB », « 5 TB »), et une lecture
+    gloutonne rendrait un chiffre plausible et faux.
+    """
+    hote = _host(url)
+    if hote not in _ACCUEILS:
+        return (None, None)
+    page = _FETCH_SESSION(url)
+    if not page:
+        return (None, None)
+    # Recherche par chaine litterale, sans regex : les guillemets HTML se
+    # melent mal aux echappements, et ces ancres sont fixes.
+    marque = "og:title" + chr(34) + " content=" + chr(34)
+    i = page.find(marque)
+    if i >= 0:
+        j = page.find(chr(34), i + len(marque))
+        og = page[i + len(marque):j] if j > 0 else ""
+        mm = re.match(r"^(.*?)[ ]*\(([0-9.,]+)[ ]*([KMGT]?i?B)\)[ ]*$", og)
+        if mm:
+            return (mm.group(1).strip(), _octets(mm.group(2), mm.group(3)))
+    marque2 = "id=" + chr(34) + "dl-filename" + chr(34)
+    i = page.find(marque2)
+    if i >= 0:
+        j = page.find(">", i)
+        k = page.find("<", j + 1)
+        nom = page[j + 1:k].strip() if j > 0 and k > j else ""
+        # La taille suit le nom dans le document ; on cherche a partir de la
+        # pour ne pas ramasser les tailles d encart plus bas (« 5 TB »).
+        mt = re.search(r"([0-9][0-9.,]*) *([KMGT]i?B)", page[i:i + 4000])
+        if nom:
+            return (nom, _octets(mt.group(1), mt.group(2)) if mt else None)
+    return (None, None)
+
+
+def _FETCH_SESSION(url: str):
+    return _page_avec_session(url)
+
+
 def probe_size(url: str) -> int | None:
     """Renvoie la taille (octets) du fichier derrière `url`, ou None."""
     if not url:
