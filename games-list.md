@@ -1,6 +1,6 @@
 # Liste des jeux PS5 disponibles — Phoenix DL PS5
 
-_**1019** jeux · généré le 2026-08-30 04:45 UTC · régénéré et enrichi à chaque run_
+_**1019** jeux · généré le 2026-08-30 05:09 UTC · régénéré et enrichi à chaque run_
 
 ## Répartition par format
 
@@ -100,135 +100,135 @@ _**1019** jeux · généré le 2026-08-30 04:45 UTC · régénéré et enrichi �
 | 42 | ArcRunner | Folder · PKG · Backport 4.xx | 01.000 |
 | 43 | Arizona Sunshine 2 | unknown | 01.012 |
 | 44 | Arizona Sunshine Remake | Backport 5.xx | 01.005 |
-| 45 | ARK Survival Ascended | exFAT · Folder · Backport | 01.084.021 |
-| 46 | ARK: Survival Ascended | PKG | 01.006 |
-| 47 | ARK: Survival Ascended | exFAT · Folder · Backport 4.xx | 01.073.007 |
-| 48 | Arkanoid Eternal Battle | PKG · Backport 4.xx | 01.020 |
-| 49 | Armored Core 6 Fires of Rubicon | exFAT · PKG | 01.009 |
-| 50 | Art of Rally | exFAT · PKG · Backport | 01.006 |
-| 51 | Art of Rally | exFAT · PKG · Backport | 01.007 |
-| 52 | Assassins Creed Mirage | exFAT · PKG · Backport 4.xx | 01.012 |
-| 53 | Assassins Creed Shadows | exFAT · Folder · Backport | 01.019.076 |
-| 54 | Assassins Creed Shadows | PKG · Backport 4.xx | 01.019.076 |
-| 55 | Assassins Creed Valhalla | exFAT · PKG | 01.000 |
-| 56 | Assassins Creed Valhalla | exFAT · APR-EMU | 01.070 |
-| 57 | Assassins Creed Valhalla Complete Edition | exFAT · PKG | 01.070 |
-| 58 | Assetto Corsa Competizione | exFAT · PKG | 01.009.014 |
-| 59 | Asterigos Curse of The Stars | exFAT · Folder · Backport | 01.004.001 |
-| 60 | Asterigos: Curse of the Stars | PKG | 01.000.000 |
-| 61 | Asterix and Obelix Babylon Mission | exFAT · Backport | 01.000 |
-| 62 | Asterix and Obelix Heroes | exFAT · PKG | 01.000 |
-| 63 | Asterix and Obelix Slap Them All | exFAT · Folder · Backport | 01.000 |
-| 64 | Asterix and Obelix Slap Them All 2 | exFAT · Folder · Backport | 01.004 |
-| 65 | Asterix and Obelix XXL 2 | exFAT · Folder · Backport | 01.001 |
-| 66 | Asterix and Obelix XXL 3 The Crystal Menhir | exFAT · Folder · Backport | 02.000 |
-| 67 | Asterix and Obelix XXL Romastered | exFAT · Folder · Backport | 01.001 |
-| 68 | Asterix and Obelix XXXL The Ram From Hibernia | exFAT · PKG · Backport | 01.002 |
-| 69 | Asterix and Obelix XXXL: The Ram from Hibernia | PKG | 01.000.001 |
-| 70 | Astria Ascending | unknown | 1.0 |
-| 71 | ASTRO BOT | exFAT · PKG · Backport | 01.007.000 |
-| 72 | ASTRO BOT | FFPFSC · exFAT · Backport 4.xx | 01.018 |
-| 73 | Astros Playroom | exFAT · PKG · Backport | 01.905 |
-| 74 | Atari 50 The Anniversary Celebration Expanded Edition | exFAT · PKG · Backport | 01.009 |
-| 75 | Atelier Marie Remake The Alchemist of Salburg | exFAT · PKG · Backport | 01.000 |
-| 76 | Atlas Fallen | PKG · Backport 4.xx | 01.005.400 |
-| 77 | Atomfall Complete Edition | exFAT · PKG · Backport 4.xx | 01.023 |
-| 78 | Atomic Heart | exFAT · PKG · Backport 4.xx | 01.015.100 |
-| 79 | Atomic Heart Premium Edition | PKG · Backport | 01.011.000 |
-| 80 | Avatar Frontiers of Pandora Complete Edition | exFAT · APR-EMU · Backport | 01.020 |
-| 81 | Avatar The Last Airbender Quest for Balance | exFAT · PKG · Backport | 01.000 |
-| 82 | Avatar: Frontiers of Pandora | exFAT · PKG · Backport 4.xx | 01.011 |
-| 83 | Away: The Survival Series | PKG | 01.009 |
-| 84 | Back 4 Blood | exFAT · PKG | 01.006 |
-| 85 | Back 4 Blood Ultimate Edition | exFAT · PKG | 01.011 |
-| 86 | Balan Wonderworld | PKG | 01.002 |
-| 87 | Baldurs Gate 3 Deluxe Edition | exFAT · PKG · Backport | 01.800 |
-| 88 | Baldur’s Gate 3 | exFAT · PKG · Backport 4.xx | 01.800.700 |
-| 89 | Banishers Ghosts of New Eden | FFPFSC · exFAT · Backport | 01.005.000 |
-| 90 | Barbie Project Friendship | exFAT · PKG · Backport 4.xx | 01.002 |
-| 91 | Bassmaster Fishing 2022 | PKG | 01.020 |
-| 92 | Battlefield 6 | exFAT · PKG · Backport | 01.000.016 |
-| 93 | Beast of Reincarnation Deluxe Edition | exFAT · PKG · Backport | 01.000 |
-| 94 | Beat Saber | Folder · Backport 4.xx | 01.012.000 |
-| 95 | Bendy and the Dark Revival | exFAT · PKG · Backport | 01.000 |
-| 96 | Bendy and The Ink Machine | exFAT · PKG · Backport | 01.000.100 |
-| 97 | Bendy Lone Wolf | exFAT · PKG · Backport | 01.000 |
-| 98 | Beneath | exFAT · PKG · Backport | 01.006 |
-| 99 | Beyond a Steel Sky | PKG | 01.002 |
-| 100 | Beyond Good and Evil 20th Anniversary Edition | exFAT · PKG · Backport | 01.004 |
-| 101 | Bibi and Tina At The Horse Farm | exFAT · PKG | 01.001 |
-| 102 | BIOHAZARD RE:4 | PKG · Backport 4.xx | 01.400 |
-| 103 | Biomutant | PKG | 01.000 |
-| 104 | Biomutant | exFAT · PKG · Backport | 01.003 |
-| 105 | Black Myth Wukong Deluxe Edition | exFAT · PKG · Backport | 01.021 |
-| 106 | Blacksad Under The Skin | exFAT · PKG · Backport 4.xx | 01.001 |
-| 107 | Blackwind | RAR | 01.002.006 |
-| 108 | Blades of Fire Deluxe Edition | exFAT · PKG · Backport | 01.004.001 |
-| 109 | Blasphemous 2 | FFPFSC · exFAT · Backport | 01.007.000 |
-| 110 | Blasphemous II | PKG | 01.001.000 |
-| 111 | BlazBlue Entropy Effect X Deluxe Edition | exFAT · PKG · Backport | 02.013 |
-| 112 | Blazing Strike | exFAT · Folder · Backport | 01.100 |
-| 113 | BLEACH Rebirth of Souls Ultimate Edition | exFAT · PKG · Backport | 01.040.003 |
-| 114 | Bleak Faith Forsaken | exFAT · PKG · Backport | 01.010 |
-| 115 | Blood Bowl III | PKG · Backport 4.xx | 01.000 |
-| 116 | BloodRayne Betrayal: Fresh Bites | PKG | 02.000.000 |
-| 117 | Blue Prince | exFAT · PKG · Backport 4.xx | 02.001 |
-| 118 | Borderlands 3 | exFAT · PKG | 01.900 |
-| 119 | Borderlands 4 | exFAT · PKG · Backport 4.xx | 01.003.001 |
-| 120 | Born of Bread | exFAT · Folder · Backport | 02.000 |
-| 121 | Bramble The Mountain King | exFAT · PKG · Backport | 01.000 |
-| 122 | Breathedge | exFAT · PKG | 01.000 |
-| 123 | Brothers A Tale of Two Sons Remake | exFAT · PKG · Backport | 02.000 |
-| 124 | BUBBLE BOBBLE Sugar Dungeons | exFAT · PKG · Backport | 01.000 |
-| 125 | Bud Spencer Terence Hill Slaps And Beans 2 | exFAT · PKG · Backport | 01.000 |
-| 126 | Bugsnax | PKG | 02.000 |
-| 127 | Bugsnax | unknown | 02.000 |
-| 128 | Bum Simulator | exFAT · Backport | 01.000.004 |
-| 129 | Bye Sweet Carole | PKG | 01.008 |
-| 130 | Call of Duty Black Ops Cold War | FFPFSC · exFAT | 01.040 |
-| 131 | Call of Duty Modern Warfare 2 | exFAT · PKG · Backport | 01.001 |
-| 132 | Call of Duty Modern Warfare 3 | exFAT · Folder · Backport | 01.055 |
-| 133 | Call of Duty Vanguard | FFPFSC · exFAT | 01.027 |
-| 134 | Call of The Sea | PKG | 02.000 |
-| 135 | Cant Drive This | unknown | 01.005 |
-| 136 | Carmen Sandiego Deluxe Edition | exFAT · Backport | 01.009 |
-| 137 | Castlevania Dominus Collection | exFAT · PKG · Backport | 01.003 |
-| 138 | Cat Quest 3 | exFAT · PKG · Backport 4.xx | 01.000.001 |
-| 139 | Cave Digger 2 Dig Harder | Folder · PKG | 01.000 |
-| 140 | Charon’s Staircase | PKG · Backport | 01.000 |
-| 141 | Chernobylite | exFAT · PKG | 01.000 |
-| 142 | Choo Choo Charles | exFAT · PKG · Backport | 02.000 |
-| 143 | Clair Obscur: Expedition 33 | FFPKG · exFAT · Backport 8.xx | 01.500.300 |
-| 144 | Clash Artifacts of Chaos | exFAT · PKG · Backport | 01.004 |
-| 145 | Cobra Kai 2 Dojos Rising | PKG | 01.000 |
-| 146 | Cocoon | RAR | 01.004.000 |
-| 147 | CODE VEIN 2 | exFAT · PKG · Backport 4.xx | 01.001 |
-| 148 | Code Violet | exFAT · PKG · Backport | 01.028 |
-| 149 | Commandos Origins | exFAT · PKG · Backport | 01.004 |
-| 150 | Construction Simulator Gold Edition | exFAT · Folder · Backport | 01.040 |
-| 151 | Contra Operation Galuga | exFAT · PKG · Backport | 01.003 |
-| 152 | Control Ultimate Edition | PKG | 01.003 |
-| 153 | Control Ultimate Edition | exFAT · PKG · Backport | 01.004 |
-| 154 | Crash Bandicoot 4 Its About Time | exFAT · PKG | 01.000.002 |
-| 155 | Crazy Chicken Shooter Bundle | unknown | 1.0 |
-| 156 | Crime Boss Rockay City | exFAT · Backport 4.xx | 01.049 |
-| 157 | Crime Boss Rockay City The Complete Collection | exFAT · Backport | 01.049 |
-| 158 | Crimson Desert | PKG · Backport | 01.000.151 |
-| 159 | Crimson Desert Deluxe Edition | exFAT · Folder · Backport | 01.000.151 |
-| 160 | Crimson Spires | PKG | 01.003 |
-| 161 | Cris Tales | exFAT · PKG | 01.000 |
-| 162 | Crisis Core Final Fantasy VII Reunion | exFAT · PKG · Backport | 01.004 |
-| 163 | Cronos The New Dawn | exFAT · PKG · Backport 4.xx | 01.010 |
-| 164 | Crossfire: Sierra Squad | PKG · Backport 4.xx | 01.008.001 |
-| 165 | Crown Wars The Black Prince | exFAT · Folder · Backport | 02.000 |
-| 166 | Crymachina Deluxe Edition | exFAT · PKG · Backport | 01.008 |
-| 167 | Cult Of The Lamb The One Who Waits Edition | exFAT · Backport | 01.034 |
-| 168 | Curved Space | unknown | 1.0 |
-| 169 | CyB1K Need Us! | PKG · APR-EMU · Backport 4.xx | 01.017 |
-| 170 | Cyberpunk 2077 Ultimate Edition | exFAT | 02.120 |
-| 171 | Cygni All Guns Blazing | exFAT · Folder · Backport | 01.002 |
-| 172 | Daemon X Machina Titanic Scion | PKG | 01.001 |
-| 173 | Daemon X Machina Titanic Scion | exFAT · PKG · Backport 4.xx | 01.002.002 |
+| 45 | ARK Survival Ascended | exFAT · Folder · Backport 4.xx | 01.073.007 |
+| 46 | ARK Survival Ascended | exFAT · Folder · Backport | 01.084.021 |
+| 47 | Arkanoid Eternal Battle | PKG · Backport 4.xx | 01.020 |
+| 48 | Armored Core 6 Fires of Rubicon | exFAT · PKG | 01.009 |
+| 49 | Art of Rally | exFAT · PKG · Backport | 01.006 |
+| 50 | Art of Rally | exFAT · PKG · Backport | 01.007 |
+| 51 | Assassin's Creed Shadows | exFAT · Folder · Backport | 01.019.076 |
+| 52 | Assassin's Creed Shadows | PKG · Backport 4.xx | 01.019.076 |
+| 53 | Assassins Creed Mirage | exFAT · PKG · Backport 4.xx | 01.012 |
+| 54 | Assassins Creed Valhalla | exFAT · PKG | 01.000 |
+| 55 | Assassins Creed Valhalla | exFAT · APR-EMU | 01.070 |
+| 56 | Assassins Creed Valhalla Complete Edition | exFAT · PKG | 01.070 |
+| 57 | Assetto Corsa Competizione | exFAT · PKG | 01.009.014 |
+| 58 | Asterigos Curse of The Stars | exFAT · Folder · Backport | 01.004.001 |
+| 59 | Asterigos: Curse of the Stars | PKG | 01.000.000 |
+| 60 | Asterix and Obelix Babylon Mission | exFAT · Backport | 01.000 |
+| 61 | Asterix and Obelix Heroes | exFAT · PKG | 01.000 |
+| 62 | Asterix and Obelix Slap Them All | exFAT · Folder · Backport | 01.000 |
+| 63 | Asterix and Obelix Slap Them All 2 | exFAT · Folder · Backport | 01.004 |
+| 64 | Asterix and Obelix XXL 2 | exFAT · Folder · Backport | 01.001 |
+| 65 | Asterix and Obelix XXL 3 The Crystal Menhir | exFAT · Folder · Backport | 02.000 |
+| 66 | Asterix and Obelix XXL Romastered | exFAT · Folder · Backport | 01.001 |
+| 67 | Asterix and Obelix XXXL The Ram From Hibernia | exFAT · PKG · Backport | 01.002 |
+| 68 | Astria Ascending | unknown | 1.0 |
+| 69 | ASTRO BOT | exFAT · PKG · Backport | 01.007.000 |
+| 70 | ASTRO BOT | FFPFSC · exFAT · Backport 4.xx | 01.018 |
+| 71 | Astros Playroom | exFAT · PKG · Backport | 01.905 |
+| 72 | Atari 50 The Anniversary Celebration Expanded Edition | exFAT · PKG · Backport | 01.009 |
+| 73 | Atelier Marie Remake The Alchemist of Salburg | exFAT · PKG · Backport | 01.000 |
+| 74 | Atlas Fallen | PKG · Backport 4.xx | 01.005.400 |
+| 75 | Atomfall Complete Edition | exFAT · PKG · Backport 4.xx | 01.023 |
+| 76 | Atomic Heart | exFAT · PKG · Backport 4.xx | 01.015.100 |
+| 77 | Atomic Heart Premium Edition | PKG · Backport | 01.011.000 |
+| 78 | Avatar Frontiers of Pandora Complete Edition | exFAT · APR-EMU · Backport | 01.020 |
+| 79 | Avatar The Last Airbender Quest for Balance | exFAT · PKG · Backport | 01.000 |
+| 80 | Avatar: Frontiers of Pandora | exFAT · PKG · Backport 4.xx | 01.011 |
+| 81 | Away: The Survival Series | PKG | 01.009 |
+| 82 | Back 4 Blood | exFAT · PKG | 01.006 |
+| 83 | Back 4 Blood Ultimate Edition | exFAT · PKG | 01.011 |
+| 84 | Balan Wonderworld | PKG | 01.002 |
+| 85 | Baldurs Gate 3 Deluxe Edition | exFAT · PKG · Backport | 01.800 |
+| 86 | Baldur’s Gate 3 | exFAT · PKG · Backport 4.xx | 01.800.700 |
+| 87 | Banishers Ghosts of New Eden | FFPFSC · exFAT · Backport | 01.005.000 |
+| 88 | Barbie Project Friendship | exFAT · PKG · Backport 4.xx | 01.002 |
+| 89 | Bassmaster Fishing 2022 | PKG | 01.020 |
+| 90 | Battlefield 6 | exFAT · PKG · Backport | 01.000.016 |
+| 91 | Beast of Reincarnation Deluxe Edition | exFAT · PKG · Backport | 01.000 |
+| 92 | Beat Saber | Folder · Backport 4.xx | 01.012.000 |
+| 93 | Bendy and the Dark Revival | exFAT · PKG · Backport | 01.000 |
+| 94 | Bendy and The Ink Machine | exFAT · PKG · Backport | 01.000.100 |
+| 95 | Bendy Lone Wolf | exFAT · PKG · Backport | 01.000 |
+| 96 | Beneath | exFAT · PKG · Backport | 01.006 |
+| 97 | Beyond a Steel Sky | PKG | 01.002 |
+| 98 | Beyond Good and Evil 20th Anniversary Edition | exFAT · PKG · Backport | 01.004 |
+| 99 | Bibi and Tina At The Horse Farm | exFAT · PKG | 01.001 |
+| 100 | BIOHAZARD RE:4 | PKG · Backport 4.xx | 01.400 |
+| 101 | Biomutant | PKG | 01.000 |
+| 102 | Biomutant | exFAT · PKG · Backport | 01.003 |
+| 103 | Black Myth Wukong Deluxe Edition | exFAT · PKG · Backport | 01.021 |
+| 104 | Blacksad Under The Skin | exFAT · PKG · Backport 4.xx | 01.001 |
+| 105 | Blackwind | RAR | 01.002.006 |
+| 106 | Blades of Fire Deluxe Edition | exFAT · PKG · Backport | 01.004.001 |
+| 107 | Blasphemous 2 | FFPFSC · exFAT · Backport | 01.007.000 |
+| 108 | Blasphemous II | PKG | 01.001.000 |
+| 109 | BlazBlue Entropy Effect X Deluxe Edition | exFAT · PKG · Backport | 02.013 |
+| 110 | Blazing Strike | exFAT · Folder · Backport | 01.100 |
+| 111 | BLEACH Rebirth of Souls Ultimate Edition | exFAT · PKG · Backport | 01.040.003 |
+| 112 | Bleak Faith Forsaken | exFAT · PKG · Backport | 01.010 |
+| 113 | Blood Bowl III | PKG · Backport 4.xx | 01.000 |
+| 114 | BloodRayne Betrayal: Fresh Bites | PKG | 02.000.000 |
+| 115 | Blue Prince | exFAT · PKG · Backport 4.xx | 02.001 |
+| 116 | Borderlands 3 | exFAT · PKG | 01.900 |
+| 117 | Borderlands 4 | exFAT · PKG · Backport 4.xx | 01.003.001 |
+| 118 | Born of Bread | exFAT · Folder · Backport | 02.000 |
+| 119 | Bramble The Mountain King | exFAT · PKG · Backport | 01.000 |
+| 120 | Breathedge | exFAT · PKG | 01.000 |
+| 121 | Brothers A Tale of Two Sons Remake | exFAT · PKG · Backport | 02.000 |
+| 122 | BUBBLE BOBBLE Sugar Dungeons | exFAT · PKG · Backport | 01.000 |
+| 123 | Bud Spencer Terence Hill Slaps And Beans 2 | exFAT · PKG · Backport | 01.000 |
+| 124 | Bugsnax | PKG | 02.000 |
+| 125 | Bugsnax | unknown | 02.000 |
+| 126 | Bum Simulator | exFAT · Backport | 01.000.004 |
+| 127 | Bye Sweet Carole | PKG | 01.008 |
+| 128 | Call of Duty Black Ops Cold War | FFPFSC · exFAT | 01.040 |
+| 129 | Call of Duty Modern Warfare 2 | exFAT · PKG · Backport | 01.001 |
+| 130 | Call of Duty Modern Warfare 3 | exFAT · Folder · Backport | 01.055 |
+| 131 | Call of Duty Vanguard | FFPFSC · exFAT | 01.027 |
+| 132 | Call of The Sea | PKG | 02.000 |
+| 133 | Cant Drive This | unknown | 01.005 |
+| 134 | Carmen Sandiego Deluxe Edition | exFAT · Backport | 01.009 |
+| 135 | Castlevania Dominus Collection | exFAT · PKG · Backport | 01.003 |
+| 136 | Cat Quest 3 | exFAT · PKG · Backport 4.xx | 01.000.001 |
+| 137 | Cave Digger 2 Dig Harder | Folder · PKG | 01.000 |
+| 138 | Charon’s Staircase | PKG · Backport | 01.000 |
+| 139 | Chernobylite | exFAT · PKG | 01.000 |
+| 140 | Choo Choo Charles | exFAT · PKG · Backport | 02.000 |
+| 141 | Clair Obscur: Expedition 33 | FFPKG · exFAT · Backport 8.xx | 01.500.300 |
+| 142 | Clash Artifacts of Chaos | exFAT · PKG · Backport | 01.004 |
+| 143 | Cobra Kai 2 Dojos Rising | PKG | 01.000 |
+| 144 | Cocoon | RAR | 01.004.000 |
+| 145 | CODE VEIN 2 | exFAT · PKG · Backport 4.xx | 01.001 |
+| 146 | Code Violet | exFAT · PKG · Backport | 01.028 |
+| 147 | Commandos Origins | exFAT · PKG · Backport | 01.004 |
+| 148 | Construction Simulator Gold Edition | exFAT · Folder · Backport | 01.040 |
+| 149 | Contra Operation Galuga | exFAT · PKG · Backport | 01.003 |
+| 150 | Control Ultimate Edition | PKG | 01.003 |
+| 151 | Control Ultimate Edition | exFAT · PKG · Backport | 01.004 |
+| 152 | Crash Bandicoot 4 Its About Time | exFAT · PKG | 01.000.002 |
+| 153 | Crash Bandicoot 4: It’s About Time | PKG · Backport 4.xx | 01.000 |
+| 154 | Crazy Chicken Shooter Bundle | unknown | 1.0 |
+| 155 | Crime Boss Rockay City | exFAT · Backport 4.xx | 01.049 |
+| 156 | Crime Boss Rockay City The Complete Collection | exFAT · Backport | 01.049 |
+| 157 | Crimson Desert | PKG · Backport | 01.000.151 |
+| 158 | Crimson Desert Deluxe Edition | exFAT · Folder · Backport | 01.000.151 |
+| 159 | Crimson Spires | PKG | 01.003 |
+| 160 | Cris Tales | exFAT · PKG | 01.000 |
+| 161 | Crisis Core Final Fantasy VII Reunion | exFAT · PKG · Backport | 01.004 |
+| 162 | Cronos The New Dawn | exFAT · PKG · Backport 4.xx | 01.010 |
+| 163 | Crossfire: Sierra Squad | PKG · Backport 4.xx | 01.008.001 |
+| 164 | Crown Wars The Black Prince | exFAT · Folder · Backport | 02.000 |
+| 165 | Crymachina Deluxe Edition | exFAT · PKG · Backport | 01.008 |
+| 166 | Cult Of The Lamb The One Who Waits Edition | exFAT · Backport | 01.034 |
+| 167 | Curved Space | unknown | 1.0 |
+| 168 | CyB1K Need Us! | PKG · APR-EMU · Backport 4.xx | 01.017 |
+| 169 | Cyberpunk 2077 Ultimate Edition | exFAT | 02.120 |
+| 170 | Cygni All Guns Blazing | exFAT · Folder · Backport | 01.002 |
+| 171 | Daemon X Machina Titanic Scion | PKG | 01.001 |
+| 172 | Daemon X Machina Titanic Scion | exFAT · PKG · Backport 4.xx | 01.002.002 |
+| 173 | Dakar Desert Rally | PKG | 02.003.245 |
 | 174 | Darkest Dungeon II | PKG | 01.000 |
 | 175 | Darkest Dungeon II | exFAT · PKG | 01.015 |
 | 176 | Darksiders 2 Deathinitive Edition | exFAT · PKG · Backport | 01.002 |
@@ -322,756 +322,756 @@ _**1019** jeux · généré le 2026-08-30 04:45 UTC · régénéré et enrichi �
 | 264 | ELDEN RING Shadow of the Erdtree Edition | exFAT · Folder | 01.017.001 |
 | 265 | Electronics Puzzle Lab | exFAT · APR-EMU · Backport | 01.000 |
 | 266 | Elex II | PKG | 01.003 |
-| 267 | Empire of the Ants | exFAT · PKG · Backport 4.xx | 02.004 |
-| 268 | Enchanted Portals | Folder · PKG · Backport 4.xx | 01.000 |
-| 269 | Endling Extinction is Forever | exFAT · PKG · Backport 4.xx | 01.000.002 |
-| 270 | Enotria The Last Song Deluxe Edition | PKG · Backport 4.xx | 01.005.004 |
-| 271 | Eriksholm The Stolen Dream | exFAT · PKG · Backport | 01.003.001 |
-| 272 | Eternights | PKG · Backport 4.xx | 01.004 |
-| 273 | Ever Forward | unknown | 1.0 |
-| 274 | Evergate | exFAT · PKG | 01.003 |
-| 275 | Evergate | exFAT · APR-EMU | 01.003 |
-| 276 | Everspace 2 Complete Edition | exFAT · Folder · Backport | 01.020.000 |
-| 277 | Everybodys Golf 2 | exFAT · Backport | 01.000.004 |
-| 278 | Evil Genius 2 World Domination | exFAT · PKG | 01.002.000 |
-| 279 | Evil Inside | exFAT · PKG | 01.000 |
-| 280 | Evil West | exFAT · PKG · Backport | 01.005.000 |
-| 281 | Evotinction | exFAT · Folder · Backport | 01.009 |
-| 282 | EXODEMON | exFAT · PKG | 01.004 |
-| 283 | Expeditions A MudRunner Game | PKG · APR-EMU · Backport 6.xx | 01.026 |
-| 284 | F1 2021 | PKG · APR-EMU | 01.018 |
-| 285 | F1 23 | APR-EMU · Backport 4.xx | 01.021 |
-| 286 | F1 24 | exFAT · APR-EMU · Backport | 01.021 |
-| 287 | F1 25 | exFAT · PKG · Backport | 01.018 |
-| 288 | Fallout 4 | exFAT · PKG · Backport 4.xx | 01.002 |
-| 289 | FANTASIAN Neo Dimension | exFAT · PKG · Backport | 01.300 |
-| 290 | Fantasy Life i The Girl Who Steals Time Deluxe Edition | exFAT · Backport | 01.000 |
-| 291 | Far Cry 6 | exFAT · PKG · Backport | 01.000.013 |
-| 292 | Farming Simulator 22 | exFAT · PKG | 01.070.000 |
-| 293 | Farming Simulator 25 | exFAT · PKG · Backport | 01.310 |
-| 294 | Fast and Furious Arcade Edition | exFAT · PKG · Backport | 01.001 |
-| 295 | Fatal Frame 2 Crimson Butterfly Remake Deluxe Edition | exFAT · PKG · Backport | 01.002.002 |
-| 296 | Fatal Frame: Maiden of Black Water | PKG | 01.000 |
-| 297 | FATAL FURY: City of the Wolves | exFAT · PKG · Backport | 01.009 |
-| 298 | Fate Samurai Remnant | exFAT · PKG · Backport | 01.302 |
-| 299 | FIFA 21 | PKG · APR-EMU | 01.021 |
-| 300 | FIFA 22 | unknown | 01.000.190 |
-| 301 | FIFA 22 | APR-EMU | 01.019 |
-| 302 | FINAL FANTASY TACTICS The Ivalice Chronicles | exFAT · PKG · Backport 4.xx | 01.040 |
-| 303 | Final Fantasy VII Rebirth | Folder · PKG | 01.080 |
-| 304 | Final Fantasy VII Remake Intergrade | exFAT · PKG | 01.003 |
-| 305 | Final Fantasy XVI Complete Edition | exFAT · Folder · Backport 4.xx | 01.003.004 |
-| 306 | Final Vendetta | RAR | 01.002.000 |
-| 307 | Fishing North Atlantic Enhanced Edition | PKG | 02.001 |
-| 308 | FIST: Forged In Shadow Torch | PKG · Backport | 01.201.001 |
-| 309 | Five Nights at Freddy's Help Wanted 2 | exFAT · Folder · Backport | 01.004 |
-| 310 | Five Nights at Freddy’s: Security Breach | PKG | 01.005 |
-| 311 | Flashback 2 | exFAT · PKG · Backport 4.xx | 01.007 |
-| 312 | Flintlock The Siege of Dawn | exFAT · PKG · Backport | 01.002.400 |
-| 313 | Fobia St Dinfna Hotel | unknown | 01.000 |
-| 314 | Fobia: St. Dinfna Hotel | PKG | 01.000 |
-| 315 | Formula Retro Racing: World Tour – Special Edition | Folder · PKG | 01.002 |
-| 316 | Forspoken | exFAT · PKG · Backport | 01.020 |
-| 317 | Fort Solis | exFAT · PKG · Backport | 01.002.000 |
-| 318 | Forza Horizon 5 | exFAT · Folder · Backport | 01.685.672 |
-| 319 | Frostpunk 2 | exFAT · PKG · Backport 4.xx | 01.013 |
-| 320 | Funko Fusion Deluxe Edition | exFAT · PKG · Backport | 03.004.001 |
-| 321 | Furi | PKG | 01.007.225 |
-| 322 | Gamedec Definitive Edition | exFAT · PKG · Backport | 01.000 |
-| 323 | Gangs of Sherwood | PKG · Backport 4.xx | 01.007 |
-| 324 | Gear Club Unlimited 2 Ultimate Edition | exFAT · PKG · Backport 4.xx | 01.001 |
-| 325 | Gears of War Reloaded | exFAT · Folder · Backport | 01.008.001 |
-| 326 | Gex Trilogy | exFAT · PKG · Backport | 01.000 |
-| 327 | Ghost Master Resurrection | exFAT · PKG · Backport 4.xx | 01.000 |
-| 328 | Ghost of Tsushima Directors Cut | exFAT · PKG · Backport 4.xx | 02.017 |
-| 329 | Ghost of Tsushima Directors Cut | exFAT · PKG · Backport | 02.024 |
-| 330 | Ghost of Yotei Deluxe Edition | FFPFSC · exFAT · Backport | 01.008.000 |
-| 331 | Ghost Song | exFAT · APR-EMU · Backport | 01.005 |
-| 332 | Ghostbusters Spirits Unleashed Ecto Edition | exFAT · Folder · Backport | 01.028 |
-| 333 | Ghostbusters: Spirits Unleashed | PKG · Backport | 01.000 |
-| 334 | Ghostrunner | exFAT · PKG | 01.000.005 |
-| 335 | Ghostrunner 2 | exFAT · PKG · Backport | 01.000 |
-| 336 | Ghostwire Tokyo | exFAT · PKG | 01.009 |
-| 337 | Gigantosaurus Dino Kart | exFAT · PKG · Backport | 01.000 |
-| 338 | Goat Simulator 3 | exFAT · Folder · Backport 4.xx | 01.002.100 |
-| 339 | God of Rock | exFAT · PKG · Backport | 01.000 |
-| 340 | God Of War Ragnarok | exFAT · PKG · Backport 4.xx | 05.005 |
-| 341 | God of War Ragnarök | exFAT · PKG · Backport 4.xx | 05.005 |
-| 342 | Goosebumps Terror in Little Creek | exFAT · APR-EMU · Backport | 01.000 |
-| 343 | Gori Cuddly Carnage | exFAT · PKG · Backport | 01.009 |
-| 344 | Gori Cuddly Carnage | exFAT · PKG · Backport 4.xx | 01.009 |
-| 345 | Gotham Knights | exFAT · PKG · Backport | 05.000 |
-| 346 | Gran Turismo 7 | PKG · APR-EMU · Backport 4.xx | 01.680 |
-| 347 | Granblue Fantasy: Relink | PKG | 01.003.002 |
-| 348 | Grand Theft Auto 3 The Definitive Edition | exFAT · PKG | 01.007 |
-| 349 | Grand Theft Auto San Andreas The Definitive Edition | FFPFSC · exFAT | 01.007 |
-| 350 | Grand Theft Auto V | PKG | 01.005 |
-| 351 | Grand Theft Auto V | exFAT · APR-EMU · Backport | 01.010.002 |
-| 352 | Grand Theft Auto Vice City The Definitive Edition | exFAT · PKG | 01.007 |
-| 353 | Graven | exFAT · Folder · Backport | 01.001 |
-| 354 | Greak Memories of Azur | exFAT · PKG | 01.003 |
-| 355 | GreedFall | exFAT · PKG | 01.003 |
-| 356 | GreedFall Gold Edition | PKG | 01.003 |
-| 357 | GreedFall The Dying World | exFAT · PKG · Backport | 01.004 |
-| 358 | Greyhill Incident | exFAT · Backport | 01.004 |
-| 359 | GRID Legends | exFAT · PKG | 06.001 |
-| 360 | GRIS | exFAT · PKG · Backport | 01.001 |
-| 361 | Guilty Gear Strive | exFAT · Folder · Backport | 01.030.000 |
-| 362 | Gundam Breaker 4 | PKG | 01.000 |
-| 363 | Gungrave GORE | exFAT · Folder · Backport | 01.010 |
-| 364 | GYLT | exFAT · PKG · Backport | 02.000.052 |
-| 365 | Hades | exFAT · PKG | 01.003 |
-| 366 | Hamster Playground | PKG | 01.009 |
-| 367 | HappyFunland | PKG · Backport 4.xx | 01.005 |
-| 368 | Harvest Days | exFAT · PKG · Backport | 01.002.001 |
-| 369 | Hell Is Us | exFAT · PKG · Backport | 01.006 |
-| 370 | Hellboy Web of Wyrd | exFAT · PKG | 01.004 |
-| 371 | Hellboy Web of Wyrd | exFAT · PKG · Backport | 01.023 |
-| 372 | Hello Neighbor 2 | PKG · Backport 4.xx | 01.000 |
-| 373 | Hi Fi RUSH Deluxe Edition | Backport | 01.004 |
-| 374 | Hi-Fi RUSH | exFAT · PKG · Backport 4.xx | 01.004 |
-| 375 | High on Life | exFAT · PKG · Backport | 01.120 |
-| 376 | High on Life 2 | exFAT · PKG · Backport 4.xx | 01.100.100 |
-| 377 | Hitman World of Assassination | exFAT · PKG | 01.017 |
-| 378 | Hitman World of Assassination Deluxe Edition | exFAT · PKG · Backport | 01.038 |
-| 379 | HOA | exFAT · PKG | 01.000.002 |
-| 380 | Hogwarts Legacy | exFAT · Folder · Backport | 01.013 |
-| 381 | Horizon Call of The Mountain | exFAT · APR-EMU · Backport | 01.004.011 |
-| 382 | Horizon Chase 2 | exFAT · PKG · Backport | 01.007 |
-| 383 | Horizon Forbidden West Complete Edition | exFAT · PKG | 01.030 |
-| 384 | Horizon Forbidden West – Complete Edition | exFAT · Folder · Backport 4.xx | 01.030 |
-| 385 | Horizon Zero Dawn Remastered | PKG · APR-EMU | 01.008.001 |
-| 386 | Horizon Zero Dawn Remastered | exFAT · PKG · Backport | 01.008.001 |
-| 387 | Horror Tales The Wine | exFAT · PKG | 02.000 |
-| 388 | Hot Wheels Lets Race Ultimate Speed | exFAT · PKG · Backport | 01.002 |
-| 389 | Hot Wheels Monster Trucks Stunt Mayhem | exFAT · Folder · Backport | 01.000.100 |
-| 390 | Hot Wheels Unleashed | PKG | 01.018 |
-| 391 | Hot Wheels Unleashed 2 Turbocharged | exFAT · Backport | 01.019 |
-| 392 | Hot Wheels Unleashed 2: Turbocharged | PKG | 01.000.001 |
-| 393 | Hot Wheels Unleashed 2: Turbocharged | exFAT · PKG · Backport | 01.017 |
-| 394 | Hotline Miami | APR-EMU | 01.000.002 |
-| 395 | Hubris | Folder · Backport 4.xx | 01.007 |
-| 396 | Hunting Simulator 2 | PKG | 01.002 |
-| 397 | Ikai | exFAT · PKG | 01.002 |
-| 398 | Immortals Fenyx Rising | exFAT · PKG | 04.040 |
-| 399 | Immortals of Aveum | exFAT · PKG · Backport 4.xx | 01.006.004 |
-| 400 | In Nightmare | exFAT · PKG | 01.006 |
-| 401 | In Sound Mind | unknown | 01.009 |
-| 402 | Indiana Jones and The Great Circle | exFAT · Folder · Backport | 01.011 |
-| 403 | Indika | exFAT · Folder · Backport | 01.003 |
-| 404 | Infinity Strash DRAGON QUEST The Adventure of Dai | exFAT · PKG · Backport | 01.002 |
-| 405 | Infliction: Extended Cut | PKG | 01.003.000 |
-| 406 | Instant Sports Plus | exFAT · PKG | 01.002.001 |
-| 407 | Invincible VS | exFAT · PKG · Backport 4.xx | 01.000 |
-| 408 | Iron Harvest Complete Edition | exFAT · PKG | 01.004 |
-| 409 | It Takes Two | PKG | 01.200.000 |
-| 410 | Jack Holmes: Master of Puppets | Folder · PKG · Backport 4.xx | 01.000 |
-| 411 | Jagged Alliance 3 | exFAT · PKG · Backport | 01.005.001 |
-| 412 | Jets N Guns 2 | exFAT · Folder · Backport | 01.002 |
-| 413 | Jitsu Squad | PKG · Backport 4.xx | 01.000 |
-| 414 | JoJos Bizarre Adventure All Star Battle R | exFAT · PKG · Backport | 02.330.000 |
-| 415 | JUDGE EYES：死神の遺言 Remastered | exFAT · APR-EMU | 01.001 |
-| 416 | Judgment | exFAT | 01.001 |
-| 417 | Judgment | exFAT · PKG | 01.001 |
-| 418 | Juicy Realm | exFAT · PKG | 01.000 |
-| 419 | Jumanji: The Video Game | PKG | 01.001 |
-| 420 | Jumping Flash | exFAT · Backport | 01.004 |
-| 421 | Jurassic Park Classic Games Collection | exFAT · PKG · Backport | 01.002 |
-| 422 | Jurassic World Evolution 2 Premium Edition | exFAT · Backport | 01.011.003 |
-| 423 | Jurassic World Evolution 3 | exFAT · PKG · Backport | 01.002.006 |
-| 424 | Jusant | exFAT · PKG · Backport | 01.007 |
-| 425 | KAGE Shadow of The Ninja | exFAT · Folder · Backport 4.xx | 01.000 |
-| 426 | KAKU Ancient Seal | exFAT · PKG · Backport | 01.005 |
-| 427 | Kao The Kangaroo | exFAT · PKG | 01.007 |
-| 428 | KARMA The Dark World | exFAT · PKG · Backport 4.xx | 01.006 |
-| 429 | Kena Bridge of Spirits | exFAT · PKG · Backport | 02.008 |
-| 430 | Kerbal Space Program Enhanced Edition | APR-EMU | 01.000.002 |
-| 431 | KeyWe | exFAT | 01.000 |
-| 432 | Kid A Mnesia Exhibition | PKG | 01.000.500 |
-| 433 | Killing Floor 3 | exFAT · PKG · Backport | 02.011 |
-| 434 | Kingdom Come Deliverance 2 Royal Edition | exFAT · PKG · Backport | 01.052 |
-| 435 | Kitaria Fables | exFAT · PKG | 01.005 |
-| 436 | Kitten Island | unknown | 01.000.000 |
-| 437 | KLONOA Phantasy Reverie Series Deluxe Edition | exFAT · PKG | 01.002 |
-| 438 | Kong Survivor Instinct | exFAT · PKG · Backport 4.xx | 01.004 |
-| 439 | Last Days of Lazarus | exFAT · PKG · Backport | 01.001 |
-| 440 | Layers of Fear | exFAT · PKG · Backport 4.xx | 01.010 |
-| 441 | Legacy of Kain Soul Reaver 1 and 2 Remastered | exFAT · PKG · Backport 4.xx | 01.004 |
-| 442 | LEGO 2K Drive | exFAT · PKG · Backport | 01.017 |
-| 443 | LEGO Brawls | exFAT · APR-EMU · Backport | 01.000 |
-| 444 | LEGO Harry Potter Collection | exFAT · PKG · Backport | 01.001 |
-| 445 | LEGO Horizon Adventures | exFAT · PKG · Backport | 01.004 |
-| 446 | LEGO Star Wars The Skywalker Saga | exFAT · PKG | 01.010 |
-| 447 | Lets Build A Zoo Ultimate Edition | exFAT · PKG · Backport | 01.001.140 |
-| 448 | Lies of P | PKG · Backport 4.xx | 01.005.001 |
-| 449 | Lies of P: Overture | exFAT · PKG · Backport 4.xx | 01.012 |
-| 450 | Life is Strange Double Exposure Ultimate Edition | exFAT · PKG · Backport 4.xx | 01.002.000 |
-| 451 | Life is Strange Reunion | exFAT · Folder · Backport | 01.003 |
-| 452 | Life is Strange True Colors | exFAT · PKG | 01.008 |
-| 453 | Life is Strange: Reunion | exFAT · PKG | 01.000 |
-| 454 | Life is Strange: True Colors | PKG | 01.008 |
-| 455 | Like A Dragon Gaiden The Man Who Erased His Name Deluxe Edition | FFPFSC · exFAT · Backport | 01.022 |
-| 456 | Like a Dragon Infinite Wealth | exFAT · PKG | 01.020 |
-| 457 | Like a Dragon Infinite Wealth Ultimate Edition | exFAT · APR-EMU · Backport 4.xx | 01.020 |
-| 458 | Like A Dragon Ishin | exFAT · PKG · Backport | 01.006.000 |
-| 459 | Like A Dragon Pirate Yakuza in Hawaii Deluxe Edition | exFAT · PKG · Backport | 01.014 |
-| 460 | Little Big Adventure: Twinsen’s Quest | PKG | 01.000 |
-| 461 | Little Nightmares 2 | exFAT · PKG | 01.001 |
-| 462 | Little Nightmares 3 | exFAT · PKG · Backport 4.xx | 01.004 |
-| 463 | Little Nightmares 3: Deluxe Edition | PKG · Backport | 01.002 |
-| 464 | LOL Surprise B.B.s BORN TO TRAVEL | exFAT · APR-EMU | 01.000 |
-| 465 | Lollipop Chainsaw RePoP | exFAT · Folder · Backport | 01.005.001 |
-| 466 | Looney Tunes Wacky World of Sports | exFAT · Folder · Backport | 00.100.000 |
-| 467 | Lords of the Fallen | exFAT · PKG · Backport 4.xx | 01.000 |
-| 468 | Lords of The Fallen | exFAT · PKG · Backport 4.xx | 01.086 |
-| 469 | LOST EPIC | exFAT · Folder · Backport 4.xx | 01.000 |
-| 470 | Lost in Random | exFAT · PKG | 01.000.100 |
-| 471 | Lost Judgment | exFAT · PKG | 01.011 |
-| 472 | Lost Judgment | exFAT · PKG | 01.011 |
-| 473 | Lost Soul Aside | exFAT · PKG · Backport | 01.012 |
-| 474 | Love is all around | exFAT · APR-EMU · Backport | 01.000.002 |
-| 475 | Lunar Lander Beyond | exFAT · PKG · Backport 4.xx | 01.000 |
-| 476 | LUTO | exFAT · PKG · Backport | 01.007 |
-| 477 | Madden NFL 21 | unknown | 01.015 |
-| 478 | Madden NFL 22 | PKG | 01.016.000 |
-| 479 | Madden NFL 23 | PKG | 01.017.000 |
-| 480 | Madden NFL 24 | PKG · Backport 4.xx | 01.021.000 |
-| 481 | Madden NFL 25 | PKG · Backport 7.xx | 01.023.000 |
-| 482 | Madden NFL 26 | exFAT · PKG · Backport | 01.0016 |
-| 483 | MADiSON | exFAT | 01.000 |
-| 484 | MADiSON VR Cursed Edition | PKG | 01.000 |
-| 485 | Mafia The Old Country Deluxe Edition | exFAT · Folder · Backport | 01.008 |
-| 486 | Mafia The Old Country: Deluxe Edition | exFAT · Folder · Backport | 01.006 |
-| 487 | Mandragora Whispers of the Witch Tree | exFAT · PKG · Backport | 01.006.002 |
-| 488 | Maneater | exFAT · PKG | 01.000.010 |
-| 489 | Maneater | PKG | 01.010 |
-| 490 | Martha is Dead | exFAT · PKG | 01.090 |
-| 491 | Marvel Cosmic Invasion | exFAT · PKG · Backport | 02.002 |
-| 492 | Marvel's Guardians of the Galaxy | exFAT · PKG | 01.007 |
-| 493 | Marvels Avengers Definitive Edition | exFAT · PKG | 01.055 |
-| 494 | Marvels Midnight Suns Enhanced Edition | exFAT · PKG · Backport | 01.013 |
-| 495 | Marvels Spider Man 2 Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.004.003 |
-| 496 | Marvels Spider Man Miles Morales | exFAT · Backport | 01.015 |
-| 497 | Marvels Spider Man Miles Morales | exFAT · APR-EMU · Backport 4.xx | 01.015.001 |
-| 498 | Marvels Spider Man Remastered | exFAT · PKG · Backport | 01.008.001 |
-| 499 | Marvels Spider Man Remastered | exFAT · APR-EMU · Backport 4.xx | 01.008.001 |
-| 500 | Marvel’s Spider-Man: Miles Morales | exFAT · PKG | 01.013.002 |
-| 501 | Master Detective Archives RAIN CODE Plus | exFAT · Backport | 01.010 |
-| 502 | Master Detective Archives: RAIN CODE Plus | PKG | 01.010 |
-| 503 | Matchbox Driving Adventures | exFAT · PKG · Backport | 01.001 |
-| 504 | Mayhem Brawler | exFAT · Backport 4.xx | 02.000 |
-| 505 | MechWarrior 5 Mercenaries | exFAT · PKG · Backport | 01.0019 |
-| 506 | Medieval Dynasty | Folder · PKG · Backport 4.xx | 01.413.001 |
-| 507 | Mega Man Star Force Legacy Collection | exFAT · PKG · Backport | 01.001 |
-| 508 | Memories Off Sousou Break Out Of My Shell | unknown | 01.000 |
-| 509 | METAL GEAR SOLID 2 Sons of Liberty Master Collection | exFAT · PKG · Backport | 02.100 |
-| 510 | METAL GEAR SOLID 3 Snake Eater Master Collection | exFAT · PKG · Backport | 03.002 |
-| 511 | Metal Gear Solid Delta Snake Eater Deluxe Edition | exFAT · Folder · Backport | 01.001.004 |
-| 512 | METAL GEAR SOLID Master Collection | exFAT · PKG · Backport | 03.000 |
-| 513 | Metal Gear Solid Master Collection Vol 1 Bonus Content | exFAT · Folder · Backport | 01.500 |
-| 514 | Metal Slug Tactics | exFAT · PKG · Backport 4.xx | 02.000 |
-| 515 | Metaphor ReFantazio | exFAT · PKG · Backport | 01.013 |
-| 516 | Metro Awakening | Backport 5.50 | 01.008 |
-| 517 | Metro Exodus Complete Edition | exFAT · PKG | 01.001 |
-| 518 | Miasma Chronicles | exFAT · PKG · Backport | 01.007 |
-| 519 | Mighty Morphin Power Rangers Ritas Rewind | Backport | 01.009 |
-| 520 | Mighty Morphin Power Rangers: Rita’s Rewind | exFAT · PKG · Backport 4.xx | 01.009 |
-| 521 | MindsEye | exFAT · Folder · Backport | 01.017 |
-| 522 | Minecraft | exFAT · PKG · Backport 4.xx | 01.044 |
-| 523 | Minecraft Legends | Backport 4.xx | 01.013 |
-| 524 | Minecraft Preview | Backport 4.xx | 01.024.000 |
-| 525 | MLB The Show 21 | unknown | 01.023 |
-| 526 | MLB The Show 23 | exFAT · APR-EMU · Backport | 01.021 |
-| 527 | Monster Boy and The Cursed Kingdom | exFAT · PKG · Backport | 01.000.004 |
-| 528 | Monster Energy Supercross 25 | exFAT · Folder · Backport 4.xx | 01.011 |
-| 529 | Monster Energy Supercross The Official Videogame 6 | exFAT · Backport | 01.008 |
-| 530 | Monster Energy Supercross The Official Videogame 6 | exFAT · Backport | 01.009 |
-| 531 | Monster Energy Supercross: The Official Videogame 4 | PKG | 01.010 |
-| 532 | Monster Energy Supercross: The Official Videogame 5 | PKG | 01.005 |
-| 533 | Monster Hunter Stories 3 Twisted Reflection | exFAT · PKG · Backport | 01.002 |
-| 534 | Monster Hunter Wilds | exFAT · Folder · Backport 4.xx | 01.041.040 |
-| 535 | Monster Hunter Wilds Premium Edition | Backport | 01.041 |
-| 536 | Monster Jam Showdown | Folder · Backport 4.xx | 01.000 |
-| 537 | Monster Jam Showdown | exFAT · Folder · Backport | 01.012 |
-| 538 | Monster Truck Championship | PKG | 01.000.001 |
-| 539 | Monster Truck Championship | PKG | 01.046 |
-| 540 | Morbid The Lords of Ire | exFAT · PKG · Backport | 01.400.100 |
-| 541 | Mortal Kombat 1 | exFAT · PKG · Backport 4.xx | 01.010.001 |
-| 542 | Mortal Kombat 11 Ultimate Edition | FFPFSC · exFAT | 01.000.004 |
-| 543 | Mortal Kombat Legacy Kollection | exFAT · Folder · Backport | 01.007 |
-| 544 | Mortal Shell Enhanced Edition | PKG | 01.000.008 |
-| 545 | Mothmen 1966 | exFAT · APR-EMU · Backport | 01.001 |
-| 546 | MotoGP 21 | PKG | 01.019 |
-| 547 | MotoGP 22 | PKG | 01.012 |
-| 548 | MotoGP 23 | PKG · Backport 4.xx | 01.000 |
-| 549 | MotoGP 24 | exFAT · Folder · Backport | 01.011.000 |
-| 550 | MotoGP 25 | exFAT · PKG · Backport | 01.013 |
-| 551 | MotoGP 26 | exFAT · PKG · Backport | 01.000 |
-| 552 | MX vs ATV Legends 2025 Ultimate Edition | exFAT · PKG · Backport | 04.024 |
-| 553 | MXGP 2020 – The Official Motocross Videogame | PKG | 01.007 |
-| 554 | My First Gran Turismo | Backport | 01.010 |
-| 555 | My First Gran Turismo | exFAT · PKG · Backport 4.xx | 01.010 |
-| 556 | NAIAD | exFAT · PKG · Backport | 01.001.100 |
-| 557 | Naruto X Boruto Ultimate Ninja Storm Connections Deluxe Edition | exFAT · Backport | 01.006 |
-| 558 | NASCAR Arcade Rush | exFAT · PKG · Backport | 01.000 |
-| 559 | NBA 2K21 | unknown | 01.012 |
-| 560 | NBA 2K22 | Backport 4.xx | 01.018 |
-| 561 | NBA 2K23 | Folder · PKG · Backport 4.xx | 01.016 |
-| 562 | NBA 2K24 | exFAT · PKG · Backport | 01.017.000 |
-| 563 | NBA 2K25 | PKG · APR-EMU · Backport 4.xx | 01.017 |
-| 564 | NBA 2K26 | exFAT · PKG · Backport | 01.017 |
-| 565 | Necromunda: Hired Gun | PKG | 01.009 |
-| 566 | Need for Speed Unbound | exFAT · PKG · Backport | 01.029 |
-| 567 | Neko Rescue Tale | exFAT · PKG · Backport | 01.000 |
-| 568 | Neptunia Reverse | exFAT · PKG | 01.000 |
-| 569 | Nerf Legends | PKG | 01.006 |
-| 570 | Neva | exFAT · PKG · Backport | 01.007 |
-| 571 | New Joe and Mac Caveman Ninja | exFAT · PKG · Backport | 01.003 |
-| 572 | New Super Luckys Tale | exFAT · Backport 4.xx | 01.001 |
-| 573 | New Tales From The Borderlands | FFPFSC · exFAT · Backport | 01.002 |
-| 574 | NHL 23 | Backport 4.xx | 01.073 |
-| 575 | NHL 24 | exFAT · Folder · Backport | 01.060 |
-| 576 | NHL 26 | exFAT · APR-EMU · Backport | 01.060 |
-| 577 | Nickelodeon All Star Brawl | exFAT · PKG | 01.000 |
-| 578 | Nickelodeon All Star Brawl 2 | exFAT · PKG · Backport | 01.000 |
-| 579 | Nickelodeon Kart Racers 3 Slime Speedway | Folder · PKG · Backport 4.xx | 01.000.000 |
-| 580 | Night Trap 25th Anniversary Edition | APR-EMU | 01.000.200 |
-| 581 | Nikoderiko The Magical World Directors Cut | exFAT · Backport | 01.000.012 |
-| 582 | NINJA GAIDEN 2 Black | exFAT · PKG · Backport 4.xx | 01.003 |
-| 583 | Ninja Gaiden 4 | exFAT · Folder · Backport | 01.000.003 |
-| 584 | Ninja Gaiden Ragebound | exFAT · PKG · Backport | 01.006 |
-| 585 | Nioh 2 Remastered | PKG · APR-EMU | 01.027.001 |
-| 586 | Nioh 2 Remastered The Complete Edition | APR-EMU | 01.027.001 |
-| 587 | Nioh 3 Deluxe Edition | exFAT · PKG · Backport | 01.040.020 |
-| 588 | Nioh Remastered The Complete Edition | exFAT · PKG | 01.023.001 |
-| 589 | No Mans Sky | exFAT · PKG · Backport | 06.024 |
-| 590 | No More Heroes 3 | exFAT · PKG · Backport | 01.004 |
-| 591 | Observer System Redux | unknown | 01.008 |
-| 592 | Observer: System Redux | PKG | 01.008 |
-| 593 | Octopath Traveler 2 | exFAT · PKG · Backport | 01.000 |
-| 594 | Oddworld Abes Exoddus (PS1 Emulation) | unknown | 01.000.002 |
-| 595 | Oddworld Soulstorm | exFAT · PKG | 01.160 |
-| 596 | On The Road The Truck Simulator | Backport 4.xx | 01.000.009 |
-| 597 | One Last Breath | exFAT · PKG · Backport | 02.000 |
-| 598 | One Night Stand | PKG | 01.000.000 |
-| 599 | One Piece Odyssey | exFAT · PKG | 01.002.001 |
-| 600 | One Piece Pirate Warriors 4 | PKG | 01.003 |
-| 601 | Outcast A New Beginning | exFAT · Folder · Backport | 01.000 |
-| 602 | Outcast A New Beginning | PKG | 01.000 |
-| 603 | Outer Wilds | exFAT · Backport 4.xx | 01.000 |
-| 604 | Outward Definitive Edition | exFAT · PKG | 01.007 |
-| 605 | Overcooked All You Can Eat | exFAT · APR-EMU | 01.015 |
-| 606 | Overpass 2 | exFAT · Folder · Backport 6.xx | 01.004 |
-| 607 | Override 2: Super Mech League | PKG | 01.007 |
-| 608 | OVRDARK: A Do Not Open Story | Folder · PKG · Backport 4.xx | 01.000 |
-| 609 | PAC Man World Re PAC | exFAT · PKG · Backport | 01.002 |
-| 610 | PAC-MAN WORLD 2 Re-PAC | exFAT · PKG · Backport 4.xx | 01.004 |
-| 611 | Pacific Drive | Folder · PKG · Backport | 01.015.000 |
-| 612 | Painkiller | exFAT · PKG · Backport | 01.007 |
-| 613 | Paleo Pines | exFAT · PKG | 01.001 |
-| 614 | Panda Hero Remastered | exFAT · PKG | 01.000 |
-| 615 | Park Beyond | exFAT · PKG · Backport 4.xx | 01.000 |
-| 616 | Park Beyond | PKG · Backport | 04.001 |
-| 617 | PAW Patrol Grand Prix | exFAT · Backport | 01.000 |
-| 618 | PAW Patrol World | exFAT · Backport | 01.000 |
-| 619 | Persona 3 Reload | exFAT · PKG · Backport | 01.000 |
-| 620 | Persona 3 Reload | exFAT · PKG · Backport | 01.011 |
-| 621 | Persona 5 Tactica Deluxe Edition | exFAT · APR-EMU · Backport | 01.001.000 |
-| 622 | Personality and Psychology Premium | unknown | 01.003 |
-| 623 | PGA TOUR 2K23 | exFAT · Backport | 01.023 |
-| 624 | PGA Tour 2K25 | exFAT · PKG · Backport | 01.026 |
-| 625 | Phantom Breaker Battle Grounds Ultimate | exFAT · Backport 4.xx | 01.000 |
-| 626 | Pistol Whip | PKG | 01.000.009 |
-| 627 | Planet Coaster Console Edition | exFAT · PKG | 01.017 |
-| 628 | Plumbers Dont Wear Ties Definitive Edition | exFAT · PKG · Backport 4.xx | 01.000 |
-| 629 | Pneumata | exFAT · Folder · Backport | 01.017 |
-| 630 | Pneumata | PKG | 01.017 |
-| 631 | Police Simulator Patrol Officers | PKG · Backport 4.xx | 01.000.000 |
-| 632 | Poppy Playtime Chapter 1 | Folder · PKG · Backport 4.xx | 01.000 |
-| 633 | Poppy Playtime Chapter 2 | exFAT · PKG · Backport | 01.000 |
-| 634 | Poppy Playtime Chapter 3 | exFAT · PKG · Backport | 01.000 |
-| 635 | Port Royale 4 | PKG | 01.004.000 |
-| 636 | Post Trauma | exFAT · PKG · Backport | 02.001 |
-| 637 | Potion Permit | exFAT · PKG · Backport 4.xx | 01.000 |
-| 638 | Potionomics Masterwork Edition | Folder · PKG · Backport 4.xx | 01.000 |
-| 639 | Powerwash Simulator Ultimate Satisfaction | exFAT · APR-EMU · Backport | 01.018 |
-| 640 | PRAGMATA Deluxe Edition | FFPFSC · exFAT · Backport | 01.200 |
-| 641 | Predator Hunting Grounds | exFAT · Folder · Backport | 01.017 |
-| 642 | Prince of Persia: The Lost Crown | exFAT · Folder · Backport 4.xx | 01.004.001 |
-| 643 | Prince of Persia: The Lost Crown Complete Edition | exFAT · Folder · Backport | 01.004.001 |
-| 644 | Propagation Paradise Hotel | Backport | 01.000 |
-| 645 | Puyo Puyo Tetris 2 | exFAT · PKG | 01.320 |
-| 646 | Puzzle Bobble 3D Vacation Odyssey | exFAT · PKG | 01.006.000 |
-| 647 | Quake | exFAT · PKG | 01.009 |
-| 648 | Quake 2 | exFAT · PKG · Backport | 01.003.000 |
-| 649 | Quantum Error | exFAT · PKG · Backport | 01.009 |
-| 650 | QUBE 10th Anniversary | exFAT · PKG · Backport 4.xx | 01.001.000 |
-| 651 | R Type Final 3 Evolved | exFAT · PKG · Backport | 01.000.004 |
-| 652 | R-Type Delta: HD Boosted | PKG | 01.000.002 |
-| 653 | Raiden III x MIKADO MANIAX | exFAT · Folder · Backport 4.xx | 01.010 |
-| 654 | Raiden IV x Mikado Remix | PKG · Backport | 01.000 |
-| 655 | Ratchet & Clank Rift Apart | FFPFSC · exFAT · Backport 4.xx | 01.005.003 |
-| 656 | Real Farm Premium Edition | unknown | 1.0 |
-| 657 | Reanimal | exFAT · PKG · Backport 4.xx | 01.000 |
-| 658 | Record of Lodoss War: Deedlit in Wonder Labyrinth | PKG | 01.001 |
-| 659 | Red Dead Redemption | exFAT · PKG · Backport 4.xx | 01.002 |
-| 660 | Red Dead Redemption Remaster | PKG | 01.040 |
-| 661 | Red Matter | PKG | 01.002 |
-| 662 | Redemption Reapers | exFAT · PKG · Backport | 01.420 |
-| 663 | Redout 2 Deluxe Edition | exFAT · PKG | 01.107 |
-| 664 | Remnant 2 Ultimate Edition | exFAT · PKG · Backport | 01.039 |
-| 665 | Resident Evil 2 | exFAT · PKG · Backport | 01.003 |
-| 666 | Resident Evil 3 | exFAT · PKG · Backport | 01.004 |
-| 667 | Resident Evil 4 Gold Edition | exFAT · Folder · Backport | 01.590 |
-| 668 | Resident Evil 7 Biohazard Gold Edition | exFAT · PKG · Backport 4.xx | 01.004 |
-| 669 | Resident Evil Requiem | exFAT · Backport 4.xx | 01.200 |
-| 670 | Resident Evil Requiem Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.200.000 |
-| 671 | Resident Evil Village Gold Edition | exFAT · PKG · Backport 4.xx | 01.210 |
-| 672 | Resident Evil Village Maiden Demo | PKG | 01.001 |
-| 673 | Returnal | FFPKG · exFAT · Backport 4.xx | 03.005 |
-| 674 | Revenge of The Savage Planet | exFAT · PKG · Backport | 01.030 |
-| 675 | REYNATIS | exFAT · APR-EMU | 01.000 |
-| 676 | REYNATIS Deluxe Edition | exFAT · PKG | 01.010 |
-| 677 | Rez Infinite | exFAT · PKG · Backport | 01.008 |
-| 678 | Richman 11 | PKG | 01.000 |
-| 679 | RIDE 4 | PKG | 01.023 |
-| 680 | RIDE 5 | exFAT · PKG · Backport | 01.025 |
-| 681 | Riders Republic | exFAT · Folder | 01.000 |
-| 682 | RiMS Racing | exFAT · APR-EMU | 01.006 |
-| 683 | Rise of The Ronin | FFPKG · exFAT · Backport | 01.009 |
-| 684 | Rise of the Ronin | PKG · Backport 4.xx | 01.009 |
-| 685 | Road Maintenance Simulator | exFAT | 01.000 |
-| 686 | Roadcraft | exFAT · PKG · Backport | 01.009.610 |
-| 687 | RoboCop Rogue City | exFAT · Folder · Backport | 01.006 |
-| 688 | RoboCop Rogue City Unfinished Business Deluxe Edition | exFAT · PKG · Backport | 01.009 |
-| 689 | RollerCoaster Tycoon Adventures Deluxe | exFAT · PKG · Backport 4.xx | 01.002 |
-| 690 | Romance of The Three Kingdoms 8 Remake | PKG | 01.010 |
-| 691 | Romancing SaGa 2 Revenge of the Seven | exFAT · PKG · Backport | 01.010 |
-| 692 | Rugby 25 | exFAT · APR-EMU · Backport | 01.000.062 |
-| 693 | Rugrats Adventure in Gameland | exFAT · PKG · Backport 4.xx | 01.000 |
-| 694 | Rune Factory Guardians of Azuma | exFAT · APR-EMU · Backport | 01.001.003 |
-| 695 | Sackboy A Big Adventure | PKG | 01.014 |
-| 696 | Sackboy A Big Adventure | exFAT · PKG | 01.024 |
-| 697 | Saga of Sins | exFAT · PKG · Backport | 01.000 |
-| 698 | Saints Row | exFAT · PKG | 01.017 |
-| 699 | Saints Row Gold Edition | exFAT · Folder · Backport | 01.017 |
-| 700 | Samurai Maiden Deluxe Edition | exFAT · PKG · Backport | 01.060 |
-| 701 | SAND LAND | exFAT · Folder · Backport 4.xx | 01.007 |
-| 702 | SAROS | exFAT · PKG · Backport | 01.000 |
-| 703 | Scarlet Nexus | exFAT · PKG | 01.008 |
-| 704 | Scars Above | exFAT · PKG · Backport | 01.003 |
-| 705 | Scorn | exFAT · Folder · Backport | 00.100.000 |
-| 706 | Screamer | exFAT · Folder · Backport 4.xx | 01.002 |
-| 707 | SD GUNDAM BATTLE ALLIANCE | exFAT · PKG | 01.040 |
-| 708 | Sea of Stars | exFAT · PKG · Backport | 01.013 |
-| 709 | Seeker: My Shadow | PKG · Backport 4.xx | 01.002 |
-| 710 | Selfloss | exFAT · Folder · Backport | 01.000 |
-| 711 | Session: Skate Sim | PKG · Backport | 01.000 |
-| 712 | Severed Steel | PKG | 01.000 |
-| 713 | Shadow Labyrinth | exFAT · PKG · Backport | 01.100 |
-| 714 | Shadow Warrior 3 Definitive Edition | exFAT · PKG · Backport | 01.002 |
-| 715 | Shadows of The Damned Hella Remastered | exFAT · PKG · Backport | 01.001 |
-| 716 | Shame Legacy | exFAT · PKG · Backport | 01.030 |
-| 717 | Shin Megami Tensei V Vengeance | exFAT · Folder · Backport | 01.000 |
-| 718 | SHINOBI Art of Vengeance | exFAT · PKG · Backport 4.xx | 01.200 |
-| 719 | Sid Meiers Civilization VII Founders Edition | exFAT · PKG · Backport | 01.019 |
-| 720 | Sifu | PKG | 01.007 |
-| 721 | Sifu | exFAT · PKG | 01.024.000 |
-| 722 | Silent Hill 2 | exFAT · PKG · Backport 4.xx | 00.100.006 |
-| 723 | Silent Hill f | exFAT · PKG · Backport | 01.003 |
-| 724 | SILENT HILL The Short Message | exFAT · PKG · Backport | 01.001 |
-| 725 | Skautfold: Into the Fray | Folder · PKG · Backport 4.xx | 01.000 |
-| 726 | Sker Ritual | exFAT · PKG · Backport | 01.000 |
-| 727 | Skull Island Rise of Kong | exFAT · PKG · Backport | 01.200 |
-| 728 | Skydance’s BEHEMOTH | PKG · Backport 7.xx | 01.014 |
-| 729 | Slave Zero X | PKG | 01.000 |
-| 730 | Slave Zero X | exFAT · Folder · Backport | 01.000.006 |
-| 731 | Slay the Princess: The Pristine Cut | PKG | 02.003 |
-| 732 | Slitterhead | exFAT · PKG · Backport 4.xx | 01.000 |
-| 733 | Smalland Survive The Wilds | exFAT · Backport | 01.000 |
-| 734 | Smurfs Kart | exFAT · PKG | 01.000 |
-| 735 | Sniper Elite 5 | exFAT · PKG · Backport | 01.004 |
-| 736 | Sniper Elite Resistance | exFAT · PKG · Backport | 01.010 |
-| 737 | Sniper Ghost Warrior Contracts 2 | exFAT · PKG | 01.001 |
-| 738 | Sniper Ghost Warrior Contracts 2 | exFAT | 01.004 |
-| 739 | SnowRunner | exFAT · PKG · Backport | 01.048 |
-| 740 | Song in The Smoke Rekindled | Backport 4.xx | 1.0 |
-| 741 | Sonic Frontiers | exFAT · PKG · Backport | 01.041 |
-| 742 | Sonic Origins Plus | exFAT · PKG | 02.002 |
-| 743 | Sonic Racing CrossWorlds Deluxe Edition | exFAT · Folder · Backport 4.xx | 01.012 |
-| 744 | Sonic Superstars | exFAT · PKG · Backport | 01.001.008 |
-| 745 | Sonic X Shadow Generations Deluxe Edition | exFAT · PKG · Backport | 01.012 |
-| 746 | Soul Hackers 2 | PKG | 01.002 |
-| 747 | Soul Hackers 2 | exFAT · Folder | 01.002 |
-| 748 | Soul Hackers 2 Premium Edition | exFAT | 01.002 |
-| 749 | Soulstice | exFAT · PKG · Backport | 01.000.100 |
-| 750 | SOUTH PARK: SNOW DAY! | exFAT · Folder · Backport 4.xx | 01.023 |
-| 751 | Space Adventure Cobra The Awakening Gold Edition | exFAT · PKG · Backport | 01.004.000 |
-| 752 | Spacebase Startopia | exFAT · APR-EMU | 01.004.002 |
-| 753 | Spacebase Startopia Extended Edition | exFAT · PKG | 01.004 |
-| 754 | SpellForce Conquest of Eo | exFAT · Backport | 01.004.300 |
-| 755 | Spirit of The North 2 | exFAT · PKG · Backport 4.xx | 01.002 |
-| 756 | Spirit of The North Enhanced Edition | exFAT · PKG | 01.000 |
-| 757 | Split Fiction | FFPKG · FFPFSC · Backport | 01.005 |
-| 758 | SpongeBob SquarePants Titans of The Tide Ghostly Edition | exFAT · Backport | 01.400 |
-| 759 | SPY X ANYA Operation Memories Deluxe Edition | exFAT | 01.001 |
-| 760 | SPY X ANYA Operation Memories Deluxe Edition | exFAT | 01.001 |
-| 761 | Squirrel With A Gun | exFAT · Folder · Backport | 01.001 |
-| 762 | STALKER 2: Heart of Chornobyl | exFAT · Folder · Backport 4.xx | 01.009 |
-| 763 | STALKER Call of Prypiat Enhanced Edition | exFAT · PKG · Backport 4.xx | 01.009 |
-| 764 | STALKER Clear Sky Enhanced Edition | exFAT · PKG · Backport 4.xx | 01.009 |
-| 765 | STALKER Shadow of Chornobyl Enhanced Edition | exFAT · PKG · Backport 4.xx | 01.009 |
-| 766 | Star Ocean The Divine Force | exFAT · PKG · Backport | 01.000 |
-| 767 | STAR OCEAN THE SECOND STORY R | exFAT · APR-EMU · Backport | 01.000 |
-| 768 | Star Trek Resurgence | exFAT · Folder · Backport | 01.000 |
-| 769 | Star Trek: Prodigy Supernova | PKG | 01.000 |
-| 770 | Star Wars Dark Forces Remaster | exFAT · PKG · Backport | 02.000 |
-| 771 | Star Wars Jedi Fallen Order | exFAT · PKG · Backport | 01.006 |
-| 772 | Star Wars Jedi Survivor | exFAT · PKG · Backport | 01.013 |
-| 773 | Star Wars Jedi: Fallen Order | PKG · Backport | 01.003 |
-| 774 | Star Wars Outlaws Ultimate Edition | exFAT · PKG · Backport 4.xx | 01.003.001 |
-| 775 | Star Wars Tales from the Galaxys Edge | PKG · Backport 4.xx | 01.000 |
-| 776 | Starfield | exFAT · Folder · Backport | 01.002 |
-| 777 | Steel Seed Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.004 |
-| 778 | Steelrising | exFAT · PKG · Backport | 01.006.000 |
-| 779 | Stellar Blade | exFAT · PKG · Backport 4.xx | 01.014.001 |
-| 780 | Stellar Blade | FFPFSC · exFAT · Backport 4.xx | 01.014.001 |
-| 781 | Still Wakes The Deep | exFAT · Folder · Backport | 01.001 |
-| 782 | Still Wakes the Deep The Complete Collection | exFAT · Folder · Backport | 01.600.001 |
-| 783 | STORY OF SEASONS A Wonderful Life | Backport | 01.002 |
-| 784 | STORY OF SEASONS: A Wonderful Life | exFAT · PKG · Backport 4.xx | 01.002 |
-| 785 | Stranger of Paradise Final Fantasy Origin Deluxe Edition | exFAT · PKG | 01.302 |
-| 786 | Stray | FFPFSC · exFAT | 01.005 |
-| 787 | Street Fighter 6 | exFAT · Folder · Backport | 01.000 |
-| 788 | Street Outlaws 2: Winner Takes All | PKG | 01.003 |
-| 789 | Stroke The Snake | exFAT · Backport | 01.000 |
-| 790 | Styx Blades of Greed | exFAT · Folder · Backport | 01.003 |
-| 791 | Subnautica | exFAT · PKG | 01.022.394 |
-| 792 | Subnautica Below Zero | exFAT · PKG | 01.022.125 |
-| 793 | Subnautica: Below Zero | PKG | 01.021.397 |
-| 794 | Suicide Squad Kill The Justice League | exFAT · PKG · Backport | 01.024 |
-| 795 | Summer Sports Games 4K Edition | exFAT · APR-EMU | 01.001 |
-| 796 | Super Bomberman R 2 | exFAT · Backport 4.xx | 01.003.001 |
-| 797 | SUPER BOMBERMAN R 2 | PKG · Backport 4.xx | 01.003.001 |
-| 798 | Super Crazy Rhythm Castle | exFAT · PKG | 01.002 |
-| 799 | Super Monkey Ball Banana Mania | exFAT · PKG · Backport | 01.004 |
-| 800 | Super Sami Roll | exFAT · APR-EMU · Backport | 02.005 |
-| 801 | Super Woden GP | exFAT · Backport | 01.003 |
-| 802 | Superliminal | exFAT · PKG · Backport | 01.010 |
-| 803 | Sword Art Online Fractured Daydream | exFAT · PKG · Backport | 01.001 |
-| 804 | Sword Art Online Last Recollection | exFAT · PKG · Backport | 01.021 |
-| 805 | Syberia Remastered | exFAT · PKG · Backport | 01.003 |
-| 806 | Syberia The World Before | exFAT · PKG · Backport | 01.003 |
-| 807 | Syphon Filter | Backport 4.xx | 01.003 |
-| 808 | Syphon Filter 2 | exFAT · PKG · Backport | 01.000.002 |
-| 809 | System of Souls | exFAT · Backport | 01.000 |
-| 810 | System Shock | exFAT · Folder · Backport | 01.000 |
-| 811 | t Campus | exFAT · PKG · Backport 4.xx | 01.029 |
-| 812 | Tactics Ogre Reborn | PKG · Backport 4.xx | 01.008 |
-| 813 | Tactics Ogre: Reborn | exFAT · PKG · Backport 4.xx | 01.008 |
-| 814 | Tactics Ogre: Reborn | exFAT · Backport 4.xx | 01.008 |
-| 815 | Taiko no Tatsujin Donderful Festival Demo | unknown | 01.001 |
-| 816 | Taiko no Tatsujin Rhythm Festival | Folder · PKG | 01.000 |
-| 817 | Tails of Iron | unknown | 1.0 |
-| 818 | Tainted Grail The Fall of Avalon | PKG · Backport 4.xx | 01.015.004 |
-| 819 | Tales of Arise | exFAT · PKG · Backport | 01.004 |
-| 820 | Tales of Berseria Remastered | PKG | 01.002 |
-| 821 | Tales of Graces F Remastered | exFAT | 01.000 |
-| 822 | TAPE Unveil The Memories | exFAT · Backport | 01.002 |
-| 823 | Taxi Chaos 2 | exFAT · Folder · Backport | 01.007 |
-| 824 | Taxi Life: A City Driving Simulator | Folder · PKG · Backport 4.xx | 01.000 |
-| 825 | Teardown | exFAT · Folder · Backport | 01.070.100 |
-| 826 | Teenage Mutant Ninja Turtles Arcade Wrath of The Mutants | exFAT · PKG · Backport | 01.000.002 |
-| 827 | Teenage Mutant Ninja Turtles Mutants Unleashed | RAR | 01.000 |
-| 828 | Teenage Mutant Ninja Turtles Mutants Unleashed Deluxe Edition | exFAT · PKG · Backport | 01.004 |
-| 829 | Teenage Mutant Ninja Turtles Splintered Fate | PKG | 01.017 |
-| 830 | Teenage Mutant Ninja Turtles: The Cowabunga Collection | PKG | 01.000 |
-| 831 | TEKKEN 8 | FPKG · exFAT · Backport | 01.009.001 |
-| 832 | Tennis On-Court | PKG | 01.004 |
-| 833 | Terminator 2D NO FATE | exFAT · PKG · Backport | 01.002 |
-| 834 | Terminator Resistance Enhanced | exFAT · PKG | 01.000.500 |
-| 835 | Terminator Resistance Enhanced | PKG | 01.000.500 |
-| 836 | Tetris Effect Connected | exFAT · PKG · Backport | 02.000.022 |
-| 837 | Tetris Effect Connected | PKG | 02.003.245 |
-| 838 | Tetris Forever | exFAT · PKG · Backport | 01.007 |
-| 839 | TEVI | exFAT · Backport 4.xx | 01.000 |
-| 840 | The Alters | exFAT · PKG · Backport | 01.000.013 |
-| 841 | The Ascent | exFAT · PKG | 01.006 |
-| 842 | The Bearer & The Last Flame | exFAT · PKG · Backport 4.xx | 01.000 |
-| 843 | The Binding of Isaac Repentance | exFAT · PKG | 01.000 |
-| 844 | The Bridge Curse 2 The Extrication | Folder · Backport 4.xx | 01.000 |
-| 845 | The Caligula Effect 2 Deluxe Edition | exFAT · PKG · Backport | 01.000 |
-| 846 | The Caligula Effect Overdose Deluxe Edition | exFAT · PKG · Backport | 01.000 |
-| 847 | The Callisto Protocol | exFAT · PKG | 01.033 |
-| 848 | The Callisto Protocol | exFAT · PKG · Backport 4.xx | 01.033 |
-| 849 | The Chant | exFAT · PKG · Backport | 01.004.011 |
-| 850 | The Crown of Wu | exFAT · PKG · Backport | 01.008 |
-| 851 | The Dark Pictures Anthology House of Ashes | exFAT · PKG | 01.007 |
-| 852 | The Dark Pictures Anthology The Devil in Me | exFAT · Folder · Backport | 01.000.000 |
-| 853 | The DioField Chronicle | PKG | 01.002.001 |
-| 854 | The Dungeon of Naheulbeuk: the Amulet of Chaos | exFAT · PKG | 01.000 |
-| 855 | The Elder Scrolls IV Oblivion Remastered | exFAT · Folder · Backport | 01.512.105 |
-| 856 | The Elder Scrolls V Skyrim Special Edition | exFAT · PKG · Backport | 01.001.010 |
-| 857 | The Eternal Cylinder | exFAT · PKG · Backport | 01.003 |
-| 858 | The Exit 9 | exFAT · PKG · Backport | 01.000.000 |
-| 859 | The First Berserker Khazan | exFAT · PKG · Backport 4.xx | 01.021.003 |
-| 860 | The Forgotten City | exFAT · PKG | 01.005 |
-| 861 | The House of The Dead 2 Remake | exFAT · Backport | 02.000 |
-| 862 | The House of the Dead Remake | exFAT · PKG · Backport | 02.000 |
-| 863 | The House of the Dead Remake | PKG · Backport 4.xx | 02.000 |
-| 864 | The Invincible | exFAT · Folder · Backport | 01.000 |
-| 865 | The Karate Kid Street Rumble | unknown | 01.001.000 |
-| 866 | The King of Fighters XV | exFAT · PKG | 02.003.002 |
-| 867 | The Last Faith | PKG | 05.000 |
-| 868 | The Last of Us Part I | exFAT · PKG · Backport 4.xx | 02.000 |
-| 869 | The Last of Us Part II Remastered | PKG | 01.001.030 |
-| 870 | The Last of Us Part II Remastered | FFPFSC · exFAT · Backport 4.xx | 02.001.010 |
-| 871 | The Last Stand Aftermath | exFAT · APR-EMU | 01.050 |
-| 872 | The Light Brigade | exFAT · PKG · Backport 4.xx | 02.013 |
-| 873 | The Lord of The Rings Gollum Precious Edition | exFAT · PKG · Backport | 01.004 |
-| 874 | The Lord of The Rings Return to Moria | Backport 4.xx | 01.000 |
-| 875 | The Matrix Awakens An Unreal Engine 5 Experience Demo | unknown | 01.002 |
-| 876 | The Medium | exFAT · PKG | 01.003 |
-| 877 | The Medium | exFAT | 01.007 |
-| 878 | The Messenger | exFAT · PKG | 01.000 |
-| 879 | The Messenger | exFAT · Backport 4.xx | 01.000 |
-| 880 | The Midnight Walk | exFAT · PKG · Backport | 01.005 |
-| 881 | The Oregon Trail | exFAT · PKG · Backport 4.xx | 02.000.001 |
-| 882 | The Oregon Trail | exFAT · Backport 4.xx | 02.000.001 |
-| 883 | The Outer Worlds 2 | exFAT · PKG · Backport 4.xx | 01.100.001 |
-| 884 | The Outer Worlds Spacers Choice Edition | exFAT · PKG · Backport | 01.006.000 |
-| 885 | The Pathless | exFAT · PKG | 02.000 |
-| 886 | The Pathless | PKG | 02.000 |
-| 887 | The Persistence Enhanced | PKG | 01.200 |
-| 888 | The Plucky Squire | exFAT · PKG · Backport | 02.002 |
-| 889 | The Precinct | exFAT · PKG · Backport | 01.011 |
-| 890 | The Quarry | exFAT · Backport 4.xx | 01.007 |
-| 891 | The Quarry Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.007 |
-| 892 | The Riftbreaker | exFAT · PKG · Backport | 01.020 |
-| 893 | The Smurfs 2 The Prisoner of the Green Stone | exFAT · PKG · Backport 4.xx | 01.000 |
-| 894 | The Tale of Onogoro | PKG · Backport 4.xx | 01.000 |
-| 895 | The Talos Principle 2 | PKG | 02.013 |
-| 896 | The Talos Principle 2 | Backport 4.xx | 02.013 |
-| 897 | The Talos Principle 2 | Backport 4.xx | 02.013 |
-| 898 | The Thing Remastered | exFAT · PKG · Backport | 02.000 |
-| 899 | The Walking Dead Destinies | Backport 6.xx | 01.004 |
-| 900 | The Walking Dead Saints & Sinners Chapter 2 Retribution | PKG | 01.000 |
-| 901 | The Walking Dead Saints and Sinners Chapter 2 Retribution | Backport 4.xx | 01.009.000 |
-| 902 | The Witcher 3 Wild Hunt Complete Edition | exFAT · PKG · Backport | 04.040.100 |
-| 903 | Thymesia | PKG | 01.000 |
-| 904 | Thymesia | exFAT · PKG | 01.004 |
-| 905 | Tides of Tomorrow | exFAT · PKG · Backport 4.xx | 01.000 |
-| 906 | Tiger Blade | Folder · PKG · Backport 4.xx | 01.001.309 |
-| 907 | Tintin Reporter Cigars of The Pharaoh | exFAT · Backport | 01.000 |
-| 908 | Tiny Tina's Wonderlands | exFAT · PKG | 01.012 |
-| 909 | Tokyo Xtreme Racer | exFAT · PKG · Backport 4.xx | 01.003.003 |
-| 910 | Tomb Raider I-III Remastered | exFAT · PKG · Backport 4.xx | 01.001.000 |
-| 911 | Tomb Raider IV–VI Remastered | Folder · PKG | 01.005 |
-| 912 | Tomba 2 The Evil Swine Return Special Edition | exFAT · PKG · Backport | 01.300.100 |
-| 913 | Tomba Special Edition | exFAT · PKG · Backport | 01.003 |
-| 914 | Tony Hawks Pro Skater 1 + 2 | exFAT · PKG | 01.004 |
-| 915 | Tony Hawks Pro Skater 3 + 4 | exFAT · Folder · Backport 4.xx | 01.003 |
-| 916 | Tony Hawk’s Pro Skater 1 + 2 | exFAT · PKG | 01.004 |
-| 917 | TopSpin 2K25 | exFAT · PKG · Backport 4.xx | 01.017 |
-| 918 | Tormented Souls | PKG · Backport | 01.009 |
-| 919 | Tormented Souls | exFAT · Backport 4.xx | 01.009 |
-| 920 | Tormented Souls 2 | exFAT · PKG · Backport 4.xx | 01.006 |
-| 921 | Total Chaos | exFAT · Backport | 01.002.002 |
-| 922 | Totally Reliable Delivery Service | exFAT · PKG · Backport | 01.001 |
-| 923 | Tour de France 2024 | exFAT · Folder · Backport | 01.008 |
-| 924 | Tour de France 2025 | exFAT · PKG · Backport 4.xx | 01.007 |
-| 925 | Tourist Bus Simulator | exFAT · PKG | 01.000.000 |
-| 926 | Trails in The Sky 1st Chapter | exFAT · PKG · Backport | 01.006 |
-| 927 | Train Life: A Railway Simulator | PKG · Backport | 01.000 |
-| 928 | Train Sim World 3 | Folder · PKG · Backport 4.xx | 01.001 |
-| 929 | Train Sim World 3 | Folder · Backport 4.xx | 01.001 |
-| 930 | Train Sim World 4 | Folder · PKG · Backport 4.xx | 01.049 |
-| 931 | Train Sim World 5 | Folder · PKG · Backport 4.xx | 01.049 |
-| 932 | Train Sim World 6 | Folder · PKG · Backport 4.xx | 01.024 |
-| 933 | Transformer Galactic Trails | exFAT · Folder · Backport | 01.000 |
-| 934 | Transformers Earthspark Expedition | exFAT · PKG · Backport | 01.000.003 |
-| 935 | Treasures of The Aegean | exFAT · PKG | 01.002 |
-| 936 | Trek to Yomi | PKG | 02.000 |
-| 937 | Trepang2 | PKG · Backport | 01.000 |
-| 938 | Trepang2 | exFAT · Backport 4.xx | 01.000 |
-| 939 | TRIANGLE STRATEGY | exFAT · PKG · Backport | 01.001 |
-| 940 | Trine 5 A Clockwork Conspiracy | PKG · Backport 4.xx | 01.001.004 |
-| 941 | Trinity Trigger | PKG | 01.000 |
-| 942 | Tropico 6 | PKG | 16.001 |
-| 943 | Turok | exFAT · APR-EMU · Backport | 01.001 |
-| 944 | Turok 2 Seeds of Evil | Backport | 01.000 |
-| 945 | Turok 3 Shadow of Oblivion | PKG · Backport | 01.000 |
-| 946 | Two Point Museum | exFAT · PKG · Backport 4.xx | 01.000 |
-| 947 | UFO Robot Grendizer The Feast of The Wolves Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.007 |
-| 948 | Ufouria The Saga 2 | PKG · APR-EMU | 01.000 |
-| 949 | Unbound: Worlds Apart | PKG | 01.000 |
-| 950 | Uncharted Legacy of Thieves Collection | exFAT · PKG · Backport | 01.002 |
-| 951 | Uncharted Legacy of Thieves Collection | PKG | 01.002 |
-| 952 | Undefeated | Folder · Backport 4.xx | 01.000 |
-| 953 | Under The Waves | PKG · Backport 4.xx | 01.009 |
-| 954 | Undisputed | exFAT · PKG · Backport | 01.000 |
-| 955 | Undisputed Championship Edition | exFAT · PKG · Backport | 02.005 |
-| 956 | Unicorn Overlord | unknown | 01.000 |
-| 957 | Unknown 9 Awakening Deluxe Edition | exFAT · PKG · Backport | 01.004.003 |
-| 958 | Unpacking | exFAT · APR-EMU · Backport | 01.000 |
-| 959 | Until Dawn | exFAT · PKG · Backport | 01.005 |
-| 960 | Valkyrie Elysium | PKG | 01.000 |
-| 961 | Valkyrie Elysium | Folder · Backport 4.xx | 01.003 |
-| 962 | Valthirian Arc Hero School Story 2 | exFAT | 01.000 |
-| 963 | Vampire The Masquerade Bloodlines 2 | exFAT · PKG · Backport 4.xx | 01.003 |
-| 964 | Vampire The Masquerade Justice | Backport 4.xx | 01.013 |
-| 965 | Vampire: The Masquerade – Swansong | PKG | 01.000 |
-| 966 | VARLET | exFAT · PKG · Backport 4.xx | 01.001 |
-| 967 | Vertigo 2 | Folder · PKG · Backport 4.xx | 01.000 |
-| 968 | VIEWFINDER | exFAT · PKG · Backport | 01.003.000 |
-| 969 | Visage | PKG | 01.000 |
-| 970 | Visions of Mana | exFAT · PKG · Backport 4.xx | 01.003 |
-| 971 | VR Skater | Folder · Backport 4.xx | 01.013 |
-| 972 | Wanted: Dead | Folder · PKG · Backport | 01.001 |
-| 973 | War Mongrels | exFAT · PKG · Backport | 01.020.000 |
-| 974 | Warhammer 40,000 Space Marine 2 | exFAT · PKG · Backport 7.xx | 01.010.002 |
-| 975 | Warhammer 40000 Space Marine 2 Gold Edition | exFAT · APR-EMU · Backport | 01.012.002 |
-| 976 | Warhammer Age of Sigmar Realms of Ruin Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.007 |
-| 977 | Watch Dogs Legion | exFAT · PKG | 01.190 |
-| 978 | Watch Dogs Legion | exFAT · PKG | 01.191 |
-| 979 | Way of The Hunter | exFAT · PKG | 01.000 |
-| 980 | We Love Katamari Reroll+ Royal Reverie | Folder · PKG | 01.003 |
-| 981 | Weird West Definitive Edition | exFAT · PKG · Backport | 01.000 |
-| 982 | Werewolf The Apocalypse Earthblood | PKG | 01.005 |
-| 983 | Werewolf: The Apocalypse – Earthblood | PKG | 01.005 |
-| 984 | Who Wants To Be A Millionaire New Edition | exFAT | 01.008 |
-| 985 | WILD HEARTS | exFAT · APR-EMU · Backport 4.xx | 01.033.000 |
-| 986 | WILD HEARTS Karakuri Edition | exFAT · PKG · Backport | 01.033.000 |
-| 987 | Winter Sports Games 4K Edition | APR-EMU | 01.000 |
-| 988 | Witch Spring R | exFAT · Folder · Backport | 02.112 |
-| 989 | Withering Rooms | Backport 4.xx | 01.000 |
-| 990 | Wo Long Fallen Dynasty | exFAT · PKG · Backport | 01.027 |
-| 991 | Wonder Boy The Dragons Trap | Backport 4.xx | 01.001.000 |
-| 992 | World War Z Aftermath | exFAT · PKG · Backport | 01.037 |
-| 993 | Worms Armageddon: Anniversary Edition | exFAT · PKG · Backport | 01.000 |
-| 994 | WRC Generations | exFAT · PKG · Backport | 01.004 |
-| 995 | Wreckreation | exFAT · PKG · Backport | 01.900.008 |
-| 996 | WUCHANG Fallen Feathers Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.011 |
-| 997 | WUCHANG Fallen Feathers Deluxe Edition | exFAT · Backport | 01.013 |
-| 998 | WWE 2K22 | unknown | 01.007 |
-| 999 | WWE 2K23 | PKG · Backport | 01.022 |
-| 1000 | WWE 2K24 Forty Years of WrestleMania Edition | exFAT · PKG · Backport | 01.025 |
-| 1001 | WWE 2K25 | exFAT · PKG · Backport 4.xx | 01.029 |
-| 1002 | WWE 2K25 The Bloodline Edition | Backport | 01.029 |
-| 1003 | WWE 2K26 | exFAT · PKG · Backport | 01.006 |
-| 1004 | WWI Isonzo Ultimate Edition | exFAT · PKG · Backport | 01.051 |
-| 1005 | Wytchwood | exFAT · PKG | 01.000.005 |
-| 1006 | XIII | exFAT | 01.002 |
-| 1007 | XIII | PKG | 01.002 |
-| 1008 | Yakuza 0 Directors Cut | exFAT · PKG · Backport | 01.015 |
-| 1009 | Yakuza Kiwami | exFAT · APR-EMU · Backport | 01.012 |
-| 1010 | Yakuza Kiwami 2 | PKG · APR-EMU · Backport | 01.014 |
-| 1011 | Yakuza Kiwami 3 and Dark Ties Deluxe Edition | exFAT · PKG · Backport | 01.015 |
-| 1012 | Yakuza Like A Dragon | exFAT · PKG | 01.003 |
-| 1013 | Yakuza Like a Dragon Hero Edition | exFAT · PKG | 01.003 |
-| 1014 | Yatzi | APR-EMU | 01.000.100 |
-| 1015 | Yonder The Cloud Catcher Chronicles | unknown | 1.0 |
-| 1016 | Yooka Replaylee | exFAT · PKG · Backport | 02.000 |
-| 1017 | Ys X Proud Nordics Ultimate Edition | exFAT · PKG · Backport | 01.003 |
-| 1018 | 從前從前有個塊魂 | PKG | 01.000 |
-| 1019 | 테일즈 오브 그레이세스 f 리마스터 | exFAT · PKG · Backport 4.xx | 01.000.006 |
+| 267 | Elex II | PKG | 01.003 |
+| 268 | Empire of the Ants | exFAT · PKG · Backport 4.xx | 02.004 |
+| 269 | Enchanted Portals | Folder · PKG · Backport 4.xx | 01.000 |
+| 270 | Endling Extinction is Forever | exFAT · PKG · Backport 4.xx | 01.000.002 |
+| 271 | Enotria: The Last Song Deluxe Edition | PKG · Backport 4.xx | 01.005.004 |
+| 272 | Eriksholm The Stolen Dream | exFAT · PKG · Backport | 01.003.001 |
+| 273 | Eternights | PKG · Backport 4.xx | 01.004 |
+| 274 | Ever Forward | unknown | 1.0 |
+| 275 | Evergate | exFAT · PKG | 01.003 |
+| 276 | Evergate | exFAT · APR-EMU | 01.003 |
+| 277 | Everspace 2 Complete Edition | exFAT · Folder · Backport | 01.020.000 |
+| 278 | Everybodys Golf 2 | exFAT · Backport | 01.000.004 |
+| 279 | Evil Genius 2 World Domination | exFAT · PKG | 01.002.000 |
+| 280 | Evil Inside | exFAT · PKG | 01.000 |
+| 281 | Evil West | exFAT · PKG · Backport | 01.005.000 |
+| 282 | Evotinction | exFAT · Folder · Backport | 01.009 |
+| 283 | EXODEMON | exFAT · PKG | 01.004 |
+| 284 | Expeditions A MudRunner Game | PKG · APR-EMU · Backport 6.xx | 01.026 |
+| 285 | F1 2021 | PKG · APR-EMU | 01.018 |
+| 286 | F1 23 | APR-EMU · Backport 4.xx | 01.021 |
+| 287 | F1 24 | exFAT · APR-EMU · Backport | 01.021 |
+| 288 | F1 25 | exFAT · PKG · Backport | 01.018 |
+| 289 | Fallout 4 | exFAT · PKG · Backport 4.xx | 01.002 |
+| 290 | FANTASIAN Neo Dimension | exFAT · PKG · Backport | 01.300 |
+| 291 | Fantasy Life i The Girl Who Steals Time Deluxe Edition | exFAT · Backport | 01.000 |
+| 292 | Far Cry 6 | exFAT · PKG · Backport | 01.000.013 |
+| 293 | Farming Simulator 22 | exFAT · PKG | 01.070.000 |
+| 294 | Farming Simulator 25 | exFAT · PKG · Backport | 01.310 |
+| 295 | Fast and Furious Arcade Edition | exFAT · PKG · Backport | 01.001 |
+| 296 | Fatal Frame 2 Crimson Butterfly Remake Deluxe Edition | exFAT · PKG · Backport | 01.002.002 |
+| 297 | Fatal Frame: Maiden of Black Water | PKG | 01.000.004 |
+| 298 | FATAL FURY: City of the Wolves | exFAT · PKG · Backport | 01.009 |
+| 299 | Fate Samurai Remnant | exFAT · PKG · Backport | 01.302 |
+| 300 | FIFA 21 | PKG · APR-EMU | 01.021 |
+| 301 | FIFA 22 | unknown | 01.000.190 |
+| 302 | FIFA 22 | APR-EMU | 01.019 |
+| 303 | FINAL FANTASY TACTICS The Ivalice Chronicles | exFAT · PKG · Backport 4.xx | 01.040 |
+| 304 | Final Fantasy VII Rebirth | Folder · PKG | 01.080 |
+| 305 | Final Fantasy VII Remake Intergrade | exFAT · PKG | 01.003 |
+| 306 | Final Fantasy XVI Complete Edition | exFAT · Folder · Backport 4.xx | 01.003.004 |
+| 307 | Final Vendetta | RAR | 01.002.000 |
+| 308 | Fishing North Atlantic Enhanced Edition | PKG | 02.001 |
+| 309 | FIST: Forged In Shadow Torch | PKG · Backport | 01.201.001 |
+| 310 | Five Nights at Freddy's Help Wanted 2 | exFAT · Folder · Backport | 01.004 |
+| 311 | Five Nights at Freddy’s: Security Breach | PKG | 01.005 |
+| 312 | Flashback 2 | exFAT · PKG · Backport 4.xx | 01.007 |
+| 313 | Flintlock The Siege of Dawn | exFAT · PKG · Backport | 01.002.400 |
+| 314 | Fobia St Dinfna Hotel | unknown | 01.000 |
+| 315 | Fobia: St. Dinfna Hotel | PKG | 01.000 |
+| 316 | Formula Retro Racing: World Tour – Special Edition | Folder · PKG | 01.002 |
+| 317 | Forspoken | exFAT · PKG · Backport | 01.020 |
+| 318 | Fort Solis | exFAT · PKG · Backport | 01.002.000 |
+| 319 | Forza Horizon 5 | exFAT · Folder · Backport | 01.685.672 |
+| 320 | Frostpunk 2 | exFAT · PKG · Backport 4.xx | 01.013 |
+| 321 | Funko Fusion Deluxe Edition | exFAT · PKG · Backport | 03.004.001 |
+| 322 | Furi | PKG | 01.007.225 |
+| 323 | Gamedec Definitive Edition | exFAT · PKG · Backport | 01.000 |
+| 324 | Gangs of Sherwood | PKG · Backport 4.xx | 01.007 |
+| 325 | Gear Club Unlimited 2 Ultimate Edition | exFAT · PKG · Backport 4.xx | 01.001 |
+| 326 | Gears of War Reloaded | exFAT · Folder · Backport | 01.008.001 |
+| 327 | Gex Trilogy | exFAT · PKG · Backport | 01.000 |
+| 328 | Ghost Master Resurrection | exFAT · PKG · Backport 4.xx | 01.000 |
+| 329 | Ghost of Tsushima Directors Cut | exFAT · PKG · Backport 4.xx | 02.017 |
+| 330 | Ghost of Tsushima Directors Cut | exFAT · PKG · Backport | 02.024 |
+| 331 | Ghost of Yotei Deluxe Edition | FFPFSC · exFAT · Backport | 01.008.000 |
+| 332 | Ghost Song | exFAT · APR-EMU · Backport | 01.005 |
+| 333 | Ghostbusters Spirits Unleashed Ecto Edition | exFAT · Folder · Backport | 01.028 |
+| 334 | Ghostbusters: Spirits Unleashed | PKG · Backport | 01.000 |
+| 335 | Ghostrunner | exFAT · PKG | 01.000.005 |
+| 336 | Ghostrunner 2 | exFAT · PKG · Backport | 01.000 |
+| 337 | Ghostwire Tokyo | exFAT · PKG | 01.009 |
+| 338 | Gigantosaurus Dino Kart | exFAT · PKG · Backport | 01.000 |
+| 339 | Goat Simulator 3 | exFAT · Folder · Backport 4.xx | 01.002.100 |
+| 340 | God of Rock | exFAT · PKG · Backport | 01.000 |
+| 341 | God Of War Ragnarok | exFAT · PKG · Backport 4.xx | 05.005 |
+| 342 | God of War Ragnarök | exFAT · PKG · Backport 4.xx | 05.005 |
+| 343 | Goosebumps Terror in Little Creek | exFAT · APR-EMU · Backport | 01.000 |
+| 344 | Gori Cuddly Carnage | exFAT · PKG · Backport | 01.009 |
+| 345 | Gori Cuddly Carnage | exFAT · PKG · Backport 4.xx | 01.009 |
+| 346 | Gotham Knights | exFAT · PKG · Backport | 05.000 |
+| 347 | Gran Turismo 7 | PKG · APR-EMU · Backport 4.xx | 01.680 |
+| 348 | Granblue Fantasy: Relink | PKG | 01.003.002 |
+| 349 | Grand Theft Auto 3 The Definitive Edition | exFAT · PKG | 01.007 |
+| 350 | Grand Theft Auto San Andreas The Definitive Edition | FFPFSC · exFAT | 01.007 |
+| 351 | Grand Theft Auto V | PKG | 01.005 |
+| 352 | Grand Theft Auto V | exFAT · APR-EMU · Backport | 01.010.002 |
+| 353 | Grand Theft Auto Vice City The Definitive Edition | exFAT · PKG | 01.007 |
+| 354 | Grand Theft Auto: The Trilogy – The Definitive Edition | PKG | 01.006 |
+| 355 | Graven | exFAT · Folder · Backport | 01.001 |
+| 356 | Greak Memories of Azur | exFAT · PKG | 01.003 |
+| 357 | GreedFall | exFAT · PKG | 01.003 |
+| 358 | GreedFall Gold Edition | PKG | 01.003 |
+| 359 | GreedFall The Dying World | exFAT · PKG · Backport | 01.004 |
+| 360 | Greyhill Incident | exFAT · Backport | 01.004 |
+| 361 | GRID Legends | exFAT · PKG | 06.001 |
+| 362 | GRIS | exFAT · PKG · Backport | 01.001 |
+| 363 | Guilty Gear Strive | exFAT · Folder · Backport | 01.030.000 |
+| 364 | Gundam Breaker 4 | PKG | 01.000 |
+| 365 | Gungrave GORE | exFAT · Folder · Backport | 01.010 |
+| 366 | GYLT | exFAT · PKG · Backport | 02.000.052 |
+| 367 | Hades | exFAT · PKG | 01.003 |
+| 368 | Hamster Playground | PKG | 01.009 |
+| 369 | HappyFunland | PKG · Backport 4.xx | 01.005 |
+| 370 | Harvest Days | exFAT · PKG · Backport | 01.002.001 |
+| 371 | Hell Is Us | exFAT · PKG · Backport | 01.006 |
+| 372 | Hellboy Web of Wyrd | exFAT · PKG | 01.004 |
+| 373 | Hellboy Web of Wyrd | exFAT · PKG · Backport | 01.023 |
+| 374 | Hello Neighbor 2 | PKG · Backport 4.xx | 01.000 |
+| 375 | Hello Neighbor 2 | Folder · PKG · Backport 4.xx | 01.413.001 |
+| 376 | Hi Fi RUSH Deluxe Edition | Backport | 01.004 |
+| 377 | Hi-Fi RUSH Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.004 |
+| 378 | High on Life | exFAT · PKG · Backport | 01.120 |
+| 379 | High on Life 2 | exFAT · PKG · Backport 4.xx | 01.100.100 |
+| 380 | Hitman World of Assassination | exFAT · PKG | 01.017 |
+| 381 | Hitman World of Assassination Deluxe Edition | exFAT · PKG · Backport | 01.038 |
+| 382 | HOA | exFAT · PKG | 01.000.002 |
+| 383 | Hogwarts Legacy | exFAT · Folder · Backport | 01.013 |
+| 384 | Horizon Call of The Mountain | exFAT · APR-EMU · Backport | 01.004.011 |
+| 385 | Horizon Chase 2 | exFAT · PKG · Backport | 01.007 |
+| 386 | Horizon Forbidden West Complete Edition | exFAT · PKG | 01.030 |
+| 387 | Horizon Forbidden West – Complete Edition | exFAT · Folder · Backport 4.xx | 01.030 |
+| 388 | Horizon Zero Dawn Remastered | exFAT · PKG · Backport | 01.008.001 |
+| 389 | Horizon Zero Dawn Remastered | PKG · APR-EMU | 01.008.001 |
+| 390 | Horror Tales The Wine | exFAT · PKG | 02.000 |
+| 391 | Hot Wheels Lets Race Ultimate Speed | exFAT · PKG · Backport | 01.002 |
+| 392 | Hot Wheels Monster Trucks Stunt Mayhem | exFAT · Folder · Backport | 01.000.100 |
+| 393 | Hot Wheels Unleashed | PKG | 01.018 |
+| 394 | Hot Wheels Unleashed 2 Turbocharged | exFAT · Backport | 01.019 |
+| 395 | Hot Wheels Unleashed 2: Turbocharged | exFAT · PKG · Backport | 01.017 |
+| 396 | Hotline Miami | APR-EMU | 01.000.002 |
+| 397 | Hubris | Folder · Backport 4.xx | 01.007 |
+| 398 | Hunting Simulator 2 | PKG | 01.002 |
+| 399 | Ikai | exFAT · PKG | 01.002 |
+| 400 | Immortals Fenyx Rising | exFAT · PKG | 04.040 |
+| 401 | Immortals of Aveum | exFAT · PKG · Backport 4.xx | 01.006.004 |
+| 402 | In Nightmare | exFAT · PKG | 01.006 |
+| 403 | In Sound Mind | unknown | 01.009 |
+| 404 | Indiana Jones and The Great Circle | exFAT · Folder · Backport | 01.011 |
+| 405 | Indika | exFAT · Folder · Backport | 01.003 |
+| 406 | Infinity Strash DRAGON QUEST The Adventure of Dai | exFAT · PKG · Backport | 01.002 |
+| 407 | Infliction: Extended Cut | PKG | 01.003.000 |
+| 408 | Insomnis | PKG | 01.000.001 |
+| 409 | Instant Sports Plus | exFAT · PKG | 01.002.001 |
+| 410 | Invincible VS | exFAT · PKG · Backport 4.xx | 01.000 |
+| 411 | Iron Harvest Complete Edition | exFAT · PKG | 01.004 |
+| 412 | It Takes Two | PKG | 01.200.000 |
+| 413 | Jack Holmes: Master of Puppets | Folder · PKG · Backport 4.xx | 01.000 |
+| 414 | Jagged Alliance 3 | exFAT · PKG · Backport | 01.005.001 |
+| 415 | Jets N Guns 2 | exFAT · Folder · Backport | 01.002 |
+| 416 | Jitsu Squad | PKG · Backport 4.xx | 01.000 |
+| 417 | JoJos Bizarre Adventure All Star Battle R | exFAT · PKG · Backport | 02.330.000 |
+| 418 | JUDGE EYES：死神の遺言 Remastered | exFAT · APR-EMU | 01.001 |
+| 419 | Judgment | exFAT | 01.001 |
+| 420 | Judgment | exFAT · PKG | 01.001 |
+| 421 | Juicy Realm | exFAT · PKG | 01.000 |
+| 422 | Jumanji: The Video Game | PKG | 01.001 |
+| 423 | Jumping Flash | exFAT · Backport | 01.004 |
+| 424 | Jurassic Park Classic Games Collection | exFAT · PKG · Backport | 01.002 |
+| 425 | Jurassic World Evolution 2 Premium Edition | exFAT · Backport | 01.011.003 |
+| 426 | Jurassic World Evolution 3 | exFAT · PKG · Backport | 01.002.006 |
+| 427 | Jusant | exFAT · PKG · Backport | 01.007 |
+| 428 | KAGE Shadow of The Ninja | exFAT · Folder · Backport 4.xx | 01.000 |
+| 429 | KAKU Ancient Seal | exFAT · PKG · Backport | 01.005 |
+| 430 | Kao The Kangaroo | exFAT · PKG | 01.007 |
+| 431 | KARMA The Dark World | exFAT · PKG · Backport 4.xx | 01.006 |
+| 432 | Kena Bridge of Spirits | exFAT · PKG · Backport | 02.008 |
+| 433 | Kerbal Space Program Enhanced Edition | APR-EMU | 01.000.002 |
+| 434 | KeyWe | exFAT | 01.000 |
+| 435 | Kid A Mnesia Exhibition | PKG | 01.000.500 |
+| 436 | Killing Floor 3 | exFAT · PKG · Backport | 02.011 |
+| 437 | Kingdom Come Deliverance 2 Royal Edition | exFAT · PKG · Backport | 01.052 |
+| 438 | Kitaria Fables | exFAT · PKG | 01.005 |
+| 439 | Kitten Island | unknown | 01.000.000 |
+| 440 | KLONOA Phantasy Reverie Series Deluxe Edition | exFAT · PKG | 01.002 |
+| 441 | Kong Survivor Instinct | exFAT · PKG · Backport 4.xx | 01.004 |
+| 442 | Last Days of Lazarus | exFAT · PKG · Backport | 01.001 |
+| 443 | Layers of Fear | exFAT · PKG · Backport 4.xx | 01.010 |
+| 444 | Legacy of Kain Soul Reaver 1 and 2 Remastered | exFAT · PKG · Backport 4.xx | 01.004 |
+| 445 | LEGO 2K Drive | exFAT · PKG · Backport | 01.017 |
+| 446 | LEGO Brawls | exFAT · APR-EMU · Backport | 01.000 |
+| 447 | LEGO Harry Potter Collection | exFAT · PKG · Backport | 01.001 |
+| 448 | LEGO Horizon Adventures | exFAT · PKG · Backport | 01.004 |
+| 449 | LEGO Star Wars The Skywalker Saga | exFAT · PKG | 01.010 |
+| 450 | Lets Build A Zoo Ultimate Edition | exFAT · PKG · Backport | 01.001.140 |
+| 451 | Lies of P | PKG · Backport 4.xx | 01.005.001 |
+| 452 | Lies of P: Overture | exFAT · PKG · Backport 4.xx | 01.012 |
+| 453 | Life is Strange Double Exposure Ultimate Edition | exFAT · PKG · Backport 4.xx | 01.002.000 |
+| 454 | Life is Strange Reunion | exFAT · Folder · Backport | 01.003 |
+| 455 | Life is Strange True Colors | exFAT · PKG | 01.008 |
+| 456 | Life is Strange: Reunion | exFAT · PKG | 01.000 |
+| 457 | Life is Strange: True Colors | PKG | 01.008 |
+| 458 | Like A Dragon Gaiden The Man Who Erased His Name Deluxe Edition | FFPFSC · exFAT · Backport | 01.022 |
+| 459 | Like a Dragon Infinite Wealth | exFAT · PKG | 01.020 |
+| 460 | Like a Dragon Infinite Wealth Ultimate Edition | exFAT · APR-EMU · Backport 4.xx | 01.020 |
+| 461 | Like A Dragon Ishin | exFAT · PKG · Backport | 01.006.000 |
+| 462 | Like A Dragon Pirate Yakuza in Hawaii Deluxe Edition | exFAT · PKG · Backport | 01.014 |
+| 463 | Little Big Adventure: Twinsen’s Quest | PKG | 01.000 |
+| 464 | Little Nightmares 2 | exFAT · PKG | 01.001 |
+| 465 | Little Nightmares 3 | exFAT · PKG · Backport 4.xx | 01.004 |
+| 466 | Little Nightmares 3: Deluxe Edition | PKG · Backport | 01.002 |
+| 467 | LOL Surprise B.B.s BORN TO TRAVEL | exFAT · APR-EMU | 01.000 |
+| 468 | Lollipop Chainsaw RePoP | exFAT · Folder · Backport | 01.005.001 |
+| 469 | Looney Tunes Wacky World of Sports | exFAT · Folder · Backport | 00.100.000 |
+| 470 | Lords of the Fallen | exFAT · PKG · Backport 4.xx | 01.000 |
+| 471 | Lords of The Fallen | exFAT · PKG · Backport 4.xx | 01.086 |
+| 472 | LOST EPIC | exFAT · Folder · Backport 4.xx | 01.000 |
+| 473 | Lost in Random | exFAT · PKG | 01.000.100 |
+| 474 | Lost Judgment | exFAT · PKG | 01.011 |
+| 475 | Lost Judgment | exFAT · PKG | 01.011 |
+| 476 | Lost Soul Aside | exFAT · PKG · Backport | 01.012 |
+| 477 | Love is all around | exFAT · APR-EMU · Backport | 01.000.002 |
+| 478 | Lunar Lander Beyond | exFAT · PKG · Backport 4.xx | 01.000 |
+| 479 | LUTO | exFAT · PKG · Backport | 01.007 |
+| 480 | Madden NFL 21 | unknown | 01.015 |
+| 481 | Madden NFL 22 | PKG | 01.016.000 |
+| 482 | Madden NFL 23 | PKG | 01.017.000 |
+| 483 | Madden NFL 24 | PKG · Backport 4.xx | 01.021.000 |
+| 484 | Madden NFL 25 | PKG · Backport 7.xx | 01.023.000 |
+| 485 | Madden NFL 26 | exFAT · PKG · Backport | 01.0016 |
+| 486 | MADiSON | exFAT | 01.000 |
+| 487 | MADiSON VR Cursed Edition | PKG | 01.000 |
+| 488 | Mafia The Old Country Deluxe Edition | exFAT · Folder · Backport | 01.008 |
+| 489 | Mafia The Old Country: Deluxe Edition | exFAT · Folder · Backport | 01.006 |
+| 490 | Mandragora Whispers of the Witch Tree | exFAT · PKG · Backport | 01.006.002 |
+| 491 | Maneater | exFAT · PKG | 01.000.010 |
+| 492 | Maneater | PKG | 01.010 |
+| 493 | Martha is Dead | exFAT · PKG | 01.090 |
+| 494 | Marvel Cosmic Invasion | exFAT · PKG · Backport | 02.002 |
+| 495 | Marvel's Guardians of the Galaxy | exFAT · PKG | 01.007 |
+| 496 | Marvels Avengers Definitive Edition | exFAT · PKG | 01.055 |
+| 497 | Marvels Midnight Suns Enhanced Edition | exFAT · PKG · Backport | 01.013 |
+| 498 | Marvels Spider Man 2 Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.004.003 |
+| 499 | Marvels Spider Man Miles Morales | exFAT · Backport | 01.015 |
+| 500 | Marvels Spider Man Miles Morales | exFAT · APR-EMU · Backport 4.xx | 01.015.001 |
+| 501 | Marvels Spider Man Remastered | exFAT · PKG · Backport | 01.008.001 |
+| 502 | Marvels Spider Man Remastered | exFAT · APR-EMU · Backport 4.xx | 01.008.001 |
+| 503 | Marvel’s Spider-Man: Miles Morales | exFAT · PKG | 01.013.002 |
+| 504 | Master Detective Archives RAIN CODE Plus | exFAT · Backport | 01.010 |
+| 505 | Master Detective Archives: RAIN CODE Plus | PKG | 01.010 |
+| 506 | Matchbox Driving Adventures | exFAT · PKG · Backport | 01.001 |
+| 507 | Mayhem Brawler | exFAT · Backport 4.xx | 02.000 |
+| 508 | MechWarrior 5 Mercenaries | exFAT · PKG · Backport | 01.0019 |
+| 509 | Mega Man Star Force Legacy Collection | exFAT · PKG · Backport | 01.001 |
+| 510 | Memories Off Sousou Break Out Of My Shell | unknown | 01.000 |
+| 511 | METAL GEAR SOLID 2 Sons of Liberty Master Collection | exFAT · PKG · Backport | 02.100 |
+| 512 | METAL GEAR SOLID 3 Snake Eater Master Collection | exFAT · PKG · Backport | 03.002 |
+| 513 | Metal Gear Solid Delta Snake Eater Deluxe Edition | exFAT · Folder · Backport | 01.001.004 |
+| 514 | METAL GEAR SOLID Master Collection | exFAT · PKG · Backport | 03.000 |
+| 515 | Metal Gear Solid Master Collection Vol 1 Bonus Content | exFAT · Folder · Backport | 01.500 |
+| 516 | Metal Slug Tactics | exFAT · PKG · Backport 4.xx | 02.000 |
+| 517 | Metaphor ReFantazio | exFAT · PKG · Backport | 01.013 |
+| 518 | Metro Awakening | Backport 5.50 | 01.008 |
+| 519 | Metro Exodus Complete Edition | exFAT · PKG | 01.001 |
+| 520 | Miasma Chronicles | exFAT · PKG · Backport | 01.007 |
+| 521 | Mighty Morphin Power Rangers Ritas Rewind | Backport | 01.009 |
+| 522 | Mighty Morphin Power Rangers: Rita’s Rewind | exFAT · PKG · Backport 4.xx | 01.009 |
+| 523 | MindsEye | exFAT · Folder · Backport | 01.017 |
+| 524 | Minecraft | exFAT · PKG · Backport 4.xx | 01.044 |
+| 525 | Minecraft Legends | Backport 4.xx | 01.013 |
+| 526 | Minecraft Preview | Backport 4.xx | 01.024.000 |
+| 527 | MLB The Show 21 | unknown | 01.023 |
+| 528 | MLB The Show 23 | exFAT · APR-EMU · Backport | 01.021 |
+| 529 | Monster Boy and The Cursed Kingdom | exFAT · PKG · Backport | 01.000.004 |
+| 530 | Monster Energy Supercross 25 | exFAT · Folder · Backport 4.xx | 01.011 |
+| 531 | Monster Energy Supercross The Official Videogame 6 | exFAT · Backport | 01.008 |
+| 532 | Monster Energy Supercross The Official Videogame 6 | exFAT · Backport | 01.009 |
+| 533 | Monster Energy Supercross: The Official Videogame 4 | PKG | 01.010 |
+| 534 | Monster Energy Supercross: The Official Videogame 5 | PKG | 01.005 |
+| 535 | Monster Hunter Stories 3 Twisted Reflection | exFAT · PKG · Backport | 01.002 |
+| 536 | Monster Hunter Wilds | exFAT · Folder · Backport 4.xx | 01.041.040 |
+| 537 | Monster Hunter Wilds Premium Edition | Backport | 01.041 |
+| 538 | Monster Jam Showdown | Folder · Backport 4.xx | 01.000 |
+| 539 | Monster Jam Showdown | exFAT · Folder · Backport | 01.012 |
+| 540 | Monster Truck Championship | PKG | 01.000.001 |
+| 541 | Morbid The Lords of Ire | exFAT · PKG · Backport | 01.400.100 |
+| 542 | Mortal Kombat 1 | exFAT · PKG · Backport 4.xx | 01.010.001 |
+| 543 | Mortal Kombat 11 Ultimate Edition | FFPFSC · exFAT | 01.000.004 |
+| 544 | Mortal Kombat Legacy Kollection | exFAT · Folder · Backport | 01.007 |
+| 545 | Mortal Shell Enhanced Edition | PKG | 01.000.008 |
+| 546 | Mothmen 1966 | exFAT · APR-EMU · Backport | 01.001 |
+| 547 | MotoGP 21 | PKG | 01.019 |
+| 548 | MotoGP 22 | PKG | 01.012 |
+| 549 | MotoGP 23 | PKG · Backport 4.xx | 01.000 |
+| 550 | MotoGP 24 | exFAT · Folder · Backport | 01.011.000 |
+| 551 | MotoGP 25 | exFAT · PKG · Backport | 01.013 |
+| 552 | MotoGP 26 | exFAT · PKG · Backport | 01.000 |
+| 553 | MX vs ATV Legends 2025 Ultimate Edition | exFAT · PKG · Backport | 04.024 |
+| 554 | MXGP 2020 – The Official Motocross Videogame | PKG | 01.007 |
+| 555 | My First Gran Turismo | Backport | 01.010 |
+| 556 | My First Gran Turismo | exFAT · PKG · Backport 4.xx | 01.010 |
+| 557 | NAIAD | exFAT · PKG · Backport | 01.001.100 |
+| 558 | Naruto X Boruto Ultimate Ninja Storm Connections Deluxe Edition | exFAT · Backport | 01.006 |
+| 559 | NASCAR Arcade Rush | exFAT · PKG · Backport | 01.000 |
+| 560 | NBA 2K21 | unknown | 01.012 |
+| 561 | NBA 2K22 | Backport 4.xx | 01.018 |
+| 562 | NBA 2K23 | Folder · PKG · Backport 4.xx | 01.016 |
+| 563 | NBA 2K24 | exFAT · PKG · Backport | 01.017.000 |
+| 564 | NBA 2K24 | exFAT · PKG · Backport 4.xx | 01.029 |
+| 565 | NBA 2K25 | PKG · APR-EMU · Backport 4.xx | 01.017 |
+| 566 | NBA 2K26 | exFAT · PKG · Backport | 01.017 |
+| 567 | Necromunda: Hired Gun | PKG | 01.009 |
+| 568 | Need for Speed Unbound | exFAT · PKG · Backport | 01.029 |
+| 569 | Neko Rescue Tale | exFAT · PKG · Backport | 01.000 |
+| 570 | Neptunia Reverse | exFAT · PKG | 01.000 |
+| 571 | Nerf Legends | PKG | 01.006 |
+| 572 | Neva | exFAT · PKG · Backport | 01.007 |
+| 573 | New Joe and Mac Caveman Ninja | exFAT · PKG · Backport | 01.003 |
+| 574 | New Super Luckys Tale | exFAT · Backport 4.xx | 01.001 |
+| 575 | New Tales From The Borderlands | FFPFSC · exFAT · Backport | 01.002 |
+| 576 | NHL 23 | Backport 4.xx | 01.073 |
+| 577 | NHL 24 | exFAT · Folder · Backport | 01.060 |
+| 578 | NHL 26 | exFAT · APR-EMU · Backport | 01.060 |
+| 579 | Nickelodeon All Star Brawl | exFAT · PKG | 01.000 |
+| 580 | Nickelodeon All Star Brawl 2 | exFAT · PKG · Backport | 01.000 |
+| 581 | Nickelodeon Kart Racers 3 Slime Speedway | Folder · PKG · Backport 4.xx | 01.000.000 |
+| 582 | Night Trap 25th Anniversary Edition | APR-EMU | 01.000.200 |
+| 583 | Nikoderiko The Magical World Directors Cut | exFAT · Backport | 01.000.012 |
+| 584 | NINJA GAIDEN 2 Black | exFAT · PKG · Backport 4.xx | 01.003 |
+| 585 | Ninja Gaiden 4 | exFAT · Folder · Backport | 01.000.003 |
+| 586 | Ninja Gaiden Ragebound | exFAT · PKG · Backport | 01.006 |
+| 587 | Nioh 2 Remastered | PKG · APR-EMU | 01.027.001 |
+| 588 | Nioh 2 Remastered The Complete Edition | APR-EMU | 01.027.001 |
+| 589 | Nioh 3 Deluxe Edition | exFAT · PKG · Backport | 01.040.020 |
+| 590 | Nioh Remastered The Complete Edition | exFAT · PKG | 01.023.001 |
+| 591 | No Mans Sky | exFAT · PKG · Backport | 06.024 |
+| 592 | No More Heroes 3 | exFAT · PKG · Backport | 01.004 |
+| 593 | Observer System Redux | unknown | 01.008 |
+| 594 | Observer: System Redux | PKG | 01.008 |
+| 595 | Octopath Traveler 2 | exFAT · PKG · Backport | 01.000 |
+| 596 | Oddworld Abes Exoddus (PS1 Emulation) | unknown | 01.000.002 |
+| 597 | Oddworld Soulstorm | exFAT · PKG | 01.160 |
+| 598 | On The Road The Truck Simulator | Backport 4.xx | 01.000.009 |
+| 599 | Once Upon A Katamari | PKG | 01.000 |
+| 600 | One Last Breath | exFAT · PKG · Backport | 02.000 |
+| 601 | One Night Stand | PKG | 01.000.000 |
+| 602 | One Piece Odyssey | exFAT · PKG | 01.002.001 |
+| 603 | One Piece Pirate Warriors 4 | PKG | 01.003 |
+| 604 | Outcast A New Beginning | exFAT · Folder · Backport | 01.000 |
+| 605 | Outcast A New Beginning | PKG | 01.000 |
+| 606 | Outer Wilds | exFAT · Backport 4.xx | 01.000 |
+| 607 | Outward Definitive Edition | exFAT · PKG | 01.007 |
+| 608 | Overcooked All You Can Eat | exFAT · APR-EMU | 01.015 |
+| 609 | Overpass 2 | exFAT · Folder · Backport 6.xx | 01.004 |
+| 610 | Override 2: Super Mech League | PKG | 01.007 |
+| 611 | OVRDARK: A Do Not Open Story | Folder · PKG · Backport 4.xx | 01.000 |
+| 612 | OVRDARK: A Do Not Open Story | exFAT · Folder · Backport 4.xx | 01.004.001 |
+| 613 | PAC Man World Re PAC | exFAT · PKG · Backport | 01.002 |
+| 614 | PAC-MAN WORLD 2 Re-PAC | exFAT · PKG · Backport 4.xx | 01.004 |
+| 615 | Pacific Drive | Folder · PKG · Backport | 01.015.000 |
+| 616 | Painkiller | exFAT · PKG · Backport | 01.007 |
+| 617 | Paleo Pines | exFAT · PKG | 01.001 |
+| 618 | Panda Hero Remastered | exFAT · PKG | 01.000 |
+| 619 | Park Beyond | exFAT · PKG · Backport 4.xx | 01.000 |
+| 620 | Park Beyond | PKG · Backport | 04.001 |
+| 621 | PAW Patrol Grand Prix | exFAT · Backport | 01.000 |
+| 622 | PAW Patrol World | exFAT · Backport | 01.000 |
+| 623 | Persona 3 Reload | exFAT · PKG · Backport | 01.000 |
+| 624 | Persona 3 Reload | exFAT · PKG · Backport | 01.011 |
+| 625 | Persona 5 Tactica Deluxe Edition | exFAT · APR-EMU · Backport | 01.001.000 |
+| 626 | Personality and Psychology Premium | unknown | 01.003 |
+| 627 | PGA TOUR 2K23 | exFAT · Backport | 01.023 |
+| 628 | PGA Tour 2K25 | exFAT · PKG · Backport | 01.026 |
+| 629 | Phantom Breaker Battle Grounds Ultimate | exFAT · Backport 4.xx | 01.000 |
+| 630 | Pistol Whip | PKG | 01.000.009 |
+| 631 | Planet Coaster Console Edition | exFAT · PKG | 01.017 |
+| 632 | Plumbers Dont Wear Ties Definitive Edition | exFAT · PKG · Backport 4.xx | 01.000 |
+| 633 | Pneumata | exFAT · Folder · Backport | 01.017 |
+| 634 | Pneumata | PKG | 01.017 |
+| 635 | Police Simulator Patrol Officers | PKG · Backport 4.xx | 01.000.000 |
+| 636 | Poppy Playtime Chapter 1 | Folder · PKG · Backport 4.xx | 01.000 |
+| 637 | Poppy Playtime Chapter 2 | exFAT · PKG · Backport | 01.000 |
+| 638 | Poppy Playtime Chapter 3 | exFAT · PKG · Backport | 01.000 |
+| 639 | Port Royale 4 | PKG | 01.004.000 |
+| 640 | Post Trauma | exFAT · PKG · Backport | 02.001 |
+| 641 | Potion Permit | exFAT · PKG · Backport 4.xx | 01.000 |
+| 642 | Potionomics Masterwork Edition | Folder · PKG · Backport 4.xx | 01.000 |
+| 643 | Powerwash Simulator Ultimate Satisfaction | exFAT · APR-EMU · Backport | 01.018 |
+| 644 | PRAGMATA Deluxe Edition | FFPFSC · exFAT · Backport | 01.200 |
+| 645 | Predator Hunting Grounds | exFAT · Folder · Backport | 01.017 |
+| 646 | Prince of Persia: The Lost Crown Complete Edition | exFAT · Folder · Backport | 01.004.001 |
+| 647 | Propagation Paradise Hotel | Backport | 01.000 |
+| 648 | Puyo Puyo Tetris 2 | exFAT · PKG | 01.320 |
+| 649 | Puzzle Bobble 3D Vacation Odyssey | exFAT · PKG | 01.006.000 |
+| 650 | Quake | exFAT · PKG | 01.009 |
+| 651 | Quake 2 | exFAT · PKG · Backport | 01.003.000 |
+| 652 | Quantum Error | exFAT · PKG · Backport | 01.009 |
+| 653 | QUBE 10th Anniversary | exFAT · PKG · Backport 4.xx | 01.001.000 |
+| 654 | R Type Final 3 Evolved | exFAT · PKG · Backport | 01.000.004 |
+| 655 | R-Type Delta: HD Boosted | PKG | 01.000.002 |
+| 656 | Raiden III x MIKADO MANIAX | exFAT · Folder · Backport 4.xx | 01.010 |
+| 657 | Raiden IV x Mikado Remix | PKG · Backport | 01.000 |
+| 658 | Ratchet & Clank Rift Apart | FFPFSC · exFAT · Backport 4.xx | 01.005.003 |
+| 659 | Real Farm Premium Edition | unknown | 1.0 |
+| 660 | Reanimal | exFAT · PKG · Backport 4.xx | 01.000 |
+| 661 | Record of Lodoss War: Deedlit in Wonder Labyrinth | PKG | 01.001 |
+| 662 | Red Dead Redemption | exFAT · PKG · Backport 4.xx | 01.002 |
+| 663 | Red Dead Redemption Remaster | PKG | 01.040 |
+| 664 | Red Matter | PKG | 01.002 |
+| 665 | Red Matter | Folder · PKG · Backport 4.xx | 01.049 |
+| 666 | Redemption Reapers | exFAT · PKG · Backport | 01.420 |
+| 667 | Redout 2 Deluxe Edition | exFAT · PKG | 01.107 |
+| 668 | Remnant 2 Ultimate Edition | exFAT · PKG · Backport | 01.039 |
+| 669 | Resident Evil 2 | exFAT · PKG · Backport | 01.003 |
+| 670 | Resident Evil 3 | exFAT · PKG · Backport | 01.004 |
+| 671 | Resident Evil 4 Gold Edition | exFAT · Folder · Backport | 01.590 |
+| 672 | Resident Evil 7 Biohazard Gold Edition | exFAT · PKG · Backport 4.xx | 01.004 |
+| 673 | Resident Evil Requiem | exFAT · Backport 4.xx | 01.200 |
+| 674 | Resident Evil Requiem Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.200.000 |
+| 675 | Resident Evil Village Gold Edition | exFAT · PKG · Backport 4.xx | 01.210 |
+| 676 | Resident Evil Village Maiden Demo | PKG | 01.001 |
+| 677 | Returnal | FFPKG · exFAT · Backport 4.xx | 03.005 |
+| 678 | Revenge of The Savage Planet | exFAT · PKG · Backport | 01.030 |
+| 679 | REYNATIS | exFAT · APR-EMU | 01.000 |
+| 680 | REYNATIS Deluxe Edition | exFAT · PKG | 01.010 |
+| 681 | Rez Infinite | exFAT · PKG · Backport | 01.008 |
+| 682 | Richman 11 | PKG | 01.000 |
+| 683 | RIDE 4 | PKG | 01.023 |
+| 684 | RIDE 5 | exFAT · PKG · Backport | 01.025 |
+| 685 | Riders Republic | exFAT · Folder | 01.000 |
+| 686 | RiMS Racing | exFAT · APR-EMU | 01.006 |
+| 687 | Rise of The Ronin | FFPKG · exFAT · Backport | 01.009 |
+| 688 | Rise of the Ronin | PKG · Backport 4.xx | 01.009 |
+| 689 | Road Maintenance Simulator | exFAT | 01.000 |
+| 690 | Roadcraft | exFAT · PKG · Backport | 01.009.610 |
+| 691 | RoboCop Rogue City | exFAT · Folder · Backport | 01.006 |
+| 692 | RoboCop Rogue City Unfinished Business Deluxe Edition | exFAT · PKG · Backport | 01.009 |
+| 693 | RollerCoaster Tycoon Adventures Deluxe | exFAT · PKG · Backport 4.xx | 01.002 |
+| 694 | Romance of The Three Kingdoms 8 Remake | PKG | 01.010 |
+| 695 | Romancing SaGa 2 Revenge of the Seven | exFAT · PKG · Backport | 01.010 |
+| 696 | Rugby 25 | exFAT · APR-EMU · Backport | 01.000.062 |
+| 697 | Rugrats Adventure in Gameland | exFAT · PKG · Backport 4.xx | 01.000 |
+| 698 | Rune Factory Guardians of Azuma | exFAT · APR-EMU · Backport | 01.001.003 |
+| 699 | Sackboy A Big Adventure | PKG | 01.014 |
+| 700 | Sackboy A Big Adventure | exFAT · PKG | 01.024 |
+| 701 | Saga of Sins | exFAT · PKG · Backport | 01.000 |
+| 702 | Saints Row | exFAT · PKG | 01.017 |
+| 703 | Saints Row Gold Edition | exFAT · Folder · Backport | 01.017 |
+| 704 | Samurai Maiden Deluxe Edition | exFAT · PKG · Backport | 01.060 |
+| 705 | SAND LAND | exFAT · Folder · Backport 4.xx | 01.007 |
+| 706 | SAROS | exFAT · PKG · Backport | 01.000 |
+| 707 | Scarlet Nexus | exFAT · PKG | 01.008 |
+| 708 | Scars Above | exFAT · PKG · Backport | 01.003 |
+| 709 | Scorn | exFAT · Folder · Backport | 00.100.000 |
+| 710 | Screamer | exFAT · Folder · Backport 4.xx | 01.002 |
+| 711 | SD GUNDAM BATTLE ALLIANCE | exFAT · PKG | 01.040 |
+| 712 | Sea of Stars | exFAT · PKG · Backport | 01.013 |
+| 713 | Seeker: My Shadow | PKG · Backport 4.xx | 01.002 |
+| 714 | Selfloss | exFAT · Folder · Backport | 01.000 |
+| 715 | Selfloss | PKG · Backport 4.xx | 01.000 |
+| 716 | Session: Skate Sim | PKG · Backport | 01.000 |
+| 717 | Severed Steel | PKG | 01.000 |
+| 718 | Shadow Labyrinth | exFAT · PKG · Backport | 01.100 |
+| 719 | Shadow Warrior 3 Definitive Edition | exFAT · PKG · Backport | 01.002 |
+| 720 | Shadows of The Damned Hella Remastered | exFAT · PKG · Backport | 01.001 |
+| 721 | Shame Legacy | exFAT · PKG · Backport | 01.030 |
+| 722 | Shin Megami Tensei V Vengeance | exFAT · Folder · Backport | 01.000 |
+| 723 | SHINOBI Art of Vengeance | exFAT · PKG · Backport 4.xx | 01.200 |
+| 724 | Sid Meiers Civilization VII Founders Edition | exFAT · PKG · Backport | 01.019 |
+| 725 | Sifu | PKG | 01.007 |
+| 726 | Sifu | exFAT · PKG | 01.024.000 |
+| 727 | Silent Hill 2 | exFAT · PKG · Backport 4.xx | 00.100.006 |
+| 728 | Silent Hill f | exFAT · PKG · Backport | 01.003 |
+| 729 | SILENT HILL The Short Message | exFAT · PKG · Backport | 01.001 |
+| 730 | Skautfold: Into the Fray | Folder · PKG · Backport 4.xx | 01.000 |
+| 731 | Sker Ritual | exFAT · PKG · Backport | 01.000 |
+| 732 | Skull Island Rise of Kong | exFAT · PKG · Backport | 01.200 |
+| 733 | Skydance's BEHEMOTH | PKG · Backport 7.xx | 01.014 |
+| 734 | Slave Zero X | PKG | 01.000 |
+| 735 | Slave Zero X | exFAT · Folder · Backport | 01.000.006 |
+| 736 | Slay the Princess: The Pristine Cut | PKG | 02.003 |
+| 737 | Slitterhead | exFAT · PKG · Backport 4.xx | 01.000 |
+| 738 | Smalland Survive The Wilds | exFAT · Backport | 01.000 |
+| 739 | Smurfs Kart | exFAT · PKG | 01.000 |
+| 740 | Sniper Elite 5 | exFAT · PKG · Backport | 01.004 |
+| 741 | Sniper Elite Resistance | exFAT · PKG · Backport | 01.010 |
+| 742 | Sniper Ghost Warrior Contracts 2 | exFAT · PKG | 01.001 |
+| 743 | Sniper Ghost Warrior Contracts 2 | exFAT | 01.004 |
+| 744 | SnowRunner | exFAT · PKG · Backport | 01.048 |
+| 745 | Song in The Smoke Rekindled | Backport 4.xx | 1.0 |
+| 746 | Sonic Frontiers | exFAT · PKG · Backport | 01.041 |
+| 747 | Sonic Origins Plus | exFAT · PKG | 02.002 |
+| 748 | Sonic Racing CrossWorlds Deluxe Edition | exFAT · Folder · Backport 4.xx | 01.012 |
+| 749 | Sonic Superstars | exFAT · PKG · Backport | 01.001.008 |
+| 750 | Sonic X Shadow Generations Deluxe Edition | exFAT · PKG · Backport | 01.012 |
+| 751 | Soul Hackers 2 | PKG | 01.002 |
+| 752 | Soul Hackers 2 | exFAT · Folder | 01.002 |
+| 753 | Soul Hackers 2 Premium Edition | exFAT | 01.002 |
+| 754 | Soulstice | exFAT · PKG · Backport | 01.000.100 |
+| 755 | SOUTH PARK: SNOW DAY! | exFAT · Folder · Backport 4.xx | 01.023 |
+| 756 | Space Adventure Cobra The Awakening Gold Edition | exFAT · PKG · Backport | 01.004.000 |
+| 757 | Spacebase Startopia | exFAT · APR-EMU | 01.004.002 |
+| 758 | Spacebase Startopia Extended Edition | exFAT · PKG | 01.004 |
+| 759 | SpellForce Conquest of Eo | exFAT · Backport | 01.004.300 |
+| 760 | Spirit of The North 2 | exFAT · PKG · Backport 4.xx | 01.002 |
+| 761 | Spirit of The North Enhanced Edition | exFAT · PKG | 01.000 |
+| 762 | Split Fiction | FFPKG · FFPFSC · Backport | 01.005 |
+| 763 | SpongeBob SquarePants Titans of The Tide Ghostly Edition | exFAT · Backport | 01.400 |
+| 764 | SPY X ANYA Operation Memories Deluxe Edition | exFAT | 01.001 |
+| 765 | SPY X ANYA Operation Memories Deluxe Edition | exFAT | 01.001 |
+| 766 | Squirrel With A Gun | exFAT · Folder · Backport | 01.001 |
+| 767 | STALKER 2: Heart of Chornobyl | exFAT · Folder · Backport 4.xx | 01.009 |
+| 768 | STALKER Call of Prypiat Enhanced Edition | exFAT · PKG · Backport 4.xx | 01.009 |
+| 769 | STALKER Clear Sky Enhanced Edition | exFAT · PKG · Backport 4.xx | 01.009 |
+| 770 | STALKER Shadow of Chornobyl Enhanced Edition | exFAT · PKG · Backport 4.xx | 01.009 |
+| 771 | Star Ocean The Divine Force | exFAT · PKG · Backport | 01.000 |
+| 772 | STAR OCEAN THE SECOND STORY R | exFAT · APR-EMU · Backport | 01.000 |
+| 773 | Star Trek Resurgence | exFAT · Folder · Backport | 01.000 |
+| 774 | Star Trek: Prodigy Supernova | PKG | 01.000 |
+| 775 | Star Wars Dark Forces Remaster | exFAT · PKG · Backport | 02.000 |
+| 776 | Star Wars Jedi Fallen Order | exFAT · PKG · Backport | 01.006 |
+| 777 | Star Wars Jedi Survivor | exFAT · PKG · Backport | 01.013 |
+| 778 | Star Wars Jedi: Fallen Order | PKG · Backport | 01.003 |
+| 779 | Star Wars Outlaws Ultimate Edition | exFAT · PKG · Backport 4.xx | 01.003.001 |
+| 780 | Starfield | exFAT · Folder · Backport | 01.002 |
+| 781 | Steel Seed Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.004 |
+| 782 | Steelrising | exFAT · PKG · Backport | 01.006.000 |
+| 783 | Stellar Blade | exFAT · PKG · Backport 4.xx | 01.014.001 |
+| 784 | Stellar Blade | FFPFSC · exFAT · Backport 4.xx | 01.014.001 |
+| 785 | Still Wakes The Deep | exFAT · Folder · Backport | 01.001 |
+| 786 | Still Wakes the Deep The Complete Collection | exFAT · Folder · Backport | 01.600.001 |
+| 787 | STORY OF SEASONS A Wonderful Life | Backport | 01.002 |
+| 788 | STORY OF SEASONS: A Wonderful Life | exFAT · PKG · Backport 4.xx | 01.002 |
+| 789 | Stranger of Paradise Final Fantasy Origin Deluxe Edition | exFAT · PKG | 01.302 |
+| 790 | Stray | FFPFSC · exFAT | 01.005 |
+| 791 | Street Fighter 6 | exFAT · Folder · Backport | 01.000 |
+| 792 | Street Outlaws 2: Winner Takes All | PKG | 01.003 |
+| 793 | Stroke The Snake | exFAT · Backport | 01.000 |
+| 794 | Styx Blades of Greed | exFAT · Folder · Backport | 01.003 |
+| 795 | Subnautica | exFAT · PKG | 01.022.394 |
+| 796 | Subnautica Below Zero | exFAT · PKG | 01.022.125 |
+| 797 | Subnautica: Below Zero | PKG | 01.021.397 |
+| 798 | Suicide Squad Kill The Justice League | exFAT · PKG · Backport | 01.024 |
+| 799 | Summer Sports Games 4K Edition | exFAT · APR-EMU | 01.001 |
+| 800 | Super Bomberman R 2 | exFAT · Backport 4.xx | 01.003.001 |
+| 801 | Super Bomberman R 2 | PKG · Backport 4.xx | 01.003.001 |
+| 802 | Super Crazy Rhythm Castle | exFAT · PKG | 01.002 |
+| 803 | Super Monkey Ball Banana Mania | exFAT · PKG · Backport | 01.004 |
+| 804 | Super Sami Roll | exFAT · APR-EMU · Backport | 02.005 |
+| 805 | Super Woden GP | exFAT · Backport | 01.003 |
+| 806 | Superliminal | exFAT · PKG · Backport | 01.010 |
+| 807 | Sword Art Online Fractured Daydream | exFAT · PKG · Backport | 01.001 |
+| 808 | Sword Art Online Last Recollection | exFAT · PKG · Backport | 01.021 |
+| 809 | Syberia Remastered | exFAT · PKG · Backport | 01.003 |
+| 810 | Syberia The World Before | exFAT · PKG · Backport | 01.003 |
+| 811 | Syphon Filter | Backport 4.xx | 01.003 |
+| 812 | Syphon Filter 2 | exFAT · PKG · Backport | 01.000.002 |
+| 813 | System of Souls | exFAT · Backport | 01.000 |
+| 814 | System Shock | exFAT · Folder · Backport | 01.000 |
+| 815 | t Campus | exFAT · PKG · Backport 4.xx | 01.029 |
+| 816 | Tactics Ogre Reborn | PKG · Backport 4.xx | 01.008 |
+| 817 | Tactics Ogre: Reborn | exFAT · PKG · Backport 4.xx | 01.008 |
+| 818 | Tactics Ogre: Reborn | exFAT · Backport 4.xx | 01.008 |
+| 819 | Taiko no Tatsujin Donderful Festival Demo | unknown | 01.001 |
+| 820 | Taiko no Tatsujin Rhythm Festival | Folder · PKG | 01.000 |
+| 821 | Tails of Iron | unknown | 1.0 |
+| 822 | Tainted Grail: Fall of Avalon | PKG · Backport 4.xx | 01.015.004 |
+| 823 | Tales of Arise | exFAT · PKG · Backport | 01.004 |
+| 824 | Tales of Berseria Remastered | PKG | 01.002 |
+| 825 | Tales of Graces F Remastered | exFAT | 01.000 |
+| 826 | Tales of Graces f Remastered | exFAT · PKG · Backport 4.xx | 01.000.006 |
+| 827 | TAPE Unveil The Memories | exFAT · Backport | 01.002 |
+| 828 | Taxi Chaos 2 | exFAT · Folder · Backport | 01.007 |
+| 829 | Taxi Life: A City Driving Simulator | Folder · PKG · Backport 4.xx | 01.000 |
+| 830 | Teardown | exFAT · Folder · Backport | 01.070.100 |
+| 831 | Teenage Mutant Ninja Turtles Arcade Wrath of The Mutants | exFAT · PKG · Backport | 01.000.002 |
+| 832 | Teenage Mutant Ninja Turtles Mutants Unleashed | RAR | 01.000 |
+| 833 | Teenage Mutant Ninja Turtles Mutants Unleashed Deluxe Edition | exFAT · PKG · Backport | 01.004 |
+| 834 | Teenage Mutant Ninja Turtles Splintered Fate | PKG | 01.017 |
+| 835 | Teenage Mutant Ninja Turtles: The Cowabunga Collection | PKG | 01.000 |
+| 836 | TEKKEN 8 | FPKG · exFAT · Backport | 01.009.001 |
+| 837 | Tennis On-Court | PKG | 01.004 |
+| 838 | Terminator 2D NO FATE | exFAT · PKG · Backport | 01.002 |
+| 839 | Terminator Resistance Enhanced | exFAT · PKG | 01.000.500 |
+| 840 | Tetris Effect Connected | exFAT · PKG · Backport | 02.000.022 |
+| 841 | Tetris Forever | exFAT · PKG · Backport | 01.007 |
+| 842 | TEVI | exFAT · Backport 4.xx | 01.000 |
+| 843 | The Alters | exFAT · PKG · Backport | 01.000.013 |
+| 844 | The Ascent | exFAT · PKG | 01.006 |
+| 845 | The Bearer & The Last Flame | exFAT · PKG · Backport 4.xx | 01.000 |
+| 846 | The Binding of Isaac Repentance | exFAT · PKG | 01.000 |
+| 847 | The Bridge Curse 2 The Extrication | Folder · Backport 4.xx | 01.000 |
+| 848 | The Caligula Effect 2 Deluxe Edition | exFAT · PKG · Backport | 01.000 |
+| 849 | The Caligula Effect Overdose Deluxe Edition | exFAT · PKG · Backport | 01.000 |
+| 850 | The Callisto Protocol | exFAT · PKG | 01.033 |
+| 851 | The Callisto Protocol | exFAT · PKG · Backport 4.xx | 01.033 |
+| 852 | The Chant | exFAT · PKG · Backport | 01.004.011 |
+| 853 | The Crown of Wu | exFAT · PKG · Backport | 01.008 |
+| 854 | The Dark Pictures Anthology House of Ashes | exFAT · PKG | 01.007 |
+| 855 | The Dark Pictures Anthology The Devil in Me | exFAT · Folder · Backport | 01.000.000 |
+| 856 | The DioField Chronicle | PKG | 01.002.001 |
+| 857 | The Dungeon of Naheulbeuk: the Amulet of Chaos | exFAT · PKG | 01.000 |
+| 858 | The Elder Scrolls IV Oblivion Remastered | exFAT · Folder · Backport | 01.512.105 |
+| 859 | The Elder Scrolls V Skyrim Special Edition | exFAT · PKG · Backport | 01.001.010 |
+| 860 | The Eternal Cylinder | exFAT · PKG · Backport | 01.003 |
+| 861 | The Exit 9 | exFAT · PKG · Backport | 01.000.000 |
+| 862 | The First Berserker Khazan | exFAT · PKG · Backport 4.xx | 01.021.003 |
+| 863 | The Forgotten City | exFAT · PKG | 01.005 |
+| 864 | The House of The Dead 2 Remake | exFAT · Backport | 02.000 |
+| 865 | The House of the Dead Remake | exFAT · PKG · Backport | 02.000 |
+| 866 | THE HOUSE OF THE DEAD: Remake | PKG · Backport 4.xx | 02.000 |
+| 867 | The Invincible | exFAT · Folder · Backport | 01.000 |
+| 868 | The Karate Kid Street Rumble | unknown | 01.001.000 |
+| 869 | The King of Fighters XV | exFAT · PKG | 02.003.002 |
+| 870 | The Last Faith | PKG | 05.000 |
+| 871 | The Last of Us Part I | exFAT · PKG · Backport 4.xx | 02.000 |
+| 872 | The Last of Us Part II Remastered | PKG | 01.001.030 |
+| 873 | The Last of Us Part II Remastered | FFPFSC · exFAT · Backport 4.xx | 02.001.010 |
+| 874 | The Last Stand Aftermath | exFAT · APR-EMU | 01.050 |
+| 875 | The Light Brigade | exFAT · PKG · Backport 4.xx | 02.013 |
+| 876 | The Lord of The Rings Gollum Precious Edition | exFAT · PKG · Backport | 01.004 |
+| 877 | The Lord of The Rings Return to Moria | Backport 4.xx | 01.000 |
+| 878 | The Matrix Awakens An Unreal Engine 5 Experience Demo | unknown | 01.002 |
+| 879 | The Medium | exFAT · PKG | 01.003 |
+| 880 | The Medium | exFAT | 01.007 |
+| 881 | The Messenger | exFAT · PKG | 01.000 |
+| 882 | The Messenger | exFAT · Backport 4.xx | 01.000 |
+| 883 | The Midnight Walk | exFAT · PKG · Backport | 01.005 |
+| 884 | The Oregon Trail | exFAT · PKG · Backport 4.xx | 02.000.001 |
+| 885 | The Oregon Trail | exFAT · Backport 4.xx | 02.000.001 |
+| 886 | The Outer Worlds 2 | exFAT · PKG · Backport 4.xx | 01.100.001 |
+| 887 | The Outer Worlds Spacers Choice Edition | exFAT · PKG · Backport | 01.006.000 |
+| 888 | The Pathless | exFAT · PKG | 02.000 |
+| 889 | The Pathless | PKG | 02.000 |
+| 890 | The Persistence Enhanced | PKG | 01.200 |
+| 891 | The Plucky Squire | exFAT · PKG · Backport | 02.002 |
+| 892 | The Precinct | exFAT · PKG · Backport | 01.011 |
+| 893 | The Quarry | exFAT · Backport 4.xx | 01.007 |
+| 894 | The Quarry Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.007 |
+| 895 | The Riftbreaker | exFAT · PKG · Backport | 01.020 |
+| 896 | The Smurfs 2 The Prisoner of the Green Stone | exFAT · PKG · Backport 4.xx | 01.000 |
+| 897 | The Smurfs: Mission Vileaf | PKG | 01.000.001 |
+| 898 | The Talos Principle 2 | PKG | 02.013 |
+| 899 | The Talos Principle 2 | Backport 4.xx | 02.013 |
+| 900 | The Talos Principle 2 | Backport 4.xx | 02.013 |
+| 901 | The Thing Remastered | exFAT · PKG · Backport | 02.000 |
+| 902 | The Walking Dead Destinies | Backport 6.xx | 01.004 |
+| 903 | The Walking Dead Saints & Sinners Chapter 2 Retribution | PKG | 01.000 |
+| 904 | The Walking Dead Saints and Sinners Chapter 2 Retribution | Backport 4.xx | 01.009.000 |
+| 905 | The Witcher 3 Wild Hunt Complete Edition | exFAT · PKG · Backport | 04.040.100 |
+| 906 | Thymesia | PKG | 01.000 |
+| 907 | Thymesia | exFAT · PKG | 01.004 |
+| 908 | Tides of Tomorrow | exFAT · PKG · Backport 4.xx | 01.000 |
+| 909 | Tiger Blade | Folder · PKG · Backport 4.xx | 01.001.309 |
+| 910 | Tintin Reporter Cigars of The Pharaoh | exFAT · Backport | 01.000 |
+| 911 | Tiny Tina's Wonderlands | exFAT · PKG | 01.012 |
+| 912 | Tokyo Xtreme Racer | exFAT · PKG · Backport 4.xx | 01.003.003 |
+| 913 | Tomb Raider I-III Remastered | exFAT · PKG · Backport 4.xx | 01.001.000 |
+| 914 | Tomb Raider IV–VI Remastered | Folder · PKG | 01.005 |
+| 915 | Tomba 2 The Evil Swine Return Special Edition | exFAT · PKG · Backport | 01.300.100 |
+| 916 | Tomba Special Edition | exFAT · PKG · Backport | 01.003 |
+| 917 | Tony Hawks Pro Skater 1 + 2 | exFAT · PKG | 01.004 |
+| 918 | Tony Hawks Pro Skater 3 + 4 | exFAT · Folder · Backport 4.xx | 01.003 |
+| 919 | Tony Hawk’s Pro Skater 1 + 2 | exFAT · PKG | 01.004 |
+| 920 | TopSpin 2K25 | exFAT · PKG · Backport 4.xx | 01.017 |
+| 921 | Tormented Souls | PKG · Backport | 01.009 |
+| 922 | Tormented Souls | exFAT · Backport 4.xx | 01.009 |
+| 923 | Tormented Souls 2 | exFAT · PKG · Backport 4.xx | 01.006 |
+| 924 | Total Chaos | exFAT · Backport | 01.002.002 |
+| 925 | Totally Reliable Delivery Service | exFAT · PKG · Backport | 01.001 |
+| 926 | Tour de France 2024 | exFAT · Folder · Backport | 01.008 |
+| 927 | Tour de France 2025 | exFAT · PKG · Backport 4.xx | 01.007 |
+| 928 | Tourist Bus Simulator | exFAT · PKG | 01.000.000 |
+| 929 | Trails in The Sky 1st Chapter | exFAT · PKG · Backport | 01.006 |
+| 930 | Train Life: A Railway Simulator | PKG · Backport | 01.000 |
+| 931 | Train Sim World 2: Rush Hour Deluxe Edition | PKG | 01.046 |
+| 932 | Train Sim World 3 | Folder · PKG · Backport 4.xx | 01.001 |
+| 933 | Train Sim World 3 | Folder · Backport 4.xx | 01.001 |
+| 934 | Train Sim World 5 | Folder · PKG · Backport 4.xx | 01.049 |
+| 935 | Train Sim World 6 | Folder · PKG · Backport 4.xx | 01.024 |
+| 936 | Transformer Galactic Trails | exFAT · Folder · Backport | 01.000 |
+| 937 | Transformers Earthspark Expedition | exFAT · PKG · Backport | 01.000.003 |
+| 938 | Treasures of The Aegean | exFAT · PKG | 01.002 |
+| 939 | Trek to Yomi | PKG | 02.000 |
+| 940 | Trepang2 | PKG · Backport | 01.000 |
+| 941 | Trepang2 | exFAT · Backport 4.xx | 01.000 |
+| 942 | TRIANGLE STRATEGY | exFAT · PKG · Backport | 01.001 |
+| 943 | Trine 5 A Clockwork Conspiracy | PKG · Backport 4.xx | 01.001.004 |
+| 944 | Trine 5 A Clockwork Conspiracy | PKG · Backport 4.xx | 01.009 |
+| 945 | Trinity Trigger | PKG | 01.000 |
+| 946 | Tropico 6 | PKG | 16.001 |
+| 947 | Turok | exFAT · APR-EMU · Backport | 01.001 |
+| 948 | Turok 2 Seeds of Evil | Backport | 01.000 |
+| 949 | Turok 3 Shadow of Oblivion | PKG · Backport | 01.000 |
+| 950 | Two Point Museum | exFAT · PKG · Backport 4.xx | 01.000 |
+| 951 | UFO Robot Grendizer The Feast of The Wolves Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.007 |
+| 952 | Ufouria The Saga 2 | PKG · APR-EMU | 01.000 |
+| 953 | Unbound: Worlds Apart | PKG | 01.000 |
+| 954 | Uncharted Legacy of Thieves Collection | exFAT · PKG · Backport | 01.002 |
+| 955 | Uncharted Legacy of Thieves Collection | PKG | 01.002 |
+| 956 | Undefeated | Folder · Backport 4.xx | 01.000 |
+| 957 | Undisputed | exFAT · PKG · Backport | 01.000 |
+| 958 | Undisputed Championship Edition | exFAT · PKG · Backport | 02.005 |
+| 959 | Unicorn Overlord | unknown | 01.000 |
+| 960 | Unknown 9 Awakening Deluxe Edition | exFAT · PKG · Backport | 01.004.003 |
+| 961 | Unpacking | exFAT · APR-EMU · Backport | 01.000 |
+| 962 | Until Dawn | exFAT · PKG · Backport | 01.005 |
+| 963 | Valkyrie Elysium | PKG | 01.000 |
+| 964 | Valkyrie Elysium | Folder · Backport 4.xx | 01.003 |
+| 965 | Valthirian Arc Hero School Story 2 | exFAT | 01.000 |
+| 966 | Vampire The Masquerade Bloodlines 2 | exFAT · PKG · Backport 4.xx | 01.003 |
+| 967 | Vampire The Masquerade Justice | Backport 4.xx | 01.013 |
+| 968 | Vampire: The Masquerade – Swansong | PKG | 01.000 |
+| 969 | VARLET | exFAT · PKG · Backport 4.xx | 01.001 |
+| 970 | Vertigo 2 | Folder · PKG · Backport 4.xx | 01.000 |
+| 971 | VIEWFINDER | exFAT · PKG · Backport | 01.003.000 |
+| 972 | Visions of Mana | exFAT · PKG · Backport 4.xx | 01.003 |
+| 973 | Void tRrLM();++ //Void Terrarium++ | PKG | 01.000.500 |
+| 974 | VR Skater | Folder · Backport 4.xx | 01.013 |
+| 975 | Wanted: Dead | Folder · PKG · Backport | 01.001 |
+| 976 | War Mongrels | exFAT · PKG · Backport | 01.020.000 |
+| 977 | Warhammer 40,000 Space Marine 2 | exFAT · PKG · Backport 7.xx | 01.010.002 |
+| 978 | Warhammer 40000 Space Marine 2 Gold Edition | exFAT · APR-EMU · Backport | 01.012.002 |
+| 979 | Warhammer Age of Sigmar Realms of Ruin Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.007 |
+| 980 | Watch Dogs Legion | exFAT · PKG | 01.190 |
+| 981 | Watch Dogs: Legion | exFAT · PKG | 01.191 |
+| 982 | Way of The Hunter | exFAT · PKG | 01.000 |
+| 983 | We Love Katamari Reroll+ Royal Reverie | Folder · PKG | 01.003 |
+| 984 | Weird West Definitive Edition | exFAT · PKG · Backport | 01.000 |
+| 985 | Werewolf The Apocalypse Earthblood | PKG | 01.005 |
+| 986 | Werewolf: The Apocalypse – Earthblood | PKG | 01.005 |
+| 987 | Who Wants To Be A Millionaire New Edition | exFAT | 01.008 |
+| 988 | WILD HEARTS | exFAT · APR-EMU · Backport 4.xx | 01.033.000 |
+| 989 | WILD HEARTS Karakuri Edition | exFAT · PKG · Backport | 01.033.000 |
+| 990 | Winter Sports Games 4K Edition | APR-EMU | 01.000 |
+| 991 | Witch Spring R | exFAT · Folder · Backport | 02.112 |
+| 992 | Withering Rooms | Backport 4.xx | 01.000 |
+| 993 | Wo Long Fallen Dynasty | exFAT · PKG · Backport | 01.027 |
+| 994 | Wonder Boy The Dragons Trap | Backport 4.xx | 01.001.000 |
+| 995 | World War Z Aftermath | exFAT · PKG · Backport | 01.037 |
+| 996 | Worms Armageddon: Anniversary Edition | exFAT · PKG · Backport | 01.000 |
+| 997 | WRC Generations | exFAT · PKG · Backport | 01.004 |
+| 998 | Wreckreation | exFAT · PKG · Backport | 01.900.008 |
+| 999 | WUCHANG Fallen Feathers Deluxe Edition | exFAT · PKG · Backport 4.xx | 01.011 |
+| 1000 | WUCHANG Fallen Feathers Deluxe Edition | exFAT · Backport | 01.013 |
+| 1001 | WWE 2K22 | unknown | 01.007 |
+| 1002 | WWE 2K23 | PKG · Backport | 01.022 |
+| 1003 | WWE 2K24 Forty Years of WrestleMania Edition | exFAT · PKG · Backport | 01.025 |
+| 1004 | WWE 2K25 The Bloodline Edition | Backport | 01.029 |
+| 1005 | WWE 2K26 | exFAT · PKG · Backport | 01.006 |
+| 1006 | WWI Isonzo Ultimate Edition | exFAT · PKG · Backport | 01.051 |
+| 1007 | Wytchwood | exFAT · PKG | 01.000.005 |
+| 1008 | XIII | exFAT | 01.002 |
+| 1009 | XIII | PKG | 01.002 |
+| 1010 | Yakuza 0 Directors Cut | exFAT · PKG · Backport | 01.015 |
+| 1011 | Yakuza Kiwami | exFAT · APR-EMU · Backport | 01.012 |
+| 1012 | Yakuza Kiwami 2 | PKG · APR-EMU · Backport | 01.014 |
+| 1013 | Yakuza Kiwami 3 and Dark Ties Deluxe Edition | exFAT · PKG · Backport | 01.015 |
+| 1014 | Yakuza Like A Dragon | exFAT · PKG | 01.003 |
+| 1015 | Yakuza Like a Dragon Hero Edition | exFAT · PKG | 01.003 |
+| 1016 | Yatzi | APR-EMU | 01.000.100 |
+| 1017 | Yonder The Cloud Catcher Chronicles | unknown | 1.0 |
+| 1018 | Yooka Replaylee | exFAT · PKG · Backport | 02.000 |
+| 1019 | Ys X Proud Nordics Ultimate Edition | exFAT · PKG · Backport | 01.003 |

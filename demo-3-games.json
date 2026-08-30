@@ -3,6 +3,208 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA02508",
+      "title": "Evil Inside",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Evil_Inside.webp",
+      "description": "Format: exFAT · PKG\nTags: PPSA02508, v01.000, EURT\nSize: 1 GB\nPassword: SuperPSX\nVoices: English\nWorks on 12.xx to 2.xx",
+      "downloadLinks": [
+        {
+          "name": "[exFAT]",
+          "url": "https://akirabox.com/LJlGnWjb4m15/file",
+          "group": "exFAT",
+          "fileName": "PPSA02508.exfat",
+          "sizeBytes": 1589137899,
+          "mirror": "Akia"
+        },
+        {
+          "name": "[exFAT]",
+          "url": "https://vikingfile.com/f/VKtXwZPpzL",
+          "group": "exFAT",
+          "fileName": "PPSA02508.exfat",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[exFAT]",
+          "url": "https://datanodes.to/hhcivgi9gcr7",
+          "group": "exFAT",
+          "fileName": "PPSA02508.exfat",
+          "sizeBytes": 1610612736,
+          "mirror": "Data"
+        },
+        {
+          "name": "[exFAT]",
+          "url": "https://filekeeper.net/hdegj15vlrov",
+          "group": "exFAT",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[exFAT]",
+          "url": "https://datavaults.co/ipv6hhz15adr",
+          "group": "exFAT",
+          "fileName": "PPSA02508 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[PKG · APR-EMU · EUR]",
+          "url": "https://vikingfile.com/f/1iZ16Pgdja",
+          "group": "Standard",
+          "version": "01.000",
+          "fileName": "[SuperPSX]-Evil.Inside-PPSA02508-EUR-Game (v01.000) (APR-EMU)-PS5.rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[PKG · APR-EMU · EUR] #01",
+          "url": "https://www.rootz.so/d/1XOk8e",
+          "group": "Standard",
+          "version": "01.000",
+          "fileName": "[SuperPSX]-Evil.Inside-PPSA02508-EUR-Game (v01.000) (APR-EMU)-PS5.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[PKG · APR-EMU]",
+          "url": "https://1fichier.com/?fiskq2og61ajbk8cqkqe&af=4186346",
+          "group": "Standard",
+          "version": "01.000",
+          "mirror": "1File"
+        },
+        {
+          "name": "[PKG · APR-EMU · EUR]",
+          "url": "https://gofile.io/d/bRxNzX",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA02508",
+          "mirror": "Gofile"
+        },
+        {
+          "name": "[PKG · APR-EMU · EUR] #02",
+          "url": "https://www.rootz.so/d/1h5TTU",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA02508",
+          "fileName": "[DLPSGAME.COM]-PPSA02508.rar",
+          "mirror": "Rootz"
+        }
+      ],
+      "sizeBytes": 1073741824,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · PKG"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "PKG",
+        "APR-EMU"
+      ],
+      "_enrichedAt": "2026-08-27T06:21:20.114628+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "evil-inside",
+        "rawgName": "Evil Inside",
+        "rating": 0.0,
+        "metacritic": 44,
+        "released": "2021-03-25",
+        "genres": [
+          "Indie",
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/screenshots/911/9113328a99f4e60dc0320354fbcf7fb9.jpg"
+      },
+      "formatLabel": "exFAT · PKG"
+    },
+    {
+      "titleId": "PPSA20931",
+      "title": "Electronics Puzzle Lab",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q99.jpg",
+      "description": "Format: exFAT · APR-EMU · Backport\nTags: PPSA20931, v1.000, 4.xx, 9.xx, USA\nSize: 1 GB\nBP = Backport",
+      "downloadLinks": [
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://akirabox.com/jJD3VDgkEGa5/file",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA20931.exfat",
+          "sizeBytes": 2061584302,
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://vikingfile.com/f/3pHnVFlXwA",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA20931.exfat",
+          "sizeBytes": 2061584302,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://datanodes.to/bv1l0r1emi7h",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA20931.exfat",
+          "sizeBytes": 2040109465,
+          "mirror": "Data"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://filekeeper.net/56711435w690",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA20931.exfat",
+          "sizeBytes": 2040109465,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://datavaults.co/ltnohfbitxrg",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA20931 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[APR-EMU · USA]",
+          "url": "https://www.mediafire.com/file/k3jo1rzzzda9jxt/[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA20931",
+          "fileName": "[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar",
+          "mirror": "Mediafire"
+        }
+      ],
+      "sizeBytes": 1073741824,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · APR-EMU · Backport"
+      ],
+      "fileFormat": [
+        "Backport",
+        "exFAT",
+        "APR-EMU",
+        "RAR",
+        "Backport 4.xx"
+      ],
+      "_enrichedAt": "2026-08-19T04:32:38.358133+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "electronics-puzzle-lab",
+        "rawgName": "Electronics Puzzle Lab",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2024-02-13",
+        "genres": [
+          "Casual",
+          "Indie",
+          "Simulation"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:36:22.387729+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "exFAT · APR-EMU · Backport"
+    },
+    {
       "titleId": "PPSA15645",
       "title": "Castlevania Dominus Collection",
       "version": "01.003",
@@ -108,250 +310,6 @@
       "_igdbEnrichedAt": "2026-06-30T15:00:58.379401+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · PKG · Backport"
-    },
-    {
-      "titleId": "PPSA11128",
-      "title": "Ape Escape P",
-      "version": "01.003",
-      "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Ape_Escape_P.avif",
-      "description": "Format: exFAT · Folder · Backport\nTags: PPSA11128, v1.003, 4.xx, EUR\nSize: 952 MB\nBP = Backport",
-      "downloadLinks": [
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://akirabox.com/RMKGJQ9Dwz1o/file",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA11128.exfat",
-          "sizeBytes": 998244352,
-          "mirror": "Akia"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://vikingfile.com/f/czccH3iJBS",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA11128.exfat",
-          "sizeBytes": 998244352,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://datanodes.to/c4d53ieinh5b",
-          "group": "Backport 4.xx",
-          "mirror": "Data"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://filekeeper.net/jte44kj4f20v",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA11128.exfat",
-          "sizeBytes": 998244352,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://datavaults.co/s1ouilxehiv5",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA11128 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[Folder]",
-          "url": "https://www.mediafire.com/file/b9ewnk8k4875d2m/PPSA11128-[DLPSGAME.COM].rar/file",
-          "version": "01.003",
-          "fileName": "PPSA11128-[DLPSGAME.COM].rar",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[Folder · EUR] #01",
-          "url": "https://www.mediafire.com/file/fy0ux13ksj6ovqr/PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip/file",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[Folder · EUR] #01",
-          "url": "https://vikingfile.com/f/lP1MXI4yGy",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[Folder · EUR] #01",
-          "url": "https://1fichier.com/?5yradocjzydvd64l602t",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
-          "sizeBytes": 4078960,
-          "mirror": "1File"
-        },
-        {
-          "name": "[Folder · EUR] #02",
-          "url": "https://www.mediafire.com/file/5secrhlurgdj79f/PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip/file",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[Folder · EUR] #02",
-          "url": "https://vikingfile.com/f/YBIdy6Dl0O",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[Folder · EUR] #02",
-          "url": "https://1fichier.com/?vcig5j1df3ihmyjd025f",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
-          "sizeBytes": 4078960,
-          "mirror": "1File"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · Folder · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "exFAT",
-        "Folder",
-        "Backport 4.xx",
-        "RAR",
-        "ZIP",
-        "Backport 5.xx"
-      ],
-      "_enrichedAt": "2026-08-23T04:43:20.504731+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "ape-escape",
-        "rawgName": "Ape Escape",
-        "rating": 3.95,
-        "metacritic": 90,
-        "released": "1999-05-31",
-        "genres": [
-          "Platformer"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/eb7/eb752b66d0060b832e5037c743850ab7.jpg"
-      },
-      "_igdbEnrichedAt": "2026-07-01T05:58:16.534584+00:00",
-      "_igdbMatched": false,
-      "formatLabel": "exFAT · Folder · Backport"
-    },
-    {
-      "titleId": "PPSA22636",
-      "title": "The Bridge Curse 2 The Extrication",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71ql.jpg",
-      "description": "Format: Folder · Backport 4.xx\nTags: PPSA22636, v1.000, 4.xx, 5.xx\nBP = Backport",
-      "downloadLinks": [
-        {
-          "name": "[Folder] #01",
-          "url": "https://akirabox.com/0rpmv67RZmRg/file",
-          "group": "Standard",
-          "version": "01.000",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[Folder]",
-          "url": "https://vikingfile.com/f/JEGoaqt2sI",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "01.000 PPSA22636-[DLPSGAME.COM].rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[Folder]",
-          "url": "https://1fichier.com/?ft84a4mtrpvkuw0xg0pa",
-          "group": "Standard",
-          "version": "01.000",
-          "mirror": "1File"
-        },
-        {
-          "name": "[BP 4.xx · 54 Mo]",
-          "url": "https://www.mediafire.com/file/qgrm78onc6fz078/4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.000",
-          "fileName": "4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 56470274,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[Folder] #02",
-          "url": "https://akirabox.com/Pbe3Pdj5L3lX/file",
-          "version": "01.000",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[Folder · EUR] #01",
-          "url": "https://vikingfile.com/f/p4OrpVLuBP",
-          "version": "01.000",
-          "fileName": "4XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[Folder · EUR] #01",
-          "url": "https://www.rootz.so/d/16gmDg",
-          "version": "01.000",
-          "fileName": "4XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[BP 5.xx · 54 Mo]",
-          "url": "https://www.mediafire.com/file/arrg9oixlz2m2dy/5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.000",
-          "fileName": "5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 56470271,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[Folder] #03",
-          "url": "https://akirabox.com/k0embjXoWmVb/file",
-          "version": "01.000",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[Folder · EUR] #02",
-          "url": "https://vikingfile.com/f/7hM0MehMFS",
-          "version": "01.000",
-          "fileName": "5XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[Folder · EUR] #02",
-          "url": "https://www.rootz.so/d/24FBQ",
-          "version": "01.000",
-          "fileName": "5XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
-          "mirror": "Rootz"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "Folder · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "Folder",
-        "Backport 4.xx",
-        "ZIP",
-        "Backport 5.xx"
-      ],
-      "sizeBytes": 56470274,
-      "_enrichedAt": "2026-08-23T04:44:42.561897+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "the-bridge-curse-2-the-extrication",
-        "rawgName": "The Bridge Curse 2: The Extrication",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2024-05-09",
-        "genres": [
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/12d/12d27964a9dfd503a820ea4d74a5a146.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:57:04.936353+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "Folder · Backport 4.xx"
     }
   ]
 }
