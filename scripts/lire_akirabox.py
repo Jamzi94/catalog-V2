@@ -267,7 +267,10 @@ def main(argv: list | None = None) -> int:
     # toujours. lire_akirabox, lui, lisait UNE page a la fois : sur le run
     # 33288861281, cette etape a depasse douze minutes avec cinq instances
     # inoccupees a quatre cinquiemes.
-    fils = args.fils or (1 if args.navigateur else max(1, pool.size()))
+    # pool.size est une PROPRIETE (@property dans flaresolverr_pool), pas une
+    # methode. Ecrit pool.size(), il levait « 'int' object is not callable » et
+    # les deux collectes mouraient en une seconde — run 33290443896.
+    fils = args.fils or (1 if args.navigateur else max(1, pool.size))
     if fils <= 1:
         for paire in enumerate(cibles, 1):
             _ranger(_une(paire))

@@ -33,6 +33,11 @@ class FauxPool:
         self._en_cours = 0
         self._v = threading.Lock()
 
+    # PROPRIETE, comme dans flaresolverr_pool. Ce faux objet l'exposait en
+    # METHODE : le test passait au vert pendant que la CI mourait sur
+    # « 'int' object is not callable ». Un double qui ne copie pas le contrat du
+    # vrai objet ne teste que lui-meme.
+    @property
     def size(self):
         return self._taille
 
