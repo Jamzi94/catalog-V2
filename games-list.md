@@ -1,6 +1,6 @@
 # Liste des jeux PS5 disponibles — Phoenix DL PS5
 
-_**1020** jeux · généré le 2026-08-30 01:58 UTC · régénéré et enrichi à chaque run_
+_**1020** jeux · généré le 2026-08-30 02:47 UTC · régénéré et enrichi à chaque run_
 
 ## Répartition par format
 
