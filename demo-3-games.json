@@ -11,66 +11,84 @@
       "description": "Format: exFAT · PKG\nTags: PPSA16018, v1.013, 7.xx, 6.xx, EUR\nSize: 1 GB",
       "downloadLinks": [
         {
-          "name": "[PKG · APR-EMU · USA] Akia",
+          "name": "[PKG · APR-EMU · USA]",
           "url": "https://akirabox.com/l76mZNw47man/file",
           "group": "Standard",
           "version": "01.013",
           "region": "USA",
-          "editionId": "PPSA16018"
+          "editionId": "PPSA16018",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "sizeBytes": 572092579,
+          "mirror": "Akia"
         },
         {
-          "name": "[PKG · APR-EMU · USA] Filek",
+          "name": "[PKG · APR-EMU · USA]",
           "url": "https://filekeeper.net/lycsckknhrnh/[DLPSGAME.COM]-PPSA16018.rar",
           "group": "Standard",
           "version": "01.013",
           "region": "USA",
-          "editionId": "PPSA16018"
+          "editionId": "PPSA16018",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "sizeBytes": 572103065,
+          "mirror": "Filek"
         },
         {
-          "name": "[PKG · APR-EMU · USA] Viki",
+          "name": "[PKG · APR-EMU · USA]",
           "url": "https://vikingfile.com/f/O0hdwfveNZ",
           "group": "Standard",
           "version": "01.013",
           "region": "USA",
-          "editionId": "PPSA16018"
+          "editionId": "PPSA16018",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "mirror": "Viki"
         },
         {
-          "name": "[PKG · APR-EMU · USA] 1File",
+          "name": "[PKG · APR-EMU · USA]",
           "url": "https://1fichier.com/?a8614k23u46d3665mdbo",
           "group": "Standard",
           "version": "01.013",
           "region": "USA",
-          "editionId": "PPSA16018"
+          "editionId": "PPSA16018",
+          "mirror": "1File"
         },
         {
-          "name": "[PKG · APR-EMU · USA] Gofile",
+          "name": "[PKG · APR-EMU · USA]",
           "url": "https://gofile.io/d/34h98J",
           "group": "Standard",
           "version": "01.013",
           "region": "USA",
-          "editionId": "PPSA16018"
+          "editionId": "PPSA16018",
+          "mirror": "Gofile"
         },
         {
-          "name": "[PKG · APR-EMU] Multihost",
+          "name": "[PKG · APR-EMU]",
           "url": "https://link-vault.org/c/klmfkv8n",
           "group": "Standard",
-          "version": "01.013"
+          "version": "01.013",
+          "mirror": "Multihost"
         },
         {
-          "name": "[exFAT · v1.000] Viki",
+          "name": "[exFAT · v1.000]",
           "url": "https://vikingfile.com/f/aCNcX47wq1",
           "group": "exFAT",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA16019.exfat",
+          "mirror": "Viki"
         },
         {
-          "name": "[PKG · APR-EMU] Rootz",
+          "name": "[PKG · APR-EMU]",
           "url": "https://rootz.so/d/4rNOy",
-          "version": "01.013"
+          "version": "01.013",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "mirror": "Rootz"
         },
         {
-          "name": "[PKG · APR-EMU] Data",
+          "name": "[PKG · APR-EMU]",
           "url": "https://datanodes.to/hhnqvjrpv7sq",
-          "version": "01.013"
+          "version": "01.013",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "sizeBytes": 572103065,
+          "mirror": "Data"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -104,75 +122,119 @@
       "formatLabel": "exFAT · PKG"
     },
     {
-      "titleId": "PPSA10829",
-      "title": "Mothmen 1966",
-      "version": "01.001",
+      "titleId": "PPSA06699",
+      "title": "Everybodys Golf 2",
+      "version": "01.000.004",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55b2.jpg",
-      "description": "Format: exFAT · APR-EMU · Backport 4.xx\nTags: PPSA10829, v1.001, 4.xx, 6.xx, USA\nSize: 711 MB\nBP = Backport",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9qpn.jpg",
+      "description": "Format: exFAT · Backport\nTags: PPSA06699, v1.004, 4.xx, USA\nSize: 751 MB\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[BP 4.xx] Akia",
-          "url": "https://akirabox.com/b5Ozd2NjpmB8/file",
-          "group": "Backport 4.xx"
+          "name": "[BP 4.xx]",
+          "url": "https://akirabox.com/QN9mEq687m6d/file",
+          "group": "Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "PPSA06699.exfat",
+          "sizeBytes": 787480576
         },
         {
-          "name": "[BP 4.xx] Viki",
-          "url": "https://vikingfile.com/f/9B7xsuZxst",
-          "group": "Backport 4.xx"
+          "name": "[BP 4.xx]",
+          "url": "https://vikingfile.com/f/VQhBzhgvuh",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA06699.exfat",
+          "sizeBytes": 787480576,
+          "mirror": "Viki"
         },
         {
-          "name": "[BP 4.xx] Data",
-          "url": "https://datanodes.to/gxr710cfq67k",
-          "group": "Backport 4.xx"
+          "name": "[BP 4.xx]",
+          "url": "https://datanodes.to/lpmkq80yag3j",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA06699.exfat",
+          "sizeBytes": 787480576,
+          "mirror": "Data"
         },
         {
-          "name": "[BP 4.xx] Filek",
-          "url": "https://filekeeper.net/dq89r98oaqh7",
-          "group": "Backport 4.xx"
+          "name": "[BP 4.xx]",
+          "url": "https://filekeeper.net/cjyih8c56n51",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA06699.exfat",
+          "sizeBytes": 787480576,
+          "mirror": "Filek"
         },
         {
-          "name": "[BP 4.xx] Vault",
-          "url": "https://datavaults.co/2j2w29erd3pf",
-          "group": "Backport 4.xx"
+          "name": "[BP 4.xx]",
+          "url": "https://datavaults.co/vncxbzln1i6p",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA06699 exfat",
+          "mirror": "Vault"
         },
         {
-          "name": "[APR-EMU · USA] Mediafire",
-          "url": "https://www.mediafire.com/file/eyokefzw7z8pcmf/[DLPSGAME.COM]-PPSA10829-Game+(v01.001)+[APR-EMU].rar/file",
-          "group": "Standard",
-          "version": "01.001",
-          "region": "USA",
-          "editionId": "PPSA10829"
+          "name": "[exFAT · BP · 324 Mo · v1.004]",
+          "url": "https://www.mediafire.com/file/nyrtwfi3hjn9q0c/[DLPSGAME.COM]-PPSA06699-app0.rar/file",
+          "version": "01.004",
+          "fileName": "[DLPSGAME.COM]-PPSA06699-app0.rar",
+          "sizeBytes": 340148578,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[BP 4.xx · 3 Mo]",
+          "url": "https://www.mediafire.com/file/xzea5twwwkselo1/[DLPSGAME.COM]-PPSA06699+Backport+4.xx+By+baderlink.zip/file",
+          "version": "01.000.004",
+          "fileName": "[DLPSGAME.COM]-PPSA06699+Backport+4.xx+By+baderlink.zip",
+          "sizeBytes": 2926760,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[exFAT · BP · 3 Mo]",
+          "url": "https://vikingfile.com/f/wElHmJaIcp",
+          "version": "01.000.004",
+          "fileName": "[DLPSGAME.COM]-PPSA06699 Backport 4.xx By baderlink.zip",
+          "sizeBytes": 2925527,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[exFAT · BP]",
+          "url": "https://1fichier.com/?72pge2ro1228cx6nz2s0",
+          "version": "01.000.004",
+          "mirror": "1File"
+        },
+        {
+          "name": "[exFAT · BP · fix]",
+          "url": "https://rootz.so/d/wO4P2",
+          "version": "01.000.004",
+          "fileName": "[DLPSGAME.COM]-PPSA06699 Backport 4.xx By baderlink.zip",
+          "mirror": "Rootz"
         }
       ],
+      "sizeBytes": 787480576,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU · Backport 4.xx"
+        "exFAT · Backport"
       ],
       "fileFormat": [
-        "exFAT",
-        "APR-EMU",
-        "Backport 4.xx",
         "Backport",
-        "RAR"
+        "exFAT",
+        "Backport 4.xx",
+        "RAR",
+        "ZIP"
       ],
-      "sizeBytes": 745537536,
-      "_enrichedAt": "2026-08-19T04:32:56.579926+00:00",
+      "_enrichedAt": "2026-08-23T04:43:51.688946+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "mothmen-1966",
-        "rawgName": "Mothmen 1966",
-        "rating": 0.0,
+        "rawgSlug": "hot-shots-golf-2",
+        "rawgName": "Hot Shots Golf 2",
+        "rating": 3.67,
         "metacritic": null,
-        "released": "2022-07-13",
+        "released": "1999-07-29",
         "genres": [
-          "Indie",
-          "Adventure"
-        ]
+          "Simulation",
+          "Sports"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/e59/e59c0f47261587323dc4d58ab78e5216.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:37:19.137318+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:58:13.224057+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · APR-EMU · Backport 4.xx"
+      "formatLabel": "exFAT · Backport"
     },
     {
       "titleId": "PPSA21444",
@@ -180,62 +242,81 @@
       "version": "03.000.000",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8npi.jpg",
-      "description": "Format: exFAT · PKG · Backport 4.xx\nTags: PPSA21444, v3.000.000, 4.xx, 9.xx, USA\nSize: 1 GB\nBP = Backport",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA21444, v3.000.000, 4.xx, 9.xx, USA\nSize: 1 GB\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[PKG · USA] Mediafire",
+          "name": "[BP 4.xx]",
+          "url": "https://akirabox.com/EL73g0NEKz9B/file",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://vikingfile.com/f/9hC8VLfEuw",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://datanodes.to/gowv4xi2m2vd",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1395864371,
+          "mirror": "Data"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://filekeeper.net/1kjjus28jn07",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1395864371,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://datavaults.co/pf0rm89zp3zv",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA21444 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[PKG · USA]",
           "url": "https://www.mediafire.com/file/ohoex3bj21mtgit/[DLPSGAME.COM]-PPSA21444.rar/file",
           "group": "Standard",
           "version": "03.000.000",
           "region": "USA",
-          "editionId": "PPSA21444"
+          "editionId": "PPSA21444",
+          "fileName": "[DLPSGAME.COM]-PPSA21444.rar",
+          "mirror": "Mediafire"
         },
         {
-          "name": "[exFAT · USA · v2.000] Akia",
+          "name": "[exFAT · USA · v2.000]",
           "url": "https://akirabox.com/ZvqzlvEb6maD/file",
           "group": "exFAT",
           "version": "02.000.000",
           "region": "USA",
-          "editionId": "PPSA21444"
-        },
-        {
-          "name": "[BP 4.xx] Akia",
-          "url": "https://akirabox.com/EL73g0NEKz9B/file",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[BP 4.xx] Viki",
-          "url": "https://vikingfile.com/f/9hC8VLfEuw",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[BP 4.xx] Data",
-          "url": "https://datanodes.to/gowv4xi2m2vd",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[BP 4.xx] Filek",
-          "url": "https://filekeeper.net/1kjjus28jn07",
-          "group": "Backport 4.xx"
-        },
-        {
-          "name": "[BP 4.xx] Vault",
-          "url": "https://datavaults.co/pf0rm89zp3zv",
-          "group": "Backport 4.xx"
+          "editionId": "PPSA21444",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
+          "mirror": "Akia"
         }
       ],
+      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG · Backport 4.xx"
+        "exFAT · PKG · Backport"
       ],
       "fileFormat": [
+        "Backport",
         "exFAT",
         "RAR",
         "Backport 4.xx",
-        "Backport",
         "PKG"
       ],
-      "sizeBytes": 1073741824,
       "_enrichedAt": "2026-08-23T04:43:46.463728+00:00",
       "_rawgMatched": true,
       "metadata": {
@@ -251,7 +332,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:36:10.884374+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG · Backport 4.xx"
+      "formatLabel": "exFAT · PKG · Backport"
     }
   ]
 }
