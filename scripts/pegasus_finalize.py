@@ -208,6 +208,35 @@ def marques_du_nom(nom) -> set:
     return trouve
 
 
+def format_du_nom(nom):
+    """Le format de CONTENANT que le nom de fichier AFFIRME : exFAT, FPKG, PKG.
+
+    Rend None quand il ne dit rien — on ne devine pas. C'est la difference avec
+    marques_du_nom, qui rend des mentions cumulables (DLC, Fix) ; ici les trois
+    valeurs s'excluent : un fichier est une image exFAT OU un paquet.
+
+    Pourquoi lire au lieu de deduire. « Backport implique exFAT » etait vrai a
+    621 releves sur 621, puis a 1359 sur 1359 — mais la mesure du 2026-08-30 sur
+    les 3020 liens de section Backport trouve 1626 noms qui disent exFAT et UN
+    qui dit FPKG. Un seul contre-exemple suffit : un backport est compatible
+    exFAT comme FPKG, le format se lit, il ne se postule pas.
+
+    FPKG est teste AVANT PKG : le mot contient l'autre, et l'ordre inverse
+    ferait passer tous les FPKG pour des PKG.
+    """
+    b = (nom or "").lower()
+    if not b:
+        return None
+    if ".exfat" in b or re.search("(^|[^a-z])exfat([^a-z]|$)", b):
+        return "exFAT"
+    if re.search("(^|[^a-z])fpkg([^a-z]|$)|[.]fpkg", b):
+        return "FPKG"
+    if re.search("(^|[^a-z])pkg([^a-z]|$)|[.]pkg", b):
+        return "PKG"
+    return None
+
+
+
 _REGIONS = ("EUR", "USA", "JPN", "JAP", "ASIA", "KOR", "CHN", "HK")
 
 
@@ -718,6 +747,10 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # l'etiquette dit PKG » — 652 des 664 ecarts mesures. Exemples :
         #   « …Ghost of Tsushima V02.024 Backport 4.XX By BA » -> [PKG · v2.024]
         #   « PPSA08135.exfat »                                -> [PKG]
+        taille = link.get("sizeBytes")
+        classe = classer_par_nom(link.get("fileName"))
+        if classe == "inconnu" and isinstance(taille, (int, float)) and taille > 0:
+            classe = "correctif" if taille < SEUIL_CORRECTIF else "jeu"
         _marques = marques_du_nom(link.get("fileName"))
         for _marque in ("DLC", "Fix"):
             if _marque in _marques and _marque not in link_fmt:
@@ -729,14 +762,29 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # exFAT n'est pas une mention a AJOUTER a cote de PKG : les deux se
         # contredisent. Le nom de fichier tranche — il porte l'extension reelle
         # du contenu, la section porte le classement de la page.
-        if "exFAT" in _marques and "exFAT" not in link_fmt:
-            if "PKG" in link_fmt:
-                link_fmt = link_fmt.replace("FPKG", "exFAT").replace("PKG", "exFAT")
-            elif "BP" not in link_fmt and "Backport" not in link_fmt:
-                # Sous BP on n'ecrit RIEN : le backport implique exFAT, 621
-                # releves sur 621, aucun PKG. « BP · exFAT » coute huit
-                # caracteres pour ne rien apprendre, dans une boite de 180 px.
-                link_fmt = f"{link_fmt} · exFAT" if link_fmt else "exFAT"
+        # LE FORMAT SE LIT, IL NE SE DEDUIT PAS. « Backport implique exFAT »
+        # tenait a 1359 releves sur 1359 — puis un backport FPKG est apparu. Un
+        # seul contre-exemple suffit : BP est compatible exFAT comme FPKG, donc
+        # on ecrit le format quand le NOM DE FICHIER l'affirme, et rien sinon.
+        _fmt_verifie = format_du_nom(link.get("fileName"))
+        if _fmt_verifie and _fmt_verifie not in link_fmt:
+            _contenant = ("FPKG" if "FPKG" in link_fmt
+                          else "PKG" if "PKG" in link_fmt
+                          else "exFAT" if "exFAT" in link_fmt else "")
+            if _contenant:
+                # L'etiquette annonce un AUTRE contenant : les deux se
+                # contredisent, et c'est le nom qui tranche — il porte
+                # l'extension reelle quand la section porte le classement.
+                link_fmt = link_fmt.replace(_contenant, _fmt_verifie)
+            elif "BP" in link_fmt or "Backport" in link_fmt:
+                # Sous BP, le format ne s'ecrit que sur le JEU. En dessous du
+                # seuil c'est le binaire a deposer dans le dossier : son
+                # etiquette porte deja sa taille, qui en dit plus long. Mesure
+                # du 2026-08-30 : 1563 BP au-dessus du seuil, 217 en dessous.
+                if classe != "correctif":
+                    link_fmt = f"{link_fmt} · {_fmt_verifie}"
+            else:
+                link_fmt = f"{link_fmt} · {_fmt_verifie}" if link_fmt else _fmt_verifie
         # Un BP sous le seuil est le BINAIRE a deposer dans le dossier du jeu,
         # pas le jeu : on affiche sa taille, qui le dit sans legende. Au-dessus,
         # c'est le jeu — la fiche porte deja sa taille et les pixels sont
@@ -745,10 +793,6 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # 81 % des cas a 99 % d'exactitude (1206 liens de controle) ; la taille
         # ne tranche que 60 % et depend d'un seuil statistique. Le nom prime
         # donc, et la taille ne sert qu'a departager ce qu'il laisse « inconnu ».
-        taille = link.get("sizeBytes")
-        classe = classer_par_nom(link.get("fileName"))
-        if classe == "inconnu" and isinstance(taille, (int, float)) and taille > 0:
-            classe = "correctif" if taille < SEUIL_CORRECTIF else "jeu"
         if "BP" in link_fmt and classe == "correctif":
             # La taille si on l'a — elle dit tout sans legende ; sinon « fix »,
             # qui dit au moins que ce n'est pas le jeu.

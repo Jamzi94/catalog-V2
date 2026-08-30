@@ -150,7 +150,15 @@ assert noms[0] == "[BP · 91 Mo]", noms
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
                "version": "01.000", "sizeBytes": 300 * Mo,
                "fileName": "PPSA31246.exfat"}])
-assert noms[0] == "[BP]", noms
+# DECISION du 2026-08-30, demandee par l'utilisateur : « BP implique exFAT, tu
+# peux ajouter exfat pour plus de lisibilite si le format du backport est
+# exfat et superieur a la limite differenciant le fix/bin du jeu ». L'attente
+# etait « [BP] » sous la regle precedente, qui n'ecrivait JAMAIS le format
+# sous BP au motif qu'il etait implique. Il ne l'est pas : un backport FPKG
+# existe dans le catalogue, et un seul contre-exemple suffit a interdire la
+# deduction. Ici le nom dit exFAT et classer_par_nom dit « jeu » malgre les
+# 300 Mo — le nom prime sur la taille, 81 % des cas a 99 % contre 60 %.
+assert noms[0] == "[BP · exFAT]", noms
 
 # TEMOIN NEGATIF — un nom muet ne fait rien basculer : la taille reprend la main.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
