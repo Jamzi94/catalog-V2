@@ -41,6 +41,21 @@ REAL_TITLEID_RE = re.compile(r"^[A-Z]{4}\d{3,}$")
 # catalogue du 2026-08-27 : 878 titres portes par 1 fiche, 57 par 2, puis
 # directement 1 titre porte par 15. Aucune zone grise autour du seuil.
 SEUIL_LIBELLE_EMPRUNTE = 3
+# CE SEUIL NE DECIDE PAS, IL PROPOSE. Mesure du 2026-08-30, une fois les CyB1K
+# renommes : la distribution est devenue {1 titleId : 862 titres, 2 : 75,
+# 3 : 1} — et l'unique titre porte par 3 titleId REELS est « Tactics Ogre:
+# Reborn », un vrai jeu en trois SKU regionaux. Le seuil ne produit donc plus
+# aujourd'hui qu'un faux positif sur un.
+#
+# J'ai cherche un meilleur discriminant et je l'ai REFUTE : l'idee que des
+# editions regionales portent des titleId proches ne tient pas. Ecarts mesures
+# entre porteurs d'un meme titre, tous de vrais jeux : 1, 2, 22, 360, 901,
+# 4799, 5901, 15263, et 16384 pour « Horizon Forbidden West Complete Edition ».
+# La proximite numerique ne dit rien.
+#
+# Le seul discriminant fiable est Sony, et il est DEJA interroge : si le nom
+# officiel egale le titre courant, le libelle n'etait pas emprunte — c'est un
+# jeu multi-SKU, on ne touche a rien. Voir la boucle de main().
 # Libelles deja pris la main dans le sac. Le seuil ci-dessus s'evalue sur l'etat
 # COURANT du catalogue : une fois ses jumelles renommees, la derniere fiche
 # portant le meme libelle n'est plus portee que par 1 titleId et passe sous le
@@ -157,7 +172,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     cache: dict = {}
-    renommees = echecs = 0
+    renommees = echecs = confirmees = 0
     for pkg in packages:
         tid = (pkg.get("titleId") or "").strip().upper()
         if tid not in a_faire:
@@ -167,6 +182,13 @@ def main(argv: list[str] | None = None) -> int:
             echecs += 1
             print(f"  {tid or '(vide)'} : NON RENOMMEE ({a_faire[tid]}) — "
                   f"titre laisse tel quel : {pkg.get('title')!r}")
+            continue
+        if nom == (pkg.get("title") or "").strip():
+            # Sony confirme le titre courant : le seuil avait propose a tort.
+            # Un jeu en plusieurs SKU regionaux partage legitimement son nom.
+            print(f"  {tid} : {nom!r} confirme par Sony — inchange "
+                  f"[proposee par : {a_faire[tid]}]")
+            confirmees += 1
             continue
         print(f"  {tid} : {pkg.get('title')!r} -> {nom!r}   [{a_faire[tid]}]")
         if not args.dry_run:
@@ -190,8 +212,8 @@ def main(argv: list[str] | None = None) -> int:
                 pkg["title"] = nom
                 renommees += 1
                 echecs -= 1
-    print(f"\n{renommees} renommee(s), {echecs} laissee(s) en l'etat "
-          f"(pas de titleId exploitable ou source muette)")
+    print(f"\n{renommees} renommee(s), {confirmees} confirmee(s) par Sony donc inchangee(s), "
+          f"{echecs} laissee(s) en l'etat (pas de titleId exploitable ou source muette)")
     if args.dry_run:
         print("--dry-run : rien n'a ete ecrit")
         return 0
