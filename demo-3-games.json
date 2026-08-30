@@ -3,336 +3,362 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA16018",
-      "title": "Double Dragon Gaiden Rise of The Dragons",
+      "titleId": "PPSA13557",
+      "title": "VR Skater",
       "version": "01.013",
       "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/06/1-vff.jpg",
-      "description": "Format: exFAT · PKG\nTags: PPSA16018, v1.013, 7.xx, 6.xx, EUR\nSize: 1 GB",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zh1.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA13557, v1.013, 6.xx\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[PKG · APR-EMU · USA]",
-          "url": "https://akirabox.com/l76mZNw47man/file",
+          "name": "[Folder · EUR] #01",
+          "url": "https://vikingfile.com/f/QIylefoOGV",
           "group": "Standard",
           "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
-          "sizeBytes": 572092579,
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "[DLPSGAME.COM]-PPSA13557-app0.rar",
+          "sizeBytes": 17201344020,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[Folder · EUR] #01",
+          "url": "https://1fichier.com/?o1szuys3hoa1cytfvm5h",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "1File"
+        },
+        {
+          "name": "[Folder · EUR] #01",
+          "url": "https://rootz.so/d/1pUjk8",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "[DLPSGAME.COM]-PPSA13557-app0.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[Folder · EUR] #01",
+          "url": "https://akirabox.com/jJD3VvV2l3a5/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
           "mirror": "Akia"
         },
         {
-          "name": "[PKG · APR-EMU · USA]",
-          "url": "https://filekeeper.net/lycsckknhrnh/[DLPSGAME.COM]-PPSA16018.rar",
+          "name": "[Folder · EUR] #02",
+          "url": "https://vikingfile.com/f/kkU5cmRpqK",
           "group": "Standard",
           "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
-          "sizeBytes": 572103065,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[PKG · APR-EMU · USA]",
-          "url": "https://vikingfile.com/f/O0hdwfveNZ",
-          "group": "Standard",
-          "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "01.013 PPSA13557-[DLPSGAME.COM].rar",
           "mirror": "Viki"
         },
         {
-          "name": "[PKG · APR-EMU · USA]",
-          "url": "https://1fichier.com/?a8614k23u46d3665mdbo",
+          "name": "[Folder · EUR] #02",
+          "url": "https://1fichier.com/?6oqp38e2lm4jeayshtyu",
           "group": "Standard",
           "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
+          "region": "EUR",
+          "editionId": "PPSA13557",
           "mirror": "1File"
         },
         {
-          "name": "[PKG · APR-EMU · USA]",
-          "url": "https://gofile.io/d/34h98J",
+          "name": "[BP · 69 Mo · EUR] #01",
+          "url": "https://www.mediafire.com/file/avar230khrv02vq/4_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
           "group": "Standard",
           "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "mirror": "Gofile"
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "4_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 72529570,
+          "mirror": "Mediafire"
         },
         {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://link-vault.org/c/klmfkv8n",
+          "name": "[Folder · EUR] #02",
+          "url": "https://akirabox.com/rk9zKlOVZG0l/file",
           "group": "Standard",
           "version": "01.013",
-          "mirror": "Multihost"
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "Akia"
         },
         {
-          "name": "[exFAT · v1.000]",
-          "url": "https://vikingfile.com/f/aCNcX47wq1",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
+          "name": "[Folder · EUR] #03",
+          "url": "https://vikingfile.com/f/1WCpvzYh0C",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "4_XX PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Viki"
         },
         {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://rootz.so/d/4rNOy",
+          "name": "[Folder · EUR] #03",
+          "url": "https://1fichier.com/?tulmscys1kbd0hga4dok",
+          "group": "Standard",
           "version": "01.013",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "1File"
+        },
+        {
+          "name": "[Folder · EUR] #02",
+          "url": "https://www.rootz.so/d/2AAPVA",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "4_XX PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Rootz"
         },
         {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://datanodes.to/hhnqvjrpv7sq",
+          "name": "[BP · 69 Mo · EUR] #02",
+          "url": "https://www.mediafire.com/file/lx86n21akui73gv/5_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "group": "Standard",
           "version": "01.013",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
-          "sizeBytes": 572103065,
-          "mirror": "Data"
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "5_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 72529567,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[Folder · EUR] #03",
+          "url": "https://akirabox.com/l76mZDkKnzan/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[Folder · EUR] #04",
+          "url": "https://vikingfile.com/f/cXQTuIedcX",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "5_XX PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[Folder · EUR] #04",
+          "url": "https://1fichier.com/?7otzc0dxrgofe80904ir",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "1File"
+        },
+        {
+          "name": "[Folder · EUR] #03",
+          "url": "https://www.rootz.so/d/tSJwO",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "5_XX PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[Folder · DLC]",
+          "url": "https://vikingfile.com/f/deUSxR3mUK",
+          "group": "Standard",
+          "version": "01.013",
+          "fileName": "VR.Skater.incl.DLC.VR2.PS5-DUPLEX.part1.rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[Folder · DLC]",
+          "url": "https://www.rootz.so/d/KSliy",
+          "group": "Standard",
+          "version": "01.013",
+          "fileName": "VR.Skater.incl.DLC.VR2.PS5-DUPLEX.part1.rar",
+          "mirror": "Rootz"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG"
+        "Folder · Backport 4.xx"
       ],
       "fileFormat": [
-        "exFAT",
-        "APR-EMU",
-        "RAR",
-        "PKG"
-      ],
-      "sizeBytes": 1073741824,
-      "_enrichedAt": "2026-08-01T05:58:22.437129+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "double-dragon-gaiden-rise-of-the-dragons",
-        "rawgName": "Double Dragon Gaiden: Rise Of The Dragons",
-        "rating": 3.5,
-        "metacritic": null,
-        "released": "2023-07-27",
-        "genres": [
-          "Adventure",
-          "Action",
-          "Fighting",
-          "Casual",
-          "Family"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/ffd/ffdc61d95936afb2aacbe26dfdc0e73b.jpg"
-      },
-      "formatLabel": "exFAT · PKG"
-    },
-    {
-      "titleId": "PPSA06699",
-      "title": "Everybodys Golf 2",
-      "version": "01.000.004",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9qpn.jpg",
-      "description": "Format: exFAT · Backport\nTags: PPSA06699, v1.004, 4.xx, USA\nSize: 751 MB\nBP = Backport",
-      "downloadLinks": [
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://akirabox.com/QN9mEq687m6d/file",
-          "group": "Backport 4.xx",
-          "mirror": "Akia",
-          "fileName": "PPSA06699.exfat",
-          "sizeBytes": 787480576
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://vikingfile.com/f/VQhBzhgvuh",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA06699.exfat",
-          "sizeBytes": 787480576,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://datanodes.to/lpmkq80yag3j",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA06699.exfat",
-          "sizeBytes": 787480576,
-          "mirror": "Data"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://filekeeper.net/cjyih8c56n51",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA06699.exfat",
-          "sizeBytes": 787480576,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://datavaults.co/vncxbzln1i6p",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA06699 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[exFAT · BP · 324 Mo · v1.004]",
-          "url": "https://www.mediafire.com/file/nyrtwfi3hjn9q0c/[DLPSGAME.COM]-PPSA06699-app0.rar/file",
-          "version": "01.004",
-          "fileName": "[DLPSGAME.COM]-PPSA06699-app0.rar",
-          "sizeBytes": 340148578,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[BP 4.xx · 3 Mo]",
-          "url": "https://www.mediafire.com/file/xzea5twwwkselo1/[DLPSGAME.COM]-PPSA06699+Backport+4.xx+By+baderlink.zip/file",
-          "version": "01.000.004",
-          "fileName": "[DLPSGAME.COM]-PPSA06699+Backport+4.xx+By+baderlink.zip",
-          "sizeBytes": 2926760,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[exFAT · BP · 3 Mo]",
-          "url": "https://vikingfile.com/f/wElHmJaIcp",
-          "version": "01.000.004",
-          "fileName": "[DLPSGAME.COM]-PPSA06699 Backport 4.xx By baderlink.zip",
-          "sizeBytes": 2925527,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[exFAT · BP]",
-          "url": "https://1fichier.com/?72pge2ro1228cx6nz2s0",
-          "version": "01.000.004",
-          "mirror": "1File"
-        },
-        {
-          "name": "[exFAT · BP · fix]",
-          "url": "https://rootz.so/d/wO4P2",
-          "version": "01.000.004",
-          "fileName": "[DLPSGAME.COM]-PPSA06699 Backport 4.xx By baderlink.zip",
-          "mirror": "Rootz"
-        }
-      ],
-      "sizeBytes": 787480576,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "exFAT",
+        "Folder",
+        "ZIP",
         "Backport 4.xx",
-        "RAR",
-        "ZIP"
+        "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-08-23T04:43:51.688946+00:00",
+      "sizeBytes": 72529570,
+      "_enrichedAt": "2026-08-19T04:33:34.303172+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "hot-shots-golf-2",
-        "rawgName": "Hot Shots Golf 2",
-        "rating": 3.67,
+        "rawgSlug": "vr-skater",
+        "rawgName": "VR Skater",
+        "rating": 0.0,
         "metacritic": null,
-        "released": "1999-07-29",
+        "released": "2021-04-30",
         "genres": [
+          "Racing",
+          "Action",
           "Simulation",
-          "Sports"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/e59/e59c0f47261587323dc4d58ab78e5216.jpg"
+          "Sports",
+          "Indie"
+        ]
       },
-      "_igdbEnrichedAt": "2026-06-28T21:58:13.224057+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:57:34.573331+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · Backport"
+      "formatLabel": "Folder · Backport 4.xx"
     },
     {
-      "titleId": "PPSA21444",
-      "title": "DOOM + DOOM II",
-      "version": "03.000.000",
+      "titleId": "PPSA17163",
+      "title": "Jets N Guns 2",
+      "version": "01.002",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8npi.jpg",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA21444, v3.000.000, 4.xx, 9.xx, USA\nSize: 1 GB\nBP = Backport",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Jets_N_Guns_2.avif",
+      "description": "Format: exFAT · Folder · Backport\nTags: PPSA17163, v01.002, EUR\nSize: 500 MB\nPassword: SuperPSX\nVoices: English\nWorks on 12.xx to 7.xxGame Extracted Size 1 GB\nBP = Backport",
       "downloadLinks": [
         {
           "name": "[BP 4.xx]",
-          "url": "https://akirabox.com/EL73g0NEKz9B/file",
+          "url": "https://akirabox.com/vgKGxXOj6G8Q/file",
           "group": "Backport 4.xx",
-          "fileName": "PPSA21444.exfat",
-          "sizeBytes": 1352914698,
           "mirror": "Akia"
         },
         {
           "name": "[BP 4.xx]",
-          "url": "https://vikingfile.com/f/9hC8VLfEuw",
+          "url": "https://vikingfile.com/f/7tmV1RMxVi",
           "group": "Backport 4.xx",
-          "fileName": "PPSA21444.exfat",
-          "sizeBytes": 1352914698,
+          "fileName": "PPSA17163.exfat",
+          "sizeBytes": 779091968,
           "mirror": "Viki"
         },
         {
           "name": "[BP 4.xx]",
-          "url": "https://datanodes.to/gowv4xi2m2vd",
+          "url": "https://datanodes.to/zru0j48r0xpq",
           "group": "Backport 4.xx",
-          "fileName": "PPSA21444.exfat",
-          "sizeBytes": 1395864371,
+          "fileName": "PPSA17163.exfat",
+          "sizeBytes": 779091968,
           "mirror": "Data"
         },
         {
           "name": "[BP 4.xx]",
-          "url": "https://filekeeper.net/1kjjus28jn07",
+          "url": "https://filekeeper.net/x20ktgyaj2zn",
           "group": "Backport 4.xx",
-          "fileName": "PPSA21444.exfat",
-          "sizeBytes": 1395864371,
+          "fileName": "PPSA17163.exfat",
+          "sizeBytes": 779091968,
           "mirror": "Filek"
         },
         {
           "name": "[BP 4.xx]",
-          "url": "https://datavaults.co/pf0rm89zp3zv",
+          "url": "https://datavaults.co/vtegr4thstqz",
           "group": "Backport 4.xx",
-          "fileName": "PPSA21444 exfat",
+          "fileName": "PPSA17163 exfat",
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · USA]",
-          "url": "https://www.mediafire.com/file/ohoex3bj21mtgit/[DLPSGAME.COM]-PPSA21444.rar/file",
+          "name": "[PKG · Folder · EUR]",
+          "url": "https://vikingfile.com/f/fUKtztFOHR",
           "group": "Standard",
-          "version": "03.000.000",
-          "region": "USA",
-          "editionId": "PPSA21444",
-          "fileName": "[DLPSGAME.COM]-PPSA21444.rar",
-          "mirror": "Mediafire"
+          "version": "01.002",
+          "fileName": "[SuperPSX]-Jets.n.Guns.2-PPSA17163-EUR-Game (v01.002)-PS5.rar",
+          "mirror": "Viki"
         },
         {
-          "name": "[exFAT · USA · v2.000]",
-          "url": "https://akirabox.com/ZvqzlvEb6maD/file",
-          "group": "exFAT",
-          "version": "02.000.000",
-          "region": "USA",
-          "editionId": "PPSA21444",
-          "fileName": "PPSA21444.exfat",
-          "sizeBytes": 1352914698,
-          "mirror": "Akia"
+          "name": "[PKG · Folder · EUR] #01",
+          "url": "https://www.rootz.so/d/1Da95M",
+          "group": "Standard",
+          "version": "01.002",
+          "fileName": "[SuperPSX]-Jets.n.Guns.2-PPSA17163-EUR-Game (v01.002)-PS5.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[PKG · Folder]",
+          "url": "https://1fichier.com/?0hqruiof4ydgy3if74hz&af=4186346",
+          "group": "Standard",
+          "version": "01.002",
+          "mirror": "1File"
+        },
+        {
+          "name": "[PKG · Folder · EUR] #02",
+          "url": "https://www.rootz.so/d/7PfJQ",
+          "group": "Standard",
+          "version": "01.002",
+          "region": "EUR",
+          "editionId": "PPSA17163",
+          "fileName": "[DLPSGAME.COM]-PPSA17163.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[PKG · Folder · EUR]",
+          "url": "https://filekeeper.net/o8iyttss4b89/[DLPSGAME.COM]-PPSA17163.rar",
+          "group": "Standard",
+          "version": "01.002",
+          "region": "EUR",
+          "editionId": "PPSA17163",
+          "fileName": "[DLPSGAME.COM]-PPSA17163.rar",
+          "sizeBytes": 468398899,
+          "mirror": "Filek"
         }
       ],
-      "sizeBytes": 1073741824,
+      "sizeBytes": 779091968,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG · Backport"
+        "exFAT · Folder · Backport"
       ],
       "fileFormat": [
         "Backport",
+        "Folder",
+        "PKG",
         "exFAT",
         "RAR",
-        "Backport 4.xx",
-        "PKG"
+        "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-08-23T04:43:46.463728+00:00",
-      "_rawgMatched": true,
+      "_enrichedAt": "2026-08-19T04:32:10.146932+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "exFAT · Folder · Backport"
+    },
+    {
+      "titleId": "PPSA02800",
+      "title": "3D Billiards Pool and Snooker Remastered",
+      "version": "01.002",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kft.jpg",
+      "description": "Format: APR-EMU\nTags: PPSA02800, v1.002, 3.xx",
+      "downloadLinks": [
+        {
+          "name": "[APR-EMU]",
+          "url": "https://www.mediafire.com/file/k5dqeo54wto62j8/[DLPSGAME.COM]-PPSA02800-Game+(v01.002)+[APR-EMU].rar/file",
+          "version": "01.002",
+          "fileName": "[DLPSGAME.COM]-PPSA02800-Game+(v01.002)+[APR-EMU].rar",
+          "mirror": "Mediafire"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "APR-EMU"
+      ],
+      "fileFormat": [
+        "APR-EMU",
+        "RAR"
+      ],
+      "sizeBytes": 685521178,
+      "_enrichedAt": "2026-08-19T04:32:20.323273+00:00",
+      "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "doom-doom-ii",
-        "rawgName": "DOOM + DOOM II",
+        "rawgSlug": "3d-billiards-pool-snooker",
+        "rawgName": "3D Billiards - Pool & Snooker",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2024-08-07",
-        "genres": [
-          "Shooter"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/5bc/5bc3cf26b8de154b549a03b2e061e292.jpg"
+        "released": "2018-11-29",
+        "genres": []
       },
-      "_igdbEnrichedAt": "2026-06-28T21:36:10.884374+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:35:13.258605+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG · Backport"
+      "formatLabel": "APR-EMU"
     }
   ]
 }
