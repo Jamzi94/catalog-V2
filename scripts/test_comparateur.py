@@ -59,7 +59,17 @@ assert comparer("Jeu V1.005 PPSA00001.rar", "[v01.031 · PKG]") != []
 # et AUCUN ne dit PKG. Reprocher l'absence de la mention est de la sur-detection
 # — 618 des ecarts. On passe donc la section au comparateur.
 assert comparer("PPSA31246.exfat", "[BP 4.xx]", group="Backport 4.xx") == []
-assert comparer("PPSA31246.exfat", "[BP]", group="Backport") != []   # sans N.xx : rien n'est implique
+# DECISION du 2026-08-30 : « Backport » NU implique aussi. L'attente etait
+# « sans N.xx rien n'est implique » ; la mesure dit autre chose. Sur les 403
+# liens de section « Backport » nu dont le nom est releve : 26 disent exFAT,
+# 377 se taisent, et AUCUN ne dit PKG — comme pour les 1638 de « Backport
+# N.xx » (1359 exFAT, 279 muets, 0 PKG). Ne pas reclamer la mention ne masque
+# donc aucun cas ou le fichier dirait autre chose. Cote code, la contrepartie
+# est ecrite : pegasus_finalize s'abstient d'ajouter « exFAT » sous une
+# etiquette BP, ou il ne ferait que couter huit caracteres.
+assert comparer("PPSA31246.exfat", "[BP]", group="Backport") == []
+# Le baillon reste ouvert dans les DEUX formes : un fichier qui dit PKG sort.
+assert comparer("Jeu-PKG-PS5.pkg", "[BP]", group="Backport") != []
 
 # TEMOIN DE DENTS — la regle ne doit pas etre un baillon. Un fichier qui dit PKG
 # sous une section Backport N.xx est une VRAIE contradiction et doit sortir.

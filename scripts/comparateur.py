@@ -93,7 +93,11 @@ def comparer(nom_fichier: str, etiquette: str, group: str = "") -> list:
     """
     f, e = lire_nom(nom_fichier), lire_etiquette(etiquette)
     ecarts = []
-    implique_exfat = bool(re.match(r"(?i)backport\s*\d", (group or "").strip()))
+    # « Backport 4.xx » ET « Backport » nu impliquent l'un comme l'autre
+    # exFAT — 621 releves sur 621, aucun PKG. N'accepter que la forme avec
+    # numero faisait reclamer « mention exFAT absente » sur des etiquettes
+    # ou pegasus_finalize s'abstient volontairement de l'ecrire.
+    implique_exfat = bool(re.match(r"(?i)back[\s._-]?por[tk]", (group or "").strip()))
     if "formats" in f and "formats" in e:
         # exFAT et PKG se contredisent ; Backport/DLC/Fix se cumulent avec un
         # format de paquet, donc on ne compare que la famille « contenant ».

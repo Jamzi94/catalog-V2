@@ -708,12 +708,35 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # 41 des 43 dont on connait le nom disent DLC dans le fichier. Le nom
         # AJOUTE, il ne retire jamais : l'etiquette dit DLC 126 fois la ou le
         # nom se tait, et c'est la source qui le sait.
-        # On n'ajoute PAS « exFAT » ni « Backport » ici : le premier est
-        # implique par « BP N.xx » (621 releves sur 621, aucun PKG) et le second
-        # vient deja de la section, mieux renseignee (2407 contre 1313).
+        # Backport et exFAT ont longtemps ete ecartes ici, sur cet argument :
+        # « le premier est implique par BP N.xx (621 releves sur 621), le
+        # second vient deja de la section, mieux renseignee (2407 contre
+        # 1313) ». L'argument compare des VOLUMES et ne dit rien du cas ou la
+        # section SE TAIT et le nom PARLE. Confrontation du 2026-08-30 des
+        # 6507 liens comparables a leur nom de fichier : 551 contradictions
+        # « mention Backport absente » et 101 « le fichier dit exFAT, 
+        # l'etiquette dit PKG » — 652 des 664 ecarts mesures. Exemples :
+        #   « …Ghost of Tsushima V02.024 Backport 4.XX By BA » -> [PKG · v2.024]
+        #   « PPSA08135.exfat »                                -> [PKG]
+        _marques = marques_du_nom(link.get("fileName"))
         for _marque in ("DLC", "Fix"):
-            if _marque in marques_du_nom(link.get("fileName")) and _marque not in link_fmt:
+            if _marque in _marques and _marque not in link_fmt:
                 link_fmt = f"{link_fmt} · {_marque}" if link_fmt else _marque
+        # L'etiquette abrege Backport en BP : chercher les DEUX formes, sinon
+        # on recolle la mention sur une etiquette qui la porte deja.
+        if "Backport" in _marques and "BP" not in link_fmt and "Backport" not in link_fmt:
+            link_fmt = f"{link_fmt} · BP" if link_fmt else "BP"
+        # exFAT n'est pas une mention a AJOUTER a cote de PKG : les deux se
+        # contredisent. Le nom de fichier tranche — il porte l'extension reelle
+        # du contenu, la section porte le classement de la page.
+        if "exFAT" in _marques and "exFAT" not in link_fmt:
+            if "PKG" in link_fmt:
+                link_fmt = link_fmt.replace("FPKG", "exFAT").replace("PKG", "exFAT")
+            elif "BP" not in link_fmt and "Backport" not in link_fmt:
+                # Sous BP on n'ecrit RIEN : le backport implique exFAT, 621
+                # releves sur 621, aucun PKG. « BP · exFAT » coute huit
+                # caracteres pour ne rien apprendre, dans une boite de 180 px.
+                link_fmt = f"{link_fmt} · exFAT" if link_fmt else "exFAT"
         # Un BP sous le seuil est le BINAIRE a deposer dans le dossier du jeu,
         # pas le jeu : on affiche sa taille, qui le dit sans legende. Au-dessus,
         # c'est le jeu — la fiche porte deja sa taille et les pixels sont
