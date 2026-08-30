@@ -636,13 +636,17 @@ jobs:
           # Le pool FlareSolverr est libre depuis « Scrape SuperPSX » : akirabox
           # et buzzheavier partent MAINTENANT, en parallele l'un de l'autre.
           # buzzheavier prend ses 243 liens en UN lot depuis le 2026-08-30 : la
-          # sonde de 60 a rendu 13 noms, et la capture au navigateur de 8 pages
-          # a montre que les non-nommees etaient des 404 REELS, pas des echecs
-          # de lecture. Le budget de 60 mesurait surtout son propre plafond.
+          # buzzheavier LIMITE LE DEBIT, mesure du 2026-08-30 : 39 pages tirees
+          # d'affilee au navigateur rendent 20 x HTTP 404 (fichiers morts),
+          # 17 x HTTP 429 « Too Many Requests » et 2 x 200. Les 429 venaient de
+          # MON balayage, pas du site : c'est le debit qui plafonnait le taux a
+          # 46 noms sur 217, pas le parseur ni des liens morts. D'ou deux fils
+          # et une pause d'une seconde et demie, contre cinq fils sans pause.
+          # akirabox, lui, ne montre pas ce comportement et reste a cinq.
           if [ -f catalogue-au-depart.json ]; then
             nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json --max 400                   --releves releve-akirabox.json > log-releve-akirabox.txt 2>&1 &
             echo $! > releve-akirabox.pid
-            nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json                   --hotes buzzheavier --max 250                   --releves releve-buzzheavier.json > log-releve-buzz.txt 2>&1 &
+            nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json                   --hotes buzzheavier --max 250 --fils 2 --pause 1.5                   --releves releve-buzzheavier.json > log-releve-buzz.txt 2>&1 &
             echo $! > releve-buzz.pid
           fi
           for n in lisibles akirabox buzz; do
