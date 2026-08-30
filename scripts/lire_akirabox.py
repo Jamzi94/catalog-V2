@@ -17,7 +17,17 @@ défi Cloudflare que seul un vrai navigateur *non instrumenté* franchit. C'est
 exactement ce que résout FlareSolverr, que la CI fait déjà tourner en cinq
 instances pour SuperPSX (`flaresolverr_pool.py`).
 
-Ce module ne s'exécute donc utilement qu'en CI, ou en local si l'on renseigne
+DEUX VOIES, et la seconde a ete decouverte en capturant la page :
+
+  --navigateur : un Chrome pilote localement. Le defi Cloudflare ne se joue
+      QU'UNE FOIS PAR SESSION — mesure du 2026-08-30 : la premiere page met
+      ~18 s, la suivante s'ouvre instantanement dans le meme contexte. Un
+      balayage des 2904 liens redevient donc possible sans rien installer. Mon
+      premier essai avait conclu « bloque » parce qu'il n'attendait que 6 s :
+      l'instrument etait trop presse, pas le site infranchissable.
+  FlareSolverr : la voie de la CI, ou cinq instances tournent deja.
+
+Ce module s'execute donc en CI, ou en local si l'on renseigne
 `FLARESOLVERR_URLS`. La partie qui compte — l'ANALYSE de la page — est une
 fonction pure, `extraire_nom_taille`, testable hors ligne dès qu'on dispose
 d'une page d'exemple.
@@ -70,6 +80,20 @@ def extraire_nom_taille(page: str) -> tuple:
     """
     if not page:
         return (None, None)
+
+    # 0) og:description — l'ancre d'akirabox, relevee sur une page REELLE le
+    #    2026-08-30 apres franchissement du defi :
+    #      « Download <nom> (9.9 GB) now. Fast and easy at akirabox.com »
+    #    Elle porte le nom ET la taille, et elle est la seule du document a le
+    #    faire : le titre, lui, colle un suffixe « - Akira Box » au nom.
+    marque = "og:description" + chr(34) + " content=" + chr(34)
+    i = page.find(marque)
+    if i >= 0:
+        j = page.find(chr(34), i + len(marque))
+        desc = page[i + len(marque):j] if j > 0 else ""
+        m = re.match(r"^Download[ ]+(.*?)[ ]*\(([0-9.,]+)[ ]*([KMGT]?i?B|[KMGT]?o)\)", desc)
+        if m:
+            return (m.group(1).strip(), _octets(m.group(2), m.group(3)))
 
     # 1) og:title « nom (taille) »
     marque = "og:title" + chr(34) + " content=" + chr(34)
@@ -134,10 +158,12 @@ def main(argv: list | None = None) -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("catalog", type=Path)
     ap.add_argument("--max", type=int, default=0)
+    ap.add_argument("--navigateur", action="store_true",
+                    help="Piloter un Chrome local au lieu de FlareSolverr")
     args = ap.parse_args(argv)
 
-    pool = _pool()
-    if pool is None:
+    pool = None if args.navigateur else _pool()
+    if pool is None and not args.navigateur:
         print("FLARESOLVERR_URLS non renseigné — rien à faire ici. "
               "Ce script s'exécute en CI, où cinq instances tournent.")
         return 0
@@ -150,11 +176,31 @@ def main(argv: list | None = None) -> int:
         cibles = cibles[:args.max]
     print(f"{len(cibles)} page(s) akirabox à lire", flush=True)
 
+    navigateur = page = contexte = None
+    if args.navigateur:
+        from playwright.sync_api import sync_playwright
+        contexte = sync_playwright().start()
+        navigateur = contexte.chromium.launch(headless=True)
+        page = navigateur.new_page(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                       "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+            locale="fr-FR")
+
     noms = tailles = echecs = 0
     for i, lien in enumerate(cibles, 1):
         try:
-            reponse = pool.get(lien["url"])
-            nom, octets = extraire_nom_taille(getattr(reponse, "text", "") or "")
+            if args.navigateur:
+                page.goto(lien["url"], timeout=60000, wait_until="domcontentloaded")
+                # Le defi ne se joue qu'a la premiere page : on lui laisse le
+                # temps une fois, puis les suivantes arrivent tout de suite.
+                for _ in range(24):
+                    if "akira box" in (page.title() or "").lower():
+                        break
+                    page.wait_for_timeout(1000)
+                contenu = page.content()
+            else:
+                contenu = getattr(pool.get(lien["url"]), "text", "") or ""
+            nom, octets = extraire_nom_taille(contenu)
         except Exception:                                    # noqa: BLE001
             nom, octets = None, None
         if nom:
@@ -167,6 +213,9 @@ def main(argv: list | None = None) -> int:
             echecs += 1
         if i % 50 == 0:
             print(f"  {i}/{len(cibles)} — {noms} noms, {echecs} échecs", flush=True)
+    if navigateur is not None:
+        navigateur.close()
+        contexte.stop()
     args.catalog.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"{noms} nom(s), {tailles} taille(s), {echecs} échec(s)")
     return 0

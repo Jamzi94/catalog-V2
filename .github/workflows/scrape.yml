@@ -492,18 +492,6 @@ jobs:
               --concurrency 6 --retry-ttl-days 0
           fi
 
-      # ──────────────────────────────────────────────────────────────
-      # FINALISATION PEGASUS (formats visibles + assainissement tailles)
-      # ──────────────────────────────────────────────────────────────
-      - name: Finalize for Pegasus
-        if: env.MERGE_SKIPPED != '1'
-        run: |
-          # Surface le format (formatLabel + ligne "Format:" dans la description),
-          # canonicalise fileFormat, retire les tailles aberrantes (> 2 To), et
-          # nettoie les liens invalides. Idempotent.
-          if [ -f ps5-catalog.json ]; then
-            python3 scripts/pegasus_finalize.py ps5-catalog.json
-          fi
 
       - name: Sonder la taille des liens Backport
         if: env.MERGE_SKIPPED != '1'
@@ -528,6 +516,25 @@ jobs:
           json.dump(cat, open("ps5-catalog.json", "w", encoding="utf-8"),
                     ensure_ascii=False, indent=2)
           PY
+          fi
+
+      - name: Relever les noms de fichiers chez les hebergeurs lisibles
+        if: env.MERGE_SKIPPED != '1'
+        run: |
+          # ETAPE CENTRALE depuis le 2026-08-30 : l'etiquette d'un lien se
+          # construit avec ce que dit le FICHIER, pas seulement la page source.
+          #   DLC     : le nom l'affirme 653 fois contre 438 a l'etiquette, et
+          #             124 liens avaient perdu leur mention au re-scrape
+          #   region  : 2788 liens la portent dans le nom sans l'avoir au champ
+          #   partie  : le rang « #n » ne valait le vrai numero que 45/354
+          #   jeu/fix : le nom tranche 81 % des cas a 99 % d'exactitude
+          # Sans cette etape, tout cela retombe au scrape suivant.
+          # datanodes, filekeeper et datavaults exigent un cookie de session
+          # (404 sans lui) ; buzzheavier, vikingfile et rootz se lisent direct.
+          # Plafond par run : le releve est incremental, un lien deja nomme
+          # n'est jamais redemande.
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/relever_noms.py ps5-catalog.json --max 1200 || true
           fi
 
       - name: Relever les noms de fichiers chez akirabox (via FlareSolverr)
@@ -559,6 +566,26 @@ jobs:
           # l'etat : elle ne doit pas casser le run.
           if [ -f ps5-catalog.json ]; then
             python3 scripts/name_from_titleid.py ps5-catalog.json || true
+          fi
+
+      # ──────────────────────────────────────────────────────────────
+      # FINALISATION PEGASUS (formats visibles + assainissement tailles)
+      # ──────────────────────────────────────────────────────────────
+      - name: Finalize for Pegasus
+        if: env.MERGE_SKIPPED != '1'
+        run: |
+          # ORDRE CRITIQUE : cette etape doit rester APRES les releves de noms,
+          # de tailles et de titres. Elle CONSTRUIT les etiquettes a partir
+          # d'eux — DLC, region, numero de partie, jeu contre correctif. Placee
+          # avant, comme elle l'etait jusqu'au 2026-08-30, elle etiquetait sur
+          # des donnees pas encore relevees : toute la mecanique restait inerte
+          # en CI, alors qu'elle marchait en local ou les scripts tournaient
+          # dans le bon ordre. Ne pas la remonter.
+          # Surface le format (formatLabel + ligne "Format:" dans la description),
+          # canonicalise fileFormat, retire les tailles aberrantes (> 2 To), et
+          # nettoie les liens invalides. Idempotent.
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/pegasus_finalize.py ps5-catalog.json
           fi
 
       - name: Generate games list

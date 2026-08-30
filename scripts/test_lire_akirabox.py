@@ -61,4 +61,24 @@ page = ('<html><input name="fname" value="jeu.rar">' + ("x" * 6000) +
         '<b>15 GB</b></html>')
 assert extraire_nom_taille(page) == ("jeu.rar", None), extraire_nom_taille(page)
 
+# --- LA VRAIE PAGE ----------------------------------------------------------
+# Capture obtenue le 2026-08-30 en franchissant le defi Cloudflare avec un
+# navigateur : akirabox porte nom ET taille dans og:description.
+#   « Download <nom> (9.9 GB) now. Fast and easy at akirabox.com »
+# Le titre, lui, colle un suffixe « - Akira Box » au nom : le prendre donnerait
+# un nom de fichier faux, avec une extension qui n'existe pas.
+from pathlib import Path as _P  # noqa: E402
+VRAIE = (_P(__file__).resolve().parent / "fixtures" / "akirabox_page.html").read_text(encoding="utf-8")
+nom, taille = extraire_nom_taille(VRAIE)
+assert nom == "[DLPSGAME.COM]-01.009 PPSA04540.part01.rar", nom
+assert taille == int(9.9 * Go), taille
+assert "Akira Box" not in nom, nom
+
+# Seconde page reelle, relevee dans la foulee : une image exFAT de 1.34 GB.
+page = ('<html><head><title>PPSA03647.exfat - Akira Box</title>'
+        '<meta property="og:title" content="PPSA03647.exfat - Akira Box">'
+        '<meta property="og:description" content="Download PPSA03647.exfat (1.34 GB) now. '
+        'Fast and easy at akirabox.com"></head></html>')
+assert extraire_nom_taille(page) == ("PPSA03647.exfat", int(1.34 * Go)), extraire_nom_taille(page)
+
 print("OK")
