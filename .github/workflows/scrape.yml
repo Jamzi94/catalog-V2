@@ -530,6 +530,24 @@ jobs:
           PY
           fi
 
+      - name: Relever les noms de fichiers chez akirabox (via FlareSolverr)
+        if: env.MERGE_SKIPPED != '1'
+        run: |
+          # FLARESOLVERR_URLS est deja exporte plus haut, apres verification des
+          # instances REELLEMENT debout : le coder en dur ici ferait pointer le
+          # script vers des ports qui n'ont peut-etre pas demarre.
+          # akirabox est le premier hebergeur du catalogue (2903 liens) et le
+          # seul qui resiste a tout ce qui marche ailleurs : requete nue 403,
+          # cookie de session 403, navigateur headless ET visible bloques par un
+          # defi Cloudflare, lecteur tiers idem. FlareSolverr le franchit — les
+          # cinq instances tournent deja pour SuperPSX.
+          # Le nom de fichier sert ensuite a etiqueter : DLC, region, vrai
+          # numero de partie, jeu contre correctif. Une panne laisse les liens
+          # sans nom, elle ne doit pas casser le run.
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/lire_akirabox.py ps5-catalog.json --max 400 || true
+          fi
+
       - name: Nommer les fiches que la page source ne nomme pas
         if: env.MERGE_SKIPPED != '1'
         run: |
