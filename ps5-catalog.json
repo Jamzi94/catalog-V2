@@ -692,8 +692,7 @@
           "url": "https://gofile.io/d/GSjnkS",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · v1.003]",
@@ -993,8 +992,7 @@
           "url": "https://akirabox.com/qw1zeJMg4GXy/file",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -3232,8 +3230,7 @@
           "url": "https://akirabox.com/gXeGOJA2PzAa/file",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG] #01",
@@ -4367,7 +4364,6 @@
           "version": "01.200.007",
           "region": "EUR",
           "editionId": "PPSA02572",
-          "fileName": "Data Vaults | Free Unlimited Files Upload Services",
           "mirror": "Vault"
         },
         {
@@ -5473,8 +5469,7 @@
           "version": "01.032",
           "region": "USA",
           "editionId": "PPSA03393",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · USA · v1.032]",
@@ -7325,8 +7320,7 @@
           "url": "https://akirabox.com/RMKGJDVOw31o/file",
           "group": "Fix",
           "version": "01.000",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "sizeBytes": 18253611008,
@@ -7432,8 +7426,7 @@
           "version": "01.042",
           "region": "USA",
           "editionId": "PPSA04020",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · USA · v1.036]",
@@ -7917,8 +7910,7 @@
           "url": "https://gofile.io/d/X9OQVp",
           "group": "Standard",
           "version": "01.012",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[v1.012]",
@@ -7973,8 +7965,7 @@
           "url": "https://gofile.io/d/ht9DCC",
           "group": "Standard",
           "version": "01.005",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[BP 5.xx]",
@@ -8070,8 +8061,7 @@
           "version": "01.084.021",
           "region": "USA",
           "editionId": "PPSA16810",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[Folder · USA]",
@@ -8747,8 +8737,7 @@
           "version": "01.009",
           "region": "USA",
           "editionId": "PPSA06774",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU]",
@@ -9070,8 +9059,7 @@
           "name": "[PKG]",
           "url": "https://gofile.io/d/DfTvH8",
           "version": "01.007",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · BP · 12 Mo · v1.006]",
@@ -9445,8 +9433,7 @@
           "version": "01.012",
           "region": "USA",
           "editionId": "PPSA07230",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         }
       ],
       "sizeBytes": 122406567936,
@@ -13312,8 +13299,7 @@
           "url": "https://akirabox.com/0JgG7q8N53oY/file",
           "group": "Fix",
           "version": "01.011.000",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · v1.014.400]",
@@ -14703,8 +14689,7 @@
           "version": "01.011",
           "region": "USA",
           "editionId": "PPSA01695",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[exFAT · v1.006]",
@@ -15318,8 +15303,7 @@
           "url": "https://akirabox.com/2bJG81dYqmOB/file",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "sizeBytes": 140660178944,
@@ -15530,8 +15514,7 @@
           "version": "01.005.000",
           "region": "EUR",
           "editionId": "PPSA10053",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · Folder · FFPFSC · EUR] #02",
@@ -17914,8 +17897,7 @@
           "version": "01.000.009",
           "region": "EUR",
           "editionId": "PPSA23226",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · BP · 171 Mo · EUR · v1.000.009] #01",
@@ -18156,8 +18138,7 @@
           "name": "[PKG]",
           "url": "https://buzzheavier.com/94yzg8cvregg",
           "version": "01.021",
-          "mirror": "Buzz",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Buzz"
         }
       ],
       "sizeBytes": 181462368256,
@@ -20109,8 +20090,7 @@
           "version": "01.050",
           "region": "USA",
           "editionId": "PPSA01494",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · USA]",
@@ -21526,8 +21506,7 @@
           "version": "01.040",
           "region": "USA",
           "editionId": "PPSA01628",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[DLC · USA]",
@@ -21536,8 +21515,7 @@
           "version": "01.040",
           "region": "USA",
           "editionId": "PPSA01628",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU · Folder · FFPFSC · DLC · USA]",
@@ -21843,16 +21821,14 @@
           "url": "https://gofile.io/d/GSjnkS",
           "group": "DLC",
           "version": "01.001",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[DLC] #02",
           "url": "https://gofile.io/d/Uc2BwD",
           "group": "DLC",
           "version": "01.001",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[DLC · USA]",
@@ -22195,8 +22171,7 @@
           "version": "01.026",
           "region": "USA",
           "editionId": "PPSA01687",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[FFPFSC · USA · v1.026]",
@@ -22879,8 +22854,7 @@
           "name": "[PKG · v1.004.008]",
           "url": "https://gofile.io/d/GZeUkG",
           "version": "01.004.008",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG]",
@@ -23578,8 +23552,7 @@
           "version": "01.500.300",
           "region": "EUR",
           "editionId": "PPSA17599",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · Folder · FFPKG · EUR]",
@@ -25333,8 +25306,7 @@
           "version": "01.004",
           "region": "USA",
           "editionId": "PPSA01949",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[BP 4.xx · 36 Mo · USA]",
@@ -26349,8 +26321,7 @@
           "version": "01.000.151",
           "region": "USA",
           "editionId": "PPSA25286",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[exFAT · USA] #02",
@@ -29205,8 +29176,7 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA31977",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · EUR]",
@@ -29734,8 +29704,7 @@
           "version": "01.036.178",
           "region": "USA",
           "editionId": "PPSA28180",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[exFAT · USA]",
@@ -32093,8 +32062,7 @@
           "url": "https://link-vault.org/c/ju8xef2y",
           "group": "Standard",
           "version": "01.005",
-          "mirror": "Multihost",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Multihost"
         },
         {
           "name": "[BP]",
@@ -32259,8 +32227,7 @@
           "url": "https://link-vault.org/c/ju8xef2y",
           "group": "Standard",
           "version": "01.004",
-          "mirror": "Multihost",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Multihost"
         },
         {
           "name": "[DLC · EUR]",
@@ -33048,8 +33015,7 @@
           "version": "02.000.064",
           "region": "USA",
           "editionId": "PPSA02967",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · USA]",
@@ -33090,8 +33056,7 @@
           "version": "02.000.052",
           "region": "USA",
           "editionId": "PPSA02967",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · v2.000.064]",
@@ -34734,8 +34699,7 @@
           "version": "01.012",
           "region": "USA",
           "editionId": "PPSA05398",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU · USA]",
@@ -36544,8 +36508,7 @@
           "name": "[Folder]",
           "url": "https://gofile.io/d/zD6NR6",
           "version": "01.000",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[BP · 62 Mo · USA] #01",
@@ -36715,8 +36678,7 @@
           "version": "01.004",
           "region": "USA",
           "editionId": "PPSA15656",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · v1.004]",
@@ -37999,14 +37961,12 @@
         {
           "name": "[PKG · APR-EMU] #01",
           "url": "https://gofile.io/d/1hnV2E",
-          "mirror": "Gofile",
-          "fileName": "Files · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU] #02",
           "url": "https://gofile.io/d/YC0nIx",
-          "mirror": "Gofile",
-          "fileName": "Files · Gofile"
+          "mirror": "Gofile"
         }
       ],
       "sizeBytes": 153545080832,
@@ -38306,8 +38266,7 @@
           "version": "01.011",
           "region": "EUR",
           "editionId": "PPSA20560",
-          "mirror": "Gofile",
-          "fileName": "Gofile — Cloud Storage Made Simple"
+          "mirror": "Gofile"
         },
         {
           "name": "[BP 9.xx · 28 Mo · EUR · v1.009]",
@@ -38368,8 +38327,7 @@
           "version": "01.009",
           "region": "EUR",
           "editionId": "PPSA20560",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU · Folder · EUR · v1.009]",
@@ -39198,8 +39156,7 @@
           "version": "01.013",
           "region": "USA",
           "editionId": "PPSA16018",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[exFAT · v1.000]",
@@ -39370,8 +39327,7 @@
           "version": "01.030",
           "region": "USA",
           "editionId": "PPSA23000",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · USA]",
@@ -39380,8 +39336,7 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA23000",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · USA · v1.030]",
@@ -39653,8 +39608,7 @@
           "group": "Standard",
           "version": "01.006",
           "region": "USA",
-          "mirror": "Gofile",
-          "fileName": "Files · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU · Folder]",
@@ -39999,8 +39953,7 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA09790",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU · USA] #02",
@@ -40118,8 +40071,7 @@
           "version": "01.004.002",
           "region": "USA",
           "editionId": "PPSA08587",
-          "mirror": "Gofile",
-          "fileName": "Files · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU · Folder · USA] #02",
@@ -40775,8 +40727,7 @@
           "url": "https://akirabox.com/wgWGq9wNDG4o/file",
           "group": "DLC",
           "version": "01.003.003",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -42937,8 +42888,7 @@
           "name": "[PKG · Folder]",
           "url": "https://buzzheavier.com/zxxvad17srl0",
           "version": "01.100.031",
-          "mirror": "Buzz",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Buzz"
         },
         {
           "name": "[PKG · Folder · EUR · v1.000] #02",
@@ -49657,8 +49607,7 @@
           "url": "https://gofile.io/d/Uc2BwD",
           "group": "Standard",
           "version": "01.018",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[PKG · APR-EMU]",
@@ -57025,7 +56974,6 @@
           "name": "[BP 4.xx] #03",
           "url": "https://datavaults.co/z1dxis4as5x2",
           "group": "Backport 4.xx",
-          "fileName": "ampr emu index",
           "mirror": "Vault"
         },
         {
@@ -64799,8 +64747,7 @@
           "name": "[PKG]",
           "url": "https://gofile.io/d/gs0cRM",
           "version": "01.017",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         },
         {
           "name": "[DLC]",
@@ -68649,8 +68596,7 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA06584",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · USA · v1.000] #02",
@@ -70128,8 +70074,7 @@
           "name": "[PKG · Folder · DLC · v1.009]",
           "url": "https://akirabox.com/QN9mE6lyR36d/folder",
           "version": "01.009",
-          "mirror": "Akia",
-          "fileName": "Akira Box - Folder - DLCs"
+          "mirror": "Akia"
         }
       ],
       "sizeBytes": 246960619520,
@@ -73885,8 +73830,7 @@
           "version": "01.000",
           "region": "JPN",
           "editionId": "PPSA20450",
-          "mirror": "Buzz",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Buzz"
         },
         {
           "name": "[PKG · Folder · JPN] #02",
@@ -74694,8 +74638,7 @@
           "url": "https://akirabox.com/7d5GLrvKj3xR/file",
           "group": "Standard",
           "version": "02.008",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "sizeBytes": 69793218560,
@@ -77848,8 +77791,7 @@
           "url": "https://akirabox.com/M2BGwYkEM3j4/file",
           "group": "Standard",
           "version": "01.005.001",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "sizeBytes": 73014444032,
@@ -84859,8 +84801,7 @@
           "name": "[PKG · Folder · DLC]",
           "url": "https://akirabox.com/E9Qz908nV3OL/folder",
           "version": "01.006",
-          "mirror": "Akia",
-          "fileName": "Akira Box - Folder - DLCs"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · Folder]",
@@ -86957,8 +86898,7 @@
           "name": "[PKG · APR-EMU]",
           "url": "https://gofile.io/d/sz3nbY",
           "version": "01.013.002",
-          "mirror": "Gofile",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Gofile"
         }
       ],
       "sizeBytes": 122406567936,
@@ -87517,8 +87457,7 @@
           "version": "01.004",
           "region": "EUR",
           "editionId": "PPSA03859",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · EUR · v1.019]",
@@ -89922,8 +89861,7 @@
           "url": "https://akirabox.com/BnkmWwv2dmR0/file",
           "group": "Standard",
           "version": "01.007",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "sizeBytes": 37580963840,
@@ -93131,8 +93069,7 @@
           "version": "01.000.004",
           "region": "EUR",
           "editionId": "PPSA01619",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · FFPFSC · USA · v1.000.006]",
@@ -102213,8 +102150,7 @@
           "url": "https://akirabox.com/l76mZgja73an/file",
           "group": "Standard",
           "version": "01.002.001",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "sizeBytes": 50465865728,
@@ -108529,8 +108465,7 @@
           "name": "[PKG · FFPFSC]",
           "url": "https://akirabox.com/QN9mEZApy36d/file",
           "version": "01.200",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · FFPFSC · DLC · BP]",
@@ -114439,8 +114374,7 @@
           "version": "01.003",
           "region": "EUR",
           "editionId": "PPSA01557",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · EUR · v1.003] #01",
@@ -116077,8 +116011,7 @@
           "name": "[PKG · APR-EMU · Folder · v1.031]",
           "url": "https://akirabox.com/dZxG5q2pRGVj/file",
           "version": "01.031",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         },
         {
           "name": "[PKG · APR-EMU · Folder]",
@@ -117275,8 +117208,7 @@
           "version": "01.005",
           "region": "EUR",
           "editionId": "PPSA28329",
-          "mirror": "Akia",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Akia"
         }
       ],
       "sizeBytes": 75161927680,
@@ -117712,8 +117644,7 @@
           "name": "[BP 4.xx]",
           "url": "https://akirabox.com/Z9dzBP7DVmk1/file",
           "group": "Backport 4.xx",
-          "mirror": "Akia",
-          "fileName": "Gofile — Cloud Storage Made Simple"
+          "mirror": "Akia"
         },
         {
           "name": "[BP 4.xx]",
@@ -132090,8 +132021,7 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA24884",
-          "mirror": "Buzz",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Buzz"
         },
         {
           "name": "[PKG · APR-EMU · Folder · USA]",
@@ -167989,8 +167919,7 @@
           "version": "01.015",
           "region": "JPN",
           "editionId": "PPSA30223",
-          "mirror": "Buzz",
-          "fileName": "Content not found · Gofile"
+          "mirror": "Buzz"
         }
       ],
       "sizeBytes": 59055800320,

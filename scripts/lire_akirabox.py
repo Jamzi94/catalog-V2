@@ -61,7 +61,7 @@ def _octets(nombre: str, unite: str):
         return None
 
 
-def extraire_nom_taille(page: str) -> tuple:
+def _extraire_brut(page: str) -> tuple:
     """(nom, octets) depuis le HTML d'une page akirabox, sinon (None, None).
 
     On essaie, dans l'ordre, les ancres qui ont servi chez les quatre autres
@@ -136,6 +136,22 @@ def extraire_nom_taille(page: str) -> tuple:
         if "akirabox" not in titre.lower() and re.search(r"\.[a-z0-9]{2,5}$", titre, re.I):
             return (titre, _taille_span_size(page) or _taille_pres_de(page, m.start()))
     return (None, None)
+
+
+def extraire_nom_taille(page: str) -> tuple:
+    """(nom, octets), ou (None, None) si le nom releve n'en est pas un.
+
+    Le 2026-08-30, la sonde gofile a rendu 64 noms sur 120 et j'allais compter
+    ça comme un succes : 61 d'entre eux etaient « Content not found · Gofile »,
+    pris dans og:title, dont le cas acceptait n'importe quel texte. Un parseur
+    qui n'a jamais vu un gabarit ne rend pas « erreur » — il rend un resultat
+    plausible. Le garde vit dans releves.py, partage avec relever_noms.
+    """
+    from releves import ressemble_a_un_nom_de_fichier
+    nom, octets = _extraire_brut(page)
+    if not ressemble_a_un_nom_de_fichier(nom):
+        return (None, None)
+    return (nom, octets)
 
 
 def _taille_span_size(page: str):

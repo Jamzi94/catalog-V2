@@ -26,15 +26,45 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 CHAMPS = ("fileName", "sizeBytes")
+
+# Un nom de fichier porte une extension, ou l'identifiant Sony du jeu. Un titre
+# de site n'a ni l'un ni l'autre.
+_EXT = re.compile(r"(?i)[.][a-z0-9]{2,6}\s*$")
+# datavaults sert « PPSA14396 exfat » : le point est remplace par une espace.
+_EXT_ESPACE = re.compile(r"(?i)[ _-](rar|zip|7z|pkg|fpkg|ffpkg|exfat|iso|bin|ps5)\s*$")
+_ID_SONY = re.compile(r"(?i)(ppsa|cusa|ppsf|nppa)[ _-]?[0-9]{4,}")
+
+
+def ressemble_a_un_nom_de_fichier(nom) -> bool:
+    """Garde-fou avant d'ecrire fileName. Voir test_nom_plausible.py.
+
+    Le 2026-08-30, la sonde gofile a ecrit « Content not found · Gofile » dans
+    fileName sur 61 liens : le parseur prend og:title, et ce cas acceptait
+    n'importe quel texte. Un parseur qui n'a jamais vu un gabarit ne rend pas
+    « erreur », il rend un resultat PLAUSIBLE — et ce nom serait ensuite passe
+    dans marques_du_nom et region_du_nom pour etiqueter les liens.
+
+    Ce garde ne cherche PAS des mots d'erreur : une premiere version rejetait
+    « PPSA14404.exfat » parce que le titleId contient 404, et un fichier de
+    « Quantum Error » parce que le jeu s'appelle ainsi. Il cherche la marque
+    POSITIVE d'un fichier. Mesure sur les 10630 noms deja releves : 71 rejets,
+    0,67 %, dont 70 sont de vrais titres de site.
+    """
+    if not nom:
+        return False
+    return bool(_EXT.search(nom) or _EXT_ESPACE.search(nom) or _ID_SONY.search(nom))
+
 
 
 def ecrire(chemin, liens) -> int:
     """Dépose {url: {champs}} pour les liens qui ont reçu un nom. Rend le compte."""
     releve = {l["url"]: {k: l[k] for k in CHAMPS if l.get(k)}
-              for l in liens if l.get("url") and l.get("fileName")}
+              for l in liens if l.get("url")
+              and ressemble_a_un_nom_de_fichier(l.get("fileName"))}
     Path(chemin).write_text(json.dumps(releve, ensure_ascii=False, indent=1),
                             encoding="utf-8")
     return len(releve)

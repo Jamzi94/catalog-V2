@@ -105,7 +105,10 @@ def relever(lien: dict) -> bool:
         nom, taille = _par_titre(url)
     else:
         return False
-    if not nom:
+    from releves import ressemble_a_un_nom_de_fichier
+    if not ressemble_a_un_nom_de_fichier(nom):
+        # « Data Vaults | Free Unlimited Files Upload Services » etait entre par
+        # ici : le <title> d'une page d'accueil servie a la place du fichier.
         return False
     lien["fileName"] = nom
     if taille and not lien.get("sizeBytes"):
