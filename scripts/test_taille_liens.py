@@ -166,7 +166,8 @@ noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Ba
 # existe dans le catalogue, et un seul contre-exemple suffit a interdire la
 # deduction. Ici le nom dit exFAT et classer_par_nom dit « jeu » malgre les
 # 300 Mo — le nom prime sur la taille, 81 % des cas a 99 % contre 60 %.
-assert noms[0] == "[BP · exFAT]", noms
+# La taille s'y ajoute depuis la meme decision : elle est connue.
+assert noms[0] == "[BP · exFAT · 300 Mo]", noms
 
 # TEMOIN NEGATIF — un nom muet ne fait rien basculer : la taille reprend la main.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
