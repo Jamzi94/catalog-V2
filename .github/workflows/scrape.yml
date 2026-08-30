@@ -659,8 +659,19 @@ jobs:
             # le SEUL lien d'aucune des 236 fiches ou il figure, link-vault
             # d'une seule sur 133. Les nommer ameliore leur etiquette, ça
             # n'ouvre aucun acces. Le parseur n'a jamais vu ces gabarits : ce
-            # lot est une SONDE, son rendement est [NM] jusqu'a ce run.
-            nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json --hotes gofile,link-vault --max 120 --fils 2 --pause 1.5 --releves releve-sondes.json > log-releve-sondes.txt 2>&1 &
+            # RESULTAT de la sonde, run 33312263583 : FlareSolverr LIT les deux.
+            #   link-vault rend de vrais noms et de vraies tailles —
+            #     « [ Remnant 2 ]-[DLPSGAME.COM].rar », 66 Go. Il est donc
+            #     rentable, et passe en tete de la liste d'hotes.
+            #   gofile est lisible mais son STOCK EST MORT : sur ~120 pages,
+            #     une cinquantaine repond « Content not found ». Ce n'est pas
+            #     un defaut de lecture — le JS a tourne et a rendu son verdict,
+            #     comme le montre la distinction d'avec « Gofile — Cloud
+            #     Storage Made Simple », le titre servi quand il n'a PAS
+            #     tourne, vu 2 fois seulement.
+            # Ces titres etaient ecrits tels quels dans fileName : le garde de
+            # releves.py (ressemble_a_un_nom_de_fichier) les rejette desormais.
+            nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json --hotes link-vault,gofile --max 250 --fils 2 --pause 1.5 --releves releve-sondes.json > log-releve-sondes.txt 2>&1 &
             echo $! > releve-sondes.pid
           fi
           for n in lisibles akirabox buzz sondes; do
