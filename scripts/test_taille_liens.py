@@ -28,8 +28,15 @@ Go = 1024 ** 3
 # --- format court -----------------------------------------------------------
 assert _taille_courte(45 * Mo) == "45 Mo"
 assert _taille_courte(2 * Mo) == "2 Mo"
-assert _taille_courte(int(1.1 * Go)) == "1.1 Go"
+# Pas de virgule dans une etiquette : demande du 2026-08-30. Le chiffre apres
+# la virgule ne distingue rien qui compte — on lit une etiquette pour savoir
+# si c'est un correctif ou le jeu, pas pour connaitre l'octet pres.
+assert _taille_courte(int(1.1 * Go)) == "1 Go"
+assert _taille_courte(int(1.9 * Go)) == "2 Go"
 assert _taille_courte(101 * Go) == "101 Go"
+# TEMOIN : on n'arrondit pas TOUT au point de tout ecraser. Sous le Go on
+# reste en Mo, ou l'entier garde trois chiffres utiles.
+assert _taille_courte(950 * Mo) == "950 Mo"
 assert _taille_courte(None) == ""
 assert _taille_courte(0) == ""
 

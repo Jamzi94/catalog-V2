@@ -556,7 +556,7 @@ jobs:
           PY
           fi
 
-      - name: Relever les noms de fichiers chez les hebergeurs lisibles
+      - name: Relever les noms de fichiers (trois collectes en parallele)
         if: env.MERGE_SKIPPED != '1'
         run: |
           # ETAPE CENTRALE depuis le 2026-08-30 : l'etiquette d'un lien se
@@ -567,30 +567,48 @@ jobs:
           #   partie  : le rang « #n » ne valait le vrai numero que 45/354
           #   jeu/fix : le nom tranche 81 % des cas a 99 % d'exactitude
           # Sans cette etape, tout cela retombe au scrape suivant.
-          # datanodes, filekeeper et datavaults exigent un cookie de session
-          # (404 sans lui) ; buzzheavier, vikingfile et rootz se lisent direct.
-          # Plafond par run : le releve est incremental, un lien deja nomme
-          # n'est jamais redemande.
+          #
+          # POURQUOI EN PARALLELE, ET POURQUOI PAS AVANT. Les trois collectes
+          # touchent des hebergeurs DISJOINTS et attendent toutes le reseau :
+          # rien ne justifiait de les enchainer — sauf qu'elles reecrivaient
+          # toutes ps5-catalog.json en entier. Lancees ensemble, la derniere a
+          # fermer le fichier effacait le travail des autres, SANS erreur et
+          # avec un catalogue parfaitement valide a l'arrivee. Chacune ecrit
+          # donc son propre releve (--releves) et scripts/releves.py les verse
+          # ensuite, en une passe instantanee.
+          #
+          #   lisibles ... datanodes, filekeeper, datavaults (cookie de
+          #                session obligatoire, 404 sans lui), vikingfile et
+          #                rootz (lecture directe)
+          #   akirabox ... premier hebergeur du catalogue, defi Cloudflare,
+          #                seul FlareSolverr le franchit
+          #   buzzheavier  MESURE A FAIRE : sorti du lecteur direct le
+          #                2026-08-30 parce que ses 242 liens rendent tous
+          #                « HTTP 403 — Just a moment... », 5463 octets de defi
+          #                Cloudflare. Ils n'etaient donc pas morts, mon
+          #                lecteur etait aveugle. Le parseur akirabox n'a
+          #                JAMAIS vu une page buzzheavier : ce lot de 60 est
+          #                une sonde, son taux de reussite est [NM] tant que ce
+          #                run n'a pas parle.
+          #
+          # Une panne d'hebergeur laisse des liens sans nom ; elle ne doit
+          # jamais casser le run.
           if [ -f ps5-catalog.json ]; then
-            python3 scripts/relever_noms.py ps5-catalog.json --max 1200 || true
-          fi
-
-      - name: Relever les noms de fichiers chez akirabox (via FlareSolverr)
-        if: env.MERGE_SKIPPED != '1'
-        run: |
-          # FLARESOLVERR_URLS est deja exporte plus haut, apres verification des
-          # instances REELLEMENT debout : le coder en dur ici ferait pointer le
-          # script vers des ports qui n'ont peut-etre pas demarre.
-          # akirabox est le premier hebergeur du catalogue (2903 liens) et le
-          # seul qui resiste a tout ce qui marche ailleurs : requete nue 403,
-          # cookie de session 403, navigateur headless ET visible bloques par un
-          # defi Cloudflare, lecteur tiers idem. FlareSolverr le franchit — les
-          # cinq instances tournent deja pour SuperPSX.
-          # Le nom de fichier sert ensuite a etiqueter : DLC, region, vrai
-          # numero de partie, jeu contre correctif. Une panne laisse les liens
-          # sans nom, elle ne doit pas casser le run.
-          if [ -f ps5-catalog.json ]; then
-            python3 scripts/lire_akirabox.py ps5-catalog.json --max 400 || true
+            rm -f releve-*.json
+            python3 scripts/relever_noms.py ps5-catalog.json --max 1200                     --releves releve-lisibles.json    > log-lisibles.txt 2>&1 &
+            A=$!
+            python3 scripts/lire_akirabox.py ps5-catalog.json --max 400                     --releves releve-akirabox.json    > log-akirabox.txt 2>&1 &
+            B=$!
+            python3 scripts/lire_akirabox.py ps5-catalog.json --hotes buzzheavier                     --max 60 --releves releve-buzzheavier.json > log-buzz.txt 2>&1 &
+            C=$!
+            wait $A $B $C || true
+            for f in lisibles akirabox buzz; do
+              echo "───── $f"; cat log-$f.txt 2>/dev/null || true
+            done
+            # L'application est sequentielle : c'est la COLLECTE qui attendait
+            # le reseau, pas l'ecriture.
+            python3 scripts/releves.py ps5-catalog.json releve-lisibles.json                     releve-akirabox.json releve-buzzheavier.json || true
+            rm -f releve-*.json log-*.txt
           fi
 
       - name: Nommer les fiches que la page source ne nomme pas

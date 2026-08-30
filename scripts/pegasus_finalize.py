@@ -269,14 +269,20 @@ def classer_par_nom(nom) -> str:
 
 
 def _taille_courte(octets) -> str:
-    """« 45 Mo », « 1.1 Go » — deux caracteres significatifs, pas trois."""
+    """« 45 Mo », « 1 Go », « 101 Go » — un entier, jamais de virgule.
+
+    Pas de decimale, demande du 2026-08-30. On lit cette taille pour trancher
+    « correctif ou jeu », pas pour connaitre l'octet pres : « 1.1 Go » et
+    « 1 Go » repondent la meme chose et le point coute deux caracteres dans une
+    etiquette qui en manque. Sous le Go on reste en Mo, ou l'entier porte deja
+    trois chiffres utiles.
+    """
     if not octets or not isinstance(octets, (int, float)) or octets <= 0:
         return ""
     Mo = 1024 ** 2
     if octets < 1024 ** 3:
         return f"{round(octets / Mo)} Mo"
-    go = octets / 1024 ** 3
-    return f"{go:.1f} Go" if go < 10 else f"{round(go)} Go"
+    return f"{round(octets / 1024 ** 3)} Go"
 
 
 def _grappe(link: dict) -> tuple:

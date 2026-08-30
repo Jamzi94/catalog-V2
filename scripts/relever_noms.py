@@ -25,7 +25,7 @@ Hébergeurs couverts, et comment (chacun relevé sur une page réelle) :
   rootz / mediafire ........ nom dans <title> ou dans l'URL
   datanodes / datavaults ... cookie de session obligatoire (404 sans lui)
   filekeeper ............... idem, nom dans id="dl-filename"
-  buzzheavier .............. direct, titre = nom, taille dans span.size
+  buzzheavier .............. PLUS ICI : passe derriere Cloudflare (403)
 
 Hors de portée ici : akirabox (défi Cloudflare → scripts/lire_akirabox.py via
 FlareSolverr) et 1fichier (navigateur → scripts/lire_navigateur.py).
@@ -50,7 +50,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import hoster_size as H  # noqa: E402
 
 # Hôtes que `hoster_size.nom_et_taille` sait lire.
-HOTES = ("datanodes.to", "filekeeper.net", "datavaults.co", "buzzheavier.com")
+HOTES = ("datanodes.to", "filekeeper.net", "datavaults.co")
+# buzzheavier EST SORTI le 2026-08-30. Il figurait ici depuis une lecture
+# reussie a la main, mais l'hebergeur est passe derriere Cloudflare : les 242
+# liens du catalogue rendent tous « HTTP 403 — Just a moment... », 5463 octets
+# de defi. Le garder ici ne produisait pas une erreur, il produisait 242
+# « echecs » qui ressemblaient a des fichiers supprimes. Sa voie est desormais
+# lire_akirabox.py --hotes, qui passe par FlareSolverr.
 # Hôtes dont le titre de page porte le nom (lecture directe).
 HOTES_TITRE = ("vikingfile.com", "vik1ngfile.site", "rootz.so")
 
@@ -113,6 +119,10 @@ def main(argv: list | None = None) -> int:
     ap.add_argument("catalog", type=Path)
     ap.add_argument("--max", type=int, default=0, help="Nombre max de relevés (0 = tout)")
     ap.add_argument("--fils", type=int, default=4)
+    ap.add_argument("--releves", type=Path, default=None,
+                    help="Ecrire un releve a part au lieu de reecrire le "
+                         "catalogue (permet de tourner en parallele d'une autre "
+                         "collecte ; voir scripts/releves.py)")
     args = ap.parse_args(argv)
 
     data = json.loads(args.catalog.read_text(encoding="utf-8"))
@@ -145,7 +155,14 @@ def main(argv: list | None = None) -> int:
     with ThreadPoolExecutor(max_workers=args.fils) as ex:
         list(ex.map(_un, cibles))
 
-    args.catalog.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    if args.releves:
+        import releves
+        n = releves.ecrire(args.releves, cibles)
+        print(f"{n} releve(s) ecrit(s) dans {args.releves}"
+              " — le catalogue n est PAS touche ici")
+    else:
+        args.catalog.write_text(json.dumps(data, ensure_ascii=False, indent=2),
+                                encoding="utf-8")
     print(f"{compte['poses']} nom(s) posé(s), {compte['echecs']} échec(s)")
     return 0
 

@@ -152,7 +152,15 @@ def _pool():
     urls = parse_flaresolverr_urls()
     if not urls:
         return None
-    return FlareSolverrPool(urls)
+    # parse_flaresolverr_urls rend une valeur par defaut meme sans variable
+    # d'environnement, et le constructeur leve si aucune instance ne repond.
+    # Hors CI c'est le cas NORMAL, pas une panne : on rend None et le script
+    # dit ce qu'il aurait fait au lieu de cracher une pile.
+    try:
+        return FlareSolverrPool(urls)
+    except Exception as exc:                                 # noqa: BLE001
+        print(f"FlareSolverr injoignable ({exc.__class__.__name__})")
+        return None
 
 
 def main(argv: list | None = None) -> int:
@@ -160,6 +168,15 @@ def main(argv: list | None = None) -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("catalog", type=Path)
     ap.add_argument("--max", type=int, default=0)
+    ap.add_argument("--hotes", default="akirabox",
+                    help="Fragments d hote a traiter, separes par des virgules. "
+                         "buzzheavier est passe derriere le meme defi Cloudflare "
+                         "le 2026-08-30 ; son gabarit de page n est PAS encore "
+                         "confronte au parseur : resultat a mesurer.")
+    ap.add_argument("--releves", type=Path, default=None,
+                    help="Ecrire un releve a part au lieu de reecrire le "
+                         "catalogue (permet de tourner en parallele d'une autre "
+                         "collecte ; voir scripts/releves.py)")
     ap.add_argument("--pause", type=float, default=0.8,
                     help="Secondes entre deux pages (politesse)")
     ap.add_argument("--navigateur", action="store_true",
@@ -172,13 +189,15 @@ def main(argv: list | None = None) -> int:
               "Ce script s'exécute en CI, où cinq instances tournent.")
         return 0
 
+    hotes = [h.strip() for h in args.hotes.split(",") if h.strip()]
     data = json.loads(args.catalog.read_text(encoding="utf-8"))
     cibles = [l for pkg in data.get("packages", [])
               for l in (pkg.get("downloadLinks") or [])
-              if "akirabox" in l.get("url", "") and not l.get("fileName")]
+              if any(h in l.get("url", "") for h in hotes)
+              and not l.get("fileName")]
     if args.max:
         cibles = cibles[:args.max]
-    print(f"{len(cibles)} page(s) akirabox à lire", flush=True)
+    print(f"{len(cibles)} page(s) a lire chez {hotes}", flush=True)
 
     navigateur = page = contexte = None
     if args.navigateur:
@@ -226,7 +245,14 @@ def main(argv: list | None = None) -> int:
     if navigateur is not None:
         navigateur.close()
         contexte.stop()
-    args.catalog.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    if args.releves:
+        import releves
+        n = releves.ecrire(args.releves, cibles)
+        print(f"{n} releve(s) ecrit(s) dans {args.releves}"
+              " — le catalogue n est PAS touche ici")
+    else:
+        args.catalog.write_text(json.dumps(data, ensure_ascii=False, indent=2),
+                                encoding="utf-8")
     print(f"{noms} nom(s), {tailles} taille(s), {echecs} échec(s)")
     return 0
 
