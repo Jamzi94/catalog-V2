@@ -85,6 +85,24 @@ def _extraire_brut(page: str) -> tuple:
     if not page:
         return (None, None)
 
+    # 0bis) LINKVAULT — le nom vit dans le <h1>, releve sur page reelle le
+    #       2026-08-30 (link-vault.org/c/68tx71hg). Son <title> est le nom du
+    #       SITE et il n'y a AUCUN og:title, donc les ancres habituelles ne
+    #       trouvent rien. Le h1 porte le conteneur entier :
+    #         [SuperPSX]-DOOM.Eternal-PPSA01982-EUR-Game-(v01.011)-PS5
+    #       soit le jeu, le titleId, la region et la version d'un coup.
+    #       La taille est celle de la premiere partie, dans le <span> qui suit
+    #       le premier <h3> — pas la somme : le lien pointe vers un conteneur,
+    #       et annoncer un total que l'utilisateur ne telecharge pas d'un coup
+    #       serait un chiffre plausible et faux.
+    if "LinkVault" in page or "link-vault" in page:
+        m = re.search("<h1[^>]*>([^<]{6,160})</h1>", page)
+        if m:
+            nom = m.group(1).strip()
+            t = re.search("<h3[^>]*>[^<]{3,200}</h3>[ ]*<span[^>]*>[ ]*"
+                          "([0-9][0-9.,]*)[ ]*([KMGT]i?B|[KMGT]o)[ ]*</span>", page)
+            return (nom, _octets(t.group(1), t.group(2)) if t else None)
+
     # 0) og:description — l'ancre d'akirabox, relevee sur une page REELLE le
     #    2026-08-30 apres franchissement du defi :
     #      « Download <nom> (9.9 GB) now. Fast and easy at akirabox.com »
