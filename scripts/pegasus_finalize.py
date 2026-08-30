@@ -845,7 +845,12 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # ~31 caracteres visibles. Elle est posee AVEC le format, donc avant la
         # region et la version — c'est la version qui sort du cadre en premier,
         # et c'est ce dont on peut le plus se passer, l'en-tete l'affichant.
-        court = _taille_courte(taille)
+        if (court := _taille_courte(taille)) and classe == "correctif"                 and ("BP" in link_fmt or "Backport" in link_fmt) and "exFAT" in link_fmt:
+            # Un BP sous le seuil est le binaire a deposer dans le dossier du
+            # jeu. Sa taille dit cela d'un coup d'oeil ; « exFAT » ne le dit
+            # pas, et les deux ensemble ne tiennent pas dans 180 px. La donnee
+            # garde le format, l'etiquette garde ce qui discrimine.
+            link_fmt = link_fmt.replace(" · exFAT", "").replace("exFAT · ", "")
         if court:
             link_fmt = f"{link_fmt} · {court}" if link_fmt else court
         elif "BP" in link_fmt and classe == "correctif":

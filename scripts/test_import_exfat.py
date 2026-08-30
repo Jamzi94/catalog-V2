@@ -24,14 +24,24 @@ assert pkg, "la fiche n'a pas produit de paquet"
 groupes = {l["url"]: l.get("group") for l in pkg["downloadLinks"]}
 assert groupes, groupes
 
-# La fiche porte le tag « 4.xx BackPork ». « Backport N.xx » IMPLIQUE exFAT —
-# mesure du 2026-08-30 : sur 732 liens de cette section dont le nom de fichier a
-# ete releve, 621 disent exFAT et AUCUN ne dit PKG. On ne prefixe donc pas : ca
-# n'apprendrait rien et ca ferait passer la troncature de 3 % a 23 %, en
-# chassant la region hors du cadre.
+# La fiche porte le tag « 4.xx BackPork ». La section porte DESORMAIS le
+# prefixe exFAT, y compris sur les backports.
+#
+# DECISION du 2026-08-30, demandee par l'utilisateur. L'attente precedente
+# etait l'inverse : « Backport N.xx implique exFAT (621 releves sur 621), le
+# prefixer n'apprend rien et fait passer la troncature de 3 % a 23 % ». Deux
+# mesures l'ont renversee. Un backport FPKG existe dans le catalogue, donc
+# l'implication n'en est pas une. Et la SOURCE vaut verification : sur les
+# 1932 backports issus de `.exFAT/exFAT.json` dont le nom a ete releve chez
+# l'hebergeur, 1589 disent exFAT, 343 se taisent, AUCUN ne dit PKG. Retirer
+# le prefixe privait 585 liens d'une mention exacte.
+#
+# L'arbitrage d'AFFICHAGE vit ailleurs : pegasus_finalize efface exFAT sur un
+# BP sous le seuil correctif, ou la taille en dit plus. La donnee porte la
+# verite, l'etiquette choisit ce qu'elle en montre.
 for url, g in groupes.items():
-    assert g and g.startswith("Backport"), (url, g)
-    assert "exFAT" not in g, (url, g)
+    assert g and "Backport" in g, (url, g)
+    assert g.startswith("exFAT"), (url, g)
 
 # Temoin negatif : une fiche sans tag de variante reste « exFAT » tout court,
 # on n'invente pas de Backport.

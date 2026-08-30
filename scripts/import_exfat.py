@@ -632,8 +632,20 @@ def build_package(record: dict[str, Any]) -> dict[str, Any] | None:
             # table de largeurs relevee dans l'app), et ce qui sort du cadre est
             # la REGION — elle, non redondante. On garde l'information qui
             # discrimine plutot que celle qui se deduit.
-            implique = re.match(r"(?i)backport\s*\d", section) is not None
-            if "exfat" not in section.lower() and not implique:
+            # L'EXCLUSION DES BACKPORTS EST LEVEE, 2026-08-30, sur demande.
+            # Elle disait : « Backport N.xx implique exFAT (621 releves sur
+            # 621), l'ecrire n'apprend rien et coute 20 points de troncature ».
+            # Deux choses l'ont renversee. D'abord un backport FPKG existe dans
+            # le catalogue : l'implication n'en est pas une, le format se lit.
+            # Ensuite la SOURCE vaut verification ici — ce flux est
+            # `.exFAT/exFAT.json`, et sur les 1932 backports qui en viennent et
+            # dont le nom a ete releve chez l'hebergeur, 1589 disent exFAT, 343
+            # se taisent et AUCUN ne dit PKG. Retirer le prefixe privait 585
+            # liens d'une mention exacte et verifiee.
+            # C'est pegasus_finalize qui arbitre l'AFFICHAGE : sous le seuil
+            # correctif, il efface exFAT au profit de la taille, qui en dit
+            # plus. La donnee porte la verite, l'etiquette choisit.
+            if "exfat" not in section.lower():
                 section = f"exFAT · {section}"
         else:
             section = "exFAT"
