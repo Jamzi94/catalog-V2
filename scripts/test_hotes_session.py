@@ -43,4 +43,28 @@ assert H.nom_et_taille("https://datanodes.to/inconnu") == (None, None)
 # TEMOIN NEGATIF — hote non gere : on s'abstient plutot que de deviner.
 assert H.nom_et_taille("https://exemple.invalide/x") == (None, None)
 
+# --- buzzheavier : le titre EST le nom, la taille vit dans span.size ---------
+BUZZ = (ICI / "fixtures" / "buzzheavier_page.html").read_text(encoding="utf-8")
+H._FETCH_SESSION = lambda url: BUZZ
+nom, taille = H.nom_et_taille("https://buzzheavier.com/4nlh56anh4io")
+assert nom == "PPSA02387.exfat", nom
+assert taille == int(40.4 * 1024 ** 3), taille
+
+# TEMOIN NEGATIF — une page morte de buzzheavier porte le nom du site en titre
+# (« Whatever lived here has returned to the void ») : on ne doit pas le prendre
+# pour un nom de fichier. 2 liens sur 3 testes le 2026-08-30 sont dans ce cas.
+H._FETCH_SESSION = lambda url: "<html><title>BUZZHEAVIER</title><body>void</body></html>"
+assert H.nom_et_taille("https://buzzheavier.com/mort") == (None, None)
+
+# --- datavaults : le nom, et RIEN d'autre -------------------------------------
+# Sa page n'affiche aucune taille de fichier ; les « 1 GB » et « 15 GB » qu'on y
+# lit sont les limites de l'offre. Rendre l'une d'elles serait un chiffre
+# plausible et faux — le temoin l'interdit.
+H._FETCH_SESSION = lambda url: (
+    '<html><title>Telechargement PPSA21022 exfat</title>'
+    '<input type="hidden" name="fname" value="PPSA21022.exfat">'
+    '<div>Max upload file size</div><b>1 GB</b>'
+    '<div>Download volume</div><b>15 GB</b></html>')
+assert H.nom_et_taille("https://datavaults.co/x") == ("PPSA21022.exfat", None)
+
 print("OK")

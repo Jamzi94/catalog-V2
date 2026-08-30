@@ -308,7 +308,14 @@ _HOST_PRIORITY = ["vikingfile.com", "mega.nz", "mega.co.nz", "gofile.io",
 
 
 _ACCUEILS = {"datanodes.to": "https://datanodes.to/",
-             "filekeeper.net": "https://filekeeper.net/"}
+             "filekeeper.net": "https://filekeeper.net/",
+             # datavaults sert la meme page que datanodes (og:title « nom (taille) »)
+             "datavaults.co": "https://datavaults.co/",
+             # buzzheavier n'exige pas de session : le titre EST le nom, et la
+             # taille suit « Download File ». Une page morte y rend 404 avec
+             # « Whatever lived here has returned to the void » — c'est un
+             # fichier disparu, pas un blocage, et il faut le dire ainsi.
+             "buzzheavier.com": "https://buzzheavier.com/"}
 
 
 def _page_avec_session(url: str) -> str | None:
@@ -377,6 +384,28 @@ def nom_et_taille(url: str) -> tuple:
         mm = re.match(r"^(.*?)[ ]*\(([0-9.,]+)[ ]*([KMGT]?i?B)\)[ ]*$", og)
         if mm:
             return (mm.group(1).strip(), _octets(mm.group(2), mm.group(3)))
+    # buzzheavier : le titre porte le nom, « Download File 40.4GB » la taille.
+    if hote == "buzzheavier.com":
+        mt_ = re.search(r"<title>([^<]{3,120})</title>", page)
+        nom_ = mt_.group(1).strip() if mt_ else ""
+        mz_ = re.search(r"class=.size.>([0-9][0-9.,]*) *([KMGT]i?B)", page)
+        if nom_ and "buzzheavier" not in nom_.lower():
+            return (nom_, _octets(mz_.group(1), mz_.group(2)) if mz_ else None)
+        return (None, None)
+    # datavaults : le nom vit dans un champ cache « fname ». Sa page n'affiche
+    # AUCUNE taille de fichier — les « 1 GB » et « 15 GB » qu'on y lit sont les
+    # limites de l'offre (Max upload, Storage space, Download volume). Les
+    # prendre pour la taille du fichier serait un chiffre plausible et faux :
+    # on rend donc le nom et rien d'autre.
+    if hote == "datavaults.co":
+        marque3 = "name=" + chr(34) + "fname" + chr(34) + " value=" + chr(34)
+        i3 = page.find(marque3)
+        if i3 >= 0:
+            j3 = page.find(chr(34), i3 + len(marque3))
+            nom3 = page[i3 + len(marque3):j3] if j3 > 0 else ""
+            if nom3:
+                return (nom3, None)
+        return (None, None)
     marque2 = "id=" + chr(34) + "dl-filename" + chr(34)
     i = page.find(marque2)
     if i >= 0:
