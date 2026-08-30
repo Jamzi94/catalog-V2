@@ -3,77 +3,138 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA02608",
-      "title": "Winter Sports Games 4K Edition",
-      "version": "01.000",
+      "titleId": "PPSA24515",
+      "title": "Alone in The Dark 2 1996",
+      "version": "01.000.003",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4iq8.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA02608, v1.000, 3.xx\nSize: 2 to",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Alone_in_The_Dark_2_1996.webp",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA24515, v01.000.003, EUR\nSize: 400 MB\nPassword: SuperPSX\nVoices: English\nBackport 4.xx\nWorks on 11.xx and higher\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[APR-EMU]",
-          "url": "https://www.mediafire.com/file/69hjdowhycjhh37/[DLPSGAME.COM]-PPSA02608-app0.rar/file",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[APR-EMU]",
-          "url": "https://akirabox.com/l76mZNvxpman/file",
-          "group": "Standard",
-          "version": "01.000",
+          "name": "[BP 4.xx · exFAT]",
+          "url": "https://akirabox.com/RMKGJQ41wz1o/file",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA04716.exfat",
+          "sizeBytes": 46718506762,
           "mirror": "Akia"
         },
         {
-          "name": "[APR-EMU]",
-          "url": "https://vikingfile.com/f/eG4UsuVM1S",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
+          "name": "[BP 4.xx · exFAT]",
+          "url": "https://vikingfile.com/f/vAoCIez7lW",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA24515.exfat",
+          "sizeBytes": 1567663063,
           "mirror": "Viki"
         },
         {
-          "name": "[APR-EMU]",
-          "url": "https://1fichier.com/?29tate08sp0z400mtbsx",
+          "name": "[BP 4.xx · exFAT]",
+          "url": "https://datanodes.to/3c47d0dn548a",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA24515.exfat",
+          "sizeBytes": 1610612736,
+          "mirror": "Data"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://filekeeper.net/ilrdhtjnap2y",
+          "group": "Backport 4.xx",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[BP 4.xx · exFAT]",
+          "url": "https://datavaults.co/ztibv6ge1u0n",
+          "group": "Backport 4.xx",
+          "fileName": "PPSA24515 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[PKG · EUR]",
+          "url": "https://vikingfile.com/f/kwMWUUv1sb",
           "group": "Standard",
-          "version": "01.000",
+          "version": "01.000.003",
+          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[PKG · EUR] #01",
+          "url": "https://www.rootz.so/d/z0gMq",
+          "group": "Standard",
+          "version": "01.000.003",
+          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[PKG · EUR]",
+          "url": "https://1fichier.com/?tvsmk452irqnzepw3d6w&af=4186346",
+          "group": "Standard",
+          "version": "01.000.003",
+          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
+          "sizeBytes": 427210833,
           "mirror": "1File"
         },
         {
-          "name": "[APR-EMU]",
-          "url": "https://buzzheavier.com/4wufi76eqoea",
+          "name": "[BP · 3 Mo · EUR]",
+          "url": "https://vikingfile.com/f/kBpImc5XWn",
+          "group": "Backport",
+          "version": "01.000.003",
+          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "mirror": "Viki",
+          "sizeBytes": 2998927
+        },
+        {
+          "name": "[BP · fix · EUR]",
+          "url": "https://www.rootz.so/d/2Bgv44",
+          "group": "Backport",
+          "version": "01.000.003",
+          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[BP · 3 Mo · EUR]",
+          "url": "https://1fichier.com/?x67yyxeabstc14zx723n&af=4186346",
+          "group": "Backport",
+          "version": "01.000.003",
+          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 3145728,
+          "mirror": "1File"
+        },
+        {
+          "name": "[PKG · EUR] #02",
+          "url": "https://www.rootz.so/d/1KhXmK",
           "group": "Standard",
-          "version": "01.000",
-          "mirror": "Buzz"
+          "version": "01.000.003",
+          "region": "EUR",
+          "editionId": "PPSA24515",
+          "fileName": "[DLPSGAME.COM]-PPSA24515-Alone_in_the_Dark_2_CiborgEc.rar",
+          "mirror": "Rootz"
         }
       ],
+      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "APR-EMU"
+        "exFAT · PKG · Backport"
       ],
       "fileFormat": [
-        "APR-EMU",
-        "RAR"
+        "Backport",
+        "PKG",
+        "Backport 4.xx",
+        "exFAT"
       ],
-      "sizeBytes": 569350002,
-      "_enrichedAt": "2026-08-19T04:33:35.037629+00:00",
-      "_rawgMatched": false,
+      "_enrichedAt": "2026-08-01T05:58:21.381192+00:00",
+      "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "the-games-winter-edition",
-        "rawgName": "The Games: Winter Edition",
-        "rating": 0.0,
+        "rawgSlug": "alone-in-the-dark-2022",
+        "rawgName": "Alone in the Dark",
+        "rating": 3.56,
         "metacritic": null,
-        "released": "2020-10-28",
+        "released": "2024-03-20",
         "genres": [
-          "Racing",
-          "Simulation",
-          "Sports"
-        ]
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/screenshots/719/7197c4abfd5cfac909548dce23b74daa.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:57:38.105642+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "APR-EMU"
+      "formatLabel": "exFAT · PKG · Backport"
     },
     {
       "titleId": "PPSA16617",
@@ -340,108 +401,75 @@
       "formatLabel": "Backport 4.xx"
     },
     {
-      "titleId": "PPSA22520",
-      "title": "Animal Well",
-      "version": "01.000.011",
+      "titleId": "PPSA10240",
+      "title": "Stroke The Snake",
+      "version": "01.000",
       "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Animal_Well.avif",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA22520, v1.000.011, 4.xx, JPN\nSize: 214 MB\nBP = Backport",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Stroke_The_Snake.avif",
+      "description": "Format: exFAT · Backport\nTags: PPSA10240, v1.000, 4.xx, 5.xx, USA\nSize: 292 MB\nBP = Backport",
       "downloadLinks": [
         {
           "name": "[BP 4.xx]",
-          "url": "https://akirabox.com/ex5z25ZMD3Kq/file",
+          "url": "https://akirabox.com/wgWGq7xEQ34o/file",
           "group": "Backport 4.xx",
-          "fileName": "PPSA22520.exfat",
-          "sizeBytes": 224395264,
           "mirror": "Akia"
         },
         {
-          "name": "[BP 4.xx]",
-          "url": "https://vikingfile.com/f/43eZLaAaei",
+          "name": "[BP 4.xx · exFAT]",
+          "url": "https://vikingfile.com/f/uyl0iqiQWG",
           "group": "Backport 4.xx",
-          "fileName": "PPSA22520.exfat",
-          "sizeBytes": 224395264,
+          "fileName": "PPSA10240.exfat",
+          "sizeBytes": 306184192,
           "mirror": "Viki"
         },
         {
-          "name": "[BP 4.xx]",
-          "url": "https://datanodes.to/8qybxaww5f53",
+          "name": "[BP 4.xx · exFAT]",
+          "url": "https://datanodes.to/nsz5al1349a3",
           "group": "Backport 4.xx",
-          "fileName": "PPSA22520.exfat",
-          "sizeBytes": 224395264,
+          "fileName": "PPSA10240.exfat",
+          "sizeBytes": 306184192,
           "mirror": "Data"
         },
         {
-          "name": "[BP 4.xx]",
-          "url": "https://filekeeper.net/gjpncrvj6jvt",
+          "name": "[BP 4.xx · exFAT]",
+          "url": "https://filekeeper.net/li74mkxkud6k",
           "group": "Backport 4.xx",
-          "fileName": "PPSA22520.exfat",
-          "sizeBytes": 224395264,
+          "fileName": "PPSA10240.exfat",
+          "sizeBytes": 306184192,
           "mirror": "Filek"
         },
         {
-          "name": "[BP 4.xx]",
-          "url": "https://datavaults.co/nc0l0xojv5vj",
+          "name": "[BP 4.xx · exFAT]",
+          "url": "https://datavaults.co/22qqqzqerm8r",
           "group": "Backport 4.xx",
-          "fileName": "PPSA22520 exfat",
+          "fileName": "PPSA10240 exfat",
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · APR-EMU · JPN]",
-          "url": "https://vikingfile.com/f/uAHfeN39mn",
+          "name": "[exFAT · BP · USA]",
+          "url": "https://www.rootz.so/d/uNXJQ",
           "group": "Standard",
-          "version": "01.000.011",
-          "fileName": "[SuperPSX]-Animal.Well-PPSA22520-JPN-Game (v01.000.011)-PS5.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[PKG · APR-EMU · JPN]",
-          "url": "https://1fichier.com/?gjo6ih3qljohps27y0v9&af=4186346",
-          "group": "Standard",
-          "version": "01.000.011",
-          "fileName": "[SuperPSX]-Animal.Well-PPSA22520-JPN-Game (v01.000.011)-PS5.rar",
-          "sizeBytes": 103934853,
-          "mirror": "1File"
-        },
-        {
-          "name": "[PKG · APR-EMU · JPN]",
-          "url": "https://www.rootz.so/d/1pYZlI",
-          "group": "Standard",
-          "version": "01.000.011",
-          "region": "JPN",
-          "editionId": "PPSA22520",
-          "fileName": "[DLPSGAME.COM]-01.000.011 PPSA22520.rar",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA10240",
+          "fileName": "[DLPSGAME.COM]-01.000.000 PPSA10240.rar",
           "mirror": "Rootz"
         }
       ],
-      "sizeBytes": 224395264,
+      "sizeBytes": 306184192,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG · Backport"
+        "exFAT · Backport"
       ],
       "fileFormat": [
         "Backport",
-        "PKG",
         "exFAT",
-        "APR-EMU",
-        "Backport 4.xx"
+        "Backport 4.xx",
+        "unknown"
       ],
-      "_enrichedAt": "2026-08-19T04:32:05.571166+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "animal-well",
-        "rawgName": "Animal Well",
-        "rating": 4.28,
-        "metacritic": null,
-        "released": "2024-05-09",
-        "genres": [
-          "Indie",
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/f0a/f0ae5322f985cda91e871adcfcb91f6f.jpg"
-      },
-      "formatLabel": "exFAT · PKG · Backport"
+      "_enrichedAt": "2026-08-19T04:33:17.466879+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "exFAT · Backport"
     }
   ]
 }
