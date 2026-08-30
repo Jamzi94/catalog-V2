@@ -125,7 +125,12 @@ assert 217 * Mo < SEUIL_CORRECTIF < 893 * Mo, SEUIL_CORRECTIF
 noms = _noms([{"name": "Akia", "url": "https://akirabox.com/a/file", "group": "Backport",
                "version": "01.000",
                "fileName": "[SuperPSX]-Jeu-PPSA1-EUR-Backport 4.xx+ (@BestPig)-PS5.rar"}])
-assert noms[0] == "[BP · fix] Akia", noms
+# DECISION du 2026-08-30 : la region se lit desormais dans le nom de fichier
+# quand le champ est vide (2788 liens concernes, 99 % d'accord la ou les deux
+# sources parlent). Le nom de cette fixture porte « -EUR- », l'etiquette le
+# reflete. L'attente change parce que le COMPORTEMENT a change volontairement,
+# pas parce que le test genait.
+assert noms[0] == "[BP · fix · EUR] Akia", noms
 
 # Avec la taille en plus, c'est la taille qui s'affiche : elle en dit davantage.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",

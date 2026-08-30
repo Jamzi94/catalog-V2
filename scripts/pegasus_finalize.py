@@ -175,6 +175,76 @@ _MARQUES_JEU = (".exfat",)
 _MARQUES_CORRECTIF = ("backport", "@bestpig", ".zip")
 
 
+def marques_du_nom(nom) -> set:
+    """Ce que le NOM DE FICHIER affirme du contenu : {DLC, exFAT, Backport, Fix}.
+
+    Mesure du 2026-08-30 sur 8575 noms releves chez les hebergeurs : le nom dit
+    « DLC » 653 fois, l'etiquette 438 — 341 liens dont la source avait perdu
+    l'information. Un cas verifie : 124 liens sont passes de group=DLC a
+    Standard/exFAT au re-scrape, et 41 des 43 dont on connait le nom disent
+    « DLC » dans le fichier lui-meme.
+
+    Ces marques AJOUTENT a l'etiquette, elles n'en retirent jamais : l'etiquette
+    dit DLC 126 fois la ou le nom se tait, et c'est la source qui le sait.
+
+    Les mots sont cherches comme des MOTS. « abcdlcdef » n'est pas un DLC, et le
+    test le tient — sans quoi on etiquetterait au hasard des identifiants
+    d'hebergeur.
+    """
+    b = (nom or "").lower()
+    if not b:
+        return set()
+    trouve = set()
+    if re.search("(^|[^a-z])dlcs?([^a-z]|$)", b):
+        trouve.add("DLC")
+    if ".exfat" in b or re.search("(^|[^a-z])exfat([^a-z]|$)", b):
+        trouve.add("exFAT")
+    if ("backport" in b or "@bestpig" in b
+            or any(f"{n}.xx" in b for n in "456789")
+            or any(f"{n}xx" in b for n in "456789")):
+        trouve.add("Backport")
+    if re.search("(^|[^a-z])fix([^a-z]|$)", b):
+        trouve.add("Fix")
+    return trouve
+
+
+_REGIONS = ("EUR", "USA", "JPN", "JAP", "ASIA", "KOR", "CHN", "HK")
+
+
+def region_du_nom(nom):
+    """Region lue dans le nom de fichier, ou None.
+
+    Mesure du 2026-08-30 : sur 257 liens portant une region des DEUX cotes,
+    254 s'accordent — 99 %. Et 2788 liens la portent dans le NOM sans l'avoir
+    dans le champ releve au scraping : l'information etait la, personne ne la
+    lisait.
+
+    Le champ de la source PRIME quand les deux parlent : les 3 desaccords
+    mesures ne tranchent pas en faveur du nom, ils signalent plutot un lien
+    recolle sur la mauvaise fiche (« -USA- » dans le fichier, EUR a l'etiquette).
+
+    Bornes strictes : trois majuscules ne font pas une region. « PKG », « RAR »,
+    « MOUSA » ne doivent rien declencher — le test le tient.
+    """
+    if not nom:
+        return None
+    m = re.search("(?:^|[-_. (])(" + "|".join(_REGIONS) + ")(?:[-_. )]|$)", nom, re.I)
+    if not m:
+        return None
+    return m.group(1).upper().replace("JAP", "JPN")
+
+
+def numero_de_partie(nom):
+    """Numero de partie VRAI, lu dans le nom de fichier, ou None.
+
+    Le rang « #n » que pose _number_parts n'est qu'un ordre d'affichage : sur
+    354 liens multipart qui en portaient un, il ne valait le vrai numero que
+    45 fois — 12 %. Le nom de fichier, lui, le donne.
+    """
+    m = re.search("(^|[^a-z])part[ ._-]*0*([0-9]{1,3})([^0-9]|$)", (nom or "").lower())
+    return int(m.group(2)) if m else None
+
+
 def classer_par_nom(nom) -> str:
     """« jeu », « correctif » ou « inconnu », d'apres le seul nom de fichier.
 
@@ -391,8 +461,15 @@ def _number_parts(pkg: dict) -> None:
             continue
         numeros = []
         for link in groupe:
-            m = _PART_RE.search(unquote(link.get("url", "")))
-            numeros.append(int(m.group(1)) if m else None)
+            # Le NOM DE FICHIER d'abord : il porte le VRAI numero. Le rang
+            # d'affichage « #n » ne valait le vrai numero que 45 fois sur 354
+            # liens multipart mesures (12 %) — il ordonnait par position dans le
+            # catalogue, pas par partie.
+            n = numero_de_partie(link.get("fileName"))
+            if n is None:
+                m = _PART_RE.search(unquote(link.get("url", "")))
+                n = int(m.group(1)) if m else None
+            numeros.append(n)
         if any(n is None for n in numeros) or len(set(numeros)) != len(numeros):
             # Hebergeur a URL opaque (vikingfile.com/f/2hlmuAlxRy,
             # 1fichier.com/?id) : pas de nom de fichier, donc pas de numero de
@@ -579,6 +656,11 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # Placee EN DERNIER dans l'etiquette : version et section restent
         # prioritaires dans les ~31 caracteres visibles de l'app.
         link_region = (link.get("region") or "").strip()
+        if not link_region:
+            # Le champ est vide : le nom de fichier comble. 2788 liens sont dans
+            # ce cas. On ne remplace JAMAIS un champ renseigne — voir
+            # region_du_nom pour la mesure d'accord.
+            link_region = region_du_nom(link.get("fileName")) or ""
         # La version n'est ecrite QUE si elle differe de celle de la fiche : la
         # vue detail affiche deja « Version 01.031 » en en-tete, juste au-dessus
         # de la liste. Mesure du 2026-08-27 dans l'app (boite de 180 px, police
@@ -599,6 +681,18 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # elle n'est ecrite que lorsqu'elle DIFFERE de celle de la fiche, que
         # l'en-tete affiche juste au-dessus.
         link_fmt = _abreger(link_fmt)
+        # Le NOM DE FICHIER complete ce que la source a perdu. Mesure du
+        # 2026-08-30 : le nom dit « DLC » 653 fois, l'etiquette 438 — et 124
+        # liens sont passes de group=DLC a Standard au re-scrape, alors que
+        # 41 des 43 dont on connait le nom disent DLC dans le fichier. Le nom
+        # AJOUTE, il ne retire jamais : l'etiquette dit DLC 126 fois la ou le
+        # nom se tait, et c'est la source qui le sait.
+        # On n'ajoute PAS « exFAT » ni « Backport » ici : le premier est
+        # implique par « BP N.xx » (621 releves sur 621, aucun PKG) et le second
+        # vient deja de la section, mieux renseignee (2407 contre 1313).
+        for _marque in ("DLC", "Fix"):
+            if _marque in marques_du_nom(link.get("fileName")) and _marque not in link_fmt:
+                link_fmt = f"{link_fmt} · {_marque}" if link_fmt else _marque
         # Un BP sous le seuil est le BINAIRE a deposer dans le dossier du jeu,
         # pas le jeu : on affiche sa taille, qui le dit sans legende. Au-dessus,
         # c'est le jeu — la fiche porte deja sa taille et les pixels sont
