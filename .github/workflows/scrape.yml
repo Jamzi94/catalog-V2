@@ -242,6 +242,36 @@ jobs:
       # ──────────────────────────────────────────────────────────────
       # SOURCE 1 : dlpsgame.com via API WordPress (avec fallback FlareSolverr)
       # ──────────────────────────────────────────────────────────────
+      - name: Demarrer SuperPSX en tache de fond
+        id: superpsx_fond
+        if: ${{ !cancelled() && github.event.inputs.skip_superpsx != 'true' }}
+        env:
+          FLARESOLVERR_URL: http://localhost:8191/v1
+        run: |
+          # PARALLELISATION. Mesure du run 33280162599, 49 minutes au total :
+          #   scrape dlpsgame (WP API) .... 26 min 49
+          #   scrape SuperPSX ............. 20 min 31
+          #   les onze autres etapes ...... moins de 15 s CUMULEES
+          # Les deux scrapes sont INDEPENDANTS — sources differentes, caches
+          # differents, fichiers de sortie differents — mais tournaient l'un
+          # apres l'autre. SuperPSX demarre donc ici, en fond, et l'etape
+          # « Scrape SuperPSX » plus bas se contente de l'attendre. On ne peut
+          # pas faire l'inverse : le fallback HTML de dlpsgame depend du
+          # resultat de l'etape API, qui doit donc rester au premier plan.
+          # Les cinq instances FlareSolverr absorbent la charge des deux.
+          ARGS=("--out" "superpsx-ps5.fresh.json")
+          ARGS+=("--mode" "${{ steps.config.outputs.mode }}")
+          ARGS+=("--http-backend" "flaresolverr")
+          ARGS+=("--flaresolverr-url" "http://localhost:8191/v1")
+          ARGS+=("--concurrency" "5")
+          if [ -n "${{ github.event.inputs.max_games }}" ]; then
+            ARGS+=("--max-games" "${{ github.event.inputs.max_games }}")
+          fi
+          ARGS+=("--verbose")
+          nohup python scripts/scrape_superpsx.py "${ARGS[@]}" > superpsx.log 2>&1 &
+          echo $! > superpsx.pid
+          echo "SuperPSX lance en fond (pid $(cat superpsx.pid))"
+
       - name: Scrape dlpsgame via WP API
         id: wp_api
         continue-on-error: true
@@ -330,17 +360,25 @@ jobs:
           # miroirs (vikingfile/1fichier…) via FlareSolverr (JS rendu).
           # FLARESOLVERR_URLS (pool 3 instances) est exporté plus haut → la concurrence
           # est automatiquement plafonnée à la taille du pool.
-          ARGS=("--out" "superpsx-ps5.fresh.json")
-          ARGS+=("--mode" "${{ steps.config.outputs.mode }}")
-          ARGS+=("--http-backend" "flaresolverr")
-          ARGS+=("--flaresolverr-url" "http://localhost:8191/v1")
-          # Pool 5 instances (8191-8195) → 5 fiches en parallèle (cf. services).
-          ARGS+=("--concurrency" "5")
-          if [ -n "${{ github.event.inputs.max_games }}" ]; then
-            ARGS+=("--max-games" "${{ github.event.inputs.max_games }}")
+          # Il tourne depuis l'etape « Demarrer SuperPSX en tache de fond »,
+          # lancee avant le scrape dlpsgame : ici on ATTEND, on ne relance pas.
+          if [ ! -f superpsx.pid ]; then
+            echo "Aucun processus SuperPSX en fond — rien a attendre."
+            exit 0
           fi
-          ARGS+=("--verbose")
-          python scripts/scrape_superpsx.py "${ARGS[@]}"
+          PID=$(cat superpsx.pid)
+          echo "Attente de SuperPSX (pid $PID)…"
+          while kill -0 "$PID" 2>/dev/null; do sleep 10; done
+          echo "=== journal SuperPSX ==="
+          cat superpsx.log || true
+          # Le fichier de sortie est le seul juge : un scrape qui n'a rien
+          # produit ne doit pas passer pour un succes silencieux.
+          if [ -s superpsx-ps5.fresh.json ]; then
+            N=$(python3 -c "import json;print(len(json.load(open('superpsx-ps5.fresh.json')).get('packages',[])))" 2>/dev/null || echo 0)
+            echo "SuperPSX : $N jeux produits"
+          else
+            echo "SuperPSX : aucun fichier produit"
+          fi
 
       # ──────────────────────────────────────────────────────────────
       # SOURCE 3 : exFAT JSON distant (non-bloquant)
