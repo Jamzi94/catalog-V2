@@ -79,24 +79,24 @@ def _noms(liens, version="01.000"):
 # pas le jeu.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a",
                "group": "Backport 4.xx", "version": "01.000", "sizeBytes": 45 * Mo}])
-assert noms[0] == "[BP 4.xx · 45 Mo] Viki", noms
+assert noms[0] == "[BP 4.xx · 45 Mo]", noms
 
 # Un BP volumineux ne l'annonce pas : c'est le jeu, la fiche porte deja sa
 # taille, et les pixels sont comptes.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a",
                "group": "Backport 4.xx", "version": "01.000", "sizeBytes": 40 * Go}])
-assert noms[0] == "[BP 4.xx] Viki", noms
+assert noms[0] == "[BP 4.xx]", noms
 
 # Temoin negatif : un lien NON BP de meme taille ne recoit rien — la question
 # posee ne concerne que les backports.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a",
                "group": "exFAT", "version": "01.000", "sizeBytes": 45 * Mo}])
-assert noms[0] == "[exFAT] Viki", noms
+assert noms[0] == "[exFAT]", noms
 
 # Temoin negatif : sans taille, rien n'est invente.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a",
                "group": "Backport 4.xx", "version": "01.000"}])
-assert noms[0] == "[BP 4.xx] Viki", noms
+assert noms[0] == "[BP 4.xx]", noms
 
 # INTEGRATION : seul le lien MESURE porte sa taille. Le miroir non sondable
 # n'herite de rien — c'est le prix de l'exactitude, et il est assume.
@@ -106,7 +106,7 @@ noms = _noms([
     {"name": "Akia", "url": "https://akirabox.com/b/file", "group": "Backport 4.xx",
      "version": "01.000"},
 ])
-assert noms == ["[BP 4.xx · 45 Mo] Viki", "[BP 4.xx] Akia"], noms
+assert noms == ["[BP 4.xx · 45 Mo]", "[BP 4.xx]"], noms
 
 # Le seuil doit tomber dans l'intervalle OU AUCUNE TAILLE N'A ETE OBSERVEE.
 # Sur les 214 tailles mesurees de la section « Backport » — la seule population
@@ -130,24 +130,24 @@ noms = _noms([{"name": "Akia", "url": "https://akirabox.com/a/file", "group": "B
 # sources parlent). Le nom de cette fixture porte « -EUR- », l'etiquette le
 # reflete. L'attente change parce que le COMPORTEMENT a change volontairement,
 # pas parce que le test genait.
-assert noms[0] == "[BP · fix · EUR] Akia", noms
+assert noms[0] == "[BP · fix · EUR]", noms
 
 # Avec la taille en plus, c'est la taille qui s'affiche : elle en dit davantage.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
                "version": "01.000", "sizeBytes": 91 * Mo,
                "fileName": "Jeu-Backport 4.xx.zip"}])
-assert noms[0] == "[BP · 91 Mo] Viki", noms
+assert noms[0] == "[BP · 91 Mo]", noms
 
 # TEMOIN — le nom qui dit JEU l'emporte sur une taille sous le seuil. Un
 # « .exfat » de 300 Mo reste une image, pas un binaire a deposer.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
                "version": "01.000", "sizeBytes": 300 * Mo,
                "fileName": "PPSA31246.exfat"}])
-assert noms[0] == "[BP] Viki", noms
+assert noms[0] == "[BP]", noms
 
 # TEMOIN NEGATIF — un nom muet ne fait rien basculer : la taille reprend la main.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Backport",
                "version": "01.000", "sizeBytes": 91 * Mo, "fileName": "file.rar"}])
-assert noms[0] == "[BP · 91 Mo] Viki", noms
+assert noms[0] == "[BP · 91 Mo]", noms
 
 print("OK")

@@ -41,7 +41,9 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import random
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -158,6 +160,8 @@ def main(argv: list | None = None) -> int:
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("catalog", type=Path)
     ap.add_argument("--max", type=int, default=0)
+    ap.add_argument("--pause", type=float, default=0.8,
+                    help="Secondes entre deux pages (politesse)")
     ap.add_argument("--navigateur", action="store_true",
                     help="Piloter un Chrome local au lieu de FlareSolverr")
     args = ap.parse_args(argv)
@@ -211,6 +215,12 @@ def main(argv: list | None = None) -> int:
                 tailles += 1
         else:
             echecs += 1
+        # POLITESSE, apprise a mes depens le 2026-08-30 : 850 pages tirees en
+        # deux salves a douze fils ont fait durcir le defi Cloudflare pour toute
+        # la session — il ne se resolvait plus, meme apres 45 s d'attente. Un
+        # balayage force n'accelere rien, il ferme la porte.
+        if args.pause:
+            time.sleep(args.pause + random.random() * args.pause)
         if i % 50 == 0:
             print(f"  {i}/{len(cibles)} — {noms} noms, {echecs} échecs", flush=True)
     if navigateur is not None:

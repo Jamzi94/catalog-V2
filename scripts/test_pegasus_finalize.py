@@ -128,14 +128,14 @@ noms = _etiquettes("01.031", [
     {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Standard", "version": "01.031"},
     {"name": "Rootz", "url": "https://rootz.so/d/b", "group": "Backport", "version": "01.005"},
 ])
-assert noms[0] == "[PKG] Viki", noms          # meme version que la fiche -> tue
+assert noms[0] == "[PKG]", noms          # meme version que la fiche -> tue
 # Version differente -> ecrite, mais EN DERNIER : l'ellipse mange la fin, et la
 # version est ce dont on peut le plus se passer. Mesure du 2026-08-30 : dans
 # l'ordre inverse, le format sortait du cadre 290 fois et la region 369 ; dans
 # cet ordre-ci, 67 et 104.
 # La version est abregee selon ce que porte la fiche : « 01.005 » y est seule
 # de son espece, donc « 1.005 » suffit et ne peut se confondre avec rien.
-assert noms[1] == "[BP · v1.005] Rootz", noms
+assert noms[1] == "[BP · v1.005]", noms
 
 # E) Abreviation DYNAMIQUE : deux versions dont l'une prefixe l'autre restent
 # distinguables — on ne raccourcit pas jusqu'a l'ambiguite.
@@ -153,7 +153,7 @@ pkg = {"titleId": "PPSA00001", "title": "Jeu", "version": "01.031", "fileFormat"
            {"name": "Rootz", "url": "https://rootz.so/d/b", "group": "Backport 4.xx",
             "version": "01.005"}]}
 finalize_package(pkg, collections.defaultdict(int))
-assert pkg["downloadLinks"][0]["name"] == "[BP 4.xx · v1.005] Rootz", pkg["downloadLinks"]
+assert pkg["downloadLinks"][0]["name"] == "[BP 4.xx · v1.005]", pkg["downloadLinks"]
 assert pkg["downloadLinks"][0]["group"] == "Backport 4.xx", pkg["downloadLinks"]
 assert "BP = Backport" in pkg["description"], pkg["description"]
 assert "Tags: PPSA00001" in pkg["description"], pkg["description"]
@@ -161,7 +161,7 @@ assert "Tags: PPSA00001" in pkg["description"], pkg["description"]
 # G) Idempotent : un second passage ne double ni l'etiquette ni la legende.
 avant = dict(pkg)
 finalize_package(pkg, collections.defaultdict(int))
-assert pkg["downloadLinks"][0]["name"] == "[BP 4.xx · v1.005] Rootz", pkg["downloadLinks"]
+assert pkg["downloadLinks"][0]["name"] == "[BP 4.xx · v1.005]", pkg["downloadLinks"]
 assert pkg["description"].count("BP = Backport") == 1, pkg["description"]
 
 # G) Temoin negatif : une fiche sans BP ne recoit pas la legende.
@@ -234,5 +234,41 @@ p = {"downloadLinks": [
     {"name": "Data", "url": "https://datanodes.to/d/abc"},
     {"name": "Data", "url": "https://datanodes.to/f/abc"}]}
 assert _clean_links(p) == 2, p["downloadLinks"]
+
+# --- H) le nom du miroir sort de l'etiquette ---------------------------------
+# L'app affiche deja l'hote sous chaque ligne (.download-link-host). Repeter
+# « Viki » au-dessus de « vikingfile.com » coute des pixels pour rien : mesure
+# du 2026-08-30 sur les 15743 liens, la troncature tombe de 19 % a 8 %.
+# Et l'ambiguite ne suit pas : en comptant l'hote — ce que voit l'utilisateur —
+# il ne reste que 2 paires indiscernables sur 15743, toutes deux sur
+# link-vault.org, qui n'est meme pas un hebergeur de fichiers.
+noms = _etiquettes("01.000", [
+    {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "exFAT"},
+    {"name": "Akia", "url": "https://akirabox.com/b/file", "group": "exFAT"},
+])
+assert noms == ["[exFAT]", "[exFAT]"], noms
+
+# Le miroir est CONSERVE dans un champ : il sert encore aux heuristiques de
+# format, et le retirer de l'affichage ne doit pas le detruire de la donnee.
+pkg = {"titleId": "PPSA00001", "title": "Jeu", "version": "01.000", "fileFormat": ["PKG"],
+       "downloadLinks": [{"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "exFAT"}]}
+finalize_package(pkg, collections.defaultdict(int))
+assert pkg["downloadLinks"][0].get("mirror") == "Viki", pkg["downloadLinks"][0]
+
+# IDEMPOTENT : un second passage ne doit pas perdre le miroir ni doubler quoi
+# que ce soit — l'etiquette ne le porte plus, il faut le relire du champ.
+finalize_package(pkg, collections.defaultdict(int))
+assert pkg["downloadLinks"][0]["name"] == "[exFAT]", pkg["downloadLinks"][0]
+assert pkg["downloadLinks"][0].get("mirror") == "Viki", pkg["downloadLinks"][0]
+
+# Le rang ne numerote plus que les doublons du MEME hote : deux miroirs
+# differents ne sont pas des parties, et l'hote affiche dessous les distingue.
+noms = _etiquettes("01.000", [
+    {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "PKG"},
+    {"name": "Viki", "url": "https://vikingfile.com/f/b", "group": "PKG"},
+    {"name": "Akia", "url": "https://akirabox.com/c/file", "group": "PKG"},
+])
+assert noms[0].endswith("#01") and noms[1].endswith("#02"), noms
+assert noms[2] == "[PKG]", noms
 
 print("OK")

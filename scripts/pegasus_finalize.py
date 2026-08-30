@@ -452,11 +452,20 @@ def _number_parts(pkg: dict) -> None:
     les liens sans prétendre à un ordre de parties ni à une totalité.
     """
     links = pkg.get("downloadLinks") or []
-    groupes: dict[str, list] = {}
+    groupes: dict[tuple, list] = {}
     for link in links:
         if isinstance(link, dict) and link.get("name"):
-            groupes.setdefault(link["name"], []).append(link)
-    for nom, groupe in groupes.items():
+            # Par (etiquette, HOTE) : depuis que le miroir a quitte l'etiquette,
+            # grouper par le seul libelle melangerait des miroirs — or deux
+            # miroirs ne sont pas deux parties, et l'hote affiche dessous les
+            # distingue deja. On ne numerote donc que les doublons d'un meme
+            # hebergeur, les seuls que l'utilisateur ne peut pas departager.
+            try:
+                hote = urlparse(link.get("url", "")).hostname or ""
+            except Exception:                                # noqa: BLE001
+                hote = ""
+            groupes.setdefault((link["name"], hote.replace("www.", "")), []).append(link)
+    for (nom, _hote), groupe in groupes.items():
         if len(groupe) < 2:
             continue
         numeros = []
@@ -642,6 +651,12 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # aussi l'existant.
         base = _SECTION_PREFIX_RE.sub("", base).strip() or base
         base = _RANK_SUFFIX_RE.sub("", base).strip() or base
+        # Le nom du miroir sort de l'AFFICHAGE mais reste dans la DONNEE : il
+        # sert encore aux heuristiques de format (_link_format lit nom + URL) et
+        # une etiquette n'est pas un endroit ou ranger de l'information.
+        if base and not base.startswith("["):
+            link.setdefault("mirror", base)
+        base = link.get("mirror") or base
         link_fmt = _strip_unknown(_link_format(base, link.get("url", ""), fmt, base_fmt, link.get("group", "")))
         # Version PROPRE au lien (section), sinon version du jeu en repli.
         link_version = (link.get("version") or "").strip() or version
@@ -717,7 +732,13 @@ def finalize_package(pkg: dict, stats: dict) -> None:
             # Ni format ni region : sans la version, l'etiquette dirait seulement
             # l'hebergeur, deja affiche dessous. On la remet.
             tag = f"v{link_version}"
-        link["name"] = f"[{tag}] {base}" if tag else base
+        # L'app affiche l'hote sous chaque ligne (.download-link-host) : repeter
+        # « Viki » au-dessus de « vikingfile.com » coute des pixels pour rien.
+        # Mesure du 2026-08-30 sur 15743 liens : la troncature tombe de 19 % a
+        # 8 %. Et l'ambiguite ne suit pas — en comptant l'hote, ce que voit
+        # l'utilisateur, il ne reste que 2 paires indiscernables, toutes deux
+        # sur link-vault.org, qui n'heberge meme pas de fichiers.
+        link["name"] = f"[{tag}]" if tag else (base or "")
     # Archives découpées : « …part01.rar », « …part02.rar »… produisaient N
     # libellés IDENTIQUES (12 mesurés sur Marvels Spider Man 2, PPSA03016), ce
     # qui donne l'impression de doublons alors que ce sont N fichiers dont il
