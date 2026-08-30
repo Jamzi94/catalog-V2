@@ -43,7 +43,9 @@ import json
 import re
 import random
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -177,6 +179,10 @@ def main(argv: list | None = None) -> int:
                     help="Ecrire un releve a part au lieu de reecrire le "
                          "catalogue (permet de tourner en parallele d'une autre "
                          "collecte ; voir scripts/releves.py)")
+    ap.add_argument("--fils", type=int, default=0,
+                    help="Pages menees de front (0 = une par instance "
+                         "FlareSolverr, ce qui est le bon reglage : chaque "
+                         "instance a sa propre session Chrome).")
     ap.add_argument("--pause", type=float, default=0.8,
                     help="Secondes entre deux pages (politesse)")
     ap.add_argument("--navigateur", action="store_true",
@@ -210,7 +216,11 @@ def main(argv: list | None = None) -> int:
             locale="fr-FR")
 
     noms = tailles = echecs = 0
-    for i, lien in enumerate(cibles, 1):
+    verrou = threading.Lock()
+
+    def _une(paire):
+        """Lit UNE page. Rend (lien, nom, octets) ; ne touche a rien de partage."""
+        i, lien = paire
         try:
             if args.navigateur:
                 page.goto(lien["url"], timeout=60000, wait_until="domcontentloaded")
@@ -226,22 +236,47 @@ def main(argv: list | None = None) -> int:
             nom, octets = extraire_nom_taille(contenu)
         except Exception:                                    # noqa: BLE001
             nom, octets = None, None
-        if nom:
-            lien["fileName"] = nom
-            noms += 1
-            if octets:
-                lien["sizeBytes"] = octets
-                tailles += 1
-        else:
-            echecs += 1
         # POLITESSE, apprise a mes depens le 2026-08-30 : 850 pages tirees en
         # deux salves a douze fils ont fait durcir le defi Cloudflare pour toute
         # la session — il ne se resolvait plus, meme apres 45 s d'attente. Un
-        # balayage force n'accelere rien, il ferme la porte.
+        # balayage force n'accelere rien, il ferme la porte. Ici la pause est
+        # PAR FIL, et il y a un fil par instance FlareSolverr : chaque session
+        # Chrome garde donc son propre rythme, celui qui a marche.
         if args.pause:
             time.sleep(args.pause + random.random() * args.pause)
-        if i % 50 == 0:
-            print(f"  {i}/{len(cibles)} — {noms} noms, {echecs} échecs", flush=True)
+        return (lien, nom, octets, i)
+
+    def _ranger(res):
+        nonlocal noms, tailles, echecs
+        lien, nom, octets, i = res
+        with verrou:
+            if nom:
+                lien["fileName"] = nom
+                noms += 1
+                if octets:
+                    lien["sizeBytes"] = octets
+                    tailles += 1
+            else:
+                echecs += 1
+            fait = noms + echecs
+            if fait % 50 == 0:
+                print(f"  {fait}/{len(cibles)} — {noms} noms, {echecs} echecs", flush=True)
+
+    # UN FIL PAR INSTANCE FlareSolverr. Le pool est deja concurrent — il protege
+    # son round-robin par un verrou et scrape_superpsx.py s'en sert ainsi depuis
+    # toujours. lire_akirabox, lui, lisait UNE page a la fois : sur le run
+    # 33288861281, cette etape a depasse douze minutes avec cinq instances
+    # inoccupees a quatre cinquiemes.
+    fils = args.fils or (1 if args.navigateur else max(1, pool.size()))
+    if fils <= 1:
+        for paire in enumerate(cibles, 1):
+            _ranger(_une(paire))
+    else:
+        print(f"  {fils} page(s) de front", flush=True)
+        with ThreadPoolExecutor(max_workers=fils) as ex:
+            for res in ex.map(_une, enumerate(cibles, 1)):
+                _ranger(res)
+
     if navigateur is not None:
         navigateur.close()
         contexte.stop()

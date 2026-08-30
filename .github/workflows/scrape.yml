@@ -272,6 +272,47 @@ jobs:
           echo $! > superpsx.pid
           echo "SuperPSX lance en fond (pid $(cat superpsx.pid))"
 
+      - name: Demarrer les releves de noms en tache de fond
+        if: ${{ !cancelled() }}
+        run: |
+          # POURQUOI SI TOT. Les trois collectes lisent le catalogue pour savoir
+          # QUELS liens n'ont pas encore de nom, puis passent tout leur temps a
+          # attendre le reseau. Elles n'ont besoin ni du scrape, ni du merge :
+          # les liens a nommer sont deja dans le catalogue du depot. Les laisser
+          # apres le merge les mettait sur le chemin critique pour rien.
+          #
+          # Mesure qui l'a rendu evident : en mode incremental, « Scrape
+          # dlpsgame via WP API » prend 1 SECONDE (cache restaure) et SuperPSX
+          # 20 minutes. Tout ce qui s'ajoute apres eux s'ajoute au total.
+          #
+          # CE QUE ÇA COUTE, ET C'EST ASSUME : un lien decouvert par CE run ne
+          # sera nomme qu'au SUIVANT, puisque la collecte a demarre avant de le
+          # connaitre. Un run de retard sur les nouveautes contre une quinzaine
+          # de minutes sur chaque run — et le releve est incremental, donc le
+          # retard ne s'accumule pas.
+          #
+          # La collecte lit une COPIE figee : le merge et les sondes de taille
+          # reecrivent ps5-catalog.json pendant ce temps, et lire un fichier en
+          # cours de reecriture rend du JSON tronque une fois sur mille. Une
+          # copie coute 6 Mo et supprime la course.
+          if [ ! -f ps5-catalog.json ]; then
+            echo "Pas de catalogue au depart — rien a relever."
+            exit 0
+          fi
+          cp ps5-catalog.json catalogue-au-depart.json
+          # SEULE la collecte en HTTP DIRECT part ici. akirabox et buzzheavier
+          # passent par FlareSolverr, dont SuperPSX se sert au meme moment : les
+          # mettre en concurrence sur les cinq instances ralentirait peut-etre
+          # les deux, et je n'ai AUCUNE mesure de FlareSolverr sous trois
+          # consommateurs. Ils partent donc plus bas, une fois le pool libre.
+          # Si une mesure montre que la contention est negligeable, les remonter
+          # ici est un copier-coller.
+          rm -f releve-*.json log-releve-*.txt
+          nohup python3 scripts/relever_noms.py catalogue-au-depart.json --max 1200                 --releves releve-lisibles.json > log-releve-lisibles.txt 2>&1 &
+          echo $! > releve-lisibles.pid
+          echo "Collecte des hebergeurs lisibles lancee en fond."
+
+
       - name: Scrape dlpsgame via WP API
         id: wp_api
         continue-on-error: true
@@ -368,7 +409,22 @@ jobs:
           fi
           PID=$(cat superpsx.pid)
           echo "Attente de SuperPSX (pid $PID)…"
-          while kill -0 "$PID" 2>/dev/null; do sleep 10; done
+          # Attente BORNEE et BAVARDE. Bornee : sans plafond ici, un scrape
+          # bloque laissait le job tourner jusqu'au timeout-minutes ci-dessus,
+          # 80 minutes a ne rien faire. Bavarde : le journal ne sortait qu'a la
+          # FIN, donc pendant tout ce temps l'etape n'affichait rien et on ne
+          # pouvait pas distinguer « ça avance » de « c'est mort ».
+          PLAFOND=$((70 * 60)); ECOULE=0
+          while kill -0 "$PID" 2>/dev/null; do
+            sleep 30; ECOULE=$((ECOULE + 30))
+            if [ $((ECOULE % 120)) -eq 0 ]; then
+              echo "  … $((ECOULE / 60)) min — $(tail -n 1 superpsx.log 2>/dev/null)"
+            fi
+            if [ $ECOULE -ge $PLAFOND ]; then
+              echo "::warning::SuperPSX depasse 70 min — arret, on garde ce qui existe."
+              kill "$PID" 2>/dev/null || true; sleep 5; break
+            fi
+          done
           echo "=== journal SuperPSX ==="
           cat superpsx.log || true
           # Le fichier de sortie est le seul juge : un scrape qui n'a rien
@@ -556,60 +612,54 @@ jobs:
           PY
           fi
 
-      - name: Relever les noms de fichiers (trois collectes en parallele)
+      - name: Attendre les releves de noms et les appliquer
         if: env.MERGE_SKIPPED != '1'
+        timeout-minutes: 40
         run: |
           # ETAPE CENTRALE depuis le 2026-08-30 : l'etiquette d'un lien se
           # construit avec ce que dit le FICHIER, pas seulement la page source.
-          #   DLC     : le nom l'affirme 653 fois contre 438 a l'etiquette, et
-          #             124 liens avaient perdu leur mention au re-scrape
-          #   region  : 2788 liens la portent dans le nom sans l'avoir au champ
-          #   partie  : le rang « #n » ne valait le vrai numero que 45/354
-          #   jeu/fix : le nom tranche 81 % des cas a 99 % d'exactitude
-          # Sans cette etape, tout cela retombe au scrape suivant.
+          # Mesure par ablation sur les 15743 liens du catalogue — on retire le
+          # nom de fichier et on regarde ce que l'etiquette perd :
+          #   DLC ............ 1139 -> 732   (+55 %)
+          #   region ......... 8359 -> 5536  (+51 %)
+          #   partie « n/N » ..   89 ->   44  (x2)
+          # BP et version, eux, ne bougent pas d'un lien : ils viennent de la
+          # page source. Chaque source sert a quelque chose de PRECIS.
           #
-          # POURQUOI EN PARALLELE, ET POURQUOI PAS AVANT. Les trois collectes
-          # touchent des hebergeurs DISJOINTS et attendent toutes le reseau :
-          # rien ne justifiait de les enchainer — sauf qu'elles reecrivaient
-          # toutes ps5-catalog.json en entier. Lancees ensemble, la derniere a
-          # fermer le fichier effacait le travail des autres, SANS erreur et
-          # avec un catalogue parfaitement valide a l'arrivee. Chacune ecrit
-          # donc son propre releve (--releves) et scripts/releves.py les verse
-          # ensuite, en une passe instantanee.
+          # Les collectes tournent depuis l'etape « Demarrer les releves de noms
+          # en tache de fond ». Ici on attend, on verse, on ne relance pas.
           #
-          #   lisibles ... datanodes, filekeeper, datavaults (cookie de
-          #                session obligatoire, 404 sans lui), vikingfile et
-          #                rootz (lecture directe)
-          #   akirabox ... premier hebergeur du catalogue, defi Cloudflare,
-          #                seul FlareSolverr le franchit
-          #   buzzheavier  MESURE A FAIRE : sorti du lecteur direct le
-          #                2026-08-30 parce que ses 242 liens rendent tous
-          #                « HTTP 403 — Just a moment... », 5463 octets de defi
-          #                Cloudflare. Ils n'etaient donc pas morts, mon
-          #                lecteur etait aveugle. Le parseur akirabox n'a
-          #                JAMAIS vu une page buzzheavier : ce lot de 60 est
-          #                une sonde, son taux de reussite est [NM] tant que ce
-          #                run n'a pas parle.
-          #
-          # Une panne d'hebergeur laisse des liens sans nom ; elle ne doit
-          # jamais casser le run.
-          if [ -f ps5-catalog.json ]; then
-            rm -f releve-*.json
-            python3 scripts/relever_noms.py ps5-catalog.json --max 1200                     --releves releve-lisibles.json    > log-lisibles.txt 2>&1 &
-            A=$!
-            python3 scripts/lire_akirabox.py ps5-catalog.json --max 400                     --releves releve-akirabox.json    > log-akirabox.txt 2>&1 &
-            B=$!
-            python3 scripts/lire_akirabox.py ps5-catalog.json --hotes buzzheavier                     --max 60 --releves releve-buzzheavier.json > log-buzz.txt 2>&1 &
-            C=$!
-            wait $A $B $C || true
-            for f in lisibles akirabox buzz; do
-              echo "───── $f"; cat log-$f.txt 2>/dev/null || true
-            done
-            # L'application est sequentielle : c'est la COLLECTE qui attendait
-            # le reseau, pas l'ecriture.
-            python3 scripts/releves.py ps5-catalog.json releve-lisibles.json                     releve-akirabox.json releve-buzzheavier.json || true
-            rm -f releve-*.json log-*.txt
+          # Chacune ecrit son propre releve, et pas le catalogue. Avant ça elles
+          # le reecrivaient toutes EN ENTIER : lancees ensemble, la derniere a
+          # fermer le fichier effaçait le travail des autres — sans erreur, sans
+          # JSON casse, avec un catalogue parfaitement valide a l'arrivee.
+          # Le pool FlareSolverr est libre depuis « Scrape SuperPSX » : akirabox
+          # et buzzheavier partent MAINTENANT, en parallele l'un de l'autre.
+          if [ -f catalogue-au-depart.json ]; then
+            nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json --max 400                   --releves releve-akirabox.json > log-releve-akirabox.txt 2>&1 &
+            echo $! > releve-akirabox.pid
+            nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json                   --hotes buzzheavier --max 60                   --releves releve-buzzheavier.json > log-releve-buzz.txt 2>&1 &
+            echo $! > releve-buzz.pid
           fi
+          for n in lisibles akirabox buzz; do
+            [ -f releve-$n.pid ] || continue
+            P=$(cat releve-$n.pid)
+            E=0
+            while kill -0 "$P" 2>/dev/null; do
+              sleep 15; E=$((E + 15))
+              if [ $E -ge 1500 ]; then
+                echo "::warning::releve $n depasse 25 min — arret, on garde l'acquis."
+                kill "$P" 2>/dev/null || true; sleep 3; break
+              fi
+            done
+            echo "───── $n"; cat log-releve-$n.txt 2>/dev/null || true
+          done
+          # L'application est sequentielle et instantanee : c'est la COLLECTE
+          # qui attendait le reseau, pas l'ecriture.
+          if [ -f ps5-catalog.json ]; then
+            python3 scripts/releves.py ps5-catalog.json releve-lisibles.json                     releve-akirabox.json releve-buzzheavier.json || true
+          fi
+          rm -f releve-*.json releve-*.pid log-releve-*.txt catalogue-au-depart.json
 
       - name: Nommer les fiches que la page source ne nomme pas
         if: env.MERGE_SKIPPED != '1'
