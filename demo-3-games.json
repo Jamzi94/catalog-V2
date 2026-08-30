@@ -3,297 +3,418 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA02508",
-      "title": "Evil Inside",
+      "titleId": "PPSA02608",
+      "title": "Winter Sports Games 4K Edition",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Evil_Inside.webp",
-      "description": "Format: exFAT · PKG\nTags: PPSA02508, v01.000, EURT\nSize: 1 GB\nPassword: SuperPSX\nVoices: English\nWorks on 12.xx to 2.xx",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4iq8.jpg",
+      "description": "Format: APR-EMU\nTags: PPSA02608, v1.000, 3.xx\nSize: 2 to",
       "downloadLinks": [
         {
-          "name": "[exFAT]",
-          "url": "https://akirabox.com/LJlGnWjb4m15/file",
-          "group": "exFAT",
-          "fileName": "PPSA02508.exfat",
-          "sizeBytes": 1589137899,
+          "name": "[APR-EMU]",
+          "url": "https://www.mediafire.com/file/69hjdowhycjhh37/[DLPSGAME.COM]-PPSA02608-app0.rar/file",
+          "group": "Standard",
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[APR-EMU]",
+          "url": "https://akirabox.com/l76mZNvxpman/file",
+          "group": "Standard",
+          "version": "01.000",
           "mirror": "Akia"
         },
         {
-          "name": "[exFAT]",
-          "url": "https://vikingfile.com/f/VKtXwZPpzL",
-          "group": "exFAT",
-          "fileName": "PPSA02508.exfat",
+          "name": "[APR-EMU]",
+          "url": "https://vikingfile.com/f/eG4UsuVM1S",
+          "group": "Standard",
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
           "mirror": "Viki"
         },
         {
-          "name": "[exFAT]",
-          "url": "https://datanodes.to/hhcivgi9gcr7",
-          "group": "exFAT",
-          "fileName": "PPSA02508.exfat",
-          "sizeBytes": 1610612736,
-          "mirror": "Data"
-        },
-        {
-          "name": "[exFAT]",
-          "url": "https://filekeeper.net/hdegj15vlrov",
-          "group": "exFAT",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[exFAT]",
-          "url": "https://datavaults.co/ipv6hhz15adr",
-          "group": "exFAT",
-          "fileName": "PPSA02508 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://vikingfile.com/f/1iZ16Pgdja",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[SuperPSX]-Evil.Inside-PPSA02508-EUR-Game (v01.000) (APR-EMU)-PS5.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[PKG · APR-EMU · EUR] #01",
-          "url": "https://www.rootz.so/d/1XOk8e",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[SuperPSX]-Evil.Inside-PPSA02508-EUR-Game (v01.000) (APR-EMU)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://1fichier.com/?fiskq2og61ajbk8cqkqe&af=4186346",
+          "name": "[APR-EMU]",
+          "url": "https://1fichier.com/?29tate08sp0z400mtbsx",
           "group": "Standard",
           "version": "01.000",
           "mirror": "1File"
         },
         {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://gofile.io/d/bRxNzX",
+          "name": "[APR-EMU]",
+          "url": "https://buzzheavier.com/4wufi76eqoea",
           "group": "Standard",
           "version": "01.000",
-          "region": "EUR",
-          "editionId": "PPSA02508",
-          "mirror": "Gofile"
-        },
-        {
-          "name": "[PKG · APR-EMU · EUR] #02",
-          "url": "https://www.rootz.so/d/1h5TTU",
-          "group": "Standard",
-          "version": "01.000",
-          "region": "EUR",
-          "editionId": "PPSA02508",
-          "fileName": "[DLPSGAME.COM]-PPSA02508.rar",
-          "mirror": "Rootz"
+          "mirror": "Buzz"
         }
       ],
-      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "PKG",
         "APR-EMU"
       ],
-      "_enrichedAt": "2026-08-27T06:21:20.114628+00:00",
-      "_rawgMatched": true,
+      "fileFormat": [
+        "APR-EMU",
+        "RAR"
+      ],
+      "sizeBytes": 569350002,
+      "_enrichedAt": "2026-08-19T04:33:35.037629+00:00",
+      "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "evil-inside",
-        "rawgName": "Evil Inside",
+        "rawgSlug": "the-games-winter-edition",
+        "rawgName": "The Games: Winter Edition",
         "rating": 0.0,
-        "metacritic": 44,
-        "released": "2021-03-25",
+        "metacritic": null,
+        "released": "2020-10-28",
         "genres": [
-          "Indie",
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/911/9113328a99f4e60dc0320354fbcf7fb9.jpg"
+          "Racing",
+          "Simulation",
+          "Sports"
+        ]
       },
-      "formatLabel": "exFAT · PKG"
+      "_igdbEnrichedAt": "2026-06-28T21:57:38.105642+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "APR-EMU"
     },
     {
-      "titleId": "PPSA20931",
-      "title": "Electronics Puzzle Lab",
+      "titleId": "PPSA16617",
+      "title": "The Lord of The Rings Return to Moria",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q99.jpg",
-      "description": "Format: exFAT · APR-EMU · Backport\nTags: PPSA20931, v1.000, 4.xx, 9.xx, USA\nSize: 1 GB\nBP = Backport",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7a7g.jpg",
+      "description": "Format: Backport 4.xx\nTags: PPSA16617, v1.000, 4.xx, 7.xx\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[BP 4.xx]",
-          "url": "https://akirabox.com/jJD3VDgkEGa5/file",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA20931.exfat",
-          "sizeBytes": 2061584302,
-          "mirror": "Akia"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://vikingfile.com/f/3pHnVFlXwA",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA20931.exfat",
-          "sizeBytes": 2061584302,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://datanodes.to/bv1l0r1emi7h",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA20931.exfat",
-          "sizeBytes": 2040109465,
-          "mirror": "Data"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://filekeeper.net/56711435w690",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA20931.exfat",
-          "sizeBytes": 2040109465,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[BP 4.xx]",
-          "url": "https://datavaults.co/ltnohfbitxrg",
-          "group": "Backport 4.xx",
-          "fileName": "PPSA20931 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[APR-EMU · USA]",
-          "url": "https://www.mediafire.com/file/k3jo1rzzzda9jxt/[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar/file",
+          "name": "[BP 4.xx · 74 Mo · USA]",
+          "url": "https://www.mediafire.com/file/jsoi7oiij6cws1z/[DLPSGAME.COM]-4xx[PPSA16618][01.000.000].zip/file",
           "group": "Standard",
           "version": "01.000",
           "region": "USA",
-          "editionId": "PPSA20931",
-          "fileName": "[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar",
+          "editionId": "PPSA16617",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA16618][01.000.000].zip",
+          "sizeBytes": 77758199,
           "mirror": "Mediafire"
+        },
+        {
+          "name": "[BP 4.xx · USA]",
+          "url": "https://akirabox.com/M2BGwWDXMGj4/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA16617",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx · 74 Mo · USA]",
+          "url": "https://vikingfile.com/f/e8qfBSIUpv",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA16617",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA16618][01.000.000].zip",
+          "sizeBytes": 77762396,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx · fix · USA]",
+          "url": "https://rootz.so/d/1tIBP6",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA16617",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA16618][01.000.000].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[BP 4.xx · USA]",
+          "url": "https://1fichier.com/?642qlziclgzspsm7kxr2",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA16617",
+          "mirror": "1File"
+        },
+        {
+          "name": "[BP 4.xx · USA]",
+          "url": "https://vikingfile.com/f/xB1npmZNFw",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA16617",
+          "fileName": "The.Lord.of.the.Rings.Return.to.Moria.PS5-DUPLEX.part1.rar",
+          "sizeBytes": 5315022028,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx · EUR] #01",
+          "url": "https://akirabox.com/2bJG84p75GOB/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx · EUR]",
+          "url": "https://vikingfile.com/f/XbCDY6UVtA",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "fileName": "01.000 PPSA16618-[DLPSGAME.COM].rar",
+          "sizeBytes": 10812580167,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx · EUR] #01",
+          "url": "https://1fichier.com/?rl925edcvantzq9ja8dz",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "mirror": "1File"
+        },
+        {
+          "name": "[BP 4.xx · 74 Mo · EUR]",
+          "url": "https://www.mediafire.com/file/qmm4bmvm2fl6lfw/4XX+PPSA16618+–+EUR+V1.00++The+Lord+of+The+Rings+Return+to+Moria++By+BADERLINK-[DLPSGAME.COM].zip/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "fileName": "4XX+PPSA16618+–+EUR+V1.00++The+Lord+of+The+Rings+Return+to+Moria++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 77267673,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[BP 4.xx · EUR] #02",
+          "url": "https://akirabox.com/ex5z2Bb7nzKq/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx · 74 Mo · EUR] #01",
+          "url": "https://vikingfile.com/f/9nxq3Tvs0P",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "fileName": "4XX PPSA16618 – EUR V1.00 The Lord of The Rings Return to Moria By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 77269565,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx · EUR] #02",
+          "url": "https://1fichier.com/?wo5bsmbpplro6o8s28h0",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "mirror": "1File"
+        },
+        {
+          "name": "[BP 4.xx · fix · EUR] #01",
+          "url": "https://www.rootz.so/d/1jGqbA",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "fileName": "4XX PPSA16618 – EUR V1.00  The Lord of The Rings Return to Moria  By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[BP 5.xx · 74 Mo · EUR]",
+          "url": "https://www.mediafire.com/file/8ctvi8o4mcxvwc2/5XX+PPSA16618+–+EUR+V1.00++The+Lord+of+The+Rings+Return+to+Moria++By+BADERLINK-[DLPSGAME.COM].zip/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "fileName": "5XX+PPSA16618+–+EUR+V1.00++The+Lord+of+The+Rings+Return+to+Moria++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 77267670,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[BP 4.xx · EUR] #03",
+          "url": "https://akirabox.com/BnkmWEZy2zR0/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx · 74 Mo · EUR] #02",
+          "url": "https://vikingfile.com/f/DX7uG91uSi",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "fileName": "5XX PPSA16618 – EUR V1.00 The Lord of The Rings Return to Moria By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 77269565,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx · EUR] #03",
+          "url": "https://1fichier.com/?u6k8hk1sfddxhm39h15f",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "mirror": "1File"
+        },
+        {
+          "name": "[BP 4.xx · fix · EUR] #02",
+          "url": "https://www.rootz.so/d/acSlU",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "fileName": "5XX PPSA16618 – EUR V1.00  The Lord of The Rings Return to Moria  By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[BP 4.xx · EUR] #04",
+          "url": "https://akirabox.com/b5OzdjjoRmB8/file",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx · 48 Mo · EUR]",
+          "url": "https://vikingfile.com/f/37YgdkKY3G",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "fileName": "PPSA16618_The_Lord_of_the_Rings_Return_to_Moria_V1_00_Backport_6.rar",
+          "sizeBytes": 50457477,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx · EUR] #04",
+          "url": "https://1fichier.com/?dhm7ion78uc0vfw0s6kr",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "EUR",
+          "editionId": "PPSA16618",
+          "mirror": "1File"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://1fichier.com/?yuqcreg2gzr9r6jxq4bg",
+          "group": "Standard",
+          "version": "01.000",
+          "mirror": "1File"
         }
       ],
-      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "exFAT",
-        "APR-EMU",
-        "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-08-19T04:32:38.358133+00:00",
-      "_rawgMatched": false,
+      "fileFormat": [
+        "ZIP",
+        "Backport 4.xx",
+        "Backport 5.xx",
+        "Backport 6.xx"
+      ],
+      "sizeBytes": 77758199,
+      "_enrichedAt": "2026-08-23T04:44:45.780993+00:00",
+      "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "electronics-puzzle-lab",
-        "rawgName": "Electronics Puzzle Lab",
-        "rating": 0.0,
+        "rawgSlug": "the-lord-of-the-rings-return-to-moria",
+        "rawgName": "The Lord of the Rings: Return to Moria",
+        "rating": 3.14,
         "metacritic": null,
-        "released": "2024-02-13",
+        "released": "2023-10-24",
         "genres": [
-          "Casual",
-          "Indie",
-          "Simulation"
-        ]
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/screenshots/d08/d084117899a164fecbdd7ece86e57c6d.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:36:22.387729+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:57:10.699320+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · APR-EMU · Backport"
+      "formatLabel": "Backport 4.xx"
     },
     {
-      "titleId": "PPSA15645",
-      "title": "Castlevania Dominus Collection",
-      "version": "01.003",
+      "titleId": "PPSA22520",
+      "title": "Animal Well",
+      "version": "01.000.011",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9xk.jpg",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA15645, v01.003, JPN\nSize: 1 GB\nPassword: SuperPSX\nVoices: English, Japanese\nWorks on 8.xx and higher\nBP = Backport",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Animal_Well.avif",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA22520, v1.000.011, 4.xx, JPN\nSize: 214 MB\nBP = Backport",
       "downloadLinks": [
         {
           "name": "[BP 4.xx]",
-          "url": "https://akirabox.com/0PdzyQNNPzeA/file",
+          "url": "https://akirabox.com/ex5z25ZMD3Kq/file",
           "group": "Backport 4.xx",
-          "fileName": "PPSA15645.exfat",
-          "sizeBytes": 1428076625,
+          "fileName": "PPSA22520.exfat",
+          "sizeBytes": 224395264,
           "mirror": "Akia"
         },
         {
           "name": "[BP 4.xx]",
-          "url": "https://vikingfile.com/f/56CJC18bq3",
+          "url": "https://vikingfile.com/f/43eZLaAaei",
           "group": "Backport 4.xx",
-          "fileName": "PPSA15645.exfat",
-          "sizeBytes": 1428076625,
+          "fileName": "PPSA22520.exfat",
+          "sizeBytes": 224395264,
           "mirror": "Viki"
         },
         {
           "name": "[BP 4.xx]",
-          "url": "https://datanodes.to/rrdlljbnxo9h",
+          "url": "https://datanodes.to/8qybxaww5f53",
           "group": "Backport 4.xx",
-          "fileName": "PPSA15645.exfat",
-          "sizeBytes": 1395864371,
+          "fileName": "PPSA22520.exfat",
+          "sizeBytes": 224395264,
           "mirror": "Data"
         },
         {
           "name": "[BP 4.xx]",
-          "url": "https://filekeeper.net/5kfvs4bthhod",
+          "url": "https://filekeeper.net/gjpncrvj6jvt",
           "group": "Backport 4.xx",
-          "fileName": "PPSA15645.exfat",
-          "sizeBytes": 1395864371,
+          "fileName": "PPSA22520.exfat",
+          "sizeBytes": 224395264,
           "mirror": "Filek"
         },
         {
           "name": "[BP 4.xx]",
-          "url": "https://datavaults.co/tpqvozl2di80",
+          "url": "https://datavaults.co/nc0l0xojv5vj",
           "group": "Backport 4.xx",
-          "fileName": "PPSA15645 exfat",
+          "fileName": "PPSA22520 exfat",
           "mirror": "Vault"
         },
         {
-          "name": "[PKG]",
-          "url": "https://link-vault.org/c/5abcht6i",
+          "name": "[PKG · APR-EMU · JPN]",
+          "url": "https://vikingfile.com/f/uAHfeN39mn",
           "group": "Standard",
-          "version": "01.003",
-          "mirror": "Multihost"
+          "version": "01.000.011",
+          "fileName": "[SuperPSX]-Animal.Well-PPSA22520-JPN-Game (v01.000.011)-PS5.rar",
+          "mirror": "Viki"
         },
         {
-          "name": "[BP]",
-          "url": "https://link-vault.org/c/wthhl3wg",
-          "group": "Backport",
-          "version": "01.003",
-          "mirror": "Multihost"
-        },
-        {
-          "name": "[PKG · JPN] #01",
-          "url": "https://www.rootz.so/d/BzCKm",
+          "name": "[PKG · APR-EMU · JPN]",
+          "url": "https://1fichier.com/?gjo6ih3qljohps27y0v9&af=4186346",
           "group": "Standard",
-          "version": "01.003",
-          "region": "JPN",
-          "editionId": "PPSA15645",
-          "fileName": "[DLPSGAME.COM]-01.003-PPSA15645.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG · JPN] #02",
-          "url": "https://www.rootz.so/d/XFy64",
-          "group": "Standard",
-          "version": "01.003",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG · JPN]",
-          "url": "https://1fichier.com/?8wrwqta0ab7h42dzpyxk&af=4186346",
-          "group": "Standard",
-          "version": "01.003",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
-          "sizeBytes": 1224065679,
+          "version": "01.000.011",
+          "fileName": "[SuperPSX]-Animal.Well-PPSA22520-JPN-Game (v01.000.011)-PS5.rar",
+          "sizeBytes": 103934853,
           "mirror": "1File"
+        },
+        {
+          "name": "[PKG · APR-EMU · JPN]",
+          "url": "https://www.rootz.so/d/1pYZlI",
+          "group": "Standard",
+          "version": "01.000.011",
+          "region": "JPN",
+          "editionId": "PPSA22520",
+          "fileName": "[DLPSGAME.COM]-01.000.011 PPSA22520.rar",
+          "mirror": "Rootz"
         }
       ],
-      "sizeBytes": 1073741824,
+      "sizeBytes": 224395264,
       "downloadSource": "https://phoenixdl.com",
       "source": [
         "exFAT · PKG · Backport"
@@ -301,14 +422,25 @@
       "fileFormat": [
         "Backport",
         "PKG",
-        "Backport 4.xx",
         "exFAT",
-        "unknown"
+        "APR-EMU",
+        "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-08-19T04:32:31.459858+00:00",
-      "_rawgMatched": false,
-      "_igdbEnrichedAt": "2026-06-30T15:00:58.379401+00:00",
-      "_igdbMatched": true,
+      "_enrichedAt": "2026-08-19T04:32:05.571166+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "animal-well",
+        "rawgName": "Animal Well",
+        "rating": 4.28,
+        "metacritic": null,
+        "released": "2024-05-09",
+        "genres": [
+          "Indie",
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/f0a/f0ae5322f985cda91e871adcfcb91f6f.jpg"
+      },
       "formatLabel": "exFAT · PKG · Backport"
     }
   ]
