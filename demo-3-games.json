@@ -3,91 +3,91 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA16159",
-      "title": "Monster Jam Showdown",
+      "titleId": "PPSA22636",
+      "title": "The Bridge Curse 2 The Extrication",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8oel.jpg",
-      "description": "Format: Folder · Backport 4.xx\nTags: PPSA16159, v1.000, 4.xx, 5.xx\nBP = Backport",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71ql.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA22636, v1.000, 4.xx, 5.xx\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[Folder]",
-          "url": "https://akirabox.com/l76mZDE6nzan/file",
+          "name": "[Folder] #01",
+          "url": "https://akirabox.com/0rpmv67RZmRg/file",
+          "group": "Standard",
           "version": "01.000",
-          "mirror": "Akia",
-          "fileName": "01.000 PPSA16159-[DLPSGAME.COM].rar",
-          "sizeBytes": 10683731148
+          "mirror": "Akia"
         },
         {
           "name": "[Folder]",
-          "url": "https://vikingfile.com/f/wrMCfiqvuN",
+          "url": "https://vikingfile.com/f/JEGoaqt2sI",
+          "group": "Standard",
           "version": "01.000",
-          "fileName": "01.000 PPSA16159-[DLPSGAME.COM].rar",
-          "sizeBytes": 10683731148,
+          "fileName": "01.000 PPSA22636-[DLPSGAME.COM].rar",
           "mirror": "Viki"
         },
         {
-          "name": "[Folder] #01",
-          "url": "https://1fichier.com/?f1yrtj8l3e43cxv1vl5f",
+          "name": "[Folder]",
+          "url": "https://1fichier.com/?ft84a4mtrpvkuw0xg0pa",
+          "group": "Standard",
           "version": "01.000",
           "mirror": "1File"
         },
         {
-          "name": "[BP 4.xx · 95 Mo · EUR]",
-          "url": "https://www.mediafire.com/file/7krgpvrz3s854kw/4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "name": "[BP 4.xx · 54 Mo]",
+          "url": "https://www.mediafire.com/file/qgrm78onc6fz078/4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000",
-          "fileName": "4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 99503004,
+          "fileName": "4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56470274,
           "mirror": "Mediafire"
-        },
-        {
-          "name": "[Folder · BP · 95 Mo · EUR] #01",
-          "url": "https://vikingfile.com/f/vdQx57zORx",
-          "version": "01.000",
-          "fileName": "4XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
-          "mirror": "Viki",
-          "sizeBytes": 99499376
         },
         {
           "name": "[Folder] #02",
-          "url": "https://1fichier.com/?1w81h59yuffezg4czpud",
+          "url": "https://akirabox.com/Pbe3Pdj5L3lX/file",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "Akia"
+        },
+        {
+          "name": "[Folder · BP · 54 Mo · EUR] #01",
+          "url": "https://vikingfile.com/f/p4OrpVLuBP",
+          "version": "01.000",
+          "fileName": "4XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 56465817
         },
         {
           "name": "[Folder · BP · fix · EUR] #01",
-          "url": "https://www.rootz.so/d/1lU38a",
+          "url": "https://www.rootz.so/d/16gmDg",
           "version": "01.000",
-          "fileName": "4XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "fileName": "4XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Rootz"
         },
         {
-          "name": "[BP 5.xx · 95 Mo · EUR]",
-          "url": "https://www.mediafire.com/file/70t5407d2kdqvee/5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "name": "[BP 5.xx · 54 Mo]",
+          "url": "https://www.mediafire.com/file/arrg9oixlz2m2dy/5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000",
-          "fileName": "5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 99503001,
+          "fileName": "5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56470271,
           "mirror": "Mediafire"
         },
         {
-          "name": "[Folder · BP · 95 Mo · EUR] #02",
-          "url": "https://vikingfile.com/f/WGY0sgANyy",
+          "name": "[Folder] #03",
+          "url": "https://akirabox.com/k0embjXoWmVb/file",
           "version": "01.000",
-          "fileName": "5XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
-          "mirror": "Viki",
-          "sizeBytes": 99499376
+          "mirror": "Akia"
         },
         {
-          "name": "[Folder] #03",
-          "url": "https://1fichier.com/?e98v7xlxhrbneo5bn56x",
+          "name": "[Folder · BP · 54 Mo · EUR] #02",
+          "url": "https://vikingfile.com/f/7hM0MehMFS",
           "version": "01.000",
-          "mirror": "1File"
+          "fileName": "5XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 56465817
         },
         {
           "name": "[Folder · BP · fix · EUR] #02",
-          "url": "https://www.rootz.so/d/1ziV0q",
+          "url": "https://www.rootz.so/d/24FBQ",
           "version": "01.000",
-          "fileName": "5XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "fileName": "5XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Rootz"
         }
       ],
@@ -97,143 +97,208 @@
       ],
       "fileFormat": [
         "Folder",
-        "ZIP",
         "Backport 4.xx",
+        "ZIP",
         "Backport 5.xx"
       ],
-      "sizeBytes": 99503004,
-      "_enrichedAt": "2026-08-19T04:32:56.579921+00:00",
-      "_rawgMatched": false,
+      "sizeBytes": 56470274,
+      "_enrichedAt": "2026-08-23T04:44:42.561897+00:00",
+      "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "monster-jam-showdown",
-        "rawgName": "Monster Jam Showdown",
+        "rawgSlug": "the-bridge-curse-2-the-extrication",
+        "rawgName": "The Bridge Curse 2: The Extrication",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2024-08-29",
+        "released": "2024-05-09",
         "genres": [
-          "Racing",
-          "Sports"
-        ]
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/12d/12d27964a9dfd503a820ea4d74a5a146.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:37:17.703951+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:57:04.936353+00:00",
       "_igdbMatched": true,
       "formatLabel": "Folder · Backport 4.xx"
     },
     {
-      "titleId": "PPSA15706",
-      "title": "15 in 1 Solitaire",
-      "version": "01.000",
+      "titleId": "PPSA17163",
+      "title": "Jets N Guns 2",
+      "version": "01.002",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4i6a.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA15706, v1.000, 9.xx",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Jets_N_Guns_2.avif",
+      "description": "Format: exFAT · Folder · Backport\nTags: PPSA17163, v01.002, EUR\nSize: 500 MB\nPassword: SuperPSX\nVoices: English\nWorks on 12.xx to 7.xxGame Extracted Size 1 GB\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[APR-EMU]",
-          "url": "https://www.mediafire.com/file/1pyzk3i6x25fdfg/[DLPSGAME.COM]-PPSA15706-Game+(v01.000)+[APR-EMU].rar/file",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-PPSA15706-Game+(v01.000)+[APR-EMU].rar",
-          "mirror": "Mediafire"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "APR-EMU"
-      ],
-      "fileFormat": [
-        "APR-EMU",
-        "RAR"
-      ],
-      "sizeBytes": 73363006,
-      "_enrichedAt": "2026-08-19T04:32:19.655366+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "150-in-1-solitaire",
-        "rawgName": "150 in 1 - Solitaire",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2013-08-20",
-        "genres": [
-          "Card",
-          "Board Games"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:35:13.255086+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "APR-EMU"
-    },
-    {
-      "titleId": "PPSA02608",
-      "title": "Winter Sports Games 4K Edition",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4iq8.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA02608, v1.000, 3.xx\nSize: 2 to",
-      "downloadLinks": [
-        {
-          "name": "[APR-EMU]",
-          "url": "https://www.mediafire.com/file/69hjdowhycjhh37/[DLPSGAME.COM]-PPSA02608-app0.rar/file",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
-          "mirror": "Mediafire"
+          "name": "[exFAT · BP 4.xx · 743 Mo]",
+          "url": "https://akirabox.com/vgKGxXOj6G8Q/file",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "PPSA17163.exfat",
+          "sizeBytes": 779091968
         },
         {
-          "name": "[APR-EMU]",
-          "url": "https://akirabox.com/l76mZNvxpman/file",
-          "group": "Standard",
-          "version": "01.000",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[APR-EMU]",
-          "url": "https://vikingfile.com/f/eG4UsuVM1S",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
+          "name": "[exFAT · BP 4.xx · 743 Mo]",
+          "url": "https://vikingfile.com/f/7tmV1RMxVi",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA17163.exfat",
+          "sizeBytes": 779091968,
           "mirror": "Viki"
         },
         {
-          "name": "[APR-EMU]",
-          "url": "https://1fichier.com/?29tate08sp0z400mtbsx",
+          "name": "[exFAT · BP 4.xx · 743 Mo]",
+          "url": "https://datanodes.to/zru0j48r0xpq",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA17163.exfat",
+          "sizeBytes": 779091968,
+          "mirror": "Data"
+        },
+        {
+          "name": "[exFAT · BP 4.xx · 743 Mo]",
+          "url": "https://filekeeper.net/x20ktgyaj2zn",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA17163.exfat",
+          "sizeBytes": 779091968,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[exFAT · BP 4.xx]",
+          "url": "https://datavaults.co/vtegr4thstqz",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA17163 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[PKG · Folder · EUR]",
+          "url": "https://vikingfile.com/f/fUKtztFOHR",
           "group": "Standard",
-          "version": "01.000",
+          "version": "01.002",
+          "fileName": "[SuperPSX]-Jets.n.Guns.2-PPSA17163-EUR-Game (v01.002)-PS5.rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[PKG · Folder · EUR] #01",
+          "url": "https://www.rootz.so/d/1Da95M",
+          "group": "Standard",
+          "version": "01.002",
+          "fileName": "[SuperPSX]-Jets.n.Guns.2-PPSA17163-EUR-Game (v01.002)-PS5.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[PKG · Folder]",
+          "url": "https://1fichier.com/?0hqruiof4ydgy3if74hz&af=4186346",
+          "group": "Standard",
+          "version": "01.002",
           "mirror": "1File"
         },
         {
-          "name": "[APR-EMU]",
-          "url": "https://buzzheavier.com/4wufi76eqoea",
+          "name": "[PKG · Folder · EUR] #02",
+          "url": "https://www.rootz.so/d/7PfJQ",
           "group": "Standard",
-          "version": "01.000",
-          "mirror": "Buzz"
+          "version": "01.002",
+          "region": "EUR",
+          "editionId": "PPSA17163",
+          "fileName": "[DLPSGAME.COM]-PPSA17163.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[PKG · Folder · 447 Mo · EUR]",
+          "url": "https://filekeeper.net/o8iyttss4b89/[DLPSGAME.COM]-PPSA17163.rar",
+          "group": "Standard",
+          "version": "01.002",
+          "region": "EUR",
+          "editionId": "PPSA17163",
+          "fileName": "[DLPSGAME.COM]-PPSA17163.rar",
+          "sizeBytes": 468398899,
+          "mirror": "Filek"
+        }
+      ],
+      "sizeBytes": 779091968,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · Folder · Backport"
+      ],
+      "fileFormat": [
+        "Backport",
+        "Folder",
+        "PKG",
+        "exFAT",
+        "RAR",
+        "Backport 4.xx"
+      ],
+      "_enrichedAt": "2026-08-19T04:32:10.146932+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "exFAT · Folder · Backport"
+    },
+    {
+      "titleId": "GAME_75853",
+      "title": "The Talos Principle 2",
+      "version": "02.013",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jbl.jpg",
+      "description": "Format: Backport 4.xx\nTags: v2.013, 4.xx, 7.xx\nBP = Backport",
+      "downloadLinks": [
+        {
+          "name": "[BP 4.xx · 57 Mo]",
+          "url": "https://www.mediafire.com/file/h7jh8wmtr71ntmd/[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip/file",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60178074,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[BP 4.xx] #01",
+          "url": "https://akirabox.com/k0embVRoamVb/file",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx · 57 Mo]",
+          "url": "https://vikingfile.com/f/oquq8uMLJW",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60177776,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[BP 4.xx]",
+          "url": "https://1fichier.com/?zwqp3xcw49ercc8tvcvm",
+          "mirror": "1File"
+        },
+        {
+          "name": "[BP 4.xx · fix]",
+          "url": "https://rootz.so/d/1MKdFY",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[BP 4.xx] #02",
+          "url": "https://akirabox.com/N2p3DqRRpzMa/file",
+          "mirror": "Akia"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "APR-EMU"
+        "Backport 4.xx"
       ],
       "fileFormat": [
-        "APR-EMU",
-        "RAR"
+        "Backport 4.xx",
+        "ZIP"
       ],
-      "sizeBytes": 569350002,
-      "_enrichedAt": "2026-08-19T04:33:35.037629+00:00",
-      "_rawgMatched": false,
+      "_enrichedAt": "2026-08-23T04:44:47.598790+00:00",
+      "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "the-games-winter-edition",
-        "rawgName": "The Games: Winter Edition",
-        "rating": 0.0,
+        "rawgSlug": "talos-principle-2",
+        "rawgName": "The Talos Principle 2",
+        "rating": 4.31,
         "metacritic": null,
-        "released": "2020-10-28",
+        "released": "2023-11-01",
         "genres": [
-          "Racing",
-          "Simulation",
-          "Sports"
-        ]
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/4e4/4e42fc297c028630262a4abcc7769576.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:57:38.105642+00:00",
+      "formatLabel": "Backport 4.xx",
+      "_igdbEnrichedAt": "2026-06-28T21:57:17.452895+00:00",
       "_igdbMatched": true,
-      "formatLabel": "APR-EMU"
+      "sizeBytes": 60178074
     }
   ]
 }
