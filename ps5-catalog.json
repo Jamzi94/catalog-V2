@@ -182,7 +182,9 @@
         {
           "name": "[PKG] Akia",
           "url": "https://akirabox.com/gXeGOoeLdGAa/file",
-          "version": "01.009"
+          "version": "01.009",
+          "fileName": "[DLPSGAME.COM]-01.009 PPSA04540.part01.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[PKG] 1File",
@@ -383,7 +385,9 @@
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/9AqGQ4Rp0zMn/file",
           "group": "exFAT",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-01.009 PPSA04540.part01.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[exFAT] Data",
@@ -460,12 +464,14 @@
       "description": "Format: exFAT · PKG · Backport 4.xx\nTags: PPSA04583, v1.000, 4.xx, USA\nSize: 21 GB\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[PKG · USA] Akia",
+          "name": "[PKG · USA] Akia #01",
           "url": "https://akirabox.com/qLQ364Ka7G19/file",
           "group": "Standard",
           "version": "01.000",
           "region": "USA",
-          "editionId": "PPSA04583"
+          "editionId": "PPSA04583",
+          "fileName": "01.000 PPSA04583-[DLPSGAME.COM].rar",
+          "sizeBytes": 10200547328
         },
         {
           "name": "[PKG · USA] Viki #01",
@@ -490,7 +496,9 @@
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/RMKGJO4p2m1o/file",
           "group": "Backport 4.xx",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA04583.exfat",
+          "sizeBytes": 23493471109
         },
         {
           "name": "[BP 4.xx · USA] Viki",
@@ -516,9 +524,11 @@
           "sizeBytes": 57148939
         },
         {
-          "name": "[PKG] Akia",
+          "name": "[PKG · USA] Akia #02",
           "url": "https://akirabox.com/0PdzyvZvMGeA/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "4_XX PPSA04583 – USA V1.000 41 HoursBackport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 57147392
         },
         {
           "name": "[PKG · USA] Viki #02",
@@ -580,7 +590,9 @@
         {
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/qPez4A1WpGOY/file",
-          "group": "exFAT"
+          "group": "exFAT",
+          "fileName": "PPSA21022.exfat",
+          "sizeBytes": 19488414105
         },
         {
           "name": "[exFAT] Viki",
@@ -609,7 +621,9 @@
         {
           "name": "[exFAT · BP] Akia",
           "url": "https://akirabox.com/ex5z212Y83Kq/file",
-          "group": "exFAT · Backport"
+          "group": "exFAT · Backport",
+          "fileName": "PPSA05265.exfat",
+          "sizeBytes": 3715146711
         },
         {
           "name": "[exFAT · BP] Viki",
@@ -700,7 +714,9 @@
           "group": "Backport",
           "version": "01.002",
           "region": "USA",
-          "editionId": "PPSA05265"
+          "editionId": "PPSA05265",
+          "fileName": "PPSA05265.exfat",
+          "sizeBytes": 3715146711
         },
         {
           "name": "[BP · USA] Viki",
@@ -750,7 +766,9 @@
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/jar3XaNlrz2d/file",
           "group": "exFAT",
-          "version": "01.002"
+          "version": "01.002",
+          "fileName": "PPSA05265.exfat",
+          "sizeBytes": 3715146711
         },
         {
           "name": "[exFAT] Viki",
@@ -845,7 +863,7 @@
       "description": "Format: exFAT · PKG\nTags: PPSA02387, v01.000, EUR\nSize: 50GB\nPassword: SuperPSX\nVoices: English, French, German\nTest PS5 with FW 4.51 with Itemzflow",
       "downloadLinks": [
         {
-          "name": "[PKG · EUR] Akia #01",
+          "name": "[PKG · EUR] Akia",
           "url": "https://akirabox.com/2bJG85aQmOBE/file",
           "group": "Standard",
           "version": "01.000",
@@ -882,12 +900,14 @@
           "sizeBytes": 30335303
         },
         {
-          "name": "[PKG · EUR] Akia #02",
+          "name": "[PKG · DLC · EUR] Akia",
           "url": "https://akirabox.com/qw1ze9Oy4zXy/file",
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA02387"
+          "editionId": "PPSA02387",
+          "fileName": "A Plague Tale Innocence DLC EU -[DLPSGAME.COM].rar",
+          "sizeBytes": 1080033
         },
         {
           "name": "[PKG · DLC · EUR] Viki",
@@ -918,12 +938,14 @@
           "fileName": "A Plague Tale Innocence DLC EU -[DLPSGAME.COM].rar"
         },
         {
-          "name": "[PKG · USA] Akia #01",
+          "name": "[PKG · USA] Akia",
           "url": "https://akirabox.com/1RgzR1oQo3bp/file",
           "group": "Standard",
           "version": "01.000",
           "region": "USA",
-          "editionId": "PPSA02388"
+          "editionId": "PPSA02388",
+          "fileName": "PPSA02388 - USA - PS5 Dump v1.000-[DLPSGAME.COM].rar",
+          "sizeBytes": 34799972515
         },
         {
           "name": "[PKG · USA] Viki",
@@ -953,12 +975,14 @@
           "sizeBytes": 37366215475
         },
         {
-          "name": "[PKG · USA] Akia #02",
+          "name": "[PKG · DLC · USA] Akia",
           "url": "https://akirabox.com/E1x3AgLDrGyk/file",
           "group": "Standard",
           "version": "01.000",
           "region": "USA",
-          "editionId": "PPSA02388"
+          "editionId": "PPSA02388",
+          "fileName": "A Plague Tale Innocence DLC US -[DLPSGAME.COM].rar",
+          "sizeBytes": 1080033
         },
         {
           "name": "[PKG · DLC · USA] Viki",
@@ -988,12 +1012,14 @@
           "editionId": "PPSA02388"
         },
         {
-          "name": "[exFAT · EUR] Akia #01",
+          "name": "[exFAT · EUR] Akia",
           "url": "https://akirabox.com/vgKGxLngqG8Q/file",
           "group": "exFAT",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA02387"
+          "editionId": "PPSA02387",
+          "fileName": "PPSA02387.exfat",
+          "sizeBytes": 43411381944
         },
         {
           "name": "[exFAT · EUR] Viki",
@@ -1013,12 +1039,14 @@
           "editionId": "PPSA02387"
         },
         {
-          "name": "[exFAT · EUR] Akia #02",
+          "name": "[exFAT · DLC · EUR] Akia",
           "url": "https://akirabox.com/2bJG8Jrog3OB/file",
           "group": "exFAT",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA02387"
+          "editionId": "PPSA02387",
+          "fileName": "DLC_Psykzhack.rar",
+          "sizeBytes": 1080033
         },
         {
           "name": "[exFAT · DLC · EUR] Viki",
@@ -1078,7 +1106,9 @@
           "group": "Standard",
           "version": "01.005",
           "region": "USA",
-          "editionId": "PPSA05366"
+          "editionId": "PPSA05366",
+          "fileName": "PPSA02388 - USA - PS5 Dump v1.000-[DLPSGAME.COM].rar",
+          "sizeBytes": 34799972515
         },
         {
           "name": "[PKG · USA] 1File #01",
@@ -1101,12 +1131,14 @@
           "sizeBytes": 53332756398
         },
         {
-          "name": "[PKG · USA] Akia #02",
+          "name": "[PKG · DLC · USA] Akia",
           "url": "https://akirabox.com/QN9mEaLrwm6d/file",
           "group": "Standard",
           "version": "01.005",
           "region": "USA",
-          "editionId": "PPSA05366"
+          "editionId": "PPSA05366",
+          "fileName": "A Plague Tale Requiem DLC USA -[DLPSGAME.COM].rar",
+          "sizeBytes": 743137
         },
         {
           "name": "[PKG · DLC · USA] Viki",
@@ -1137,12 +1169,14 @@
           "fileName": "A Plague Tale Requiem DLC USA -[DLPSGAME.COM].rar"
         },
         {
-          "name": "[PKG · USA] Akia #03",
+          "name": "[PKG · USA] Akia #02",
           "url": "https://akirabox.com/l5YzMyaezyOA/file",
           "group": "Standard",
           "version": "01.005",
           "region": "USA",
-          "editionId": "PPSA05366"
+          "editionId": "PPSA05366",
+          "fileName": "[PPSA05366][ 1.005 ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 49671296778
         },
         {
           "name": "[PKG · USA] 1File #03",
@@ -1163,12 +1197,14 @@
           "editionId": "PPSA05366"
         },
         {
-          "name": "[PKG · USA · v1.000] Akia",
+          "name": "[PKG · DLC · USA · v1.000] Akia",
           "url": "https://akirabox.com/LJlGn2yAG15w/file",
           "group": "Standard",
           "version": "01.000",
           "region": "USA",
-          "editionId": "PPSA05366"
+          "editionId": "PPSA05366",
+          "fileName": "A Plague Tale Requiem DLC EUR -[DLPSGAME.COM].rar",
+          "sizeBytes": 743178
         },
         {
           "name": "[PKG · USA · v1.000] 1File #01",
@@ -1227,12 +1263,14 @@
           "sizeBytes": 18465423
         },
         {
-          "name": "[PKG · EUR · v1.000] Akia",
+          "name": "[PKG · DLC · EUR · v1.000] Akia",
           "url": "https://akirabox.com/M2BGwOZbOGj4/file",
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA02785"
+          "editionId": "PPSA02785",
+          "fileName": "A Plague Tale Requiem DLC EUR -[DLPSGAME.COM].rar",
+          "sizeBytes": 743178
         },
         {
           "name": "[PKG · DLC · EUR · v1.000] Viki",
@@ -1263,12 +1301,14 @@
           "fileName": "A Plague Tale Requiem DLC EUR -[DLPSGAME.COM].rar"
         },
         {
-          "name": "[exFAT · USA] Akia #01",
+          "name": "[exFAT · USA] Akia",
           "url": "https://akirabox.com/5pVzNwqLJG7w/file",
           "group": "exFAT",
           "version": "01.005",
           "region": "USA",
-          "editionId": "PPSA05366"
+          "editionId": "PPSA05366",
+          "fileName": "PPSA05366.exfat",
+          "sizeBytes": 56382183178
         },
         {
           "name": "[exFAT · USA] Viki",
@@ -1289,12 +1329,14 @@
           "editionId": "PPSA05366"
         },
         {
-          "name": "[exFAT · USA] Akia #02",
+          "name": "[exFAT · DLC · USA] Akia",
           "url": "https://akirabox.com/9QWmponjXGEB/file",
           "group": "exFAT",
           "version": "01.005",
           "region": "USA",
-          "editionId": "PPSA05366"
+          "editionId": "PPSA05366",
+          "fileName": "DLC_Psykzhack.rar",
+          "sizeBytes": 743075
         },
         {
           "name": "[exFAT · DLC · USA] Viki",
@@ -1393,7 +1435,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA19007"
+          "editionId": "PPSA19007",
+          "fileName": "PPSA19007-app0-[DLPSGAME.COM].rar",
+          "sizeBytes": 49220325212
         },
         {
           "name": "[PKG · Folder · EUR · v1.000] Viki #01",
@@ -1439,7 +1483,9 @@
           "group": "Backport",
           "version": "01.006",
           "region": "EUR",
-          "editionId": "PPSA19007"
+          "editionId": "PPSA19007",
+          "fileName": "PPSA19007.exfat",
+          "sizeBytes": 77985868677
         },
         {
           "name": "[BP · EUR] Viki",
@@ -1463,7 +1509,9 @@
           "group": "exFAT",
           "version": "01.006",
           "region": "EUR",
-          "editionId": "PPSA19007"
+          "editionId": "PPSA19007",
+          "fileName": "PPSA19007.exfat",
+          "sizeBytes": 77985868677
         },
         {
           "name": "[exFAT · EUR] Viki",
@@ -1499,7 +1547,9 @@
           "group": "Standard",
           "version": "01.006",
           "region": "EUR",
-          "editionId": "PPSA19007"
+          "editionId": "PPSA19007",
+          "fileName": "[DLPSGAME.COM]-PPSA19007_01_006_000_backport_files.zip",
+          "sizeBytes": 58521026
         },
         {
           "name": "[PKG · Folder · EUR] Viki",
@@ -1544,7 +1594,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA19007"
+          "editionId": "PPSA19007",
+          "fileName": "PPSA19007.exfat",
+          "sizeBytes": 77985868677
         },
         {
           "name": "[PKG · Folder · EUR · v1.000] Viki #03",
@@ -1579,7 +1631,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA19007"
+          "editionId": "PPSA19007",
+          "fileName": "5XX PPSA19007 – EUR V1.00  A Quiet Place The Road Ahead  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 57619251
         },
         {
           "name": "[PKG · Folder · EUR · v1.000] Viki #04",
@@ -1831,7 +1885,9 @@
           "group": "Standard",
           "version": "01.002",
           "region": "EUR",
-          "editionId": "PPSA28311"
+          "editionId": "PPSA28311",
+          "fileName": "[DLPSGAME.COM] - 01.002 PPSA28311.rar",
+          "sizeBytes": 3027951943
         },
         {
           "name": "[exFAT · BP 4.xx · EUR] Viki",
@@ -1864,7 +1920,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/qLQ36qDgKm19/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA28311.exfat",
+          "sizeBytes": 3382286745
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -1939,7 +1997,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA10600"
+          "editionId": "PPSA10600",
+          "fileName": "Ad Infinitum 01.000 PPSA10600-[DLPSGAME.COM].rar",
+          "sizeBytes": 19273665740
         },
         {
           "name": "[PKG · EUR] Viki #01",
@@ -1971,7 +2031,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/QN9mEZxno36d/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA10600.exfat",
+          "sizeBytes": 38686917918
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -2119,9 +2181,11 @@
       "description": "Format: exFAT · PKG · Backport 4.xx\nTags: PPSA04109, v03.003.001, EUR\nSize: 4 GB\nPassword: SuperPSX\nVoices: Chinese, English, French, German, Japanese, Portuguese (Brazil), Russian, Spanish\nWorks on 11.xx and higher\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[BP 4.xx] Akia",
+          "name": "[BP 4.xx · 140 Mo] Akia",
           "url": "https://akirabox.com/Y2xm012en3RO/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "[DLPSGAME.COM] - PPSA09351 AEW Fight Forever (01.010.000) backport files.zip",
+          "sizeBytes": 146863554
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -2185,7 +2249,9 @@
         {
           "name": "[PKG · v3.001] Akia",
           "url": "https://akirabox.com/Z9dzBKkN5Gk1/file",
-          "version": "03.001"
+          "version": "03.001",
+          "fileName": "PPSA04109.exfat",
+          "sizeBytes": 5841155522
         },
         {
           "name": "[PKG] Viki",
@@ -2241,7 +2307,9 @@
           "group": "Standard",
           "version": "01.010",
           "region": "USA",
-          "editionId": "PPSA09351"
+          "editionId": "PPSA09351",
+          "fileName": "AEW Fight Forever-[DLPSGAME.COM].rar",
+          "sizeBytes": 20583630766
         },
         {
           "name": "[PKG · USA] Viki #01",
@@ -2287,7 +2355,9 @@
           "group": "Standard",
           "version": "01.010",
           "region": "USA",
-          "editionId": "PPSA09351"
+          "editionId": "PPSA09351",
+          "fileName": "[DLPSGAME.COM] - PPSA09351 AEW Fight Forever (01.010.000) backport files.zip",
+          "sizeBytes": 146863554
         },
         {
           "name": "[PKG · USA] Viki #02",
@@ -2333,7 +2403,9 @@
           "group": "Standard",
           "version": "01.010",
           "region": "USA",
-          "editionId": "PPSA09351"
+          "editionId": "PPSA09351",
+          "fileName": "[DLPSGAME.COM]-4.xx-PPSA09351-d33j4y.rar",
+          "sizeBytes": 97129594
         },
         {
           "name": "[PKG · USA] Viki #03",
@@ -2364,12 +2436,14 @@
           "sizeBytes": 101848186
         },
         {
-          "name": "[PKG · USA] Akia #04",
+          "name": "[PKG · DLC · USA] Akia",
           "url": "https://akirabox.com/BnkmWE8lazR0/file",
           "group": "Standard",
           "version": "01.010",
           "region": "USA",
-          "editionId": "PPSA09351"
+          "editionId": "PPSA09351",
+          "fileName": "AEW Fight Forever ALL DLC USA-[DLPSGAME.COM].rar",
+          "sizeBytes": 13526630
         },
         {
           "name": "[PKG · DLC · USA] Viki",
@@ -2405,7 +2479,9 @@
           "group": "Standard",
           "version": "01.000.000",
           "region": "USA",
-          "editionId": "PPSA09351"
+          "editionId": "PPSA09351",
+          "fileName": "[ AEW Fight Forever ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 17222818856
         },
         {
           "name": "[PKG · USA · v01.000.000] 1File #01",
@@ -2451,12 +2527,14 @@
           "sizeBytes": 18489834209
         },
         {
-          "name": "[PKG · EUR · v01.000.000] Akia #01",
+          "name": "[PKG · EUR · v01.000.000] Akia",
           "url": "https://akirabox.com/ex5z2l62ymKq/file",
           "group": "Standard",
           "version": "01.000.000",
           "region": "EUR",
-          "editionId": "PPSA09352"
+          "editionId": "PPSA09352",
+          "fileName": "AEW Fight Forever PS5-DUPLEX-[DLPSGAME.COM].rar",
+          "sizeBytes": 51367808860
         },
         {
           "name": "[PKG · EUR · v01.000.000] 1File",
@@ -2469,12 +2547,14 @@
           "sizeBytes": 55147380080
         },
         {
-          "name": "[PKG · EUR · v01.000.000] Akia #02",
+          "name": "[PKG · DLC · EUR · v01.000.000] Akia",
           "url": "https://akirabox.com/ZvqzlAx4OGaD/file",
           "group": "Standard",
           "version": "01.000.000",
           "region": "EUR",
-          "editionId": "PPSA09352"
+          "editionId": "PPSA09352",
+          "fileName": "AEW Fight Forever ALL DLC EUR -[DLPSGAME.COM].rar",
+          "sizeBytes": 13526630
         },
         {
           "name": "[PKG · DLC · EUR · v01.000.000] Viki",
@@ -2504,12 +2584,14 @@
           "editionId": "PPSA09352"
         },
         {
-          "name": "[exFAT · USA] Akia #01",
+          "name": "[exFAT · DLC · USA] Akia #01",
           "url": "https://akirabox.com/0JgG7LD7emoY/file",
           "group": "exFAT",
           "version": "01.010",
           "region": "USA",
-          "editionId": "PPSA09351"
+          "editionId": "PPSA09351",
+          "fileName": "All_15DLCs_Psykzhack.rar",
+          "sizeBytes": 13725859
         },
         {
           "name": "[exFAT · USA] Viki",
@@ -2530,12 +2612,14 @@
           "editionId": "PPSA09351"
         },
         {
-          "name": "[exFAT · USA] Akia #02",
+          "name": "[exFAT · DLC · USA] Akia #02",
           "url": "https://akirabox.com/l76mZ7nop3an/file",
           "group": "exFAT",
           "version": "01.010",
           "region": "USA",
-          "editionId": "PPSA09351"
+          "editionId": "PPSA09351",
+          "fileName": "All_15DLCs_Psykzhack.rar",
+          "sizeBytes": 13725859
         },
         {
           "name": "[exFAT · USA] Data #02",
@@ -2652,7 +2736,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA14053"
+          "editionId": "PPSA14053",
+          "fileName": "Afterimage 01.000 PPSA14053-[DLPSGAME.COM].rar",
+          "sizeBytes": 2083059138
         },
         {
           "name": "[PKG · EUR] Viki #01",
@@ -2677,7 +2763,9 @@
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/Zvqzl0Oy8zaD/file",
           "group": "Backport 4.xx",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA14053.exfat",
+          "sizeBytes": 7183332802
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -2825,7 +2913,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/dZxG5qxo6GVj/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA27765.exfat",
+          "sizeBytes": 26532160471
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -2891,7 +2981,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/0rpmvpL4yzRg/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA27366.exfat",
+          "sizeBytes": 17212081438
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -3022,7 +3114,9 @@
           "group": "Backport 4.xx",
           "version": "01.200.007",
           "region": "EUR",
-          "editionId": "PPSA02572"
+          "editionId": "PPSA02572",
+          "fileName": "PPSA02572.7z",
+          "sizeBytes": 91697551769
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -3131,7 +3225,9 @@
           "group": "Standard",
           "version": "01.200.007",
           "region": "EUR",
-          "editionId": "PPSA02572"
+          "editionId": "PPSA02572",
+          "fileName": "[DLPSGAME.COM]-PPSA02572( Deluxe Edition).part10.rar",
+          "sizeBytes": 4928474972
         },
         {
           "name": "[PKG · APR-EMU · EUR] Viki #01",
@@ -3186,7 +3282,9 @@
           "group": "Standard",
           "version": "01.200.007",
           "region": "EUR",
-          "editionId": "PPSA02572"
+          "editionId": "PPSA02572",
+          "fileName": "PPSA14053.exfat",
+          "sizeBytes": 7183332802
         },
         {
           "name": "[PKG · APR-EMU] Viki",
@@ -3418,7 +3516,9 @@
           "group": "Standard",
           "version": "01.005",
           "region": "USA",
-          "editionId": "PPSA01924"
+          "editionId": "PPSA01924",
+          "fileName": "[ Alan Wake Remastered ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 29248727285
         },
         {
           "name": "[PKG · USA] Viki #01",
@@ -3445,7 +3545,9 @@
           "group": "exFAT",
           "version": "01.005",
           "region": "USA",
-          "editionId": "PPSA01924"
+          "editionId": "PPSA01924",
+          "fileName": "Aliens Dark Descent 01.000 PPSA08312-[DLPSGAME.COM].rar",
+          "sizeBytes": 29216515031
         },
         {
           "name": "[exFAT · USA] Viki",
@@ -3545,7 +3647,9 @@
           "group": "Standard",
           "version": "01.004",
           "region": "EUR",
-          "editionId": "PPSA02664"
+          "editionId": "PPSA02664",
+          "fileName": "01.004 PPSA02664-[DLPSGAME.COM].rar",
+          "sizeBytes": 364149473
         },
         {
           "name": "[RAR · EUR] Viki",
@@ -3580,7 +3684,9 @@
           "url": "https://akirabox.com/Z9dzBxW4Pmk1/file",
           "group": "Standard",
           "region": "USA",
-          "editionId": "PPSA02663"
+          "editionId": "PPSA02663",
+          "fileName": "PPSA02663-[DLPSGAME.COM].rar",
+          "sizeBytes": 368364748
         },
         {
           "name": "[RAR · USA] Viki",
@@ -3693,7 +3799,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA08312"
+          "editionId": "PPSA08312",
+          "fileName": "Aliens Dark Descent 01.000 PPSA08312-[DLPSGAME.COM].rar",
+          "sizeBytes": 29216515031
         },
         {
           "name": "[PKG · EUR] Viki #01",
@@ -3726,7 +3834,9 @@
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/l76mZNlVjman/file",
           "group": "Backport 4.xx",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA08312.exfat",
+          "sizeBytes": 57745835294
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -3867,12 +3977,14 @@
       "description": "Format: exFAT · PKG\nTags: PPSA03393, v01.370, USA\nSize: 15 GB\nPassword: SuperPSX\nVoices: English\nwork on 5.xx — 4.xx — 3.xx — 2.xx",
       "downloadLinks": [
         {
-          "name": "[PKG · USA] Akia #01",
+          "name": "[PKG · USA] Akia",
           "url": "https://akirabox.com/wgWGqJEDxm4o/file",
           "group": "Standard",
           "version": "01.040",
           "region": "USA",
-          "editionId": "PPSA03393"
+          "editionId": "PPSA03393",
+          "fileName": "Aliens Fireteam Elite [ 1.37 ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 15773267394
         },
         {
           "name": "[PKG · USA] Viki",
@@ -3902,12 +4014,14 @@
           "editionId": "PPSA03393"
         },
         {
-          "name": "[PKG · USA] Akia #02",
+          "name": "[PKG · DLC · USA] Akia",
           "url": "https://akirabox.com/qw1zeY2RMzXy/file",
           "group": "Standard",
           "version": "01.040",
           "region": "USA",
-          "editionId": "PPSA03393"
+          "editionId": "PPSA03393",
+          "fileName": "All_7DLCs_High-Speed007.rar",
+          "sizeBytes": 3764387
         },
         {
           "name": "[PKG · DLC · USA] Data",
@@ -3925,7 +4039,9 @@
           "group": "Standard",
           "version": "01.037",
           "region": "USA",
-          "editionId": "PPSA03393"
+          "editionId": "PPSA03393",
+          "fileName": "Aliens Fireteam Elite [ 1.37 ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 15773267394
         },
         {
           "name": "[PKG · USA · v1.037] 1File #01",
@@ -4004,12 +4120,14 @@
           "editionId": "PPSA03393"
         },
         {
-          "name": "[exFAT · USA] Akia",
+          "name": "[exFAT · DLC · USA] Akia",
           "url": "https://akirabox.com/dkD3YRM0kzLQ/file",
           "group": "exFAT",
           "version": "01.040",
           "region": "USA",
-          "editionId": "PPSA03393"
+          "editionId": "PPSA03393",
+          "fileName": "All_7DLCs_High-Speed007.rar",
+          "sizeBytes": 3764387
         },
         {
           "name": "[exFAT · USA] Viki",
@@ -4073,12 +4191,14 @@
       "description": "Format: exFAT · Folder · Backport 4.xx\nTags: PPSA08135, v1.008, 4.xx, 5.xx\nSize: 53 GB\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[PKG · Folder · EUR] Akia #01",
+          "name": "[PKG · Folder · EUR] Akia",
           "url": "https://akirabox.com/Pbe3PgnX9mlX/file",
           "group": "Standard",
           "version": "01.008",
           "region": "EUR",
-          "editionId": "PPSA08135"
+          "editionId": "PPSA08135",
+          "fileName": "PPSA08135(v01.008)-[DLPSGAME.COM].rar",
+          "sizeBytes": 28475633172
         },
         {
           "name": "[PKG · Folder · EUR] Viki #01",
@@ -4213,12 +4333,14 @@
           "fileName": "Backport Alone in The Dark 6.xx.zip"
         },
         {
-          "name": "[PKG · Folder · EUR] Akia #02",
+          "name": "[PKG · Folder · DLC · EUR] Akia",
           "url": "https://akirabox.com/0JgG7lbJ1moY/file",
           "group": "Standard",
           "version": "01.008",
           "region": "EUR",
-          "editionId": "PPSA08135"
+          "editionId": "PPSA08135",
+          "fileName": "Alone In The Dark ALL DLC-[DLPSGAME.COM].rar",
+          "sizeBytes": 2621440
         },
         {
           "name": "[PKG · Folder · DLC · EUR] Viki",
@@ -4249,12 +4371,14 @@
           "fileName": "Alone In The Dark ALL DLC-[DLPSGAME.COM].rar"
         },
         {
-          "name": "[exFAT · EUR] Akia #01",
+          "name": "[exFAT · EUR] Akia",
           "url": "https://akirabox.com/jar3XLb7732d/file",
           "group": "exFAT",
           "version": "01.008",
           "region": "EUR",
-          "editionId": "PPSA08135"
+          "editionId": "PPSA08135",
+          "fileName": "PPSA08135.exfat",
+          "sizeBytes": 57595511439
         },
         {
           "name": "[exFAT · EUR] Viki",
@@ -4275,12 +4399,14 @@
           "editionId": "PPSA08135"
         },
         {
-          "name": "[exFAT · EUR] Akia #02",
+          "name": "[exFAT · DLC · EUR] Akia",
           "url": "https://akirabox.com/0JgG7LA2nmoY/file",
           "group": "exFAT",
           "version": "01.008",
           "region": "EUR",
-          "editionId": "PPSA08135"
+          "editionId": "PPSA08135",
+          "fileName": "All_3DLCs_Psykzhack.rar",
+          "sizeBytes": 2621440
         },
         {
           "name": "[exFAT · DLC · EUR] Viki",
@@ -4440,7 +4566,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/RMKGJQ41wz1o/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA04716.exfat",
+          "sizeBytes": 46718506762
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -4559,7 +4687,9 @@
         {
           "name": "[v1.0] Akia",
           "url": "https://akirabox.com/9QWmpgloXGEB/file",
-          "group": "Standard"
+          "group": "Standard",
+          "fileName": "PPSA03596-[DLPSGAME.COM].rar",
+          "sizeBytes": 219687157
         },
         {
           "name": "[v1.0] Viki",
@@ -4619,7 +4749,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/ex5z25ZMD3Kq/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA22520.exfat",
+          "sizeBytes": 224395264
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -4704,7 +4836,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/b5OzdV22WmB8/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA04716.exfat",
+          "sizeBytes": 46718506762
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -4795,7 +4929,9 @@
           "name": "[PKG] Akia",
           "url": "https://akirabox.com/Xkrzok7JRzBO/file",
           "group": "Standard",
-          "version": "01.700"
+          "version": "01.700",
+          "fileName": "[DLPSGAME.COM]-(v01.700) [PPSA04716].part3.rar",
+          "sizeBytes": 8042326261
         },
         {
           "name": "[PKG] Viki",
@@ -4870,7 +5006,9 @@
           "group": "Standard",
           "version": "02.000",
           "region": "EUR",
-          "editionId": "PPSA20423"
+          "editionId": "PPSA20423",
+          "fileName": "[DLPSGAME.COM]-02.000    PPSA20423.rar",
+          "sizeBytes": 3103113871
         },
         {
           "name": "[PKG · EUR] Viki",
@@ -4906,7 +5044,9 @@
           "group": "Standard",
           "version": "02.000",
           "region": "EUR",
-          "editionId": "PPSA20423"
+          "editionId": "PPSA20423",
+          "fileName": "PPSA02491-[DLPSGAME.COM].rar",
+          "sizeBytes": 5658619412
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -4959,7 +5099,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/0JgG7PgljmoY/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA11132.exfat",
+          "sizeBytes": 1202590842
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -5067,7 +5209,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/l76mZNLVZman/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA06320.exfat",
+          "sizeBytes": 2727304232
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -5196,7 +5340,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/RMKGJQ9Dwz1o/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA11128.exfat",
+          "sizeBytes": 998244352
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -5409,7 +5555,9 @@
         {
           "name": "[v1.0] Akia",
           "url": "https://akirabox.com/k0embjdVWmVb/file",
-          "group": "Standard"
+          "group": "Standard",
+          "fileName": "PPSA02491-[DLPSGAME.COM].rar",
+          "sizeBytes": 5658619412
         },
         {
           "name": "[v1.0] Viki",
@@ -5461,7 +5609,9 @@
           "name": "[PKG] Akia",
           "url": "https://akirabox.com/QN9mEaqRym6d/file",
           "group": "Standard",
-          "version": "01.003"
+          "version": "01.003",
+          "fileName": "PPSA19015-[DLPSGAME.COM].rar",
+          "sizeBytes": 376763842
         },
         {
           "name": "[PKG] Viki",
@@ -5551,7 +5701,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA06409"
+          "editionId": "PPSA06409",
+          "fileName": "PPSA06409-[DLPSGAME.COM].zip",
+          "sizeBytes": 862317445
         },
         {
           "name": "[PKG · EUR] 1File",
@@ -5574,7 +5726,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/E1x3AVEYnzyk/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA06409.exfat",
+          "sizeBytes": 1084479242
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -5632,7 +5786,9 @@
         {
           "name": "[PKG] Akia #01",
           "url": "https://akirabox.com/1RgzRB4rZzbp/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA06409_Arcade_Spirits_The_New_Challengers_Backport_4_XX_By_BADERLINK.zip",
+          "sizeBytes": 5452595
         },
         {
           "name": "[PKG] 1File",
@@ -5710,7 +5866,9 @@
           "group": "Standard",
           "version": "01.036",
           "region": "USA",
-          "editionId": "PPSA04020"
+          "editionId": "PPSA04020",
+          "fileName": "PPSA04020 [ 1.36 ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 6184752906
         },
         {
           "name": "[PKG · USA · v1.036] Viki",
@@ -5770,7 +5928,9 @@
           "group": "Standard",
           "version": "01.030",
           "region": "EUR",
-          "editionId": "PPSA04022"
+          "editionId": "PPSA04022",
+          "fileName": "01.030 PPSA04022-[DLPSGAME.COM].rar",
+          "sizeBytes": 5669356830
         },
         {
           "name": "[PKG · EUR · v1.030] Viki",
@@ -5822,7 +5982,9 @@
         {
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/qw1zedxlM3Xy/file",
-          "group": "exFAT"
+          "group": "exFAT",
+          "fileName": "PPSA04020.exfat",
+          "sizeBytes": 18178449080
         },
         {
           "name": "[exFAT] Viki",
@@ -5874,7 +6036,9 @@
           "group": "Standard",
           "version": "01.042",
           "region": "USA",
-          "editionId": "PPSA04020"
+          "editionId": "PPSA04020",
+          "fileName": "[DLPSGAME.COM]-PPSA04020.rar",
+          "sizeBytes": 6270652252
         },
         {
           "name": "[PKG · v1.360] Akia",
@@ -5935,7 +6099,9 @@
           "group": "Standard",
           "version": "01.001",
           "region": "EUR",
-          "editionId": "PPSA21406"
+          "editionId": "PPSA21406",
+          "fileName": "[DLPSGAME.COM]-PPSA21406.rar",
+          "sizeBytes": 2061584302
         },
         {
           "name": "[PKG · Folder · EUR] Viki",
@@ -6063,7 +6229,9 @@
         {
           "name": "[PKG · Folder · v1.000] Akia #01",
           "url": "https://akirabox.com/EL73g6QLAm9B/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA04020.exfat",
+          "sizeBytes": 18178449080
         },
         {
           "name": "[PKG · Folder · EUR · v1.000] Viki #02",
@@ -6092,9 +6260,11 @@
           "sizeBytes": 96580831
         },
         {
-          "name": "[PKG · Folder · v1.000] Akia #02",
+          "name": "[PKG · Folder · EUR · v1.000] Akia",
           "url": "https://akirabox.com/vgKGxDpvQG8Q/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA21406 – EUR ArcRunner Backport 5xx By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 96584335
         },
         {
           "name": "[PKG · Folder · EUR · v1.000] Viki #03",
@@ -6116,7 +6286,7 @@
           "fileName": "PPSA21406 – EUR ArcRunner Backport 5xx By BADERLINK-[DLPSGAME.COM].zip"
         },
         {
-          "name": "[PKG · Folder · v1.000] Akia #03",
+          "name": "[PKG · Folder · v1.000] Akia #02",
           "url": "https://akirabox.com/0PdzyqpNLzeA/file",
           "group": "Standard",
           "version": "01.000"
@@ -6287,7 +6457,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/2WVGr8pPB3kx/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA16810.7z",
+          "sizeBytes": 197761769144
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -6330,7 +6502,9 @@
           "group": "Standard",
           "version": "01.084.021",
           "region": "USA",
-          "editionId": "PPSA16810"
+          "editionId": "PPSA16810",
+          "fileName": "[DLPSGAME.COM]-PPSA16810.part16.rar",
+          "sizeBytes": 4209067950
         },
         {
           "name": "[Folder · USA] 1File",
@@ -6440,9 +6614,11 @@
           "version": "01.000"
         },
         {
-          "name": "[PKG · Folder] Akia #01",
+          "name": "[PKG · Folder] Akia",
           "url": "https://akirabox.com/LJlGn9exbz15/file",
-          "version": "01.073.007"
+          "version": "01.073.007",
+          "fileName": "PPSA17101.exfat",
+          "sizeBytes": 253886254284
         },
         {
           "name": "[PKG · Folder] Viki #01",
@@ -6457,10 +6633,12 @@
           "version": "01.073.007"
         },
         {
-          "name": "[PKG · Folder · v1.000] Akia #01",
+          "name": "[PKG · Folder · EUR · v1.000] Akia #01",
           "url": "https://akirabox.com/qw1zenRapGXy/file",
           "group": "Standard",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "[SuperPSX]-ARK.Survival.Ascended-PPSA17101-EUR-Game-v01.000-PS5.rar",
+          "sizeBytes": 59259811266
         },
         {
           "name": "[Fix · v1.000] Akia",
@@ -6481,9 +6659,11 @@
           "sizeBytes": 80460579
         },
         {
-          "name": "[PKG · Folder] Akia #02",
+          "name": "[PKG · Folder · EUR] Akia",
           "url": "https://akirabox.com/0KezkAVPbmD1/file",
-          "version": "01.073.007"
+          "version": "01.073.007",
+          "fileName": "5XX PPSA17101 – EUR V1.00  ARK Survival Ascended  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 85804974
         },
         {
           "name": "[PKG · Folder] Viki #02",
@@ -6499,9 +6679,11 @@
           "sizeBytes": 84368424
         },
         {
-          "name": "[PKG · Folder · v1.000] Akia #02",
+          "name": "[PKG · Folder · v1.000] Akia #01",
           "url": "https://akirabox.com/QN9mEw44Rz6d/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA17101-[DLPSGAME.COM].rar",
+          "sizeBytes": 59259811266
         },
         {
           "name": "[PKG · Folder · v1.000] Viki #01",
@@ -6530,9 +6712,11 @@
           "sizeBytes": 85802256
         },
         {
-          "name": "[PKG · Folder · v1.000] Akia #03",
+          "name": "[PKG · Folder · EUR · v1.000] Akia #02",
           "url": "https://akirabox.com/2WVGr1lEqzkx/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "4XX PPSA17101 – EUR V1.00  ARK Survival Ascended  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 85804974
         },
         {
           "name": "[PKG · Folder · EUR · v1.000] Viki #02",
@@ -6554,9 +6738,11 @@
           "sizeBytes": 85802253
         },
         {
-          "name": "[PKG · Folder · v1.000] Akia #04",
+          "name": "[PKG · Folder · EUR · v1.000] Akia #03",
           "url": "https://akirabox.com/M2BGwOMBkGj4/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "5XX PPSA17101 – EUR V1.00  ARK Survival Ascended  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 85804974
         },
         {
           "name": "[PKG · Folder · EUR · v1.000] Viki #03",
@@ -6571,9 +6757,11 @@
           "fileName": "5XX PPSA17101 – EUR V1.00  ARK Survival Ascended  By BADERLINK-[DLPSGAME.COM].zip"
         },
         {
-          "name": "[PKG · Folder · v1.000] Akia #05",
+          "name": "[PKG · Folder · v1.000] Akia #02",
           "url": "https://akirabox.com/9AqGQRNanmMn/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA17101-[DLPSGAME.COM].rar",
+          "sizeBytes": 59259811266
         },
         {
           "name": "[PKG · Folder · v1.000] Viki #02",
@@ -6589,9 +6777,11 @@
           "sizeBytes": 89841991
         },
         {
-          "name": "[PKG · Folder · v1.000] Akia #06",
+          "name": "[PKG · Folder · v1.000] Akia #03",
           "url": "https://akirabox.com/ex5z2BdabzKq/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "01.000 PPSA17101-[DLPSGAME.COM].rar",
+          "sizeBytes": 59163174502
         },
         {
           "name": "[PKG · Folder · v1.000] Viki #03",
@@ -6666,7 +6856,9 @@
           "group": "Standard",
           "version": "01.002",
           "region": "USA",
-          "editionId": "PPSA06328"
+          "editionId": "PPSA06328",
+          "fileName": "Arkanoid Eternal Battle 01.002 PPSA06328 fixed 4.xx-[DLPSGAME.COM].rar",
+          "sizeBytes": 353789542
         },
         {
           "name": "[PKG · USA] 1File #01",
@@ -6694,7 +6886,9 @@
           "group": "Standard",
           "version": "01.002",
           "region": "USA",
-          "editionId": "PPSA06328"
+          "editionId": "PPSA06328",
+          "fileName": "01.000 PPSA17101-[DLPSGAME.COM].rar",
+          "sizeBytes": 59163174502
         },
         {
           "name": "[PKG · USA] 1File #03",
@@ -6720,7 +6914,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "USA",
-          "editionId": "PPSA06328"
+          "editionId": "PPSA06328",
+          "fileName": "[ Arkanoid Eternal Battle ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 351639961
         },
         {
           "name": "[PKG · USA · v1.000] 1File #01",
@@ -6872,7 +7068,9 @@
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/dZxG5qRqRGVj/file",
           "group": "exFAT",
-          "version": "01.009"
+          "version": "01.009",
+          "fileName": "[ Arkanoid Eternal Battle ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 351639961
         },
         {
           "name": "[exFAT] Viki",
@@ -6904,7 +7102,9 @@
         {
           "name": "[PKG · APR-EMU] Akia",
           "url": "https://akirabox.com/0KezkRZxp3D1/file",
-          "version": "01.009"
+          "version": "01.009",
+          "fileName": "[ Arkanoid Eternal Battle ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 351639961
         },
         {
           "name": "[PKG · APR-EMU] Viki",
@@ -7090,7 +7290,9 @@
           "group": "Standard",
           "version": "01.006",
           "region": "USA",
-          "editionId": "PPSA03686"
+          "editionId": "PPSA03686",
+          "fileName": "[DLPSGAME.COM]-PPSA06774.part01.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[PKG · USA · v1.006] Viki",
@@ -7110,9 +7312,11 @@
           "editionId": "PPSA03686"
         },
         {
-          "name": "[BP 4.xx] Akia",
+          "name": "[BP 4.xx · 335 Mo] Akia",
           "url": "https://akirabox.com/RMKGJQZkXz1o/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "[ Arkanoid Eternal Battle ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 351639961
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -7152,7 +7356,9 @@
           "name": "[PKG] Akia",
           "url": "https://akirabox.com/9AqGQZ18NmMn/file",
           "group": "Standard",
-          "version": "01.007"
+          "version": "01.007",
+          "fileName": "[DLPSGAME.COM]-PPSA03686.rar",
+          "sizeBytes": 3006477107
         },
         {
           "name": "[PKG] Gofile",
@@ -7162,7 +7368,9 @@
         {
           "name": "[PKG · v1.006] Akia",
           "url": "https://akirabox.com/1RgzR11ro3bp/file",
-          "version": "01.006"
+          "version": "01.006",
+          "fileName": "PPSA03686-Art of Rally  V1.06 Backport 4.xx By BADERLINK.rar",
+          "sizeBytes": 12320768
         },
         {
           "name": "[PKG · v1.006] Viki #01",
@@ -7244,7 +7452,9 @@
         {
           "name": "[PKG] Akia #01",
           "url": "https://akirabox.com/dkD3YRjgJzLQ/file",
-          "version": "01.006"
+          "version": "01.006",
+          "fileName": "PPSA03659.exfat",
+          "sizeBytes": 3994319585
         },
         {
           "name": "[PKG] Viki #01",
@@ -7259,9 +7469,11 @@
           "version": "01.006"
         },
         {
-          "name": "[PKG] Akia #02",
+          "name": "[PKG · DLC] Akia",
           "url": "https://akirabox.com/LK0G14dpYz91/file",
-          "version": "01.006"
+          "version": "01.006",
+          "fileName": "DLC_DUPLEX.rar",
+          "sizeBytes": 701306
         },
         {
           "name": "[PKG · DLC] Data",
@@ -7277,9 +7489,11 @@
           "fileName": "01.006+PPSA03659-[DLPSGAME.COM].rar"
         },
         {
-          "name": "[PKG] Akia #03",
+          "name": "[PKG] Akia #02",
           "url": "https://akirabox.com/N2p3Dq958zMa/file",
-          "version": "01.006"
+          "version": "01.006",
+          "fileName": "01.006 PPSA03659-[DLPSGAME.COM].rar",
+          "sizeBytes": 2942052597
         },
         {
           "name": "[PKG] Viki #02",
@@ -7325,9 +7539,11 @@
           "fileName": "PPSA03659_–_EUR_V1_006_SArt_of_Rally_Backport_4_XX_By_BADERLINK-[DLPSGAME.COM].zip"
         },
         {
-          "name": "[PKG] Akia #04",
+          "name": "[PKG] Akia #03",
           "url": "https://akirabox.com/1RgzR11ro3bp/file",
-          "version": "01.006"
+          "version": "01.006",
+          "fileName": "PPSA03686-Art of Rally  V1.06 Backport 4.xx By BADERLINK.rar",
+          "sizeBytes": 12320768
         },
         {
           "name": "[PKG] Viki #04",
@@ -7514,7 +7730,9 @@
         {
           "name": "[PKG · APR-EMU · v1.070] Akia #01",
           "url": "https://akirabox.com/5pVzN44EJm7w/file",
-          "version": "01.070"
+          "version": "01.070",
+          "fileName": "[DLPSGAME.COM] - 01.070 PPSA01490.part11.rar",
+          "sizeBytes": 7108170874
         },
         {
           "name": "[PKG · APR-EMU · v1.070] 1File",
@@ -7551,7 +7769,9 @@
         {
           "name": "[PKG · APR-EMU · v1.070] Akia #02",
           "url": "https://akirabox.com/0JgG7PPdKmoY/file",
-          "version": "01.070"
+          "version": "01.070",
+          "fileName": "PPSA01490.7z",
+          "sizeBytes": 97452807946
         },
         {
           "name": "[PKG · APR-EMU · v1.070] Viki #02",
@@ -7614,7 +7834,9 @@
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/0JgG7P0KlmoY/file",
           "group": "exFAT",
-          "version": "01.012"
+          "version": "01.012",
+          "fileName": "PPSA01490.7z",
+          "sizeBytes": 97452807946
         },
         {
           "name": "[exFAT] Viki",
@@ -7634,7 +7856,9 @@
           "name": "[exFAT · BP] Akia",
           "url": "https://akirabox.com/EL73g06gAz9B/file",
           "group": "exFAT · Backport",
-          "version": "01.012"
+          "version": "01.012",
+          "fileName": "PPSA07230.7z",
+          "sizeBytes": 50852412784
         },
         {
           "name": "[exFAT · BP · USA] Viki",
@@ -7779,7 +8003,9 @@
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/QN9mEZRwR36d/file",
           "group": "Backport 4.xx",
-          "version": "01.019.076"
+          "version": "01.019.076",
+          "fileName": "PPSA20397.7z",
+          "sizeBytes": 130964290273
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -7799,7 +8025,9 @@
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/LK0G1yxM4G91/file",
           "group": "exFAT",
-          "version": "01.019.076"
+          "version": "01.019.076",
+          "fileName": "PPSA20396.7z",
+          "sizeBytes": 115856742809
         },
         {
           "name": "[exFAT] Viki",
@@ -7831,7 +8059,9 @@
         },
         {
           "name": "[PKG · APR-EMU · Folder] Akia",
-          "url": "https://akirabox.com/EL73g0e4az9B/file"
+          "url": "https://akirabox.com/EL73g0e4az9B/file",
+          "fileName": "Assetto Corsa Competizione-[DLPSGAME.COM].rar",
+          "sizeBytes": 18769007083
         },
         {
           "name": "[PKG · APR-EMU · Folder] 1File",
@@ -7974,7 +8204,9 @@
           "name": "[APR-EMU] Akia",
           "url": "https://akirabox.com/dZxG5oqLY3Vj/file",
           "group": "Standard",
-          "version": "01.070"
+          "version": "01.070",
+          "fileName": "[DLPSGAME.COM]-01.070.000 PPSA01491.part11.rar",
+          "sizeBytes": 7194070220
         },
         {
           "name": "[APR-EMU] Viki",
@@ -8025,7 +8257,9 @@
         {
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/qPez4A6WxGOY/file",
-          "group": "exFAT"
+          "group": "exFAT",
+          "fileName": "PPSA01532.7z",
+          "sizeBytes": 130395207106
         },
         {
           "name": "[exFAT] Viki",
@@ -8095,7 +8329,9 @@
           "group": "Standard",
           "version": "01.009.014",
           "region": "USA",
-          "editionId": "PPSA03847"
+          "editionId": "PPSA03847",
+          "fileName": "[DLPSGAME.COM]-PPSA03847.part1.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[PKG · USA] Gofile",
@@ -8111,7 +8347,9 @@
           "group": "Standard",
           "version": "01.009.012",
           "region": "USA",
-          "editionId": "PPSA03847"
+          "editionId": "PPSA03847",
+          "fileName": "Assetto Corsa Competizione-[DLPSGAME.COM].rar",
+          "sizeBytes": 18769007083
         },
         {
           "name": "[PKG · USA · v01.009.012] Viki",
@@ -8146,7 +8384,9 @@
           "group": "Standard",
           "version": "01.009",
           "region": "USA",
-          "editionId": "PPSA03847"
+          "editionId": "PPSA03847",
+          "fileName": "Assetto Corsa Competizione [ 1.09 ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 18833431592
         },
         {
           "name": "[PKG · USA · v01.009] 1File #01",
@@ -8191,7 +8431,9 @@
         {
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/gXeGOo8XXGAa/file",
-          "group": "exFAT"
+          "group": "exFAT",
+          "fileName": "PPSA03847.exfat",
+          "sizeBytes": 20379619819
         },
         {
           "name": "[exFAT] Viki",
@@ -8325,7 +8567,9 @@
           "group": "Standard",
           "version": "01.004.001",
           "region": "EUR",
-          "editionId": "PPSA08194"
+          "editionId": "PPSA08194",
+          "fileName": "duplex-asterigos.curse.of.the.stars.ps5-[DLPSGAME.COM].rar",
+          "sizeBytes": 6839735418
         },
         {
           "name": "[PKG · Folder · EUR] Viki #01",
@@ -8362,7 +8606,9 @@
           "group": "Standard",
           "version": "01.004.001",
           "region": "EUR",
-          "editionId": "PPSA08194"
+          "editionId": "PPSA08194",
+          "fileName": "PPSA08194 v01.000.000 EUR-[DLPSGAME.COM].rar",
+          "sizeBytes": 50048532
         },
         {
           "name": "[PKG · Folder · EUR] Viki #02",
@@ -8397,7 +8643,9 @@
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/0JgG7P0vNmoY/file",
           "group": "Backport 4.xx",
-          "version": "01.004.001"
+          "version": "01.004.001",
+          "fileName": "PPSA08194.exfat",
+          "sizeBytes": 11693048463
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -8532,7 +8780,9 @@
         {
           "name": "[BP 7.xx] Akia",
           "url": "https://akirabox.com/E9Qz9POaJ3OL/file",
-          "group": "Backport 7.xx"
+          "group": "Backport 7.xx",
+          "fileName": "PPSA30490.exfat",
+          "sizeBytes": 5035849154
         },
         {
           "name": "[BP 7.xx] Viki",
@@ -8564,7 +8814,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/N2p3Dey0xzMa/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA30490.exfat",
+          "sizeBytes": 5035849154
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -8644,7 +8896,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA16709"
+          "editionId": "PPSA16709",
+          "fileName": "[DLPSGAME.COM]-01.000 PPSA16709.rar",
+          "sizeBytes": 776271298
         },
         {
           "name": "[PKG · EUR] Viki",
@@ -8680,7 +8934,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA16709"
+          "editionId": "PPSA16709",
+          "fileName": "PPSA16709.ffpkg",
+          "sizeBytes": 1889785610
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -8773,7 +9029,9 @@
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/0PdzyQMl0zeA/file",
           "group": "exFAT",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA08576.exfat",
+          "sizeBytes": 1760936591
         },
         {
           "name": "[exFAT] Viki",
@@ -8794,7 +9052,9 @@
           "name": "[exFAT · BP] Akia",
           "url": "https://akirabox.com/l76mZN97xman/file",
           "group": "exFAT · Backport",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA08576.exfat",
+          "sizeBytes": 1760936591
         },
         {
           "name": "[exFAT · BP] Viki",
@@ -8893,7 +9153,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/5pVzNAWqV37w/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA16746.exfat",
+          "sizeBytes": 2684354560
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -8995,7 +9257,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/0rpmvpqp7zRg/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA08164.exfat",
+          "sizeBytes": 2695091978
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -9097,7 +9361,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/0rpmvpqgJzRg/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA16746.exfat",
+          "sizeBytes": 2684354560
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -9201,7 +9467,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/0PdzyXDMq3eA/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA16746.exfat",
+          "sizeBytes": 2684354560
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -9283,7 +9551,9 @@
           "group": "Standard",
           "version": "01.002",
           "region": "EUR",
-          "editionId": "PPSA08448"
+          "editionId": "PPSA08448",
+          "fileName": "[DLPSGAME.COM]-PPSA08448.rar",
+          "sizeBytes": 3124588707
         },
         {
           "name": "[PKG · EUR] Filek",
@@ -9313,7 +9583,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/gXeGOAJNP3Aa/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA08448.exfat",
+          "sizeBytes": 7322919239
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -9421,7 +9693,9 @@
         {
           "name": "[v1.0] Akia",
           "url": "https://akirabox.com/0KezkEDAnmD1/file",
-          "group": "Standard"
+          "group": "Standard",
+          "fileName": "PPSA03174-[DLPSGAME.COM].rar",
+          "sizeBytes": 8074538516
         },
         {
           "name": "[v1.0] Viki",
@@ -9507,7 +9781,9 @@
         {
           "name": "[PKG · FFPFSC] Akia #01",
           "url": "https://akirabox.com/qLQ36KO5wz19/file",
-          "version": "01.018"
+          "version": "01.018",
+          "fileName": "[DLPSGAME.COM]-PPSA21567.part1.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[PKG · FFPFSC] Rootz #01",
@@ -9524,7 +9800,9 @@
         {
           "name": "[PKG · FFPFSC] Akia #02",
           "url": "https://akirabox.com/2WVGr8MZ03kx/file",
-          "version": "01.018"
+          "version": "01.018",
+          "fileName": "[DLPSGAME.COM] - 01.018 PPSA21567 FIXED.part01.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[PKG · FFPFSC] Viki",
@@ -9582,7 +9860,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/RMKGJQVx2z1o/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA21564.7z",
+          "sizeBytes": 31321049006
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -9650,11 +9930,15 @@
           "name": "[PKG] Akia #01",
           "url": "https://akirabox.com/9AqGQdqEvzMn/file",
           "group": "Standard",
-          "version": "01.007.000"
+          "version": "01.007.000",
+          "fileName": "[DLPSGAME.COM] - 01.018 PPSA21567 FIXED.part01.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[PKG] Akia #02",
-          "url": "https://akirabox.com/1RgzR4VwRmbp/file"
+          "url": "https://akirabox.com/1RgzR4VwRmbp/file",
+          "fileName": "PPSA21564.7z",
+          "sizeBytes": 31009663877
         },
         {
           "name": "[PKG] Viki",
@@ -9668,8 +9952,10 @@
           "sizeBytes": 31031138713
         },
         {
-          "name": "[PKG] Akia #03",
-          "url": "https://akirabox.com/XkrzokAnWzBO/file"
+          "name": "[PKG · DLC · USA] Akia",
+          "url": "https://akirabox.com/XkrzokAnWzBO/file",
+          "fileName": "All_2DLCs_Psykzhack_USA.rar",
+          "sizeBytes": 1971322
         },
         {
           "name": "[PKG · DLC · USA] Data",
@@ -9715,12 +10001,14 @@
       "description": "Format: exFAT · PKG · Backport 4.xx\nTags: PPSA01325, v1.905, 4.xx, EUR\nSize: 28 GB\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[PKG · EUR · v1.904] Akia",
+          "name": "[PKG · DLC · EUR · v1.904] Akia",
           "url": "https://akirabox.com/QN9mEqW0Zm6d/file",
           "group": "Standard",
           "version": "01.904",
           "region": "EUR",
-          "editionId": "PPSA01325"
+          "editionId": "PPSA01325",
+          "fileName": "All_2DLCs_Psykzhack_USA.rar",
+          "sizeBytes": 1971322
         },
         {
           "name": "[PKG · EUR · v1.904] Viki",
@@ -9762,7 +10050,9 @@
           "group": "Standard",
           "version": "01.700",
           "region": "EUR",
-          "editionId": "PPSA01325"
+          "editionId": "PPSA01325",
+          "fileName": "Astros Playroom 1.7-[DLPSGAME.COM].pkg",
+          "sizeBytes": 11016591114
         },
         {
           "name": "[PKG · EUR · v1.700] Viki",
@@ -9804,7 +10094,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/2WVGrdZEA3kx/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA01325.exfat",
+          "sizeBytes": 30601641984
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -9913,7 +10205,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/wgWGqMNLxG4o/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA08601.exfat",
+          "sizeBytes": 18876381265
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -10061,7 +10355,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "HK",
-          "editionId": "PPSA10906"
+          "editionId": "PPSA10906",
+          "fileName": "[DLPSGAME.COM]-01.000.000 PPSA10906.part1.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[PKG · APR-EMU · HK] Viki #01",
@@ -10085,7 +10381,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/7d5GLZE1K3xR/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA10906.exfat",
+          "sizeBytes": 18683107737
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -10237,9 +10535,11 @@
           "fileName": "[DLPSGAME.COM]+-+01.000+PPSA03388.part1.rar"
         },
         {
-          "name": "[PKG · v1.000] Akia",
+          "name": "[PKG · EUR · v1.000] Akia",
           "url": "https://akirabox.com/7d5GLlZqlGxR/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "Atomic Heart PPSA10695 v01.011.000 EUR-[DLPSGAME.COM].rar",
+          "sizeBytes": 43589304
         },
         {
           "name": "[PKG · v1.000] Viki",
@@ -10266,7 +10566,9 @@
         {
           "name": "[PKG] Akia",
           "url": "https://akirabox.com/jar3XabqQz2d/file",
-          "version": "01.005.400"
+          "version": "01.005.400",
+          "fileName": "[DLPSGAME.COM]- 01.005.400 PPSA03388.part1.rar",
+          "sizeBytes": 10630044057
         },
         {
           "name": "[PKG] Mediafire",
@@ -10348,7 +10650,9 @@
           "group": "Backport 4.xx",
           "version": "01.023",
           "region": "USA",
-          "editionId": "PPSA15493"
+          "editionId": "PPSA15493",
+          "fileName": "PPSA15493.exfat",
+          "sizeBytes": 37935298641
         },
         {
           "name": "[BP 4.xx · USA] Viki",
@@ -10403,7 +10707,9 @@
           "group": "Standard",
           "version": "01.023",
           "region": "USA",
-          "editionId": "PPSA15493"
+          "editionId": "PPSA15493",
+          "fileName": "Atomic Heart PPSA10695 v01.011.000 EUR-[DLPSGAME.COM].rar",
+          "sizeBytes": 43589304
         },
         {
           "name": "[PKG · APR-EMU · USA] Viki #01",
@@ -10574,7 +10880,9 @@
           "group": "Standard",
           "version": "01.015.100",
           "region": "USA",
-          "editionId": "PPSA10696"
+          "editionId": "PPSA10696",
+          "fileName": "[DLPSGAME.COM]-PPSA10696.part06.rar",
+          "sizeBytes": 9867687362
         },
         {
           "name": "[PKG · USA] Viki",
@@ -10605,9 +10913,11 @@
           "fileName": "[DLPSGAME.COM]-PPSA10696.part06.rar"
         },
         {
-          "name": "[PKG · v1.011] Akia",
+          "name": "[PKG · EUR · v1.011] Akia",
           "url": "https://akirabox.com/7d5GL1l17mxR/file",
-          "version": "01.011.000"
+          "version": "01.011.000",
+          "fileName": "Atomic Heart PPSA10695 v01.011.000 EUR-[DLPSGAME.COM].rar",
+          "sizeBytes": 43589304
         },
         {
           "name": "[PKG · EUR · v1.011] Viki",
@@ -10683,7 +10993,9 @@
         {
           "name": "[BP 4.xx] Akia #01",
           "url": "https://akirabox.com/LJlGnWOAVm15/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA10696.7z",
+          "sizeBytes": 56285546414
         },
         {
           "name": "[BP 4.xx] Viki #01",
@@ -10759,7 +11071,9 @@
         {
           "name": "[BP 4.xx] Akia #02",
           "url": "https://akirabox.com/qPez4AxyPGOY/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA06092.7z",
+          "sizeBytes": 67957120040
         },
         {
           "name": "[BP 4.xx] Viki #02",
@@ -10801,7 +11115,9 @@
         {
           "name": "[PKG · v1.014.400] Akia #01",
           "url": "https://akirabox.com/rk9zKYPvRm0l/file",
-          "version": "01.014.400"
+          "version": "01.014.400",
+          "fileName": "Atomic Heart-[DLPSGAME.COM].rar",
+          "sizeBytes": 49950469652
         },
         {
           "name": "[PKG · v1.014.400] Viki #01",
@@ -10827,7 +11143,9 @@
         {
           "name": "[PKG · v1.014.400] Akia #02",
           "url": "https://akirabox.com/BnkmWw9j2mR0/file",
-          "version": "01.014.400"
+          "version": "01.014.400",
+          "fileName": "PPSA10695 Atomic Heart Backport By Baderlink V1.014.400.zip",
+          "sizeBytes": 66259517
         },
         {
           "name": "[PKG · v1.014.400] Viki #02",
@@ -10842,9 +11160,11 @@
           "sizeBytes": 69478645
         },
         {
-          "name": "[PKG · v1.014.400] Akia #03",
+          "name": "[PKG · DLC · v1.014.400] Akia",
           "url": "https://akirabox.com/qPez4B9jPmOY/file",
-          "version": "01.014.400"
+          "version": "01.014.400",
+          "fileName": "Atomic Heart ALL DLC.rar",
+          "sizeBytes": 7549747
         },
         {
           "name": "[PKG · DLC · v1.014.400] Viki",
@@ -10862,7 +11182,9 @@
         {
           "name": "[PKG] Akia #02",
           "url": "https://akirabox.com/dkD3Yl0XkmLQ/file",
-          "version": "01.011.000"
+          "version": "01.011.000",
+          "fileName": "PPSA10695-[DLPSGAME.COM].rar",
+          "sizeBytes": 45612552683
         },
         {
           "name": "[PKG] Viki",
@@ -10883,9 +11205,11 @@
           "version": "01.011.000"
         },
         {
-          "name": "[PKG] Akia #03",
+          "name": "[PKG · EUR] Akia",
           "url": "https://akirabox.com/7d5GL1l17mxR/file",
-          "version": "01.011.000"
+          "version": "01.011.000",
+          "fileName": "Atomic Heart PPSA10695 v01.011.000 EUR-[DLPSGAME.COM].rar",
+          "sizeBytes": 43589304
         },
         {
           "name": "[PKG · EUR] Viki #02",
@@ -10975,7 +11299,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/APVma0LW5GXo/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA01575.7z",
+          "sizeBytes": 124811749621
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -11020,7 +11346,9 @@
         {
           "name": "[APR-EMU] Akia #01",
           "url": "https://akirabox.com/2bJG80A8dGOB/file",
-          "version": "01.020"
+          "version": "01.020",
+          "fileName": "PPSA04341.exfat",
+          "sizeBytes": 22076131901
         },
         {
           "name": "[APR-EMU] Viki 14/14",
@@ -11050,7 +11378,9 @@
         {
           "name": "[APR-EMU] Akia #02",
           "url": "https://akirabox.com/qw1zedPRj3Xy/file",
-          "version": "01.020"
+          "version": "01.020",
+          "fileName": "PPSA04341.exfat",
+          "sizeBytes": 22076131901
         },
         {
           "name": "[APR-EMU] Viki 10/14",
@@ -11111,7 +11441,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA04341"
+          "editionId": "PPSA04341",
+          "fileName": "PPSA04341.exfat",
+          "sizeBytes": 22076131901
         },
         {
           "name": "[PKG · EUR] Viki #01",
@@ -11138,7 +11470,9 @@
           "group": "exFAT",
           "version": "01.000",
           "region": "EUR",
-          "editionId": "PPSA04341"
+          "editionId": "PPSA04341",
+          "fileName": "PPSA04341.exfat",
+          "sizeBytes": 22076131901
         },
         {
           "name": "[exFAT · EUR] Viki",
@@ -11240,7 +11574,9 @@
         {
           "name": "[PKG] Akia #01",
           "url": "https://akirabox.com/dZxG5J0P9mVj/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA04341.exfat",
+          "sizeBytes": 22076131901
         },
         {
           "name": "[PKG] Viki",
@@ -11419,7 +11755,9 @@
         {
           "name": "[PKG · APR-EMU] Akia #01",
           "url": "https://akirabox.com/jar3XLZdO32d/file",
-          "version": "01.011"
+          "version": "01.011",
+          "fileName": "PPSA04341.exfat",
+          "sizeBytes": 22076131901
         },
         {
           "name": "[PKG · APR-EMU] Viki #01",
@@ -11466,7 +11804,9 @@
         {
           "name": "[PKG · APR-EMU] Akia #03",
           "url": "https://akirabox.com/RMKGJwXRLm1o/file",
-          "version": "01.011"
+          "version": "01.011",
+          "fileName": "AVATAR PPSA01576 backport 7.XX by Baderlink-[DLPSGAME.COM].rar",
+          "sizeBytes": 37098618
         },
         {
           "name": "[PKG · APR-EMU] Viki #02",
@@ -11490,7 +11830,9 @@
         {
           "name": "[PKG · APR-EMU] Akia #04",
           "url": "https://akirabox.com/7d5GLe1AKmxR/file",
-          "version": "01.011"
+          "version": "01.011",
+          "fileName": "Avatar_5xx (1)-[DLPSGAME.COM].zip",
+          "sizeBytes": 56738447
         },
         {
           "name": "[PKG · APR-EMU] Viki #03",
@@ -11514,7 +11856,9 @@
         {
           "name": "[PKG · APR-EMU] Akia #05",
           "url": "https://akirabox.com/l5YzMp1QK3yO/file",
-          "version": "01.011"
+          "version": "01.011",
+          "fileName": "AVATAR 6.XX Backport-[DLPSGAME.COM].zip",
+          "sizeBytes": 56727961
         },
         {
           "name": "[PKG · APR-EMU] Viki #04",
@@ -11545,7 +11889,9 @@
         {
           "name": "[PKG · APR-EMU] Akia #06",
           "url": "https://akirabox.com/QN9mEalyZm6d/file",
-          "version": "01.011"
+          "version": "01.011",
+          "fileName": "AVATAR PPSA01576 backport 7.XX by Baderlink-[DLPSGAME.COM].rar",
+          "sizeBytes": 37098618
         },
         {
           "name": "[PKG · APR-EMU] Viki #05",
@@ -11569,7 +11915,9 @@
         {
           "name": "[PKG · APR-EMU · v1.020] Akia",
           "url": "https://akirabox.com/qw1zedPRj3Xy/file",
-          "version": "01.020"
+          "version": "01.020",
+          "fileName": "PPSA04341.exfat",
+          "sizeBytes": 22076131901
         },
         {
           "name": "[PKG · APR-EMU · v1.020] Viki",
@@ -11598,7 +11946,9 @@
         {
           "name": "[PKG · APR-EMU] Akia #07",
           "url": "https://akirabox.com/jJD3VvjAy3a5/file",
-          "version": "01.011"
+          "version": "01.011",
+          "fileName": "PPSA01576-[DLPSGAME.COM].rar",
+          "sizeBytes": 88057566986
         }
       ],
       "sizeBytes": 188978561024,
@@ -11675,7 +12025,9 @@
           "group": "Standard",
           "version": "01.009",
           "region": "USA",
-          "editionId": "PPSA04555"
+          "editionId": "PPSA04555",
+          "fileName": "Away - The Survival Series PS5 Dump v1.009 - [DLPSGAME.COM].rar",
+          "sizeBytes": 7065221201
         },
         {
           "name": "[PKG · USA] Viki",
@@ -11763,7 +12115,9 @@
           "group": "Standard",
           "version": "01.011",
           "region": "USA",
-          "editionId": "PPSA01695"
+          "editionId": "PPSA01695",
+          "fileName": "[DLPSGAME.COM]-PPSA01695.part07.rar",
+          "sizeBytes": 2072321720
         },
         {
           "name": "[PKG · APR-EMU · USA] Viki",
@@ -11804,7 +12158,9 @@
         {
           "name": "[exFAT] Akia",
           "url": "https://akirabox.com/0rpmvQBdDGRg/file",
-          "group": "exFAT"
+          "group": "exFAT",
+          "fileName": "PPSA01695.7z",
+          "sizeBytes": 58679990681
         },
         {
           "name": "[exFAT] Viki",
@@ -11908,7 +12264,9 @@
         {
           "name": "[PKG] Akia #02",
           "url": "https://akirabox.com/qPez4B7jYmOY/file",
-          "version": "01.006"
+          "version": "01.006",
+          "fileName": "[DLPSGAME.COM]-PPSA01695.part07.rar",
+          "sizeBytes": 2072321720
         },
         {
           "name": "[PKG] Viki #02",
@@ -11931,7 +12289,9 @@
         {
           "name": "[PKG] Akia #03",
           "url": "https://akirabox.com/Pbe3P4x213lX/file",
-          "version": "01.006"
+          "version": "01.006",
+          "fileName": "PPSA01695.exfat",
+          "sizeBytes": 62191126446
         },
         {
           "name": "[PKG] Viki #03",
@@ -12066,7 +12426,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "JPN",
-          "editionId": "PPSA18463"
+          "editionId": "PPSA18463",
+          "fileName": "PPSA18463_(01.000)_[DLPSGAME.COM].rar",
+          "sizeBytes": 86285892976
         },
         {
           "name": "[PKG · JPN · v1.000] Viki #01",
@@ -12091,7 +12453,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "JPN",
-          "editionId": "PPSA18463"
+          "editionId": "PPSA18463",
+          "fileName": "PPSA18463 (v01.000) - [DLPSGAME.COM].rar",
+          "sizeBytes": 86285892976
         },
         {
           "name": "[PKG · JPN · v1.000] Viki #02",
@@ -12116,7 +12480,9 @@
           "group": "Standard",
           "version": "01.000",
           "region": "JPN",
-          "editionId": "PPSA18463"
+          "editionId": "PPSA18463",
+          "fileName": "Balders Gate 3-[DLPSGAME.COM].rar",
+          "sizeBytes": 86285892976
         },
         {
           "name": "[PKG · JPN · v1.000] Viki #03",
@@ -12169,12 +12535,16 @@
         {
           "name": "[PKG] Akia",
           "url": "https://akirabox.com/Zvqzl7RNn3aD/file",
-          "version": "01.800.700"
+          "version": "01.800.700",
+          "fileName": "[DLPSGAME.COM]-01.800.700 PPSA18463.part12.rar",
+          "sizeBytes": 1964947537
         },
         {
           "name": "[PKG · v1.000] Akia #01",
           "url": "https://akirabox.com/ex5z2qXJa3Kq/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA18463.exfat",
+          "sizeBytes": 141626546585
         },
         {
           "name": "[PKG · v1.000] Viki",
@@ -12240,7 +12610,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/dZxG5oWaP3Vj/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA14002.7z",
+          "sizeBytes": 109811576340
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -12294,7 +12666,9 @@
         {
           "name": "[PKG · v1.000] Akia #01",
           "url": "https://akirabox.com/jar3XZDdYG2d/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-01.000 PPSA14002 FIXED.rar",
+          "sizeBytes": 86457691668
         },
         {
           "name": "[PKG · v1.000] Viki #01",
@@ -12326,7 +12700,9 @@
         {
           "name": "[PKG · v1.000] Akia #02",
           "url": "https://akirabox.com/E1x3A8x4rmyk/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA18463][01.000.000].rar",
+          "sizeBytes": 35158753
         },
         {
           "name": "[PKG · v1.000] Viki #02",
@@ -12350,7 +12726,9 @@
         {
           "name": "[PKG · v1.000] Akia #03",
           "url": "https://akirabox.com/2WVGrBW2gGkx/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-01.000 PPSA14002 FIXED.rar",
+          "sizeBytes": 86457691668
         },
         {
           "name": "[PKG · v1.000] Viki #03",
@@ -12372,9 +12750,11 @@
           "sizeBytes": 92824980684
         },
         {
-          "name": "[PKG · v1.000] Akia #04",
+          "name": "[PKG · Fix · v1.000] Akia",
           "url": "https://akirabox.com/RMKGJwqk4m1o/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-Baldurs Gate 3 sound FIX.rar",
+          "sizeBytes": 18307298099
         },
         {
           "name": "[PKG · Fix · v1.000] Viki",
@@ -12394,9 +12774,11 @@
           "version": "01.000"
         },
         {
-          "name": "[PKG · v1.000] Akia #05",
+          "name": "[PKG · v1.000] Akia #04",
           "url": "https://akirabox.com/EL73gxODaz9B/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "PPSA14002-[DLPSGAME.COM].rar",
+          "sizeBytes": 132542690754
         },
         {
           "name": "[PKG · v1.000] Viki #04",
@@ -12424,7 +12806,9 @@
         },
         {
           "name": "[PKG] Akia",
-          "url": "https://akirabox.com/ex5z2qXJa3Kq/file"
+          "url": "https://akirabox.com/ex5z2qXJa3Kq/file",
+          "fileName": "PPSA18463.exfat",
+          "sizeBytes": 141626546585
         },
         {
           "name": "[PKG] Viki",
@@ -12482,7 +12866,9 @@
           "group": "Standard",
           "version": "01.005",
           "region": "EUR",
-          "editionId": "PPSA10053"
+          "editionId": "PPSA10053",
+          "fileName": "[DLPSGAME.COM]-01.000 PPSA14002 FIXED.rar",
+          "sizeBytes": 86457691668
         },
         {
           "name": "[PKG · Folder · FFPFSC · EUR · v01.005] Viki #01",
@@ -12518,7 +12904,9 @@
           "group": "Standard",
           "version": "01.005",
           "region": "EUR",
-          "editionId": "PPSA10053"
+          "editionId": "PPSA10053",
+          "fileName": "PPSA10053_(01.005)-[DLPSGAME.COM].rar",
+          "sizeBytes": 52989159014
         },
         {
           "name": "[PKG · Folder · FFPFSC · EUR · v01.005] Viki #02",
@@ -12557,7 +12945,9 @@
         {
           "name": "[BP 4.xx] Akia #01",
           "url": "https://akirabox.com/rk9zKWWvRz0l/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA10053.7z",
+          "sizeBytes": 47105053818
         },
         {
           "name": "[BP 4.xx] Viki #01",
@@ -12636,7 +13026,9 @@
           "group": "Standard",
           "version": "01.006",
           "region": "EUR",
-          "editionId": "PPSA10053"
+          "editionId": "PPSA10053",
+          "fileName": "[DLPSGAME.COM]-PPSA10053.part06.rar",
+          "sizeBytes": 1352914698
         },
         {
           "name": "[PKG · Folder · FFPFSC · EUR · v1.006] Data",
@@ -12680,7 +13072,9 @@
         {
           "name": "[BP 4.xx] Akia #02",
           "url": "https://akirabox.com/gXeGOoxOkGAa/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA10053.7z",
+          "sizeBytes": 47105053818
         },
         {
           "name": "[BP 4.xx] Viki #02",
@@ -12762,7 +13156,9 @@
         {
           "name": "[PKG · Folder · FFPFSC] Akia #01",
           "url": "https://akirabox.com/E9Qz9daYD3OL/file",
-          "version": "01.005.000"
+          "version": "01.005.000",
+          "fileName": "PPSA10053_Banishers_Ghosts_of_New_Eden_V1_05_Backport_6_XX_By_BADERLINK.rar",
+          "sizeBytes": 55301898
         },
         {
           "name": "[PKG · Folder · FFPFSC] Viki #01",
@@ -12805,7 +13201,9 @@
         {
           "name": "[PKG · Folder · FFPFSC] Akia #02",
           "url": "https://akirabox.com/7d5GLeWlKmxR/file",
-          "version": "01.005.000"
+          "version": "01.005.000",
+          "fileName": "[DLPSGAME.COM]-PPSA10053-4.xx-5.xx By BADERLINK.zip",
+          "sizeBytes": 82313216
         },
         {
           "name": "[PKG · Folder · FFPFSC] Viki #02",
@@ -12888,7 +13286,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/EL73g01PKz9B/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA17465.exfat",
+          "sizeBytes": 3403761582
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -13041,7 +13441,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/QN9mEqndRm6d/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA19534.7z",
+          "sizeBytes": 109639777648
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -13105,7 +13507,9 @@
           "group": "Standard",
           "version": "01.000.016",
           "region": "USA",
-          "editionId": "PPSA19534"
+          "editionId": "PPSA19534",
+          "fileName": "[DLPSGAME.COM]-PPSA19534.part12.rar",
+          "sizeBytes": 9373766123
         },
         {
           "name": "[PKG · APR-EMU · USA] Viki",
@@ -13178,7 +13582,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/Y2xm0oj0nGRO/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA29343.exfat",
+          "sizeBytes": 68204080660
         },
         {
           "name": "[BP 4.xx] Viki",
@@ -13244,7 +13650,9 @@
         {
           "name": "[PKG] Akia",
           "url": "https://akirabox.com/2WVGrdq803kx/file",
-          "version": "01.000"
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-PPSA29343.part3.rar",
+          "sizeBytes": 8750995865
         },
         {
           "name": "[PKG] Viki",
@@ -13290,10 +13698,12 @@
       "description": "Format: Folder · Backport 4.xx\nTags: PPSA15035, v1.012.000, 4.xx, 5.xx\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[Folder] Akia #01",
+          "name": "[Folder] Akia",
           "url": "https://akirabox.com/2bJG84JAqGOB/file",
           "group": "Standard",
-          "version": "01.012.000"
+          "version": "01.012.000",
+          "fileName": "PPSA15035-[DLPSGAME.COM].rar",
+          "sizeBytes": 6345814179
         },
         {
           "name": "[Folder] Viki",
@@ -13315,9 +13725,11 @@
           "fileName": "4.XX+PPSA15035+–+EUR+V1.12+Beat+Saber+Backport++By+BADERLINK-[DLPSGAME.COM].zip"
         },
         {
-          "name": "[Folder] Akia #02",
+          "name": "[Folder · EUR] Akia #01",
           "url": "https://akirabox.com/dkD3YOpLJGLQ/file",
-          "version": "01.012.000"
+          "version": "01.012.000",
+          "fileName": "4.XX PPSA15035 – EUR V1.12 Beat Saber Backport  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 38702940
         },
         {
           "name": "[Folder · EUR] Viki #01",
@@ -13345,9 +13757,11 @@
           "fileName": "5.XX+PPSA15035+–+EUR+V1.12+Beat+Saber+Backport++By+BADERLINK-[DLPSGAME.COM].zip"
         },
         {
-          "name": "[Folder] Akia #03",
+          "name": "[Folder · EUR] Akia #02",
           "url": "https://akirabox.com/2bJG84POgGOB/file",
-          "version": "01.012.000"
+          "version": "01.012.000",
+          "fileName": "5.XX PPSA15035 – EUR V1.12 Beat Saber Backport  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 38702940
         },
         {
           "name": "[Folder · EUR] Viki #02",
@@ -13431,7 +13845,9 @@
           "group": "Backport 7.xx",
           "version": "01.000.003",
           "region": "EUR",
-          "editionId": "PPSA27624"
+          "editionId": "PPSA27624",
+          "fileName": "PPSA27624.exfat",
+          "sizeBytes": 8912057139
         },
         {
           "name": "[BP 7.xx · EUR · v1.000.003] Viki",
@@ -38751,7 +39167,9 @@
         {
           "name": "[BP 4.xx] Akia",
           "url": "https://akirabox.com/qPez4AxyPGOY/file",
-          "group": "Backport 4.xx"
+          "group": "Backport 4.xx",
+          "fileName": "PPSA06092.7z",
+          "sizeBytes": 67957120040
         },
         {
           "name": "[BP 4.xx] Viki",
