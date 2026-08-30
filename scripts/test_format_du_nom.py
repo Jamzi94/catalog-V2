@@ -63,7 +63,11 @@ assert "exFAT" not in n and "FPKG" not in n and "PKG" not in n, n
 
 # --- TEMOIN : sans nom de fichier du tout, rien ne bouge -------------------
 n = _etiq({"group": "Backport 4.xx", "sizeBytes": 40 * Go})
-assert n == "[BP 4.xx]", n
+# DECISION du 2026-08-30 : « chaque etiquetage affiche la taille du fichier
+# quand connu ». L'attente precedente — un BP volumineux n'annonce PAS sa
+# taille, la fiche la portant deja — venait d'une economie de pixels. La
+# demande la renverse. Cout mesure : troncature de 8,2 % a 10,2 %.
+assert n == "[BP 4.xx · 40 Go]", n
 
 # --- hors BP, le format verifie CORRIGE toujours une etiquette qui se trompe
 n = _etiq({"group": "Standard", "fileFormat": "PKG", "fileName": "PPSA08135.exfat"})

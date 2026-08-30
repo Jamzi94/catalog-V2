@@ -92,13 +92,21 @@ assert noms[0] == "[BP 4.xx · 45 Mo]", noms
 # taille, et les pixels sont comptes.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a",
                "group": "Backport 4.xx", "version": "01.000", "sizeBytes": 40 * Go}])
-assert noms[0] == "[BP 4.xx]", noms
+# DECISION du 2026-08-30 : « chaque etiquetage affiche la taille du fichier
+# quand connu ». L'attente precedente — un BP volumineux n'annonce PAS sa
+# taille, la fiche la portant deja — venait d'une economie de pixels. La
+# demande la renverse. Cout mesure : troncature de 8,2 % a 10,2 %.
+assert noms[0] == "[BP 4.xx · 40 Go]", noms
 
 # Temoin negatif : un lien NON BP de meme taille ne recoit rien — la question
 # posee ne concerne que les backports.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a",
                "group": "exFAT", "version": "01.000", "sizeBytes": 45 * Mo}])
-assert noms[0] == "[exFAT]", noms
+# DECISION du 2026-08-30 : la taille s'affiche des qu'elle est connue, sur
+# TOUS les liens. Ce temoin disait « un lien NON BP de meme taille ne recoit
+# rien — la question posee ne concerne que les backports ». La question posee
+# a change : elle ne concerne plus seulement les backports.
+assert noms[0] == "[exFAT · 45 Mo]", noms
 
 # Temoin negatif : sans taille, rien n'est invente.
 noms = _noms([{"name": "Viki", "url": "https://vikingfile.com/f/a",

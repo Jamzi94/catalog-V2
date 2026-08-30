@@ -240,6 +240,25 @@ def format_du_nom(nom):
 _REGIONS = ("EUR", "USA", "JPN", "JAP", "ASIA", "KOR", "CHN", "HK")
 
 
+_RE_TID_NOM = re.compile("(?i)(PPSA|CUSA)[0-9]{4,}")
+
+
+def _titleid_du_nom(nom):
+    """titleId Sony lu dans le nom de fichier, ou None. Sert a verifier qu'un
+    fichier appartient bien a la fiche avant de lui emprunter quoi que ce soit."""
+    m = _RE_TID_NOM.search(nom or "")
+    return m.group(0).upper() if m else None
+
+
+_RE_VERSION_NOM = re.compile("(?i)[(]?v([0-9]{1,2}[.][0-9]{2,3}(?:[.][0-9]{1,3})?)[)]?")
+
+
+def _version_du_nom(nom):
+    """Version lue dans le nom de fichier, ou None. « (v01.005.400) », « v1.02 »."""
+    m = _RE_VERSION_NOM.search(nom or "")
+    return m.group(1) if m else None
+
+
 def region_du_nom(nom):
     """Region lue dans le nom de fichier, ou None.
 
@@ -695,6 +714,16 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         link_fmt = _strip_unknown(_link_format(base, link.get("url", ""), fmt, base_fmt, link.get("group", "")))
         # Version PROPRE au lien (section), sinon version du jeu en repli.
         link_version = (link.get("version") or "").strip() or version
+        # Le NOM DE FICHIER arbitre quand il CONFIRME la fiche. Mesure du
+        # 2026-08-30 sur les 110 contradictions de version : 24 sont de cette
+        # forme — nom == fiche, seul le champ du LIEN diverge, deux sources
+        # independantes contre une. La version cesse alors d'etre ecrite,
+        # puisqu'elle egale celle de la fiche, affichee juste au-dessus.
+        # Les 88 autres, ou le nom differe des DEUX, restent ouvertes : rien
+        # dans le catalogue ne permet de trancher, et inventer serait pire.
+        _v_nom = _version_du_nom(link.get("fileName"))
+        if _v_nom and version and _noyau(_v_nom) == _noyau(version):
+            link_version = version
         # ÉTIQUETTE EN TÊTE, version d'abord. L'app rend ce nom dans une boîte
         # `white-space: nowrap; text-overflow: ellipsis` d'environ 31 caractères
         # (mesuré : 180 px utiles pour 281 px requis, panneau de 319 px à 1920×1080).
@@ -706,6 +735,22 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # Placee EN DERNIER dans l'etiquette : version et section restent
         # prioritaires dans les ~31 caracteres visibles de l'app.
         link_region = (link.get("region") or "").strip()
+        _tid = (pkg.get("titleId") or "").strip().upper()
+        _region_nom = region_du_nom(link.get("fileName"))
+        if (_region_nom and link_region and _region_nom != link_region
+                and _titleid_du_nom(link.get("fileName")) == _tid):
+            # Les deux parlent et se contredisent — 9 cas mesures le 2026-08-30.
+            # Le nom ne l'emporte QUE s'il porte le titleId de cette fiche.
+            # Sans cette condition la regle etait fausse, et un test l'a
+            # attrapee : sur les 9, QUATRE portent le titleId d'un AUTRE jeu
+            # (« Atomic Heart PPSA10695 » sur la fiche PPSA15493, « Resident
+            # Evil 4 PPSA07412 » sur PPSA07411). Ce sont des liens recolles, et
+            # adopter leur region afficherait celle du mauvais jeu — le test
+            # test_marques_nom disait exactement cela, il avait raison.
+            # Restent les 4 ou le nom porte BIEN le titleId de la fiche
+            # (« Biomutant PPSA06255 …EUR.rar » etiquete USA) : la, le fichier
+            # est le bon et c'est lui qui decrit ce qu'on telecharge.
+            link_region = _region_nom
         if not link_region:
             # Le champ est vide : le nom de fichier comble. 2788 liens sont dans
             # ce cas. On ne remplace JAMAIS un champ renseigne — voir
@@ -793,11 +838,20 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # 81 % des cas a 99 % d'exactitude (1206 liens de controle) ; la taille
         # ne tranche que 60 % et depend d'un seuil statistique. Le nom prime
         # donc, et la taille ne sert qu'a departager ce qu'il laisse « inconnu ».
-        if "BP" in link_fmt and classe == "correctif":
-            # La taille si on l'a — elle dit tout sans legende ; sinon « fix »,
-            # qui dit au moins que ce n'est pas le jeu.
-            court = _taille_courte(taille) if isinstance(taille, (int, float)) else ""
-            link_fmt = f"{link_fmt} · {court or 'fix'}"
+        # LA TAILLE S'AFFICHE DES QU'ELLE EST CONNUE — demande du 2026-08-30.
+        # Elle ne l'etait que sur les backports classes correctif : 1057
+        # etiquettes pour 5123 liens dont la taille est connue. Cout mesure de
+        # la generalisation : la troncature passe de 8,2 % a 10,7 % au-dela des
+        # ~31 caracteres visibles. Elle est posee AVEC le format, donc avant la
+        # region et la version — c'est la version qui sort du cadre en premier,
+        # et c'est ce dont on peut le plus se passer, l'en-tete l'affichant.
+        court = _taille_courte(taille)
+        if court:
+            link_fmt = f"{link_fmt} · {court}" if link_fmt else court
+        elif "BP" in link_fmt and classe == "correctif":
+            # Taille inconnue mais on sait que ce n'est pas le jeu : « fix » le
+            # dit, faute de mieux.
+            link_fmt = f"{link_fmt} · fix"
         tag = " · ".join(p for p in (link_fmt, link_region,
                                      f"v{version_utile}" if version_utile else "") if p)
         if not tag and link_version:
