@@ -81,4 +81,29 @@ page = ('<html><head><title>PPSA03647.exfat - Akira Box</title>'
         'Fast and easy at akirabox.com"></head></html>')
 assert extraire_nom_taille(page) == ("PPSA03647.exfat", int(1.34 * Go)), extraire_nom_taille(page)
 
+
+
+# --- gabarit BUZZHEAVIER, releve sur page reelle le 2026-08-30 ---------------
+# buzzheavier.com/a2bz5qkvml2w, capture au navigateur apres franchissement du
+# defi : le nom est dans <title>, la taille dans <span class="size">, tres loin
+# apres lui. La fenetre de 4000 caracteres de _taille_pres_de le manquait une
+# fois sur deux — 3 tailles pour 13 noms au run 33291251093.
+_BUZZ = ('<meta content="width=device-width" name="viewport">'
+         '<title>PPSA05366.exfat</title><meta name="title" content="PPSA05366.exfat">'
+         + "x" * 5000 +
+         '<p>&middot; 668 views &middot; Uploaded April 21, 2026</p>'
+         '<div class="download-row"><a class="download-btn gay-button" '
+         'hx-get="/a2bz5qkvml2w/download?t=MTc4">Download File '
+         '<span class="size">52.5GB</span></a>')
+assert extraire_nom_taille(_BUZZ) == ("PPSA05366.exfat", int(52.5 * 1024 ** 3))
+
+# TEMOIN NEGATIF : sans le span, on rend le nom et AUCUNE taille. On n'invente
+# pas un chiffre a partir des « 668 views » ni de « April 21, 2026 ».
+_SANS = _BUZZ.replace('<span class="size">52.5GB</span>', "")
+assert extraire_nom_taille(_SANS) == ("PPSA05366.exfat", None), extraire_nom_taille(_SANS)
+
+# TEMOIN : une page 404 de buzzheavier ne nomme rien.
+assert extraire_nom_taille("<title>Not Found</title>") == (None, None)
+
+
 print("OK")

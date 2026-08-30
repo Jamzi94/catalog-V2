@@ -134,8 +134,26 @@ def extraire_nom_taille(page: str) -> tuple:
     if m:
         titre = m.group(1).strip()
         if "akirabox" not in titre.lower() and re.search(r"\.[a-z0-9]{2,5}$", titre, re.I):
-            return (titre, _taille_pres_de(page, m.start()))
+            return (titre, _taille_span_size(page) or _taille_pres_de(page, m.start()))
     return (None, None)
+
+
+def _taille_span_size(page: str):
+    """Taille annoncee par <span class="size">52.5GB</span> — gabarit buzzheavier.
+
+    Releve sur page reelle le 2026-08-30 (buzzheavier.com/a2bz5qkvml2w) :
+
+        <a class="download-btn gay-button" hx-get="/…/download?t=…">
+            Download File <span class="size">52.5GB</span></a>
+
+    Pourquoi une ancre plutot que la fenetre de _taille_pres_de : le titre est
+    dans les 300 premiers octets, ce span vers la fin d'une page de 5900, et la
+    fenetre de 4000 caracteres le manquait une fois sur deux — 3 tailles pour 13
+    noms au run 33291251093. Une ancre ne depend pas de la mise en page.
+    """
+    m = re.search('class="[^"]*size[^"]*"[^>]*>([0-9][0-9.,]*) *'
+                  r'([KMGT]i?B|[KMGT]o)', page)
+    return _octets(m.group(1), m.group(2)) if m else None
 
 
 def _taille_pres_de(page: str, position: int):
