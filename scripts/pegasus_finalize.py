@@ -998,6 +998,65 @@ def _purger_liens_etrangers(packages: list, stats: dict) -> None:
     stats["fiches_delestees"] = touchees
 
 
+def _mots(texte) -> set:
+    return {m for m in re.split("[^a-z0-9]+", (texte or "").lower()) if len(m) > 2}
+
+
+def _replacer_liens_par_nom(packages: list, stats: dict) -> None:
+    """Remet a leur fiche les liens dont le NOM DE FICHIER nomme un autre jeu.
+
+    Decouvert le 2026-08-30 en regardant « DOOM Eternal » : sa fiche portait des
+    liens vers Superliminal, Death Stranding, Eriksholm et Shin Megami Tensei.
+    Les 371 liens etrangers reperes plus tot par editionId n'avaient pas de
+    cause tracable ; les noms releves chez les hebergeurs les rendent visibles.
+
+    On n'agit QUE sur deux preuves concordantes : le nom porte un titleId
+    different de la fiche, ET il evoque le titre de la fiche que ce titleId
+    designe. Mesure sur les 9963 liens dont le nom porte un titleId :
+      214  meme jeu, autre edition ... on ne touche pas
+      414  autre jeu identifie ...... 376 deja presents sur la bonne fiche
+                                      (purges), 38 absents (deplaces)
+      667  indetermine .............. on ne touche pas
+    Le doute ne se resout pas en supprimant : sans les deux preuves, le lien
+    reste ou il est.
+    """
+    par_tid = {}
+    for pkg in packages:
+        t = (pkg.get("titleId") or "").strip().upper()
+        if t:
+            par_tid[t] = pkg
+    purges = deplaces = 0
+    for pkg in packages:
+        tid = (pkg.get("titleId") or "").strip().upper()
+        if not re.fullmatch("[A-Z]{4}[0-9]{3,}", tid):
+            continue
+        mots_fiche = _mots(pkg.get("title"))
+        gardes = []
+        for link in pkg.get("downloadLinks") or []:
+            nom = link.get("fileName")
+            m = _RE_TID_NOM.search(nom or "")
+            autre = m.group(0).upper() if m else ""
+            cible = par_tid.get(autre) if autre and autre != tid else None
+            mots_nom = _mots(nom)
+            # Le nom evoque le titre de CETTE fiche : meme jeu, autre edition.
+            if cible is None or (mots_fiche & mots_nom):
+                gardes.append(link)
+                continue
+            # ... et il evoque bien le titre de la fiche visee ?
+            if not (_mots(cible.get("title")) & mots_nom):
+                gardes.append(link)
+                continue
+            urls = {(x.get("url") or "") for x in (cible.get("downloadLinks") or [])}
+            if (link.get("url") or "") in urls:
+                purges += 1
+            else:
+                cible.setdefault("downloadLinks", []).append(link)
+                deplaces += 1
+        pkg["downloadLinks"] = gardes
+    stats["liens_egares_purges"] = purges
+    stats["liens_egares_deplaces"] = deplaces
+
+
 def finalize_catalog(catalog: dict) -> dict:
     stats = {
         "total": 0, "size_dropped": 0, "missing_titleId": 0, "missing_title": 0,
@@ -1017,6 +1076,11 @@ def finalize_catalog(catalog: dict) -> dict:
     stats["total"] = len(packages)
     # 2) Un lien qui appartient a une autre fiche n'a rien a faire ici, et
     #    fausserait le comptage des doublons de libelle.
+    # AVANT la purge par editionId : celle-ci ne voit que les liens dont
+    # toutes les occurrences portent un editionId decidable. Le nom de fichier
+    # releve chez l'hebergeur en voit d'autres, et il dit OU ils devraient
+    # etre — ce que l'editionId ne dit pas.
+    _replacer_liens_par_nom(packages, stats)
     _purger_liens_etrangers(packages, stats)
     for pkg in packages:
         finalize_package(pkg, stats)
