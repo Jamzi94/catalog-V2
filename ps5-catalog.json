@@ -63,7 +63,8 @@
           "name": "[PKG · APR-EMU · Folder] #01",
           "url": "https://vikingfile.com/f/6yIuoZVtgV",
           "version": "01.080",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · Folder]",
@@ -90,7 +91,8 @@
           "name": "[PKG · APR-EMU · Folder] #02",
           "url": "https://vikingfile.com/f/wmz1qY9D5g",
           "version": "01.080",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · Folder · DLC · 186 Mo]",
@@ -2079,7 +2081,8 @@
           "url": "https://datanodes.to/ceyn6sg576e5",
           "group": "exFAT",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · 465 Mo · USA]",
@@ -2178,7 +2181,8 @@
           "url": "https://datanodes.to/9r57opl4vvd9",
           "group": "exFAT · Backport 4.xx",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · 10 Go · USA]",
@@ -2316,7 +2320,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/ys10bkxrhmer",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -2446,7 +2451,8 @@
           "url": "https://datanodes.to/h7qw7fbcz89q",
           "group": "exFAT",
           "version": "01.002",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -2455,7 +2461,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA05265",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -2494,7 +2501,8 @@
           "url": "https://datanodes.to/w2d889ba8nzu",
           "group": "exFAT · Backport",
           "version": "01.002",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · USA]",
@@ -2503,7 +2511,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA05265",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · USA]",
@@ -3159,7 +3168,8 @@
           "url": "https://vikingfile.com/f/ofx2vsbOAN",
           "group": "Standard",
           "version": "01.005",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -3257,7 +3267,8 @@
           "version": "01.006",
           "region": "EUR",
           "editionId": "PPSA19007",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · EUR]",
@@ -3266,7 +3277,8 @@
           "version": "01.006",
           "region": "EUR",
           "editionId": "PPSA19007",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · 32 Go · EUR]",
@@ -3516,7 +3528,8 @@
           "url": "https://vikingfile.com/f/lrP3vV7dwH",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -4057,7 +4070,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/dimytng1pfvp",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 5 Go]",
@@ -4130,7 +4144,8 @@
         {
           "name": "[PKG]",
           "url": "https://datanodes.to/lred040j4w4p",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         }
       ],
       "sizeBytes": 5368709120,
@@ -4200,7 +4215,8 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA09351",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 13 Mo · USA]",
@@ -4665,7 +4681,8 @@
           "url": "https://datanodes.to/9gfo8k8iqi6z",
           "group": "exFAT · Backport 4.xx",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #01",
@@ -5072,7 +5089,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datavaults.co/6ceziyhst85i",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Vault",
+          "fileName": "PPSA02572.7z"
         },
         {
           "name": "[PKG · APR-EMU]",
@@ -6052,7 +6070,8 @@
           "version": "01.040",
           "region": "USA",
           "editionId": "PPSA03393",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 4 Mo · USA] #02",
@@ -6699,7 +6718,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ilrdhtjnap2y",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -7264,13 +7284,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/8g5szb81aa4d",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/gb28jofi2unx",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -7396,7 +7418,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/iz0ez0u9fevj",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 2 Go]",
@@ -7543,7 +7566,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/c4d53ieinh5b",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 952 Mo]",
@@ -7939,7 +7963,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/op28x2oi03yz",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -8107,13 +8132,15 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/svyyvu520w04",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
           "url": "https://filekeeper.net/u7j7gd39gamr",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -8484,7 +8511,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/kk0hsvtkqd3n",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -9713,7 +9741,8 @@
           "name": "[PKG · v1.006]",
           "url": "https://vikingfile.com/f/9mGTqeV1Xu",
           "version": "01.006",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · BP · 39 Mo · EUR · v1.006]",
@@ -9789,7 +9818,8 @@
           "name": "[PKG]",
           "url": "https://datanodes.to/7jfgnfmnd3zh",
           "version": "01.006",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · DLC · 1 Mo]",
@@ -9826,7 +9856,8 @@
           "name": "[PKG] #01",
           "url": "https://vikingfile.com/f/vICUusewno",
           "version": "01.006",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -9855,7 +9886,8 @@
           "name": "[PKG] #02",
           "url": "https://vikingfile.com/f/9mGTqeV1Xu",
           "version": "01.006",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · BP · 39 Mo · EUR]",
@@ -9951,7 +9983,8 @@
           "url": "https://vikingfile.com/f/MygwRsMQyM",
           "group": "exFAT",
           "version": "01.012",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 47 Go]",
@@ -10103,7 +10136,8 @@
           "url": "https://vikingfile.com/f/R8VBC1Fjhp",
           "group": "exFAT · Backport 4.xx",
           "version": "01.019.076",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 122 Go]",
@@ -10171,7 +10205,8 @@
           "url": "https://vikingfile.com/f/RqIKYFrSYN",
           "group": "exFAT",
           "version": "01.019.076",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 108 Go]",
@@ -10518,7 +10553,8 @@
           "name": "[PKG · APR-EMU · v1.070] #01",
           "url": "https://vikingfile.com/f/2pdivUMMdq",
           "version": "01.070",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · v1.070]",
@@ -10538,7 +10574,8 @@
           "name": "[PKG · APR-EMU · v1.070] #02",
           "url": "https://vikingfile.com/f/HffZitEtZE",
           "version": "01.070",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · 91 Go · v1.070]",
@@ -11384,7 +11421,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/qcv4a6g8xwhx",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -11584,7 +11622,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA08576",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -11630,7 +11669,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA08576",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · USA]",
@@ -12207,7 +12247,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ndbvoh36qm2m",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -13087,7 +13128,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/mq99ca0k2o3c",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -13895,7 +13937,8 @@
           "name": "[BP 4.xx]",
           "url": "https://filekeeper.net/ap3md61pxkxv",
           "group": "Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx]",
@@ -13964,7 +14007,8 @@
           "name": "[PKG · v1.014.400]",
           "url": "https://vikingfile.com/f/UTDFoljFiC",
           "version": "01.014.400",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · BP · 66 Mo · v1.014.400]",
@@ -14309,7 +14353,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA04341",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #01",
@@ -15097,7 +15142,8 @@
           "url": "https://vikingfile.com/f/CV8kErKeUo",
           "group": "Standard",
           "version": "01.006",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -15135,7 +15181,8 @@
           "name": "[PKG] #02",
           "url": "https://vikingfile.com/f/VguDJw9VFn",
           "version": "01.006",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -15164,7 +15211,8 @@
           "name": "[PKG] #03",
           "url": "https://vikingfile.com/f/Yk41WFKCnq",
           "version": "01.006",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 58 Go]",
@@ -15400,7 +15448,8 @@
           "url": "https://vikingfile.com/f/dcWVRM6ffS",
           "group": "Standard",
           "version": "01.007",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · v1.007]",
@@ -15902,7 +15951,8 @@
           "version": "01.005",
           "region": "EUR",
           "editionId": "PPSA10053",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · FFPFSC · 53 Go · EUR · v01.005] #02",
@@ -16016,7 +16066,8 @@
           "name": "[BP 4.xx]",
           "url": "https://filekeeper.net/u10fg1mk80ih",
           "group": "Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx]",
@@ -16123,7 +16174,8 @@
           "url": "https://vikingfile.com/f/XM6Mcp9n5m",
           "group": "Standard",
           "version": "01.005",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[Fix · v01.005]",
@@ -16153,7 +16205,8 @@
           "name": "[PKG · Folder · FFPFSC]",
           "url": "https://vikingfile.com/f/9xXQUcFB4O",
           "version": "01.005.000",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · FFPFSC · BP · fix]",
@@ -16250,7 +16303,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/u650a9laikht",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -16850,7 +16904,8 @@
           "version": "01.000.003",
           "region": "EUR",
           "editionId": "PPSA27624",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 7.xx · 8 Go · EUR · v01.000.003]",
@@ -17238,7 +17293,8 @@
           "name": "[exFAT · BP 7.xx]",
           "url": "https://filekeeper.net/8dnt4b5dn60i",
           "group": "exFAT · Backport 7.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 7.xx]",
@@ -17267,13 +17323,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/nhceigdfs5z8",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/rp4kffz0yese",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -17657,7 +17715,8 @@
           "url": "https://datanodes.to/jeezcnu8zb0f",
           "group": "exFAT",
           "version": "01.001",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -17666,7 +17725,8 @@
           "version": "01.001",
           "region": "USA",
           "editionId": "PPSA02604",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -18594,7 +18654,8 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/jz26tcy3gpls",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 15 Go]",
@@ -18631,13 +18692,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/90dl2qb1tb0l",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/uxjbg0dxgs0c",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -19309,7 +19372,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/s2mq36ne1zo4",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -19676,7 +19740,8 @@
           "version": "01.010",
           "region": "EUR",
           "editionId": "PPSA22299",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR · v1.000]",
@@ -20422,7 +20487,8 @@
           "version": "01.003.001",
           "region": "USA",
           "editionId": "PPSA01494",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #01",
@@ -20537,7 +20603,8 @@
           "version": "01.003.001",
           "region": "USA",
           "editionId": "PPSA01494",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · DLC · 5 Mo · USA]",
@@ -21042,7 +21109,8 @@
           "url": "https://datanodes.to/vl0zcgkaj7n9",
           "group": "exFAT",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · EUR]",
@@ -21051,7 +21119,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA04243",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · EUR]",
@@ -21152,7 +21221,8 @@
           "version": "02.000",
           "region": "USA",
           "editionId": "PPSA14501",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -21708,7 +21778,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/6ivryaw474st",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -21927,7 +21998,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/3awr0twdy12e",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · Folder · FFPFSC · USA]",
@@ -23168,7 +23240,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/m7550k0fxi53",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -26048,7 +26121,8 @@
           "version": "01.000.002",
           "region": "EUR",
           "editionId": "PPSA02433",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · EUR]",
@@ -26078,7 +26152,8 @@
           "version": "01.000.002",
           "region": "EUR",
           "editionId": "PPSA02433",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #01",
@@ -26165,7 +26240,8 @@
           "version": "01.000.002",
           "region": "EUR",
           "editionId": "PPSA02433",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -27109,7 +27185,8 @@
           "url": "https://datanodes.to/u178po2jbdon",
           "group": "exFAT",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -27118,7 +27195,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA02121",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -27291,7 +27369,8 @@
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/ww5nyrkq21mp",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -28678,13 +28757,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/km0dd0stkji2",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/oi31q2w4mkcb",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -28966,7 +29047,8 @@
           "version": "01.002.002",
           "region": "USA",
           "editionId": "PPSA29154",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 74 Mo · USA]",
@@ -29356,7 +29438,8 @@
           "version": "01.015",
           "region": "EUR",
           "editionId": "PPSA19591",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -29417,7 +29500,8 @@
           "version": "01.015",
           "region": "EUR",
           "editionId": "PPSA19591",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         }
       ],
       "sizeBytes": 5368709120,
@@ -29880,7 +29964,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/odujgwmuxlup",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000]",
@@ -32106,7 +32191,8 @@
           "version": "01.000.006",
           "region": "USA",
           "editionId": "PPSA03845",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · BP · 56 Mo · USA]",
@@ -33169,7 +33255,8 @@
           "name": "[PKG · APR-EMU]",
           "url": "https://filekeeper.net/q8qt9gp28xfq",
           "version": "01.004",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU]",
@@ -33723,7 +33810,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/koa3wu06ldmc",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -34013,7 +34101,8 @@
           "version": "01.002",
           "region": "EUR",
           "editionId": "PPSA21268",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · EUR · v1.000]",
@@ -35975,7 +36064,8 @@
           "group": "Standard",
           "region": "USA",
           "editionId": "PPSA01442",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · DLC · USA]",
@@ -36790,7 +36880,8 @@
           "version": "01.001",
           "region": "USA",
           "editionId": "PPSA06228",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -36948,7 +37039,8 @@
           "version": "01.050",
           "region": "EUR",
           "editionId": "PPSA13844",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 1 Mo · EUR · v01.050]",
@@ -36968,7 +37060,8 @@
           "version": "01.050",
           "region": "EUR",
           "editionId": "PPSA13844",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · 34 Go · EUR]",
@@ -37879,7 +37972,8 @@
           "version": "01.080",
           "region": "USA",
           "editionId": "PPSA06164",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #01",
@@ -38307,7 +38401,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/trcumaxuasft",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -41157,7 +41252,8 @@
           "url": "https://vikingfile.com/f/ZuQqpabX2X",
           "group": "exFAT · Backport",
           "version": "01.040",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 79 Go]",
@@ -41476,7 +41572,8 @@
           "name": "[PKG · Folder · FFPFSC · v2.013]",
           "url": "https://vikingfile.com/f/pJ52eMtJID",
           "version": "02.013",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · FFPFSC · v2.013] #02",
@@ -42757,7 +42854,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA09663",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA · v1.000] #02",
@@ -43335,7 +43433,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA09076",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · EUR]",
@@ -43370,7 +43469,8 @@
           "url": "https://datanodes.to/nxc223c5iv5y",
           "group": "exFAT · Backport",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · EUR]",
@@ -43379,7 +43479,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA09076",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · EUR]",
@@ -43527,7 +43628,8 @@
           "url": "https://vikingfile.com/f/qkrjiyiJmy",
           "group": "Standard",
           "version": "01.009",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · DLC · 3 Mo]",
@@ -44557,7 +44659,8 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/sh1du7qv3jm7",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 60 Go]",
@@ -44613,7 +44716,8 @@
           "name": "[APR-EMU]",
           "url": "https://filekeeper.net/2ptc287oq8qy/",
           "version": "01.026",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         }
       ],
       "sizeBytes": 63350767616,
@@ -45138,7 +45242,8 @@
           "group": "Standard",
           "version": "01.007",
           "region": "USA",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #02",
@@ -46543,7 +46648,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ap3md61pxkxv",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -47187,7 +47293,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/02os9ya9cxwy",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -47425,7 +47532,8 @@
           "version": "01.000",
           "region": "JPN",
           "editionId": "PPSA25348",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 25 Go · JPN]",
@@ -47456,7 +47564,8 @@
           "version": "01.000",
           "region": "JPN",
           "editionId": "PPSA25348",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · JPN]",
@@ -47747,7 +47856,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/jc5aiuzel3gm",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -47807,7 +47917,8 @@
           "name": "[PKG] #01",
           "url": "https://vikingfile.com/f/E7IC6zjkP7",
           "version": "01.000.000",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 40 Go]",
@@ -48965,13 +49076,15 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/dl6kq3fiquur",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
           "url": "https://filekeeper.net/bhkic9n9hof7",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -49048,7 +49161,8 @@
           "name": "[APR-EMU]",
           "url": "https://datanodes.to/dl6kq3fiquur",
           "version": "01.003",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[APR-EMU · 2 Go]",
@@ -49141,7 +49255,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/sfz26t60h2r6",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 78 Go]",
@@ -49170,7 +49285,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/21g87zeoq50k",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA] #01",
@@ -49611,7 +49727,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA04170",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA · v01.002]",
@@ -49620,7 +49737,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA04170",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA · v01.002]",
@@ -49730,7 +49848,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/hdegj15vlrov",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -49868,7 +49987,8 @@
           "version": "01.005.000",
           "region": "USA",
           "editionId": "PPSA02372",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -50428,7 +50548,8 @@
           "version": "01.004",
           "region": "EUR",
           "editionId": "PPSA03157",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · EUR]",
@@ -50437,7 +50558,8 @@
           "version": "01.004",
           "region": "EUR",
           "editionId": "PPSA03157",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · EUR]",
@@ -50827,7 +50949,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/qp5r0pysl92o",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -51243,7 +51366,8 @@
         {
           "name": "[PKG]",
           "url": "https://vikingfile.com/f/tNLNhJWLDw",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         }
       ],
       "sizeBytes": 83751862272,
@@ -51616,7 +51740,8 @@
           "version": "01.000.013",
           "region": "EUR",
           "editionId": "PPSA01870",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 94 Go · EUR]",
@@ -51744,7 +51869,8 @@
           "name": "[PKG · APR-EMU]",
           "url": "https://vikingfile.com/f/2UThUv4jMa",
           "version": "01.000.013",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · DLC · 3 Mo]",
@@ -52508,13 +52634,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/53ruljigl1mo",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/6e7rknnnqaey",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -52549,7 +52677,8 @@
           "name": "[exFAT · DLC]",
           "url": "https://filekeeper.net/xxnnmr31towv",
           "group": "exFAT · DLC",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · JPN]",
@@ -53447,7 +53576,8 @@
           "name": "[PKG · APR-EMU · v1.005]",
           "url": "https://vikingfile.com/f/aeittFzVko",
           "version": "01.005",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · v1.005]",
@@ -53514,7 +53644,8 @@
           "url": "https://vikingfile.com/f/P40vFmid9b",
           "group": "exFAT",
           "version": "01.003.004",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 103 Go]",
@@ -53629,7 +53760,8 @@
           "url": "https://vikingfile.com/f/FONmrTrvCm",
           "group": "Standard",
           "version": "01.003.004",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · APR-EMU · Folder · 2 Go]",
@@ -54491,7 +54623,8 @@
           "version": "01.002.400",
           "region": "USA",
           "editionId": "PPSA07382",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 25 Go · USA]",
@@ -56067,7 +56200,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/p484j3p2czbw",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -56390,13 +56524,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/qt9xbxm80dh5",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/850g5lk0pfyo",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -56846,25 +56982,32 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://vikingfile.com/f/nZGgHD70o6",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "fileName": "PPSA25839.exfat",
+          "sizeBytes": 10758893076
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/ncxhjgurvqnk",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "PPSA25839.exfat",
+          "sizeBytes": 10737418240
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/61vgqjrt64do",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "fileName": "PPSA25839.exfat",
+          "sizeBytes": 10737418240
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datavaults.co/vujhrxmbplx5",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Vault",
+          "fileName": "PPSA25839.exfat"
         }
       ],
       "sizeBytes": 10737418240,
@@ -57358,7 +57501,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ymrctlzqenub",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -57487,7 +57631,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA34038",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 4 Mo · USA]",
@@ -57507,7 +57652,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA34038",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -58206,7 +58352,8 @@
           "name": "[BP 4.xx] #02",
           "url": "https://datavaults.co/z1dxis4as5x2",
           "group": "Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Vault",
+          "linkDead": true
         },
         {
           "name": "[FFPFSC · DLC · BP · 9 Go · USA]",
@@ -58382,7 +58529,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/8afsialbl5du",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -58856,7 +59004,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/axn8oft2p21b",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -59098,7 +59247,8 @@
           "url": "https://vikingfile.com/f/frZOihtZO1",
           "group": "exFAT",
           "version": "01.009",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 48 Go]",
@@ -59150,7 +59300,8 @@
           "version": "01.009",
           "region": "USA",
           "editionId": "PPSA01337",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -59295,7 +59446,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/8ank5xzz1qpo",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -60140,7 +60292,8 @@
           "name": "[PKG · v6.005]",
           "url": "https://vikingfile.com/f/7757z5jnTw",
           "version": "06.005",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · 5 Go · v6.005]",
@@ -60338,7 +60491,8 @@
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/ip9xhs0c9vn9",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -60373,7 +60527,8 @@
           "name": "[exFAT · DLC]",
           "url": "https://filekeeper.net/hxx3zov3mrim",
           "group": "exFAT · DLC",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000] #01",
@@ -60507,7 +60662,8 @@
           "version": "01.009",
           "region": "USA",
           "editionId": "PPSA07393",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         }
       ],
       "sizeBytes": 98784247808,
@@ -61125,7 +61281,8 @@
           "version": "01.003",
           "region": "USA",
           "editionId": "PPSA03527",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.003]",
@@ -61386,7 +61543,8 @@
           "url": "https://filekeeper.net/cy69bkxsazyv/",
           "group": "Standard",
           "version": "01.007",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · FFPFSC] #01",
@@ -61416,7 +61574,8 @@
           "url": "https://filekeeper.net/zgjt780507wx/",
           "group": "Standard",
           "version": "01.007",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · FFPFSC · 10 Go · v1.003]",
@@ -61905,7 +62064,8 @@
           "name": "[PKG] #01",
           "url": "https://vikingfile.com/f/9JZdO6jaLG",
           "version": "01.006",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG] #02",
@@ -62029,7 +62189,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/y7ath76o6kt3",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 7 Go]",
@@ -62331,7 +62492,8 @@
           "url": "https://datanodes.to/d3xg6zzn1yhc",
           "group": "exFAT",
           "version": "01.003",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 1 Mo · EUR]",
@@ -62373,7 +62535,8 @@
           "version": "01.003",
           "region": "EUR",
           "editionId": "PPSA02981",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #01",
@@ -62441,7 +62604,8 @@
           "version": "01.003",
           "region": "EUR",
           "editionId": "PPSA02981",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #03",
@@ -62664,13 +62828,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/hh3q86jveqoh",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ct4whn14nhew",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -63108,7 +63274,8 @@
           "url": "https://datanodes.to/04cf37jnwqpl",
           "group": "exFAT",
           "version": "01.001",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 7 Go]",
@@ -63130,13 +63297,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/fvhg5g23lrw5",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/nwhohgytyu1f",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -63615,7 +63784,8 @@
           "version": "01.030",
           "region": "EUR",
           "editionId": "PPSA02257",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · v1.016]",
@@ -63760,7 +63930,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/bmg9gf566z28",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -64143,7 +64314,8 @@
           "version": "02.000.052",
           "region": "EUR",
           "editionId": "PPSA13526",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -64570,7 +64742,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/48jaslsv06om",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -65071,7 +65244,8 @@
           "name": "[BP 4.xx]",
           "url": "https://datanodes.to/x7cj584cq5vi",
           "group": "Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · exFAT · 3 Go]",
@@ -66280,7 +66454,8 @@
           "version": "01.000.002",
           "region": "USA",
           "editionId": "PPSA04181",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -66549,7 +66724,8 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA01593",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA · v1.010]",
@@ -66636,7 +66812,8 @@
           "version": "01.013",
           "region": "EUR",
           "editionId": "PPSA01603",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · EUR] #02",
@@ -67315,7 +67492,8 @@
           "name": "[exFAT · BP 7.xx]",
           "url": "https://vikingfile.com/f/uKGR51vsVe",
           "group": "exFAT · Backport 7.xx",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 7.xx · 116 Go]",
@@ -67612,7 +67790,8 @@
           "url": "https://vikingfile.com/f/tKizsAjNO1",
           "group": "Standard",
           "version": "01.030",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · Folder] #01",
@@ -68711,7 +68890,8 @@
           "version": "01.100",
           "region": "USA",
           "editionId": "PPSA18191",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder]",
@@ -69260,7 +69440,8 @@
           "name": "[BP 4.xx]",
           "url": "https://filekeeper.net/02os9ya9cxwy",
           "group": "Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · exFAT]",
@@ -69839,7 +70020,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA06584",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000] #03",
@@ -69866,7 +70048,8 @@
         {
           "name": "[PKG]",
           "url": "https://datanodes.to/dbqmarcr2uqf",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 8 Go] #02",
@@ -70092,7 +70275,8 @@
           "url": "https://datanodes.to/6synog57tugp",
           "group": "exFAT · Backport 4.xx",
           "version": "01.006.004",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -70802,7 +70986,8 @@
           "url": "https://vikingfile.com/f/9QXDARgpvo",
           "group": "Standard",
           "version": "01.009",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · BP · 307 Mo · USA · v1.009]",
@@ -71386,7 +71571,8 @@
           "version": "01.003",
           "region": "EUR",
           "editionId": "PPSA16214",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · 18 Go · EUR]",
@@ -72134,7 +72320,8 @@
           "version": "01.002.001",
           "region": "USA",
           "editionId": "PPSA04319",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · 880 Mo · USA]",
@@ -72709,7 +72896,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/dcmw9b8u8wz2",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -73164,7 +73352,8 @@
           "version": "02.330",
           "region": "USA",
           "editionId": "PPSA04220",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · USA · v02.330]",
@@ -73191,7 +73380,8 @@
           "version": "02.330",
           "region": "USA",
           "editionId": "PPSA04220",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA · v02.330]",
@@ -73200,7 +73390,8 @@
           "version": "02.330",
           "region": "USA",
           "editionId": "PPSA04220",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[BP · 58 Mo · USA · v02.330]",
@@ -73707,7 +73898,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA19268",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -73888,7 +74080,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/d2o9r1u7gj3g",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -74037,7 +74230,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/7yxlkv9xljuk",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 3 Go]",
@@ -74362,7 +74556,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/0cvkkpki7gjh",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -75156,7 +75351,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/94ofa3nw7jof",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 2 Go]",
@@ -75647,7 +75843,8 @@
           "version": "01.007",
           "region": "USA",
           "editionId": "PPSA05595",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 6 Mo · USA]",
@@ -75667,7 +75864,8 @@
           "version": "01.007",
           "region": "USA",
           "editionId": "PPSA05595",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000]",
@@ -76183,7 +76381,8 @@
           "version": "01.016",
           "region": "USA",
           "editionId": "PPSA01746",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 1 Mo · USA]",
@@ -76356,13 +76555,15 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/1h46tubdbh60",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
           "url": "https://filekeeper.net/khsfzw4tqsg2",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -76515,7 +76716,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/ps720k09rmeu",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 45 Go]",
@@ -77098,7 +77300,8 @@
           "version": "01.005",
           "region": "USA",
           "editionId": "PPSA02527",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -77107,7 +77310,8 @@
           "version": "01.005",
           "region": "USA",
           "editionId": "PPSA02527",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -77859,7 +78063,8 @@
           "version": "01.010",
           "region": "EUR",
           "editionId": "PPSA07265",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · BP · fix · EUR]",
@@ -78821,7 +79026,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA14632",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR · v1.000] #01",
@@ -78978,7 +79184,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA14632",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 28 Go · EUR · v1.000]",
@@ -79045,7 +79252,8 @@
           "name": "[exFAT]",
           "url": "https://vikingfile.com/f/P1KeD9XUlI",
           "group": "exFAT",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 84 Go]",
@@ -79678,7 +79886,8 @@
           "version": "01.002.000",
           "region": "EUR",
           "editionId": "PPSA16106",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 48 Go · EUR]",
@@ -79933,7 +80142,8 @@
           "name": "[exFAT · DLC]",
           "url": "https://filekeeper.net/17zbbmynyatj",
           "group": "exFAT · DLC",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA]",
@@ -80306,7 +80516,8 @@
           "version": "01.022",
           "region": "JPN",
           "editionId": "PPSA16265",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · JPN]",
@@ -82419,7 +82630,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/9enwgvok48wx",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -82700,7 +82912,8 @@
           "version": "01.005.001",
           "region": "EUR",
           "editionId": "PPSA21837",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · 10 Go · EUR · v1.017.001]",
@@ -83115,7 +83328,8 @@
           "name": "[PKG · Folder · v1.001]",
           "url": "https://vikingfile.com/f/elJ1k0WBmG",
           "version": "01.001",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · v1.001] #03",
@@ -84029,7 +84243,8 @@
           "version": "01.000.100",
           "region": "USA",
           "editionId": "PPSA01693",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 8 Go · USA]",
@@ -84558,7 +84773,8 @@
           "name": "[exFAT · BP 7.xx]",
           "url": "https://filekeeper.net/witrw5rx7vk3",
           "group": "exFAT · Backport 7.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 7.xx]",
@@ -84661,7 +84877,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ji4njangpr37",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -84813,7 +85030,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/pvy28sl2ww7p/",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -86151,7 +86369,8 @@
           "version": "01.006",
           "region": "USA",
           "editionId": "PPSA14251",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA · v1.006] #01",
@@ -89541,7 +89760,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/3bfen1djgf3t",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -89969,7 +90189,8 @@
           "version": "01.001.004",
           "region": "USA",
           "editionId": "PPSA15304",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA] #01",
@@ -90076,7 +90297,8 @@
           "version": "01.001.004",
           "region": "USA",
           "editionId": "PPSA15304",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 186 Go · USA]",
@@ -90283,7 +90505,8 @@
           "url": "https://filekeeper.net/o64mr41t43pk",
           "group": "exFAT",
           "version": "03.000",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -90358,7 +90581,8 @@
           "url": "https://filekeeper.net/3bfen1djgf3t",
           "group": "exFAT",
           "version": "02.100",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · v2.100]",
@@ -90931,7 +91155,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA20800",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA · v1.000]",
@@ -91451,7 +91676,8 @@
           "version": "01.007",
           "region": "EUR",
           "editionId": "PPSA06217",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #01",
@@ -91998,7 +92224,8 @@
           "url": "https://vikingfile.com/f/VO4xSq63kg",
           "group": "Standard",
           "version": "01.011",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · v1.011]",
@@ -93293,7 +93520,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/n5xdmx9w93j0",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -93863,7 +94091,8 @@
         {
           "name": "[PKG · Folder]",
           "url": "https://vikingfile.com/f/yXPQvngTaj",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder]",
@@ -94660,7 +94889,8 @@
           "version": "01.010.001",
           "region": "USA",
           "editionId": "PPSA07570",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 122 Go]",
@@ -94885,7 +95115,8 @@
           "version": "01.001.004",
           "region": "USA",
           "editionId": "PPSA07570",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.001.004] #02",
@@ -95226,7 +95457,8 @@
           "version": "01.000.004",
           "region": "EUR",
           "editionId": "PPSA01619",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · FFPFSC · 9 Go · v1.000.006]",
@@ -95285,7 +95517,8 @@
           "name": "[PKG · FFPFSC] #02",
           "url": "https://vikingfile.com/f/NuUGYDMsdz",
           "version": "01.000.004",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         }
       ],
       "sizeBytes": 124554051584,
@@ -95871,13 +96104,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/gxr710cfq67k",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/dq89r98oaqh7",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -96317,7 +96552,8 @@
           "url": "https://datanodes.to/n9vclhk15xr8",
           "group": "exFAT · Backport 4.xx",
           "version": "01.011",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · EUR] #01",
@@ -97477,7 +97713,8 @@
           "version": "01.001.100",
           "region": "USA",
           "editionId": "PPSA09904",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 7.xx · USA]",
@@ -97708,7 +97945,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/mgfm5lgr57n8",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -98134,7 +98372,8 @@
           "version": "01.017",
           "region": "EUR",
           "editionId": "PPSA15302",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · EUR · v01.017]",
@@ -98143,7 +98382,8 @@
           "version": "01.017",
           "region": "EUR",
           "editionId": "PPSA15302",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[BP · 37 Mo · EUR]",
@@ -98648,7 +98888,8 @@
           "name": "[PKG · APR-EMU]",
           "url": "https://vikingfile.com/f/2itqgTtdta",
           "version": "01.017",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU]",
@@ -99075,7 +99316,8 @@
           "url": "https://datanodes.to/jp5em1bvkf7o",
           "group": "exFAT",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 207 Mo]",
@@ -99097,13 +99339,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/5voo5e38uboo",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/mordlp1crto2",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -99234,7 +99478,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA02721",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -99243,7 +99488,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA02721",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -99472,7 +99718,8 @@
           "url": "https://vikingfile.com/f/ps2xkdCo4I",
           "group": "Standard",
           "version": "01.006",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG] #02",
@@ -99654,7 +99901,8 @@
           "name": "[PKG]",
           "url": "https://datanodes.to/wigj8qccvmz8",
           "version": "01.007",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         }
       ],
       "sizeBytes": 21474836480,
@@ -99722,7 +99970,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/tjuuuv78u8uw",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -100005,7 +100254,8 @@
           "version": "01.002",
           "region": "EUR",
           "editionId": "PPSA03500",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · FFPFSC · 22 Go · EUR]",
@@ -100083,7 +100333,8 @@
           "version": "01.001",
           "region": "EUR",
           "editionId": "PPSA03500",
-          "mirror": "Rootz"
+          "mirror": "Rootz",
+          "linkDead": true
         },
         {
           "name": "[PKG · FFPFSC · BP · 10 Go]",
@@ -100260,7 +100511,8 @@
           "group": "exFAT · Backport 4.xx",
           "version": "01.060",
           "region": "USA",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · USA]",
@@ -100268,7 +100520,8 @@
           "group": "exFAT · Backport 4.xx",
           "version": "01.060",
           "region": "USA",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA] #01",
@@ -100376,7 +100629,8 @@
           "group": "Standard",
           "version": "01.060",
           "region": "USA",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA] #01",
@@ -101175,13 +101429,15 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/vf8ph4gm8kdn",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
           "url": "https://filekeeper.net/mvikytoor6dr",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -103134,7 +103390,8 @@
           "url": "https://vikingfile.com/f/Rq1d9DcPt3",
           "group": "Standard",
           "version": "01.008",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -104066,7 +104323,8 @@
           "version": "01.002.001",
           "region": "EUR",
           "editionId": "PPSA04995",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 1 Mo · EUR]",
@@ -104086,7 +104344,8 @@
           "version": "01.002.001",
           "region": "EUR",
           "editionId": "PPSA04995",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · DLC · EUR]",
@@ -104339,7 +104598,8 @@
           "name": "[Folder] #01",
           "url": "https://vikingfile.com/f/RE2EhtH9GL",
           "version": "01.000",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[Folder] #01",
@@ -104548,7 +104808,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/5yb44mg0t9z5",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -104639,7 +104900,8 @@
           "version": "01.007",
           "region": "JPN",
           "editionId": "PPSA06215",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · JPN]",
@@ -104869,7 +105131,8 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/b3k9c9g59y76",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 3 Mo · USA]",
@@ -104889,7 +105152,8 @@
           "version": "01.004",
           "region": "USA",
           "editionId": "PPSA09850",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · USA] #01",
@@ -105172,7 +105436,8 @@
           "version": "01.004",
           "region": "USA",
           "editionId": "PPSA09850",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · fix]",
@@ -106302,7 +106567,8 @@
           "name": "[exFAT · DLC]",
           "url": "https://filekeeper.net/q1ulzb0d5mhb",
           "group": "exFAT · DLC",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -106672,7 +106938,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/k50zbb91fhkq",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         }
       ],
       "sizeBytes": 31138512896,
@@ -106762,7 +107029,8 @@
           "version": "04.001",
           "region": "USA",
           "editionId": "PPSA05236",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · v4.001] #01",
@@ -107362,7 +107630,8 @@
           "group": "Standard",
           "region": "USA",
           "editionId": "PPSA10872",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -107589,13 +107858,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/j6y1e99heu4h",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/n3crf1cctr9e",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -107970,7 +108241,8 @@
           "name": "[BP]",
           "url": "https://filekeeper.net/lhml6ruy4uqu",
           "group": "Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[BP · exFAT]",
@@ -108038,7 +108310,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA13794",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 9 Go · EUR]",
@@ -108344,7 +108617,8 @@
           "url": "https://datanodes.to/b292y9s63o4r",
           "group": "exFAT",
           "version": "01.000.003",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 9 Go]",
@@ -108366,7 +108640,8 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/dlpeju9q1tgd",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 9 Go]",
@@ -108477,7 +108752,8 @@
           "version": "01.017",
           "region": "EUR",
           "editionId": "PPSA17139",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 61 Go · EUR]",
@@ -108508,7 +108784,8 @@
           "version": "01.017",
           "region": "EUR",
           "editionId": "PPSA17139",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · EUR] #01",
@@ -108986,7 +109263,8 @@
           "url": "https://datanodes.to/g3zet6wkpvme",
           "group": "exFAT · Backport 4.xx",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -109938,7 +110216,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/go0fdfwepjrr",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -110951,7 +111230,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/670iclz1x3gy",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -111326,7 +111606,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/adgronjcl5g8",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -112760,7 +113041,8 @@
           "url": "https://vikingfile.com/f/HNrZCSKbfz",
           "group": "exFAT · Backport 4.xx",
           "version": "01.005.003",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 77 Go]",
@@ -113181,7 +113463,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA30528",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 10 Go · USA]",
@@ -113201,7 +113484,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA30528",
-          "mirror": "Rootz"
+          "mirror": "Rootz",
+          "linkDead": true
         },
         {
           "name": "[PKG · 9 Go · USA]",
@@ -113270,7 +113554,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA30528",
-          "mirror": "Rootz"
+          "mirror": "Rootz",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · fix · USA]",
@@ -113492,7 +113777,8 @@
           "group": "exFAT · Backport 4.xx",
           "version": "01.420",
           "region": "JPN",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · JPN]",
@@ -114423,7 +114709,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA04288",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.002] #01",
@@ -114651,7 +114938,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA03952",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.002] #01",
@@ -114780,7 +115068,8 @@
           "version": "01.590",
           "region": "USA",
           "editionId": "PPSA07411",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 125 Go · USA]",
@@ -115046,7 +115335,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA07412",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[BP · EUR · v1.000] #01",
@@ -115235,7 +115525,8 @@
           "name": "[PKG · Folder · v1.200] #02",
           "url": "https://vikingfile.com/f/RINWUSpm0t",
           "version": "01.200",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · BP · fix · USA · v1.200] #02",
@@ -115573,7 +115864,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://rootz.so/d/1I3SyW",
           "version": "01.200",
-          "mirror": "Rootz"
+          "mirror": "Rootz",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · 94 Mo]",
@@ -116391,7 +116683,8 @@
           "version": "01.202",
           "region": "EUR",
           "editionId": "PPSA01557",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR · v1.202] #01",
@@ -116467,7 +116760,8 @@
           "version": "01.003",
           "region": "EUR",
           "editionId": "PPSA01557",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR · v1.003] #01",
@@ -116761,7 +117055,8 @@
           "version": "03.004",
           "region": "EUR",
           "editionId": "PPSA01285",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · FFPKG · EUR · v3.004] #01",
@@ -116877,7 +117172,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/3ikwz6nkv0cp",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -116898,7 +117194,8 @@
           "name": "[exFAT · DLC]",
           "url": "https://filekeeper.net/bvlduuspfj4r",
           "group": "exFAT · DLC",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.021]",
@@ -117233,12 +117530,14 @@
         {
           "name": "[APR-EMU]",
           "url": "https://filekeeper.net/k72ryvmqdts8",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[APR-EMU]",
           "url": "https://datanodes.to/j7z37dgwo4i9",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -117317,7 +117616,8 @@
           "version": "01.010",
           "region": "EUR",
           "editionId": "PPSA20723",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · EUR]",
@@ -117420,7 +117720,8 @@
           "name": "[PKG · APR-EMU]",
           "url": "https://filekeeper.net/k72ryvmqdts8",
           "version": "01.010",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · 12 Go]",
@@ -117432,7 +117733,8 @@
         {
           "name": "[PKG · APR-EMU]",
           "url": "https://datanodes.to/j7z37dgwo4i9",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU]",
@@ -117758,7 +118060,8 @@
           "version": "01.025",
           "region": "USA",
           "editionId": "PPSA15190",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #01",
@@ -118513,7 +118816,8 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/601quf6i98wy",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 16 Go]",
@@ -120528,13 +120832,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/2tn45pixkg6e",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/ezfjyv76444c",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -120750,7 +121056,8 @@
           "url": "https://vikingfile.com/f/r9CLSdIiwg",
           "group": "Standard",
           "version": "01.010",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · JPN]",
@@ -120782,7 +121089,8 @@
           "url": "https://rootz.so/d/1eBXQe&af=4186346",
           "group": "Backport",
           "version": "01.010",
-          "mirror": "Rootz"
+          "mirror": "Rootz",
+          "linkDead": true
         },
         {
           "name": "[PKG · HK]",
@@ -121148,7 +121456,8 @@
           "version": "01.003",
           "region": "ASIA",
           "editionId": "PPSA23396",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 6 Go · ASIA]",
@@ -121521,7 +121830,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA10050",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -121530,7 +121840,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA10050",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -121562,13 +121873,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/p0btz0xkdywu",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/pbpgtodubbsj",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -121756,7 +122069,8 @@
           "version": "01.017",
           "region": "USA",
           "editionId": "PPSA02813",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -121985,7 +122299,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/f37uwg409be4",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -122634,7 +122949,8 @@
           "name": "[exFAT · BP]",
           "url": "https://vikingfile.com/f/gsGCnpH5QC",
           "group": "exFAT · Backport",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 68 Go]",
@@ -122826,7 +123142,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA07631",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · 465 Mo · USA]",
@@ -122972,7 +123289,8 @@
           "name": "[PKG]",
           "url": "https://rootz.so/d/1O3MDw",
           "version": "01.000",
-          "mirror": "Rootz"
+          "mirror": "Rootz",
+          "linkDead": true
         },
         {
           "name": "[BP 5.xx · 68 Mo]",
@@ -122994,7 +123312,8 @@
           "name": "[PKG]",
           "url": "https://vikingfile.com/f/8VRxyGVnlz",
           "version": "01.000",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG] #15",
@@ -123079,7 +123398,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/six2wnsymema",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -123542,7 +123862,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA07850",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · EUR] #01",
@@ -123821,7 +124142,8 @@
           "name": "[exFAT · DLC]",
           "url": "https://datanodes.to/1ml36w8tpb1f",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · EUR]",
@@ -124441,13 +124763,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/ukmzt5a0kozj",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/dkutey68lrkf",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -124907,7 +125231,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/e7735yw0m2am",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -125035,7 +125360,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA07817",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.020]",
@@ -127687,7 +128013,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/j2zr2w9626sy",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -127856,7 +128183,8 @@
           "version": "01.200",
           "region": "EUR",
           "editionId": "PPSA15537",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 1 Mo · EUR]",
@@ -127876,7 +128204,8 @@
           "version": "01.200",
           "region": "EUR",
           "editionId": "PPSA15537",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #01",
@@ -128887,7 +129216,8 @@
           "version": "01.000.021",
           "region": "JPN",
           "editionId": "PPSA20164",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 43 Go · JPN · v01.000.021]",
@@ -128918,7 +129248,8 @@
           "version": "01.000.021",
           "region": "JPN",
           "editionId": "PPSA20164",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · JPN · v1.021]",
@@ -130091,7 +130422,8 @@
           "version": "01.048",
           "region": "USA",
           "editionId": "PPSA04930",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · USA]",
@@ -131023,7 +131355,8 @@
         {
           "name": "[PKG · APR-EMU]",
           "url": "https://datanodes.to/u178po2jbdon",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         }
       ],
       "sizeBytes": 111669149696,
@@ -131471,7 +131804,8 @@
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/1yxdv6kmw06w",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -131977,7 +132311,8 @@
           "name": "[APR-EMU · Folder]",
           "url": "https://datanodes.to/ccn7geheku9b",
           "version": "01.002",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -132035,13 +132370,15 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/ccn7geheku9b",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
           "url": "https://filekeeper.net/8z5p83hcw68t",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -132667,7 +133004,8 @@
           "url": "https://filekeeper.net/6c6xnpspou98/",
           "group": "Standard",
           "version": "01.004.002",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -132717,13 +133055,15 @@
           "name": "[exFAT]",
           "url": "https://vikingfile.com/f/C45pgMVPjy",
           "group": "exFAT",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
           "url": "https://datanodes.to/pl8dqp4vvyo0",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 11 Go]",
@@ -132955,7 +133295,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA28617",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 2 Mo · USA]",
@@ -132975,7 +133316,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA28617",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · 272 Mo · USA · v1.017]",
@@ -133123,14 +133465,16 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA02306",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
           "url": "https://vikingfile.com/f/5ZsVwBJ9F3",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #01",
@@ -133466,7 +133810,8 @@
           "url": "https://vikingfile.com/f/ebbg39Ayru",
           "group": "Standard",
           "version": "01.500",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · FFPFSC · FFPKG · USA · v1.500]",
@@ -133488,7 +133833,8 @@
           "url": "https://vikingfile.com/f/9QXDARgpvo",
           "group": "Backport",
           "version": "01.500",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[BP · fix · USA · v1.500] #01",
@@ -134708,7 +135054,8 @@
           "version": "01.000",
           "region": "ASIA",
           "editionId": "PPSA06262",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · ASIA] #01",
@@ -134984,13 +135331,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/8dvcymcko674",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/chsg83rzqzt8",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -135289,7 +135638,8 @@
           "version": "02.000",
           "region": "USA",
           "editionId": "PPSA19728",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -135376,7 +135726,8 @@
           "version": "02.000",
           "region": "USA",
           "editionId": "PPSA19728",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -137254,7 +137605,8 @@
           "name": "[PKG · Folder]",
           "url": "https://datanodes.to/dd401o1aojaj",
           "version": "01.001",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder]",
@@ -137516,7 +137868,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/fcm3a37sjfh4",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -137911,7 +138264,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/p61hsyavf5ie",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -138119,7 +138473,8 @@
           "version": "01.001",
           "region": "EUR",
           "editionId": "PPSA03233",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -138150,14 +138505,16 @@
           "url": "https://vikingfile.com/f/ouV9AyLwlJ",
           "group": "exFAT",
           "version": "01.001",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · v1.001]",
           "url": "https://datanodes.to/6j9krm4givbq",
           "group": "exFAT",
           "version": "01.001",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -138560,7 +138917,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA02632",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · EUR]",
@@ -138578,7 +138936,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA02633",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · EUR]",
@@ -138605,7 +138964,8 @@
           "name": "[PKG · Folder] #01",
           "url": "https://vikingfile.com/f/O6ImPtiG50",
           "version": "01.000",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder] #02",
@@ -138630,7 +138990,8 @@
           "name": "[PKG · Folder] #02",
           "url": "https://vikingfile.com/f/bjvryAD2N8",
           "version": "01.000",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder] #03",
@@ -139453,13 +139814,15 @@
           "name": "[exFAT]",
           "url": "https://datanodes.to/g3n2ys7vok5f",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
           "url": "https://filekeeper.net/9acf9hw40mej",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -139964,7 +140327,8 @@
           "version": "01.004",
           "region": "USA",
           "editionId": "PPSA01668",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -140003,7 +140367,8 @@
           "version": "01.004",
           "region": "USA",
           "editionId": "PPSA01668",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · USA]",
@@ -140012,7 +140377,8 @@
           "version": "01.004",
           "region": "USA",
           "editionId": "PPSA01668",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · USA]",
@@ -140165,13 +140531,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/o720ipuu7568",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/v7anpppk9xqc",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -140246,7 +140614,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/yd8nxgint2ah",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 2 Go]",
@@ -140382,7 +140751,8 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA06084",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -140391,7 +140761,8 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA06084",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -140428,7 +140799,8 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA06084",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · USA]",
@@ -140437,7 +140809,8 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA06084",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · USA]",
@@ -140758,7 +141131,8 @@
           "url": "https://datanodes.to/acdqlxlbm28f",
           "group": "exFAT · Backport 4.xx",
           "version": "01.021",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · EUR]",
@@ -141395,7 +141769,8 @@
           "name": "[exFAT · BP]",
           "url": "https://vikingfile.com/f/WPNZdOXKA9",
           "group": "exFAT · Backport",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 8 Go · USA]",
@@ -141463,7 +141838,8 @@
           "version": "01.000.002",
           "region": "USA",
           "editionId": "PPSA06695",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · 3 Mo] #01",
@@ -141579,13 +141955,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/nigsvwht0ql8",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/o8nta4w86397",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -141912,7 +142290,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/5dvcq7nft485",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -142277,7 +142656,8 @@
           "url": "https://datanodes.to/dj1bc9o06k51",
           "group": "exFAT",
           "version": "01.008",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -142333,7 +142713,8 @@
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/dj1bc9o06k51",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[BP · 5 Mo · ASIA]",
@@ -142603,7 +142984,8 @@
           "version": "01.004",
           "region": "EUR",
           "editionId": "PPSA02745",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 60 Go]",
@@ -142639,7 +143021,8 @@
           "url": "https://vikingfile.com/f/dUFaPapG1x",
           "group": "Standard",
           "version": "01.004",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -142674,7 +143057,8 @@
           "version": "01.004",
           "region": "EUR",
           "editionId": "PPSA02745",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -142686,7 +143070,8 @@
           "name": "[PKG] #02",
           "url": "https://vikingfile.com/f/DUxgnTehsp",
           "version": "01.004",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -142878,13 +143263,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/tgf3ujrpz676",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/nbwrrylyk6xz",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -143769,7 +144156,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/llua26df0a7p",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -144296,7 +144684,8 @@
           "version": "02.006.001",
           "region": "USA",
           "editionId": "PPSA10595",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[DLC · USA · v2.006.001] #02",
@@ -144369,7 +144758,8 @@
           "version": "01.009.001",
           "region": "USA",
           "editionId": "PPSA10595",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[DLC · USA] #02",
@@ -144881,7 +145271,8 @@
           "name": "[BP 4.xx]",
           "url": "https://filekeeper.net/dcmw9b8u8wz2",
           "group": "Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · exFAT]",
@@ -144955,7 +145346,8 @@
           "version": "01.000.500",
           "region": "USA",
           "editionId": "PPSA02474",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · USA]",
@@ -144970,7 +145362,8 @@
           "name": "[exFAT · DLC]",
           "url": "https://datanodes.to/53lfsy9t6k1q",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #01",
@@ -145504,7 +145897,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/sd805ma8ehzd",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -147369,13 +147763,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/6dwux2vvf18j",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/gasc1udgb0in",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -147511,7 +147907,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA09149",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · BP · fix · EUR · v1.000]",
@@ -147623,7 +148020,8 @@
           "version": "01.007",
           "region": "EUR",
           "editionId": "PPSA02594",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -148127,7 +148525,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA04312",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -148818,7 +149217,8 @@
           "version": "01.001.010",
           "region": "EUR",
           "editionId": "PPSA03747",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #01",
@@ -148933,13 +149333,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/4ecfwntibnyx",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/bw44t105okn3",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -149530,7 +149932,8 @@
           "url": "https://vikingfile.com/f/4VRg1EN4h3",
           "group": "Standard",
           "version": "01.020",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.020]",
@@ -149609,7 +150012,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/nh6bopx7pabs",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -150461,7 +150865,8 @@
           "version": "02.001",
           "region": "USA",
           "editionId": "PPSA02213",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v2.001] #01",
@@ -151392,7 +151797,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/cs2ndrux4gv7",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -151873,7 +152279,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA06367",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 38 Go · USA · v1.000]",
@@ -153765,7 +154172,8 @@
           "version": "02.002",
           "region": "USA",
           "editionId": "PPSA15319",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 7.xx · 18 Go · USA]",
@@ -154422,7 +154830,8 @@
           "url": "https://datanodes.to/fpn6e510yiua",
           "group": "exFAT · Backport 4.xx",
           "version": "01.020",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #01",
@@ -155893,7 +156302,8 @@
           "version": "04.040.100",
           "region": "EUR",
           "editionId": "PPSA03977",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[Fix · EUR] #02",
@@ -155957,7 +156367,8 @@
           "version": "04.040.100",
           "region": "EUR",
           "editionId": "PPSA03977",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[Fix · exFAT · 118 Go · EUR]",
@@ -156333,19 +156744,24 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/5rr9hlpetxct",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "PPSA14453.7z",
+          "sizeBytes": 34359738368
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ohudgvttmdre",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "fileName": "PPSA14453.7z",
+          "sizeBytes": 34359738368
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datavaults.co/uvnwqvvyqus7",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Vault",
+          "fileName": "PPSA14453.7z"
         }
       ],
       "sizeBytes": 213674622976,
@@ -156603,7 +157019,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/zp1w65be8crn",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -156911,7 +157328,8 @@
           "url": "https://vikingfile.com/f/09qWkZYtYS",
           "group": "Standard",
           "version": "01.009",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · v1.009]",
@@ -157599,7 +158017,8 @@
           "name": "[exFAT · BP 7.xx]",
           "url": "https://datanodes.to/5b0pviwi15vg",
           "group": "exFAT · Backport 7.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 7.xx · 5 Go]",
@@ -158715,7 +159134,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/j3leyqgjy0p1",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -158840,7 +159260,8 @@
           "version": "01.008",
           "region": "EUR",
           "editionId": "PPSA20114",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 26 Go · EUR]",
@@ -159068,7 +159489,8 @@
           "version": "01.007",
           "region": "EUR",
           "editionId": "PPSA26576",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · EUR]",
@@ -160459,13 +160881,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/mp29c61h3h8j",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/4rvlnroicx5v",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -160654,13 +161078,15 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/hyx723gkf5wu",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ffzvwjxmi7x6",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -161108,7 +161534,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/llesnmpgs125",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -161825,7 +162252,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/uxo4y26wlozc",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -161975,7 +162403,8 @@
           "name": "[exFAT · BP 7.xx]",
           "url": "https://filekeeper.net/wv4jlfoemf86",
           "group": "exFAT · Backport 7.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 7.xx]",
@@ -162278,7 +162707,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/ydmasjndt3nz",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx]",
@@ -162610,7 +163040,8 @@
           "version": "01.002",
           "region": "EUR",
           "editionId": "PPSA05684",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #02",
@@ -162655,7 +163086,8 @@
           "version": "01.002",
           "region": "EUR",
           "editionId": "PPSA05684",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #03",
@@ -163226,7 +163658,8 @@
           "name": "[PKG]",
           "url": "https://datanodes.to/ive34ygsh1mu",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG] #02",
@@ -163540,7 +163973,8 @@
           "name": "[PKG · v1.000]",
           "url": "https://datanodes.to/ive34ygsh1mu",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · v1.000]",
@@ -164087,7 +164521,8 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/ydbulvoc1n7i",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP 4.xx · 1 Go]",
@@ -165145,7 +165580,8 @@
           "version": "01.001",
           "region": "ASIA",
           "editionId": "PPSA28628",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · ASIA] #01",
@@ -165494,7 +165930,8 @@
           "version": "01.003",
           "region": "USA",
           "editionId": "PPSA10249",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 15 Go · USA · v01.003]",
@@ -167327,7 +167764,8 @@
           "version": "01.007",
           "region": "USA",
           "editionId": "PPSA06927",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 23 Go · USA]",
@@ -167368,13 +167806,15 @@
           "name": "[exFAT · BP]",
           "url": "https://datanodes.to/ky8xmqleo792",
           "group": "exFAT · Backport",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
           "url": "https://filekeeper.net/tcyof3ap40hn",
           "group": "exFAT · Backport",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP]",
@@ -167420,7 +167860,8 @@
           "version": "01.007",
           "region": "USA",
           "editionId": "PPSA06927",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · DLC · 0 Mo · USA]",
@@ -167669,7 +168110,8 @@
           "name": "[exFAT]",
           "url": "https://vikingfile.com/f/qTMcKh8giv",
           "group": "exFAT",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 67 Go]",
@@ -167769,7 +168211,8 @@
           "version": "01.191",
           "region": "USA",
           "editionId": "PPSA01487",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · 5 Go · USA]",
@@ -168277,7 +168720,8 @@
           "url": "https://datanodes.to/xd04o9ymkfau",
           "group": "exFAT · Backport 4.xx",
           "version": "01.000",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR]",
@@ -168548,7 +168992,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/663m6gzb8ebk",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -169930,7 +170375,8 @@
           "version": "01.037",
           "region": "USA",
           "editionId": "PPSA05424",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · USA]",
@@ -170081,7 +170527,8 @@
           "version": "01.003",
           "region": "EUR",
           "editionId": "PPSA20052",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 3 Go · EUR · v1.003]",
@@ -170949,7 +171396,8 @@
           "url": "https://vikingfile.com/f/dcWVRM6ffS",
           "group": "Standard",
           "version": "01.007",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[v1.007]",
@@ -171025,7 +171473,8 @@
           "version": "01.022",
           "region": "USA",
           "editionId": "PPSA08105",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000]",
@@ -171066,7 +171515,8 @@
           "version": "01.022",
           "region": "USA",
           "editionId": "PPSA08105",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #01",
@@ -171186,7 +171636,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA08106",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR · v1.000] #03",
@@ -171430,7 +171881,8 @@
           "version": "01.023",
           "region": "USA",
           "editionId": "PPSA16306",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA · v1.023]",
@@ -171477,7 +171929,8 @@
           "name": "[PKG · v1.023]",
           "url": "https://datanodes.to/n6kxkvobp2rj",
           "version": "01.023",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[PKG · v1.023]",
@@ -171959,7 +172412,8 @@
           "url": "https://datanodes.to/zvsmfqq338pg",
           "group": "exFAT",
           "version": "01.000.005",
-          "mirror": "Data"
+          "mirror": "Data",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -171968,7 +172422,8 @@
           "version": "01.000.005",
           "region": "USA",
           "editionId": "PPSA05721",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -172633,7 +173088,8 @@
           "name": "[BP 4.xx]",
           "url": "https://filekeeper.net/mom8p3s4wxr1",
           "group": "Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · exFAT]",
@@ -172848,7 +173304,8 @@
           "name": "[BP 4.xx]",
           "url": "https://filekeeper.net/z4hqzs1lgcum",
           "group": "Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · exFAT]",
@@ -173087,7 +173544,8 @@
           "name": "[exFAT]",
           "url": "https://filekeeper.net/ye7ketrbq25x",
           "group": "exFAT",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "linkDead": true
         },
         {
           "name": "[exFAT]",
@@ -173547,25 +174005,32 @@
           "name": "[exFAT · BP 4.xx]",
           "url": "https://vikingfile.com/f/rcIYDOe0dH",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "fileName": "PPSA22623.exfat",
+          "sizeBytes": 1492501135
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datanodes.to/7fxqsbfr9ohk",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "PPSA22623.exfat",
+          "sizeBytes": 1503238553
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://filekeeper.net/8k6jb1vt0745",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
+          "mirror": "Filek",
+          "fileName": "PPSA22623.exfat",
+          "sizeBytes": 1503238553
         },
         {
           "name": "[exFAT · BP 4.xx]",
           "url": "https://datavaults.co/2n0yn8cusqzy",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Vault",
+          "fileName": "PPSA22623.exfat"
         }
       ],
       "sizeBytes": 1073741824,
