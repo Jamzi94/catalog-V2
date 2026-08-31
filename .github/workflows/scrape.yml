@@ -694,6 +694,24 @@ jobs:
           fi
           rm -f releve-*.json releve-*.pid log-releve-*.txt catalogue-au-depart.json
 
+      - name: Rejouer les liens morts connus
+        if: env.MERGE_SKIPPED != '1'
+        run: |
+          # LA CONNAISSANCE ACQUISE NE DOIT PAS MOURIR AVEC LE FICHIER QU'ELLE
+          # DECRIT. pegasus_finalize RETIRE les liens morts, donc le marquage
+          # disparait avec eux — et le merge du run suivant les reintroduit
+          # depuis les sources, vierges. On les resonderait indefiniment.
+          # Les URL mortes sont donc versionnees, et rejouees avant la
+          # finalisation. Le format est celui de releves.py, deja outille.
+          # 430 URL au 2026-08-31, toutes confirmees par un HTTP 404 : sur 50
+          # tirees au sort a l'origine, 50 rendaient 404, et 12 des 601 sondes
+          # ont finalement rendu un nom — la sonde discrimine, elle ne marque
+          # pas tout mort.
+          if [ -f ps5-catalog.json ] && [ -f data/liens-morts.json ]; then
+            python3 scripts/releves.py ps5-catalog.json data/liens-morts.json || true
+          fi
+
+
       - name: Resoudre les conteneurs LinkVault
         if: env.MERGE_SKIPPED != '1'
         run: |

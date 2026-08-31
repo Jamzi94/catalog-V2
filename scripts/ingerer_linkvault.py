@@ -106,11 +106,15 @@ def ingerer(catalogue: dict, releve: dict) -> dict:
                             neuf[champ] = lien[champ]
                     ajouts.append(neuf)
                     neufs += 1
-            if neufs:
-                stats["ajoutes"] += neufs
-                stats["conteneurs_resolus"] += 1   # le conteneur disparait
-            else:
-                gardes.append(lien)                # rien de neuf : on le garde
+            # Le conteneur disparait des qu'on SAIT ce qu'il contient, meme si
+            # tous ses liens etaient deja la. Le garder au motif qu'il n'apporte
+            # rien de neuf etait un contresens : il n'heberge aucun fichier, et
+            # c'est justement quand ses miroirs sont deja presents qu'il est le
+            # plus inutile. Mesure du 2026-08-31 : le run CI annonçait
+            # « 0 conteneur resolu » alors que 528 liens du releve etaient bien
+            # dans le catalogue — le conteneur restait a cote d'eux.
+            stats["ajoutes"] += neufs
+            stats["conteneurs_resolus"] += 1
         pkg["downloadLinks"] = gardes + ajouts
     return stats
 

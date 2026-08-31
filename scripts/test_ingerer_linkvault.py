@@ -109,4 +109,23 @@ assert par_url["https://gofile.io/d/MORT"].get("linkDead") is True
 # liens vivants.
 assert not par_url["https://gofile.io/d/MUET"].get("linkDead")
 
+
+# --- un conteneur dont TOUT est deja la disparait quand meme ----------------
+# Le garder au motif qu il n apporte rien de neuf etait un contresens : il
+# n heberge aucun fichier, et c est justement quand ses miroirs sont deja
+# presents qu il est le plus inutile. Mesure du 2026-08-31 : le run CI
+# annonçait « 0 conteneur resolu » alors que 528 liens du releve etaient bien
+# dans le catalogue — le conteneur restait a cote d eux, run apres run.
+cat5 = _cat()
+cat5["packages"][0]["downloadLinks"] += [
+    {"url": "https://gofile.io/d/2D3eu3uM"},
+    {"url": "https://1fichier.com/?abc&af=1"},
+]
+s5 = ingerer(cat5, RELEVE)
+u5 = [l["url"] for l in cat5["packages"][0]["downloadLinks"]]
+assert "https://link-vault.org/c/68tx71hg" not in u5, u5
+assert s5["conteneurs_resolus"] == 1 and s5["ajoutes"] == 0, s5
+# TEMOIN : rien n a ete duplique au passage
+assert u5.count("https://gofile.io/d/2D3eu3uM") == 1, u5
+
 print("OK")
