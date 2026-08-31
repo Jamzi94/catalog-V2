@@ -3,364 +3,301 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA28061",
-      "title": "Earthion",
-      "version": "01.006",
+      "titleId": "PPSA05018",
+      "title": "Dont Touch This Button",
+      "version": "01.000",
       "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Earthion.avif",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA28061, v1.006, 4.xx, USA\nSize: 178 MB\nBP = Backport",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Dont_Touch_This_Button.jpg",
+      "description": "Format: exFAT · APR-EMU\nTags: PPSA05018, v1.000, 3.xx",
       "downloadLinks": [
         {
-          "name": "[exFAT · BP 4.xx · 178 Mo]",
-          "url": "https://akirabox.com/k0emb0ovVzVb/file",
+          "name": "[exFAT · 434 Mo]",
+          "url": "https://akirabox.com/qPez44V75zOY/file",
+          "group": "exFAT",
+          "mirror": "Akia",
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
+        },
+        {
+          "name": "[exFAT · 434 Mo]",
+          "url": "https://vikingfile.com/f/Ymc6U0aUls",
+          "group": "exFAT",
+          "mirror": "Viki",
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
+        },
+        {
+          "name": "[exFAT · 434 Mo]",
+          "url": "https://datanodes.to/2wae3e5mfh17",
+          "group": "exFAT",
+          "mirror": "Data",
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
+        },
+        {
+          "name": "[exFAT · 434 Mo]",
+          "url": "https://filekeeper.net/pp3rsah8ndfg",
+          "group": "exFAT",
+          "mirror": "Filek",
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
+        },
+        {
+          "name": "[exFAT]",
+          "url": "https://datavaults.co/ysn3ryjjpaf3",
+          "group": "exFAT",
+          "mirror": "Vault",
+          "fileName": "PPSA05018.exfat"
+        },
+        {
+          "name": "[APR-EMU]",
+          "url": "https://www.rootz.so/d/1JP2uW",
+          "group": "Standard",
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-PPSA05018-Game (v01.000) [APR-EMU] by Amiibohound.rar",
+          "mirror": "Rootz"
+        }
+      ],
+      "sizeBytes": 454033408,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · APR-EMU"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "APR-EMU"
+      ],
+      "_enrichedAt": "2026-08-19T04:32:37.822135+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "dont-touch-the-button-mrpresident",
+        "rawgName": "DON'T TOUCH THE BUTTON MR.PRESIDENT",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2019-06-10",
+        "genres": [
+          "RPG"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:19.139049+00:00",
+      "_igdbMatched": false,
+      "formatLabel": "exFAT · APR-EMU"
+    },
+    {
+      "titleId": "PPSA21444",
+      "title": "DOOM + DOOM II",
+      "version": "03.000.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8npi.jpg",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA21444, v3.000.000, 4.xx, 9.xx, USA\nSize: 1 GB\nBP = Backport",
+      "downloadLinks": [
+        {
+          "name": "[exFAT · BP 4.xx · 1 Go]",
+          "url": "https://akirabox.com/EL73g0NEKz9B/file",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA28061.exfat",
-          "sizeBytes": 186646528,
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
           "mirror": "Akia"
         },
         {
-          "name": "[exFAT · BP 4.xx · 178 Mo]",
-          "url": "https://vikingfile.com/f/NXXho74hTF",
+          "name": "[exFAT · BP 4.xx · 1 Go]",
+          "url": "https://vikingfile.com/f/9hC8VLfEuw",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA28061.exfat",
-          "sizeBytes": 186646528,
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
           "mirror": "Viki"
         },
         {
-          "name": "[exFAT · BP 4.xx · 178 Mo]",
-          "url": "https://datanodes.to/5rvtggswn0qf",
+          "name": "[exFAT · BP 4.xx · 1 Go]",
+          "url": "https://datanodes.to/gowv4xi2m2vd",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA28061.exfat",
-          "sizeBytes": 186646528,
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1395864371,
           "mirror": "Data"
         },
         {
-          "name": "[exFAT · BP 4.xx · 178 Mo]",
-          "url": "https://filekeeper.net/lctcilx7jhep",
+          "name": "[exFAT · BP 4.xx · 1 Go]",
+          "url": "https://filekeeper.net/1kjjus28jn07",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA28061.exfat",
-          "sizeBytes": 186646528,
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1395864371,
           "mirror": "Filek"
         },
         {
           "name": "[exFAT · BP 4.xx]",
-          "url": "https://datavaults.co/r3n53caidedg",
+          "url": "https://datavaults.co/pf0rm89zp3zv",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA28061 exfat",
+          "fileName": "PPSA21444 exfat",
           "mirror": "Vault"
         },
         {
           "name": "[PKG · USA]",
-          "url": "https://vikingfile.com/f/KnFrFTDz8h",
+          "url": "https://www.mediafire.com/file/ohoex3bj21mtgit/[DLPSGAME.COM]-PPSA21444.rar/file",
           "group": "Standard",
-          "version": "01.006",
-          "fileName": "[SuperPSX]-Earthion-PPSA28061-USA-Game (v01.006)-PS5.rar",
-          "mirror": "Viki"
+          "version": "03.000.000",
+          "region": "USA",
+          "editionId": "PPSA21444",
+          "fileName": "[DLPSGAME.COM]-PPSA21444.rar",
+          "mirror": "Mediafire"
         },
         {
-          "name": "[PKG · USA]",
-          "url": "https://www.rootz.so/d/Sw1Kq",
-          "group": "Standard",
-          "version": "01.006",
-          "fileName": "[SuperPSX]-Earthion-PPSA28061-USA-Game (v01.006)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG]",
-          "url": "https://1fichier.com/?bly1tpz6cewe0g7hdc9w&af=4186346",
-          "group": "Standard",
-          "version": "01.006",
-          "mirror": "1File"
-        },
-        {
-          "name": "[PKG]",
-          "url": "https://www.rootz.so/d/ma704",
-          "group": "Standard",
-          "version": "01.006",
-          "fileName": "[DLPSGAME.COM]-PPSA28061.rar",
-          "mirror": "Rootz"
+          "name": "[exFAT · 1 Go · USA · v2.000]",
+          "url": "https://akirabox.com/ZvqzlvEb6maD/file",
+          "group": "exFAT",
+          "version": "02.000.000",
+          "region": "USA",
+          "editionId": "PPSA21444",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
+          "mirror": "Akia"
         }
       ],
-      "sizeBytes": 186646528,
+      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
         "exFAT · PKG · Backport"
       ],
       "fileFormat": [
         "Backport",
-        "PKG",
         "exFAT",
-        "Backport 4.xx"
+        "RAR",
+        "Backport 4.xx",
+        "PKG"
       ],
-      "_enrichedAt": "2026-08-19T04:32:37.822179+00:00",
-      "_rawgMatched": false,
+      "_enrichedAt": "2026-08-23T04:43:46.463728+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "doom-doom-ii",
+        "rawgName": "DOOM + DOOM II",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2024-08-07",
+        "genres": [
+          "Shooter"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/screenshots/5bc/5bc3cf26b8de154b549a03b2e061e292.jpg"
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:36:10.884374+00:00",
+      "_igdbMatched": true,
       "formatLabel": "exFAT · PKG · Backport"
     },
     {
-      "titleId": "PPSA05888",
-      "title": "The Talos Principle 2",
-      "version": "02.013",
+      "titleId": "PPSA22636",
+      "title": "The Bridge Curse 2 The Extrication",
+      "version": "01.000",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jbl.jpg",
-      "description": "Format: Backport 4.xx\nTags: PPSA05888, v2.013, 4.xx, 7.xx\nBP = Backport",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71ql.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA22636, v1.000, 4.xx, 5.xx\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[BP 4.xx · DLC · USA]",
-          "url": "https://rootz.so/d/1TeQTY",
+          "name": "[Folder] #01",
+          "url": "https://akirabox.com/0rpmv67RZmRg/file",
           "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "mirror": "Rootz",
-          "fileName": "[DLPSGAME.COM]- v02.013 PPSA05887 DLC incl.part09.rar"
-        },
-        {
-          "name": "[DLC · USA]",
-          "url": "https://datanodes.to/76ozlep6m9g1/[DLPSGAME.COM]-_v02.013_PPSA05887_DLC_incl.part09.rar",
-          "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "mirror": "Data",
-          "fileName": "[DLPSGAME.COM]-_v02.013_PPSA05887_DLC_incl.part09.rar"
-        },
-        {
-          "name": "[DLC · USA]",
-          "url": "https://filekeeper.net/hbgq0rlerrgu/[DLPSGAME.COM]-_v02.013_PPSA05887_DLC_incl.part09.rar",
-          "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "mirror": "Filek",
-          "fileName": "[DLPSGAME.COM]-_v02.013_PPSA05887_DLC_incl.part09.rar"
-        },
-        {
-          "name": "[BP 4.xx · USA] #01",
-          "url": "https://akirabox.com/N2p3DqRRpzMa/file",
-          "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
+          "version": "01.000",
           "mirror": "Akia"
         },
         {
-          "name": "[BP 4.xx · 57 Mo · USA]",
-          "url": "https://www.mediafire.com/file/h7jh8wmtr71ntmd/[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip/file",
+          "name": "[Folder]",
+          "url": "https://vikingfile.com/f/JEGoaqt2sI",
           "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
-          "sizeBytes": 60178074,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[BP 4.xx · USA] #02",
-          "url": "https://akirabox.com/k0embVRoamVb/file",
-          "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[BP 4.xx · 57 Mo · USA]",
-          "url": "https://vikingfile.com/f/oquq8uMLJW",
-          "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
-          "sizeBytes": 60177776,
+          "version": "01.000",
+          "fileName": "01.000 PPSA22636-[DLPSGAME.COM].rar",
           "mirror": "Viki"
         },
         {
-          "name": "[BP 4.xx · USA]",
-          "url": "https://1fichier.com/?zwqp3xcw49ercc8tvcvm",
+          "name": "[Folder]",
+          "url": "https://1fichier.com/?ft84a4mtrpvkuw0xg0pa",
           "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
+          "version": "01.000",
           "mirror": "1File"
         },
         {
-          "name": "[BP 4.xx · fix · USA]",
-          "url": "https://rootz.so/d/1MKdFY",
-          "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
-          "mirror": "Rootz"
+          "name": "[BP 4.xx · 54 Mo]",
+          "url": "https://www.mediafire.com/file/qgrm78onc6fz078/4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000",
+          "fileName": "4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56470274,
+          "mirror": "Mediafire"
         },
         {
-          "name": "[exFAT · USA]",
-          "url": "https://akirabox.com/vgKGxXW14G8Q/file",
-          "group": "exFAT",
-          "version": "02.013",
-          "region": "USA",
+          "name": "[Folder] #02",
+          "url": "https://akirabox.com/Pbe3Pdj5L3lX/file",
+          "version": "01.000",
           "mirror": "Akia"
         },
         {
-          "name": "[exFAT · 130 Go · USA]",
-          "url": "https://vikingfile.com/f/tjI7YnjdDr",
-          "group": "exFAT",
-          "version": "02.013",
-          "region": "USA",
+          "name": "[Folder · BP · 54 Mo · EUR] #01",
+          "url": "https://vikingfile.com/f/p4OrpVLuBP",
+          "version": "01.000",
+          "fileName": "4XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Viki",
-          "fileName": "PPSA05887.exfat",
-          "sizeBytes": 139425375846
+          "sizeBytes": 56465817
         },
         {
-          "name": "[exFAT · USA]",
-          "url": "https://www.rootz.so/d/1qXWgy",
-          "group": "exFAT",
-          "version": "02.013",
-          "region": "USA",
+          "name": "[Folder · BP · fix · EUR] #01",
+          "url": "https://www.rootz.so/d/16gmDg",
+          "version": "01.000",
+          "fileName": "4XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[BP 5.xx · 54 Mo]",
+          "url": "https://www.mediafire.com/file/arrg9oixlz2m2dy/5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000",
+          "fileName": "5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56470271,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[Folder] #03",
+          "url": "https://akirabox.com/k0embjXoWmVb/file",
+          "version": "01.000",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[Folder · BP · 54 Mo · EUR] #02",
+          "url": "https://vikingfile.com/f/7hM0MehMFS",
+          "version": "01.000",
+          "fileName": "5XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 56465817
+        },
+        {
+          "name": "[Folder · BP · fix · EUR] #02",
+          "url": "https://www.rootz.so/d/24FBQ",
+          "version": "01.000",
+          "fileName": "5XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Rootz"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "Backport 4.xx"
+        "Folder · Backport 4.xx"
       ],
       "fileFormat": [
-        "RAR",
+        "Folder",
+        "Backport 4.xx",
         "ZIP",
-        "Backport 4.xx"
+        "Backport 5.xx"
       ],
-      "sizeBytes": 60178074,
-      "_enrichedAt": "2026-08-29T04:18:42.651164+00:00",
+      "sizeBytes": 56470274,
+      "_enrichedAt": "2026-08-23T04:44:42.561897+00:00",
       "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "talos-principle-2",
-        "rawgName": "The Talos Principle 2",
-        "rating": 4.31,
+        "rawgSlug": "the-bridge-curse-2-the-extrication",
+        "rawgName": "The Bridge Curse 2: The Extrication",
+        "rating": 0.0,
         "metacritic": null,
-        "released": "2023-11-01",
+        "released": "2024-05-09",
         "genres": [
           "Adventure",
           "Action"
         ],
-        "rawgBackground": "https://media.rawg.io/media/games/4e4/4e42fc297c028630262a4abcc7769576.jpg"
+        "rawgBackground": "https://media.rawg.io/media/games/12d/12d27964a9dfd503a820ea4d74a5a146.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:57:17.452890+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:57:04.936353+00:00",
       "_igdbMatched": true,
-      "formatLabel": "Backport 4.xx"
-    },
-    {
-      "titleId": "PPSA16018",
-      "title": "Double Dragon Gaiden Rise of the Dragons",
-      "version": "01.013",
-      "category": "game",
-      "posterUrl": "https://www.superpsx.com/wp-content/uploads/2026/06/Double-Dragon-Gaiden-Rise-of-the-Dragons-PS5.jpg",
-      "description": "Format: exFAT · PKG\nTags: PPSA16018, v01.013, USA\nSize: 500 MB\nPassword: SuperPSX\nVoices: English\nWorks on 7.xx and higher",
-      "downloadLinks": [
-        {
-          "name": "[exFAT · APR-EMU · 65 Go]",
-          "url": "https://link-vault.org/c/klmfkv8n",
-          "group": "Standard",
-          "version": "01.013",
-          "mirror": "Multihost",
-          "fileName": "PPSA21159.exfat",
-          "sizeBytes": 69331509575
-        },
-        {
-          "name": "[PKG · APR-EMU · 546 Mo · USA]",
-          "url": "https://akirabox.com/l76mZNw47man/file",
-          "group": "Standard",
-          "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
-          "sizeBytes": 572092579,
-          "mirror": "Akia"
-        },
-        {
-          "name": "[PKG · APR-EMU · 546 Mo · USA]",
-          "url": "https://filekeeper.net/lycsckknhrnh/[DLPSGAME.COM]-PPSA16018.rar",
-          "group": "Standard",
-          "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
-          "sizeBytes": 572103065,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[PKG · APR-EMU · USA]",
-          "url": "https://vikingfile.com/f/O0hdwfveNZ",
-          "group": "Standard",
-          "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[PKG · APR-EMU · USA]",
-          "url": "https://1fichier.com/?a8614k23u46d3665mdbo",
-          "group": "Standard",
-          "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "mirror": "1File"
-        },
-        {
-          "name": "[PKG · APR-EMU · 71 Go · USA]",
-          "url": "https://gofile.io/d/34h98J",
-          "group": "Standard",
-          "version": "01.013",
-          "region": "USA",
-          "editionId": "PPSA16018",
-          "mirror": "Gofile",
-          "fileName": "PPSA21159.ffpkg",
-          "sizeBytes": 75870597283
-        },
-        {
-          "name": "[exFAT · v1.000]",
-          "url": "https://vikingfile.com/f/aCNcX47wq1",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://rootz.so/d/4rNOy",
-          "version": "01.013",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG · APR-EMU · 546 Mo]",
-          "url": "https://datanodes.to/hhnqvjrpv7sq",
-          "version": "01.013",
-          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
-          "sizeBytes": 572103065,
-          "mirror": "Data"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG"
-      ],
-      "fileFormat": [
-        "PKG",
-        "exFAT",
-        "APR-EMU",
-        "RAR"
-      ],
-      "_enrichedAt": "2026-08-01T05:58:22.437129+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "double-dragon-gaiden-rise-of-the-dragons",
-        "rawgName": "Double Dragon Gaiden: Rise Of The Dragons",
-        "rating": 3.5,
-        "metacritic": null,
-        "released": "2023-07-27",
-        "genres": [
-          "Adventure",
-          "Action",
-          "Fighting",
-          "Casual",
-          "Family"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/ffd/ffdc61d95936afb2aacbe26dfdc0e73b.jpg"
-      },
-      "formatLabel": "exFAT · PKG"
+      "formatLabel": "Folder · Backport 4.xx"
     }
   ]
 }

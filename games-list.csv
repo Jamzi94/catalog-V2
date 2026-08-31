@@ -79,13 +79,12 @@ Atomic Heart Premium Edition,PPSA10695,PKG · Backport,"Backport, PKG, ZIP, Back
 Avatar Frontiers of Pandora Complete Edition,PPSA01575,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, RAR, Backport 4.xx, Backport 5.xx, Backport 6.xx, Backport 7.xx",01.020
 Avatar The Last Airbender Quest for Balance,PPSA04341,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, ZIP, Backport 5.xx, Backport 6.xx",01.000
 Avatar: Frontiers of Pandora,PPSA01576,exFAT · PKG · Backport 4.xx,"PKG, Backport 4.xx, Backport 5.xx, Backport 6.xx, Backport 7.xx, exFAT, APR-EMU, RAR",01.011
-Away: The Survival Series,PPSA03979,PKG,"PKG, unknown",01.002
 Away: The Survival Series,PPSA04702,PKG,"PKG, unknown",01.009
 Back 4 Blood,PPSA01696,exFAT · PKG,"PKG, exFAT",01.006
 Back 4 Blood Ultimate Edition,PPSA01695,exFAT · PKG,"exFAT, APR-EMU, RAR, PKG",01.011
 Balan Wonderworld,PPSA02057,PKG,"PKG, unknown",01.002
-Baldur's Gate 3,PPSA18463,exFAT · PKG · Backport 4.xx,"PKG, exFAT, Backport 4.xx, Backport 6.xx, RAR",01.800.700
 Baldurs Gate 3 Deluxe Edition,PPSA14002,exFAT · PKG · Backport,"Backport, PKG, exFAT, RAR, Backport 4.xx, Backport 6.xx",01.800
+Baldur’s Gate 3,PPSA18463,exFAT · PKG · Backport 4.xx,"PKG, exFAT, Backport 4.xx, Backport 6.xx, RAR",01.800.700
 Banishers Ghosts of New Eden,PPSA10053,FFPFSC · exFAT · Backport,"Backport, PKG, FFPFSC, exFAT, Folder, Backport 4.xx, Backport 6.xx, RAR, ZIP, Backport 5.xx",01.005.000
 Barbie Project Friendship,PPSA17465,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx, APR-EMU, unknown",01.002
 Bassmaster Fishing 2022,PPSA04071,PKG,"PKG, unknown",01.020
@@ -94,8 +93,9 @@ Beast of Reincarnation Deluxe Edition,PPSA29343,exFAT · PKG · Backport,"Backpo
 Beat Saber,PPSA15035,Folder · Backport 4.xx,"Folder, Backport 4.xx, ZIP, Backport 5.xx",01.012.000
 Bendy and the Dark Revival,PPSA27624,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, Backport 7.xx, exFAT, APR-EMU",01.000
 Bendy and The Ink Machine,PPSA27616,exFAT · PKG · Backport,"Backport, PKG, Backport 7.xx, exFAT, APR-EMU, RAR, Backport 4.xx",01.000.100
-Bendy Lone Wolf,PPSA28609,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, Backport 4.xx, Backport 7.xx",01.000
+Bendy Lone Wolf,PPSA28609,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, Backport 7.xx, exFAT, APR-EMU",01.000
 Beneath,PPSA27640,exFAT · PKG · Backport,"Backport, PKG, RAR, exFAT, Backport 4.xx, unknown",01.006
+Beyond a Steel Sky,PPSA03979,PKG,"PKG, unknown",01.002
 Beyond Good and Evil 20th Anniversary Edition,PPSA08705,exFAT · PKG · Backport,"Backport, exFAT, ZIP, Backport 4.xx, PKG",01.004
 Bibi and Tina At The Horse Farm,PPSA02604,exFAT · PKG,"exFAT, APR-EMU, PKG",01.001
 BIOHAZARD RE:4,PPSA07413,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.400
@@ -103,10 +103,10 @@ Biomutant,PPSA06254,PKG,PKG,01.000
 Biomutant,PPSA06255,exFAT · PKG · Backport,"Backport, exFAT, PKG, Backport 4.xx",01.003
 Black Myth Wukong Deluxe Edition,PPSA23226,exFAT · PKG · Backport,"Backport, PKG, exFAT, ZIP, Backport 4.xx, Backport 5.xx, Backport 6.xx, Backport 7.xx, RAR",01.021
 Blacksad Under The Skin,PPSA22420,exFAT · PKG · Backport 4.xx,"exFAT, PKG, APR-EMU, Backport 4.xx, RAR",01.001
-Blackwind,PPSA03469,RAR,"RAR, unknown",01.002.006
+Blackwind,PPSA03469,exFAT,"exFAT, RAR, unknown",01.002.006
 Blades of Fire Deluxe Edition,PPSA26311,exFAT · PKG · Backport,"Backport, PKG, RAR, exFAT, Backport 4.xx, unknown",01.004.001
+Blasphemous 2,PPSA13580,PKG,PKG,01.001.000
 Blasphemous 2,PPSA13579,FFPFSC · exFAT · Backport,"Backport, FFPFSC, exFAT, PKG, Backport 4.xx, ZIP, Backport 5.xx",01.007.000
-Blasphemous II,PPSA13580,PKG,PKG,01.001.000
 BlazBlue Entropy Effect X Deluxe Edition,PPSA29714,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, Backport 4.xx, unknown",02.013
 Blazing Strike,PPSA08408,exFAT · Folder · Backport,"Backport, APR-EMU, Folder, PKG, exFAT, Backport 4.xx",01.100
 BLEACH Rebirth of Souls Ultimate Edition,PPSA03639,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, RAR",01.040.003
@@ -131,7 +131,7 @@ Call of Duty Modern Warfare 2,PPSA23012,exFAT · PKG · Backport,"Backport, APR-
 Call of Duty Modern Warfare 3,PPSA01649,exFAT · Folder · Backport,"Backport, exFAT, Folder, APR-EMU, Backport 4.xx, RAR",01.055
 Call of Duty Vanguard,PPSA01687,FFPFSC · exFAT,"exFAT, APR-EMU, PKG, FFPFSC, Folder, RAR",01.027
 Call of The Sea,PPSA01546,PKG,"PKG, unknown",02.000
-Cant Drive This,PPSA02743,unknown,"unknown, RAR",01.005
+Cant Drive This,PPSA02743,exFAT,"exFAT, unknown, RAR",01.005
 Carmen Sandiego Deluxe Edition,PPSA25256,exFAT · Backport,"Backport, exFAT, Backport 4.xx",01.009
 Castlevania Dominus Collection,PPSA15645,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT, unknown",01.003
 Cat Quest 3,PPSA15065,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx, RAR, unknown",01.000.001
@@ -224,10 +224,10 @@ Double Dragon Gaiden Rise of the Dragons,PPSA16018,exFAT · PKG,"PKG, exFAT, APR
 Double Dragon Revive,PPSA23000,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx, RAR",01.000
 Dragon Age The Veilguard,PPSA01390,exFAT · Folder · Backport,"Backport, PKG, Backport 4.xx, Backport 5.xx, exFAT, Folder, APR-EMU, RAR, ZIP",01.006
 Dragon Ball Fighter Z,PPSA09790,exFAT · PKG · Backport,"Backport, PKG, APR-EMU, exFAT, Backport 4.xx",01.010
-Dragon Ball Sparking ZERO,PPSA15210,PKG,PKG,01.003.003
 Dragon Ball Xenoverse 2,PPSA08587,exFAT · Folder · Backport,"Backport, Folder, PKG, APR-EMU, exFAT, Backport 4.xx, RAR",01.004.002
-Dragon Ball Z Kakarot,PPSA08083,PKG,PKG,01.000
+DRAGON BALL Z: KAKAROT,PPSA08083,PKG,PKG,01.000
 Dragon Ball Z: Kakarot,PPSA08084,exFAT · PKG · Backport,"Backport, exFAT, PKG, Backport 4.xx, ZIP",01.040
+DRAGON BALL: Sparking! ZERO,PPSA15210,PKG,PKG,01.003.003
 DRAGON BALL: Sparking! ZERO,PPSA15211,FFPFSC · exFAT · Backport 4.xx,"exFAT, FFPFSC, Folder, PKG, Backport 4.xx, ZIP, RAR, Backport 5.xx",02.017
 Dragon Quest I & II HD 2D Remake,PPSA22322,exFAT · PKG · Backport 4.xx,"exFAT, PKG, ZIP, RAR, Backport 4.xx",01.000
 Dragon Quest I & II HD 2D Remake,PPSA22320,exFAT · PKG · Backport 4.xx,"exFAT, PKG, ZIP, RAR, Backport 4.xx",01.000
@@ -267,7 +267,7 @@ Elex II,PPSA03803,PKG,"PKG, unknown",01.003
 Empire of the Ants,PPSA14455,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx, ZIP",02.004
 Enchanted Portals,PPSA17144,Folder · PKG · Backport 4.xx,"PKG, Folder, RAR, Backport 4.xx, ZIP",01.000
 Endling Extinction is Forever,PPSA08511,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, RAR, ZIP, PKG",01.000.002
-Enotria,PPSA20515,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.005.004
+Enotria The Last Song Deluxe Edition,PPSA20515,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.005.004
 Eriksholm The Stolen Dream,PPSA20548,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT, APR-EMU, unknown",01.003.001
 Eternights,PPSA08270,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.004
 Ever Forward,PPSA04703,unknown,unknown,1.0
@@ -300,10 +300,10 @@ FIFA 21,PPSA01327,PKG · APR-EMU,"PKG, APR-EMU, RAR",01.021
 FIFA 22,PPSA03178,unknown,"unknown, RAR",01.000.190
 FIFA 22,PPSA03180,APR-EMU,"APR-EMU, RAR",01.019
 FINAL FANTASY TACTICS The Ivalice Chronicles,PPSA21783,exFAT · PKG · Backport 4.xx,"exFAT, APR, PKG, APR-EMU, Backport 4.xx",01.040
-FINAL FANTASY VII REBIRTH,PPSA08668,Folder · PKG,"APR-EMU, PKG, Folder, RAR",01.080
+Final Fantasy VII Rebirth,PPSA08668,Folder · PKG,"APR-EMU, PKG, Folder, RAR",01.080
 Final Fantasy VII Remake Intergrade,PPSA01903,exFAT · PKG,"exFAT, PKG, APR-EMU",01.003
 Final Fantasy XVI Complete Edition,PPSA10665,exFAT · Folder · Backport 4.xx,"exFAT, Folder, APR-EMU, Backport 4.xx, RAR, PKG",01.003.004
-Final Vendetta,PPSA07058,RAR,RAR,01.002.000
+Final Vendetta,PPSA07058,exFAT,"exFAT, RAR",01.002.000
 Fishing North Atlantic Enhanced Edition,PPSA02985,PKG,"PKG, unknown",02.001
 FIST: Forged In Shadow Torch,PPSA03969,PKG · Backport,"PKG, Backport",01.201.001
 Five Nights at Freddy's Help Wanted 2,PPSA18887,exFAT · Folder · Backport,"Backport, exFAT, Folder, Backport 4.xx, Backport 6.xx, ZIP, Backport 5.xx, PKG",01.004
@@ -314,6 +314,7 @@ Fobia St Dinfna Hotel,PPSA05626,unknown,unknown,01.000
 Fobia: St. Dinfna Hotel,PPSA05625,PKG,PKG,01.000
 Formula Retro Racing: World Tour – Special Edition,PPSA17189,Folder · PKG,"Folder, PKG, APR-EMU",01.002
 Forspoken,PPSA03984,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, Backport 4.xx, RAR",01.020
+Fort Solis,PPSA04339,Folder · PKG · Backport 4.xx,"Folder, PKG, Backport 4.xx",01.000.000
 Fort Solis,PPSA14374,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, ZIP, Backport 5.xx",01.002.000
 Forza Horizon 5,PPSA22327,exFAT · Folder · Backport,"exFAT, PKG, Backport, Folder, Backport 4.xx",01.685.672
 Frostpunk 2,PPSA16608,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",01.013
@@ -351,6 +352,7 @@ Grand Theft Auto San Andreas The Definitive Edition,PPSA03524,FFPFSC · exFAT,"e
 Grand Theft Auto V,PPSA04264,PKG,PKG,01.005
 Grand Theft Auto V,PPSA04263,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx, Backport 5.xx",01.010.002
 Grand Theft Auto Vice City The Definitive Edition,PPSA03530,exFAT · PKG,"exFAT, PKG, unknown",01.007
+Grand Theft Auto: San Andreas – The Definitive Edition,PPSA07064,exFAT · PKG · Backport 4.xx,"PKG, exFAT, RAR, ZIP, Backport 4.xx, Backport 5.xx",01.000
 Grand Theft Auto: The Trilogy – The Definitive Edition,PPSA03525,PKG,"PKG, unknown",01.006
 Graven,PPSA09614,exFAT · Folder · Backport,"Backport, exFAT, Folder, Backport 4.xx, ZIP, Backport 5.xx",01.001
 Greak Memories of Azur,PPSA02849,exFAT · PKG,"exFAT, PKG, APR-EMU",01.003
@@ -360,7 +362,6 @@ GreedFall The Dying World,PPSA21840,exFAT · PKG · Backport,"Backport, exFAT, P
 Greyhill Incident,PPSA13553,exFAT · Backport,"Backport, exFAT, RAR, ZIP, Backport 4.xx, Backport 5.xx",01.004
 GRID Legends,PPSA03865,exFAT · PKG,"exFAT, APR-EMU, PKG, RAR",06.001
 GRIS,PPSA09804,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT, RAR",01.001
-GRIS,PPSA25582,PKG,"PKG, unknown",01.017
 Guilty Gear Strive,PPSA02257,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, Backport 4.xx",01.030.000
 Gundam Breaker 4,PPSA08065,PKG,PKG,01.000
 Gungrave GORE,PPSA03683,exFAT · Folder · Backport,"Backport, Folder, PKG, exFAT, Backport 4.xx",01.010
@@ -383,10 +384,10 @@ HOA,PPSA04181,exFAT · PKG,"exFAT, APR-EMU, PKG",01.000.002
 Hogwarts Legacy,PPSA01593,exFAT · Folder · Backport,"RAR, Backport, PKG, exFAT, Folder, Backport 4.xx",01.013
 Horizon Call of The Mountain,PPSA05666,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, RAR, Backport 5.xx",01.004.011
 Horizon Chase 2,PPSA12771,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT, RAR, ZIP",01.007
+Horizon Forbidden West,PPSA01521,exFAT · Folder · Backport 4.xx,"APR-EMU, PKG, exFAT, Folder, Backport 4.xx, RAR",01.030
 Horizon Forbidden West Complete Edition,PPSA17905,exFAT · PKG,"exFAT, APR-EMU, PKG",01.030
-Horizon Forbidden West – Complete Edition,PPSA01521,exFAT · Folder · Backport 4.xx,"APR-EMU, PKG, exFAT, Folder, Backport 4.xx, RAR",01.030
-Horizon Zero Dawn Remastered,PPSA13428,PKG · APR-EMU,"APR-EMU, PKG",01.008.001
 Horizon Zero Dawn Remastered,PPSA13427,exFAT · PKG · Backport,"Backport, exFAT, APR-EMU, RAR, Backport 7.xx, Backport 4.xx, PKG",01.008.001
+Horizon Zero Dawn Remastered,PPSA13428,PKG · APR-EMU,"APR-EMU, PKG",01.008.001
 Horror Tales The Wine,PPSA03638,exFAT · PKG,"exFAT, PKG, unknown",02.000
 Hot Wheels Lets Race Ultimate Speed,PPSA26501,exFAT · PKG · Backport,"Backport, PKG, RAR, exFAT, Backport 4.xx",01.002
 Hot Wheels Monster Trucks Stunt Mayhem,PPSA18191,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, RAR, Backport 4.xx, ZIP, Backport 5.xx",01.000.100
@@ -426,7 +427,6 @@ Jurassic World Evolution 2 Premium Edition,PPSA03286,exFAT · Backport,"Backport
 Jurassic World Evolution 3,PPSA25153,exFAT · PKG · Backport,"Backport, APR, PKG, exFAT, APR-EMU, Backport 7.xx, APR-PFS, RAR",01.002.006
 Jusant,PPSA10264,exFAT · PKG · Backport,"Backport, PKG, Backport 6.xx, exFAT, Backport 4.xx, Backport 5.xx",01.007
 KAGE Shadow of The Ninja,PPSA20450,exFAT · Folder · Backport 4.xx,"exFAT, PKG, Folder, RAR, Backport 4.xx",01.000
-KAGE Shadow of The Ninja,PPSA16441,Folder · PKG,"PKG, Folder, RAR",01.000
 KAKU Ancient Seal,PPSA30797,exFAT · PKG · Backport,"Backport, PKG, RAR, exFAT, Backport 7.xx, unknown",01.005
 Kao The Kangaroo,PPSA05595,exFAT · PKG,"exFAT, PKG",01.007
 KARMA The Dark World,PPSA22844,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",01.006
@@ -468,7 +468,6 @@ Little Nightmares 3: Deluxe Edition,PPSA05144,PKG · Backport,"Backport, PKG, Ba
 LOL Surprise B.B.s BORN TO TRAVEL,PPSA05727,exFAT · APR-EMU,"exFAT, APR-EMU",01.000
 Lollipop Chainsaw RePoP,PPSA21837,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, ZIP, Backport 4.xx, Backport 5.xx, RAR",01.005.001
 Looney Tunes Wacky World of Sports,PPSA19563,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, RAR, Backport 4.xx, ZIP, Backport 5.xx",00.100.000
-Lords of the Fallen,PPSA07064,exFAT · PKG · Backport 4.xx,"PKG, exFAT, RAR, ZIP, Backport 4.xx, Backport 5.xx",01.000
 Lords of The Fallen,PPSA03641,exFAT · PKG · Backport 4.xx,"exFAT, PKG, RAR, ZIP, Backport 4.xx, Backport 5.xx",01.086
 LOST EPIC,PPSA07429,exFAT · Folder · Backport 4.xx,"exFAT, PKG, Folder, RAR, ZIP, Backport 4.xx",01.000
 Lost in Random,PPSA01693,exFAT · PKG,"exFAT, APR-EMU, PKG, RAR",01.000.100
@@ -521,7 +520,7 @@ Metro Awakening,PPSA19383,Backport 5.50,"Backport 5.50, Backport",01.008
 Metro Exodus Complete Edition,PPSA02395,exFAT · PKG,"exFAT, APR-EMU, PKG, RAR",01.001
 Miasma Chronicles,PPSA06217,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, ZIP, Backport 5.xx",01.007
 Mighty Morphin Power Rangers Ritas Rewind,PPSA18528,Backport,Backport,01.009
-Mighty Morphin Power Rangers: Rita's Rewind,PPSA18529,exFAT · PKG · Backport 4.xx,"PKG, exFAT, Backport 4.xx, unknown",01.009
+Mighty Morphin Power Rangers: Rita’s Rewind,PPSA18529,exFAT · PKG · Backport 4.xx,"PKG, exFAT, Backport 4.xx, unknown",01.009
 MindsEye,PPSA28209,exFAT · Folder · Backport,"Backport, PKG, Backport 9.xx, exFAT, Folder, RAR, Backport 4.xx",01.017
 Minecraft,PPSA17221,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",01.044
 Minecraft Legends,GAME_F0D7B34191,Backport 4.xx,"Backport 4.xx, RAR",01.013
@@ -579,7 +578,6 @@ NHL 24,PPSA11193,exFAT · Folder · Backport,"Backport, PKG, Backport 4.xx, Back
 NHL 26,PPSA26785,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx, RAR",01.060
 Nickelodeon All Star Brawl,PPSA02279,exFAT · PKG,"exFAT, PKG",01.000
 Nickelodeon All Star Brawl 2,PPSA16745,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx",01.000
-Nickelodeon Kart Racers 3 Slime Speedway,PPSA04339,Folder · PKG · Backport 4.xx,"Folder, PKG, Backport 4.xx",01.000.000
 Night Trap 25th Anniversary Edition,PPSA05111,APR-EMU,"APR-EMU, RAR",01.000.200
 Nikoderiko The Magical World Directors Cut,PPSA23760,exFAT · Backport,"Backport, exFAT, Backport 4.xx, Backport 7.xx",01.000.012
 NINJA GAIDEN 2 Black,PPSA26679,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx, ZIP",01.003
@@ -596,6 +594,7 @@ Observer: System Redux,PPSA02118,PKG,PKG,01.008
 Octopath Traveler 2,PPSA09809,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx",01.000
 Oddworld Abes Exoddus (PS1 Emulation),PPSA07921,unknown,"unknown, RAR",01.000.002
 Oddworld Soulstorm,PPSA02259,exFAT · PKG,"exFAT, PKG, unknown",01.160
+Oddworld: Soulstorm,PPSA20591,Folder · PKG · Backport 4.xx,"PKG, Backport 4.xx, Backport 5.xx, Folder, RAR, ZIP",01.000
 On The Road The Truck Simulator,PPSA02891,Backport 4.xx,"Backport 4.xx, ZIP, Backport 5.xx",01.000.009
 Once Upon A Katamari,PPSA21904,PKG,"PKG, unknown",01.000
 One Last Breath,PPSA18172,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT, unknown",02.000
@@ -632,16 +631,15 @@ Planet Coaster Console Edition,PPSA01736,exFAT · PKG,"exFAT, PKG",01.017
 Plumbers Dont Wear Ties Definitive Edition,PPSA17949,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",01.000
 Pneumata,PPSA17139,exFAT · Folder · Backport,"Backport, exFAT, Backport 4.xx, Backport 6.xx, Folder, ZIP, Backport 5.xx, PKG",01.017
 Pneumata,PPSA17138,PKG,PKG,01.017
-Police Simulator: Patrol Officers,PPSA05831,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.000.000
-Poppy Playtime Chapter 1,PPSA20591,Folder · PKG · Backport 4.xx,"PKG, Backport 4.xx, Backport 5.xx, Folder, RAR, ZIP",01.000
+Police Simulator Patrol Officers,PPSA05831,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.000.000
 Poppy Playtime Chapter 2,PPSA21631,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, RAR",01.000
 Poppy Playtime Chapter 3,PPSA22380,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, Backport 5.xx, exFAT, ZIP",01.000
 Port Royale 4,PPSA02815,PKG,PKG,01.004.000
 Post Trauma,PPSA11002,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, unknown",02.001
 Potion Permit,PPSA02687,exFAT · PKG · Backport 4.xx,"exFAT, PKG, RAR, Backport 4.xx, ZIP",01.000
-Potionomics Masterwork Edition,PPSA24152,Folder · PKG · Backport 4.xx,"PKG, Backport 4.xx, Backport 5.xx, Folder, ZIP, RAR",01.000
+Potionomics: Masterwork Edition,PPSA24152,Folder · PKG · Backport 4.xx,"PKG, Backport 4.xx, Backport 5.xx, Folder, ZIP, RAR",01.000
 Powerwash Simulator Ultimate Satisfaction,PPSA04987,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, RAR, ZIP, Backport 4.xx, Backport 5.xx",01.018
-PRAGMATA Deluxe Edition,PPSA02530,FFPFSC · exFAT · Backport,"Backport, PKG, Backport 5.xx, FFPFSC, exFAT, Backport 4.xx, RAR",01.200
+PRAGMATA Deluxe Edition,PPSA02530,FFPFSC · exFAT · Backport,"Backport, PKG, Backport 5.xx, Backport 4.xx, FFPFSC, exFAT, RAR",01.200
 Predator Hunting Grounds,PPSA24179,exFAT · Folder · Backport,"Backport, Folder, PKG, exFAT, Backport 4.xx, RAR",01.017
 Prince of Persia: The Lost Crown,PPSA10067,exFAT · Folder · Backport 4.xx,"PKG, exFAT, Folder, APR-EMU, Backport 4.xx, RAR",01.004.001
 Prince of Persia: The Lost Crown Complete Edition,PPSA10528,exFAT · Folder · Backport,"Backport, exFAT, Folder, PKG",01.004.001
@@ -702,7 +700,6 @@ Saga of Sins,PPSA10050,exFAT · PKG · Backport,"Backport, APR-EMU, PKG, Backpor
 Saints Row,PPSA02807,exFAT · PKG,"exFAT, PKG",01.017
 Saints Row Gold Edition,PPSA02813,exFAT · Folder · Backport,"exFAT, PKG, Folder, APR-EMU, Backport, RAR",01.017
 Samurai Maiden Deluxe Edition,PPSA04132,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx",01.060
-SAND LAND,PPSA19989,exFAT · PKG · Backport 4.xx,"PKG, exFAT, APR-EMU, Backport 4.xx, RAR",01.000.006
 SAND LAND,PPSA08574,exFAT · Folder · Backport 4.xx,"exFAT, PKG, Folder, ZIP, Backport 4.xx, Backport 5.xx",01.007
 SAROS,PPSA07631,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, Backport 5.xx, exFAT, ZIP",01.000
 Scarlet Nexus,PPSA02211,exFAT · PKG,"exFAT, APR-EMU, PKG, RAR",01.008
@@ -713,8 +710,10 @@ SD GUNDAM BATTLE ALLIANCE,PPSA05163,exFAT · PKG,"exFAT, RAR, PKG",01.040
 Sea of Stars,PPSA07587,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, RAR, Backport 4.xx",01.013
 Seeker: My Shadow,PPSA12500,PKG · Backport 4.xx,"PKG, Backport 4.xx, Backport 5.xx, RAR, ZIP",01.002
 Selfloss,PPSA21085,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, RAR, Backport 4.xx, ZIP, Backport 5.xx",01.000
+Selfloss,PPSA12651,PKG · Backport 4.xx,"PKG, Backport 4.xx, ZIP, RAR",01.000
 Session: Skate Sim,PPSA06510,PKG · Backport,"PKG, Backport",01.000
 Severed Steel,PPSA05106,PKG,"PKG, unknown",01.000
+Severed Steel,PPSA05621,Folder · PKG · Backport,"PKG, Backport, Folder, Backport 4.xx",01.001
 Shadow Labyrinth,PPSA20298,exFAT · PKG · Backport,"Backport, PKG, exFAT, RAR, Backport 4.xx, unknown",01.100
 Shadow Warrior 3 Definitive Edition,PPSA07817,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx",01.002
 Shadows of The Damned Hella Remastered,PPSA17858,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT",01.001
@@ -764,7 +763,7 @@ SpongeBob SquarePants Titans of The Tide Ghostly Edition,PPSA26893,exFAT · Back
 SPY X ANYA Operation Memories Deluxe Edition,PPSA15209,exFAT,exFAT,01.001
 SPY X ANYA Operation Memories Deluxe Edition,PPSA15212,exFAT,exFAT,01.001
 Squirrel With A Gun,PPSA22102,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, RAR, Backport 4.xx, ZIP, Backport 5.xx",01.001
-STALKER 2: Heart of Chornobyl,PPSA28336,exFAT · Folder · Backport 4.xx,"exFAT, Backport 4.xx, Folder, PKG, Backport, RAR",01.009
+STALKER 2: Heart of Chornobyl,PPSA28336,exFAT · Folder · Backport 4.xx,"exFAT, PKG, Backport 4.xx, Folder, Backport, RAR",01.009
 STALKER Call of Prypiat Enhanced Edition,PPSA21732,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",01.009
 STALKER Clear Sky Enhanced Edition,PPSA21733,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",01.009
 STALKER Shadow of Chornobyl Enhanced Edition,PPSA21734,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",01.009
@@ -794,8 +793,8 @@ Street Outlaws 2: Winner Takes All,PPSA02275,PKG,"PKG, unknown",01.003
 Stroke The Snake,PPSA10240,exFAT · Backport,"Backport, exFAT, Backport 4.xx, unknown",01.000
 Styx Blades of Greed,PPSA28835,exFAT · Folder · Backport,"Backport, exFAT, Folder, PKG, Backport 5.xx",01.003
 Subnautica,PPSA02453,exFAT · PKG,"exFAT, APR-EMU, PKG",01.022.394
-Subnautica Below Zero,PPSA02456,PKG,PKG,01.021.397
 Subnautica Below Zero,PPSA02457,exFAT · PKG,"exFAT, RAR, PKG",01.022.125
+Subnautica: Below Zero,PPSA02456,PKG,PKG,01.021.397
 Suicide Squad Kill The Justice League,PPSA02182,exFAT · PKG · Backport,"Backport, APR-EMU, PKG, Backport 4.xx, Backport 7.xx, exFAT, RAR",01.024
 Summer Sports Games 4K Edition,PPSA03416,exFAT · APR-EMU,"exFAT, APR-EMU, RAR",01.001
 Super Bomberman R 2,PPSA07191,exFAT · Backport 4.xx,"exFAT, Backport 4.xx, ZIP",01.003.001
@@ -818,11 +817,13 @@ Tactics Ogre Reborn,PPSA03841,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.008
 Tactics Ogre: Reborn,PPSA03839,exFAT · PKG · Backport 4.xx,"exFAT, RAR, ZIP, Backport 4.xx, PKG",01.008
 Tactics Ogre: Reborn,PPSA03840,exFAT · Backport 4.xx,"exFAT, RAR, ZIP, Backport 4.xx",01.008
 Taiko no Tatsujin Donderful Festival Demo,PPSA24083,unknown,"unknown, RAR",01.001
+Taiko no Tatsujin Rhythm Festival,PPSA16441,Folder · PKG,"PKG, Folder, RAR",01.000
 Tails of Iron,PPSA03999,unknown,unknown,1.0
 Tainted Grail The Fall of Avalon,PPSA19411,PKG · Backport 4.xx,"PKG, RAR, Backport 4.xx, unknown",01.015.004
 Tales of Arise,PPSA02745,exFAT · PKG · Backport,"exFAT, PKG, Backport",01.004
 Tales of Berseria Remastered,PPSA22826,PKG,"PKG, unknown, RAR",01.002
 Tales of Graces F Remastered,PPSA19990,exFAT,exFAT,01.000
+Tales of Graces f Remastered,PPSA19989,exFAT · PKG · Backport 4.xx,"PKG, exFAT, APR-EMU, Backport 4.xx, RAR",01.000.006
 TAPE Unveil The Memories,PPSA08390,exFAT · Backport,"Backport, exFAT, Backport 4.xx",01.002
 Taxi Chaos 2,PPSA30279,exFAT · Folder · Backport,"Backport, Folder, PKG, exFAT, Backport 5.xx, Backport 4.xx",01.007
 Taxi Life: A City Driving Simulator,PPSA14176,Folder · PKG · Backport 4.xx,"PKG, Folder, Backport 4.xx, ZIP, Backport 5.xx",01.000
@@ -830,6 +831,7 @@ Teardown,PPSA15246,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, Ba
 Teenage Mutant Ninja Turtles Arcade Wrath of The Mutants,PPSA18571,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, unknown",01.000.002
 Teenage Mutant Ninja Turtles Mutants Unleashed,PPSA17246,RAR,RAR,01.000
 Teenage Mutant Ninja Turtles Mutants Unleashed Deluxe Edition,PPSA17245,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, RAR, Backport 4.xx",01.004
+Teenage Mutant Ninja Turtles Splintered Fate,PPSA25582,PKG,"PKG, unknown",01.017
 Teenage Mutant Ninja Turtles: The Cowabunga Collection,PPSA04489,PKG,"PKG, unknown",01.000
 TEKKEN 8,PPSA10595,FPKG · exFAT · Backport,"Backport, PKG, FPKG, exFAT, ZIP, RAR, Backport 4.xx, Backport 6.xx",01.009.001
 Tennis On-Court,PPSA15911,PKG,"PKG, RAR, unknown",01.004
@@ -893,14 +895,13 @@ The Quarry Deluxe Edition,PPSA06225,exFAT · PKG · Backport 4.xx,"exFAT, PKG, B
 The Riftbreaker,PPSA03753,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, RAR",01.020
 The Smurfs 2 The Prisoner of the Green Stone,PPSA16716,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx, RAR, ZIP",01.000
 The Smurfs: Mission Vileaf,PPSA02876,PKG,"PKG, unknown",01.000.001
-The Tale of Onogoro,PPSA12651,PKG · Backport 4.xx,"PKG, Backport 4.xx, ZIP, RAR",01.000
 The Talos Principle 2,PPSA05887,PKG,PKG,02.013
 The Talos Principle 2,PPSA05888,Backport 4.xx,"RAR, ZIP, Backport 4.xx",02.013
 The Talos Principle 2,GAME_75853,Backport 4.xx,"Backport 4.xx, ZIP",02.013
 The Thing Remastered,PPSA24381,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT",02.000
 The Walking Dead Destinies,PPSA15731,Backport 6.xx,Backport 6.xx,01.004
-The Walking Dead Saints & Sinners Chapter 2 Retribution,PPSA07680,PKG,PKG,01.000
 The Walking Dead Saints and Sinners Chapter 2 Retribution,PPSA07681,Backport 4.xx,Backport 4.xx,01.009.000
+The Walking Dead: Saints & Sinners - Chapter 2: Retribution,PPSA07680,PKG,PKG,01.000
 The Witcher 3 Wild Hunt Complete Edition,PPSA03977,exFAT · PKG · Backport,"Backport, PKG, exFAT, ZIP, Backport 4.xx",04.040.100
 Thymesia,PPSA05214,PKG,PKG,01.000
 Thymesia,PPSA05213,exFAT · PKG,"exFAT, RAR, PKG",01.004
@@ -937,7 +938,7 @@ Train Sim World 6,PPSA29953,Folder · PKG · Backport 4.xx,"APR-EMU, Folder, PKG
 Transformer Galactic Trails,PPSA16738,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, Backport 4.xx, Backport 5.xx",01.000
 Transformers Earthspark Expedition,PPSA14264,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, ZIP, Backport 5.xx",01.000.003
 Treasures of The Aegean,PPSA04906,exFAT · PKG,"exFAT, PKG, RAR",01.002
-Trek to Yomi,PPSA02629,PKG,"PKG, unknown",02.000
+Trek To Yomi,PPSA02629,exFAT · PKG,"exFAT, PKG, unknown",02.000
 Trepang2,PPSA15350,PKG · Backport,"Backport, PKG",01.000
 Trepang2,PPSA15349,exFAT · Backport 4.xx,"exFAT, ZIP, Backport 4.xx, Backport 5.xx",01.000
 TRIANGLE STRATEGY,PPSA26354,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, Backport 4.xx",01.001
@@ -974,7 +975,6 @@ Visage,PPSA04697,PKG,"PKG, unknown",01.000
 Visions of Mana,PPSA16096,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",01.003
 Void tRrLM();++ //Void Terrarium++,PPSA03061,PKG,"PKG, unknown",01.000.500
 VR Skater,PPSA13557,Folder · Backport 4.xx,"Folder, ZIP, Backport 4.xx, Backport 5.xx",01.013
-Wanted: Dead,PPSA05621,Folder · PKG · Backport,"PKG, Backport, Folder, Backport 4.xx",01.001
 War Mongrels,PPSA06711,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx",01.020.000
 "Warhammer 40,000 Space Marine 2",PPSA04451,exFAT · PKG · Backport 7.xx,"PKG, Backport 7.xx, Backport, exFAT, APR-EMU, RAR",01.010.002
 Warhammer 40000 Space Marine 2 Gold Edition,PPSA04452,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx, Backport 7.xx, RAR",01.012.002
@@ -1015,9 +1015,9 @@ Yakuza Kiwami,PPSA31334,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, 
 Yakuza Kiwami 2,PPSA31333,PKG · APR-EMU · Backport,"Backport, APR-EMU, PKG, Backport 4.xx, Backport 10.xx",01.014
 Yakuza Kiwami 3 and Dark Ties Deluxe Edition,PPSA30223,exFAT · PKG · Backport,"Backport, APR-EMU, PKG, exFAT, RAR, Backport 4.xx",01.015
 Yakuza Like A Dragon,PPSA02384,exFAT · PKG,"exFAT, PKG",01.003
+Yakuza Like a Dragon Hero Edition,PPSA02690,exFAT · PKG,"PKG, exFAT, APR-EMU, RAR",01.003
 Yatzi,PPSA17697,APR-EMU,"APR-EMU, RAR",01.000.100
 Yonder The Cloud Catcher Chronicles,PPSA03076,unknown,unknown,1.0
 Yooka Replaylee,PPSA26097,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, unknown",02.000
 Ys X Proud Nordics Ultimate Edition,PPSA32457,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, RAR, Backport 4.xx",01.003
 Zombie Cure Lab,PPSA22623,Backport,Backport,01.000
-龍が如く７ 光と闇の行方 インターナショナル,PPSA02690,exFAT · PKG,"PKG, exFAT, APR-EMU, RAR",01.003
