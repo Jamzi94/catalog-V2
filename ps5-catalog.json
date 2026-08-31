@@ -9167,13 +9167,6 @@
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://link-vault.org/c/3job1g5e",
-          "group": "Standard",
-          "version": "01.009",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · USA]",
           "url": "https://gofile.io/d/mWHzjS",
           "group": "Standard",
@@ -9359,6 +9352,186 @@
           "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.054)+DLC-PS5.part6.rar",
           "sizeBytes": 1599875317,
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/5EmxgMb4",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/0oNj9kip",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/ZzqQ4nQG",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/4clZgrwc",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/W9r3WxZv",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 5143223336,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/krIV3vZ24H",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/c54UjfXo0p",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/6sjLIQYtdq",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/vXNM4pywBA",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/5MB3ReHCFz",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 5143223336,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?727grb3zmpu1bepogniq&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?m9nzk6s7qt70brm4p9kq&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?18bv0ihsdfxtoxjr7foe&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?m1p1vsmad87ddkp9402h&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?4tq50fuub198bd5uy2mt&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 5143223336,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1feCyO",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/b1g0G",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1jg3pw",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1nhuhU",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/f3Wng",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Armored.Core.VI.Fires.of.Rubicon-PPSA06774-USA-Game(v01.009)[APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 5143223336,
+          "group": "Standard",
+          "version": "01.009"
         }
       ],
       "sizeBytes": 105226698752,
@@ -16715,13 +16888,6 @@
           "mirror": "Multihost"
         },
         {
-          "name": "[BP · v1.003] #02",
-          "url": "https://link-vault.org/c/3j9c2ilx",
-          "group": "Backport",
-          "version": "01.003",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · EUR · v1.003]",
           "url": "https://vikingfile.com/f/0eaXtnQJDN",
           "group": "Standard",
@@ -16781,6 +16947,24 @@
           "editionId": "PPSA27624",
           "fileName": "[DLPSGAME.COM]-PPSA27624-app0.rar",
           "mirror": "Rootz"
+        },
+        {
+          "url": "https://gofile.io/d/fAqt1jL2",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Bendy.and.The.Dark.Revival-PPSA27624-EUR-Backport 7.xx+ (@kerrdec97) PS5.rar",
+          "sizeBytes": 36375101,
+          "group": "Backport",
+          "version": "01.003"
+        },
+        {
+          "url": "https://www.rootz.so/d/SS6XA",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Bendy.and.The.Dark.Revival-PPSA27624-EUR-Backport 7.xx+ (@kerrdec97) PS5.rar",
+          "sizeBytes": 36375101,
+          "group": "Backport",
+          "version": "01.003"
         }
       ],
       "sizeBytes": 8589934592,
@@ -16866,13 +17050,6 @@
           "mirror": "Multihost"
         },
         {
-          "name": "[BP · v1.002]",
-          "url": "https://link-vault.org/c/3nfoxb1g",
-          "group": "Backport",
-          "version": "01.002",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · EUR · v1.002]",
           "url": "https://www.rootz.so/d/1DXZia",
           "group": "Standard",
@@ -16954,6 +17131,42 @@
           "version": "01.001",
           "fileName": "[DLPSGAME.COM]-PPSA27616-Game+(v01.000.100)+[APR-EMU].rar",
           "mirror": "Mediafire"
+        },
+        {
+          "url": "https://gofile.io/d/grxJN66s",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Bendy.and.The.Ink.Machine-PPSA27616-EUR-Backport 7.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 87996497,
+          "group": "Backport",
+          "version": "01.002"
+        },
+        {
+          "url": "https://vikingfile.com/f/w0vStDASdZ",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Bendy.and.The.Ink.Machine-PPSA27616-EUR-Backport 7.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 87996497,
+          "group": "Backport",
+          "version": "01.002"
+        },
+        {
+          "url": "https://1fichier.com/?dm98mdmdctj9lev0njnt&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Bendy.and.The.Ink.Machine-PPSA27616-EUR-Backport 7.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 87996497,
+          "group": "Backport",
+          "version": "01.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/14iYRk",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Bendy.and.The.Ink.Machine-PPSA27616-EUR-Backport 7.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 87996497,
+          "group": "Backport",
+          "version": "01.002"
         }
       ],
       "sizeBytes": 13958643712,
@@ -20998,13 +21211,6 @@
           "mirror": "Multihost"
         },
         {
-          "name": "[BP]",
-          "url": "https://link-vault.org/c/4mzm8m69",
-          "group": "Backport",
-          "version": "02.000",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · 16 Go · USA]",
           "url": "https://1fichier.com/?vp9j0cw9rzfo8l6ho7mj",
           "group": "Standard",
@@ -21074,6 +21280,42 @@
           "fileName": "[SuperPSX]-NBA.2K26-PPSA28420-USA-Backport 7.xx+ (@kerrdec97)-PS5.rar",
           "sizeBytes": 48360325,
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/MzKiqb6B",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Brothers.A.Tale.of.Two.Sons.Remake-PPSA14501-USA-Backport 4.xx+ (@DecKerr97)-PS5.rar",
+          "sizeBytes": 164731289,
+          "group": "Backport",
+          "version": "02.000"
+        },
+        {
+          "url": "https://vikingfile.com/f/9RlyFVt2Nt",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Brothers.A.Tale.of.Two.Sons.Remake-PPSA14501-USA-Backport 4.xx+ (@DecKerr97)-PS5.rar",
+          "sizeBytes": 164731289,
+          "group": "Backport",
+          "version": "02.000"
+        },
+        {
+          "url": "https://1fichier.com/?cypwwfmwanvfk9kmwlga&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Brothers.A.Tale.of.Two.Sons.Remake-PPSA14501-USA-Backport 4.xx+ (@DecKerr97)-PS5.rar",
+          "sizeBytes": 164731289,
+          "group": "Backport",
+          "version": "02.000"
+        },
+        {
+          "url": "https://www.rootz.so/d/eYMDI",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Brothers.A.Tale.of.Two.Sons.Remake-PPSA14501-USA-Backport 4.xx+ (@DecKerr97)-PS5.rar",
+          "sizeBytes": 164731289,
+          "group": "Backport",
+          "version": "02.000"
         }
       ],
       "sizeBytes": 28991029248,
@@ -23735,15 +23977,6 @@
           "sizeBytes": 5169479
         },
         {
-          "name": "[BP · 68 Go · v1.400]",
-          "url": "https://link-vault.org/c/05imeewq",
-          "group": "Backport",
-          "version": "01.400",
-          "mirror": "Multihost",
-          "fileName": "PPSA07631.7z",
-          "sizeBytes": 73132555632
-        },
-        {
           "name": "[PKG · Folder · FFPKG · 10 Go · EUR]",
           "url": "https://gofile.io/d/tNtHZq",
           "group": "Standard",
@@ -24097,6 +24330,42 @@
           "version": "01.500.300",
           "fileName": "[DLPSGAME.COM]-01.500.300 PPSA17599.part1.rar",
           "mirror": "Rootz"
+        },
+        {
+          "url": "https://gofile.io/d/jjqXdYiB",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Clair.Obscur.Expedition.33-PPSA17599-EUR-(Backport-4.xx+)-PS5.rar",
+          "sizeBytes": 177303715,
+          "group": "Backport",
+          "version": "01.400"
+        },
+        {
+          "url": "https://vikingfile.com/f/FYOrhh6DGU",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Clair.Obscur.Expedition.33-PPSA17599-EUR-(Backport-4.xx+)-PS5.rar",
+          "sizeBytes": 177303715,
+          "group": "Backport",
+          "version": "01.400"
+        },
+        {
+          "url": "https://1fichier.com/?pjj9lexnaho4f0d9avv4&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Clair.Obscur.Expedition.33-PPSA17599-EUR-(Backport-4.xx+)-PS5.rar",
+          "sizeBytes": 177303715,
+          "group": "Backport",
+          "version": "01.400"
+        },
+        {
+          "url": "https://www.rootz.so/d/1hTpMu",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Clair.Obscur.Expedition.33-PPSA17599-EUR-(Backport-4.xx+)-PS5.rar",
+          "sizeBytes": 177303715,
+          "group": "Backport",
+          "version": "01.400"
         }
       ],
       "sizeBytes": 77309411328,
@@ -28219,13 +28488,40 @@
           "sizeBytes": 43379169689
         },
         {
-          "name": "[BP · 28 Go]",
-          "url": "https://link-vault.org/c/4z05qkad",
+          "url": "https://gofile.io/d/EKX5CyyT",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
           "group": "Backport",
-          "version": "01.017",
-          "mirror": "Mutlihost",
-          "fileName": "duplex-PPSA04405.ps5-[DLPSGAME.COM].rar",
-          "sizeBytes": 30537217474
+          "version": "01.017"
+        },
+        {
+          "url": "https://vikingfile.com/f/xMvb46BfS5",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "url": "https://1fichier.com/?tarvgcxd3ug0lavegc5r&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "url": "https://www.rootz.so/d/1Ka1zs",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -29845,15 +30141,6 @@
           "mirror": "Data"
         },
         {
-          "name": "[exFAT · Folder · FFPFSC · 2 Go]",
-          "url": "https://link-vault.org/c/3650v352",
-          "group": "Standard",
-          "version": "01.036.178",
-          "mirror": "Multihost",
-          "fileName": "PPSA09165.exfat",
-          "sizeBytes": 1717986918
-        },
-        {
           "name": "[BP · DLC · 2 Mo]",
           "url": "https://link-vault.org/c/e75j2x3u",
           "group": "Backport",
@@ -30260,6 +30547,141 @@
           "fileName": "[SuperPSX]-[SuperPSX]-Suicide.Squad.Kill.The.Justice.League-PPSA02182-USA-Backport 7.xx+ (@deccker97)-PS5.rar",
           "sizeBytes": 95734988,
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/KtmhfNRz",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://gofile.io/d/MUrFq2w6",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://gofile.io/d/rIH9MmpT",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://gofile.io/d/2ehdzCYv",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://gofile.io/d/mJ0H0AzP",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part5.rar",
+          "sizeBytes": 7215545057,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://1fichier.com/?qcwqnqze4gzorkyvk2yv&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://1fichier.com/?ore9cjbapp4qn7im5koj&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://1fichier.com/?6o2nk9tnu3j8mf8h8kct&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://1fichier.com/?w7qx2nmoz0s06g7ip3lq&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://1fichier.com/?pbne3kl1jdneqnanlezj&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part5.rar",
+          "sizeBytes": 7215545057,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://www.rootz.so/d/JBKSG",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://www.rootz.so/d/1RpiHw",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://www.rootz.so/d/1g4AEK",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://www.rootz.so/d/TNvX6",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.036.178"
+        },
+        {
+          "url": "https://www.rootz.so/d/1k615s",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Days.Gone.Remastered-PPSA28180-USA-Game (v01.036.178)-PS5.part5.rar",
+          "sizeBytes": 7215545057,
+          "group": "Standard",
+          "version": "01.036.178"
         }
       ],
       "sizeBytes": 214748364800,
@@ -43640,13 +44062,6 @@
           "mirror": "Vault"
         },
         {
-          "name": "[BP]",
-          "url": "https://link-vault.org/c/09k9dc53",
-          "group": "Backport",
-          "version": "01.090",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[DLC · exFAT · 3 Go]",
           "url": "https://link-vault.org/c/r2dl8ymi",
           "group": "DLC",
@@ -43793,6 +44208,294 @@
           "url": "https://buzzheavier.com/g6hlwh53q8am",
           "version": "01.054",
           "mirror": "Buzz"
+        },
+        {
+          "url": "https://gofile.io/d/pu7g4z4n",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://gofile.io/d/9PfhLM0b",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://gofile.io/d/Ea0ysnrD",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://gofile.io/d/kwJgXKXF",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://gofile.io/d/JF225Sdi",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://gofile.io/d/Ak2R2gpF",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part6.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://gofile.io/d/glcWDfej",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part7.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://gofile.io/d/rl0Woho0",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part8.rar",
+          "sizeBytes": 1975684956,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://vikingfile.com/f/w15p82Yy2M",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://vikingfile.com/f/X3h18JMBhH",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://vikingfile.com/f/6JRzsUi1qI",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://vikingfile.com/f/kxOBeidzKg",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://vikingfile.com/f/4TsNoNGEfw",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://vikingfile.com/f/Zb2T4PcjOd",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part6.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://vikingfile.com/f/1YXivFdHHK",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part7.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://vikingfile.com/f/18OI2UEjNd",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part8.rar",
+          "sizeBytes": 1975684956,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://1fichier.com/?g79t9afqcbvm1ir67swj&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://1fichier.com/?lsatzzhokupbxqcx1u0n&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://1fichier.com/?s83tli45o0vt84rx9ca1&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://1fichier.com/?eblxyn43n9qfzbrc8b7r&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://1fichier.com/?wc84dk3v1wwbcz4xelxr&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://1fichier.com/?e2j2dz7fbdxfnfqc70pm&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part6.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://1fichier.com/?9umb5zrmzz3kubx57jqk&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part7.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://1fichier.com/?uf0ogbjubulbmi91gwrb&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part8.rar",
+          "sizeBytes": 1975684956,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://www.rootz.so/d/17GUmO",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://www.rootz.so/d/1BILdw",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://www.rootz.so/d/2JwjXk",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://www.rootz.so/d/2dxoG",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://www.rootz.so/d/1FKCVU",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://www.rootz.so/d/6fobg",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part6.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://www.rootz.so/d/1NNuEa",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part7.rar",
+          "sizeBytes": 10737418240,
+          "group": "Backport",
+          "version": "01.090"
+        },
+        {
+          "url": "https://www.rootz.so/d/1JM3N2",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Dying.Light.2.Stay.Human-PPSA02262-EUR-Game (v01.090) (DLC) (BackPort 4.xx+)-PS5.part8.rar",
+          "sizeBytes": 1975684956,
+          "group": "Backport",
+          "version": "01.090"
         }
       ],
       "sizeBytes": 78383153152,
@@ -45442,14 +46145,6 @@
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://link-vault.org/c/4f43ly2r",
-          "group": "Standard",
-          "version": "01.031",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5"
-        },
-        {
           "name": "[BP · 123 Go]",
           "url": "https://link-vault.org/c/yq4fdwrf",
           "group": "Backport",
@@ -45643,6 +46338,141 @@
           "group": "Standard",
           "version": "01.031",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/11uS38NH",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/rSG9OUre",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/FmfmV4gN",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/ECUrCG7j",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/FeZVM4Ky",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part05.rar",
+          "sizeBytes": 9073118412,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/gAAT5SbZoa",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/u21KPyI6co",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/z88HYGNIX0",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/6VMsG1mv1F",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/f6oPtXrv8o",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part05.rar",
+          "sizeBytes": 9073118412,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/1cOMoC",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/Xlpq4",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/1YMVwe",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/1oTvOq",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/fpXV2",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Game (v01.031)-PS5.part05.rar",
+          "sizeBytes": 9073118412,
+          "group": "Standard",
+          "version": "01.031"
         }
       ],
       "sizeBytes": 119185342464,
@@ -50501,14 +51331,6 @@
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://link-vault.org/c/3rzsbr7k",
-          "group": "Standard",
-          "version": "01.300",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-FANTASIAN.Neo.Dimension-PPSA22265-EUR-Game-(v01.300)-PS5"
-        },
-        {
           "name": "[BP · fix · EUR]",
           "url": "https://link-vault.org/c/q2lbihaf",
           "group": "Backport",
@@ -50627,6 +51449,33 @@
           "editionId": "PPSA22265",
           "fileName": "PPSA22265.exfat",
           "mirror": "Viki"
+        },
+        {
+          "url": "https://gofile.io/d/lTJ8YevY",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-FANTASIAN.Neo.Dimension-PPSA22265-EUR-Game-(v01.300)-PS5.rar",
+          "sizeBytes": 12079595520,
+          "group": "Standard",
+          "version": "01.300"
+        },
+        {
+          "url": "https://vikingfile.com/f/2BLr0P87Fa",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-FANTASIAN.Neo.Dimension-PPSA22265-EUR-Game-(v01.300)-PS5.rar",
+          "sizeBytes": 12079595520,
+          "group": "Standard",
+          "version": "01.300"
+        },
+        {
+          "url": "https://www.rootz.so/d/18ZClc",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-FANTASIAN.Neo.Dimension-PPSA22265-EUR-Game-(v01.300)-PS5.rar",
+          "sizeBytes": 12079595520,
+          "group": "Standard",
+          "version": "01.300"
         }
       ],
       "sizeBytes": 13958643712,
@@ -54686,14 +55535,6 @@
         },
         {
           "name": "[PKG · Folder · USA]",
-          "url": "https://link-vault.org/c/1x1uhz7k",
-          "group": "Standard",
-          "version": "01.685.672",
-          "mirror": "Viki(parts)",
-          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5"
-        },
-        {
-          "name": "[PKG · Folder · USA]",
           "url": "https://rootz.so/d/1W9ZWS",
           "group": "Standard",
           "version": "01.685.672",
@@ -54856,6 +55697,213 @@
           "group": "Standard",
           "version": "01.685.672",
           "mirror": "1File"
+        },
+        {
+          "url": "https://vikingfile.com/f/bJhtdFFAly",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part01.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/X4wNg31q4L",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part02.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/De1ipczNO3",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part03.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/PGZZcAccN2",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part04.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/e5Wj4iuisP",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part05.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/ZUxJDivCKY",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part06.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/tNBCotzGOe",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part07.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/LDCqOgofuM",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part08.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/FSWgDRdP6Q",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part09.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/xpxb5SWCwy",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part10.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/1kigJ0oTRB",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part11.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/c1fKLnpl63",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part12.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/JxZCgFXMZe",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part13.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/gunuN7OuNf",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part14.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/s1Bks1NUiC",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part15.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/2IdxAbW3Vl",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part16.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/LFCvqDxIzu",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part17.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/NSFYyQzgZv",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part18.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/v0qUJMPOTz",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part19.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/YwOy32t16P",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part20.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/TZgVHdAgGn",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part21.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/IffT8xFfk5",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part22.rar",
+          "sizeBytes": 10490457620,
+          "group": "Standard",
+          "version": "01.685.672"
+        },
+        {
+          "url": "https://vikingfile.com/f/5mFLwfFrvX",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Forza.Horizon.5-PPSA21159-USA-Game-(v01.685.672)-PS5.part23.rar",
+          "sizeBytes": 7215545057,
+          "group": "Standard",
+          "version": "01.685.672"
         }
       ],
       "sizeBytes": 285615325184,
@@ -63845,14 +64893,6 @@
         },
         {
           "name": "[PKG · EUR]",
-          "url": "https://link-vault.org/c/4zb39pqd",
-          "group": "Standard",
-          "version": "01.004",
-          "mirror": "Mulithost",
-          "fileName": "[SuperPSX]-Hellboy.Web.of.Wyrd-PPSA11264-EUR-Game-(v01.004)-PS5"
-        },
-        {
-          "name": "[PKG · EUR]",
           "url": "https://www.mediafire.com/file/ij7z1edxomeov22/[DLPSGAME.COM]-01.004+PPSA11264.rar/file",
           "group": "Standard",
           "version": "01.004",
@@ -63922,6 +64962,33 @@
           "group": "Standard",
           "version": "01.004",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/K0o5IUQu",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Hellboy.Web.of.Wyrd-PPSA11264-EUR-Game-(v01.004)-PS5.rar",
+          "sizeBytes": 1685774663,
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "url": "https://vikingfile.com/f/oO6jJhhF9M",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Hellboy.Web.of.Wyrd-PPSA11264-EUR-Game-(v01.004)-PS5.rar",
+          "sizeBytes": 1685774663,
+          "group": "Standard",
+          "version": "01.004"
+        },
+        {
+          "url": "https://www.rootz.so/d/1fKw1A",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Hellboy.Web.of.Wyrd-PPSA11264-EUR-Game-(v01.004)-PS5.rar",
+          "sizeBytes": 1685774663,
+          "group": "Standard",
+          "version": "01.004"
         }
       ],
       "sizeBytes": 21474836480,
@@ -72110,36 +73177,12 @@
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · USA]",
-          "url": "https://link-vault.org/c/2yl7jvej",
-          "group": "Standard",
-          "version": "02.330.000",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-Game(v2.330.000) [APR-EMU]-PS5"
-        },
-        {
-          "name": "[DLC · USA] #01",
-          "url": "https://link-vault.org/c/2dx0xgd9",
-          "group": "DLC",
-          "version": "02.330.000",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-DLCs (EMU – Pippo) -PS5"
-        },
-        {
           "name": "[DLC · USA] #02",
           "url": "https://link-vault.org/c/p0oscogv",
           "group": "DLC",
           "version": "02.330.000",
           "mirror": "Multihost",
           "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-DLC (@Pkykzhack)-PS5"
-        },
-        {
-          "name": "[BP · fix · USA]",
-          "url": "https://link-vault.org/c/1qyn1kke",
-          "group": "Backport",
-          "version": "02.330.000",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-Backport 4.xx+ (Chedolor1988 &amp; Vittorio120)-PS5"
         },
         {
           "name": "[exFAT · USA · v02.330]",
@@ -72282,6 +73325,60 @@
           "editionId": "PPSA04220",
           "fileName": "[DLPSGAME.COM]-PPSA04220-app0.rar",
           "mirror": "Mediafire"
+        },
+        {
+          "url": "https://gofile.io/d/wEsyV3qD",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-Game(v2.330.000) [APR-EMU]-PS5.rar",
+          "sizeBytes": 4992899481,
+          "group": "Standard",
+          "version": "02.330.000"
+        },
+        {
+          "url": "https://www.rootz.so/d/1Sdjeq",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-Game(v2.330.000) [APR-EMU]-PS5.rar",
+          "sizeBytes": 4992899481,
+          "group": "Standard",
+          "version": "02.330.000"
+        },
+        {
+          "url": "https://gofile.io/d/7jq5BlNn",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-DLCs (EMU – Pippo) -PS5.rar",
+          "sizeBytes": 34293,
+          "group": "DLC",
+          "version": "02.330.000"
+        },
+        {
+          "url": "https://www.rootz.so/d/1h87RA",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-DLCs (EMU – Pippo) -PS5.rar",
+          "sizeBytes": 34293,
+          "group": "DLC",
+          "version": "02.330.000"
+        },
+        {
+          "url": "https://gofile.io/d/nnrpWAOK",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-Backport 4.xx+ (Chedolor1988 & Vittorio120)-PS5.rar",
+          "sizeBytes": 55176069,
+          "group": "Backport",
+          "version": "02.330.000"
+        },
+        {
+          "url": "https://www.rootz.so/d/Bve64",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-JoJo’s.Bizarre.Adventure.All.Star.Battle.R-PPSA04220-USA-Backport 4.xx+ (Chedolor1988 & Vittorio120)-PS5.rar",
+          "sizeBytes": 55176069,
+          "group": "Backport",
+          "version": "02.330.000"
         }
       ],
       "sizeBytes": 19327352832,
@@ -73421,14 +74518,6 @@
           "mirror": "Filek"
         },
         {
-          "name": "[PKG · APR-EMU · APR · APR-PFS · EUR]",
-          "url": "https://link-vault.org/c/0dh8qjwh",
-          "group": "Standard",
-          "version": "01.002.006",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5"
-        },
-        {
           "name": "[DLC · EUR]",
           "url": "https://link-vault.org/c/6jkdfwhz",
           "group": "DLC",
@@ -73602,6 +74691,114 @@
           "mirror": "Akia",
           "fileName": "[DLPSGAME.COM]-PPSA25153.part1.rar",
           "sizeBytes": 10630044057
+        },
+        {
+          "url": "https://gofile.io/d/1jjgIR16",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://gofile.io/d/n94L6uZe",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://gofile.io/d/2gdhiSMZ",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part3.rar",
+          "sizeBytes": 2791728742,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://vikingfile.com/f/pGCx73SVzL",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://vikingfile.com/f/XAYtdufdPk",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://vikingfile.com/f/uEcs72L70S",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part3.rar",
+          "sizeBytes": 2791728742,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://1fichier.com/?btk7s41ye51iq0g2gdp3&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://1fichier.com/?5vuajsjj6ujuro39pb9z&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://1fichier.com/?2dxrvfjk2xe03dyz000k&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part3.rar",
+          "sizeBytes": 2791728742,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://www.rootz.so/d/13vMci",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://www.rootz.so/d/2GbbJw",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.002.006"
+        },
+        {
+          "url": "https://www.rootz.so/d/ztVlA",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Jurassic.World.Evolution.3-PPSA25153-EUR-Game (v01.002.006) [APR]-PS5.part3.rar",
+          "sizeBytes": 2791728742,
+          "group": "Standard",
+          "version": "01.002.006"
         }
       ],
       "sizeBytes": 22548578304,
@@ -75924,14 +77121,6 @@
         },
         {
           "name": "[PKG · APR-EMU · USA]",
-          "url": "https://link-vault.org/c/1stx7frq",
-          "group": "Standard",
-          "version": "01.005",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Kitaria.Fables-PPSA02527-USA-Game(v01.005) [APR-EMU]-PS5"
-        },
-        {
-          "name": "[PKG · APR-EMU · USA]",
           "url": "https://vikingfile.com/f/NWpGdAFyFA",
           "group": "Standard",
           "version": "01.005",
@@ -75962,6 +77151,15 @@
           "editionId": "PPSA02527",
           "fileName": "[DLPSGAME.COM]-PPSA02527-Game+(v01.005)+[APR-EMU].rar",
           "mirror": "Mediafire"
+        },
+        {
+          "url": "https://gofile.io/d/RyZlrmWC",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Kitaria.Fables-PPSA02527-USA-Game(v01.005) [APR-EMU]-PS5.rar",
+          "sizeBytes": 738438676,
+          "group": "Standard",
+          "version": "01.005"
         }
       ],
       "sizeBytes": 7516192768,
@@ -81021,13 +82219,6 @@
           "mirror": "Viki"
         },
         {
-          "name": "[PKG · USA]",
-          "url": "https://link-vault.org/c/2wfhyrbv",
-          "group": "Standard",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Little.Nightmares.3-PPSA05144-USA-Game-(01.002)-PS5"
-        },
-        {
           "name": "[BP · fix · USA]",
           "url": "https://link-vault.org/c/emtqj520",
           "group": "Backport",
@@ -81086,6 +82277,14 @@
           "url": "https://gofile.io/d/t9Bllw",
           "group": "Backport",
           "mirror": "Gofile"
+        },
+        {
+          "url": "https://gofile.io/d/DiEs9PxC",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Little.Nightmares.3-PPSA05144-USA-Game-(01.002)-PS5.rar",
+          "sizeBytes": 15515569356,
+          "group": "Standard"
         }
       ],
       "sizeBytes": 80530636800,
@@ -83472,22 +84671,6 @@
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://link-vault.org/c/119xqlfi",
-          "group": "Standard",
-          "version": "01.000",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Game (v01.000)-PS5"
-        },
-        {
-          "name": "[BP · fix · EUR]",
-          "url": "https://link-vault.org/c/0yz2mqz0",
-          "group": "Backport",
-          "version": "01.000",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Backport 4.xx+ (@BestPig)-PS5"
-        },
-        {
           "name": "[PKG · APR-EMU · EUR] #01",
           "url": "https://www.rootz.so/d/6vxdA",
           "group": "Standard",
@@ -83511,6 +84694,69 @@
           "editionId": "PPSA09090",
           "fileName": "[DLPSGAME.COM] - 01.000 PPSA09090.rar",
           "mirror": "Rootz"
+        },
+        {
+          "url": "https://gofile.io/d/5LMMuOIc",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Game (v01.000)-PS5.rar",
+          "sizeBytes": 1868310773,
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "url": "https://vikingfile.com/f/YTv2DYI4m4",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Game (v01.000)-PS5.rar",
+          "sizeBytes": 1868310773,
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "url": "https://www.rootz.so/d/t22u8",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Game (v01.000)-PS5.rar",
+          "sizeBytes": 1868310773,
+          "group": "Standard",
+          "version": "01.000"
+        },
+        {
+          "url": "https://gofile.io/d/KScwb0zE",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Backport 4.xx+ (@BestPig)-PS5.rar",
+          "sizeBytes": 106587750,
+          "group": "Backport",
+          "version": "01.000"
+        },
+        {
+          "url": "https://vikingfile.com/f/ogqiy7X28m",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Backport 4.xx+ (@BestPig)-PS5.rar",
+          "sizeBytes": 106587750,
+          "group": "Backport",
+          "version": "01.000"
+        },
+        {
+          "url": "https://1fichier.com/?wtx98o92affdt76equk3&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Backport 4.xx+ (@BestPig)-PS5.rar",
+          "sizeBytes": 106587750,
+          "group": "Backport",
+          "version": "01.000"
+        },
+        {
+          "url": "https://www.rootz.so/d/25iHbM",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Lunar.Lander.Beyond-PPSA09090-EUR-Backport 4.xx+ (@BestPig)-PS5.rar",
+          "sizeBytes": 106587750,
+          "group": "Backport",
+          "version": "01.000"
         }
       ],
       "sizeBytes": 7516192768,
@@ -88464,14 +89710,6 @@
           "fileName": "[SuperPSX]-Metal.Gear.Solid.Master.Collection.Vol.1-PPSA14363-USA-Game (v03.000) [APR-EMU]-PS5"
         },
         {
-          "name": "[PKG · APR-EMU · USA · v2.100]",
-          "url": "https://link-vault.org/c/3u2uaw26",
-          "group": "Standard",
-          "version": "02.100",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Metal.Gear.Solid.Master.Collection.Vol.1-PPSA14396 – USA-Game (v02.100) [APR-EMU]-PS5"
-        },
-        {
           "name": "[PKG · APR-EMU · USA]",
           "url": "https://link-vault.org/c/wncfyt27",
           "group": "Standard",
@@ -88499,6 +89737,42 @@
           "group": "Standard",
           "version": "03.002",
           "mirror": "Gofile"
+        },
+        {
+          "url": "https://gofile.io/d/xRSMeKRV",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Metal.Gear.Solid.Master.Collection.Vol.1-PPSA14396 – USA-Game (v02.100) [APR-EMU]-PS5.rar",
+          "sizeBytes": 11542724608,
+          "group": "Standard",
+          "version": "02.100"
+        },
+        {
+          "url": "https://vikingfile.com/f/2peBogVenc",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Metal.Gear.Solid.Master.Collection.Vol.1-PPSA14396 – USA-Game (v02.100) [APR-EMU]-PS5.rar",
+          "sizeBytes": 11542724608,
+          "group": "Standard",
+          "version": "02.100"
+        },
+        {
+          "url": "https://1fichier.com/?46vgsntrmms6zp8j47ai&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Metal.Gear.Solid.Master.Collection.Vol.1-PPSA14396 – USA-Game (v02.100) [APR-EMU]-PS5.rar",
+          "sizeBytes": 11542724608,
+          "group": "Standard",
+          "version": "02.100"
+        },
+        {
+          "url": "https://www.rootz.so/d/1WKEEa",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Metal.Gear.Solid.Master.Collection.Vol.1-PPSA14396 – USA-Game (v02.100) [APR-EMU]-PS5.rar",
+          "sizeBytes": 11542724608,
+          "group": "Standard",
+          "version": "02.100"
         }
       ],
       "sizeBytes": 23622320128,
@@ -90534,14 +91808,6 @@
           "mirror": "Filek"
         },
         {
-          "name": "[PKG · Folder · EUR · v1.011]",
-          "url": "https://link-vault.org/c/0jgarndk",
-          "group": "Standard",
-          "version": "01.011",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5"
-        },
-        {
           "name": "[BP · fix · EUR · v1.011] #01",
           "url": "https://link-vault.org/c/cgjqj2zc",
           "group": "Backport",
@@ -90813,6 +92079,330 @@
           "version": "01.017",
           "mirror": "Filek",
           "fileName": "[DLPSGAME.COM]-PPSA28209.part04.rar"
+        },
+        {
+          "url": "https://gofile.io/d/sL5pPhut",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://gofile.io/d/S0ttONhR",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://gofile.io/d/ECR3TZTv",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://gofile.io/d/U9rduwte",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://gofile.io/d/NBk1SLML",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://gofile.io/d/93jHVlcb",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://gofile.io/d/8NqYbh3L",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://gofile.io/d/PJnO2tNu",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://gofile.io/d/1uYeti69",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part09.rar",
+          "sizeBytes": 4907000135,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/QF10G0QzE3",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/dyy1MbIYwT",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/l3mmO1muJf",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/V9nAINnCXd",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/O8F069oC50",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/GijbPrpszt",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/rYPWZPyKHF",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/V3vIZ1ObxW",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://vikingfile.com/f/mcen4utWEy",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part09.rar",
+          "sizeBytes": 4907000135,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?nz3ybrxsn756pnfm18xl",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?76cjtslp30ndncq973iv",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?ad1tr8fuzzby9i1232s4",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?xpa4mu2vh81etscdiosm",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?44295o9xnghvn68bkd1w",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?h4ann1cmb4he6oddaqn5",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?ll0d303x2uugaez0zyow",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?ltcyldvabww6gmtp171v",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://1fichier.com/?ajcj7o5pcoym76uyfw97",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part09.rar",
+          "sizeBytes": 4907000135,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/1j6qye",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/WQcHQ",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/1tJS3U",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/ogv1E",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/1xLIv2",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/kf49g",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/silsm",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/10mTbs",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.011"
+        },
+        {
+          "url": "https://www.rootz.so/d/wkckK",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-MindsEye-PPSA28209-EUR-Game-(v01.011)-PS5.part09.rar",
+          "sizeBytes": 4907000135,
+          "group": "Standard",
+          "version": "01.011"
         }
       ],
       "sizeBytes": 227633266688,
@@ -96661,15 +98251,6 @@
           "sizeBytes": 43379169689
         },
         {
-          "name": "[BP · 28 Go]",
-          "url": "https://link-vault.org/c/4z05qkad",
-          "group": "Backport",
-          "version": "01.017",
-          "mirror": "Mutlihost",
-          "fileName": "duplex-PPSA04405.ps5-[DLPSGAME.COM].rar",
-          "sizeBytes": 30537217474
-        },
-        {
           "name": "[PKG · APR-EMU]",
           "url": "https://www.mediafire.com/file/ll7sakzr5wknm35/[DLPSGAME.COM]-PPSA22121-DUPLEX.part13.rar/file",
           "group": "Standard",
@@ -96775,6 +98356,42 @@
           "group": "Standard",
           "version": "01.017",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/EKX5CyyT",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "url": "https://vikingfile.com/f/xMvb46BfS5",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "url": "https://1fichier.com/?tarvgcxd3ug0lavegc5r&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "url": "https://www.rootz.so/d/1Ka1zs",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
         }
       ],
       "sizeBytes": 149250113536,
@@ -96912,14 +98529,6 @@
           "version": "01.017",
           "mirror": "Multihost",
           "fileName": "[SuperPSX]-NBA.2K26-PPSA28420-USA-Game (v01.017)+DLC-PS5"
-        },
-        {
-          "name": "[BP · fix · USA]",
-          "url": "https://link-vault.org/c/1x59fms2",
-          "group": "Backport",
-          "version": "01.017",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-NBA.2K26-PPSA28420-USA-Backport 7.xx+ (@kerrdec97)-PS5"
         },
         {
           "name": "[PKG · APR-EMU · USA] #01",
@@ -97067,6 +98676,15 @@
           "url": "https://buzzheavier.com/i2d3o1yvsri5",
           "version": "01.017",
           "mirror": "Buzz"
+        },
+        {
+          "url": "https://gofile.io/d/BhGXpKCo",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-NBA.2K26-PPSA28420-USA-Backport 7.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 46116372,
+          "group": "Backport",
+          "version": "01.017"
         }
       ],
       "sizeBytes": 404800667648,
@@ -102146,13 +103764,40 @@
           "sizeBytes": 43379169689
         },
         {
-          "name": "[BP · 28 Go · v1.017]",
-          "url": "https://link-vault.org/c/4z05qkad",
+          "url": "https://gofile.io/d/EKX5CyyT",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
           "group": "Backport",
-          "version": "01.017",
-          "mirror": "Mutlihost",
-          "fileName": "duplex-PPSA04405.ps5-[DLPSGAME.COM].rar",
-          "sizeBytes": 30537217474
+          "version": "01.017"
+        },
+        {
+          "url": "https://vikingfile.com/f/xMvb46BfS5",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "url": "https://1fichier.com/?tarvgcxd3ug0lavegc5r&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
+        },
+        {
+          "url": "https://www.rootz.so/d/1Ka1zs",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
+          "sizeBytes": 294912000,
+          "group": "Backport",
+          "version": "01.017"
         }
       ],
       "sizeBytes": 169651208192,
@@ -112110,14 +113755,6 @@
           "fileName": "[SuperPSX]-Redout.II-PPSA05849-USA-Game (v01.107)-PS5"
         },
         {
-          "name": "[DLC · USA]",
-          "url": "https://link-vault.org/c/2eyxow3t",
-          "group": "DLC",
-          "version": "01.107",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Redout.II-PPSA05849-USA-DLCs (EMU – Pippo)-PS5"
-        },
-        {
           "name": "[PKG · USA]",
           "url": "https://gofile.io/d/THABO2",
           "group": "Standard",
@@ -112174,6 +113811,42 @@
           "url": "https://1fichier.com/?7tow2ssfwj56dli23bhl",
           "version": "01.107",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/9zyoTWfk",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Redout.II-PPSA05849-USA-DLCs (EMU – Pippo)-PS5.rar",
+          "sizeBytes": 87592,
+          "group": "DLC",
+          "version": "01.107"
+        },
+        {
+          "url": "https://vikingfile.com/f/7Y1Lau8jPE",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Redout.II-PPSA05849-USA-DLCs (EMU – Pippo)-PS5.rar",
+          "sizeBytes": 87592,
+          "group": "DLC",
+          "version": "01.107"
+        },
+        {
+          "url": "https://1fichier.com/?liqi5ghesjmjm9x2znp0&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Redout.II-PPSA05849-USA-DLCs (EMU – Pippo)-PS5.rar",
+          "sizeBytes": 87592,
+          "group": "DLC",
+          "version": "01.107"
+        },
+        {
+          "url": "https://www.rootz.so/d/1Kpxpo",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Redout.II-PPSA05849-USA-DLCs (EMU – Pippo)-PS5.rar",
+          "sizeBytes": 87592,
+          "group": "DLC",
+          "version": "01.107"
         }
       ],
       "sizeBytes": 47244640256,
@@ -113980,14 +115653,6 @@
           "mirror": "Data"
         },
         {
-          "name": "[DLC]",
-          "url": "https://link-vault.org/c/4b7c9sqh",
-          "group": "DLC",
-          "version": "01.200.000",
-          "mirror": "Multihosts",
-          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX"
-        },
-        {
           "name": "[PKG] #01",
           "url": "https://vikingfile.com/f/qwB1VbUViL",
           "group": "Standard",
@@ -114338,6 +116003,123 @@
           "name": "[PKG]",
           "url": "https://gofile.io/d/uVDvmw",
           "mirror": "Gofile"
+        },
+        {
+          "url": "https://rootz.so/d/1mPKIy",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part10.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/1uT1xw",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part09.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/1U91V2",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/1qRBAW",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/1M5Jq4",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/VhEg4",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/1iNTRQ",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/Zj5Xc",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/LUdfM",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/HSmno",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/1E1c6y",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part13.rar",
+          "sizeBytes": 586950901,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/DQvwG",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part12.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
+        },
+        {
+          "url": "https://rootz.so/d/1Q7AdU",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-RESIDENT.EVIL.requiem.[PPSA31246]-[01.200.000]-PS5-DUPLEX.part11.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.200.000"
         }
       ],
       "sizeBytes": 132070244352,
@@ -116281,14 +118063,6 @@
         },
         {
           "name": "[PKG · APR-EMU · Folder · USA · v1.031]",
-          "url": "https://link-vault.org/c/0bnmfx21",
-          "group": "Standard",
-          "version": "01.031",
-          "mirror": "Multihost",
-          "fileName": "Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5"
-        },
-        {
-          "name": "[PKG · APR-EMU · Folder · USA · v1.031]",
           "url": "https://gofile.io/d/V852Av",
           "group": "Standard",
           "version": "01.031",
@@ -116463,6 +118237,222 @@
           "group": "Standard",
           "version": "01.000",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/76xPCAnF",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/4j95KZjd",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/lmn27U3S",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/PEme36sC",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/Yb7xYjd9",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://gofile.io/d/ZuXGh65S",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part6.rar",
+          "sizeBytes": 830912593,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/wHxtdKEUGD",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/GlfDNqXCIO",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/EJchkmQNIP",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/wiINXuIrcY",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/63oYd12LU5",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://vikingfile.com/f/bNtNmksb6h",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part6.rar",
+          "sizeBytes": 830912593,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://1fichier.com/?v1otz09h5gy6292cv9wo&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://1fichier.com/?74sru3juslwpk3q2gnrf&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://1fichier.com/?ye8tcwv8g39wey9eqk3q&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://1fichier.com/?ypbo9a6wanh4p2uned37&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://1fichier.com/?0wj2b785wjl03sz536zr&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://1fichier.com/?pmhqtiw6w7vkrw9370nz&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part6.rar",
+          "sizeBytes": 830912593,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/1CWKGm",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/2H8rJ2",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/3rwMy",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/2LAiAa",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/1GYB8K",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.031"
+        },
+        {
+          "url": "https://www.rootz.so/d/18UTPE",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Riders.Republic-PPSA01374-USA-Game(v01.031)-[APR-EMU]-PS5.part6.rar",
+          "sizeBytes": 830912593,
+          "group": "Standard",
+          "version": "01.031"
         }
       ],
       "sizeBytes": 53687091200,
@@ -116728,25 +118718,9 @@
       "description": "Format: PKG · Backport 4.xx\nTags: PPSA04540, v01.009, EUR\nSize: 92 GB\nPassword: SuperPSX\nVoices: English, French (France), Spanish, Japanese, German, Italian\nBackport 4.xx\nWorks on 9.xx and higher\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[DLC]",
-          "url": "https://link-vault.org/c/0souxbsl",
-          "group": "DLC",
-          "version": "01.009",
-          "mirror": "Multihosts"
-        },
-        {
           "name": "[BP · 5 Go]",
           "url": "https://link-vault.org/c/hjejr0lw",
           "group": "Backport",
-          "version": "01.009",
-          "mirror": "Multihosts",
-          "fileName": "[ Under the Waves ]-[DLPSGAME.COM].rar",
-          "sizeBytes": 5519032975
-        },
-        {
-          "name": "[PKG · 5 Go]",
-          "url": "https://link-vault.org/c/4gheqsso",
-          "group": "Standard",
           "version": "01.009",
           "mirror": "Multihosts",
           "fileName": "[ Under the Waves ]-[DLPSGAME.COM].rar",
@@ -116945,6 +118919,645 @@
           "version": "01.009",
           "mirror": "Buzz",
           "fileName": "[SuperPSX]-EA.Sports.UFC.5-PPSA03541-EUR-Backport 7.xx+ (@DecKerr97)-PS5"
+        },
+        {
+          "url": "https://gofile.io/d/YNj52Xmz",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/as0joZt6",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/7o9K5zWf",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/AYbLVy4v",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/Buumn3UB",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/NylPw30z",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/YIVEpqP2",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/eSEqTsMX",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/SD6pzsNM",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part09.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/NPMJmPcI",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part10.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://gofile.io/d/L8ja7OZQ",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part11.rar",
+          "sizeBytes": 7441030840,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/hzf5zjn1v3",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/XGPGEpCQER",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/de3oDODkMb",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/hilFQmmkSb",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/GRxKwCC86b",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/O7jDDd9okb",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/J02t6JrxuM",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/VMZA5bmNln",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/R5HKvftUEN",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part09.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/kaHWfp8jVU",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part10.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/LQJmnuv1sV",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part11.rar",
+          "sizeBytes": 7441030840,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?3hjx3rspwpylb25s2uuh&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?ab8muovhul35va2ruioe&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?j26e2ttm1ztm5jmrhoof&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?3uzz0wrqdwgkg9m70yao&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?aboovik66sc9hx935ivv&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?izr6nnfim2r24c5wzhbj&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?my2olod31iplux84wt1n&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?h64gl4uwokztdocoxptp&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?amdhebctf3pw7dauzm1o&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part09.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?h0z0rg9wj6di8zowmehh&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part10.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?zck24qjufhxz9vo3f45t&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part11.rar",
+          "sizeBytes": 7441030840,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1wzb3Q",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/2BE2vg",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/yXoES",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/2FFtnE",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/12Zf60",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/2JHkem",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1AdMky",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/60pmq",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/16bVtQ",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part09.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1EfDcW",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part10.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1yyvI",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04539-USA-Game (v01.009) + DLC-PS5.part11.rar",
+          "sizeBytes": 7441030840,
+          "group": "DLC",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/YblxD1ZstD",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/7ILZ54DIlz",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/nzhBx6aix2",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/QIRYzCjbzP",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/7Mri6OeqUW",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/qGyR1U9UGB",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/kfnFcOaqZ4",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/oZo8Fxh1MU",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://vikingfile.com/f/Hkq72oSB7s",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part09.rar",
+          "sizeBytes": 621218365,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?ibyr7z1i5dzw1mt9k2l5&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?0zq91gthgx5aduiiev42&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?spkp6ohsf72jfl5d5lj6&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?e7dohm9kre6ee0zdprxc&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?n7buhdr3qhh7ri28iejc&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?pqv92w68tssbekmswhxg&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?tm26mczs7mspkpejdm3u&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?u4cvvwmja1sy9br46oea&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part09.rar",
+          "sizeBytes": 621218365,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://1fichier.com/?yx2dmsy4vsmbto5wof6y&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/UB7I0",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1cpVBo",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1swuZs",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1wylRQ",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/kIWkC",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/210cIy",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/oKNbk",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/1ZJW4G",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part08.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.009"
+        },
+        {
+          "url": "https://www.rootz.so/d/gGfse",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Rise.of.The.Ronin-PPSA04540-EUR-Game-(v01.009) [APR-EMU]-PS5.part09.rar",
+          "sizeBytes": 621218365,
+          "group": "Standard",
+          "version": "01.009"
         }
       ],
       "sizeBytes": 98784247808,
@@ -117156,12 +119769,6 @@
           "mirror": "Multihost"
         },
         {
-          "name": "[DLC]",
-          "url": "https://link-vault.org/c/1o3nupr6",
-          "group": "DLC",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · USA]",
           "url": "https://www.mediafire.com/file/lbj3g3b0e5n01bk/[DLPSGAME.COM]-PPSA09845.part1.rar/file",
           "group": "Standard",
@@ -117218,6 +119825,38 @@
           "mirror": "Buzz",
           "fileName": "[DLPSGAME.COM]-01.006 PPSA07587.rar",
           "sizeBytes": 3629247365
+        },
+        {
+          "url": "https://gofile.io/d/hb5WfRKJ",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Roadcraft-PPSA09845-USA-DLC (@Pkykzhack)-PS5.rar",
+          "sizeBytes": 73175,
+          "group": "DLC"
+        },
+        {
+          "url": "https://vikingfile.com/f/bmsKtBpcDg",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Roadcraft-PPSA09845-USA-DLC (@Pkykzhack)-PS5.rar",
+          "sizeBytes": 73175,
+          "group": "DLC"
+        },
+        {
+          "url": "https://1fichier.com/?1gnwcuvyo4jwkuqtf560&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Roadcraft-PPSA09845-USA-DLC (@Pkykzhack)-PS5.rar",
+          "sizeBytes": 73175,
+          "group": "DLC"
+        },
+        {
+          "url": "https://www.rootz.so/d/26atsG",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Roadcraft-PPSA09845-USA-DLC (@Pkykzhack)-PS5.rar",
+          "sizeBytes": 73175,
+          "group": "DLC"
         }
       ],
       "sizeBytes": 59055800320,
@@ -125544,13 +128183,6 @@
       "description": "Format: PKG · Backport 7.xx\nTags: PPSA04962, v01.014, USA\nSize: 36 GB\nPassword: SuperPSX\nVoices: English\nBackport 7.xx\nWorks on 10.xx and higher\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[PKG]",
-          "url": "https://link-vault.org/c/4enpe33q",
-          "group": "Standard",
-          "version": "01.014",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[BP]",
           "url": "https://link-vault.org/c/n3cx2289",
           "group": "Backport",
@@ -125750,6 +128382,114 @@
           "group": "Standard",
           "version": "01.014",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/JMH04pPw",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://gofile.io/d/yOoSMhqF",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://gofile.io/d/PpcjLb5u",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://gofile.io/d/8zV8UYY9",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part4.rar",
+          "sizeBytes": 9298604195,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://vikingfile.com/f/c7bPANuJGq",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://vikingfile.com/f/IhuAiGRAlA",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://vikingfile.com/f/iOirzbixWW",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://vikingfile.com/f/yUeXVJEhxs",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part4.rar",
+          "sizeBytes": 9298604195,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://www.rootz.so/d/1TYeRs",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://www.rootz.so/d/SxyHA",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://www.rootz.so/d/1pqo3E",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.014"
+        },
+        {
+          "url": "https://www.rootz.so/d/1bcM6q",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Skydance’s.BEHEMOTH-PPSA04962-USA-Game-(v01.014)-PS5.part4.rar",
+          "sizeBytes": 9298604195,
+          "group": "Standard",
+          "version": "01.014"
         }
       ],
       "sizeBytes": 38654705664,
@@ -127364,12 +130104,6 @@
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://link-vault.org/c/0h6l62qq",
-          "group": "Standard",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[BP]",
           "url": "https://link-vault.org/c/r4py4bd2",
           "group": "Backport",
@@ -127448,6 +130182,230 @@
           "region": "USA",
           "editionId": "PPSA04930",
           "mirror": "Gofile"
+        },
+        {
+          "url": "https://gofile.io/d/BEXxk7FU",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://gofile.io/d/eiZZHtOz",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://gofile.io/d/dBfSLte2",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://gofile.io/d/8J8HKpQw",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://gofile.io/d/sQam54PM",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://gofile.io/d/m8lDgTG0",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part6.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://gofile.io/d/NdmBDcDM",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part7.rar",
+          "sizeBytes": 1095216660,
+          "group": "Standard"
+        },
+        {
+          "url": "https://vikingfile.com/f/jJWJkYq1me",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://vikingfile.com/f/tccmo2fnK4",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://vikingfile.com/f/YXQNBqZFij",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://vikingfile.com/f/frHDQbjq7t",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://vikingfile.com/f/4AUzNPSBik",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://vikingfile.com/f/X2nKl3szcs",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part6.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://vikingfile.com/f/kgZcFonOXB",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part7.rar",
+          "sizeBytes": 1095216660,
+          "group": "Standard"
+        },
+        {
+          "url": "https://1fichier.com/?dnnl1gf2io00ri6i84s0&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://1fichier.com/?ckqdlq566jnyd6zge5ek&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://1fichier.com/?bnsokukdyepoxu9g0kf5&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://1fichier.com/?7632ka07p6h77bumdh2q&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://1fichier.com/?uh1b4memr0knmhf9dpm1&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://1fichier.com/?bzzjc6i2lvyp3xre0paz&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part6.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://1fichier.com/?gb8owfutl6hj1907m2l2&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part7.rar",
+          "sizeBytes": 1095216660,
+          "group": "Standard"
+        },
+        {
+          "url": "https://www.rootz.so/d/Fc8bg",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part1.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://www.rootz.so/d/1OGWVU",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part2.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://www.rootz.so/d/JdzTE",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part3.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://www.rootz.so/d/1gWpFI",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part4.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://www.rootz.so/d/1kYg6q",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part5.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://www.rootz.so/d/TqaY4",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part6.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard"
+        },
+        {
+          "url": "https://www.rootz.so/d/1SINN2",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-SnowRunner-PPSA04930-USA-Game (v01.048) [APR-EMU]-PS5.part7.rar",
+          "sizeBytes": 1095216660,
+          "group": "Standard"
         }
       ],
       "sizeBytes": 65498251264,
@@ -133397,13 +136355,6 @@
           "mirror": "Multihost"
         },
         {
-          "name": "[BP]",
-          "url": "https://link-vault.org/c/4b2115za",
-          "group": "Backport",
-          "version": "01.002",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · Folder · USA] 14/14",
           "url": "https://rootz.so/d/U0btw",
           "group": "Standard",
@@ -133546,6 +136497,42 @@
           "group": "Standard",
           "version": "01.002",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/L7u98dBA",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Starfield-PPSA24884-USA-Backport 4.xx+ (@DecKerr97)-PS5.rar",
+          "sizeBytes": 211015434,
+          "group": "Backport",
+          "version": "01.002"
+        },
+        {
+          "url": "https://vikingfile.com/f/gzteIH0Zbq",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Starfield-PPSA24884-USA-Backport 4.xx+ (@DecKerr97)-PS5.rar",
+          "sizeBytes": 211015434,
+          "group": "Backport",
+          "version": "01.002"
+        },
+        {
+          "url": "https://1fichier.com/?dkvsc6ay2mmqym4n28ou&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Starfield-PPSA24884-USA-Backport 4.xx+ (@DecKerr97)-PS5.rar",
+          "sizeBytes": 211015434,
+          "group": "Backport",
+          "version": "01.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/Po2b2",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Starfield-PPSA24884-USA-Backport 4.xx+ (@DecKerr97)-PS5.rar",
+          "sizeBytes": 211015434,
+          "group": "Backport",
+          "version": "01.002"
         }
       ],
       "sizeBytes": 233001975808,
@@ -137045,13 +140032,6 @@
           "mirror": "Multihost"
         },
         {
-          "name": "[BP] #01",
-          "url": "https://link-vault.org/c/0fkv4pmd",
-          "group": "Backport",
-          "version": "01.004",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[BP] #02",
           "url": "https://link-vault.org/c/h53go2ss",
           "group": "Backport",
@@ -137090,6 +140070,42 @@
           "group": "Standard",
           "version": "01.004",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/R44Zu7SW",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Super.Monkey.Ball.Banana.Mania-PPSA01668-USA-Backport 4.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 82680217,
+          "group": "Backport",
+          "version": "01.004"
+        },
+        {
+          "url": "https://vikingfile.com/f/BbjQdsxsEX",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Super.Monkey.Ball.Banana.Mania-PPSA01668-USA-Backport 4.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 82680217,
+          "group": "Backport",
+          "version": "01.004"
+        },
+        {
+          "url": "https://1fichier.com/?mm7v5ufo3vewn58hisz8&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Super.Monkey.Ball.Banana.Mania-PPSA01668-USA-Backport 4.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 82680217,
+          "group": "Backport",
+          "version": "01.004"
+        },
+        {
+          "url": "https://www.rootz.so/d/21HNku",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Super.Monkey.Ball.Banana.Mania-PPSA01668-USA-Backport 4.xx+ (@kerrdec97)-PS5.rar",
+          "sizeBytes": 82680217,
+          "group": "Backport",
+          "version": "01.004"
         }
       ],
       "sizeBytes": 5368709120,
@@ -142613,13 +145629,6 @@
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://link-vault.org/c/2ymffvmz",
-          "group": "Standard",
-          "version": "01.000.013",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · EUR]",
           "url": "https://1fichier.com/?ke8i4hcrlm1mymi03uny",
           "group": "Standard",
@@ -142665,6 +145674,114 @@
           "group": "Standard",
           "version": "01.000.013",
           "mirror": "Multihost"
+        },
+        {
+          "url": "https://vikingfile.com/f/BHQIPDJ1ZT",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://vikingfile.com/f/3vf2SFT4D3",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://vikingfile.com/f/QQPGCu3USt",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://vikingfile.com/f/RcRqHvWyt8",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://vikingfile.com/f/6W52R4eRtP",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://vikingfile.com/f/ULg6BZCxdc",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part06.rar",
+          "sizeBytes": 5250597519,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://www.rootz.so/d/IIz20",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://www.rootz.so/d/1QxMvo",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part06.rar",
+          "sizeBytes": 5250597519,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://www.rootz.so/d/EH8AS",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://www.rootz.so/d/MKptY",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://www.rootz.so/d/1Z14eu",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
+        },
+        {
+          "url": "https://www.rootz.so/d/1UzDnM",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-The.Alters-PPSA16033-EUR-Game (v01.000.013)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.000.013"
         }
       ],
       "sizeBytes": 122406567936,
@@ -157005,13 +160122,6 @@
       "description": "Format: Folder · PKG · Backport 4.xx\nTags: PPSA23364, v01.049, EUR\nSize: 73 GB\nPassword: SuperPSX\nVoices: English, French, German\nWorks on 6.xx and higherGame Extracted Size — 205 GB",
       "downloadLinks": [
         {
-          "name": "[DLC]",
-          "url": "https://link-vault.org/c/0t8r458b",
-          "group": "DLC",
-          "version": "01.049",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · Folder]",
           "url": "https://rootz.so/d/25l45Y",
           "group": "Standard",
@@ -157064,6 +160174,150 @@
           "group": "Standard",
           "version": "01.049",
           "mirror": "1File"
+        },
+        {
+          "url": "https://vikingfile.com/f/OmMWjpBLkR",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://vikingfile.com/f/yq8MyVd8ee",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://vikingfile.com/f/WFWZzK1ntF",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://vikingfile.com/f/1lP5K8efpo",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://vikingfile.com/f/XLOPAZVXZr",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://vikingfile.com/f/sIUbBptaIH",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://vikingfile.com/f/RtxvepZ2ew",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://vikingfile.com/f/ac9SeFCLTa",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part08.rar",
+          "sizeBytes": 3231962890,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://1fichier.com/?kiysd1fs5hllk1fn4fwz&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://1fichier.com/?r7q5mg13rhk9hu2bda9h&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://1fichier.com/?jq054r4cq8fbic5ndlpz&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://1fichier.com/?v9h6c929tr8eaqber1ec&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://1fichier.com/?p16mbcfadmvbk2s4cvlm&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://1fichier.com/?4be8q8c61kn50m8uods7&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://1fichier.com/?8wp93fruehwdy597jocl&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part07.rar",
+          "sizeBytes": 10737418240,
+          "group": "DLC",
+          "version": "01.049"
+        },
+        {
+          "url": "https://1fichier.com/?d9orfo78us7t7oe30jiq&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Train.Sim.World.5-PPSA23364-EUR-Game (v01.049) (DLC) [APR-EMU]-PS5.part08.rar",
+          "sizeBytes": 3231962890,
+          "group": "DLC",
+          "version": "01.049"
         }
       ],
       "sizeBytes": 220117073920,
@@ -160466,13 +163720,6 @@
           "mirror": "Multihost"
         },
         {
-          "name": "[DLC · v1.003] #01",
-          "url": "https://link-vault.org/c/07wd5obk",
-          "group": "DLC",
-          "version": "01.003",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[DLC · v1.003] #02",
           "url": "https://link-vault.org/c/vq4kawva",
           "group": "DLC",
@@ -160763,6 +164010,24 @@
           "group": "Standard",
           "version": "01.004.003",
           "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/a2ODmFta",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Unknown.9.Awakening-PPSA17841-USA-DLC(@Pippo)-PS5.rar",
+          "sizeBytes": 33751,
+          "group": "DLC",
+          "version": "01.003"
+        },
+        {
+          "url": "https://www.rootz.so/d/pG7sW",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Unknown.9.Awakening-PPSA17841-USA-DLC(@Pippo)-PS5.rar",
+          "sizeBytes": 33751,
+          "group": "DLC",
+          "version": "01.003"
         }
       ],
       "sizeBytes": 62277025792,
@@ -163350,13 +166615,6 @@
       "description": "Format: exFAT · PKG · Backport 7.xx\nTags: PPSA04451, v01.010.002, EUR\nSize: 62 GB\nPassword: SuperPSX\nVoices: German, Chinese, Spanish, French (France), English, Japanese, Russian\nBackport 7.xx\nWorks on 9.xx and higher\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://link-vault.org/c/0z0makok",
-          "group": "Standard",
-          "version": "01.010.002",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[BP · 59 Mo · EUR]",
           "url": "https://vikingfile.com/f/UaJH5GsCFG",
           "group": "Backport",
@@ -163645,6 +166903,195 @@
           "url": "https://buzzheavier.com/vc0x2p6p4hu8",
           "version": "01.010.002",
           "mirror": "Buzz"
+        },
+        {
+          "url": "https://vikingfile.com/f/tsv6LLuSC2",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://vikingfile.com/f/KJVBKIvh0k",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://vikingfile.com/f/BMEnoMG4A3",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://vikingfile.com/f/t0pSIf4W9z",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://vikingfile.com/f/BYg8A3WxDw",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://vikingfile.com/f/EyuTZOJJY3",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://vikingfile.com/f/z6SBf57xip",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part07.rar",
+          "sizeBytes": 3178275799,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://1fichier.com/?dsm4myaztc73xqdf670a&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://1fichier.com/?ijh2nsrgi2fbzs4ct5lq&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://1fichier.com/?jx8q25ceyd5vgsxmxlll&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://1fichier.com/?pvc7lfe2c8t6oolo03ls&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://1fichier.com/?s9isu3zevqnq9ddfubxi&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://1fichier.com/?3bbhl0dumru476zfz81z&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://1fichier.com/?mukna73ikv08z07s4w20&af=4186346",
+          "name": "1Fichier",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part07.rar",
+          "sizeBytes": 3178275799,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/64JMW",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part06.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/1AgqKe",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part05.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/22SUy",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part04.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/16ezT6",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part03.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/1EihCC",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part02.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/1Sx98a",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part01.rar",
+          "sizeBytes": 10737418240,
+          "group": "Standard",
+          "version": "01.010.002"
+        },
+        {
+          "url": "https://www.rootz.so/d/12d8fg",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Warhammer.40,000.Space.Marine.2-PPSA04451 – EUR-Game (v01.010.002)-PS5.part07.rar",
+          "sizeBytes": 3178275799,
+          "group": "Standard",
+          "version": "01.010.002"
         }
       ],
       "sizeBytes": 153545080832,
@@ -165695,13 +169142,6 @@
           "mirror": "Multihost"
         },
         {
-          "name": "[DLC · v1.000]",
-          "url": "https://link-vault.org/c/1r92uur4",
-          "group": "DLC",
-          "version": "01.000",
-          "mirror": "Multihost"
-        },
-        {
           "name": "[PKG · APR-EMU · Folder · USA]",
           "url": "https://akirabox.com/ex5z25qoD3Kq/file",
           "group": "Standard",
@@ -165843,6 +169283,33 @@
           "version": "01.000",
           "fileName": "[DLPSGAME.COM]-WitchSpring R ALL DLC.rar",
           "mirror": "Rootz"
+        },
+        {
+          "url": "https://gofile.io/d/8smLyIM1",
+          "name": "Gofile",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Witch.Spring.R-PPSA22914-USA-ALL.DLC.Pack-PS5.rar",
+          "sizeBytes": 5410652,
+          "group": "DLC",
+          "version": "01.000"
+        },
+        {
+          "url": "https://vikingfile.com/f/mWCBsKemR8",
+          "name": "Vikingfile",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Witch.Spring.R-PPSA22914-USA-ALL.DLC.Pack-PS5.rar",
+          "sizeBytes": 5410652,
+          "group": "DLC",
+          "version": "01.000"
+        },
+        {
+          "url": "https://www.rootz.so/d/1SdO9A",
+          "name": "Rootz",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Witch.Spring.R-PPSA22914-USA-ALL.DLC.Pack-PS5.rar",
+          "sizeBytes": 5410652,
+          "group": "DLC",
+          "version": "01.000"
         }
       ],
       "sizeBytes": 20401094656,
