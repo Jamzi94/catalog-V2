@@ -92,6 +92,15 @@ def ingerer(catalogue: dict, releve: dict) -> dict:
                     octets = taille_en_octets(e.get("taille"))
                     if octets:
                         neuf["sizeBytes"] = octets
+                    # LinkVault audite ses liens et affiche « Available ». C'est
+                    # la SEULE source du catalogue qui sache dire si un lien
+                    # 1fichier est vivant : cet hote ne se sonde pas autrement.
+                    # Un etat ABSENT ne vaut pas « mort » — l'absence
+                    # d'information n'est pas une information, et la traiter
+                    # comme telle ferait disparaitre des liens vivants.
+                    etat = (e.get("etat") or "").strip().lower()
+                    if etat and etat not in ("available", "disponible"):
+                        neuf["linkDead"] = True
                     for champ in ("group", "version", "region", "editionId"):
                         if lien.get(champ):
                             neuf[champ] = lien[champ]

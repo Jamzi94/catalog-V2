@@ -85,4 +85,28 @@ ingerer(cat3, RELEVE)
 u3 = [l["url"] for l in cat3["packages"][0]["downloadLinks"]]
 assert u3.count("https://gofile.io/d/2D3eu3uM") == 1, u3
 
+
+# --- l ETAT que LinkVault donne gratuitement --------------------------------
+# Chaque ligne porte « Available » et la date du dernier audit. C est la seule
+# source du catalogue qui sache dire si un lien 1fichier est vivant : cet hote
+# ne se sonde pas autrement. Un lien annonce mort entre marque, pas ignore —
+# il reste dans la donnee et disparait a l affichage, comme les 404.
+RELEVE_ETAT = {"68tx71hg": {"titre": "T", "hotes": {"Gofile": [
+    {"url": "https://gofile.io/d/VIVANT", "nom": "a.rar", "taille": "1 GB",
+     "etat": "Available"},
+    {"url": "https://gofile.io/d/MORT", "nom": "b.rar", "taille": "1 GB",
+     "etat": "Unavailable"},
+    {"url": "https://gofile.io/d/MUET", "nom": "c.rar", "taille": "1 GB",
+     "etat": None},
+]}}}
+cat4 = _cat()
+ingerer(cat4, RELEVE_ETAT)
+par_url = {l["url"]: l for l in cat4["packages"][0]["downloadLinks"]}
+assert not par_url["https://gofile.io/d/VIVANT"].get("linkDead")
+assert par_url["https://gofile.io/d/MORT"].get("linkDead") is True
+# TEMOIN : un etat ABSENT ne vaut pas « mort ». L absence d information n est
+# pas une information — c est le zero rassurant, et il ferait disparaitre des
+# liens vivants.
+assert not par_url["https://gofile.io/d/MUET"].get("linkDead")
+
 print("OK")
