@@ -694,6 +694,31 @@ jobs:
           fi
           rm -f releve-*.json releve-*.pid log-releve-*.txt catalogue-au-depart.json
 
+      - name: Resoudre les conteneurs LinkVault
+        if: env.MERGE_SKIPPED != '1'
+        run: |
+          # Un lien link-vault.org/c/<slug> n'heberge RIEN : c'est une page qui
+          # agrege les miroirs d'un meme paquet. Un seul conteneur porte jusqu'a
+          # 32 liens — 8 parties x Gofile, Vikingfile, 1Fichier, Rootz — chacun
+          # avec son nom complet, sa taille et son etat de disponibilite.
+          # Mesure du 2026-08-30 : les 8 liens Gofile du conteneur DOOM Eternal
+          # etaient ABSENTS du catalogue. Un conteneur apporte du NEUF.
+          #
+          # POURQUOI UN RELEVE VERSIONNE ET PAS UNE COLLECTE ICI. Les URL ne
+          # sont ni dans le HTML rendu (zero occurrence de « gofile.io/d/ » sur
+          # 83 Ko), ni joignables autrement que par le bouton « Export All » de
+          # la page, qui ecrit dans le presse-papier. Elles ne transitent sinon
+          # que par une API protegee par un jeton Turnstile, et en fabriquer en
+          # serie serait contourner une protection anti-bot. Le releve se fait
+          # donc au navigateur, a la main, et se versionne ici pour que la CI ne
+          # perde pas l'acquis a chaque run.
+          if [ -f ps5-catalog.json ] && [ -f data/linkvault-releve.json ]; then
+            python3 scripts/ingerer_linkvault.py ps5-catalog.json                     data/linkvault-releve.json || true
+          else
+            echo "Pas de releve LinkVault versionne — rien a resoudre."
+          fi
+
+
       - name: Nommer les fiches que la page source ne nomme pas
         if: env.MERGE_SKIPPED != '1'
         run: |

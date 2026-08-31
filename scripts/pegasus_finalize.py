@@ -1057,6 +1057,29 @@ def _replacer_liens_par_nom(packages: list, stats: dict) -> None:
     stats["liens_egares_deplaces"] = deplaces
 
 
+def _retirer_liens_morts(packages: list, stats: dict) -> None:
+    """Retire les liens marques morts, SAUF s'ils sont les derniers de la fiche.
+
+    Mesure du 2026-08-31 : 601 liens restaient sans nom chez des hebergeurs qui
+    se LISENT (vikingfile, datanodes, filekeeper) ; sur 50 tires au sort, 50
+    rendent HTTP 404. L'instrument n'est pas en cause — 12 liens deja nommes
+    chez les MEMES hotes se relisent 12 fois sur 12. Ce sont des fichiers
+    supprimes, et les afficher fait perdre son temps a l'utilisateur.
+
+    On ne vide JAMAIS une fiche : un catalogue qui cache un jeu ment davantage
+    qu'un catalogue qui montre un lien perime. Une fiche dont tout est mort
+    garde ses liens, et c'est un signal a traiter ailleurs.
+    """
+    retires = 0
+    for pkg in packages:
+        liens = pkg.get("downloadLinks") or []
+        vivants = [l for l in liens if not l.get("linkDead")]
+        if vivants and len(vivants) < len(liens):
+            retires += len(liens) - len(vivants)
+            pkg["downloadLinks"] = vivants
+    stats["liens_morts_retires"] = retires
+
+
 def finalize_catalog(catalog: dict) -> dict:
     stats = {
         "total": 0, "size_dropped": 0, "missing_titleId": 0, "missing_title": 0,
@@ -1080,6 +1103,7 @@ def finalize_catalog(catalog: dict) -> dict:
     # toutes les occurrences portent un editionId decidable. Le nom de fichier
     # releve chez l'hebergeur en voit d'autres, et il dit OU ils devraient
     # etre — ce que l'editionId ne dit pas.
+    _retirer_liens_morts(packages, stats)
     _replacer_liens_par_nom(packages, stats)
     _purger_liens_etrangers(packages, stats)
     for pkg in packages:

@@ -106,6 +106,18 @@ def relever(lien: dict) -> bool:
     else:
         return False
     from releves import ressemble_a_un_nom_de_fichier
+    if not nom:
+        # Rien lu : est-ce que le FICHIER a disparu, ou est-ce nous qui n'avons
+        # pas su lire ? La question se tranche, elle ne se suppose pas. Mesure
+        # du 2026-08-31 : sur 50 liens sans nom chez ces hotes, 50 rendent 404.
+        # Une requete de plus par echec, et le lien cesse d'etre resonde a vie.
+        try:
+            code, _ = H._FETCH(url)
+            if code == 404:
+                lien["linkDead"] = True
+        except Exception:                                    # noqa: BLE001
+            pass
+        return False
     if not ressemble_a_un_nom_de_fichier(nom):
         # « Data Vaults | Free Unlimited Files Upload Services » etait entre par
         # ici : le <title> d'une page d'accueil servie a la place du fichier.

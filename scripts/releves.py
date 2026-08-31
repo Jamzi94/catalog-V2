@@ -29,7 +29,7 @@ import json
 import re
 from pathlib import Path
 
-CHAMPS = ("fileName", "sizeBytes")
+CHAMPS = ("fileName", "sizeBytes", "linkDead")
 
 # Un nom de fichier porte une extension, ou l'identifiant Sony du jeu. Un titre
 # de site n'a ni l'un ni l'autre.
@@ -62,9 +62,13 @@ def ressemble_a_un_nom_de_fichier(nom) -> bool:
 
 def ecrire(chemin, liens) -> int:
     """Dépose {url: {champs}} pour les liens qui ont reçu un nom. Rend le compte."""
+    # Un lien MORT est un releve aussi : c'est meme le plus utile, puisqu'il
+    # evite de le resonder a chaque run. Ne retenir que les liens NOMMES le
+    # perdait en route.
     releve = {l["url"]: {k: l[k] for k in CHAMPS if l.get(k)}
               for l in liens if l.get("url")
-              and ressemble_a_un_nom_de_fichier(l.get("fileName"))}
+              and (ressemble_a_un_nom_de_fichier(l.get("fileName"))
+                   or l.get("linkDead"))}
     Path(chemin).write_text(json.dumps(releve, ensure_ascii=False, indent=1),
                             encoding="utf-8")
     return len(releve)
