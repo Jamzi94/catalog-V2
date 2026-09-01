@@ -1046,7 +1046,8 @@
           "version": "01.005",
           "region": "USA",
           "editionId": "PPSA05366",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · DLC · 1 Mo · USA · v1.000]",
@@ -1066,7 +1067,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA05366",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000] #02",
@@ -1075,7 +1077,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA05366",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 46 Go · EUR · v1.000] #01",
@@ -1910,7 +1913,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA10600",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -2257,7 +2261,8 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA09351",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP · 140 Mo · USA]",
@@ -2427,7 +2432,8 @@
           "version": "01.000.000",
           "region": "USA",
           "editionId": "PPSA09351",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v01.000.000] #02",
@@ -2436,7 +2442,8 @@
           "version": "01.000.000",
           "region": "USA",
           "editionId": "PPSA09351",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v01.000.000]",
@@ -2517,7 +2524,8 @@
           "version": "01.010",
           "region": "USA",
           "editionId": "PPSA09351",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · 140 Mo]",
@@ -3780,7 +3788,8 @@
           "group": "Standard",
           "region": "USA",
           "editionId": "PPSA02663",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -3968,7 +3977,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA08312",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP · 109 Mo · EUR] #01",
@@ -4191,7 +4201,8 @@
           "version": "01.040",
           "region": "USA",
           "editionId": "PPSA03393",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 15 Go · USA · v1.037]",
@@ -4211,7 +4222,8 @@
           "version": "01.037",
           "region": "USA",
           "editionId": "PPSA03393",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.037] #02",
@@ -4220,7 +4232,8 @@
           "version": "01.037",
           "region": "USA",
           "editionId": "PPSA03393",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.037]",
@@ -4257,7 +4270,8 @@
           "version": "01.032",
           "region": "USA",
           "editionId": "PPSA03393",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.032] #02",
@@ -4266,7 +4280,8 @@
           "version": "01.032",
           "region": "USA",
           "editionId": "PPSA03393",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "sizeBytes": 35433480192,
@@ -4398,7 +4413,8 @@
           "version": "01.008",
           "region": "EUR",
           "editionId": "PPSA08135",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · 60 Mo · EUR]",
@@ -4867,7 +4883,8 @@
           "name": "[v1.0]",
           "url": "https://1fichier.com/?cq8hwfd0oos0njg43anh",
           "group": "Standard",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -5753,7 +5770,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA03083",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -5811,7 +5829,8 @@
           "name": "[v1.0]",
           "url": "https://1fichier.com/?5b4bk5bq7obncrh6swzz",
           "group": "Standard",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -5895,7 +5914,8 @@
           "url": "https://1fichier.com/?y5s2n86sgb0lxesvem2s",
           "group": "Standard",
           "version": "01.003",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -6232,7 +6252,8 @@
           "version": "01.026",
           "region": "USA",
           "editionId": "PPSA04020",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.026] #02",
@@ -6241,7 +6262,8 @@
           "version": "01.026",
           "region": "USA",
           "editionId": "PPSA04020",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 5 Go · EUR · v1.030]",
@@ -6944,7 +6966,8 @@
           "url": "https://1fichier.com/?vdi0tqrrjsezrhiffwac&af=4186346",
           "group": "Fix",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[exFAT · Folder · 236 Go]",
@@ -7158,7 +7181,8 @@
           "name": "[PKG · Folder · v1.000]",
           "url": "https://1fichier.com/?g8omfkqowprqcx5rilvn",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · v1.000] #01",
@@ -7305,7 +7329,8 @@
           "version": "01.002",
           "region": "USA",
           "editionId": "PPSA06328",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 335 Mo · USA · v1.000]",
@@ -7325,7 +7350,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA06328",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000] #02",
@@ -7334,7 +7360,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA06328",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 335 Mo · EUR · v1.000] #01",
@@ -7376,7 +7403,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA06327",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -7523,7 +7551,8 @@
           "url": "https://1fichier.com/?f6vzttxgm4b2p0pyooii&af=4186346",
           "group": "Standard",
           "version": "01.009",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU]",
@@ -7839,7 +7868,8 @@
           "version": "01.006",
           "region": "USA",
           "editionId": "PPSA03686",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 3 Go]",
@@ -9609,7 +9639,8 @@
           "version": "01.009.012",
           "region": "USA",
           "editionId": "PPSA03847",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 18 Go · USA · v01.009]",
@@ -9629,7 +9660,8 @@
           "version": "01.009",
           "region": "USA",
           "editionId": "PPSA03847",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v01.009] #02",
@@ -9638,7 +9670,8 @@
           "version": "01.009",
           "region": "USA",
           "editionId": "PPSA03847",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000]",
@@ -9656,7 +9689,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA03847",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000] #02",
@@ -9665,7 +9699,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA03847",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -10018,14 +10053,18 @@
           "url": "https://1fichier.com/?pi8pero5hz890e00z35n",
           "group": "Standard",
           "version": "01.000.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "duplex-oxide.room.104.ps5.rar",
+          "sizeBytes": 3135326126
         },
         {
           "name": "[PKG] #02",
           "url": "https://1fichier.com/?itekwc1xdbi5seautbc4",
           "group": "Standard",
           "version": "01.000.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "duplex-oxide.room.104.ps5.rar",
+          "sizeBytes": 3135326126
         },
         {
           "name": "[PKG · v01.000]",
@@ -11094,7 +11133,8 @@
           "name": "[v1.0]",
           "url": "https://1fichier.com/?m1tt486puv2eokh016a6",
           "group": "Standard",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -12852,7 +12892,8 @@
           "name": "[PKG]",
           "url": "https://1fichier.com/?u1icygb4j125997xlgxk",
           "version": "01.011.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 42 Mo · EUR] #01",
@@ -12897,7 +12938,8 @@
           "name": "[PKG · v1.000]",
           "url": "https://1fichier.com/?wswvl5uzx2n6e643krj1",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 46 Mo · EUR · v1.000] #01",
@@ -13200,7 +13242,8 @@
           "name": "[PKG] #01",
           "url": "https://1fichier.com/?t0kmagnzm6k0tbrt3nzh",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · 57 Mo]",
@@ -13284,7 +13327,8 @@
           "name": "[PKG] #02",
           "url": "https://1fichier.com/?c34x88a1gp1kmhvckujm",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -14381,7 +14425,8 @@
           "name": "[PKG · v1.000]",
           "url": "https://1fichier.com/?4emy246zxjrh8vpr1luq",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 123 Go · v1.000]",
@@ -14545,7 +14590,8 @@
           "version": "01.000",
           "region": "JPN",
           "editionId": "PPSA18463",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 80 Go · JPN · v1.000] #02",
@@ -14575,7 +14621,8 @@
           "version": "01.000",
           "region": "JPN",
           "editionId": "PPSA18463",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 80 Go · JPN · v1.000] #03",
@@ -15715,7 +15762,8 @@
           "url": "https://1fichier.com/?kwipbfvo8ysnp1z5x4h5",
           "group": "Standard",
           "version": "01.012.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · fix]",
@@ -17140,7 +17188,8 @@
           "version": "01.003",
           "region": "USA",
           "editionId": "PPSA06255",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 38 Mo · EUR]",
@@ -17202,7 +17251,8 @@
           "version": "01.003",
           "region": "USA",
           "editionId": "PPSA06255",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "sizeBytes": 20401094656,
@@ -19262,7 +19312,8 @@
           "version": "02.000.000",
           "region": "USA",
           "editionId": "PPSA03364",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #02",
@@ -19271,7 +19322,8 @@
           "version": "02.000.000",
           "region": "USA",
           "editionId": "PPSA03364",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -19289,7 +19341,8 @@
           "version": "02.000.000",
           "region": "USA",
           "editionId": "PPSA03364",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #02",
@@ -19641,7 +19694,8 @@
           "name": "[PKG]",
           "url": "https://1fichier.com/?cnp1fu3lv34npqr3fttk",
           "version": "01.900",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · v1.090]",
@@ -20191,7 +20245,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA09426",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · 51 Mo · EUR]",
@@ -22115,7 +22170,9 @@
           "version": "01.055",
           "region": "USA",
           "editionId": "PPSA01649",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-PPSA01649.part05.rar",
+          "sizeBytes": 4617089843
         }
       ],
       "sizeBytes": 274877906944,
@@ -22696,7 +22753,8 @@
           "url": "https://1fichier.com/?teivo2ifruoubnzvvn1u&af=4186346",
           "group": "Standard",
           "version": "02.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "sizeBytes": 16106127360,
@@ -23158,7 +23216,8 @@
           "version": "01.000.001",
           "region": "USA",
           "editionId": "PPSA15065",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 1 Go · USA · v1.004.008]",
@@ -23522,7 +23581,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA06603",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -24167,7 +24227,8 @@
           "url": "https://1fichier.com/?y7pzhgfm5qa0396cqwxv&af=4186346",
           "group": "Standard",
           "version": "01.400",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP · 44 Mo · EUR · v1.400]",
@@ -24201,7 +24262,8 @@
           "url": "https://1fichier.com/?pjj9lexnaho4f0d9avv4https://1fichier.com/?pjj9lexnaho4f0d9avv4",
           "group": "Backport",
           "version": "01.400",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · FFPKG · 10 Go]",
@@ -24975,7 +25037,8 @@
           "version": "01.004.000",
           "region": "EUR",
           "editionId": "PPSA08766",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -26006,7 +26069,8 @@
           "version": "01.003",
           "region": "EUR",
           "editionId": "PPSA15368",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · v1.000]",
@@ -26400,7 +26464,8 @@
           "version": "01.000.002",
           "region": "EUR",
           "editionId": "PPSA02433",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 18 Go · EUR] #02",
@@ -26475,7 +26540,8 @@
           "name": "[v1.0]",
           "url": "https://1fichier.com/?hlt01hwb18w5e7czfn8c",
           "group": "Standard",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -26723,7 +26789,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA06381",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[exFAT · BP · 3 Go · USA]",
@@ -27388,7 +27455,8 @@
           "url": "https://1fichier.com/?w5uoqg60e6h2kkhb3gyy&af=4186346",
           "group": "Standard",
           "version": "01.003",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "sizeBytes": 30064771072,
@@ -28777,7 +28845,8 @@
           "name": "[v1.0]",
           "url": "https://1fichier.com/?rlu60bf6rspt80uvjj7f",
           "group": "Standard",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -29389,7 +29458,8 @@
           "version": "02.120",
           "region": "USA",
           "editionId": "PPSA03974",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[exFAT · USA]",
@@ -29957,7 +30027,8 @@
           "version": "02.003.245",
           "region": "EUR",
           "editionId": "PPSA04477",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 26 Go · EUR · v1.000] #01",
@@ -29977,7 +30048,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA04477",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR · v1.000] #02",
@@ -29986,7 +30058,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA04477",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR · v1.000]",
@@ -30014,7 +30087,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA04477",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 26 Go · EUR · v1.000] #02",
@@ -30034,7 +30108,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA04477",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR · v1.000] #05",
@@ -30043,7 +30118,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA04477",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -31816,7 +31892,8 @@
           "name": "[PKG · Folder · v1.000]",
           "url": "https://1fichier.com/?isvmld6x6k6e1m3ctacu",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · 13 Mo · USA · v1.000]",
@@ -33300,14 +33377,16 @@
           "url": "https://1fichier.com/?hmd690drhv9lt8t8vg7d",
           "group": "Standard",
           "version": "01.013",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · FFPFSC] #02",
           "url": "https://1fichier.com/?d5xzq10umd1u8sbjqbv6&af=4186346",
           "group": "Standard",
           "version": "01.013",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · FFPFSC · 10 Go]",
@@ -35034,7 +35113,8 @@
           "name": "[PKG]",
           "url": "https://1fichier.com/?naimghaeeo6k451njd20",
           "version": "02.000.052",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -35293,7 +35373,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA21268",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP 4.xx · 59 Mo · EUR · v1.000]",
@@ -36162,7 +36243,8 @@
         {
           "name": "[PKG · Folder]",
           "url": "https://1fichier.com/?rq4anihd07rnyimtgztp",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · DLC · 1 Mo] #02",
@@ -36306,7 +36388,8 @@
           "url": "https://1fichier.com/?rq4anihd07rnyimtgztp",
           "group": "Standard",
           "region": "ASIA",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder]",
@@ -36764,7 +36847,8 @@
           "version": "03.002.001",
           "region": "USA",
           "editionId": "PPSA02712",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -36890,7 +36974,8 @@
           "version": "03.002.001",
           "region": "USA",
           "editionId": "PPSA02712",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · DLC · USA]",
@@ -36909,7 +36994,8 @@
           "version": "03.002.001",
           "region": "USA",
           "editionId": "PPSA02712",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #01",
@@ -36917,7 +37003,8 @@
           "group": "Standard",
           "region": "EUR",
           "editionId": "PPSA02630",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · EUR] #02",
@@ -36925,7 +37012,8 @@
           "group": "Standard",
           "region": "EUR",
           "editionId": "PPSA02630",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "sizeBytes": 103079215104,
@@ -37175,7 +37263,8 @@
         {
           "name": "[PKG]",
           "url": "https://1fichier.com/?x26ykn19i8n29n7ypxq6",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #01",
@@ -37710,7 +37799,8 @@
           "version": "06.004",
           "region": "USA",
           "editionId": "PPSA01552",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "sizeBytes": 104152956928,
@@ -37837,7 +37927,8 @@
           "url": "https://1fichier.com/?kqfvd9nkutgz7ulap48m",
           "group": "Standard",
           "version": "01.600.700",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · DLC · 2 Mo]",
@@ -38008,7 +38099,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA06229",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG]",
@@ -38200,7 +38292,8 @@
           "version": "01.000.000",
           "region": "USA",
           "editionId": "PPSA13843",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · Folder · DLC · 24 Mo · USA · v1.000]",
@@ -38475,7 +38568,8 @@
           "name": "[Folder]",
           "url": "https://1fichier.com/?t23lca7bdx6zz327k256",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[Folder] #02",
@@ -39055,7 +39149,8 @@
           "version": "01.080",
           "region": "USA",
           "editionId": "PPSA06164",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 7 Go · USA · v1.050]",
@@ -39075,7 +39170,8 @@
           "version": "01.050",
           "region": "USA",
           "editionId": "PPSA06164",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.050] #02",
@@ -39084,7 +39180,8 @@
           "version": "01.050",
           "region": "USA",
           "editionId": "PPSA06164",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 6 Go · USA · v1.000]",
@@ -39104,7 +39201,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA06164",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA · v1.000] #02",
@@ -39113,7 +39211,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA06164",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 7 Go · EUR · v1.000] #01",
@@ -39133,7 +39232,8 @@
           "version": "01.000",
           "region": "EUR",
           "editionId": "PPSA06168",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 7 Go · EUR · v1.000] #02",
@@ -39265,7 +39365,8 @@
           "version": "01.004",
           "region": "USA",
           "editionId": "PPSA03417",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA]",
@@ -39283,7 +39384,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA03417",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · USA] #02",
@@ -39292,7 +39394,8 @@
           "version": "01.000",
           "region": "USA",
           "editionId": "PPSA03417",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · 7 Go · EUR · v1.004]",
@@ -39333,7 +39436,8 @@
           "version": "01.004",
           "region": "EUR",
           "editionId": "PPSA03418",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[exFAT · 22 Go]",
@@ -39349,7 +39453,8 @@
           "url": "https://1fichier.com/?6em5ymud2h7b5u2wbfkd&af=4186346",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         }
       ],
       "sizeBytes": 51539607552,
@@ -41127,7 +41232,8 @@
           "url": "https://1fichier.com/?f6vzttxgm4b2p0pyooii&af=4186346",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU]",
@@ -41215,7 +41321,9 @@
           "version": "01.013",
           "region": "USA",
           "editionId": "PPSA16018",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "sizeBytes": 599879843
         },
         {
           "name": "[PKG · APR-EMU · 71 Go · USA]",
@@ -41473,7 +41581,9 @@
           "name": "[PKG] #02",
           "url": "https://1fichier.com/?rgu13kacq84i59zr4c6h",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-_4xx[PPSA23000][01.000.000].rar",
+          "sizeBytes": 88478842
         },
         {
           "name": "[PKG · BP]",
@@ -41500,7 +41610,9 @@
           "name": "[PKG] #03",
           "url": "https://1fichier.com/?49p5c7vox5zdvkzjqvn4",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]- DLC - [PPSA23000].rar",
+          "sizeBytes": 1363148
         },
         {
           "name": "[PKG · DLC]",
@@ -41737,7 +41849,9 @@
           "name": "[PKG · APR-EMU · Folder]",
           "url": "https://1fichier.com/?v7kp8hlurel4ejnwtewz",
           "version": "01.006",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-PPSA01390.part09.rar",
+          "sizeBytes": 6818260582
         },
         {
           "name": "[PKG · APR-EMU · Folder · 6 Go]",
@@ -41789,7 +41903,9 @@
           "name": "[PKG · APR-EMU · Folder · v1.000] #02",
           "url": "https://1fichier.com/?3c2ogq1bo8k49k7j2fy2",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "4_XX PPSA01390_01_00_Dragon_Age_The_Veilguard_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 74385981
         },
         {
           "name": "[PKG · APR-EMU · Folder · BP · fix · v1.000] #01",
@@ -41825,7 +41941,9 @@
           "name": "[PKG · APR-EMU · Folder · v1.000] #03",
           "url": "https://1fichier.com/?g9x7e6oicjks43c3fyp5",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "5_XX PPSA01390_01_00_Dragon_Age_The_Veilguard_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 74385981
         },
         {
           "name": "[PKG · APR-EMU · Folder · BP · fix · v1.000] #02",
@@ -41853,7 +41971,9 @@
           "name": "[PKG · APR-EMU · Folder · v1.000] #04",
           "url": "https://1fichier.com/?2n28hetbxgbb2obfji26",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "Dragon Age The Veilguard ALL DLC.rar",
+          "sizeBytes": 2348810
         },
         {
           "name": "[PKG · APR-EMU · Folder · DLC · v1.000]",
@@ -45480,7 +45600,8 @@
           "url": "https://1fichier.com/?f6vzttxgm4b2p0pyooii&af=4186346",
           "group": "Standard",
           "version": "01.054",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · v1.054]",
@@ -47618,7 +47739,8 @@
           "url": "https://1fichier.com/?f6vzttxgm4b2p0pyooii&af=4186346",
           "group": "Standard",
           "version": "01.031",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU] #03",
@@ -71664,14 +71786,16 @@
           "url": "https://1fichier.com/?hmd690drhv9lt8t8vg7d",
           "group": "Standard",
           "version": "01.030",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · Folder] #16",
           "url": "https://1fichier.com/?d5xzq10umd1u8sbjqbv6&af=4186346",
           "group": "Standard",
           "version": "01.030",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[PKG · APR-EMU · Folder · 116 Go]",
@@ -78459,7 +78583,8 @@
           "url": "https://1fichier.com/?hmd690drhv9lt8t8vg7d",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[BP · 42 Mo · EUR · v1.000]",
@@ -78483,7 +78608,8 @@
           "url": "https://1fichier.com/?d5xzq10umd1u8sbjqbv6&af=4186346",
           "group": "Backport",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[DLC · PKG · EUR · v1.000]",
