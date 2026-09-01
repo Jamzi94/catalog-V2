@@ -31,6 +31,23 @@ def _norm_v(v: str) -> tuple:
     return tuple(int(p) for p in parties if p.isdigit())
 
 
+def _forme(v: str) -> tuple:
+    """Gabarit d'ecriture d'une version : (nb de composants, largeur de chacun).
+
+    Le MAJOR est exclu : son zero de tete est du remplissage, pas une
+    convention — « 1.005 » et « 01.031 » s'ecrivent pareil et se comparent.
+    Ce qui suit, en revanche, distingue des conventions incompatibles :
+
+        « 01.10 » (2,)      contre « 1.100 » (3,)        mineur tronque
+        « 01.000.008 » (3,3) contre « 1.008 » (3,)       build promu en mineur
+        « 1.07 » (2,)       contre « 1.007.004 » (3,3)   build omis
+
+    Deux versions de formes differentes ne se comparent pas : c'est la qu'on ne
+    SAIT pas, et se taire vaut mieux qu'accuser au hasard.
+    """
+    return tuple(len(p) for p in (v or "").split(".")[1:])
+
+
 def lire_nom(nom: str) -> dict:
     """Ce que le NOM DE FICHIER affirme. Champ absent = il ne dit rien."""
     f = {}
@@ -124,8 +141,27 @@ def comparer(nom_fichier: str, etiquette: str, group: str = "") -> list:
         # que la regle « Backport N.xx implique exFAT » n'est pas un baillon.
         if "PKG" in f["formats"] and "exFAT" not in f["formats"]:
             ecarts.append("format: section implique exFAT, fichier dit PKG")
-    if "version" in f and "version" in e and _norm_v(f["version"]) != _norm_v(e["version"]):
-        ecarts.append(f"version: fichier {f['version']}, etiquette {e['version']}")
+    if "version" in f and "version" in e:
+        # DEUX VERSIONS NE SE COMPARENT QUE SI ELLES ONT LA MEME FORME. Les
+        # sources ecrivent la MEME version PS5 de trois façons incompatibles :
+        # trois conventions incompatibles pour la MEME version PS5 :
+        #   « v01.10 » et « 1.100 »        (mineur tronque de ses zeros)
+        #   « v01.000.008 » et « 1.008 »   (build promu en mineur)
+        #   « v1.07 » et « 1.007.004 »     (build omis)
+        # Mesure du 2026-09-01 sur les 60 ecarts de version restants : 3 ont un
+        # MAJOR different — de vraies contradictions — et 57 ne different que
+        # par la notation. Comparer au-dela du major, c'est produire 95 % de
+        # faux positifs, et la sur-detection vaut le faux zero.
+        # Mesure du 2026-09-01 sur les 60 ecarts restants : 57 opposent des
+        # formes DIFFERENTES et ne sont que des notations ; 3 seulement ont un
+        # major different. Mais ignorer tout sauf le major serait l'exces
+        # inverse — « 01.005 » et « 01.031 » ont le meme major et sont bien
+        # deux versions distinctes. On compare donc a forme egale, et on se
+        # tait quand les formes different : c'est la ou l'on ne SAIT pas.
+        vf, ve = _norm_v(f["version"]), _norm_v(e["version"])
+        meme_forme = _forme(f["version"]) == _forme(e["version"])
+        if vf and ve and ((meme_forme and vf != ve) or vf[0] != ve[0]):
+            ecarts.append(f"version: fichier {f['version']}, etiquette {e['version']}")
     if "region" in f and "region" in e and f["region"] != e["region"]:
         ecarts.append(f"region: fichier {f['region']}, etiquette {e['region']}")
     # Le rang « #n » n'affirme RIEN : _number_parts l'ecrit comme un ordre
