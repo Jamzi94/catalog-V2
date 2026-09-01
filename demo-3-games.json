@@ -3,148 +3,280 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA02798",
-      "title": "Panda Hero Remastered",
+      "titleId": "PPSA22636",
+      "title": "The Bridge Curse 2 The Extrication",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Panda_Hero_Remastered.avif",
-      "description": "Format: exFAT · PKG\nTags: PPSA02798, v01.000, USA\nSize: 100 MB\nPassword: SuperPSX\nWorks on 2.xx and higher",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71ql.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA22636, v1.000, 4.xx, 5.xx\nBP = Backport",
       "downloadLinks": [
         {
-          "name": "[exFAT · 559 Mo]",
-          "url": "https://akirabox.com/EL73g0JXYz9B/file",
-          "group": "exFAT",
+          "name": "[Folder · 5 Go]",
+          "url": "https://akirabox.com/0rpmv67RZmRg/file",
+          "group": "Standard",
+          "version": "01.000",
           "mirror": "Akia",
-          "fileName": "PPSA02798.exfat",
-          "sizeBytes": 586153984
+          "fileName": "01.000 PPSA22636-[DLPSGAME.COM].rar",
+          "sizeBytes": 5798205849
         },
         {
-          "name": "[exFAT]",
-          "url": "https://vikingfile.com/f/H9DrfDJLhP",
-          "group": "exFAT",
-          "fileName": "PPSA02798.exfat",
+          "name": "[Folder]",
+          "url": "https://vikingfile.com/f/JEGoaqt2sI",
+          "group": "Standard",
+          "version": "01.000",
+          "fileName": "01.000 PPSA22636-[DLPSGAME.COM].rar",
           "mirror": "Viki"
         },
         {
-          "name": "[exFAT · 559 Mo]",
-          "url": "https://datanodes.to/wky9hsgg7ecm",
-          "group": "exFAT",
-          "fileName": "PPSA02798.exfat",
-          "sizeBytes": 586153984,
-          "mirror": "Data"
-        },
-        {
-          "name": "[exFAT · 559 Mo]",
-          "url": "https://filekeeper.net/36esksn39yf4",
-          "group": "exFAT",
-          "fileName": "PPSA02798.exfat",
-          "sizeBytes": 586153984,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[exFAT]",
-          "url": "https://datavaults.co/1m9ypn0sk9ku",
-          "group": "exFAT",
-          "fileName": "PPSA02798 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[PKG · APR-EMU · USA]",
-          "url": "https://vikingfile.com/f/nqaI2hhQiq",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[SuperPSX]-Panda.Hero.Remastered-PPSA02798-USA-Game (v01.000)-PS5.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[PKG · APR-EMU · USA] #01",
-          "url": "https://www.rootz.so/d/16TRPk",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[SuperPSX]-Panda.Hero.Remastered-PPSA02798-USA-Game (v01.000)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://1fichier.com/?6u11ekm8fvl7in8tqwql&af=4186346",
+          "name": "[Folder]",
+          "url": "https://1fichier.com/?ft84a4mtrpvkuw0xg0pa",
           "group": "Standard",
           "version": "01.000",
           "mirror": "1File"
         },
         {
-          "name": "[PKG · APR-EMU · USA] #02",
-          "url": "https://www.rootz.so/d/ZygjY",
-          "group": "Standard",
+          "name": "[BP 4.xx · 54 Mo]",
+          "url": "https://www.mediafire.com/file/qgrm78onc6fz078/4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA02798",
-          "fileName": "[DLPSGAME.COM]-01.000.000 PPSA02798.rar",
+          "fileName": "4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56470274,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[Folder · BP · 55 Mo · USA]",
+          "url": "https://akirabox.com/Pbe3Pdj5L3lX/file",
+          "version": "01.000",
+          "mirror": "Akia",
+          "fileName": "5XX PPSA11039 – USA  v01.000 The Caligula Effect 2  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 57975767
+        },
+        {
+          "name": "[Folder · BP · 54 Mo · EUR] #01",
+          "url": "https://vikingfile.com/f/p4OrpVLuBP",
+          "version": "01.000",
+          "fileName": "4XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 56465817
+        },
+        {
+          "name": "[Folder · BP · fix · EUR] #01",
+          "url": "https://www.rootz.so/d/16gmDg",
+          "version": "01.000",
+          "fileName": "4XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[BP 5.xx · 54 Mo]",
+          "url": "https://www.mediafire.com/file/arrg9oixlz2m2dy/5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000",
+          "fileName": "5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56470271,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[Folder]",
+          "url": "https://akirabox.com/k0embjXoWmVb/file",
+          "version": "01.000",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[Folder · BP · 54 Mo · EUR] #02",
+          "url": "https://vikingfile.com/f/7hM0MehMFS",
+          "version": "01.000",
+          "fileName": "5XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 56465817
+        },
+        {
+          "name": "[Folder · BP · fix · EUR] #02",
+          "url": "https://www.rootz.so/d/24FBQ",
+          "version": "01.000",
+          "fileName": "5XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Rootz"
         }
       ],
-      "sizeBytes": 734003200,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG"
+        "Folder · Backport 4.xx"
       ],
       "fileFormat": [
-        "exFAT",
-        "PKG",
-        "APR-EMU"
+        "Folder",
+        "Backport 4.xx",
+        "ZIP",
+        "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-08-19T04:33:03.880389+00:00",
-      "_rawgMatched": false,
-      "formatLabel": "exFAT · PKG"
+      "sizeBytes": 56470274,
+      "_enrichedAt": "2026-08-23T04:44:42.561897+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "the-bridge-curse-2-the-extrication",
+        "rawgName": "The Bridge Curse 2: The Extrication",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2024-05-09",
+        "genres": [
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/12d/12d27964a9dfd503a820ea4d74a5a146.jpg"
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:57:04.936353+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "Folder · Backport 4.xx"
     },
     {
-      "titleId": "PPSA07326",
-      "title": "Wonder Boy The Dragons Trap",
-      "version": "01.001.000",
+      "titleId": "PPSA02800",
+      "title": "3D Billiards Pool and Snooker Remastered",
+      "version": "01.002",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4q.jpg",
-      "description": "Format: Backport 4.xx\nTags: PPSA07326, v1.001.000, 4.xx, 5.xx\nBP = Backport",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kft.jpg",
+      "description": "Format: APR-EMU\nTags: PPSA02800, v1.002, 3.xx",
       "downloadLinks": [
         {
-          "name": "[BP 4.xx · 2 Mo]",
-          "url": "https://www.mediafire.com/file/bau5pfbxlxixqtp/[DLPSGAME.COM]-PPSA07326+Backport+4.xx+By+baderlink.zip/file",
+          "name": "[APR-EMU]",
+          "url": "https://www.mediafire.com/file/k5dqeo54wto62j8/[DLPSGAME.COM]-PPSA02800-Game+(v01.002)+[APR-EMU].rar/file",
           "group": "Standard",
-          "version": "01.001.000",
-          "fileName": "[DLPSGAME.COM]-PPSA07326+Backport+4.xx+By+baderlink.zip",
-          "sizeBytes": 2559441,
+          "version": "01.002",
+          "fileName": "[DLPSGAME.COM]-PPSA02800-Game+(v01.002)+[APR-EMU].rar",
+          "mirror": "Mediafire"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "APR-EMU"
+      ],
+      "fileFormat": [
+        "APR-EMU",
+        "RAR"
+      ],
+      "sizeBytes": 685521178,
+      "_enrichedAt": "2026-08-19T04:32:20.323273+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "3d-billiards-pool-snooker",
+        "rawgName": "3D Billiards - Pool & Snooker",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2018-11-29",
+        "genres": []
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:35:13.258605+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "APR-EMU"
+    },
+    {
+      "titleId": "PPSA05888",
+      "title": "The Talos Principle 2",
+      "version": "02.013",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jbl.jpg",
+      "description": "Format: Backport 4.xx\nTags: PPSA05888, v2.013, 4.xx, 7.xx\nBP = Backport",
+      "downloadLinks": [
+        {
+          "name": "[BP 4.xx · 57 Mo · USA]",
+          "url": "https://www.mediafire.com/file/h7jh8wmtr71ntmd/[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip/file",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60178074,
           "mirror": "Mediafire"
         },
         {
-          "name": "[BP 4.xx · 2 Mo]",
-          "url": "https://vikingfile.com/f/szuDGeSnmb",
+          "name": "[BP 4.xx · USA] #01",
+          "url": "https://akirabox.com/k0embVRoamVb/file",
           "group": "Standard",
-          "version": "01.001.000",
-          "fileName": "[DLPSGAME.COM]-PPSA07326 Backport 4.xx By baderlink.zip",
-          "sizeBytes": 2558525,
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[BP 4.xx · 57 Mo · USA]",
+          "url": "https://vikingfile.com/f/oquq8uMLJW",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60177776,
           "mirror": "Viki"
         },
         {
-          "name": "[BP 4.xx]",
-          "url": "https://1fichier.com/?7jcefgwetx86ysbz4gbd",
+          "name": "[BP 4.xx · USA]",
+          "url": "https://1fichier.com/?zwqp3xcw49ercc8tvcvm",
           "group": "Standard",
-          "version": "01.001.000",
+          "version": "02.013",
+          "region": "USA",
           "mirror": "1File"
         },
         {
-          "name": "[BP 4.xx · fix]",
-          "url": "https://rootz.so/d/1s0FEW",
+          "name": "[BP 4.xx · fix · USA]",
+          "url": "https://rootz.so/d/1MKdFY",
           "group": "Standard",
-          "version": "01.001.000",
-          "fileName": "[DLPSGAME.COM]-PPSA07326 Backport 4.xx By baderlink.zip",
+          "version": "02.013",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
           "mirror": "Rootz"
         },
         {
-          "name": "[BP 4.xx · 1 Go]",
-          "url": "https://www.mediafire.com/file/1tvtdhepf0ncafg/[DLPSGAME.COM]-PPSA07326-app0.rar/file",
+          "name": "[exFAT · USA]",
+          "url": "https://akirabox.com/vgKGxXW14G8Q/file",
+          "group": "exFAT",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[exFAT · 130 Go · USA]",
+          "url": "https://vikingfile.com/f/tjI7YnjdDr",
+          "group": "exFAT",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Viki",
+          "fileName": "PPSA05887.exfat",
+          "sizeBytes": 139425375846
+        },
+        {
+          "name": "[exFAT · USA]",
+          "url": "https://www.rootz.so/d/1qXWgy",
+          "group": "exFAT",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[BP 4.xx · DLC · USA]",
+          "url": "https://rootz.so/d/1TeQTY",
           "group": "Standard",
-          "version": "01.001.000",
-          "fileName": "[DLPSGAME.COM]-PPSA07326-app0.rar",
-          "sizeBytes": 1321109666,
-          "mirror": "Mediafire"
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Rootz",
+          "fileName": "[DLPSGAME.COM]- v02.013 PPSA05887 DLC incl.part09.rar"
+        },
+        {
+          "name": "[DLC · USA]",
+          "url": "https://datanodes.to/76ozlep6m9g1/[DLPSGAME.COM]-_v02.013_PPSA05887_DLC_incl.part09.rar",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Data",
+          "fileName": "[DLPSGAME.COM]-_v02.013_PPSA05887_DLC_incl.part09.rar"
+        },
+        {
+          "name": "[DLC · USA]",
+          "url": "https://filekeeper.net/hbgq0rlerrgu/[DLPSGAME.COM]-_v02.013_PPSA05887_DLC_incl.part09.rar",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Filek",
+          "fileName": "[DLPSGAME.COM]-_v02.013_PPSA05887_DLC_incl.part09.rar"
+        },
+        {
+          "name": "[BP 4.xx · USA] #02",
+          "url": "https://akirabox.com/N2p3DqRRpzMa/file",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Akia"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -156,145 +288,24 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "sizeBytes": 2559441,
-      "_enrichedAt": "2026-08-19T04:33:35.139580+00:00",
-      "_rawgMatched": false,
+      "sizeBytes": 60178074,
+      "_enrichedAt": "2026-08-29T04:18:42.651164+00:00",
+      "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "wonder-boy-the-dragons-trap",
-        "rawgName": "Wonder Boy: The Dragon's Trap",
-        "rating": 3.82,
+        "rawgSlug": "talos-principle-2",
+        "rawgName": "The Talos Principle 2",
+        "rating": 4.31,
         "metacritic": null,
-        "released": "2017-04-18",
+        "released": "2023-11-01",
         "genres": [
-          "Indie",
-          "Platformer",
           "Adventure",
           "Action"
-        ]
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/4e4/4e42fc297c028630262a4abcc7769576.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T22:19:49.820674+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:57:17.452890+00:00",
       "_igdbMatched": true,
       "formatLabel": "Backport 4.xx"
-    },
-    {
-      "titleId": "PPSA11132",
-      "title": "Ape Academy 2",
-      "version": "01.001",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9zg7.jpg",
-      "description": "Format: exFAT · Backport\nTags: PPSA11132, v1.001, 4.xx, EUR\nSize: 1 GB\nBP = Backport",
-      "downloadLinks": [
-        {
-          "name": "[exFAT · BP 4.xx · 1 Go]",
-          "url": "https://akirabox.com/0JgG7PgljmoY/file",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA11132.exfat",
-          "sizeBytes": 1202590842,
-          "mirror": "Akia"
-        },
-        {
-          "name": "[exFAT · BP 4.xx · 1 Go]",
-          "url": "https://vikingfile.com/f/TGjl8Cv2cE",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA11132.exfat",
-          "sizeBytes": 1202590842,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[exFAT · BP 4.xx]",
-          "url": "https://datavaults.co/xbc06uoni14o",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA11132 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[exFAT · BP · 566 Mo · EUR]",
-          "url": "https://www.mediafire.com/file/le1pfkb0vxifd3i/PPSA11132-[DLPSGAME.COM].rar/file",
-          "group": "Standard",
-          "version": "01.001",
-          "region": "EUR",
-          "editionId": "PPSA11132",
-          "fileName": "PPSA11132-[DLPSGAME.COM].rar",
-          "sizeBytes": 593295448,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[BP 4.xx · 3 Mo]",
-          "url": "https://www.mediafire.com/file/6ks3hy0ccuxwdno/PPSA11132+–+EUR+Ape+Academy+2+v1.001+4.xx+By+BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.001",
-          "fileName": "PPSA11132+–+EUR+Ape+Academy+2+v1.001+4.xx+By+BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 3102176,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[BP · 3 Mo · EUR] #01",
-          "url": "https://vikingfile.com/f/fHQLIPqxSy",
-          "version": "01.001",
-          "fileName": "PPSA11132 – EUR Ape Academy 2 v1.001 4.xx By BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 3103784,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[BP · 3 Mo · EUR]",
-          "url": "https://1fichier.com/?vptv5fc5irsmv60juqjr",
-          "version": "01.001",
-          "fileName": "PPSA11132 – EUR Ape Academy 2 v1.001 4.xx By BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 3250585,
-          "mirror": "1File"
-        },
-        {
-          "name": "[BP 5.xx · 3 Mo]",
-          "url": "https://www.mediafire.com/file/9kb55qks0edmpr5/PPSA11132+–+EUR+Ape+Academy+2+v1.001+5.xx+By+BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.001",
-          "fileName": "PPSA11132+–+EUR+Ape+Academy+2+v1.001+5.xx+By+BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 3649084,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[BP · 3 Mo · EUR] #02",
-          "url": "https://vikingfile.com/f/XNI0Gck8Q8",
-          "version": "01.001",
-          "fileName": "PPSA11132 – EUR Ape Academy 2 v1.001 5.xx By BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 3649044,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[BP · 4 Mo · EUR]",
-          "url": "https://1fichier.com/?5axljaffynlvbhcnakqb",
-          "version": "01.001",
-          "fileName": "PPSA11132 – EUR Ape Academy 2 v1.001 5.xx By BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 3827302,
-          "mirror": "1File"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "exFAT",
-        "RAR",
-        "Backport 4.xx",
-        "ZIP",
-        "Backport 5.xx"
-      ],
-      "_enrichedAt": "2026-08-19T04:32:22.409592+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "ape-academy-2",
-        "rawgName": "Ape Academy 2",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2006-09-29",
-        "genres": [
-          "Action"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:35:19.922447+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "exFAT · Backport"
     }
   ]
 }
