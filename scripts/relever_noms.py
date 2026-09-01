@@ -59,6 +59,9 @@ HOTES = ("datanodes.to", "filekeeper.net", "datavaults.co")
 # lire_akirabox.py --hotes, qui passe par FlareSolverr.
 # Hôtes dont le titre de page porte le nom (lecture directe).
 HOTES_TITRE = ("vikingfile.com", "vik1ngfile.site", "rootz.so")
+# 1fichier a son propre gabarit — voir _lire_1fichier. Il est LISIBLE en
+# requete simple, contrairement a ce que laissait croire lire_navigateur.py.
+HOTES_DEDIES = ("1fichier.com",)
 
 _VERROU = threading.Lock()
 _EXT = re.compile(r"(?i)\.(rar|zip|pkg|exfat|7z|iso|bin)(\?|$)")
@@ -71,6 +74,42 @@ def _nom_dans_url(url: str):
         return None
     dernier = chemin.rstrip("/").split("/")[-1]
     return dernier if len(dernier) > 6 else None
+
+
+_FACTEURS_1F = {"O": 1, "KO": 1024, "MO": 1024 ** 2, "GO": 1024 ** 3, "TO": 1024 ** 4,
+                "B": 1, "KB": 1024, "MB": 1024 ** 2, "GB": 1024 ** 3, "TB": 1024 ** 4}
+_RE_1F_NOM = re.compile('class="tier-name"[^>]*>([^<]{3,180})<')
+_RE_1F_TAILLE = re.compile('class="tier-feat"[^>]*>[ ]*([0-9][0-9.,]*)[ ]*([KMGT]?[OB])[ ]*<', re.I)
+
+
+def _lire_1fichier(page):
+    """(nom, octets) depuis une page 1fichier. Gabarit releve le 2026-09-01 :
+
+        <span class="tier-name">[DLPSGAME.COM] - 02.004 PPSA09482.rar</span>
+        <span class="tier-feat">32.49 Go</span>
+
+    Ni navigateur ni cookie : une requete HTTP avec un en-tete de navigateur
+    suffit. lire_navigateur.py, ecrit pour cet hote, rendait 0 nom sur 5 parce
+    qu'il cherchait une cellule de tableau qui n'existe plus — le gabarit avait
+    change, pas l'accessibilite.
+
+    Le nom arrive parfois prefixe d'un espace insecable de largeur nulle.
+    """
+    if not page:
+        return (None, None)
+    m = _RE_1F_NOM.search(page)
+    if not m:
+        return (None, None)
+    nom = m.group(1).replace("​", "").strip()
+    if not nom:
+        return (None, None)
+    t = _RE_1F_TAILLE.search(page)
+    if not t:
+        return (nom, None)
+    try:
+        return (nom, int(float(t.group(1).replace(",", ".")) * _FACTEURS_1F[t.group(2).upper()]))
+    except (ValueError, KeyError):
+        return (nom, None)
 
 
 def _par_titre(url: str):
@@ -99,7 +138,21 @@ def relever(lien: dict) -> bool:
         lien["fileName"] = nom
         return True
     hote = H._host(url)
-    if hote in HOTES:
+    if hote == "1fichier.com":
+        try:
+            code, brut = H._FETCH(url)
+        except Exception:                                    # noqa: BLE001
+            return False
+        if code == 404:
+            lien["linkDead"] = True
+            return False
+        if code != 200:
+            # 500 = LIMITATION DE DEBIT, pas un fichier disparu. Les confondre
+            # marquerait morts 1330 liens vivants — c'est exactement ce qui a
+            # failli arriver le 2026-09-01 sur un balayage trop rapide.
+            return False
+        nom, taille = _lire_1fichier(brut.decode("utf-8", "replace"))
+    elif hote in HOTES:
         nom, taille = H.nom_et_taille(url)
     elif hote in HOTES_TITRE:
         nom, taille = _par_titre(url)
@@ -134,6 +187,14 @@ def main(argv: list | None = None) -> int:
     ap.add_argument("catalog", type=Path)
     ap.add_argument("--max", type=int, default=0, help="Nombre max de relevés (0 = tout)")
     ap.add_argument("--fils", type=int, default=4)
+    ap.add_argument("--hotes", default="",
+                    help="Ne traiter que ces hotes (fragments, separes par des "
+                         "virgules). Sert a donner un rythme PROPRE a un hote "
+                         "qui limite — 1fichier rend HTTP 500 des qu'on depasse "
+                         "environ une requete par seconde.")
+    ap.add_argument("--pause", type=float, default=0.4,
+                    help="Secondes d'attente avant chaque lecture (aleatoire, "
+                         "entre 0 et cette valeur)")
     ap.add_argument("--releves", type=Path, default=None,
                     help="Ecrire un releve a part au lieu de reecrire le "
                          "catalogue (permet de tourner en parallele d'une autre "
@@ -141,11 +202,13 @@ def main(argv: list | None = None) -> int:
     args = ap.parse_args(argv)
 
     data = json.loads(args.catalog.read_text(encoding="utf-8"))
+    filtre = [h.strip() for h in args.hotes.split(",") if h.strip()]
     cibles = [l for pkg in data.get("packages", [])
               for l in (pkg.get("downloadLinks") or [])
               if not l.get("fileName")
-              and (H._host(l.get("url", "")) in HOTES + HOTES_TITRE
-                   or _nom_dans_url(l.get("url", "")))]
+              and (H._host(l.get("url", "")) in HOTES + HOTES_TITRE + HOTES_DEDIES
+                   or _nom_dans_url(l.get("url", "")))
+              and (not filtre or any(h in (l.get("url") or "") for h in filtre))]
     if args.max:
         cibles = cibles[:args.max]
     print(f"{len(cibles)} lien(s) à relever", flush=True)
@@ -155,7 +218,7 @@ def main(argv: list | None = None) -> int:
     compte = {"poses": 0, "echecs": 0}
 
     def _un(lien):
-        time.sleep(random.random() * 0.4)
+        time.sleep(random.random() * args.pause)
         ok = False
         try:
             ok = relever(lien)

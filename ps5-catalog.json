@@ -176464,7 +176464,9 @@
           "name": "[PKG] #03",
           "url": "https://1fichier.com/?tbgurlhupjssk9jlndpr",
           "version": "01.009",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "5XX PPSA08056 – USA  v1.09 Under The Waves  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 57860423
         },
         {
           "name": "[PKG · BP · fix · USA] #02",
@@ -176599,7 +176601,9 @@
           "name": "[PKG] #02",
           "url": "https://1fichier.com/?kviq475chgyrjglvy0wu",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM] PPSA21915 - ALL DLC.rar",
+          "sizeBytes": 40988835
         },
         {
           "name": "[PKG] #05",
@@ -176743,7 +176747,9 @@
           "version": "02.005",
           "region": "EUR",
           "editionId": "PPSA21914",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-02.000.005 PPSA21914.rar",
+          "sizeBytes": 16696685363
         },
         {
           "name": "[PKG · EUR] #02",
@@ -176803,7 +176809,9 @@
           "version": "02.005",
           "region": "EUR",
           "editionId": "PPSA21914",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-PPSA21914 Undisputed (02.000.005).rar",
+          "sizeBytes": 16707422781
         },
         {
           "name": "[PKG · EUR · v1.005]",
@@ -176847,7 +176855,9 @@
           "name": "[PKG · v1.005]",
           "url": "https://1fichier.com/?pqb1zi56sjgbt5zi6yj2",
           "version": "01.005",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-PPSA21914_(01.005.000).part1.rar",
+          "sizeBytes": 11413875589
         },
         {
           "name": "[exFAT · v1.000]",
@@ -176900,7 +176910,9 @@
           "name": "[PKG · v1.000] #02",
           "url": "https://1fichier.com/?kviq475chgyrjglvy0wu",
           "version": "01.000",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM] PPSA21915 - ALL DLC.rar",
+          "sizeBytes": 40988835
         }
       ],
       "sizeBytes": 19327352832,
@@ -177085,7 +177097,8 @@
           "url": "https://1fichier.com/?dl6uxh6jt9fvlztjnz9https://1fichier.com/?dl6uxh6jt9fvlztjnz9&af=4186346",
           "group": "Backport",
           "version": "01.004.003",
-          "mirror": "1File"
+          "mirror": "1File",
+          "linkDead": true
         },
         {
           "name": "[DLC · USA] #01",
@@ -177160,7 +177173,9 @@
           "version": "01.003",
           "region": "USA",
           "editionId": "PPSA17841",
-          "mirror": "1File"
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-PPSA17841.part1.rar",
+          "sizeBytes": 11413875589
         },
         {
           "name": "[PKG · APR-EMU · v1.003]",

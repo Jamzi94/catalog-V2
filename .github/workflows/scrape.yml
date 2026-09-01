@@ -648,6 +648,21 @@ jobs:
             echo $! > releve-akirabox.pid
             nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json                   --hotes buzzheavier --max 250 --fils 2 --pause 1.5                   --releves releve-buzzheavier.json > log-releve-buzz.txt 2>&1 &
             echo $! > releve-buzz.pid
+            # 1FICHIER, ajoute le 2026-09-01. Deuxieme hebergeur du catalogue
+            # (3845 liens) et le dernier gros trou : 30 % de noms seulement.
+            # Il se lit en requete SIMPLE — ni navigateur ni cookie :
+            #   <span class="tier-name">…rar</span>
+            #   <span class="tier-feat">32.49 Go</span>
+            # lire_navigateur.py, ecrit pour lui, rendait 0 nom sur 5 : il
+            # cherchait une cellule de tableau qui n'existe plus. Le gabarit
+            # avait change, pas l'accessibilite.
+            #
+            # DEUX FILS ET 2,5 s DE PAUSE, et c'est le point qui compte : le
+            # site LIMITE. Un balayage a une requete par seconde a rendu 1330
+            # HTTP 500 sur 1438. Le 500 n'est PAS un lien mort, et le code les
+            # distingue — les confondre aurait marque morts 1330 liens vivants.
+            nohup python3 scripts/relever_noms.py catalogue-au-depart.json --hotes 1fichier --max 700 --fils 2 --pause 2.5 --releves releve-1fichier.json > log-releve-1f.txt 2>&1 &
+            echo $! > releve-1f.pid
             # SONDE gofile + link-vault, ajoutee le 2026-08-30. Les deux sont
             # les derniers hebergeurs a 0 % nomme : 304 et 230 liens. Aucun
             # des deux ne se lit d'ici — gofile limite le debit par IP (son
@@ -674,7 +689,7 @@ jobs:
             nohup python3 scripts/lire_akirabox.py catalogue-au-depart.json --hotes link-vault,gofile --max 250 --fils 2 --pause 1.5 --releves releve-sondes.json > log-releve-sondes.txt 2>&1 &
             echo $! > releve-sondes.pid
           fi
-          for n in lisibles akirabox buzz sondes; do
+          for n in lisibles akirabox buzz sondes 1f; do
             [ -f releve-$n.pid ] || continue
             P=$(cat releve-$n.pid)
             E=0
@@ -690,7 +705,7 @@ jobs:
           # L'application est sequentielle et instantanee : c'est la COLLECTE
           # qui attendait le reseau, pas l'ecriture.
           if [ -f ps5-catalog.json ]; then
-            python3 scripts/releves.py ps5-catalog.json releve-lisibles.json                     releve-akirabox.json releve-buzzheavier.json releve-sondes.json || true
+            python3 scripts/releves.py ps5-catalog.json releve-lisibles.json                     releve-akirabox.json releve-buzzheavier.json releve-sondes.json releve-1fichier.json || true
           fi
           rm -f releve-*.json releve-*.pid log-releve-*.txt catalogue-au-depart.json
 
