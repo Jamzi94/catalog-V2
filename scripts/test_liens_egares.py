@@ -70,4 +70,36 @@ assert "https://a/x" in doom, "titleId inconnu : le doute ne se resout pas en su
 assert "https://a/y" in doom, "nom sans titleId : hors sujet"
 assert len(doom) == 4, doom
 
+
+# --- LE TITLEID SEUL SUFFIT quand le nom ne dit rien d autre ----------------
+# Elargissement du 2026-09-01. Les 464 liens classes « indetermines » hier
+# portaient un titleId d une fiche EXISTANTE, mais un nom sans aucun mot en
+# commun avec elle — « PPSA04540.part01.rar », « PPSA08135.exfat ». Ils
+# n etaient pas indetermines : le titleId Sony EST l identite du jeu, et un nom
+# qui ne porte que lui la porte entierement.
+#
+# Mesure : 147 de ces liens sont deja sur leur fiche cible (purgeables), 317
+# n y sont pas (deplaçables). Exemples releves — la fiche « 3D MiniGolf »
+# portait « PPSA04540.part01.rar », qui est « Rise of the Ronin ».
+#
+# La condition de garde reste la meme : si le nom evoque le titre de la fiche
+# COURANTE, c est une autre edition du meme jeu et on n y touche pas.
+pk2 = [
+    {"titleId": "PPSA03647", "title": "3D MiniGolf", "downloadLinks": [
+        {"url": "https://a/1", "fileName": "PPSA03647.exfat"},
+        {"url": "https://a/2", "fileName": "[DLPSGAME.COM]-01.009 PPSA04540.part01.rar"},
+        # TEMOIN : le nom EVOQUE le titre courant -> autre edition, on ne touche pas
+        {"url": "https://a/3", "fileName": "3D.MiniGolf.Deluxe-PPSA09999.rar"},
+        # TEMOIN : titleId absent du catalogue -> on ne devine pas ou l envoyer
+        {"url": "https://a/4", "fileName": "PPSA77777.exfat"},
+    ]},
+    {"titleId": "PPSA04540", "title": "Rise of the Ronin", "downloadLinks": []},
+]
+st2 = {}
+_replacer_liens_par_nom(pk2, st2)
+restants = [l["url"] for l in pk2[0]["downloadLinks"]]
+assert "https://a/2" not in restants, restants
+assert [l["url"] for l in pk2[1]["downloadLinks"]] == ["https://a/2"]
+assert "https://a/1" in restants and "https://a/3" in restants and "https://a/4" in restants, restants
+
 print("OK")

@@ -1042,10 +1042,16 @@ def _replacer_liens_par_nom(packages: list, stats: dict) -> None:
             if cible is None or (mots_fiche & mots_nom):
                 gardes.append(link)
                 continue
-            # ... et il evoque bien le titre de la fiche visee ?
-            if not (_mots(cible.get("title")) & mots_nom):
-                gardes.append(link)
-                continue
+            # Le nom evoque-t-il le titre de la fiche visee ? Si oui, deux
+            # preuves concordent. Sinon le titleId reste une preuve a lui seul :
+            # c'est l'identite Sony du jeu, et un nom qui ne porte QUE lui la
+            # porte entierement — « PPSA04540.part01.rar » sur la fiche « 3D
+            # MiniGolf » est un fichier de « Rise of the Ronin ».
+            # Elargissement du 2026-09-01 : ces 464 liens etaient classes
+            # « indetermines » faute d'un second signal qui n'existait pas.
+            # Mesure : 147 sont deja sur leur fiche cible, 317 n'y sont pas.
+            # La garde qui compte est au-dessus — si le nom evoque le titre
+            # COURANT, c'est une autre edition et on n'y touche pas.
             urls = {(x.get("url") or "") for x in (cible.get("downloadLinks") or [])}
             if (link.get("url") or "") in urls:
                 purges += 1
