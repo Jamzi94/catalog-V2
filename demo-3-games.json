@@ -3,397 +3,314 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA16019",
-      "title": "Double Dragon Gaiden Rise of The Dragons",
-      "version": "01.000",
+      "titleId": "PPSA07058",
+      "title": "Final Vendetta",
+      "version": "01.002.000",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6g6l.jpg",
-      "description": "Format: exFAT · PKG\nTags: PPSA16019, v01.000, EUR\nSize: 500 MB\nPassword: SuperPSX\nVoices: English\nWorks on 6.xx and higher",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p1b.jpg",
+      "description": "Format: exFAT\nTags: PPSA07058, v1.002.000, 4.xx, EUR\nSize: 541 MB",
       "downloadLinks": [
         {
-          "name": "[exFAT · 2 Go]",
-          "url": "https://akirabox.com/0PdzyQNXLzeA/file",
+          "name": "[exFAT]",
+          "url": "https://akirabox.com/l5YzMZDoWGyO/file",
           "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
-          "sizeBytes": 2104533975,
           "mirror": "Akia"
         },
         {
-          "name": "[exFAT]",
-          "url": "https://vikingfile.com/f/aCNcX47wq1",
+          "name": "[exFAT · 542 Mo]",
+          "url": "https://vikingfile.com/f/6XZ6iMAv2v",
           "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
+          "mirror": "Viki",
+          "fileName": "PPSA07058.exfat",
+          "sizeBytes": 568328192
+        },
+        {
+          "name": "[exFAT · 542 Mo]",
+          "url": "https://datanodes.to/pw3cmy2f76vo",
+          "group": "exFAT",
+          "mirror": "Data",
+          "fileName": "PPSA07058.exfat",
+          "sizeBytes": 568328192
+        },
+        {
+          "name": "[exFAT · 542 Mo]",
+          "url": "https://filekeeper.net/5echrt45mfrm",
+          "group": "exFAT",
+          "mirror": "Filek",
+          "fileName": "PPSA07058.exfat",
+          "sizeBytes": 568328192
+        },
+        {
+          "name": "[exFAT]",
+          "url": "https://datavaults.co/szkxd157pxkd",
+          "group": "exFAT",
+          "mirror": "Vault",
+          "fileName": "PPSA07058.exfat"
+        },
+        {
+          "name": "[exFAT · EUR]",
+          "url": "https://www.mediafire.com/file/68oxfr97o2ip014/PPSA07058-app0-[DLPSGAME.COM].rar/file",
+          "group": "Standard",
+          "version": "01.002.000",
+          "region": "EUR",
+          "editionId": "PPSA07058",
+          "fileName": "PPSA07058-app0-[DLPSGAME.COM].rar",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[exFAT · EUR]",
+          "url": "https://vikingfile.com/f/lNqFah14Fb",
+          "group": "Standard",
+          "version": "01.002.000",
+          "region": "EUR",
+          "editionId": "PPSA07058",
+          "fileName": "PPSA07058-app0-[DLPSGAME.COM].rar",
           "mirror": "Viki"
         },
         {
-          "name": "[exFAT · 2 Go]",
-          "url": "https://datanodes.to/qjumuvid6v7v",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
-          "sizeBytes": 2147483648,
+          "name": "[exFAT · EUR]",
+          "url": "https://1fichier.com/?d7z70cc46ity1axul6hk",
+          "group": "Standard",
+          "version": "01.002.000",
+          "region": "EUR",
+          "editionId": "PPSA07058",
+          "mirror": "1File"
+        },
+        {
+          "name": "[exFAT · EUR]",
+          "url": "https://www.rootz.so/d/xxk1o",
+          "group": "Standard",
+          "version": "01.002.000",
+          "region": "EUR",
+          "editionId": "PPSA07058",
+          "fileName": "PPSA07058-app0-[DLPSGAME.COM].rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[exFAT · 338 Mo · USA]",
+          "url": "https://akirabox.com/gXeGOaa5N3Aa/file",
+          "group": "Standard",
+          "version": "01.002.000",
+          "region": "USA",
+          "editionId": "PPSA07063",
+          "mirror": "Akia",
+          "fileName": "PPSA07063-[DLPSGAME.COM].rar",
+          "sizeBytes": 354596945
+        },
+        {
+          "name": "[exFAT · USA]",
+          "url": "https://vikingfile.com/f/BljlHBjEds",
+          "group": "Standard",
+          "version": "01.002.000",
+          "region": "USA",
+          "editionId": "PPSA07063",
+          "fileName": "PPSA07063-[DLPSGAME.COM].rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[exFAT · USA]",
+          "url": "https://1fichier.com/?gwtqwuzgno9r8osbdvgd",
+          "group": "Standard",
+          "version": "01.002.000",
+          "region": "USA",
+          "editionId": "PPSA07063",
+          "mirror": "1File"
+        },
+        {
+          "name": "[exFAT · USA]",
+          "url": "https://gofile.io/d/LH7Ffv",
+          "group": "Standard",
+          "version": "01.002.000",
+          "region": "USA",
+          "editionId": "PPSA07063",
+          "mirror": "Gofile"
+        }
+      ],
+      "sizeBytes": 567279616,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "RAR"
+      ],
+      "_enrichedAt": "2026-08-23T04:43:54.417182+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "final-vendetta",
+        "rawgName": "Final Vendetta",
+        "rating": 3.88,
+        "metacritic": null,
+        "released": "2022-06-16",
+        "genres": [
+          "Indie",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/screenshots/714/714a0057da6541f63fbe105c82dc69d0.jpg"
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:36:28.226164+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "exFAT"
+    },
+    {
+      "titleId": "PPSA18528",
+      "title": "Mighty Morphin Power Rangers Ritas Rewind",
+      "version": "01.009",
+      "category": "game",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Mighty_Morphin_Power_Rangers_Ritas_Rewind.avif",
+      "description": "Format: Backport\nBP = Backport",
+      "downloadLinks": [
+        {
+          "name": "[exFAT · BP 4.xx · 736 Mo]",
+          "url": "https://akirabox.com/0rpmvprrazRg/file",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "PPSA18528.exfat",
+          "sizeBytes": 771751936
+        },
+        {
+          "name": "[exFAT · BP 4.xx · 736 Mo]",
+          "url": "https://vikingfile.com/f/fSDeEdGGYH",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA18528.exfat",
+          "sizeBytes": 771751936,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[exFAT · BP 4.xx · 736 Mo]",
+          "url": "https://datanodes.to/dw9ggs5nuvgk",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA18528.exfat",
+          "sizeBytes": 771751936,
           "mirror": "Data"
         },
         {
-          "name": "[exFAT · 2 Go]",
-          "url": "https://filekeeper.net/kusj9m6xo4k6",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
-          "sizeBytes": 2147483648,
+          "name": "[exFAT · BP 4.xx · 736 Mo]",
+          "url": "https://filekeeper.net/7wypltj460rz",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA18528.exfat",
+          "sizeBytes": 771751936,
           "mirror": "Filek"
         },
         {
-          "name": "[exFAT]",
-          "url": "https://datavaults.co/n3j99xreby0i",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019 exfat",
+          "name": "[exFAT · BP 4.xx]",
+          "url": "https://datavaults.co/6jj1ob4zoi18",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA18528 exfat",
+          "mirror": "Vault"
+        }
+      ],
+      "sizeBytes": 771751936,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-09-03T05:29:57.218126+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "mighty-morphin-power-rangers-ritas-rewind",
+        "rawgName": "Mighty Morphin Power Rangers: Rita's Rewind",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2024-12-10",
+        "genres": [
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/screenshots/a74/a7458dd39aaa05bd55411a1a914543f1.jpg"
+      },
+      "formatLabel": "Backport"
+    },
+    {
+      "titleId": "PPSA20931",
+      "title": "Electronics Puzzle Lab",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q99.jpg",
+      "description": "Format: exFAT · APR-EMU · Backport\nTags: PPSA20931, v1.000, 4.xx, 9.xx, USA\nSize: 1 GB\nBP = Backport",
+      "downloadLinks": [
+        {
+          "name": "[exFAT · BP 4.xx · 2 Go]",
+          "url": "https://akirabox.com/jJD3VDgkEGa5/file",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA20931.exfat",
+          "sizeBytes": 2061584302,
+          "mirror": "Akia"
+        },
+        {
+          "name": "[exFAT · BP 4.xx · 2 Go]",
+          "url": "https://vikingfile.com/f/3pHnVFlXwA",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA20931.exfat",
+          "sizeBytes": 2061584302,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[exFAT · BP 4.xx · 2 Go]",
+          "url": "https://datanodes.to/bv1l0r1emi7h",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA20931.exfat",
+          "sizeBytes": 2040109465,
+          "mirror": "Data"
+        },
+        {
+          "name": "[exFAT · BP 4.xx · 2 Go]",
+          "url": "https://filekeeper.net/56711435w690",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA20931.exfat",
+          "sizeBytes": 2040109465,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[exFAT · BP 4.xx]",
+          "url": "https://datavaults.co/ltnohfbitxrg",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA20931 exfat",
           "mirror": "Vault"
         },
         {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://www.rootz.so/d/1XqeGm",
+          "name": "[APR-EMU · USA]",
+          "url": "https://www.mediafire.com/file/k3jo1rzzzda9jxt/[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar/file",
           "group": "Standard",
           "version": "01.000",
-          "fileName": "[SuperPSX]-Double.Dragon.Gaiden.Rise.of.The.Dragons-PPSA16019 – EUR-Game (v01.000)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://www.rootz.so/d/1GbjN2",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-01.000-PPSA16019.rar",
-          "mirror": "Rootz"
+          "region": "USA",
+          "editionId": "PPSA20931",
+          "fileName": "[DLPSGAME.COM]-PPSA20931-Game+(v01.000)+[APR-EMU].rar",
+          "mirror": "Mediafire"
         }
       ],
       "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · PKG"
+        "exFAT · APR-EMU · Backport"
       ],
       "fileFormat": [
-        "exFAT",
-        "PKG",
-        "APR-EMU"
-      ],
-      "_enrichedAt": "2026-08-31T14:39:13.162027+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "double-dragon-gaiden-rise-of-the-dragons",
-        "rawgName": "Double Dragon Gaiden: Rise Of The Dragons",
-        "rating": 3.5,
-        "metacritic": null,
-        "released": "2023-07-27",
-        "genres": [
-          "Adventure",
-          "Action",
-          "Fighting",
-          "Casual",
-          "Family"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/ffd/ffdc61d95936afb2aacbe26dfdc0e73b.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-30T15:00:58.434544+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG"
-    },
-    {
-      "titleId": "PPSA10829",
-      "title": "Mothmen 1966",
-      "version": "01.001",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55b2.jpg",
-      "description": "Format: exFAT · APR-EMU · Backport 4.xx\nTags: PPSA10829, v1.001, 4.xx, 6.xx, USA\nSize: 711 MB\nBP = Backport",
-      "downloadLinks": [
-        {
-          "name": "[APR-EMU · USA]",
-          "url": "https://www.mediafire.com/file/eyokefzw7z8pcmf/[DLPSGAME.COM]-PPSA10829-Game+(v01.001)+[APR-EMU].rar/file",
-          "group": "Standard",
-          "version": "01.001",
-          "region": "USA",
-          "editionId": "PPSA10829",
-          "fileName": "[DLPSGAME.COM]-PPSA10829-Game+(v01.001)+[APR-EMU].rar",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[exFAT · BP 4.xx · 711 Mo]",
-          "url": "https://akirabox.com/b5Ozd2NjpmB8/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia",
-          "fileName": "PPSA10829.exfat",
-          "sizeBytes": 745537536
-        },
-        {
-          "name": "[exFAT · BP 4.xx · 711 Mo]",
-          "url": "https://vikingfile.com/f/9B7xsuZxst",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA10829.exfat",
-          "sizeBytes": 745537536,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[exFAT · BP 4.xx]",
-          "url": "https://datavaults.co/2j2w29erd3pf",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA10829 exfat",
-          "mirror": "Vault"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · APR-EMU · Backport 4.xx"
-      ],
-      "fileFormat": [
+        "Backport",
         "exFAT",
         "APR-EMU",
         "RAR",
-        "Backport 4.xx",
-        "Backport"
+        "Backport 4.xx"
       ],
-      "sizeBytes": 745537536,
-      "_enrichedAt": "2026-08-19T04:32:56.579926+00:00",
+      "_enrichedAt": "2026-09-03T05:29:34.126204+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "mothmen-1966",
-        "rawgName": "Mothmen 1966",
+        "rawgSlug": "electronics-puzzle-lab",
+        "rawgName": "Electronics Puzzle Lab",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2022-07-13",
+        "released": "2024-02-13",
         "genres": [
+          "Casual",
           "Indie",
-          "Adventure"
+          "Simulation"
         ]
       },
-      "_igdbEnrichedAt": "2026-06-28T21:37:19.137318+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:36:22.387729+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · APR-EMU · Backport 4.xx"
-    },
-    {
-      "titleId": "PPSA02801",
-      "title": "New Joe and Mac Caveman Ninja",
-      "version": "01.003",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vjs.jpg",
-      "description": "Format: exFAT · PKG · Backport 4.xx\nTags: PPSA02801, v1.003, 4.xx, 5.xx, EUR\nSize: 970 MB\nBP = Backport",
-      "downloadLinks": [
-        {
-          "name": "[PKG · APR-EMU · EUR] #01",
-          "url": "https://www.rootz.so/d/L5KdM",
-          "group": "Standard",
-          "version": "01.003",
-          "region": "EUR",
-          "editionId": "PPSA02801",
-          "fileName": "[DLPSGAME.COM] - 01.003 PPSA02801.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://www.mediafire.com/file/027w6rhu8s2bhcu/[DLPSGAME.COM]-PPSA02801-app0.rar/file",
-          "group": "Standard",
-          "version": "01.003",
-          "region": "EUR",
-          "editionId": "PPSA02801",
-          "fileName": "[DLPSGAME.COM]-PPSA02801-app0.rar",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[PKG · APR-EMU · 694 Mo · EUR]",
-          "url": "https://akirabox.com/Y2xm01MX63RO/file",
-          "group": "Standard",
-          "version": "01.003",
-          "region": "EUR",
-          "editionId": "PPSA02801",
-          "mirror": "Akia",
-          "fileName": "[DLPSGAME.COM]-PPSA02801-app0.rar",
-          "sizeBytes": 727816601
-        },
-        {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://vikingfile.com/f/8IjWFXdMPf",
-          "group": "Standard",
-          "version": "01.003",
-          "region": "EUR",
-          "editionId": "PPSA02801",
-          "fileName": "[DLPSGAME.COM]-PPSA02801-app0.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[exFAT · 1000 Mo]",
-          "url": "https://akirabox.com/LJlGnWdDem15/file",
-          "group": "exFAT",
-          "mirror": "Akia",
-          "fileName": "PPSA02801.exfat",
-          "sizeBytes": 1048576000
-        },
-        {
-          "name": "[exFAT]",
-          "url": "https://vikingfile.com/f/SM6BB8NzIC",
-          "group": "exFAT",
-          "fileName": "PPSA02801.exfat",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[exFAT · 1000 Mo]",
-          "url": "https://datanodes.to/p68pvo6xjlsu",
-          "group": "exFAT",
-          "fileName": "PPSA02801.exfat",
-          "sizeBytes": 1048576000,
-          "mirror": "Data"
-        },
-        {
-          "name": "[exFAT]",
-          "url": "https://datavaults.co/7zl3jkyqsjao",
-          "group": "exFAT",
-          "fileName": "PPSA02801 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[exFAT · BP · 1000 Mo]",
-          "url": "https://akirabox.com/LK0G1b55am91/file",
-          "group": "exFAT · Backport",
-          "mirror": "Akia",
-          "fileName": "PPSA02801.exfat",
-          "sizeBytes": 1048576000
-        },
-        {
-          "name": "[exFAT · BP · 1000 Mo]",
-          "url": "https://vikingfile.com/f/nmblVAl1Fe",
-          "group": "exFAT · Backport",
-          "fileName": "PPSA02801.exfat",
-          "sizeBytes": 1048576000,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[exFAT · BP · 1000 Mo]",
-          "url": "https://datanodes.to/a6ts7c2itm6u",
-          "group": "exFAT · Backport",
-          "fileName": "PPSA02801.exfat",
-          "sizeBytes": 1048576000,
-          "mirror": "Data"
-        },
-        {
-          "name": "[exFAT · BP · 1000 Mo]",
-          "url": "https://filekeeper.net/x1aaq0i240m0",
-          "group": "exFAT · Backport",
-          "fileName": "PPSA02801.exfat",
-          "sizeBytes": 1048576000,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[exFAT · BP]",
-          "url": "https://datavaults.co/aab39feyr3td",
-          "group": "exFAT · Backport",
-          "fileName": "PPSA02801 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[PKG · APR-EMU · EUR] #02",
-          "url": "https://www.rootz.so/d/1hnJRY",
-          "group": "Standard",
-          "version": "01.003",
-          "fileName": "[SuperPSX]-New.Joe.&amp;.Mac.Caveman.Ninja-PPSA02801-EUR-Game (v01.003)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://1fichier.com/?d67bfq7q0lrm5dwl14ro&af=4186346",
-          "group": "Standard",
-          "version": "01.003",
-          "mirror": "1File"
-        },
-        {
-          "name": "[PKG · APR-EMU · EUR]",
-          "url": "https://1fichier.com/?lh8uvczvq1cqktq9j19j",
-          "group": "Standard",
-          "version": "01.003",
-          "region": "EUR",
-          "editionId": "PPSA02801",
-          "mirror": "1File"
-        },
-        {
-          "name": "[PKG · APR-EMU]",
-          "url": "https://rootz.so/d/tC4G0",
-          "version": "01.003",
-          "fileName": "[DLPSGAME.COM]-PPSA02801-app0.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "url": "https://gofile.io/d/U4m3wjaw",
-          "name": "[PKG · APR-EMU · 701 Mo · EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-New.Joe.&.Mac.Caveman.Ninja-PPSA02801-EUR-Game (v01.003)-PS5.rar",
-          "sizeBytes": 735345377,
-          "group": "Standard",
-          "version": "01.003"
-        },
-        {
-          "url": "https://vikingfile.com/f/qoLMQMEHCr",
-          "name": "[PKG · APR-EMU · 701 Mo · EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-New.Joe.&.Mac.Caveman.Ninja-PPSA02801-EUR-Game (v01.003)-PS5.rar",
-          "sizeBytes": 735345377,
-          "group": "Standard",
-          "version": "01.003"
-        },
-        {
-          "url": "https://gofile.io/d/GMWJfsCz",
-          "name": "[BP · 95 Mo · EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-New.Joe.&.Mac.Caveman.Ninja-PPSA02801-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 99363061,
-          "group": "Backport",
-          "version": "01.003"
-        },
-        {
-          "url": "https://vikingfile.com/f/PlpxtyCern",
-          "name": "[BP · 95 Mo · EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-New.Joe.&.Mac.Caveman.Ninja-PPSA02801-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 99363061,
-          "group": "Backport",
-          "version": "01.003"
-        },
-        {
-          "url": "https://1fichier.com/?4w1hi8znl6titj3e14xk&af=4186346",
-          "name": "[BP · 95 Mo · EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-New.Joe.&.Mac.Caveman.Ninja-PPSA02801-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 99363061,
-          "group": "Backport",
-          "version": "01.003"
-        },
-        {
-          "url": "https://www.rootz.so/d/17WQgS",
-          "name": "[BP · 95 Mo · EUR]",
-          "mirror": "Rootz",
-          "fileName": "[SuperPSX]-New.Joe.&.Mac.Caveman.Ninja-PPSA02801-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 99363061,
-          "group": "Backport",
-          "version": "01.003"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG · Backport 4.xx"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "APR-EMU",
-        "RAR",
-        "Backport 4.xx",
-        "Backport",
-        "PKG",
-        "unknown"
-      ],
-      "sizeBytes": 1017118720,
-      "_enrichedAt": "2026-08-19T04:33:02.253155+00:00",
-      "_rawgMatched": false,
-      "_igdbEnrichedAt": "2026-06-28T21:37:24.317986+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG · Backport 4.xx"
+      "formatLabel": "exFAT · APR-EMU · Backport"
     }
   ]
 }
