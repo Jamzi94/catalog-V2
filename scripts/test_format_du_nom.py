@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from pegasus_finalize import (SEUIL_CORRECTIF, finalize_package,             # noqa: E402
+from pegasus_finalize import (finalize_package,             # noqa: E402
                               format_du_nom)
 
 Mo, Go = 1024 ** 2, 1024 ** 3

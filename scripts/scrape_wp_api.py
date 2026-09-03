@@ -43,7 +43,6 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Any, Iterator
 from urllib.parse import urljoin, urlparse, parse_qs
 
 # ---------------------------------------------------------------------------
@@ -646,7 +645,6 @@ def resolve_redirect(url: str, mirror_hint: str | None = None) -> str | None:
             pass
 
     backoff = [1, 3, 8]
-    last_exc: Exception | None = None
 
     # Jitter pour lisser la charge quand la résolution est parallélisée.
     time.sleep(random.uniform(REDIRECT_JITTER_MIN, REDIRECT_JITTER_MAX))
@@ -690,7 +688,6 @@ def resolve_redirect(url: str, mirror_hint: str | None = None) -> str | None:
                 except Exception:
                     body = ""
             except (urllib.error.URLError, OSError) as exc:
-                last_exc = exc
                 wait = backoff[min(attempt - 1, len(backoff) - 1)]
                 log.debug("    redirect attempt %d failed for %s: %s", attempt, url, exc)
                 time.sleep(wait)
@@ -760,7 +757,6 @@ def resolve_redirect(url: str, mirror_hint: str | None = None) -> str | None:
             break
 
         except Exception as exc:
-            last_exc = exc
             log.debug("    resolve_redirect exception for %s: %s", url, exc)
 
     log.debug("    could not resolve redirect: %s", url)
@@ -1753,7 +1749,7 @@ def scrape_all_via_api(
         if pkg:
             # Remove internal metadata before adding to catalog
             needs_fallback = pkg.pop("needsHtmlFallback", False)
-            wp_meta = pkg.pop("_wpMeta", {})
+            pkg.pop("_wpMeta", None)   # retire la cle ; la valeur ne sert pas
 
             packages.append(pkg)
 

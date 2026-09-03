@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Le comparateur AVANT de s'en servir : s'il ne voit pas le defaut connu, il est
 aveugle et la campagne sur 250 liens ne vaudrait rien."""
-import sys, io
+import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comparateur import comparer, lire_nom, lire_etiquette, mesurable

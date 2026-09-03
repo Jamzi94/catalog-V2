@@ -120,7 +120,7 @@ def build(catalog_path: Path, md_path: Path, csv_path: Path) -> int:
         writer.writerows(rows)
 
     print(f"[build_games_list] {len(rows)} jeux → {md_path} + {csv_path}")
-    print(f"[build_games_list] formats : " +
+    print("[build_games_list] formats : " +
           ", ".join(f"{fmt}={n}" for fmt, n in
                     sorted(by_format.items(), key=lambda kv: -kv[1])[:8]))
     return len(rows)

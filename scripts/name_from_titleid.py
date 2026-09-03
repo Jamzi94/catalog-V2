@@ -28,7 +28,6 @@ import argparse
 import collections
 import json
 import re
-import sys
 import urllib.request
 from pathlib import Path
 

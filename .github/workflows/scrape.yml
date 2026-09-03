@@ -148,6 +148,26 @@ jobs:
           python3 scripts/sizes.py
           python3 scripts/formats.py
 
+      - name: Porte de correctitude Python (syntaxe + pyflakes)
+        run: |
+          # POURQUOI ICI, ET PAS SEULEMENT DANS phoenix-elf. Cette porte
+          # existait dans l'autre depot, qui heberge une COPIE de ces scripts.
+          # Elle y echouait depuis le 2026-08-13 — quatre runs planifies de
+          # suite — et personne ne lisait son verdict, puisqu'elle accusait un
+          # code dont la SOURCE est ici. Corriger la copie n'aurait rien
+          # durci : le defaut serait revenu au prochain rsync.
+          #
+          # Ce qu'elle avait attrape et que nous ignorions : « hashlib » etait
+          # importe DANS une fonction et utilise au niveau module, soit un
+          # NameError certain des qu'une fiche arrivait sans titleId. Un
+          # avertissement de style avait cache un plantage.
+          #
+          # F et E9 seulement : les vrais defauts (nom indefini, import mort,
+          # variable calculee et jamais dite), pas le formatage.
+          pip install -q ruff
+          ruff check scripts/ --select F,E9 --no-cache --output-format concise
+
+
       - name: Determine scrape mode
         id: config
         run: |

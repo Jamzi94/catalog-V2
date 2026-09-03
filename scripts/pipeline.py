@@ -37,7 +37,6 @@ Pipeline steps:
 from __future__ import annotations
 
 import argparse
-import datetime as dt
 import json
 import logging
 import os
@@ -867,6 +866,11 @@ def _print_summary(
     LOG.info("-" * 60)
     LOG.info("  Steps: %d/%d succeeded  |  Total: %.1fs",
              succeeded, total_steps, total_duration)
+    if failed:
+        # `failed` etait calcule sans jamais etre dit. Un pipeline qui echoue a
+        # moitie doit l'annoncer : le taux de succes seul se lit trop vite.
+        LOG.warning("  %d etape(s) EN ECHEC : %s", failed,
+                    ", ".join(r.name for r in results if not r.success))
 
     if health:
         LOG.info("  Health: %s  (%d games)",

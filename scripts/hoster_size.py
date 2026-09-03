@@ -34,7 +34,6 @@ import json
 import random
 import re
 import sys
-import threading
 import time
 import urllib.parse
 import urllib.request
@@ -587,7 +586,6 @@ def fill_link_sizes(catalog: dict, *, max_probe: int = 0, delay: float = 0.3,
     stats = {"rubriques": 0, "sondees": 0, "trouvees": 0, "budget": max_probe}
     for pkg in catalog.get("packages", []):
         liens = [l for l in (pkg.get("downloadLinks") or []) if isinstance(l, dict)]
-        vues: set = set()
         for link in liens:
             if seulement_bp and "BP" not in (link.get("name") or ""):
                 continue

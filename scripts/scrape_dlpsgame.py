@@ -22,6 +22,11 @@ from __future__ import annotations
 import argparse
 import base64
 import concurrent.futures as cf
+# hashlib etait importe DANS une fonction (ligne ~361) et utilise au niveau
+# module a la construction du titleId de repli : NameError des qu'une fiche
+# arrivait sans titleId. Detecte par la porte pyflakes de phoenix-elf, qui
+# echouait depuis le 2026-08-13 sans que personne ne lise son verdict.
+import hashlib
 import datetime as dt
 import json
 import logging
@@ -32,10 +37,13 @@ import subprocess
 import sys
 import time
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, TYPE_CHECKING
 from urllib.parse import urljoin, urlparse, parse_qs
 
 from bs4 import BeautifulSoup
+
+if TYPE_CHECKING:                      # annotations seulement, jamais a l'execution
+    import requests
 
 from formats import detect_formats, detect_region, detect_section, detect_title_id
 from sizes import extract_size
@@ -1431,8 +1439,6 @@ def scrape_all(
         log.info("Phase 2 : retry de %d page(s) échouée(s)", len(failed_urls))
         log.info("=" * 60)
         # On invalide le cache pour ces URLs
-        global DISK_CACHE_ENABLED
-        old_cache_flag = DISK_CACHE_ENABLED
         # On garde le cache activé mais on supprime les entrées échouées
         for url in failed_urls:
             cache_file = DISK_CACHE_DIR / _cache_key(url)

@@ -48,7 +48,6 @@ import datetime as dt
 import hashlib
 import json
 import logging
-import os
 import random
 import re
 import shutil
@@ -1264,7 +1263,6 @@ def parse_dll_page(url: str) -> dict | None:
     all_tables = soup.find_all("table")
 
     # Track current section (for multi-section pages)
-    current_section = ""
     current_section_label = ""
 
     # Results
@@ -1290,7 +1288,6 @@ def parse_dll_page(url: str) -> dict | None:
         # Check if this is a separator table (marks new section)
         section_label = _detect_section_label(table)
         if section_label is not None:
-            current_section = section_label
             # Try to extract variant label (e.g., "exFAT")
             # Meme detecteur que les autres sources : conserve la version de
             # firmware (« Backport 4.xx ») et reconnait Cheat/DLC/Fix/Dump/
@@ -2071,7 +2068,7 @@ def scrape_all(
                     retry_success += 1
                 else:
                     still_failing.append(url)
-            except Exception as exc:
+            except Exception:
                 still_failing.append(url)
             time.sleep(PAGE_DELAY * 2)
 
