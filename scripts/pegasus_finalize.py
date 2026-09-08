@@ -353,7 +353,17 @@ def _taille_courte(octets) -> str:
 # caractere — et rend l'etiquette PLUS courte qu'avant l'ajout du role.
 SEP = " "
 
-JARGON_MASQUE = ("Folder", "FFPFSC", "FFPKG")
+# LE FORMAT S'AFFICHE EN ENTIER, decision de l'utilisateur du 2026-09-08.
+# J'avais masque « Folder », « FFPFSC » et « FFPKG » au motif qu'ils sont
+# quasi toujours redondants avec PKG — FFPKG n'apparait JAMAIS sans lui (145
+# sur 145), FFPFSC 391 fois sur 422, Folder 2472 sur 2721. La mesure etait
+# juste, la conclusion non : ils disent ce qu'on va MANIPULER une fois le
+# fichier telecharge, et un dossier ne s'installe pas comme une archive.
+# Cout assume et mesure sur les 2962 liens concernes : la troncature passe de
+# 9 % a 13 %. Ce qui sort du cadre est la version en queue, jamais le format.
+# Le tuple reste, vide : la mecanique a servi et resservira peut-etre, et une
+# liste vide se lit mieux qu'un branchement mort.
+JARGON_MASQUE = ()
 
 ROLES = ("GAME", "UPD", "DLC", "FIX")
 
@@ -577,6 +587,27 @@ _PART_RE = re.compile(r"[._\-\s]part\s*(\d{1,3})\b", re.IGNORECASE)
 _RANK_SUFFIX_RE = re.compile(r"\s+(?:#\d{1,3}|\d{2,3}/\d{2,3})$")
 
 
+def _prefixer(nom: str, marque: str) -> str:
+    """Pose « marque » EN TETE de l'etiquette, dans les crochets.
+
+    Le numero s'ecrivait apres le crochet fermant, donc en fin de ligne — la ou
+    l'ellipse coupe. Mesure du 2026-09-08 : sur les 1904 liens en plusieurs
+    morceaux, 1029 (54 %) perdaient leur numero a l'ecran. Or c'est
+    l'information la plus critique d'une archive decoupee : il en faut la
+    TOTALITE, et un morceau manquant doit se voir.
+
+    Il precede meme le role : « lequel est-ce » passe avant « a quoi ça sert »
+    quand on assemble douze fichiers.
+    """
+    nom = nom or ""
+    if nom.startswith("["):
+        return f"[{marque} {nom[1:]}" if len(nom) > 1 else f"[{marque}]"
+    # Un libelle sans crochets n'arrive plus en production — le role est
+    # toujours ecrit — mais _number_parts reste appelable seul. La marque passe
+    # devant sans crochet parasite.
+    return f"{marque} {nom}".strip()
+
+
 def _number_parts(pkg: dict) -> None:
     """Suffixe « n/N » aux liens d'une archive découpée (sur place).
 
@@ -625,11 +656,11 @@ def _number_parts(pkg: dict) -> None:
             # ponytail: rang d'affichage, passer a « n/N » si la source finit
             # par donner le decoupage.
             for i, link in enumerate(groupe, 1):
-                link["name"] = f"{nom} #{i:02d}"
+                link["name"] = _prefixer(nom, f"#{i:02d}")
             continue
         total = max(numeros)
         for link, n in zip(groupe, numeros):
-            link["name"] = f"{nom} {n:02d}/{total:02d}"
+            link["name"] = _prefixer(nom, f"{n:02d}/{total:02d}")
 
 
 def _cle_url(url: str) -> str:
@@ -1020,10 +1051,16 @@ def _trier_par_role(pkg: dict) -> None:
     liens = pkg.get("downloadLinks") or []
 
     def cle(l):
-        # Le role est en tete du libelle : on lit ce que l'utilisateur voit,
-        # plutot que de le recalculer et risquer de diverger de l'affichage.
-        tete = (l.get("name") or "").lstrip("[").split(" ")[0].strip("]")
-        return rang.get(tete, len(ROLES))
+        # On lit le role dans le LIBELLE, pour ne pas diverger de ce que
+        # l'utilisateur voit. Mais il n'est plus forcement le premier mot : le
+        # numero de partie le precede depuis le 2026-09-08. Sans ce balayage,
+        # tous les liens numerotes — c'est-a-dire les gros jeux decoupes —
+        # tombaient en FIN de fiche, l'exact contraire du but. Un test l'a
+        # attrape avant la mise en ligne.
+        for mot in (l.get("name") or "").lstrip("[").rstrip("]").split(" ")[:2]:
+            if mot in rang:
+                return rang[mot]
+        return len(ROLES)
 
     pkg["downloadLinks"] = sorted(liens, key=cle)
 

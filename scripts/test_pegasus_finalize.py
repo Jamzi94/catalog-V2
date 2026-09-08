@@ -37,12 +37,15 @@ assert _clean_links(p) == 2
 # B) Libelles identiques, URL opaques : rang d'affichage.
 p = _pkg("https://vikingfile.com/f/aaa", "https://vikingfile.com/f/bbb")
 _number_parts(p)
-assert [l["name"] for l in p["downloadLinks"]] == ["Viki #01", "Viki #02"]
+# DECISION du 2026-09-08 : le numero passe EN TETE. Il s'ecrivait apres le
+# crochet fermant, donc en fin de ligne, la ou l'ellipse coupe — 1029 des
+# 1904 liens en plusieurs morceaux (54 %) perdaient leur numero a l'ecran.
+assert [l["name"] for l in p["downloadLinks"]] == ["#01 Viki", "#02 Viki"]
 
 # B) Temoin negatif : un vrai numero de partie garde « n/N ».
 p = _pkg("https://x.tld/jeu.part1.rar", "https://x.tld/jeu.part2.rar")
 _number_parts(p)
-assert [l["name"] for l in p["downloadLinks"]] == ["Viki 01/02", "Viki 02/02"]
+assert [l["name"] for l in p["downloadLinks"]] == ["01/02 Viki", "02/02 Viki"]
 
 # B) Temoin negatif : un libelle deja unique n'est pas numerote.
 p = {"downloadLinks": [{"name": "Viki", "url": "https://vikingfile.com/f/aaa"},
@@ -272,7 +275,7 @@ noms = _etiquettes("01.000", [
     {"name": "Viki", "url": "https://vikingfile.com/f/b", "group": "PKG"},
     {"name": "Akia", "url": "https://akirabox.com/c/file", "group": "PKG"},
 ])
-assert noms[0].endswith("#01") and noms[1].endswith("#02"), noms
+assert noms[0].startswith("[#01 ") and noms[1].startswith("[#02 "), noms
 assert noms[2] == "[GAME PKG]", noms
 
 print("OK")

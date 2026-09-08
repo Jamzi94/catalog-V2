@@ -70,11 +70,15 @@ n = _etiq([{"group": "exFAT", "sizeBytes": 66 * Go, "fileName": "PPSA1.exfat"}])
 assert n[0].startswith("[GAME "), n
 
 # --- le jargon sort de l AFFICHAGE ------------------------------------------
+# DECISION du 2026-09-08 : le format s affiche EN ENTIER. Ce temoin verifiait
+# l inverse — que « Folder », « FFPFSC » et « FFPKG » etaient masques. La
+# mesure qui le motivait tenait (FFPKG n apparait jamais sans PKG, 145 sur
+# 145), la conclusion non : ces mots disent ce qu on va MANIPULER une fois le
+# fichier telecharge, et un dossier ne s installe pas comme une archive.
 n = _etiq([{"group": "PKG · Folder · FFPFSC", "fileFormat": "FFPKG",
             "sizeBytes": 66 * Go, "fileName": "jeu.pkg"}])
-for mot in ("Folder", "FFPFSC", "FFPKG"):
-    assert mot not in n[0], (mot, n)
-assert "PKG" in n[0], n
+for mot in ("PKG", "Folder", "FFPFSC"):
+    assert mot in n[0], (mot, n)
 # TEMOIN : ce qui DECIDE de la compatibilite reste — exFAT et BP N.xx.
 n = _etiq([{"group": "exFAT · Backport 4.xx", "sizeBytes": 66 * Go,
             "fileName": "PPSA1.exfat"}])
@@ -93,8 +97,10 @@ assert roles == ["GAME", "UPD", "DLC", "FIX"], roles
 # TEMOIN : a role egal, l ordre d origine est CONSERVE — sinon les parties
 # d une archive decoupee et les miroirs d un meme fichier se disperseraient.
 n = _etiq([{"sizeBytes": 10 * Go, "fileName": f"jeu.part0{i}.rar"} for i in (1, 2, 3)])
-assert all(r.startswith("[GAME") for r in n), n
-assert [x[-5:] for x in n] == ["01/03", "02/03", "03/03"], n
+# Le numero precede desormais le role : « lequel est-ce » passe avant « a
+# quoi ça sert » quand on assemble douze fichiers.
+assert all(" GAME " in r for r in n), n
+assert [x[1:6] for x in n] == ["01/03", "02/03", "03/03"], n
 
 
 # --- UPD n est pas « version differente » -----------------------------------

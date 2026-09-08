@@ -82,7 +82,10 @@ noms = _noms([
     {"name": "Viki", "url": "https://vikingfile.com/f/b", "group": "Standard",
      "version": "01.000", "fileName": "[DLPSGAME.COM]-PPSA01487.part02.rar"},
 ])
-assert noms[0].endswith("06/06") and noms[1].endswith("02/06"), noms
+# DECISION du 2026-09-08 : le numero passe EN TETE. Il s'ecrivait apres le
+# crochet fermant, donc en fin de ligne, la ou l'ellipse coupe — 1029 des
+# 1904 liens en plusieurs morceaux (54 %) perdaient leur numero a l'ecran.
+assert noms[0].startswith("[06/06 ") and noms[1].startswith("[02/06 "), noms
 
 # TEMOIN NEGATIF — sans numero dans les noms, on retombe sur le rang « #n », qui
 # n'affirme aucun ordre.
@@ -90,7 +93,7 @@ noms = _noms([
     {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Standard", "version": "01.000"},
     {"name": "Viki", "url": "https://vikingfile.com/f/b", "group": "Standard", "version": "01.000"},
 ])
-assert noms[0].endswith("#01") and noms[1].endswith("#02"), noms
+assert noms[0].startswith("[#01 ") and noms[1].startswith("[#02 "), noms
 
 # --- la REGION lue dans le nom ----------------------------------------------
 # Mesure du 2026-08-30 : 257 liens portent une region des DEUX cotes, 254
