@@ -73,7 +73,26 @@ def lire_etiquette(nom: str) -> dict:
     if not m:
         return e
     tete, reste = m.group(1), m.group(2)
-    morceaux = [p.strip() for p in tete.split("·")]
+    # L'etiquette a change de separateur le 2026-09-08 : « · » entoure
+    # d'espaces coutait 21 points de troncature, l'espace simple porte la meme
+    # lecture. On accepte les DEUX — le catalogue publie peut porter l'ancienne
+    # forme entre deux runs, et un comparateur qui ne lit qu'une grammaire
+    # rend un zero rassurant sur l'autre.
+    morceaux = [p.strip() for p in re.split(r"\s*·\s*|\s+", tete) if p.strip()]
+    # « BP 4.xx », « 66 Go » et « APR-EMU » sont des segments de DEUX mots que
+    # le decoupage a l'espace vient de casser : on les recolle.
+    recolles, i = [], 0
+    while i < len(morceaux):
+        m = morceaux[i]
+        if i + 1 < len(morceaux) and (
+                (m.upper() in ("BP", "BACKPORT") and re.fullmatch(r"[0-9]\.xx\+?", morceaux[i + 1]))
+                or (re.fullmatch(r"[0-9]+", m) and morceaux[i + 1] in ("Mo", "Go"))):
+            recolles.append(f"{m} {morceaux[i + 1]}")
+            i += 2
+            continue
+        recolles.append(m)
+        i += 1
+    morceaux = recolles
     for p in morceaux:
         if re.fullmatch(r"(?i)v\d.*", p):
             e["version"] = p[1:]

@@ -128,14 +128,18 @@ noms = _etiquettes("01.031", [
     {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "Standard", "version": "01.031"},
     {"name": "Rootz", "url": "https://rootz.so/d/b", "group": "Backport", "version": "01.005"},
 ])
-assert noms[0] == "[PKG]", noms          # meme version que la fiche -> tue
+# DECISION du 2026-09-08, demandee par l'utilisateur : des clients ne s'y
+# retrouvaient plus. Chaque etiquette commence desormais par le ROLE —
+# GAME, UPD, DLC, FIX — qui repond a « lequel je telecharge pour jouer ? ».
+# Les attentes ci-dessous changent de PREFIXE, pas de garantie.
+assert noms[0] == "[GAME PKG]", noms          # meme version que la fiche -> tue
 # Version differente -> ecrite, mais EN DERNIER : l'ellipse mange la fin, et la
 # version est ce dont on peut le plus se passer. Mesure du 2026-08-30 : dans
 # l'ordre inverse, le format sortait du cadre 290 fois et la region 369 ; dans
 # cet ordre-ci, 67 et 104.
 # La version est abregee selon ce que porte la fiche : « 01.005 » y est seule
 # de son espece, donc « 1.005 » suffit et ne peut se confondre avec rien.
-assert noms[1] == "[BP · v1.005]", noms
+assert noms[1] == "[UPD BP v1.005]", noms
 
 # E) Abreviation DYNAMIQUE : deux versions dont l'une prefixe l'autre restent
 # distinguables — on ne raccourcit pas jusqu'a l'ambiguite.
@@ -153,7 +157,7 @@ pkg = {"titleId": "PPSA00001", "title": "Jeu", "version": "01.031", "fileFormat"
            {"name": "Rootz", "url": "https://rootz.so/d/b", "group": "Backport 4.xx",
             "version": "01.005"}]}
 finalize_package(pkg, collections.defaultdict(int))
-assert pkg["downloadLinks"][0]["name"] == "[BP 4.xx · v1.005]", pkg["downloadLinks"]
+assert pkg["downloadLinks"][0]["name"] == "[UPD BP 4.xx v1.005]", pkg["downloadLinks"]
 assert pkg["downloadLinks"][0]["group"] == "Backport 4.xx", pkg["downloadLinks"]
 assert "BP = Backport" in pkg["description"], pkg["description"]
 assert "Tags: PPSA00001" in pkg["description"], pkg["description"]
@@ -161,7 +165,7 @@ assert "Tags: PPSA00001" in pkg["description"], pkg["description"]
 # G) Idempotent : un second passage ne double ni l'etiquette ni la legende.
 avant = dict(pkg)
 finalize_package(pkg, collections.defaultdict(int))
-assert pkg["downloadLinks"][0]["name"] == "[BP 4.xx · v1.005]", pkg["downloadLinks"]
+assert pkg["downloadLinks"][0]["name"] == "[UPD BP 4.xx v1.005]", pkg["downloadLinks"]
 assert pkg["description"].count("BP = Backport") == 1, pkg["description"]
 
 # G) Temoin negatif : une fiche sans BP ne recoit pas la legende.
@@ -246,7 +250,7 @@ noms = _etiquettes("01.000", [
     {"name": "Viki", "url": "https://vikingfile.com/f/a", "group": "exFAT"},
     {"name": "Akia", "url": "https://akirabox.com/b/file", "group": "exFAT"},
 ])
-assert noms == ["[exFAT]", "[exFAT]"], noms
+assert noms == ["[GAME exFAT]", "[GAME exFAT]"], noms
 
 # Le miroir est CONSERVE dans un champ : il sert encore aux heuristiques de
 # format, et le retirer de l'affichage ne doit pas le detruire de la donnee.
@@ -258,7 +262,7 @@ assert pkg["downloadLinks"][0].get("mirror") == "Viki", pkg["downloadLinks"][0]
 # IDEMPOTENT : un second passage ne doit pas perdre le miroir ni doubler quoi
 # que ce soit — l'etiquette ne le porte plus, il faut le relire du champ.
 finalize_package(pkg, collections.defaultdict(int))
-assert pkg["downloadLinks"][0]["name"] == "[exFAT]", pkg["downloadLinks"][0]
+assert pkg["downloadLinks"][0]["name"] == "[GAME exFAT]", pkg["downloadLinks"][0]
 assert pkg["downloadLinks"][0].get("mirror") == "Viki", pkg["downloadLinks"][0]
 
 # Le rang ne numerote plus que les doublons du MEME hote : deux miroirs
@@ -269,6 +273,6 @@ noms = _etiquettes("01.000", [
     {"name": "Akia", "url": "https://akirabox.com/c/file", "group": "PKG"},
 ])
 assert noms[0].endswith("#01") and noms[1].endswith("#02"), noms
-assert noms[2] == "[PKG]", noms
+assert noms[2] == "[GAME PKG]", noms
 
 print("OK")

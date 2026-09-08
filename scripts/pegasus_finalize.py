@@ -147,6 +147,12 @@ def _strip_unknown(fmt_str: str) -> str:
 _RE_FW_SANS_POINT = re.compile("(?<![a-z0-9])([4-9])xx(?![a-z0-9])")
 
 _LEGENDE_BP = "BP = Backport"
+# La legende des roles va dans la DESCRIPTION, pas dans l'etiquette : quatre
+# mots de trois a quatre lettres tiennent dans une boite de 180 px, leur
+# explication non. Elle s'ecrit une fois par fiche, la ou l'utilisateur a la
+# place de lire.
+_LEGENDE_ROLES = ("GAME = le jeu · UPD = mise a jour · "
+                  "DLC = contenu additionnel · FIX = binaire a deposer")
 
 # Un lien « BP » est tantot le JEU entier repackage, tantot le seul binaire a
 # deposer dans le dossier du jeu. Mesure du 2026-08-30 sur 114 tailles relevees
@@ -331,6 +337,81 @@ def _taille_courte(octets) -> str:
     if octets < 1024 ** 3:
         return f"{round(octets / Mo)} Mo"
     return f"{round(octets / 1024 ** 3)} Go"
+
+
+# Jargon de scene : il occupe la tete de l'etiquette et ne dit rien qui aide a
+# CHOISIR. Mesure du 2026-09-08 : FFPKG n'apparait JAMAIS sans PKG (145 sur
+# 145), FFPFSC 391 fois sur 422, Folder 2472 sur 2721 — et Folder coute 9
+# caracteres sur 15 % des etiquettes pour annoncer ce que l'utilisateur verra
+# en telechargeant. Ils restent dans la DONNEE (group, fileFormat) ; seul
+# l'affichage s'en debarrasse. Ce qui decide de la compatibilite — exFAT, PKG,
+# BP N.xx — reste.
+# SEPARATEUR D'AFFICHAGE. « · » entoure d'espaces coute TROIS caracteres par
+# jointure, deux a quatre fois par etiquette, dans une boite qui en montre ~31.
+# Mesure du 2026-09-08 sur les 17200 etiquettes : il fait passer la troncature
+# de 8 % a 29 %. A lui seul. L'espace simple porte la meme lecture pour un
+# caractere — et rend l'etiquette PLUS courte qu'avant l'ajout du role.
+SEP = " "
+
+JARGON_MASQUE = ("Folder", "FFPFSC", "FFPKG")
+
+ROLES = ("GAME", "UPD", "DLC", "FIX")
+
+
+def role_du_lien(link: dict, version_fiche: str = "") -> str:
+    """A quoi sert ce lien : GAME, UPD, DLC ou FIX.
+
+    C'est la premiere question que se pose un utilisateur devant une fiche de
+    97 liens — « lequel je telecharge pour JOUER ? » — et elle n'avait de
+    reponse nulle part. Le role la donne, en tete d'etiquette.
+
+    Rien n'est devine : chaque role s'appuie sur une mesure deja faite.
+      DLC  releve dans le nom de fichier ou la section (1769 etiquettes).
+      FIX  classer_par_nom tranche jeu/correctif a 99 % d'exactitude sur 1206
+           liens de controle ; la taille ne departage que ce qu'il laisse
+           « inconnu », et seulement sous SEUIL_CORRECTIF.
+      UPD  la version du lien differe de celle de la fiche.
+      GAME tout le reste, y compris quand rien n'est connu — c'est le cas le
+           plus frequent et le moins couteux s'il se trompe : l'utilisateur
+           tombe sur le jeu, pas sur un binaire de 40 Mo.
+
+    L'ordre de test compte. Un DLC reste un DLC meme petit : on cherche du
+    CONTENU, pas une taille. Et un correctif reste un FIX meme si sa version
+    differe, sans quoi tous les backports deviendraient des UPD.
+    """
+    nom = link.get("fileName") or ""
+    section = f"{link.get('group') or ''} {link.get('fileFormat') or ''}"
+    marques = marques_du_nom(nom)
+    if "DLC" in marques or "DLC" in section.upper():
+        return "DLC"
+    # « Fix » est une marque du NOM, pas une classe : classer_par_nom rend
+    # « inconnu » sur « jeu-fix.rar » faute de taille. Les deux se completent —
+    # le mot dit l'intention, la taille departage ce qu'il laisse ouvert.
+    if "Fix" in marques or "FIX" in section.upper():
+        return "FIX"
+    # Deux classements distincts, et la difference compte : ce que le NOM
+    # affirme, et ce que la taille laisse deviner. Le premier fait autorite
+    # pour ecarter UPD, le second ne sert qu'a reconnaitre un correctif.
+    classe_nom = classer_par_nom(nom)
+    classe = classe_nom
+    taille = link.get("sizeBytes")
+    if classe == "inconnu" and isinstance(taille, (int, float)) and taille > 0:
+        classe = "correctif" if taille < SEUIL_CORRECTIF else "jeu"
+    if classe == "correctif":
+        return "FIX"
+    v = (link.get("version") or "").strip()
+    if (v and version_fiche and _noyau(v) != _noyau(version_fiche)
+            and classe_nom != "jeu"):
+        # UPD n'est PAS « version differente ». Mesure du 2026-09-08 : sur 850
+        # liens ainsi classes dont la taille est connue, 704 depassent 5 Go et
+        # 286 depassent 20 Go — dont un « PPSA26786.exfat » de 230 Go. Une mise
+        # a jour PS5 ne pese pas 230 Go : c'est le JEU dans une autre version,
+        # et il se retrouvait relegue derriere les GAME alors que c'est lui
+        # qu'on vient chercher.
+        # Le NOM prime, comme partout ailleurs ici : quand il dit « jeu »
+        # (image exFAT, archive en parties), la version ne le degrade pas.
+        return "UPD"
+    return "GAME"
 
 
 def _grappe(link: dict) -> tuple:
@@ -637,7 +718,7 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     # 3) Surfaçage du format (idempotent)
     label = display_label(pkg.get("fileFormat"))
     desc = _strip_credits(pkg.get("description") or "")
-    desc_lines = [l for l in desc.split("\n") if not l.startswith("Format:") and l.strip() != _LEGENDE_BP]
+    desc_lines = [l for l in desc.split("\n") if not l.startswith("Format:") and l.strip() not in (_LEGENDE_BP, _LEGENDE_ROLES)]
     desc_body = "\n".join(desc_lines).lstrip("\n")
     if label:
         pkg["formatLabel"] = label
@@ -775,7 +856,7 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         # en dernier, 67 et 104. La version, elle, sort du cadre 465 fois — et
         # elle n'est ecrite que lorsqu'elle DIFFERE de celle de la fiche, que
         # l'en-tete affiche juste au-dessus.
-        link_fmt = _abreger(link_fmt)
+        link_fmt = _abreger(link_fmt).replace(" · ", SEP)
         # Le NOM DE FICHIER complete ce que la source a perdu. Mesure du
         # 2026-08-30 : le nom dit « DLC » 653 fois, l'etiquette 438 — et 124
         # liens sont passes de group=DLC a Standard au re-scrape, alors que
@@ -799,11 +880,11 @@ def finalize_package(pkg: dict, stats: dict) -> None:
         _marques = marques_du_nom(link.get("fileName"))
         for _marque in ("DLC", "Fix"):
             if _marque in _marques and _marque not in link_fmt:
-                link_fmt = f"{link_fmt} · {_marque}" if link_fmt else _marque
+                link_fmt = f"{link_fmt}{SEP}{_marque}" if link_fmt else _marque
         # L'etiquette abrege Backport en BP : chercher les DEUX formes, sinon
         # on recolle la mention sur une etiquette qui la porte deja.
         if "Backport" in _marques and "BP" not in link_fmt and "Backport" not in link_fmt:
-            link_fmt = f"{link_fmt} · BP" if link_fmt else "BP"
+            link_fmt = f"{link_fmt}{SEP}BP" if link_fmt else "BP"
         # exFAT n'est pas une mention a AJOUTER a cote de PKG : les deux se
         # contredisent. Le nom de fichier tranche — il porte l'extension reelle
         # du contenu, la section porte le classement de la page.
@@ -827,9 +908,9 @@ def finalize_package(pkg: dict, stats: dict) -> None:
                 # etiquette porte deja sa taille, qui en dit plus long. Mesure
                 # du 2026-08-30 : 1563 BP au-dessus du seuil, 217 en dessous.
                 if classe != "correctif":
-                    link_fmt = f"{link_fmt} · {_fmt_verifie}"
+                    link_fmt = f"{link_fmt}{SEP}{_fmt_verifie}"
             else:
-                link_fmt = f"{link_fmt} · {_fmt_verifie}" if link_fmt else _fmt_verifie
+                link_fmt = f"{link_fmt}{SEP}{_fmt_verifie}" if link_fmt else _fmt_verifie
         # Un BP sous le seuil est le BINAIRE a deposer dans le dossier du jeu,
         # pas le jeu : on affiche sa taille, qui le dit sans legende. Au-dessus,
         # c'est le jeu — la fiche porte deja sa taille et les pixels sont
@@ -852,18 +933,34 @@ def finalize_package(pkg: dict, stats: dict) -> None:
             # garde le format, l'etiquette garde ce qui discrimine.
             link_fmt = link_fmt.replace(" · exFAT", "").replace("exFAT · ", "")
         if court:
-            link_fmt = f"{link_fmt} · {court}" if link_fmt else court
+            link_fmt = f"{link_fmt}{SEP}{court}" if link_fmt else court
         elif "BP" in link_fmt and classe == "correctif":
             # Taille inconnue mais on sait que ce n'est pas le jeu : « fix » le
             # dit, faute de mieux.
-            link_fmt = f"{link_fmt} · fix"
-        tag = " · ".join(p for p in (link_fmt, link_region,
+            link_fmt = f"{link_fmt}{SEP}fix"
+        # LE ROLE EN TETE. C'est la premiere question devant une fiche de 97
+        # liens — « lequel je telecharge pour JOUER ? » — et elle n'avait de
+        # reponse nulle part. Elle se lit maintenant avant tout le reste, y
+        # compris quand l'ellipse coupe la fin.
+        role = role_du_lien(link, version)
+        # Le jargon de scene sort de l'AFFICHAGE : il occupait la tete sans
+        # aider a choisir. Voir JARGON_MASQUE pour la mesure.
+        for _mot in JARGON_MASQUE:
+            for _s in (" · ", SEP):
+                link_fmt = link_fmt.replace(f"{_s}{_mot}", "").replace(f"{_mot}{_s}", "")
+            if link_fmt.strip() == _mot:
+                link_fmt = ""
+        # Le role dit deja ce que la mention disait : « [DLC · DLC] » et
+        # « [FIX · BP · fix] » se repetaient. Une etiquette qui bafouille est
+        # justement ce qu'on vient corriger.
+        for _double in {"FIX": ("fix", "Fix"), "DLC": ("DLC",)}.get(role, ()):
+            for _s in (" · ", SEP):
+                link_fmt = link_fmt.replace(f"{_s}{_double}", "").replace(f"{_double}{_s}", "")
+            if link_fmt.strip() == _double:
+                link_fmt = ""
+        tag = SEP.join(p for p in (role, link_fmt, link_region,
                                      f"v{version_utile}" if version_utile else "") if p)
-        if not tag and link_version:
-            link_version = _abrege.get(link_version, link_version)
-            # Ni format ni region : sans la version, l'etiquette dirait seulement
-            # l'hebergeur, deja affiche dessous. On la remet.
-            tag = f"v{link_version}"
+        # Le role est toujours ecrit : l'etiquette ne peut plus etre vide.
         # L'app affiche l'hote sous chaque ligne (.download-link-host) : repeter
         # « Viki » au-dessus de « vikingfile.com » coute des pixels pour rien.
         # Mesure du 2026-08-30 sur 15743 liens : la troncature tombe de 19 % a
@@ -877,6 +974,7 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     # faut la TOTALITÉ. Le numéro est dans l'URL, jamais dans le nom : on le
     # remonte, avec le total, pour qu'un manquant se voie.
     _number_parts(pkg)
+    _trier_par_role(pkg)
 
     # Legende. L'etiquette abrege « Backport » en « BP » faute de place ; on
     # l'explique dans la description, EN PLUS de ce qu'elle porte deja (la ligne
@@ -885,6 +983,10 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     # traitement a chaque run, donc idempotente.
     if any("BP" in (l.get("name") or "") for l in pkg.get("downloadLinks") or []):
         pkg["description"] = ((pkg.get("description") or "") + "\n" + _LEGENDE_BP).strip("\n")
+    # Meme regle pour les roles : ecrite une fois, retiree en tete de
+    # traitement, donc idempotente run apres run.
+    if pkg.get("downloadLinks"):
+        pkg["description"] = ((pkg.get("description") or "") + "\n" + _LEGENDE_ROLES).strip("\n")
 
     # 4) Validation Pegasus
     if not (pkg.get("titleId") or "").strip():
@@ -897,6 +999,33 @@ def finalize_package(pkg: dict, stats: dict) -> None:
     tid = (pkg.get("titleId") or "").strip().upper()
     if tid and not REAL_TITLEID_RE.match(tid):
         stats["placeholder_titleId"] += 1
+
+
+def _trier_par_role(pkg: dict) -> None:
+    """Ordonne les liens GAME, UPD, DLC, FIX — et rien d'autre ne bouge.
+
+    Un client ouvre une fiche de 12 liens en mediane, jusqu'a 99 sur « The
+    Elder Scrolls IV Oblivion Remastered ». Ils arrivaient dans l'ordre des
+    sources, jeu, correctif et DLC entremeles. La premiere ligne repond
+    desormais toujours a « je veux jouer ».
+
+    Le tri est STABLE : a role egal, l'ordre d'origine est conserve. C'est ce
+    qui garde ensemble les parties d'une archive decoupee (que _number_parts
+    vient de numeroter) et les miroirs d'un meme fichier. Trier plus finement
+    les disperserait, ce qui serait pire que le desordre qu'on corrige.
+
+    Cout d'affichage : nul. L'app rend les liens dans l'ordre du JSON.
+    """
+    rang = {r: i for i, r in enumerate(ROLES)}
+    liens = pkg.get("downloadLinks") or []
+
+    def cle(l):
+        # Le role est en tete du libelle : on lit ce que l'utilisateur voit,
+        # plutot que de le recalculer et risquer de diverger de l'affichage.
+        tete = (l.get("name") or "").lstrip("[").split(" ")[0].strip("]")
+        return rang.get(tete, len(ROLES))
+
+    pkg["downloadLinks"] = sorted(liens, key=cle)
 
 
 def _cle_titre(titre: str) -> str:

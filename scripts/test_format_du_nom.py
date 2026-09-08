@@ -67,7 +67,11 @@ n = _etiq({"group": "Backport 4.xx", "sizeBytes": 40 * Go})
 # quand connu ». L'attente precedente — un BP volumineux n'annonce PAS sa
 # taille, la fiche la portant deja — venait d'une economie de pixels. La
 # demande la renverse. Cout mesure : troncature de 8,2 % a 10,2 %.
-assert n == "[BP 4.xx · 40 Go]", n
+# DECISION du 2026-09-08, demandee par l'utilisateur : des clients ne s'y
+# retrouvaient plus. Chaque etiquette commence desormais par le ROLE —
+# GAME, UPD, DLC, FIX — qui repond a « lequel je telecharge pour jouer ? ».
+# Les attentes ci-dessous changent de PREFIXE, pas de garantie.
+assert n == "[GAME BP 4.xx 40 Go]", n
 
 # --- hors BP, le format verifie CORRIGE toujours une etiquette qui se trompe
 n = _etiq({"group": "Standard", "fileFormat": "PKG", "fileName": "PPSA08135.exfat"})
