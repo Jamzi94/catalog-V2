@@ -3,49 +3,225 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA02608",
-      "title": "Winter Sports Games 4K Edition",
-      "version": "01.000",
+      "titleId": "PPSA07029",
+      "title": "Personality and Psychology Premium",
+      "version": "01.003",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4iq8.jpg",
-      "description": "Format: APR-EMU\nTags: PPSA02608, v1.000, 3.xx\nSize: 2 to\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Personality_and_Psychology_Premium.avif",
+      "description": "Format: exFAT\nTags: PPSA07029, v1.003, 9.xx, 8.xx\nSize: 86 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME APR-EMU]",
-          "url": "https://www.mediafire.com/file/69hjdowhycjhh37/[DLPSGAME.COM]-PPSA02608-app0.rar/file",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
-          "mirror": "Mediafire"
+          "name": "[GAME exFAT]",
+          "url": "https://fileditchfiles.st/alpha27/4390a643a5a77958db11/PPSA07029.exfat",
+          "group": "exFAT",
+          "mirror": "FileD"
         },
         {
-          "name": "[GAME APR-EMU]",
-          "url": "https://akirabox.com/l76mZNvxpman/file",
-          "group": "Standard",
-          "version": "01.000",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME APR-EMU]",
-          "url": "https://vikingfile.com/f/eG4UsuVM1S",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
+          "name": "[#01 GAME exFAT]",
+          "url": "https://vikingfile.com/f/qI0ySLxmhi",
+          "group": "exFAT",
           "mirror": "Viki"
         },
         {
-          "name": "[GAME APR-EMU]",
-          "url": "https://1fichier.com/?29tate08sp0z400mtbsx",
+          "name": "[GAME exFAT]",
+          "url": "https://datanodes.to/yofhuy8enizd",
+          "group": "exFAT",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://filekeeper.net/rw8pqlm892jf",
+          "group": "exFAT",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://datavaults.co/xtxof3m4yl28",
+          "group": "exFAT",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[#02 GAME exFAT]",
+          "url": "https://vikingfile.com/f/4NfBJa7yUy",
           "group": "Standard",
+          "version": "01.003",
+          "fileName": "PPSA07029-[DLPSGAME.COM].rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://1fichier.com/?k2j8ob8u41md931osm6g",
+          "group": "Standard",
+          "version": "01.003",
+          "mirror": "1File"
+        },
+        {
+          "name": "[FIX exFAT 85 Mo]",
+          "url": "https://akirabox.com/M2BGwOPVNGj4/file",
+          "group": "Standard",
+          "version": "01.003",
+          "mirror": "Akia",
+          "fileName": "PPSA07029-[DLPSGAME.COM].rar",
+          "sizeBytes": 89055559
+        }
+      ],
+      "sizeBytes": 861929472,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "unknown"
+      ],
+      "_enrichedAt": "2026-09-03T05:30:04.051890+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "personality-and-psychology-premium",
+        "rawgName": "Personality and Psychology Premium",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2018-05-31",
+        "genres": [
+          "Educational"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:20.035922+00:00",
+      "_igdbMatched": false,
+      "formatLabel": "exFAT"
+    },
+    {
+      "titleId": "PPSA16159",
+      "title": "Monster Jam Showdown",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8oel.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA16159, v1.000, 4.xx, 5.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME Folder 10 Go]",
+          "url": "https://akirabox.com/l76mZDE6nzan/file",
+          "version": "01.000",
+          "mirror": "Akia",
+          "fileName": "01.000 PPSA16159-[DLPSGAME.COM].rar",
+          "sizeBytes": 10683731148
+        },
+        {
+          "name": "[GAME Folder 10 Go]",
+          "url": "https://vikingfile.com/f/wrMCfiqvuN",
+          "version": "01.000",
+          "fileName": "01.000 PPSA16159-[DLPSGAME.COM].rar",
+          "sizeBytes": 10683731148,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#01 GAME Folder]",
+          "url": "https://1fichier.com/?f1yrtj8l3e43cxv1vl5f",
           "version": "01.000",
           "mirror": "1File"
         },
         {
+          "name": "[#02 GAME Folder]",
+          "url": "https://1fichier.com/?1w81h59yuffezg4czpud",
+          "version": "01.000",
+          "mirror": "1File"
+        },
+        {
+          "name": "[#03 GAME Folder]",
+          "url": "https://1fichier.com/?e98v7xlxhrbneo5bn56x",
+          "version": "01.000",
+          "mirror": "1File"
+        },
+        {
+          "name": "[FIX BP 4.xx 95 Mo EUR]",
+          "url": "https://www.mediafire.com/file/7krgpvrz3s854kw/4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000",
+          "fileName": "4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 99503004,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#01 FIX Folder BP 95 Mo EUR]",
+          "url": "https://vikingfile.com/f/vdQx57zORx",
+          "version": "01.000",
+          "fileName": "4XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 99499376
+        },
+        {
+          "name": "[#01 FIX Folder BP EUR]",
+          "url": "https://www.rootz.so/d/1lU38a",
+          "version": "01.000",
+          "fileName": "4XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[FIX BP 5.xx 95 Mo EUR]",
+          "url": "https://www.mediafire.com/file/70t5407d2kdqvee/5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000",
+          "fileName": "5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 99503001,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#02 FIX Folder BP 95 Mo EUR]",
+          "url": "https://vikingfile.com/f/WGY0sgANyy",
+          "version": "01.000",
+          "fileName": "5XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 99499376
+        },
+        {
+          "name": "[#02 FIX Folder BP EUR]",
+          "url": "https://www.rootz.so/d/1ziV0q",
+          "version": "01.000",
+          "fileName": "5XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Folder · Backport 4.xx"
+      ],
+      "fileFormat": [
+        "Folder",
+        "ZIP",
+        "Backport 4.xx",
+        "Backport 5.xx"
+      ],
+      "sizeBytes": 99503004,
+      "_enrichedAt": "2026-09-03T05:29:58.082592+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "monster-jam-showdown",
+        "rawgName": "Monster Jam Showdown",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2024-08-29",
+        "genres": [
+          "Racing",
+          "Sports"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:37:17.703951+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "Folder · Backport 4.xx"
+    },
+    {
+      "titleId": "PPSA15706",
+      "title": "15 in 1 Solitaire",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4i6a.jpg",
+      "description": "Format: APR-EMU\nTags: PPSA15706, v1.000, 9.xx\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
           "name": "[GAME APR-EMU]",
-          "url": "https://buzzheavier.com/4wufi76eqoea",
+          "url": "https://www.mediafire.com/file/1pyzk3i6x25fdfg/[DLPSGAME.COM]-PPSA15706-Game+(v01.000)+[APR-EMU].rar/file",
           "group": "Standard",
           "version": "01.000",
-          "mirror": "Buzz"
+          "fileName": "[DLPSGAME.COM]-PPSA15706-Game+(v01.000)+[APR-EMU].rar",
+          "mirror": "Mediafire"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -56,198 +232,23 @@
         "APR-EMU",
         "RAR"
       ],
-      "sizeBytes": 569350002,
-      "_enrichedAt": "2026-09-03T05:30:39.019094+00:00",
+      "sizeBytes": 73363006,
+      "_enrichedAt": "2026-09-03T05:29:17.785051+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "the-games-winter-edition",
-        "rawgName": "The Games: Winter Edition",
+        "rawgSlug": "150-in-1-solitaire",
+        "rawgName": "150 in 1 - Solitaire",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2020-10-28",
+        "released": "2013-08-20",
         "genres": [
-          "Racing",
-          "Simulation",
-          "Sports"
+          "Card",
+          "Board Games"
         ]
       },
-      "_igdbEnrichedAt": "2026-06-28T21:57:38.105642+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:35:13.255086+00:00",
       "_igdbMatched": true,
       "formatLabel": "APR-EMU"
-    },
-    {
-      "titleId": "",
-      "title": "DLL-NBA2K25PS5",
-      "version": "01.017",
-      "category": "game",
-      "posterUrl": null,
-      "description": "Format: PKG · APR-EMU\nTags: v01.017, EUR\nPassword: SuperPSX\nVoices: English\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME PKG APR-EMU USA]",
-          "url": "https://vikingfile.com/f/NWpGdAFyFA",
-          "group": "Standard",
-          "version": "01.017",
-          "fileName": "[SuperPSX]-Kitaria.Fables-PPSA02527-USA-Game(v01.005) [APR-EMU]-PS5.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME PKG APR-EMU 738 Mo USA]",
-          "url": "https://1fichier.com/?qhk8idn4pz03zxs382gk&af=4186346",
-          "group": "Standard",
-          "version": "01.017",
-          "fileName": "[SuperPSX]-Kitaria.Fables-PPSA02527-USA-Game(v01.005) [APR-EMU]-PS5.rar",
-          "sizeBytes": 774310461,
-          "mirror": "1File"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PKG · APR-EMU"
-      ],
-      "fileFormat": [
-        "APR-EMU",
-        "PKG"
-      ],
-      "formatLabel": "PKG · APR-EMU",
-      "_enrichedAt": "2026-09-03T05:29:31.096271+00:00",
-      "_rawgMatched": false,
-      "sizeBytes": 738438676
-    },
-    {
-      "titleId": "PPSA24515",
-      "title": "Alone in The Dark 2 1996",
-      "version": "01.000.003",
-      "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Alone_in_The_Dark_2_1996.webp",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA24515, v01.000.003, EUR\nSize: 400 MB\nPassword: SuperPSX\nVoices: English\nBackport 4.xx\nWorks on 11.xx and higher\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/RMKGJQ41wz1o/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 1 Go]",
-          "url": "https://vikingfile.com/f/vAoCIez7lW",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA24515.exfat",
-          "sizeBytes": 1567663063,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 2 Go]",
-          "url": "https://datanodes.to/3c47d0dn548a",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA24515.exfat",
-          "sizeBytes": 1610612736,
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/ztibv6ge1u0n",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA24515 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[GAME PKG EUR]",
-          "url": "https://vikingfile.com/f/kwMWUUv1sb",
-          "group": "Standard",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[#01 GAME PKG EUR]",
-          "url": "https://www.rootz.so/d/z0gMq",
-          "group": "Standard",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[#02 GAME PKG EUR]",
-          "url": "https://www.rootz.so/d/1KhXmK",
-          "group": "Standard",
-          "version": "01.000.003",
-          "region": "EUR",
-          "editionId": "PPSA24515",
-          "fileName": "[DLPSGAME.COM]-PPSA24515-Alone_in_the_Dark_2_CiborgEc.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[GAME exFAT 1 Go v1.002]",
-          "url": "https://link-vault.org/c/JRvEM0WL",
-          "group": "Standard",
-          "version": "01.002",
-          "mirror": "Multihost",
-          "fileName": "PPSA24515.exfat",
-          "sizeBytes": 1567663063
-        },
-        {
-          "name": "[FIX PKG 407 Mo EUR]",
-          "url": "https://1fichier.com/?tvsmk452irqnzepw3d6w&af=4186346",
-          "group": "Standard",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
-          "sizeBytes": 427210833,
-          "mirror": "1File"
-        },
-        {
-          "name": "[FIX BP 3 Mo EUR]",
-          "url": "https://vikingfile.com/f/kBpImc5XWn",
-          "group": "Backport",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "mirror": "Viki",
-          "sizeBytes": 2998927
-        },
-        {
-          "name": "[FIX BP EUR]",
-          "url": "https://www.rootz.so/d/2Bgv44",
-          "group": "Backport",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[FIX BP 3 Mo EUR]",
-          "url": "https://1fichier.com/?x67yyxeabstc14zx723n&af=4186346",
-          "group": "Backport",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 3145728,
-          "mirror": "1File"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "PKG",
-        "Backport 4.xx",
-        "exFAT"
-      ],
-      "_enrichedAt": "2026-08-31T14:39:12.326769+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "alone-in-the-dark-2022",
-        "rawgName": "Alone in the Dark",
-        "rating": 3.56,
-        "metacritic": null,
-        "released": "2024-03-20",
-        "genres": [
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/719/7197c4abfd5cfac909548dce23b74daa.jpg"
-      },
-      "formatLabel": "exFAT · PKG · Backport"
     }
   ]
 }
