@@ -3,225 +3,359 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA03596",
-      "title": "Among Us",
-      "version": "1.0",
+      "titleId": "PPSA16019",
+      "title": "Double Dragon Gaiden Rise of The Dragons",
+      "version": "01.000",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6kqt.jpg",
-      "description": "Tags: PPSA03596, 9.xx, 8.xx\nSize: 550 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6g6l.jpg",
+      "description": "Format: exFAT · PKG\nTags: PPSA16019, v01.000, EUR\nSize: 500 MB\nPassword: SuperPSX\nVoices: English\nWorks on 6.xx and higher\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME]",
-          "url": "https://vikingfile.com/f/KQdZ5Lh0hE",
-          "group": "Standard",
-          "fileName": "PPSA03596-[DLPSGAME.COM].rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[FIX 210 Mo]",
-          "url": "https://akirabox.com/9QWmpgloXGEB/file",
-          "group": "Standard",
-          "fileName": "PPSA03596-[DLPSGAME.COM].rar",
-          "sizeBytes": 219687157,
+          "name": "[GAME exFAT 2 Go]",
+          "url": "https://akirabox.com/0PdzyQNXLzeA/file",
+          "group": "exFAT",
+          "version": "01.000",
+          "fileName": "PPSA16019.exfat",
+          "sizeBytes": 2104533975,
           "mirror": "Akia"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PS5"
-      ],
-      "fileFormat": [
-        "unknown"
-      ],
-      "sizeBytes": 576716800,
-      "_enrichedAt": "2026-08-23T04:43:20.393543+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "among-us",
-        "rawgName": "Among Us",
-        "rating": 3.83,
-        "metacritic": 82,
-        "released": "2018-07-25",
-        "genres": [
-          "Casual",
-          "Action",
-          "Simulation"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/e74/e74458058b35e01c1ae3feeb39a3f724.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:35:19.199919+00:00",
-      "_igdbMatched": true
-    },
-    {
-      "titleId": "PPSA07029",
-      "title": "Personality and Psychology Premium",
-      "version": "01.003",
-      "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Personality_and_Psychology_Premium.avif",
-      "description": "Format: exFAT\nTags: PPSA07029, v1.003, 9.xx, 8.xx\nSize: 86 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT]",
-          "url": "https://fileditchfiles.st/alpha27/4390a643a5a77958db11/PPSA07029.exfat",
-          "group": "exFAT",
-          "mirror": "FileD"
         },
         {
-          "name": "[#01 GAME exFAT]",
-          "url": "https://vikingfile.com/f/qI0ySLxmhi",
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/aCNcX47wq1",
           "group": "exFAT",
+          "version": "01.000",
+          "fileName": "PPSA16019.exfat",
           "mirror": "Viki"
         },
         {
-          "name": "[GAME exFAT]",
-          "url": "https://datanodes.to/yofhuy8enizd",
+          "name": "[GAME exFAT 2 Go]",
+          "url": "https://datanodes.to/qjumuvid6v7v",
           "group": "exFAT",
+          "version": "01.000",
+          "fileName": "PPSA16019.exfat",
+          "sizeBytes": 2147483648,
           "mirror": "Data"
         },
         {
-          "name": "[GAME exFAT]",
-          "url": "https://filekeeper.net/rw8pqlm892jf",
+          "name": "[GAME exFAT 2 Go]",
+          "url": "https://filekeeper.net/kusj9m6xo4k6",
           "group": "exFAT",
+          "version": "01.000",
+          "fileName": "PPSA16019.exfat",
+          "sizeBytes": 2147483648,
           "mirror": "Filek"
         },
         {
           "name": "[GAME exFAT]",
-          "url": "https://datavaults.co/xtxof3m4yl28",
+          "url": "https://datavaults.co/n3j99xreby0i",
           "group": "exFAT",
+          "version": "01.000",
+          "fileName": "PPSA16019 exfat",
           "mirror": "Vault"
         },
         {
-          "name": "[#02 GAME exFAT]",
-          "url": "https://vikingfile.com/f/4NfBJa7yUy",
-          "group": "Standard",
-          "version": "01.003",
-          "fileName": "PPSA07029-[DLPSGAME.COM].rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT]",
-          "url": "https://1fichier.com/?k2j8ob8u41md931osm6g",
-          "group": "Standard",
-          "version": "01.003",
-          "mirror": "1File"
-        },
-        {
-          "name": "[FIX exFAT 85 Mo]",
-          "url": "https://akirabox.com/M2BGwOPVNGj4/file",
-          "group": "Standard",
-          "version": "01.003",
-          "mirror": "Akia",
-          "fileName": "PPSA07029-[DLPSGAME.COM].rar",
-          "sizeBytes": 89055559
-        }
-      ],
-      "sizeBytes": 861929472,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT"
-      ],
-      "fileFormat": [
-        "exFAT",
-        "unknown"
-      ],
-      "_enrichedAt": "2026-09-19T04:24:14.553111+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "personality-and-psychology-premium",
-        "rawgName": "Personality and Psychology Premium",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2018-05-31",
-        "genres": [
-          "Educational"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-07-01T05:58:20.035922+00:00",
-      "_igdbMatched": false,
-      "formatLabel": "exFAT"
-    },
-    {
-      "titleId": "PPSA05018",
-      "title": "Dont Touch This Button",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Dont_Touch_This_Button.jpg",
-      "description": "Format: exFAT · APR-EMU\nTags: PPSA05018, v1.000, 3.xx, USA\nSize: 433 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://akirabox.com/qPez44V75zOY/file",
-          "group": "exFAT",
-          "mirror": "Akia",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
-        },
-        {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://vikingfile.com/f/Ymc6U0aUls",
-          "group": "exFAT",
-          "mirror": "Viki",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
-        },
-        {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://datanodes.to/2wae3e5mfh17",
-          "group": "exFAT",
-          "mirror": "Data",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
-        },
-        {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://filekeeper.net/pp3rsah8ndfg",
-          "group": "exFAT",
-          "mirror": "Filek",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
-        },
-        {
-          "name": "[GAME exFAT]",
-          "url": "https://datavaults.co/ysn3ryjjpaf3",
-          "group": "exFAT",
-          "mirror": "Vault",
-          "fileName": "PPSA05018.exfat"
-        },
-        {
-          "name": "[GAME APR-EMU USA]",
-          "url": "https://www.rootz.so/d/1JP2uW",
+          "name": "[GAME PKG APR-EMU EUR]",
+          "url": "https://www.rootz.so/d/1XqeGm",
           "group": "Standard",
           "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA05018",
-          "fileName": "[DLPSGAME.COM]-PPSA05018-Game (v01.000) [APR-EMU] by Amiibohound.rar",
+          "fileName": "[SuperPSX]-Double.Dragon.Gaiden.Rise.of.The.Dragons-PPSA16019 – EUR-Game (v01.000)-PS5.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[GAME PKG APR-EMU]",
+          "url": "https://www.rootz.so/d/1GbjN2",
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-01.000-PPSA16019.rar",
           "mirror": "Rootz"
         }
       ],
-      "sizeBytes": 454033408,
+      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU"
+        "exFAT · PKG"
       ],
       "fileFormat": [
         "exFAT",
+        "PKG",
         "APR-EMU"
       ],
-      "_enrichedAt": "2026-09-19T04:23:39.701497+00:00",
+      "_enrichedAt": "2026-08-31T14:39:13.162027+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "double-dragon-gaiden-rise-of-the-dragons",
+        "rawgName": "Double Dragon Gaiden: Rise Of The Dragons",
+        "rating": 3.5,
+        "metacritic": null,
+        "released": "2023-07-27",
+        "genres": [
+          "Adventure",
+          "Action",
+          "Fighting",
+          "Casual",
+          "Family"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/screenshots/ffd/ffdc61d95936afb2aacbe26dfdc0e73b.jpg"
+      },
+      "_igdbEnrichedAt": "2026-06-30T15:00:58.434544+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "exFAT · PKG"
+    },
+    {
+      "titleId": "PPSA16159",
+      "title": "Monster Jam Showdown",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8oel.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA16159, v1.000, 4.xx, 5.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME Folder 10 Go]",
+          "url": "https://akirabox.com/l76mZDE6nzan/file",
+          "version": "01.000",
+          "mirror": "Akia",
+          "fileName": "01.000 PPSA16159-[DLPSGAME.COM].rar",
+          "sizeBytes": 10683731148
+        },
+        {
+          "name": "[GAME Folder 10 Go]",
+          "url": "https://vikingfile.com/f/wrMCfiqvuN",
+          "version": "01.000",
+          "fileName": "01.000 PPSA16159-[DLPSGAME.COM].rar",
+          "sizeBytes": 10683731148,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#01 GAME Folder]",
+          "url": "https://1fichier.com/?f1yrtj8l3e43cxv1vl5f",
+          "version": "01.000",
+          "mirror": "1File"
+        },
+        {
+          "name": "[#02 GAME Folder]",
+          "url": "https://1fichier.com/?1w81h59yuffezg4czpud",
+          "version": "01.000",
+          "mirror": "1File"
+        },
+        {
+          "name": "[#03 GAME Folder]",
+          "url": "https://1fichier.com/?e98v7xlxhrbneo5bn56x",
+          "version": "01.000",
+          "mirror": "1File"
+        },
+        {
+          "name": "[FIX BP 4.xx 95 Mo EUR]",
+          "url": "https://www.mediafire.com/file/7krgpvrz3s854kw/4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000",
+          "fileName": "4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 99503004,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#01 FIX Folder BP 95 Mo EUR]",
+          "url": "https://vikingfile.com/f/vdQx57zORx",
+          "version": "01.000",
+          "fileName": "4XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 99499376
+        },
+        {
+          "name": "[#01 FIX Folder BP EUR]",
+          "url": "https://www.rootz.so/d/1lU38a",
+          "version": "01.000",
+          "fileName": "4XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[FIX BP 5.xx 95 Mo EUR]",
+          "url": "https://www.mediafire.com/file/70t5407d2kdqvee/5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "version": "01.000",
+          "fileName": "5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 99503001,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#02 FIX Folder BP 95 Mo EUR]",
+          "url": "https://vikingfile.com/f/WGY0sgANyy",
+          "version": "01.000",
+          "fileName": "5XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 99499376
+        },
+        {
+          "name": "[#02 FIX Folder BP EUR]",
+          "url": "https://www.rootz.so/d/1ziV0q",
+          "version": "01.000",
+          "fileName": "5XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Folder · Backport 4.xx"
+      ],
+      "fileFormat": [
+        "Folder",
+        "ZIP",
+        "Backport 4.xx",
+        "Backport 5.xx"
+      ],
+      "sizeBytes": 99503004,
+      "_enrichedAt": "2026-09-19T04:24:08.729160+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "dont-touch-the-button-mrpresident",
-        "rawgName": "DON'T TOUCH THE BUTTON MR.PRESIDENT",
+        "rawgSlug": "monster-jam-showdown",
+        "rawgName": "Monster Jam Showdown",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2019-06-10",
+        "released": "2024-08-29",
         "genres": [
-          "RPG"
+          "Racing",
+          "Sports"
         ]
       },
-      "_igdbEnrichedAt": "2026-07-01T05:58:19.139049+00:00",
-      "_igdbMatched": false,
-      "formatLabel": "exFAT · APR-EMU"
+      "_igdbEnrichedAt": "2026-06-28T21:37:17.703951+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "Folder · Backport 4.xx"
+    },
+    {
+      "titleId": "PPSA15645",
+      "title": "Castlevania Dominus Collection",
+      "version": "01.003",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9xk.jpg",
+      "description": "Format: exFAT · PKG · Backport\nTags: PPSA15645, v01.003, JPN\nSize: 1 GB\nPassword: SuperPSX\nVoices: English, Japanese\nWorks on 8.xx and higher\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT BP 4.xx 1 Go]",
+          "url": "https://akirabox.com/0PdzyQNNPzeA/file",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA15645.exfat",
+          "sizeBytes": 1428076625,
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 1 Go]",
+          "url": "https://vikingfile.com/f/56CJC18bq3",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA15645.exfat",
+          "sizeBytes": 1428076625,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 1 Go]",
+          "url": "https://datanodes.to/rrdlljbnxo9h",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA15645.exfat",
+          "sizeBytes": 1395864371,
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 1 Go]",
+          "url": "https://filekeeper.net/5kfvs4bthhod",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA15645.exfat",
+          "sizeBytes": 1395864371,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/tpqvozl2di80",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA15645 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[GAME BP]",
+          "url": "https://link-vault.org/c/wthhl3wg",
+          "group": "Backport",
+          "version": "01.003",
+          "mirror": "Multihost"
+        },
+        {
+          "name": "[#01 GAME PKG JPN]",
+          "url": "https://www.rootz.so/d/BzCKm",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "JPN",
+          "editionId": "PPSA15645",
+          "fileName": "[DLPSGAME.COM]-01.003-PPSA15645.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[#02 GAME PKG JPN]",
+          "url": "https://www.rootz.so/d/XFy64",
+          "group": "Standard",
+          "version": "01.003",
+          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[GAME PKG 1 Go JPN]",
+          "url": "https://1fichier.com/?8wrwqta0ab7h42dzpyxk&af=4186346",
+          "group": "Standard",
+          "version": "01.003",
+          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
+          "sizeBytes": 1224065679,
+          "mirror": "1File"
+        },
+        {
+          "url": "https://gofile.io/d/97BXqsdc",
+          "name": "[GAME PKG 1 Go JPN]",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
+          "sizeBytes": 1138166333,
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "url": "https://vikingfile.com/f/DqWZbqQNUj",
+          "name": "[GAME PKG 1 Go JPN]",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
+          "sizeBytes": 1138166333,
+          "group": "Standard",
+          "version": "01.003"
+        },
+        {
+          "name": "[UPD PKG JPN]",
+          "url": "https://akirabox.com/Pbe3PM1lLzlX/file",
+          "group": "Standard",
+          "version": "01.000.100",
+          "mirror": "Akia",
+          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5"
+        },
+        {
+          "name": "[FIX BP JPN v1.120]",
+          "url": "https://akirabox.com/0PdzyDjqP3eA/file",
+          "group": "Backport",
+          "version": "01.120",
+          "mirror": "Akia",
+          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Backport 4.xx+ (@ManwonHp)-PS5"
+        },
+        {
+          "name": "[FIX PKG BP JPN]",
+          "url": "https://buzzheavier.com/wbpgwl2twpci",
+          "mirror": "Buzz",
+          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Backport 4.xx+ (@ManwonHp)-PS5"
+        }
+      ],
+      "sizeBytes": 1073741824,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · PKG · Backport"
+      ],
+      "fileFormat": [
+        "Backport",
+        "PKG",
+        "Backport 4.xx",
+        "exFAT",
+        "unknown"
+      ],
+      "_enrichedAt": "2026-09-19T04:23:33.702947+00:00",
+      "_rawgMatched": false,
+      "_igdbEnrichedAt": "2026-06-30T15:00:58.379401+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "exFAT · PKG · Backport"
     }
   ]
 }
