@@ -3,70 +3,231 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA16019",
-      "title": "Double Dragon Gaiden Rise of The Dragons",
-      "version": "01.000",
+      "titleId": "PPSA11128",
+      "title": "Ape Escape P",
+      "version": "01.003",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6g6l.jpg",
-      "description": "Format: exFAT · PKG\nTags: PPSA16019, v01.000, EUR\nSize: 500 MB\nPassword: SuperPSX\nVoices: English\nWorks on 6.xx and higher\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://pub-ce6b40c14d144a128552570bcf6bb628.r2.dev/exFAT/Ape_Escape_P.avif",
+      "description": "Format: exFAT · Folder · Backport\nTags: PPSA11128, v1.003, 4.xx, EUR\nSize: 952 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT 2 Go]",
-          "url": "https://akirabox.com/0PdzyQNXLzeA/file",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
-          "sizeBytes": 2104533975,
+          "name": "[GAME exFAT BP 4.xx 952 Mo]",
+          "url": "https://akirabox.com/RMKGJQ9Dwz1o/file",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA11128.exfat",
+          "sizeBytes": 998244352,
           "mirror": "Akia"
         },
         {
-          "name": "[GAME exFAT]",
-          "url": "https://vikingfile.com/f/aCNcX47wq1",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
+          "name": "[GAME exFAT BP 4.xx 952 Mo]",
+          "url": "https://vikingfile.com/f/czccH3iJBS",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA11128.exfat",
+          "sizeBytes": 998244352,
           "mirror": "Viki"
         },
         {
-          "name": "[GAME exFAT 2 Go]",
-          "url": "https://datanodes.to/qjumuvid6v7v",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
-          "sizeBytes": 2147483648,
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT 2 Go]",
-          "url": "https://filekeeper.net/kusj9m6xo4k6",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019.exfat",
-          "sizeBytes": 2147483648,
+          "name": "[GAME exFAT BP 4.xx 952 Mo]",
+          "url": "https://filekeeper.net/jte44kj4f20v",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA11128.exfat",
+          "sizeBytes": 998244352,
           "mirror": "Filek"
         },
         {
-          "name": "[GAME exFAT]",
-          "url": "https://datavaults.co/n3j99xreby0i",
-          "group": "exFAT",
-          "version": "01.000",
-          "fileName": "PPSA16019 exfat",
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/s1ouilxehiv5",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA11128 exfat",
           "mirror": "Vault"
         },
         {
-          "name": "[GAME PKG APR-EMU EUR]",
-          "url": "https://www.rootz.so/d/1XqeGm",
+          "name": "[GAME Folder EUR]",
+          "url": "https://www.mediafire.com/file/b9ewnk8k4875d2m/PPSA11128-[DLPSGAME.COM].rar/file",
           "group": "Standard",
-          "version": "01.000",
-          "fileName": "[SuperPSX]-Double.Dragon.Gaiden.Rise.of.The.Dragons-PPSA16019 – EUR-Game (v01.000)-PS5.rar",
-          "mirror": "Rootz"
+          "version": "01.003",
+          "region": "EUR",
+          "editionId": "PPSA11128",
+          "fileName": "PPSA11128-[DLPSGAME.COM].rar",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#01 FIX Folder EUR]",
+          "url": "https://www.mediafire.com/file/fy0ux13ksj6ovqr/PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip/file",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#01 FIX Folder EUR]",
+          "url": "https://vikingfile.com/f/lP1MXI4yGy",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#01 FIX Folder 4 Mo EUR]",
+          "url": "https://1fichier.com/?5yradocjzydvd64l602t",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
+          "sizeBytes": 4078960,
+          "mirror": "1File"
+        },
+        {
+          "name": "[#02 FIX Folder EUR]",
+          "url": "https://www.mediafire.com/file/5secrhlurgdj79f/PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip/file",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#02 FIX Folder EUR]",
+          "url": "https://vikingfile.com/f/YBIdy6Dl0O",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#02 FIX Folder 4 Mo EUR]",
+          "url": "https://1fichier.com/?vcig5j1df3ihmyjd025f",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
+          "sizeBytes": 4078960,
+          "mirror": "1File"
+        }
+      ],
+      "sizeBytes": 1073741824,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · Folder · Backport"
+      ],
+      "fileFormat": [
+        "Backport",
+        "exFAT",
+        "Folder",
+        "RAR",
+        "Backport 4.xx",
+        "ZIP",
+        "Backport 5.xx"
+      ],
+      "_enrichedAt": "2026-09-23T05:13:22.068195+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "ape-escape",
+        "rawgName": "Ape Escape",
+        "rating": 3.95,
+        "metacritic": 90,
+        "released": "1999-05-31",
+        "genres": [
+          "Platformer"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/eb7/eb752b66d0060b832e5037c743850ab7.jpg"
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:16.534584+00:00",
+      "_igdbMatched": false,
+      "formatLabel": "exFAT · Folder · Backport"
+    },
+    {
+      "titleId": "PPSA16018",
+      "title": "Double Dragon Gaiden Rise of the Dragons",
+      "version": "01.013",
+      "category": "game",
+      "posterUrl": "https://www.superpsx.com/wp-content/uploads/2026/06/Double-Dragon-Gaiden-Rise-of-the-Dragons-PS5.jpg",
+      "description": "Format: exFAT · PKG\nTags: PPSA16018, v01.013, USA\nSize: 500 MB\nPassword: SuperPSX\nVoices: English\nWorks on 7.xx and higher\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME PKG APR-EMU 546 Mo USA]",
+          "url": "https://akirabox.com/l76mZNw47man/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "USA",
+          "editionId": "PPSA16018",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "sizeBytes": 572092579,
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME PKG APR-EMU USA]",
+          "url": "https://vikingfile.com/f/O0hdwfveNZ",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "USA",
+          "editionId": "PPSA16018",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME PKG APR-EMU 546 Mo USA]",
+          "url": "https://filekeeper.net/lycsckknhrnh/[DLPSGAME.COM]-PPSA16018.rar",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "USA",
+          "editionId": "PPSA16018",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "sizeBytes": 572103065,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME PKG APR-EMU 572 Mo USA]",
+          "url": "https://1fichier.com/?a8614k23u46d3665mdbo",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "USA",
+          "editionId": "PPSA16018",
+          "mirror": "1File",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "sizeBytes": 599879843
         },
         {
           "name": "[GAME PKG APR-EMU]",
-          "url": "https://www.rootz.so/d/1GbjN2",
-          "version": "01.000",
-          "fileName": "[DLPSGAME.COM]-01.000-PPSA16019.rar",
+          "url": "https://rootz.so/d/4rNOy",
+          "version": "01.013",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
           "mirror": "Rootz"
+        },
+        {
+          "name": "[GAME PKG APR-EMU 546 Mo]",
+          "url": "https://datanodes.to/hhnqvjrpv7sq",
+          "version": "01.013",
+          "fileName": "[DLPSGAME.COM]-PPSA16018.rar",
+          "sizeBytes": 572103065,
+          "mirror": "Data"
+        },
+        {
+          "url": "https://gofile.io/d/MZWdBwYK",
+          "name": "[GAME PKG APR-EMU 2 Go USA]",
+          "mirror": "Gofile",
+          "fileName": "[SuperPSX]-Double.Dragon.Gaiden.Rise.of.The.Dragons-PPSA16018 – USA-Game (v01.013)-PS5.rar",
+          "sizeBytes": 2351494594,
+          "group": "Standard",
+          "version": "01.013"
+        },
+        {
+          "url": "https://vikingfile.com/f/RDjPUvgHq7",
+          "name": "[GAME PKG APR-EMU 2 Go USA]",
+          "mirror": "Vikingfile",
+          "fileName": "[SuperPSX]-Double.Dragon.Gaiden.Rise.of.The.Dragons-PPSA16018 – USA-Game (v01.013)-PS5.rar",
+          "sizeBytes": 2351494594,
+          "group": "Standard",
+          "version": "01.013"
+        },
+        {
+          "url": "https://1fichier.com/?tt7eqtfv3ck9g8daf7xy&af=4186346",
+          "name": "[GAME PKG APR-EMU 2 Go USA]",
+          "mirror": "1Fichier",
+          "fileName": "[SuperPSX]-Double.Dragon.Gaiden.Rise.of.The.Dragons-PPSA16018 – USA-Game (v01.013)-PS5.rar",
+          "sizeBytes": 2351494594,
+          "group": "Standard",
+          "version": "01.013"
+        },
+        {
+          "url": "https://www.rootz.so/d/29k8Su",
+          "name": "[GAME PKG APR-EMU 2 Go USA]",
+          "mirror": "Rootz",
+          "fileName": "[SuperPSX]-Double.Dragon.Gaiden.Rise.of.The.Dragons-PPSA16018 – USA-Game (v01.013)-PS5.rar",
+          "sizeBytes": 2351494594,
+          "group": "Standard",
+          "version": "01.013"
         }
       ],
       "sizeBytes": 1073741824,
@@ -75,11 +236,12 @@
         "exFAT · PKG"
       ],
       "fileFormat": [
-        "exFAT",
         "PKG",
-        "APR-EMU"
+        "exFAT",
+        "APR-EMU",
+        "RAR"
       ],
-      "_enrichedAt": "2026-08-31T14:39:13.162027+00:00",
+      "_enrichedAt": "2026-08-31T14:39:13.162068+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "double-dragon-gaiden-rise-of-the-dragons",
@@ -96,96 +258,100 @@
         ],
         "rawgBackground": "https://media.rawg.io/media/screenshots/ffd/ffdc61d95936afb2aacbe26dfdc0e73b.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-30T15:00:58.434544+00:00",
-      "_igdbMatched": true,
       "formatLabel": "exFAT · PKG"
     },
     {
-      "titleId": "PPSA16159",
-      "title": "Monster Jam Showdown",
+      "titleId": "PPSA22636",
+      "title": "The Bridge Curse 2 The Extrication",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8oel.jpg",
-      "description": "Format: Folder · Backport 4.xx\nTags: PPSA16159, v1.000, 4.xx, 5.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71ql.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA22636, v1.000, 4.xx, 5.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME Folder 10 Go]",
-          "url": "https://akirabox.com/l76mZDE6nzan/file",
+          "name": "[GAME Folder 5 Go]",
+          "url": "https://akirabox.com/0rpmv67RZmRg/file",
+          "group": "Standard",
           "version": "01.000",
           "mirror": "Akia",
-          "fileName": "01.000 PPSA16159-[DLPSGAME.COM].rar",
-          "sizeBytes": 10683731148
+          "fileName": "01.000 PPSA22636-[DLPSGAME.COM].rar",
+          "sizeBytes": 5798205849
         },
         {
-          "name": "[GAME Folder 10 Go]",
-          "url": "https://vikingfile.com/f/wrMCfiqvuN",
+          "name": "[GAME Folder]",
+          "url": "https://vikingfile.com/f/JEGoaqt2sI",
+          "group": "Standard",
           "version": "01.000",
-          "fileName": "01.000 PPSA16159-[DLPSGAME.COM].rar",
-          "sizeBytes": 10683731148,
+          "fileName": "01.000 PPSA22636-[DLPSGAME.COM].rar",
           "mirror": "Viki"
         },
         {
-          "name": "[#01 GAME Folder]",
-          "url": "https://1fichier.com/?f1yrtj8l3e43cxv1vl5f",
+          "name": "[GAME Folder]",
+          "url": "https://1fichier.com/?ft84a4mtrpvkuw0xg0pa",
+          "group": "Standard",
           "version": "01.000",
           "mirror": "1File"
         },
         {
-          "name": "[#02 GAME Folder]",
-          "url": "https://1fichier.com/?1w81h59yuffezg4czpud",
+          "name": "[FIX BP 4.xx 54 Mo]",
+          "url": "https://www.mediafire.com/file/qgrm78onc6fz078/4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000",
-          "mirror": "1File"
-        },
-        {
-          "name": "[#03 GAME Folder]",
-          "url": "https://1fichier.com/?e98v7xlxhrbneo5bn56x",
-          "version": "01.000",
-          "mirror": "1File"
-        },
-        {
-          "name": "[FIX BP 4.xx 95 Mo EUR]",
-          "url": "https://www.mediafire.com/file/7krgpvrz3s854kw/4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
-          "version": "01.000",
-          "fileName": "4XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 99503004,
+          "fileName": "4XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56470274,
           "mirror": "Mediafire"
         },
         {
-          "name": "[#01 FIX Folder BP 95 Mo EUR]",
-          "url": "https://vikingfile.com/f/vdQx57zORx",
+          "name": "[FIX Folder BP 55 Mo USA]",
+          "url": "https://akirabox.com/Pbe3Pdj5L3lX/file",
           "version": "01.000",
-          "fileName": "4XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Akia",
+          "fileName": "5XX PPSA11039 – USA  v01.000 The Caligula Effect 2  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 57975767
+        },
+        {
+          "name": "[#01 FIX Folder BP 54 Mo EUR]",
+          "url": "https://vikingfile.com/f/p4OrpVLuBP",
+          "version": "01.000",
+          "fileName": "4XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Viki",
-          "sizeBytes": 99499376
+          "sizeBytes": 56465817
         },
         {
           "name": "[#01 FIX Folder BP EUR]",
-          "url": "https://www.rootz.so/d/1lU38a",
+          "url": "https://www.rootz.so/d/16gmDg",
           "version": "01.000",
-          "fileName": "4XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "fileName": "4XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Rootz"
         },
         {
-          "name": "[FIX BP 5.xx 95 Mo EUR]",
-          "url": "https://www.mediafire.com/file/70t5407d2kdqvee/5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "name": "[FIX BP 5.xx 54 Mo]",
+          "url": "https://www.mediafire.com/file/arrg9oixlz2m2dy/5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip/file",
           "version": "01.000",
-          "fileName": "5XX+PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
-          "sizeBytes": 99503001,
+          "fileName": "5XX+PPSA22636+–+EUR+V1.00++The+Bridge+Curse+2+The+Extrication++By+BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56470271,
           "mirror": "Mediafire"
         },
         {
-          "name": "[#02 FIX Folder BP 95 Mo EUR]",
-          "url": "https://vikingfile.com/f/WGY0sgANyy",
+          "name": "[FIX Folder BP 54 Mo EUR]",
+          "url": "https://akirabox.com/k0embjXoWmVb/file",
           "version": "01.000",
-          "fileName": "5XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Akia",
+          "fileName": "5XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 56465817
+        },
+        {
+          "name": "[#02 FIX Folder BP 54 Mo EUR]",
+          "url": "https://vikingfile.com/f/7hM0MehMFS",
+          "version": "01.000",
+          "fileName": "5XX PPSA22636 – EUR V1.00 The Bridge Curse 2 The Extrication By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Viki",
-          "sizeBytes": 99499376
+          "sizeBytes": 56465817
         },
         {
           "name": "[#02 FIX Folder BP EUR]",
-          "url": "https://www.rootz.so/d/1ziV0q",
+          "url": "https://www.rootz.so/d/24FBQ",
           "version": "01.000",
-          "fileName": "5XX PPSA16159_–_EUR_V1_00_Monster_Jam_Showdown_Backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "fileName": "5XX PPSA22636 – EUR V1.00  The Bridge Curse 2 The Extrication  By BADERLINK-[DLPSGAME.COM].zip",
           "mirror": "Rootz"
         }
       ],
@@ -195,167 +361,28 @@
       ],
       "fileFormat": [
         "Folder",
-        "ZIP",
         "Backport 4.xx",
+        "ZIP",
         "Backport 5.xx"
       ],
-      "sizeBytes": 99503004,
-      "_enrichedAt": "2026-09-19T04:24:08.729160+00:00",
-      "_rawgMatched": false,
+      "sizeBytes": 56470274,
+      "_enrichedAt": "2026-09-23T05:14:42.499808+00:00",
+      "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "monster-jam-showdown",
-        "rawgName": "Monster Jam Showdown",
+        "rawgSlug": "the-bridge-curse-2-the-extrication",
+        "rawgName": "The Bridge Curse 2: The Extrication",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2024-08-29",
+        "released": "2024-05-09",
         "genres": [
-          "Racing",
-          "Sports"
-        ]
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/12d/12d27964a9dfd503a820ea4d74a5a146.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:37:17.703951+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:57:04.936353+00:00",
       "_igdbMatched": true,
       "formatLabel": "Folder · Backport 4.xx"
-    },
-    {
-      "titleId": "PPSA15645",
-      "title": "Castlevania Dominus Collection",
-      "version": "01.003",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9xk.jpg",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA15645, v01.003, JPN\nSize: 1 GB\nPassword: SuperPSX\nVoices: English, Japanese\nWorks on 8.xx and higher\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT BP 4.xx 1 Go]",
-          "url": "https://akirabox.com/0PdzyQNNPzeA/file",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA15645.exfat",
-          "sizeBytes": 1428076625,
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 1 Go]",
-          "url": "https://vikingfile.com/f/56CJC18bq3",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA15645.exfat",
-          "sizeBytes": 1428076625,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 1 Go]",
-          "url": "https://datanodes.to/rrdlljbnxo9h",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA15645.exfat",
-          "sizeBytes": 1395864371,
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 1 Go]",
-          "url": "https://filekeeper.net/5kfvs4bthhod",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA15645.exfat",
-          "sizeBytes": 1395864371,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/tpqvozl2di80",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA15645 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[GAME BP]",
-          "url": "https://link-vault.org/c/wthhl3wg",
-          "group": "Backport",
-          "version": "01.003",
-          "mirror": "Multihost"
-        },
-        {
-          "name": "[#01 GAME PKG JPN]",
-          "url": "https://www.rootz.so/d/BzCKm",
-          "group": "Standard",
-          "version": "01.003",
-          "region": "JPN",
-          "editionId": "PPSA15645",
-          "fileName": "[DLPSGAME.COM]-01.003-PPSA15645.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[#02 GAME PKG JPN]",
-          "url": "https://www.rootz.so/d/XFy64",
-          "group": "Standard",
-          "version": "01.003",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[GAME PKG 1 Go JPN]",
-          "url": "https://1fichier.com/?8wrwqta0ab7h42dzpyxk&af=4186346",
-          "group": "Standard",
-          "version": "01.003",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
-          "sizeBytes": 1224065679,
-          "mirror": "1File"
-        },
-        {
-          "url": "https://gofile.io/d/97BXqsdc",
-          "name": "[GAME PKG 1 Go JPN]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
-          "sizeBytes": 1138166333,
-          "group": "Standard",
-          "version": "01.003"
-        },
-        {
-          "url": "https://vikingfile.com/f/DqWZbqQNUj",
-          "name": "[GAME PKG 1 Go JPN]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5.rar",
-          "sizeBytes": 1138166333,
-          "group": "Standard",
-          "version": "01.003"
-        },
-        {
-          "name": "[UPD PKG JPN]",
-          "url": "https://akirabox.com/Pbe3PM1lLzlX/file",
-          "group": "Standard",
-          "version": "01.000.100",
-          "mirror": "Akia",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Game (v01.003)-PS5"
-        },
-        {
-          "name": "[FIX BP JPN v1.120]",
-          "url": "https://akirabox.com/0PdzyDjqP3eA/file",
-          "group": "Backport",
-          "version": "01.120",
-          "mirror": "Akia",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Backport 4.xx+ (@ManwonHp)-PS5"
-        },
-        {
-          "name": "[FIX PKG BP JPN]",
-          "url": "https://buzzheavier.com/wbpgwl2twpci",
-          "mirror": "Buzz",
-          "fileName": "[SuperPSX]-Castlevania.Dominus.Collection-PPSA15645-JPN-Backport 4.xx+ (@ManwonHp)-PS5"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "PKG",
-        "Backport 4.xx",
-        "exFAT",
-        "unknown"
-      ],
-      "_enrichedAt": "2026-09-19T04:23:33.702947+00:00",
-      "_rawgMatched": false,
-      "_igdbEnrichedAt": "2026-06-30T15:00:58.379401+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "exFAT · PKG · Backport"
     }
   ]
 }

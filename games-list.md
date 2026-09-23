@@ -1,6 +1,6 @@
 # Liste des jeux PS5 disponibles — Phoenix DL PS5
 
-_**1053** jeux · généré le 2026-09-21 04:40 UTC · régénéré et enrichi à chaque run_
+_**1053** jeux · généré le 2026-09-23 05:27 UTC · régénéré et enrichi à chaque run_
 
 ## Répartition par format
 
@@ -456,8 +456,8 @@ _**1053** jeux · généré le 2026-09-21 04:40 UTC · régénéré et enrichi �
 | 397 | Horizon Chase 2 | exFAT · PKG · Backport | 01.007 |
 | 398 | Horizon Forbidden West Complete Edition | exFAT · PKG | 01.030 |
 | 399 | Horizon Forbidden West – Complete Edition | exFAT · Folder · Backport 4.xx | 01.030 |
-| 400 | Horizon Zero Dawn Remastered | PKG · APR-EMU | 01.008.001 |
-| 401 | Horizon Zero Dawn Remastered | exFAT · PKG · Backport | 01.008.001 |
+| 400 | Horizon Zero Dawn Remastered | exFAT · PKG · Backport | 01.008.001 |
+| 401 | Horizon Zero Dawn Remastered | PKG · APR-EMU | 01.008.001 |
 | 402 | Horror Tales The Wine | exFAT · PKG | 02.000 |
 | 403 | Hot Wheels Lets Race Ultimate Speed | exFAT · PKG · Backport | 01.002 |
 | 404 | Hot Wheels Monster Trucks Stunt Mayhem | exFAT · Folder · Backport | 01.000.100 |
@@ -487,8 +487,8 @@ _**1053** jeux · généré le 2026-09-21 04:40 UTC · régénéré et enrichi �
 | 428 | Jitsu Squad | exFAT · PKG · Backport 4.xx | 01.000 |
 | 429 | JoJos Bizarre Adventure All Star Battle R | exFAT · PKG · Backport | 02.330.000 |
 | 430 | JUDGE EYES：死神の遺言 Remastered | exFAT · APR-EMU | 01.001 |
-| 431 | Judgment | exFAT · PKG | 01.001 |
-| 432 | Judgment | exFAT | 01.001 |
+| 431 | Judgment | exFAT | 01.001 |
+| 432 | Judgment | exFAT · PKG | 01.001 |
 | 433 | Juicy Realm | exFAT · PKG | 01.000 |
 | 434 | Jumanji The Video Game | exFAT · PKG | 01.001 |
 | 435 | Jumping Flash | exFAT · Backport | 01.004 |
@@ -628,8 +628,8 @@ _**1053** jeux · généré le 2026-09-21 04:40 UTC · régénéré et enrichi �
 | 569 | MultiVersus | Backport | 01.055 |
 | 570 | MX vs ATV Legends 2025 Ultimate Edition | exFAT · PKG · Backport | 04.024 |
 | 571 | MXGP 2020 – The Official Motocross Videogame | PKG | 01.007 |
-| 572 | My First Gran Turismo | exFAT · PKG · Backport 4.xx | 01.010 |
-| 573 | My First Gran Turismo | Backport | 01.010 |
+| 572 | My First Gran Turismo | Backport | 01.010 |
+| 573 | My First Gran Turismo | exFAT · PKG · Backport 4.xx | 01.010 |
 | 574 | NAIAD | exFAT · PKG · Backport | 01.001.100 |
 | 575 | Naruto X Boruto Ultimate Ninja Storm Connections Deluxe Edition | exFAT · PKG · Backport | 01.006 |
 | 576 | NASCAR Arcade Rush | exFAT · PKG · Backport | 01.000 |
@@ -733,7 +733,7 @@ _**1053** jeux · généré le 2026-09-21 04:40 UTC · régénéré et enrichi �
 | 674 | R-Type Delta: HD Boosted | PKG | 01.000.002 |
 | 675 | Raiden III x MIKADO MANIAX | exFAT · Folder · Backport 4.xx | 01.010 |
 | 676 | Raiden IV x Mikado Remix | PKG · Backport | 01.000 |
-| 677 | Ratchet & Clank Rift Apart Deluxe Edition | FFPFSC · exFAT · Backport 4.xx | 01.005.003 |
+| 677 | Ratchet & Clank Rift Apart | FFPFSC · exFAT · Backport 4.xx | 01.005.003 |
 | 678 | Real Farm Premium Edition | exFAT | 01.000 |
 | 679 | Reanimal | exFAT · PKG · Backport 4.xx | 01.000 |
 | 680 | Record of Lodoss War Deedlit in Wonder Labyrinth | exFAT · PKG | 01.001 |
