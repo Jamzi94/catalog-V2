@@ -3,679 +3,265 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA10829",
-      "title": "Mothmen 1966",
-      "version": "01.001",
+      "titleId": "PPSA05888",
+      "title": "The Talos Principle 2",
+      "version": "02.013",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55b2.jpg",
-      "description": "Format: exFAT · APR-EMU · Backport\nTags: PPSA10829, v1.001, 4.xx, 6.xx, USA\nSize: 711 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jbl.jpg",
+      "description": "Format: Backport 4.xx\nTags: PPSA05888, v2.013, 4.xx, 7.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT BP 4.xx 711 Mo]",
-          "url": "https://akirabox.com/b5Ozd2NjpmB8/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia",
-          "fileName": "PPSA10829.exfat",
-          "sizeBytes": 745537536
+          "name": "[GAME BP 4.xx USA]",
+          "url": "https://1fichier.com/?zwqp3xcw49ercc8tvcvm",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "1File"
         },
         {
-          "name": "[GAME exFAT BP 4.xx 711 Mo]",
-          "url": "https://vikingfile.com/f/9B7xsuZxst",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA10829.exfat",
-          "sizeBytes": 745537536,
+          "name": "[GAME exFAT USA]",
+          "url": "https://vikingfile.com/f/tjI7YnjdDr",
+          "group": "exFAT",
+          "version": "02.013",
+          "region": "USA",
           "mirror": "Viki"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/2j2w29erd3pf",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA10829 exfat",
-          "mirror": "Vault"
+          "name": "[GAME exFAT USA]",
+          "url": "https://www.rootz.so/d/1qXWgy",
+          "group": "exFAT",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Rootz"
         },
         {
-          "name": "[GAME APR-EMU USA]",
-          "url": "https://www.mediafire.com/file/eyokefzw7z8pcmf/[DLPSGAME.COM]-PPSA10829-Game+(v01.001)+[APR-EMU].rar/file",
+          "name": "[GAME BP 4.xx 5 Go USA]",
+          "url": "https://vikingfile.com/f/d8AQL6M5Vq",
           "group": "Standard",
-          "version": "01.001",
+          "version": "02.013",
           "region": "USA",
-          "editionId": "PPSA10829",
-          "fileName": "[DLPSGAME.COM]-PPSA10829-Game+(v01.001)+[APR-EMU].rar",
+          "mirror": "Viki",
+          "sizeBytes": 5035849154
+        },
+        {
+          "name": "[FIX BP 4.xx 57 Mo USA]",
+          "url": "https://www.mediafire.com/file/h7jh8wmtr71ntmd/[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip/file",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60178074,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[FIX BP 4.xx 57 Mo USA]",
+          "url": "https://akirabox.com/k0embVRoamVb/file",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Akia",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60177776
+        },
+        {
+          "name": "[FIX BP 4.xx 57 Mo USA]",
+          "url": "https://vikingfile.com/f/oquq8uMLJW",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60177776,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[FIX BP 4.xx USA]",
+          "url": "https://rootz.so/d/1MKdFY",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[FIX BP 4.xx 13 Mo USA]",
+          "url": "https://akirabox.com/N2p3DqRRpzMa/file",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Akia",
+          "fileName": "PPSA15731_The_Walking_Dead_Destinies_V1_004_Backport_6_XX_By_BADERLINK.rar",
+          "sizeBytes": 13704888
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport 4.xx"
+      ],
+      "fileFormat": [
+        "ZIP",
+        "Backport 4.xx",
+        "RAR"
+      ],
+      "sizeBytes": 60178074,
+      "_enrichedAt": "2026-09-29T04:26:13.254475+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "talos-principle-2",
+        "rawgName": "The Talos Principle 2",
+        "rating": 4.31,
+        "metacritic": null,
+        "released": "2023-11-01",
+        "genres": [
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/4e4/4e42fc297c028630262a4abcc7769576.jpg"
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:57:17.452890+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "Backport 4.xx"
+    },
+    {
+      "titleId": "PPSA15706",
+      "title": "15 in 1 Solitaire",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4i6a.jpg",
+      "description": "Format: APR-EMU\nTags: PPSA15706, v1.000, 9.xx\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME APR-EMU]",
+          "url": "https://www.mediafire.com/file/1pyzk3i6x25fdfg/[DLPSGAME.COM]-PPSA15706-Game+(v01.000)+[APR-EMU].rar/file",
+          "group": "Standard",
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-PPSA15706-Game+(v01.000)+[APR-EMU].rar",
           "mirror": "Mediafire"
         }
       ],
-      "sizeBytes": 745537536,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU · Backport"
+        "APR-EMU"
       ],
       "fileFormat": [
-        "Backport",
-        "exFAT",
         "APR-EMU",
-        "RAR",
-        "Backport 4.xx"
+        "RAR"
       ],
-      "_enrichedAt": "2026-09-19T04:24:08.887475+00:00",
+      "sizeBytes": 73363006,
+      "_enrichedAt": "2026-09-19T04:23:22.982644+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "mothmen-1966",
-        "rawgName": "Mothmen 1966",
+        "rawgSlug": "150-in-1-solitaire",
+        "rawgName": "150 in 1 - Solitaire",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2022-07-13",
+        "released": "2013-08-20",
         "genres": [
-          "Indie",
-          "Adventure"
+          "Card",
+          "Board Games"
         ]
       },
-      "_igdbEnrichedAt": "2026-06-28T21:37:19.137318+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:35:13.255086+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · APR-EMU · Backport"
+      "formatLabel": "APR-EMU"
     },
     {
-      "titleId": "",
-      "title": "CyB1K Need Us!",
-      "version": "01.017",
+      "titleId": "PPSA21444",
+      "title": "DOOM + DOOM II",
+      "version": "03.000.000",
       "category": "game",
-      "posterUrl": null,
-      "description": "Format: PKG · APR-EMU · Backport 4.xx\nTags: v01.017, EUR\nPassword: SuperPSX\nVoices: English\nBackport 4.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8npi.jpg",
+      "description": "Format: FPKG · exFAT · Backport 4.xx\nTags: PPSA21444, v3.000.000, 4.xx, 9.xx, USA\nSize: 1 GB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "url": "https://gofile.io/d/AAwoBpQY",
-          "name": "[01/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part01.rar",
-          "sizeBytes": 10737418240,
+          "name": "[GAME exFAT 1 Go USA v2.000]",
+          "url": "https://akirabox.com/ZvqzlvEb6maD/file",
+          "group": "exFAT",
+          "version": "02.000.000",
+          "region": "USA",
+          "editionId": "PPSA21444",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 1 Go]",
+          "url": "https://akirabox.com/EL73g0NEKz9B/file",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 1 Go]",
+          "url": "https://vikingfile.com/f/9hC8VLfEuw",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1352914698,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 1 Go]",
+          "url": "https://datanodes.to/gowv4xi2m2vd",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1395864371,
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 1 Go]",
+          "url": "https://filekeeper.net/1kjjus28jn07",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA21444.exfat",
+          "sizeBytes": 1395864371,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/pf0rm89zp3zv",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA21444 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[GAME FPKG PKG USA]",
+          "url": "https://www.mediafire.com/file/ohoex3bj21mtgit/[DLPSGAME.COM]-PPSA21444.rar/file",
           "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/lTdKVPua",
-          "name": "[02/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part02.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/7XkvRcWa",
-          "name": "[03/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part03.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/JryLE2dB",
-          "name": "[04/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part04.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/ai3pGq0N",
-          "name": "[05/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part05.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/WxmNoWDz",
-          "name": "[06/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part06.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/siVdkmO4",
-          "name": "[07/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part07.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/mnxOiH6q",
-          "name": "[08/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part08.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/h6E0xEAb",
-          "name": "[09/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part09.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/gRQToRAc",
-          "name": "[10/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part10.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/ICIbUCKc",
-          "name": "[11/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part11.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/2w5vXU8j",
-          "name": "[12/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part12.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/XdKN8i2K",
-          "name": "[GAME PKG APR-EMU 9 Go EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part13.rar",
-          "sizeBytes": 9953586708,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/gcN7JLUTrS",
-          "name": "[01/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part01.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/NxOe7tOLfc",
-          "name": "[02/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part02.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/SFdWoybUIU",
-          "name": "[03/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part03.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/qjvnrl602G",
-          "name": "[04/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part04.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/riejYRRnwW",
-          "name": "[05/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part05.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/dqlcB3WQUi",
-          "name": "[06/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part06.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/HtAifBc1Q7",
-          "name": "[07/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part07.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/xuQsuqulke",
-          "name": "[08/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part08.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/KwPUq9fWR4",
-          "name": "[09/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part09.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/1t8cVzcLu4",
-          "name": "[10/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part10.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/i6thOoDFcI",
-          "name": "[11/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part11.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/y1he3mUemT",
-          "name": "[12/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part12.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/pguMerxwJy",
-          "name": "[GAME PKG APR-EMU 9 Go EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part13.rar",
-          "sizeBytes": 9953586708,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?4ybcqhclduuq2nj7s5nj&af=4186346",
-          "name": "[01/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part01.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?d0hdxmlz2hlia5w6f3wj&af=4186346",
-          "name": "[04/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part04.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?vf8kbhtu7pwabat0z0p1&af=4186346",
-          "name": "[05/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part05.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?bsifqkir3rynyq8kfdo1&af=4186346",
-          "name": "[06/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part06.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?521zni8f68k0oe2bvcsw&af=4186346",
-          "name": "[08/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part08.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?c7brubmpmocldpr4ogzn&af=4186346",
-          "name": "[09/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part09.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?fc18qyem0le6ar5hth99&af=4186346",
-          "name": "[10/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part10.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?sbpc5aduab09agck348r&af=4186346",
-          "name": "[12/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part12.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?aegd48euwq3h453nel30&af=4186346",
-          "name": "[GAME PKG APR-EMU 9 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part13.rar",
-          "sizeBytes": 9953586708,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?gon8f1czocg0oby3dj5y&af=4186346",
-          "name": "[03/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part03.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?2mi8kqqn0ra302fm862u&af=4186346",
-          "name": "[07/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part07.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?ggnr0zbj1p4xnf0nvuzw&af=4186346",
-          "name": "[11/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part11.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?mnir69e9m5c4un54am3m&af=4186346",
-          "name": "[02/12 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part02.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/2BNNC4",
-          "name": "[01/06 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Rootz",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part01.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/16kqDw",
-          "name": "[02/06 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Rootz",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part02.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/8J3Oy",
-          "name": "[03/06 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Rootz",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part03.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/1GxREe",
-          "name": "[04/06 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Rootz",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part04.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/CKuGW",
-          "name": "[05/06 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Rootz",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part05.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/1KzI6C",
-          "name": "[06/06 GAME PKG APR-EMU 10 Go EUR]",
-          "mirror": "Rootz",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Game(v01.017)-[APR-EMU]-PS5.part06.rar",
-          "sizeBytes": 10737418240,
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/GMl3w",
-          "name": "[#01 GAME PKG APR-EMU]",
-          "mirror": "Rootz",
-          "fileName": "GMl3w",
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/1P18xk",
-          "name": "[#02 GAME PKG APR-EMU]",
-          "mirror": "Rootz",
-          "fileName": "1P18xk",
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/1T2zpI",
-          "name": "[#03 GAME PKG APR-EMU]",
-          "mirror": "Rootz",
-          "fileName": "1T2zpI",
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/OQSn2",
-          "name": "[#04 GAME PKG APR-EMU]",
-          "mirror": "Rootz",
-          "fileName": "OQSn2",
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/1X4qgq",
-          "name": "[#05 GAME PKG APR-EMU]",
-          "mirror": "Rootz",
-          "fileName": "1X4qgq",
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/SSJea",
-          "name": "[#06 GAME PKG APR-EMU]",
-          "mirror": "Rootz",
-          "fileName": "SSJea",
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/1b6hYO",
-          "name": "[#07 GAME PKG APR-EMU]",
-          "mirror": "Rootz",
-          "fileName": "1b6hYO",
-          "group": "Standard",
-          "version": "01.017"
-        },
-        {
-          "url": "https://gofile.io/d/EKX5CyyT",
-          "name": "[FIX BP 281 Mo EUR]",
-          "mirror": "Gofile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 294912000,
-          "group": "Backport",
-          "version": "01.017"
-        },
-        {
-          "url": "https://vikingfile.com/f/xMvb46BfS5",
-          "name": "[FIX BP 281 Mo EUR]",
-          "mirror": "Vikingfile",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 294912000,
-          "group": "Backport",
-          "version": "01.017"
-        },
-        {
-          "url": "https://1fichier.com/?tarvgcxd3ug0lavegc5r&af=4186346",
-          "name": "[FIX BP 281 Mo EUR]",
-          "mirror": "1Fichier",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 294912000,
-          "group": "Backport",
-          "version": "01.017"
-        },
-        {
-          "url": "https://www.rootz.so/d/1Ka1zs",
-          "name": "[FIX BP 281 Mo EUR]",
-          "mirror": "Rootz",
-          "fileName": "[SuperPSX]-NBA.2K25-PPSA22121-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 294912000,
-          "group": "Backport",
-          "version": "01.017"
+          "version": "03.000.000",
+          "region": "USA",
+          "editionId": "PPSA21444",
+          "fileName": "[DLPSGAME.COM]-PPSA21444.rar",
+          "mirror": "Mediafire"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PKG · APR-EMU · Backport 4.xx"
+        "FPKG · exFAT · Backport 4.xx"
       ],
       "fileFormat": [
-        "APR-EMU",
-        "PKG",
-        "Backport 4.xx"
-      ],
-      "_enrichedAt": "2026-09-23T05:14:56.313600+00:00",
-      "_rawgMatched": false,
-      "formatLabel": "PKG · APR-EMU · Backport 4.xx",
-      "sizeBytes": 294912000
-    },
-    {
-      "titleId": "",
-      "title": "Thank Goodness You’re Here!",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://www.superpsx.com/wp-content/uploads/2026/09/Thank-Goodness-You-are-Here-PS4-PKG-.jpg",
-      "description": "Format: PKG\nTags: v01.000\nSize: 700 MB\nPassword: SuperPSX\nVoices: English\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME PKG]",
-          "url": "https://mocha.my/share/ebkNrz6iE6wBuiHJKsmGdjjTMGH-mJiv",
-          "group": "Standard",
-          "mirror": "Mocha"
-        },
-        {
-          "name": "[GAME PKG]",
-          "url": "https://filekeeper.net/h4nv7d6mi2n6/[SuperPSX]-Thank.Goodness.Youâ€™reHere-CUSA48662-USA-Game-PS4-CyB1K.pkg",
-          "group": "Standard",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME PKG]",
-          "url": "https://vikingfile.com/f/vFfaKAlEk7",
-          "group": "Standard",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME PKG]",
-          "url": "https://1fichier.com/?sbgkzbfj2azdwfmb95ug&af=4186346",
-          "group": "Standard",
-          "mirror": "1File"
-        },
-        {
-          "name": "[FIX]",
-          "url": "https://mocha.my/share/UFJcykv6nYmoS2KIGDOsIl2GNKOQM7gJ",
-          "group": "Fix",
-          "mirror": "Mocha"
-        },
-        {
-          "name": "[FIX]",
-          "url": "https://filekeeper.net/oyiw15u9t6hb/[SuperPSX]-Thank.Goodness.Youâ€™reHere-CUSA48662-USA-Update_1.61_(Fix_5.05-6.72-7.02-7.55-9.00-11.00)-PS4-CyB1K.pkg",
-          "group": "Fix",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[FIX]",
-          "url": "https://vikingfile.com/f/nHkjlzoyNu",
-          "group": "Fix",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[FIX]",
-          "url": "https://1fichier.com/?ov45pes6jt1rcv4ipcaz&af=4186346",
-          "group": "Fix",
-          "mirror": "1File"
-        }
-      ],
-      "sizeBytes": 734003200,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
+        "FPKG",
+        "exFAT",
+        "Backport 4.xx",
+        "Backport",
+        "RAR",
         "PKG"
       ],
-      "fileFormat": [
-        "PKG"
-      ],
-      "_enrichedAt": "2026-09-29T04:26:01.374525+00:00",
+      "sizeBytes": 1073741824,
+      "_enrichedAt": "2026-09-23T05:13:39.787144+00:00",
       "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "thank-goodness-youre-here",
-        "rawgName": "Thank Goodness You're Here!",
-        "rating": 4.2,
+        "rawgSlug": "doom-doom-ii",
+        "rawgName": "DOOM + DOOM II",
+        "rating": 0.0,
         "metacritic": null,
-        "released": "2024-08-01",
+        "released": "2024-08-07",
         "genres": [
-          "Adventure",
-          "Puzzle",
-          "Casual",
-          "Indie",
-          "Platformer"
+          "Shooter"
         ],
-        "rawgBackground": "https://media.rawg.io/media/games/e09/e09477c34646ca1967b0088ba65d20c0.jpg"
+        "rawgBackground": "https://media.rawg.io/media/screenshots/5bc/5bc3cf26b8de154b549a03b2e061e292.jpg"
       },
-      "formatLabel": "PKG"
+      "_igdbEnrichedAt": "2026-06-28T21:36:10.884374+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "FPKG · exFAT · Backport 4.xx"
     }
   ]
 }
