@@ -17,6 +17,7 @@ Abandoned Realtime Trailers Demo,PPSA04366,PKG,"PKG, unknown",01.009
 Abiotic Factor,PPSA26012,Backport,Backport,01.004
 Absolum,PPSA28311,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG, RAR, Backport 4.xx",01.002
 Absolute TacticsDaughters of Mercy,,PKG,PKG,01.000
+Ace Combat 8 Wings of Theve Deluxe Edition,PPSA24913,Backport,Backport,01.001
 Ad Infinitum,PPSA10600,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, ZIP, Backport 5.xx",01.000
 Aeterna Noctis,PPSA04109,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx",03.003.001
 AEW Fight Forever,PPSA09351,exFAT · PKG · Backport,"RAR, Backport, PKG, exFAT, ZIP, Backport 4.xx",01.010
@@ -307,6 +308,7 @@ EA Sports WRC,PPSA06092,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport
 Earth Defense Force World Brothers 2,PPSA24152,Folder · PKG · Backport 4.xx,"PKG, Backport 4.xx, Backport 5.xx, Folder, RAR, ZIP",01.000
 Earth Defense Force World Brothers 2,PPSA19406,exFAT · Folder · Backport,"Backport, PKG, Backport 4.xx, Backport 5.xx, exFAT, Folder, ZIP",01.005
 Earthion,PPSA28061,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx",01.006
+Echoes of the End Enhanced Edition,PPSA25636,Backport,Backport,01.012
 Ed 0 Zombie Uprising,PPSA22711,exFAT · Backport,"Backport, exFAT, Backport 4.xx, ZIP, Backport 5.xx",01.007
 Ed-0: Zombie Uprising,PPSA11079,PKG,PKG,01.007
 EDENS ZERO,PPSA25348,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG",01.000
@@ -901,13 +903,14 @@ Sonic Frontiers,PPSA03831,exFAT · PKG · Backport,"Backport, APR-EMU, PKG, exFA
 Sonic Origins Plus,PPSA05324,exFAT · PKG,"exFAT, APR-EMU, PKG, RAR",02.002
 Sonic Racing CrossWorlds Deluxe Edition,PPSA08804,FPKG · exFAT · Backport 4.xx,"exFAT, PKG, FPKG, Folder, ZIP, RAR, Backport 4.xx",01.012
 Sonic Superstars,PPSA06888,FPKG · exFAT · Backport,"Backport, APR-EMU, PKG, Backport 4.xx, FPKG, exFAT, RAR",01.001.008
+Sonic the Hedgehog 2006 (Unofficial Port),PPSA99903,exFAT,exFAT,01.000
 Sonic Unleashed Recompiled Unofficial Port,PPSA99902,FPKG · exFAT,"exFAT, FPKG, PKG, 7z",01.003
 Sonic X Shadow Generations Deluxe Edition,PPSA17597,exFAT · PKG · Backport,"Backport, APR-EMU, PKG, Backport 4.xx, exFAT, RAR",01.012
 Soul Hackers 2,PPSA03743,PKG,PKG,01.002
 Soul Hackers 2,PPSA03363,exFAT · Folder,"exFAT, Folder, APR-EMU, RAR",01.002
 Soul Hackers 2 Premium Edition,PPSA03744,exFAT,exFAT,01.002
 Soulstice,PPSA03937,exFAT · PKG · Backport,"Backport, PKG, exFAT",01.000.100
-South of Midnight,PPSA29642,unknown,unknown,01.001
+South of Midnight,PPSA29642,Backport,"Backport, unknown",01.001
 SOUTH PARK: SNOW DAY!,PPSA15572,exFAT · Folder · Backport 4.xx,"exFAT, Folder, Backport 4.xx, ZIP, Backport 5.xx, RAR, PKG",01.023
 Space Adventure Cobra The Awakening Gold Edition,PPSA17337,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, unknown",01.004.000
 Spacebase Startopia,PPSA02845,exFAT · APR-EMU,"exFAT, APR-EMU, RAR",01.004.002
@@ -1006,7 +1009,7 @@ Teenage Mutant Ninja Turtles Mutants Unleashed,PPSA17246,RAR,RAR,01.000
 Teenage Mutant Ninja Turtles Mutants Unleashed Deluxe Edition,PPSA17245,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, RAR, Backport 4.xx",01.004
 Teenage Mutant Ninja Turtles Splintered Fate,PPSA25582,PKG,"PKG, unknown",01.017
 Teenage Mutant Ninja Turtles The Cowabunga Collection,PPSA04489,exFAT · PKG,"exFAT, PKG, unknown",01.004
-TEKKEN 3,PPSA31291,FPKG · exFAT · Backport 4.xx,"FPKG, exFAT, PKG, Backport 4.xx",01.000.001
+TEKKEN 3,PPSA31291,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG, Backport 4.xx",01.000.001
 TEKKEN 8,PPSA10595,FPKG · exFAT · Backport,"Backport, PKG, FPKG, exFAT, ZIP, RAR, Backport 4.xx, Backport 6.xx",01.009.001
 TEKKEN DARK RESURRECTION,PPSA31371,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG, Backport 4.xx",01.000.002
 Tennis On-Court,PPSA15911,PKG,"PKG, RAR, unknown",01.004
