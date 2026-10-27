@@ -462,7 +462,7 @@ HITMAN 3,PPSA16388,exFAT · PKG,"PKG, exFAT, RAR",01.017
 Hitman World of Assassination Deluxe Edition,PPSA16387,exFAT · PKG · Backport,"Backport, exFAT, PKG, APR-EMU, RAR, Backport 4.xx",01.038
 HOA,PPSA04181,exFAT · PKG,"exFAT, APR-EMU, PKG",01.000.002
 Hogwarts Legacy,PPSA01593,FPKG · exFAT · Backport,"RAR, Backport, PKG, FPKG, exFAT, Folder, Backport 4.xx",01.013
-Hollow Knight Silksong,PPSA12544,unknown,unknown,01.000.010
+Hollow Knight Silksong,PPSA12544,Backport,"Backport, unknown",01.000.010
 Hollow Knight: Voidheart Edition,PPSA34971,PKG,PKG,01.000.002
 Horizon Call of The Mountain,PPSA05666,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Backport 5.xx, RAR",01.004.011
 Horizon Chase 2,PPSA12771,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT, RAR, ZIP",01.007
@@ -526,6 +526,9 @@ Kid A Mnesia Exhibition,PPSA05786,exFAT · PKG,"exFAT, PKG, unknown",01.200.000
 Killing Floor 3,PPSA08427,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, RAR, ZIP, PKG",02.011
 Killzone Liberation,PPSA11142,PKG,"PKG, unknown",01.004
 Kingdom Come Deliverance 2 Royal Edition,PPSA21704,FPKG · exFAT · Backport,"Backport, PKG, Backport 4.xx, FPKG, exFAT, RAR",01.052
+KINGDOM HEARTS 3 + Re Mind,PPSA35999,Backport,Backport,01.001
+KINGDOM HEARTS HD 1.5+2.5 ReMIX,PPSA35901,Backport,Backport,01.001
+KINGDOM HEARTS HD 2.8 FINAL CHAPTER PROLOGUE,PPSA35909,Backport,Backport,01.001
 Kitaria Fables,PPSA02527,exFAT · PKG,"exFAT, APR-EMU, PKG, RAR",01.005
 Kitten Island,PPSA19297,unknown,"unknown, RAR",01.000.000
 KLONOA Phantasy Reverie Series Deluxe Edition,PPSA04795,exFAT · PKG,"exFAT, PKG, RAR",01.002
@@ -949,7 +952,7 @@ Steelrising,PPSA05063,exFAT · PKG · Backport,"Backport, PKG, exFAT, RAR, Backp
 STEINSGATE REBOOT,PPSA36591,Backport,Backport,01.002
 Stellar Blade,PPSA13197,FPKG · FFPFSC · Backport 4.xx,"FPKG, FFPFSC, exFAT, APR-EMU, Backport 4.xx, RAR",01.014.001
 Stellar Blade Complete Edition,PPSA13195,exFAT · PKG · Backport 4.xx,"7z, PKG, exFAT, APR-EMU, Backport 4.xx, RAR",01.014.001
-Stellaris: Console Edition,PPSA27597,PKG,PKG,02.002.000
+Stellaris Console Edition,PPSA27597,PKG · Backport,"Backport, PKG",02.002.000
 Still Wakes The Deep,PPSA07905,exFAT · Folder · Backport,"Backport, exFAT, Folder, RAR, ZIP, Backport 4.xx, Backport 5.xx, Backport 6.xx, PKG",01.001
 Still Wakes the Deep The Complete Collection,PPSA07906,exFAT · Folder · Backport,"Backport, PKG, Backport 6.xx, exFAT, Folder, RAR, Backport 4.xx, ZIP, Backport 5.xx",01.600.001
 STORY OF SEASONS A Wonderful Life,PPSA11541,Backport,Backport,01.002
@@ -1126,6 +1129,8 @@ Tour de France 2024,PPSA20114,exFAT · Folder · Backport,"Backport, exFAT, Fold
 Tour de France 2025,PPSA26576,exFAT · PKG · Backport 4.xx,"exFAT, APR-EMU, PKG, Backport 4.xx, RAR",01.007
 Tourist Bus Simulator,PPSA04433,exFAT · PKG,"exFAT, PKG, APR-EMU",01.000.000
 Towa and The Guardians of The Sacred Tree,PPSA25936,PKG,"PKG, unknown",01.300
+Toy Story 3 Complete Edition,PPSA33626,Backport,Backport,01.000
+Toy Story Retro Roundup!,PPSA33627,Backport,Backport,01.000
 Trails in The Sky 1st Chapter,PPSA28465,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, Backport 4.xx, RAR, unknown",01.006
 Trails in The Sky 2nd Chapter Deluxe Edition,PPSA35169,FPKG · exFAT · Backport,"7z, Backport, FPKG, exFAT, PKG, Backport 4.xx",01.003.000
 Train Life: A Railway Simulator,PPSA03851,PKG · Backport,"PKG, Backport",01.000
@@ -1170,6 +1175,7 @@ Valkyrie Elysium,PPSA07275,FPKG · Folder · Backport 4.xx,"FPKG, Folder, Backpo
 Valor Mortis,PPSA32793,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.000.000
 Valthirian Arc Hero School Story 2,PPSA09075,exFAT,"exFAT, unknown",01.000
 Vampire Crawlers: The Turbo Wildcard from Vampire Survivors,PPSA30703,PKG,PKG,01.510.000
+Vampire Survivors,PPSA21703,Backport,Backport,01.016
 Vampire The Masquerade Bloodlines 2,PPSA15186,FPKG · exFAT · Backport,"7z, Backport, PKG, FPKG, exFAT, RAR, Backport 4.xx",01.013
 Vampire The Masquerade Justice,PPSA16432,Backport 4.xx,"Backport 4.xx, unknown",01.013
 Vampire: The Masquerade – Swansong,PPSA07302,PKG,PKG,01.000
