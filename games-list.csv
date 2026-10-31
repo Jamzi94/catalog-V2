@@ -165,7 +165,7 @@ Cant Drive This,PPSA02743,exFAT,"exFAT, RAR, unknown",01.005
 CAPTAIN TSUBASA 2 WORLD FIGHTERS Ultimate Edition,PPSA22728,Backport,"Backport, unknown",01.000.000
 Carmen Sandiego Deluxe Edition,PPSA25256,exFAT · Backport,"Backport, exFAT, Backport 4.xx",01.009
 CarX Drift Racing Online,,PKG,PKG,01.510
-CarX Street,PPSA25972,PKG,PKG,01.043
+CarX Street,PPSA25972,PKG · Backport,"Backport, PKG",01.000
 Castlevania Dominus Collection,PPSA15645,FPKG · exFAT · Backport,"Backport, PKG, Backport 4.xx, FPKG, exFAT, unknown",01.003
 Cat Quest 3,PPSA15065,exFAT · PKG · Backport 4.xx,"exFAT, PKG, Backport 4.xx, RAR, unknown",01.000.001
 Cave Digger 2 Dig Harder,PPSA08479,Folder · PKG,"PKG, Folder, RAR",01.000
@@ -450,7 +450,7 @@ Harmony's Odyssey,PPSA16827,PKG,PKG,01.000.000
 Harvest Days,PPSA14677,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, unknown",01.002.001
 Heavenly Bodies Cleanup Edition,PPSA04246,Backport,Backport,01.006
 Hell Is Us,PPSA09259,exFAT · PKG · Backport,"Backport, PKG, exFAT, RAR, Backport 4.xx",01.006
-Hellblade Senuas Sacrifice,PPSA27581,unknown,unknown,01.003
+Hellblade Senuas Sacrifice,PPSA27581,Backport,"Backport, unknown",01.003
 Hellboy Web of Wyrd,PPSA11264,exFAT · PKG,"exFAT, PKG, RAR",01.004
 Hellboy Web of Wyrd,PPSA06465,exFAT · PKG · Backport,"PKG, Backport, exFAT, RAR, ZIP, Backport 4.xx",01.023
 Hello Kitty Island Adventure,PPSA18176,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT",02.000
@@ -868,7 +868,7 @@ Screamer,PPSA26092,exFAT · Folder · Backport 4.xx,"exFAT, Folder, PKG, Backpor
 SD GUNDAM BATTLE ALLIANCE,PPSA05163,exFAT · PKG,"exFAT, RAR, PKG",01.040
 Sea of Stars,PPSA07587,exFAT · PKG · Backport,"Backport, PKG, exFAT, APR-EMU, RAR, Backport 4.xx",01.013
 Selfloss,PPSA21085,exFAT · Folder · Backport,"Backport, PKG, exFAT, Folder, RAR, Backport 4.xx, ZIP, Backport 5.xx",01.000
-Senuas Saga Hellblade 2,PPSA25991,unknown,unknown,01.002
+Senuas Saga Hellblade 2,PPSA25991,Backport,"Backport, unknown",01.002
 Session: Skate Sim,PPSA06510,PKG · Backport,"PKG, Backport",01.000
 Severed Steel,PPSA05106,PKG,"PKG, unknown",01.000
 Shadow Labyrinth,PPSA20298,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, RAR, unknown",01.100
@@ -972,6 +972,7 @@ Styx Blades of Greed,PPSA28835,exFAT · Folder · Backport,"Backport, exFAT, Fol
 Subnautica,PPSA02453,exFAT · PKG,"exFAT, APR-EMU, PKG",01.022.394
 Subnautica Below Zero,PPSA02457,exFAT · PKG,"exFAT, RAR, PKG",01.022.125
 Subnautica: Below Zero,PPSA02456,PKG,PKG,01.021.397
+Sudden Strike 5 Deluxe Edition,PPSA34619,Backport,Backport,01.090
 Suicide Squad Kill The Justice League,PPSA02182,FPKG · exFAT · Backport,"Backport, APR-EMU, PKG, Backport 4.xx, Backport 7.xx, FPKG, exFAT, RAR",01.024
 Summer Sports Games 4K Edition,PPSA03416,exFAT · APR-EMU,"exFAT, APR-EMU, RAR",01.001
 Super Bomberman R 2,PPSA07191,exFAT · Backport 4.xx,"exFAT, Backport 4.xx, ZIP",01.003.001
@@ -984,6 +985,7 @@ Super Robot Wars Y,PPSA25217,FPKG,FPKG,01.000
 Super Sami Roll,PPSA03491,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx",02.005
 Super Woden GP,PPSA07211,exFAT · Backport,"Backport, exFAT, Backport 4.xx",01.003
 Superliminal,PPSA06084,exFAT · PKG · Backport,"Backport, APR-EMU, PKG, Backport 4.xx, exFAT",01.010
+Survival Fountain of Youth,PPSA20142,Backport,Backport,01.007
 Sword Art Online Fractured Daydream,PPSA06568,FPKG · exFAT · Backport,"Backport, PKG, FPKG, exFAT, Backport 4.xx",01.001
 Sword Art Online Last Recollection,PPSA06958,exFAT · PKG · Backport,"Backport, exFAT, PKG, Backport 4.xx, ZIP, Backport 5.xx",01.021
 Syberia Remastered,PPSA30140,exFAT · PKG · Backport,"Backport, PKG, Backport 4.xx, exFAT, APR-EMU, RAR",01.003
@@ -1024,6 +1026,7 @@ Tennis On-Court,PPSA15911,PKG,"PKG, RAR, unknown",01.004
 Tennis World Tour 2 Complete Edition,PPSA02019,exFAT,exFAT,01.000
 Terminator 2D NO FATE,PPSA25872,exFAT · PKG · Backport,"Backport, PKG, exFAT, Backport 4.xx, RAR, unknown",01.002
 Terminator Resistance Enhanced,PPSA02474,FPKG · exFAT,"exFAT, PKG, FPKG, RAR",01.000.500
+TERRIFIER The ArtCade Game,PPSA26362,Backport,Backport,01.000
 Tetris Effect Connected,PPSA07923,FPKG · exFAT · Backport,"Backport, PKG, FPKG, exFAT, Backport 4.xx",02.000.022
 Tetris Forever,PPSA25646,FPKG · exFAT · Backport,"Backport, PKG, Backport 4.xx, FPKG, exFAT, RAR",01.007
 TEVI,PPSA21112,exFAT · Backport 4.xx,"exFAT, RAR, Backport 4.xx",01.000
@@ -1178,7 +1181,7 @@ Unpacking,PPSA07117,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Back
 Until Dawn,PPSA15421,FPKG · exFAT · Backport,"Backport, PKG, FPKG, exFAT, ZIP, RAR, Backport 6.xx, Backport 4.xx",01.005
 Valkyrie Elysium,PPSA07274,PKG,PKG,01.000
 Valkyrie Elysium,PPSA07275,FPKG · Folder · Backport 4.xx,"FPKG, Folder, Backport 4.xx",01.003
-Valor Mortis,PPSA32793,PKG · Backport 4.xx,"PKG, Backport 4.xx",01.000.000
+Valor Mortis Deluxe Edition,PPSA32793,PKG · Backport,"Backport, PKG, Backport 4.xx",01.000.000
 Valthirian Arc Hero School Story 2,PPSA09075,exFAT,"exFAT, unknown",01.000
 Vampire Crawlers: The Turbo Wildcard from Vampire Survivors,PPSA30703,PKG,PKG,01.510.000
 Vampire Survivors,PPSA21703,Backport,Backport,01.016

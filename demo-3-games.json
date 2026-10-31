@@ -3,306 +3,266 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA24515",
-      "title": "Alone in The Dark 2 1996",
-      "version": "01.000.003",
+      "titleId": "PPSA17697",
+      "title": "Yatzi",
+      "version": "01.000.100",
       "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Alone_in_The_Dark_2_1996.webp",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA24515, v01.000.003, EUR\nSize: 400 MB\nPassword: SuperPSX\nVoices: English\nBackport 4.xx\nWorks on 11.xx and higher\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7c2e.jpg",
+      "description": "Format: FPKG · exFAT · Backport\nTags: PPSA17697, v1.000.100, 4.xx, 8.xx, USA\nSize: 390 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT BP 4.xx 1 Go]",
-          "url": "https://akirabox.com/RMKGJQ41wz1o/file",
+          "name": "[GAME exFAT BP 4.xx 699 Mo]",
+          "url": "https://akirabox.com/ex5z25RqD3Kq/file",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Akia",
-          "fileName": "PPSA24515.exfat",
-          "sizeBytes": 1567663063
+          "fileName": "PPSA17697.exfat",
+          "sizeBytes": 732954624
         },
         {
-          "name": "[GAME exFAT BP 4.xx 1 Go]",
-          "url": "https://vikingfile.com/f/vAoCIez7lW",
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/MzpzaTRzCI",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA24515.exfat",
-          "sizeBytes": 1567663063,
           "mirror": "Viki"
         },
         {
-          "name": "[GAME exFAT BP 4.xx 2 Go]",
-          "url": "https://datanodes.to/3c47d0dn548a",
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datanodes.to/9p6oam12ery2",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA24515.exfat",
-          "sizeBytes": 1610612736,
           "mirror": "Data"
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/ztibv6ge1u0n",
+          "url": "https://filekeeper.net/d8tytc2tgc1h",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA24515 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[GAME PKG EUR]",
-          "url": "https://vikingfile.com/f/kwMWUUv1sb",
-          "group": "Standard",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[#01 GAME PKG EUR]",
-          "url": "https://www.rootz.so/d/z0gMq",
-          "group": "Standard",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[#02 GAME PKG EUR]",
-          "url": "https://www.rootz.so/d/1KhXmK",
-          "group": "Standard",
-          "version": "01.000.003",
-          "region": "EUR",
-          "editionId": "PPSA24515",
-          "fileName": "[DLPSGAME.COM]-PPSA24515-Alone_in_the_Dark_2_CiborgEc.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[GAME exFAT 1 Go v1.002]",
-          "url": "https://link-vault.org/c/JRvEM0WL",
-          "group": "Standard",
-          "version": "01.002",
-          "mirror": "Multihost",
-          "fileName": "PPSA24515.exfat",
-          "sizeBytes": 1567663063
-        },
-        {
-          "name": "[FIX PKG 407 Mo EUR]",
-          "url": "https://1fichier.com/?tvsmk452irqnzepw3d6w&af=4186346",
-          "group": "Standard",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Game (v01.000.003)-PS5.rar",
-          "sizeBytes": 427210833,
-          "mirror": "1File"
-        },
-        {
-          "name": "[FIX BP 3 Mo EUR]",
-          "url": "https://vikingfile.com/f/kBpImc5XWn",
-          "group": "Backport",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "mirror": "Viki",
-          "sizeBytes": 2998927
-        },
-        {
-          "name": "[FIX BP EUR]",
-          "url": "https://www.rootz.so/d/2Bgv44",
-          "group": "Backport",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[FIX BP 3 Mo EUR]",
-          "url": "https://1fichier.com/?x67yyxeabstc14zx723n&af=4186346",
-          "group": "Backport",
-          "version": "01.000.003",
-          "fileName": "[SuperPSX]-Alone.in.The.Dark.2.(1996)-PPSA24515-EUR-Backport 4.xx+ (@Deckerr97)-PS5.rar",
-          "sizeBytes": 3145728,
-          "mirror": "1File"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "PKG",
-        "Backport 4.xx",
-        "exFAT"
-      ],
-      "_enrichedAt": "2026-10-01T04:42:32.617185+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "alone-in-the-dark-2022",
-        "rawgName": "Alone in the Dark",
-        "rating": 3.57,
-        "metacritic": null,
-        "released": "2024-03-20",
-        "genres": [
-          "Adventure",
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/719/7197c4abfd5cfac909548dce23b74daa.jpg"
-      },
-      "formatLabel": "exFAT · PKG · Backport"
-    },
-    {
-      "titleId": "PPSA10240",
-      "title": "Stroke The Snake",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Stroke_The_Snake.avif",
-      "description": "Format: exFAT · Backport\nTags: PPSA10240, v1.000, 4.xx, 5.xx, USA\nSize: 292 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT BP 4.xx 292 Mo]",
-          "url": "https://akirabox.com/wgWGq7xEQ34o/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia",
-          "fileName": "PPSA10240.exfat",
-          "sizeBytes": 306184192
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 292 Mo]",
-          "url": "https://vikingfile.com/f/uyl0iqiQWG",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA10240.exfat",
-          "sizeBytes": 306184192,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 292 Mo]",
-          "url": "https://datanodes.to/nsz5al1349a3",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA10240.exfat",
-          "sizeBytes": 306184192,
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 292 Mo]",
-          "url": "https://filekeeper.net/li74mkxkud6k",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA10240.exfat",
-          "sizeBytes": 306184192,
           "mirror": "Filek"
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/22qqqzqerm8r",
+          "url": "https://datavaults.co/ut3yxqxr9u2v",
           "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA10240 exfat",
           "mirror": "Vault"
         },
         {
-          "name": "[GAME exFAT BP USA]",
-          "url": "https://www.rootz.so/d/uNXJQ",
+          "name": "[GAME APR-EMU]",
+          "url": "https://www.mediafire.com/file/lcfkkyy7wdbmk3y/[DLPSGAME.COM]-PPSA17697-Game+(v01.000.100)+[APR-EMU].rar/file",
+          "fileName": "[DLPSGAME.COM]-PPSA17697-Game+(v01.000.100)+[APR-EMU].rar",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[FIX FPKG APR-EMU]",
+          "url": "https://www.rootz.so/d/1hNusq",
           "group": "Standard",
-          "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA10240",
-          "fileName": "[DLPSGAME.COM]-01.000.000 PPSA10240.rar",
+          "version": "01.000.100",
+          "fileName": "[DLPSGAME.COM]-PPSA17697-app0-(Fix).rar",
           "mirror": "Rootz"
         }
       ],
-      "sizeBytes": 306184192,
+      "sizeBytes": 732954624,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · Backport"
+        "FPKG · exFAT · Backport"
       ],
       "fileFormat": [
         "Backport",
-        "exFAT",
-        "Backport 4.xx",
-        "unknown"
-      ],
-      "_enrichedAt": "2026-10-19T04:28:48.185053+00:00",
-      "_rawgMatched": false,
-      "formatLabel": "exFAT · Backport"
-    },
-    {
-      "titleId": "PPSA13711",
-      "title": "Dolphin Spirit Ocean Mission",
-      "version": "01.000",
-      "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Dolphin_Spirit_Ocean_Mission.avif",
-      "description": "Format: exFAT · PKG · Backport\nTags: PPSA13711, v1.000, 4.xx, 6.xx, USA\nSize: 899 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT BP 4.xx 899 Mo]",
-          "url": "https://akirabox.com/Pbe3PaJ5KzlX/file",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA13711.exfat",
-          "sizeBytes": 942669824,
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 899 Mo]",
-          "url": "https://vikingfile.com/f/SeDWaEOJGk",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA13711.exfat",
-          "sizeBytes": 942669824,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 899 Mo]",
-          "url": "https://datanodes.to/pbgkh2d1grsw",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA13711.exfat",
-          "sizeBytes": 942669824,
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/rtj7yc7501el",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA13711 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[GAME PKG APR-EMU USA]",
-          "url": "https://vikingfile.com/f/m6JDuxxFfI",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[SuperPSX]-Dolphin.Spirit.Ocean.Mission-PPSA13711-USA-Game (v01.000)-PS5.rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[#01 GAME PKG APR-EMU USA]",
-          "url": "https://www.rootz.so/d/1quRc",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[SuperPSX]-Dolphin.Spirit.Ocean.Mission-PPSA13711-USA-Game (v01.000)-PS5.rar",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[GAME PKG APR-EMU 589 Mo USA]",
-          "url": "https://1fichier.com/?7l8i6g8d77qpz887op9p&af=4186346",
-          "group": "Standard",
-          "version": "01.000",
-          "fileName": "[SuperPSX]-Dolphin.Spirit.Ocean.Mission-PPSA13711-USA-Game (v01.000)-PS5.rar",
-          "sizeBytes": 617579806,
-          "mirror": "1File"
-        },
-        {
-          "name": "[#02 GAME PKG APR-EMU USA]",
-          "url": "https://www.rootz.so/d/1bw76G",
-          "group": "Standard",
-          "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA13711",
-          "fileName": "[DLPSGAME.COM]-01.000.000 PPSA13711.rar",
-          "mirror": "Rootz"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · PKG · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "PKG",
+        "FPKG",
         "exFAT",
         "APR-EMU",
         "Backport 4.xx",
+        "RAR"
+      ],
+      "_enrichedAt": "2026-10-19T04:29:09.514319+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "yatzi",
+        "rawgName": "Yatzi",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2024-03-26",
+        "genres": [
+          "Casual",
+          "Strategy"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:57:45.210431+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "FPKG · exFAT · Backport"
+    },
+    {
+      "titleId": "PPSA05018",
+      "title": "Dont Touch This Button",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Dont_Touch_This_Button.jpg",
+      "description": "Format: exFAT · APR-EMU\nTags: PPSA05018, v1.000, 3.xx, USA\nSize: 433 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT 434 Mo]",
+          "url": "https://akirabox.com/qPez44V75zOY/file",
+          "group": "exFAT",
+          "mirror": "Akia",
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
+        },
+        {
+          "name": "[GAME exFAT 434 Mo]",
+          "url": "https://vikingfile.com/f/Ymc6U0aUls",
+          "group": "exFAT",
+          "mirror": "Viki",
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
+        },
+        {
+          "name": "[GAME exFAT 434 Mo]",
+          "url": "https://datanodes.to/2wae3e5mfh17",
+          "group": "exFAT",
+          "mirror": "Data",
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
+        },
+        {
+          "name": "[GAME exFAT 434 Mo]",
+          "url": "https://filekeeper.net/pp3rsah8ndfg",
+          "group": "exFAT",
+          "mirror": "Filek",
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://datavaults.co/ysn3ryjjpaf3",
+          "group": "exFAT",
+          "mirror": "Vault",
+          "fileName": "PPSA05018.exfat"
+        },
+        {
+          "name": "[GAME APR-EMU USA]",
+          "url": "https://www.rootz.so/d/1JP2uW",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA05018",
+          "fileName": "[DLPSGAME.COM]-PPSA05018-Game (v01.000) [APR-EMU] by Amiibohound.rar",
+          "mirror": "Rootz"
+        }
+      ],
+      "sizeBytes": 454033408,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · APR-EMU"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "APR-EMU"
+      ],
+      "_enrichedAt": "2026-10-19T04:28:06.003992+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "dont-touch-the-button-mrpresident",
+        "rawgName": "DON'T TOUCH THE BUTTON MR.PRESIDENT",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2019-06-10",
+        "genres": [
+          "RPG"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:19.139049+00:00",
+      "_igdbMatched": false,
+      "formatLabel": "exFAT · APR-EMU"
+    },
+    {
+      "titleId": "PPSA07029",
+      "title": "Personality and Psychology Premium",
+      "version": "01.003",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Personality_and_Psychology_Premium.avif",
+      "description": "Format: exFAT\nTags: PPSA07029, v1.003, 9.xx, 8.xx\nSize: 86 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://fileditchfiles.st/alpha27/4390a643a5a77958db11/PPSA07029.exfat",
+          "group": "exFAT",
+          "mirror": "FileD"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/qI0ySLxmhi",
+          "group": "exFAT",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://datanodes.to/yofhuy8enizd",
+          "group": "exFAT",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://filekeeper.net/rw8pqlm892jf",
+          "group": "exFAT",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://datavaults.co/xtxof3m4yl28",
+          "group": "exFAT",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[GAME exFAT USA]",
+          "url": "https://vikingfile.com/f/4NfBJa7yUy",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "USA",
+          "editionId": "PPSA07029",
+          "fileName": "PPSA07029-[DLPSGAME.COM].rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT USA]",
+          "url": "https://1fichier.com/?k2j8ob8u41md931osm6g",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "USA",
+          "editionId": "PPSA07029",
+          "mirror": "1File"
+        },
+        {
+          "name": "[FIX exFAT 85 Mo USA]",
+          "url": "https://akirabox.com/M2BGwOPVNGj4/file",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "USA",
+          "editionId": "PPSA07029",
+          "mirror": "Akia",
+          "fileName": "PPSA07029-[DLPSGAME.COM].rar",
+          "sizeBytes": 89055559
+        }
+      ],
+      "sizeBytes": 861929472,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT"
+      ],
+      "fileFormat": [
+        "exFAT",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-19T04:28:06.003974+00:00",
+      "_enrichedAt": "2026-10-19T04:28:32.533230+00:00",
       "_rawgMatched": false,
-      "formatLabel": "exFAT · PKG · Backport"
+      "metadata": {
+        "rawgSlug": "personality-and-psychology-premium",
+        "rawgName": "Personality and Psychology Premium",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2018-05-31",
+        "genres": [
+          "Educational"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:20.035922+00:00",
+      "_igdbMatched": false,
+      "formatLabel": "exFAT"
     }
   ]
 }
