@@ -34,6 +34,7 @@ Alan Wake Remastered,PPSA01924,FPKG · exFAT,"exFAT, FPKG, PKG",01.005
 Alex Kidd in Miracle World DX,PPSA02664,exFAT,"exFAT, RAR",01.004
 Alfred Hitchcock Vertigo,PPSA02809,FPKG · exFAT · Backport,"exFAT, FPKG, APR-EMU, PKG, Backport",01.100.000
 Alien Rogue Incursion,PPSA06448,Backport 5.50,"Backport 5.50, Backport",01.009
+Alien Rogue Incursion Evolved Part One Deluxe Edition,PPSA30391,Backport,Backport,01.000
 Aliens Dark Descent,PPSA08312,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, PKG, ZIP, Backport 5.xx",01.000
 Aliens Fireteam Elite,PPSA03393,exFAT · PKG,"exFAT, PKG",01.040
 Alone in the Dark,PPSA08240,PKG · Backport,"PKG, Backport",01.000
@@ -498,7 +499,7 @@ Gungrave GORE,PPSA03683,exFAT · Folder · Backport,"Backport, exFAT, Folder, PK
 Gunsmith Simulator,PPSA30937,Backport 4.xx,Backport 4.xx,01.006
 GYLT,PPSA13526,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Backport 4.xx, PKG, Backport 5.xx, ZIP",02.000.052
 Hades,PPSA03355,FPKG · exFAT,"exFAT, FPKG, PKG",01.003.000
-Hades 2,PPSA36082,FPKG · Backport 4.xx,"FPKG, Backport 4.xx, unknown",01.006.000
+Hades 2,PPSA36082,FPKG · Backport,"Backport, FPKG, Backport 4.xx, unknown",01.006.000
 Halloween The Game,PPSA29340,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, Backport 4.xx",01.011.000
 Halo Campaign Evolved Premium Edition,PPSA28038,FPKG · Backport,"Backport, FPKG, Backport 9.xx, Backport 4.xx",17.661.002
 Hamster Playground,PPSA06652,Backport,Backport,01.009
@@ -552,8 +553,7 @@ Immortals Fenyx Rising,PPSA01507,exFAT · PKG,"exFAT, APR-EMU, PKG, RAR",04.040
 Immortals of Aveum,PPSA08236,exFAT · PKG · Backport 4.xx,"exFAT, ZIP, Backport 4.xx, PKG",01.006.004
 In Nightmare,PPSA06108,exFAT · PKG,"exFAT, PKG",01.006
 In Sound Mind,PPSA04921,exFAT,"exFAT, unknown, RAR",01.009
-Inazuma Eleven Victory Road,PPSA22207,FPKG · exFAT · Backport 4.xx,"Backport 4.xx, FPKG, exFAT, PKG, unknown",07.012
-INAZUMA ELEVEN: Victory Road Deluxe Edition,,PKG,PKG,07.120
+INAZUMA ELEVEN Victory Road Deluxe Edition,PPSA22207,FPKG · exFAT · Backport,"Backport, Backport 4.xx, FPKG, exFAT, PKG, unknown",07.012
 Indiana Jones and The Great Circle,PPSA26786,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Folder, PKG, RAR, Backport 4.xx",01.015.000
 Indiana Jones and the Staff of Kings,PPSA14388,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, Backport 4.xx",01.000.002
 Indika,PPSA16214,exFAT · Folder · Backport,"Backport, exFAT, Folder, Backport 4.xx, Backport 6.xx, RAR, ZIP, Backport 5.xx, PKG",01.003
@@ -831,6 +831,7 @@ One Piece Odyssey,PPSA04995,exFAT · PKG,"exFAT, PKG",01.002.001
 One Piece Pirate Warriors 4,PPSA27500,PKG,"unknown, PKG, RAR",01.003
 Onimusha Dawn of Dreams,PPSA38272,FPKG · exFAT · Backport,"Backport, FPKG, PKG, Backport 4.xx, exFAT",01.000.002
 Onimusha Way of The Sword,PPSA27836,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, Backport 4.xx, unknown",01.000.001
+Out of Sight Complete Edition,PPSA28511,Backport,Backport,01.006
 Outcast - A New Beginning,PPSA04813,PKG,PKG,01.000
 Outcast A New Beginning,PPSA04814,exFAT · Folder · Backport,"Backport, exFAT, Backport 4.xx, Backport 6.xx, ZIP, Folder, Backport 5.xx",01.000
 Outer Wilds,PPSA08102,exFAT · Backport 4.xx,"exFAT, Backport 4.xx, RAR, unknown",01.000
@@ -936,6 +937,7 @@ Resident Evil Village Gold Edition,PPSA01556,FPKG · exFAT · Backport 4.xx,"exF
 Resident Evil Village Maiden Demo,PPSA01859,PKG,"unknown, PKG",01.001
 Resistance Retribution,PPSA06788,unknown,unknown,01.000.004
 Resonance A Plague Tale Legacy,PPSA30601,FPKG · PKG · Backport,"Backport, FPKG, PKG, APR-EMU, 7z, Backport 4.xx, Backport 10.xx, unknown",01.002.000
+RetroRealms,PPSA25212,Backport,Backport,01.000
 Returnal,PPSA01285,FPKG · FFPKG · Backport 4.xx,"exFAT, FPKG, FFPKG, RAR, Backport 4.xx, PKG",03.005
 Revenge of The Savage Planet,PPSA20154,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG, ZIP, RAR, Backport 4.xx",01.030
 REYNATIS,PPSA22607,exFAT · APR-EMU,"exFAT, APR-EMU, RAR",01.000
@@ -1248,8 +1250,8 @@ The Quarry Deluxe Edition,PPSA06225,exFAT · PKG · Backport 4.xx,"exFAT, PKG, B
 The Relic First Guardian,PPSA20946,FPKG · PKG · Backport,"Backport, FPKG, PKG, Backport 5.xx",01.000.027
 The Riftbreaker,PPSA03753,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, PKG, RAR",01.020
 The Rogue Prince of Persia,PPSA28155,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, Backport 4.xx",01.006.000
-The Sinking City 2,PPSA18543,FPKG · exFAT · Backport 10.xx,"FPKG, Backport 10.xx, exFAT, PKG, Backport",01.000.003
-The Sinking City Remastered,PPSA01772,unknown,unknown,01.004.000
+The Sinking City 2 Premium Edition,PPSA18543,FPKG · exFAT · Backport,"Backport, FPKG, Backport 10.xx, exFAT, PKG",01.000.003
+The Sinking City Remastered Deluxe Edition,PPSA01772,Backport,"Backport, unknown",01.004.000
 The Smurfs 2 The Prisoner of the Green Stone,PPSA16716,exFAT · PKG · Backport 4.xx,"exFAT, RAR, ZIP, Backport 4.xx, PKG",01.000
 The Smurfs Dreams Deluxe Edition,PPSA21607,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Backport 4.xx",01.002
 The Smurfs Mission Vileaf,PPSA02876,PKG,"unknown, PKG",01.000.001
@@ -1369,7 +1371,7 @@ VR Skater,PPSA13557,Folder · Backport 4.xx,"Folder, ZIP, Backport 4.xx, Backpor
 Wanted Dead,PPSA05621,Folder · PKG · Backport 4.xx,"Folder, Backport 4.xx, PKG, Backport",01.001
 War Mongrels,PPSA06711,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, PKG",01.020.000
 "Warhammer 40,000 Space Marine 2",PPSA04451,exFAT · PKG · Backport 7.xx,"PKG, Backport 7.xx, Backport, exFAT, APR-EMU, RAR",01.010.002
-Warhammer 40000 Boltgun,PPSA07247,PKG,"unknown, PKG",01.007.000
+Warhammer 40000 Boltgun Forges of Corruption Edition,PPSA07247,PKG · Backport,"Backport, unknown, PKG",01.007.000
 Warhammer 40000 Space Marine 2 Gold Edition,PPSA04452,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, APR-EMU, Backport 4.xx, Backport 7.xx, RAR",01.012.002
 Warhammer Age of Sigmar Realms of Ruin Deluxe Edition,PPSA06927,exFAT · PKG · Backport 4.xx,"Backport 4.xx, exFAT, APR-EMU, PKG, RAR",01.007
 WARRIORS Abyss,PPSA25843,Backport,"Backport, Backport 4.xx",01.008
@@ -1381,6 +1383,7 @@ Weird West Definitive Edition,PPSA10887,exFAT · PKG · Backport,"Backport, exFA
 Welcome to ParadiZe,PPSA09258,PKG,"unknown, PKG",01.014.000
 Werewolf The Apocalypse Earthblood,PPSA02113,FPKG · PKG,"FPKG, PKG",01.005
 Werewolf: The Apocalypse – Earthblood,PPSA02114,PKG,PKG,01.005
+White Day 2 The Flower That Tells Lies Complete Edition,PPSA21120,Backport,Backport,01.000
 White Day A Labyrinth Named School,PPSA07973,exFAT,exFAT,01.000
 Who Wants To Be A Millionaire New Edition,PPSA04933,exFAT,"exFAT, RAR, unknown",01.008
 WILD HEARTS,PPSA07837,FPKG · exFAT · Backport 4.xx,"FPKG, exFAT, APR-EMU, Backport 4.xx, RAR, Backport",01.033.000

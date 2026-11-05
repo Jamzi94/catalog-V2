@@ -3,182 +3,282 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA05018",
-      "title": "Dont Touch This Button",
-      "version": "01.000",
+      "titleId": "PPSA03596",
+      "title": "Among Us",
+      "version": "1.0",
       "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Dont_Touch_This_Button.jpg",
-      "description": "Format: exFAT · APR-EMU\nTags: PPSA05018, v1.000, 3.xx, USA\nSize: 433 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6kqt.jpg",
+      "description": "Tags: PPSA03596, 9.xx, 8.xx\nSize: 550 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://akirabox.com/qPez44V75zOY/file",
+          "name": "[GAME]",
+          "url": "https://vikingfile.com/f/KQdZ5Lh0hE",
+          "group": "Standard",
+          "fileName": "PPSA03596-[DLPSGAME.COM].rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[FIX 210 Mo]",
+          "url": "https://akirabox.com/9QWmpgloXGEB/file",
+          "group": "Standard",
+          "fileName": "PPSA03596-[DLPSGAME.COM].rar",
+          "sizeBytes": 219687157,
+          "mirror": "Akia"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "PS5"
+      ],
+      "fileFormat": [
+        "unknown"
+      ],
+      "sizeBytes": 576716800,
+      "_enrichedAt": "2026-10-25T05:12:44.493434+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "among-us",
+        "rawgName": "Among Us",
+        "rating": 3.83,
+        "metacritic": 82,
+        "released": "2018-07-25",
+        "genres": [
+          "Casual",
+          "Action",
+          "Simulation"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/e74/e74458058b35e01c1ae3feeb39a3f724.jpg"
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:35:19.199919+00:00",
+      "_igdbMatched": true
+    },
+    {
+      "titleId": "PPSA03117",
+      "title": "Crazy Chicken Shooter Bundle",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xol.jpg",
+      "description": "Format: FPKG · exFAT\nTags: PPSA03117, 9.xx, 8.xx\nSize: 250 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[#01 GAME exFAT 348 Mo]",
+          "url": "https://akirabox.com/M2BGwPZBNmj4/file",
           "group": "exFAT",
           "mirror": "Akia",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
+          "fileName": "PPSA03117.exfat",
+          "sizeBytes": 364904448
         },
         {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://vikingfile.com/f/Ymc6U0aUls",
+          "name": "[GAME exFAT 348 Mo]",
+          "url": "https://vikingfile.com/f/JybxyEu3SC",
           "group": "exFAT",
           "mirror": "Viki",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
+          "fileName": "PPSA03117.exfat",
+          "sizeBytes": 364904448
         },
         {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://datanodes.to/2wae3e5mfh17",
+          "name": "[GAME exFAT 348 Mo]",
+          "url": "https://datanodes.to/ylgjbsk6crks",
           "group": "exFAT",
           "mirror": "Data",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
+          "fileName": "PPSA03117.exfat",
+          "sizeBytes": 364904448
         },
         {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://filekeeper.net/pp3rsah8ndfg",
+          "name": "[GAME exFAT 348 Mo]",
+          "url": "https://filekeeper.net/zn2bz7e1ybwk",
           "group": "exFAT",
           "mirror": "Filek",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
+          "fileName": "PPSA03117.exfat",
+          "sizeBytes": 364904448
         },
         {
           "name": "[GAME exFAT]",
-          "url": "https://datavaults.co/ysn3ryjjpaf3",
+          "url": "https://datavaults.co/a0ukrvf1jnp8",
           "group": "exFAT",
           "mirror": "Vault",
-          "fileName": "PPSA05018.exfat"
+          "fileName": "PPSA03117.exfat"
         },
         {
-          "name": "[GAME APR-EMU USA]",
-          "url": "https://www.rootz.so/d/1JP2uW",
+          "name": "[GAME FPKG USA]",
+          "url": "https://vikingfile.com/f/jacpwvqHbx",
+          "group": "Standard",
+          "region": "USA",
+          "editionId": "PPSA03117",
+          "fileName": "PPSA03117-[DLPSGAME.COM].rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#02 GAME exFAT 348 Mo]",
+          "url": "https://akirabox.com/jJD3V4l0Ga5Q/file",
           "group": "Standard",
           "version": "01.000",
+          "mirror": "Akia",
+          "fileName": "PPSA03117.exfat",
+          "sizeBytes": 364904448
+        },
+        {
+          "name": "[FIX FPKG 123 Mo USA]",
+          "url": "https://akirabox.com/RMKGJJwOWG1o/file",
+          "group": "Standard",
           "region": "USA",
-          "editionId": "PPSA05018",
-          "fileName": "[DLPSGAME.COM]-PPSA05018-Game (v01.000) [APR-EMU] by Amiibohound.rar",
-          "mirror": "Rootz"
+          "editionId": "PPSA03117",
+          "fileName": "PPSA03117-[DLPSGAME.COM].rar",
+          "sizeBytes": 128607846,
+          "mirror": "Akia"
         }
       ],
-      "sizeBytes": 454033408,
+      "sizeBytes": 402653184,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU"
+        "FPKG · exFAT"
       ],
       "fileFormat": [
         "exFAT",
-        "APR-EMU"
+        "FPKG",
+        "unknown"
       ],
-      "_enrichedAt": "2026-10-19T04:28:06.003992+00:00",
+      "_enrichedAt": "2026-10-19T04:28:03.242963+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "dont-touch-the-button-mrpresident",
-        "rawgName": "DON'T TOUCH THE BUTTON MR.PRESIDENT",
+        "rawgSlug": "crazy-chicken",
+        "rawgName": "Crazy Chicken",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2019-06-10",
+        "released": "2010-01-12",
         "genres": [
-          "RPG"
+          "Action",
+          "Puzzle"
         ]
       },
-      "_igdbEnrichedAt": "2026-07-01T05:58:19.139049+00:00",
-      "_igdbMatched": false,
-      "formatLabel": "exFAT · APR-EMU"
+      "_igdbEnrichedAt": "2026-06-28T21:57:52.916446+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "FPKG · exFAT"
     },
     {
-      "titleId": "PPSA20313",
-      "title": "Besiege",
-      "version": "01.000.002",
+      "titleId": "PPSA11128",
+      "title": "Ape Escape P",
+      "version": "01.003",
       "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/10/2-rsw.jpg",
-      "description": "Format: PKG\nTags: PPSA20313, v01.000.002, EUR\nSize: 800 MB\nPassword: SuperPSX\nWorks on 9.xx and higher\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Ape_Escape_P.avif",
+      "description": "Format: exFAT · Folder · Backport\nTags: PPSA11128, v1.003, 4.xx, EUR\nSize: 952 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME PKG EUR]",
-          "url": "https://link-vault.org/c/uy2FHNZl",
-          "group": "Standard",
-          "version": "01.000.002",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Besiege-PPSA20313-EUR-Game (v01.000.002)-PS5"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PKG"
-      ],
-      "fileFormat": [
-        "unknown",
-        "PKG"
-      ],
-      "sizeBytes": 838860800,
-      "_enrichedAt": "2026-10-21T04:28:19.926394+00:00",
-      "_rawgMatched": false,
-      "formatLabel": "PKG"
-    },
-    {
-      "titleId": "PPSA22779",
-      "title": "Shogun Showdown",
-      "version": "01.004.000",
-      "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Shogun_Showdown.jpg",
-      "description": "Format: FPKG · exFAT · Backport\nTags: PPSA22779, v01.004.000, USA\nSize: 500 MB\nPassword: SuperPSX\nDUMP – Works on 4.xx and higherPS5 FPKG only works on 11.60 or below, use EXFAT if you are above\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT USA]",
-          "url": "https://link-vault.org/c/FQ9-5lUz",
-          "group": "exFAT",
-          "version": "01.004.000",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-PPSA22779-USA-(EXFAT)-PS5"
-        },
-        {
-          "name": "[FIX exFAT Dump BP]",
-          "url": "https://link-vault.org/c/XU-githI#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data",
-          "fileName": "Shogun Showdown (v01.004) – BP 4.xx – PPSA22779 - Dump"
-        },
-        {
-          "name": "[FIX FPKG BP 4.xx]",
-          "url": "https://link-vault.org/c/OzAfPsnw#AkiraBox",
+          "name": "[GAME exFAT BP 4.xx 952 Mo]",
+          "url": "https://akirabox.com/RMKGJQ9Dwz1o/file",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia",
-          "fileName": "Shogun Showdown (v01.004) – BP 4.xx – PPSA22779 - FPKG"
+          "fileName": "PPSA11128.exfat",
+          "sizeBytes": 998244352,
+          "mirror": "Akia"
         },
         {
-          "name": "[#01 FIX BP USA]",
-          "url": "https://link-vault.org/c/Ykr4KxnR",
-          "group": "Backport",
-          "version": "01.004.000",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Shogun.Showdown-PPSA22779-USA-Game (v01.004.000) (Backport 4.xx+)-PS5"
+          "name": "[GAME exFAT BP 4.xx 952 Mo]",
+          "url": "https://vikingfile.com/f/czccH3iJBS",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA11128.exfat",
+          "sizeBytes": 998244352,
+          "mirror": "Viki"
         },
         {
-          "name": "[#02 FIX BP USA]",
-          "url": "https://link-vault.org/c/ewBRLtm9",
-          "group": "Backport",
-          "version": "01.004.000",
-          "mirror": "Multihost",
-          "fileName": "[SuperPSX]-Shogun.Showdown-PPSA22779-USA-Game (v01.004.000) (Backport 4.xx+)-(FPKG)-PS5"
+          "name": "[GAME exFAT BP 4.xx 952 Mo]",
+          "url": "https://filekeeper.net/jte44kj4f20v",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA11128.exfat",
+          "sizeBytes": 998244352,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/s1ouilxehiv5",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA11128 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[GAME Folder EUR]",
+          "url": "https://www.mediafire.com/file/b9ewnk8k4875d2m/PPSA11128-[DLPSGAME.COM].rar/file",
+          "group": "Standard",
+          "version": "01.003",
+          "region": "EUR",
+          "editionId": "PPSA11128",
+          "fileName": "PPSA11128-[DLPSGAME.COM].rar",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#01 FIX Folder EUR]",
+          "url": "https://www.mediafire.com/file/fy0ux13ksj6ovqr/PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip/file",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#01 FIX Folder EUR]",
+          "url": "https://vikingfile.com/f/lP1MXI4yGy",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#01 FIX Folder 4 Mo EUR]",
+          "url": "https://1fichier.com/?5yradocjzydvd64l602t",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
+          "sizeBytes": 4078960,
+          "mirror": "1File"
+        },
+        {
+          "name": "[#02 FIX Folder EUR]",
+          "url": "https://www.mediafire.com/file/5secrhlurgdj79f/PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip/file",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#02 FIX Folder EUR]",
+          "url": "https://vikingfile.com/f/YBIdy6Dl0O",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#02 FIX Folder 4 Mo EUR]",
+          "url": "https://1fichier.com/?vcig5j1df3ihmyjd025f",
+          "version": "01.003",
+          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
+          "sizeBytes": 4078960,
+          "mirror": "1File"
         }
       ],
-      "sizeBytes": 549453824,
+      "sizeBytes": 1073741824,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "FPKG · exFAT · Backport"
+        "exFAT · Folder · Backport"
       ],
       "fileFormat": [
         "Backport",
-        "FPKG",
+        "exFAT",
         "Folder",
-        "PKG",
-        "APR-EMU",
         "Backport 4.xx",
-        "exFAT"
+        "RAR",
+        "ZIP",
+        "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-19T04:27:32.876451+00:00",
-      "_rawgMatched": false,
-      "formatLabel": "FPKG · exFAT · Backport"
+      "_enrichedAt": "2026-10-25T05:12:44.809812+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "ape-escape",
+        "rawgName": "Ape Escape",
+        "rating": 3.95,
+        "metacritic": 90,
+        "released": "1999-05-31",
+        "genres": [
+          "Platformer"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/eb7/eb752b66d0060b832e5037c743850ab7.jpg"
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:16.534584+00:00",
+      "_igdbMatched": false,
+      "formatLabel": "exFAT · Folder · Backport"
     }
   ]
 }
