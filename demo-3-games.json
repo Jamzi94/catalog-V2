@@ -3,282 +3,282 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA03596",
-      "title": "Among Us",
-      "version": "1.0",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6kqt.jpg",
-      "description": "Tags: PPSA03596, 9.xx, 8.xx\nSize: 550 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME]",
-          "url": "https://vikingfile.com/f/KQdZ5Lh0hE",
-          "group": "Standard",
-          "fileName": "PPSA03596-[DLPSGAME.COM].rar",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[FIX 210 Mo]",
-          "url": "https://akirabox.com/9QWmpgloXGEB/file",
-          "group": "Standard",
-          "fileName": "PPSA03596-[DLPSGAME.COM].rar",
-          "sizeBytes": 219687157,
-          "mirror": "Akia"
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "PS5"
-      ],
-      "fileFormat": [
-        "unknown"
-      ],
-      "sizeBytes": 576716800,
-      "_enrichedAt": "2026-10-25T05:12:44.493434+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "among-us",
-        "rawgName": "Among Us",
-        "rating": 3.83,
-        "metacritic": 82,
-        "released": "2018-07-25",
-        "genres": [
-          "Casual",
-          "Action",
-          "Simulation"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/e74/e74458058b35e01c1ae3feeb39a3f724.jpg"
-      },
-      "_igdbEnrichedAt": "2026-06-28T21:35:19.199919+00:00",
-      "_igdbMatched": true
-    },
-    {
-      "titleId": "PPSA03117",
-      "title": "Crazy Chicken Shooter Bundle",
+      "titleId": "PPSA05018",
+      "title": "Dont Touch This Button",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xol.jpg",
-      "description": "Format: FPKG · exFAT\nTags: PPSA03117, 9.xx, 8.xx\nSize: 250 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Dont_Touch_This_Button.jpg",
+      "description": "Format: exFAT · APR-EMU\nTags: PPSA05018, v1.000, 3.xx, USA\nSize: 433 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[#01 GAME exFAT 348 Mo]",
-          "url": "https://akirabox.com/M2BGwPZBNmj4/file",
+          "name": "[GAME exFAT 434 Mo]",
+          "url": "https://akirabox.com/qPez44V75zOY/file",
           "group": "exFAT",
           "mirror": "Akia",
-          "fileName": "PPSA03117.exfat",
-          "sizeBytes": 364904448
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
         },
         {
-          "name": "[GAME exFAT 348 Mo]",
-          "url": "https://vikingfile.com/f/JybxyEu3SC",
+          "name": "[GAME exFAT 434 Mo]",
+          "url": "https://vikingfile.com/f/Ymc6U0aUls",
           "group": "exFAT",
           "mirror": "Viki",
-          "fileName": "PPSA03117.exfat",
-          "sizeBytes": 364904448
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
         },
         {
-          "name": "[GAME exFAT 348 Mo]",
-          "url": "https://datanodes.to/ylgjbsk6crks",
+          "name": "[GAME exFAT 434 Mo]",
+          "url": "https://datanodes.to/2wae3e5mfh17",
           "group": "exFAT",
           "mirror": "Data",
-          "fileName": "PPSA03117.exfat",
-          "sizeBytes": 364904448
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
         },
         {
-          "name": "[GAME exFAT 348 Mo]",
-          "url": "https://filekeeper.net/zn2bz7e1ybwk",
+          "name": "[GAME exFAT 434 Mo]",
+          "url": "https://filekeeper.net/pp3rsah8ndfg",
           "group": "exFAT",
           "mirror": "Filek",
-          "fileName": "PPSA03117.exfat",
-          "sizeBytes": 364904448
+          "fileName": "PPSA05018.exfat",
+          "sizeBytes": 455081984
         },
         {
           "name": "[GAME exFAT]",
-          "url": "https://datavaults.co/a0ukrvf1jnp8",
+          "url": "https://datavaults.co/ysn3ryjjpaf3",
           "group": "exFAT",
           "mirror": "Vault",
-          "fileName": "PPSA03117.exfat"
+          "fileName": "PPSA05018.exfat"
         },
         {
-          "name": "[GAME FPKG USA]",
-          "url": "https://vikingfile.com/f/jacpwvqHbx",
+          "name": "[GAME APR-EMU USA]",
+          "url": "https://www.rootz.so/d/1JP2uW",
           "group": "Standard",
+          "version": "01.000",
           "region": "USA",
-          "editionId": "PPSA03117",
-          "fileName": "PPSA03117-[DLPSGAME.COM].rar",
+          "editionId": "PPSA05018",
+          "fileName": "[DLPSGAME.COM]-PPSA05018-Game (v01.000) [APR-EMU] by Amiibohound.rar",
+          "mirror": "Rootz"
+        }
+      ],
+      "sizeBytes": 454033408,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · APR-EMU"
+      ],
+      "fileFormat": [
+        "exFAT",
+        "APR-EMU"
+      ],
+      "_enrichedAt": "2026-10-19T04:28:06.003992+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "dont-touch-the-button-mrpresident",
+        "rawgName": "DON'T TOUCH THE BUTTON MR.PRESIDENT",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2019-06-10",
+        "genres": [
+          "RPG"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-07-01T05:58:19.139049+00:00",
+      "_igdbMatched": false,
+      "formatLabel": "exFAT · APR-EMU"
+    },
+    {
+      "titleId": "PPSA05888",
+      "title": "The Talos Principle 2",
+      "version": "02.013.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jbl.jpg",
+      "description": "Format: FPKG · Backport 4.xx\nTags: PPSA05888, v2.013, 4.xx, 7.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME FPKG USA]",
+          "url": "https://1fichier.com/?zwqp3xcw49ercc8tvcvm",
+          "group": "Standard",
+          "version": "02.013.000",
+          "region": "USA",
+          "mirror": "1File"
+        },
+        {
+          "name": "[GAME exFAT USA]",
+          "url": "https://vikingfile.com/f/tjI7YnjdDr",
+          "group": "exFAT",
+          "version": "02.013.000",
+          "region": "USA",
           "mirror": "Viki"
         },
         {
-          "name": "[#02 GAME exFAT 348 Mo]",
-          "url": "https://akirabox.com/jJD3V4l0Ga5Q/file",
+          "name": "[GAME exFAT USA]",
+          "url": "https://www.rootz.so/d/1qXWgy",
+          "group": "exFAT",
+          "version": "02.013.000",
+          "region": "USA",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[GAME FPKG 5 Go USA v02.013]",
+          "url": "https://vikingfile.com/f/d8AQL6M5Vq",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Viki",
+          "sizeBytes": 5035849154
+        },
+        {
+          "name": "[FIX BP 4.xx 57 Mo USA]",
+          "url": "https://www.mediafire.com/file/h7jh8wmtr71ntmd/[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip/file",
+          "group": "Standard",
+          "version": "02.013.000",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60178074,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[FIX FPKG BP 57 Mo USA]",
+          "url": "https://akirabox.com/k0embVRoamVb/file",
+          "group": "Standard",
+          "version": "02.013.000",
+          "region": "USA",
+          "mirror": "Akia",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60177776
+        },
+        {
+          "name": "[FIX FPKG BP 57 Mo USA]",
+          "url": "https://vikingfile.com/f/oquq8uMLJW",
+          "group": "Standard",
+          "version": "02.013.000",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "sizeBytes": 60177776,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[FIX FPKG BP USA]",
+          "url": "https://rootz.so/d/1MKdFY",
+          "group": "Standard",
+          "version": "02.013.000",
+          "region": "USA",
+          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[FIX FPKG BP 13 Mo USA v02.013]",
+          "url": "https://akirabox.com/N2p3DqRRpzMa/file",
+          "group": "Standard",
+          "version": "02.013",
+          "region": "USA",
+          "mirror": "Akia",
+          "fileName": "PPSA15731_The_Walking_Dead_Destinies_V1_004_Backport_6_XX_By_BADERLINK.rar",
+          "sizeBytes": 13704888
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "FPKG · Backport 4.xx"
+      ],
+      "fileFormat": [
+        "FPKG",
+        "ZIP",
+        "Backport 4.xx",
+        "RAR"
+      ],
+      "sizeBytes": 60178074,
+      "_enrichedAt": "2026-10-29T05:11:51.305337+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "talos-principle-2",
+        "rawgName": "The Talos Principle 2",
+        "rating": 4.31,
+        "metacritic": null,
+        "released": "2023-11-01",
+        "genres": [
+          "Adventure",
+          "Action"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/4e4/4e42fc297c028630262a4abcc7769576.jpg"
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:57:17.452890+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "FPKG · Backport 4.xx"
+    },
+    {
+      "titleId": "PPSA02608",
+      "title": "Winter Sports Games 4K Edition",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4iq8.jpg",
+      "description": "Format: APR-EMU\nTags: PPSA02608, v1.000, 3.xx\nSize: 2 to\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME APR-EMU]",
+          "url": "https://www.mediafire.com/file/69hjdowhycjhh37/[DLPSGAME.COM]-PPSA02608-app0.rar/file",
+          "group": "Standard",
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[GAME APR-EMU 30 Go]",
+          "url": "https://akirabox.com/l76mZNvxpman/file",
           "group": "Standard",
           "version": "01.000",
           "mirror": "Akia",
-          "fileName": "PPSA03117.exfat",
-          "sizeBytes": 364904448
+          "fileName": "[ Wo Long Fallen Dynasty ]-[DLPSGAME.COM] (1).rar",
+          "sizeBytes": 31857919918
         },
         {
-          "name": "[FIX FPKG 123 Mo USA]",
-          "url": "https://akirabox.com/RMKGJJwOWG1o/file",
+          "name": "[GAME APR-EMU]",
+          "url": "https://vikingfile.com/f/eG4UsuVM1S",
           "group": "Standard",
-          "region": "USA",
-          "editionId": "PPSA03117",
-          "fileName": "PPSA03117-[DLPSGAME.COM].rar",
-          "sizeBytes": 128607846,
-          "mirror": "Akia"
+          "version": "01.000",
+          "fileName": "[DLPSGAME.COM]-PPSA02608-app0.rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME APR-EMU]",
+          "url": "https://1fichier.com/?29tate08sp0z400mtbsx",
+          "group": "Standard",
+          "version": "01.000",
+          "mirror": "1File"
+        },
+        {
+          "name": "[GAME APR-EMU]",
+          "url": "https://buzzheavier.com/4wufi76eqoea",
+          "group": "Standard",
+          "version": "01.000",
+          "mirror": "Buzz"
         }
       ],
-      "sizeBytes": 402653184,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "FPKG · exFAT"
+        "APR-EMU"
       ],
       "fileFormat": [
-        "exFAT",
-        "FPKG",
-        "unknown"
+        "APR-EMU",
+        "RAR"
       ],
-      "_enrichedAt": "2026-10-19T04:28:03.242963+00:00",
+      "sizeBytes": 569350002,
+      "_enrichedAt": "2026-10-19T04:29:07.038833+00:00",
       "_rawgMatched": false,
       "metadata": {
-        "rawgSlug": "crazy-chicken",
-        "rawgName": "Crazy Chicken",
+        "rawgSlug": "the-games-winter-edition",
+        "rawgName": "The Games: Winter Edition",
         "rating": 0.0,
         "metacritic": null,
-        "released": "2010-01-12",
+        "released": "2020-10-28",
         "genres": [
-          "Action",
-          "Puzzle"
+          "Racing",
+          "Simulation",
+          "Sports"
         ]
       },
-      "_igdbEnrichedAt": "2026-06-28T21:57:52.916446+00:00",
+      "_igdbEnrichedAt": "2026-06-28T21:57:38.105642+00:00",
       "_igdbMatched": true,
-      "formatLabel": "FPKG · exFAT"
-    },
-    {
-      "titleId": "PPSA11128",
-      "title": "Ape Escape P",
-      "version": "01.003",
-      "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Ape_Escape_P.avif",
-      "description": "Format: exFAT · Folder · Backport\nTags: PPSA11128, v1.003, 4.xx, EUR\nSize: 952 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT BP 4.xx 952 Mo]",
-          "url": "https://akirabox.com/RMKGJQ9Dwz1o/file",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA11128.exfat",
-          "sizeBytes": 998244352,
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 952 Mo]",
-          "url": "https://vikingfile.com/f/czccH3iJBS",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA11128.exfat",
-          "sizeBytes": 998244352,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 952 Mo]",
-          "url": "https://filekeeper.net/jte44kj4f20v",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA11128.exfat",
-          "sizeBytes": 998244352,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/s1ouilxehiv5",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA11128 exfat",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[GAME Folder EUR]",
-          "url": "https://www.mediafire.com/file/b9ewnk8k4875d2m/PPSA11128-[DLPSGAME.COM].rar/file",
-          "group": "Standard",
-          "version": "01.003",
-          "region": "EUR",
-          "editionId": "PPSA11128",
-          "fileName": "PPSA11128-[DLPSGAME.COM].rar",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[#01 FIX Folder EUR]",
-          "url": "https://www.mediafire.com/file/fy0ux13ksj6ovqr/PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip/file",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[#01 FIX Folder EUR]",
-          "url": "https://vikingfile.com/f/lP1MXI4yGy",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[#01 FIX Folder 4 Mo EUR]",
-          "url": "https://1fichier.com/?5yradocjzydvd64l602t",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_4_XX-[DLPSGAME.COM].zip",
-          "sizeBytes": 4078960,
-          "mirror": "1File"
-        },
-        {
-          "name": "[#02 FIX Folder EUR]",
-          "url": "https://www.mediafire.com/file/5secrhlurgdj79f/PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip/file",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[#02 FIX Folder EUR]",
-          "url": "https://vikingfile.com/f/YBIdy6Dl0O",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[#02 FIX Folder 4 Mo EUR]",
-          "url": "https://1fichier.com/?vcig5j1df3ihmyjd025f",
-          "version": "01.003",
-          "fileName": "PPSA11128_–_EUR_V1_003_Ape_Escape_P_Ape_Escape_On_The_Loose_5_XX-[DLPSGAME.COM].zip",
-          "sizeBytes": 4078960,
-          "mirror": "1File"
-        }
-      ],
-      "sizeBytes": 1073741824,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "exFAT · Folder · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "exFAT",
-        "Folder",
-        "Backport 4.xx",
-        "RAR",
-        "ZIP",
-        "Backport 5.xx"
-      ],
-      "_enrichedAt": "2026-10-25T05:12:44.809812+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "ape-escape",
-        "rawgName": "Ape Escape",
-        "rating": 3.95,
-        "metacritic": 90,
-        "released": "1999-05-31",
-        "genres": [
-          "Platformer"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/games/eb7/eb752b66d0060b832e5037c743850ab7.jpg"
-      },
-      "_igdbEnrichedAt": "2026-07-01T05:58:16.534584+00:00",
-      "_igdbMatched": false,
-      "formatLabel": "exFAT · Folder · Backport"
+      "formatLabel": "APR-EMU"
     }
   ]
 }
