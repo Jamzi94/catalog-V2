@@ -3,207 +3,85 @@
   "version": 1,
   "packages": [
     {
-      "titleId": "PPSA05018",
-      "title": "Dont Touch This Button",
-      "version": "01.000",
+      "titleId": "PPSA07053",
+      "title": "Coffee Talk Episode 2 Hibiscus & Butterfly",
+      "version": "01.120.000",
       "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Dont_Touch_This_Button.jpg",
-      "description": "Format: exFAT · APR-EMU\nTags: PPSA05018, v1.000, 3.xx, USA\nSize: 433 MB\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Coffee_Talk_Episode_2_Hibiscus_Butterfly.jpg",
+      "description": "Format: FPKG · exFAT · Backport\nTags: PPSA07053, v01.120.000, EUR\nSize: 700 MB\nPassword: SuperPSX\nDUMP – Works on 4.xx and higherPS5 FPKG only works on 11.60 or below, use EXFAT if you are above\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://akirabox.com/qPez44V75zOY/file",
-          "group": "exFAT",
-          "mirror": "Akia",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
-        },
-        {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://vikingfile.com/f/Ymc6U0aUls",
-          "group": "exFAT",
-          "mirror": "Viki",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
-        },
-        {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://datanodes.to/2wae3e5mfh17",
-          "group": "exFAT",
+          "name": "[GAME exFAT Dump 50 Go]",
+          "url": "https://link-vault.org/c/dR9sA3bE#DataNodes",
+          "group": "exFAT · Dump",
           "mirror": "Data",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
+          "fileName": "WWE 2K23 01.000 PPSA08106-[DLPSGAME.COM].rar",
+          "sizeBytes": 53536767344
         },
         {
-          "name": "[GAME exFAT 434 Mo]",
-          "url": "https://filekeeper.net/pp3rsah8ndfg",
+          "name": "[GAME exFAT EUR]",
+          "url": "https://link-vault.org/c/gWmek69N",
           "group": "exFAT",
-          "mirror": "Filek",
-          "fileName": "PPSA05018.exfat",
-          "sizeBytes": 455081984
+          "version": "01.120.000",
+          "mirror": "Multihost",
+          "fileName": "[SuperPSX]-C.T.EP.2-PPSA07053-EUR-(EXFAT)-PS5"
         },
         {
-          "name": "[GAME exFAT]",
-          "url": "https://datavaults.co/ysn3ryjjpaf3",
-          "group": "exFAT",
-          "mirror": "Vault",
-          "fileName": "PPSA05018.exfat"
+          "name": "[FIX exFAT BP 4.xx 18 Mo EUR]",
+          "url": "https://link-vault.org/c/bMM6JQuk#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "WWE 2K23 PPSA08106 v01.000.000 EUR.rar",
+          "sizeBytes": 18811453
         },
         {
-          "name": "[GAME APR-EMU USA]",
-          "url": "https://www.rootz.so/d/1JP2uW",
-          "group": "Standard",
-          "version": "01.000",
-          "region": "USA",
-          "editionId": "PPSA05018",
-          "fileName": "[DLPSGAME.COM]-PPSA05018-Game (v01.000) [APR-EMU] by Amiibohound.rar",
-          "mirror": "Rootz"
+          "name": "[#01 FIX BP EUR]",
+          "url": "https://link-vault.org/c/gO6Yonan",
+          "group": "Backport",
+          "version": "01.120.000",
+          "mirror": "Multihost",
+          "fileName": "[SuperPSX]-C.T.Episode.2-PPSA07053-EUR-Game (v01.120.000) (Backport 4.xx+)-PS5"
+        },
+        {
+          "name": "[#02 FIX BP EUR]",
+          "url": "https://link-vault.org/c/QL6W6jYs",
+          "group": "Backport",
+          "version": "01.120.000",
+          "mirror": "Multihost",
+          "fileName": "[SuperPSX]-C.T.Episode.2-PPSA07053-EUR-Game (v01.120.000) (Backport 4.xx+)-(FPKG)-PS5"
         }
       ],
-      "sizeBytes": 454033408,
+      "sizeBytes": 785383424,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · APR-EMU"
+        "FPKG · exFAT · Backport"
       ],
       "fileFormat": [
-        "exFAT",
-        "APR-EMU"
-      ],
-      "_enrichedAt": "2026-10-19T04:28:06.003992+00:00",
-      "_rawgMatched": false,
-      "metadata": {
-        "rawgSlug": "dont-touch-the-button-mrpresident",
-        "rawgName": "DON'T TOUCH THE BUTTON MR.PRESIDENT",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2019-06-10",
-        "genres": [
-          "RPG"
-        ]
-      },
-      "_igdbEnrichedAt": "2026-07-01T05:58:19.139049+00:00",
-      "_igdbMatched": false,
-      "formatLabel": "exFAT · APR-EMU"
-    },
-    {
-      "titleId": "PPSA05888",
-      "title": "The Talos Principle 2",
-      "version": "02.013.000",
-      "category": "game",
-      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jbl.jpg",
-      "description": "Format: FPKG · Backport 4.xx\nTags: PPSA05888, v2.013, 4.xx, 7.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME FPKG USA]",
-          "url": "https://1fichier.com/?zwqp3xcw49ercc8tvcvm",
-          "group": "Standard",
-          "version": "02.013.000",
-          "region": "USA",
-          "mirror": "1File"
-        },
-        {
-          "name": "[GAME exFAT USA]",
-          "url": "https://vikingfile.com/f/tjI7YnjdDr",
-          "group": "exFAT",
-          "version": "02.013.000",
-          "region": "USA",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT USA]",
-          "url": "https://www.rootz.so/d/1qXWgy",
-          "group": "exFAT",
-          "version": "02.013.000",
-          "region": "USA",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[GAME FPKG 5 Go USA v02.013]",
-          "url": "https://vikingfile.com/f/d8AQL6M5Vq",
-          "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "mirror": "Viki",
-          "sizeBytes": 5035849154
-        },
-        {
-          "name": "[FIX BP 4.xx 57 Mo USA]",
-          "url": "https://www.mediafire.com/file/h7jh8wmtr71ntmd/[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip/file",
-          "group": "Standard",
-          "version": "02.013.000",
-          "region": "USA",
-          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
-          "sizeBytes": 60178074,
-          "mirror": "Mediafire"
-        },
-        {
-          "name": "[FIX FPKG BP 57 Mo USA]",
-          "url": "https://akirabox.com/k0embVRoamVb/file",
-          "group": "Standard",
-          "version": "02.013.000",
-          "region": "USA",
-          "mirror": "Akia",
-          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
-          "sizeBytes": 60177776
-        },
-        {
-          "name": "[FIX FPKG BP 57 Mo USA]",
-          "url": "https://vikingfile.com/f/oquq8uMLJW",
-          "group": "Standard",
-          "version": "02.013.000",
-          "region": "USA",
-          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
-          "sizeBytes": 60177776,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[FIX FPKG BP USA]",
-          "url": "https://rootz.so/d/1MKdFY",
-          "group": "Standard",
-          "version": "02.013.000",
-          "region": "USA",
-          "fileName": "[DLPSGAME.COM]-4xx[PPSA05888][02.013.000].zip",
-          "mirror": "Rootz"
-        },
-        {
-          "name": "[FIX FPKG BP 13 Mo USA v02.013]",
-          "url": "https://akirabox.com/N2p3DqRRpzMa/file",
-          "group": "Standard",
-          "version": "02.013",
-          "region": "USA",
-          "mirror": "Akia",
-          "fileName": "PPSA15731_The_Walking_Dead_Destinies_V1_004_Backport_6_XX_By_BADERLINK.rar",
-          "sizeBytes": 13704888
-        }
-      ],
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "FPKG · Backport 4.xx"
-      ],
-      "fileFormat": [
+        "Backport",
         "FPKG",
-        "ZIP",
+        "Folder",
+        "PKG",
+        "APR-EMU",
         "Backport 4.xx",
-        "RAR"
+        "exFAT"
       ],
-      "sizeBytes": 60178074,
-      "_enrichedAt": "2026-10-29T05:11:51.305337+00:00",
+      "_enrichedAt": "2026-10-19T04:27:27.030748+00:00",
       "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "talos-principle-2",
-        "rawgName": "The Talos Principle 2",
-        "rating": 4.31,
+        "rawgSlug": "coffee-talk-episode-2-hibiscus-butterfly",
+        "rawgName": "Coffee Talk Episode 2: Hibiscus & Butterfly",
+        "rating": 3.77,
         "metacritic": null,
-        "released": "2023-11-01",
+        "released": "2023-04-20",
         "genres": [
+          "Casual",
+          "Indie",
           "Adventure",
-          "Action"
+          "Simulation"
         ],
-        "rawgBackground": "https://media.rawg.io/media/games/4e4/4e42fc297c028630262a4abcc7769576.jpg"
+        "rawgBackground": "https://media.rawg.io/media/games/5a5/5a51939b8ab2396430f8875118876601.jpg"
       },
-      "_igdbEnrichedAt": "2026-06-28T21:57:17.452890+00:00",
-      "_igdbMatched": true,
-      "formatLabel": "FPKG · Backport 4.xx"
+      "formatLabel": "FPKG · exFAT · Backport"
     },
     {
       "titleId": "PPSA02608",
@@ -279,6 +157,36 @@
       "_igdbEnrichedAt": "2026-06-28T21:57:38.105642+00:00",
       "_igdbMatched": true,
       "formatLabel": "APR-EMU"
+    },
+    {
+      "titleId": "PPSA34959",
+      "title": "The King is Watching",
+      "version": "01.000.300",
+      "category": "game",
+      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/10/17-gdb.jpg",
+      "description": "Format: PKG\nTags: PPSA34959, v01.000.300, USA\nSize: 500 MB\nPassword: SuperPSX\nWorks on 12.xx and higher\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME PKG USA]",
+          "url": "https://link-vault.org/c/sNmOGzSL",
+          "group": "Standard",
+          "version": "01.000.300",
+          "mirror": "Multihost",
+          "fileName": "[SuperPSX]-The.King.is.Watching-PPSA34959-USA-Game (v01.000.300)-PS5"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "PKG"
+      ],
+      "fileFormat": [
+        "unknown",
+        "PKG"
+      ],
+      "sizeBytes": 524288000,
+      "_enrichedAt": "2026-10-19T04:27:34.294513+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "PKG"
     }
   ]
 }

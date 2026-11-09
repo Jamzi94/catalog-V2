@@ -6612,9 +6612,9 @@
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/JOZKZrf0#AkiraBox",
+          "url": "https://link-vault.org/c/JOZKZrf0#VikingFile",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Viki"
         }
       ],
       "sizeBytes": 55834574848,
@@ -10763,15 +10763,6 @@
         },
         {
           "name": "[GAME PKG USA]",
-          "url": "https://gofile.io/d/a7yciz",
-          "group": "Standard",
-          "version": "01.009.014",
-          "region": "USA",
-          "editionId": "PPSA03847",
-          "mirror": "Gofile"
-        },
-        {
-          "name": "[GAME PKG USA]",
           "url": "https://vikingfile.com/f/pCYCwJIZeo",
           "group": "Standard",
           "fileName": "[SuperPSX]-Assetto.Corsa.Competizione-PPSA03847-USA-Game-01.009.012-PS5.rar",
@@ -14273,9 +14264,21 @@
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/nrrph9im59cx",
+          "url": "https://vikingfile.com/f/1Uh2ipiv9q",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://filekeeper.net/3hfvafqkpr1m",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/raxfki3lzc7r",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
         },
         {
           "name": "[#01 GAME PKG EUR]",
@@ -15255,20 +15258,35 @@
       "title": "Avowed",
       "version": "02.001.000",
       "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/09/12-swx.jpg",
-      "description": "Format: FPKG\nTags: PPSA26136, v2.001.000, 4.xx",
-      "downloadLinks": [],
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Avowed.avif",
+      "description": "Format: FPKG · Backport\nTags: PPSA26136, v2.001.000, 4.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/Bz-OzfkJ#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/zEjRDSHp#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 120259084288,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "FPKG"
+        "FPKG · Backport"
       ],
       "fileFormat": [
+        "Backport",
         "FPKG",
         "unknown"
       ],
       "_enrichedAt": "2026-10-31T05:12:53.701626+00:00",
       "_rawgMatched": false,
-      "formatLabel": "FPKG"
+      "formatLabel": "FPKG · Backport"
     },
     {
       "titleId": "PPSA04702",
@@ -19218,6 +19236,37 @@
       "formatLabel": "PKG"
     },
     {
+      "titleId": "PPSA23767",
+      "title": "Bionic Bay",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Bionic_Bay.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/FxuGaJ8v#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/8SF1itpV#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 2147483648,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA24589",
       "title": "Biped",
       "version": "01.000.002",
@@ -21623,12 +21672,13 @@
           "mirror": "1File"
         },
         {
-          "name": "[UPD FPKG PKG APR-EMU EUR]",
+          "name": "[UPD FPKG PKG APR-EMU 96 Go EUR]",
           "url": "https://akirabox.com/0Kezkb2R3D1X/file",
           "group": "Standard",
           "version": "01.000",
           "mirror": "Akia",
-          "fileName": "[SuperPSX]-Blue.Prince-PPSA25009-EUR-Game (v02.001)-PS5"
+          "fileName": "[SuperPSX]-Blue.Prince-PPSA25009-EUR-Game (v02.001)-PS5",
+          "sizeBytes": 103583873761
         },
         {
           "url": "https://gofile.io/d/ils45Stm",
@@ -36605,6 +36655,12 @@
           "mirror": "Akia"
         },
         {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/wwt22u6ycT",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT BP 4.xx USA]",
           "url": "https://buzzheavier.com/k771uobz5dkl",
           "group": "exFAT · Backport 4.xx",
@@ -36696,6 +36752,12 @@
           "fileName": "DLC_Psykzhack.rar",
           "sizeBytes": 824064,
           "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://vikingfile.com/f/fp8UM6vz9P",
+          "group": "exFAT · DLC",
+          "mirror": "Viki"
         },
         {
           "name": "[DLC FPKG PKG 1 Mo USA]",
@@ -38438,6 +38500,12 @@
           "fileName": "PPSA01670.exfat",
           "sizeBytes": 77395310673,
           "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/zmdHhtGsWO",
+          "group": "exFAT",
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 72 Go]",
@@ -43927,15 +43995,6 @@
           "mirror": "Akia"
         },
         {
-          "name": "[GAME PKG APR-EMU EUR]",
-          "url": "https://buzzheavier.com/h47wsfxim7nz",
-          "group": "Standard",
-          "version": "01.011",
-          "region": "EUR",
-          "editionId": "PPSA01982",
-          "mirror": "Buzz"
-        },
-        {
           "url": "https://gofile.io/d/2D3eu3uM",
           "name": "[01/07 GAME PKG APR-EMU 10 Go EUR]",
           "mirror": "Gofile",
@@ -46732,6 +46791,12 @@
           "mirror": "Akia"
         },
         {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/FsPFEuqPjp",
+          "group": "exFAT",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT 79 Go USA]",
           "url": "https://datanodes.to/26w9yvhheume",
           "group": "exFAT",
@@ -46852,6 +46917,12 @@
           "fileName": "PPSA15211.exfat",
           "sizeBytes": 67753109094,
           "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/y0U3kEUnkk",
+          "group": "exFAT",
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 63 Go USA]",
@@ -51128,14 +51199,7 @@
           "mirror": "Akia"
         },
         {
-          "name": "[#01 GAME BP]",
-          "url": "https://akirabox.com/QN9mE6dd436d/file",
-          "group": "Backport",
-          "version": "01.007",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[#02 GAME BP]",
+          "name": "[GAME BP]",
           "url": "https://akirabox.com/M2BGwqLLk3j4/file",
           "group": "Backport",
           "version": "01.007",
@@ -53426,21 +53490,9 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/obj3j7OdPzDx/file",
+          "url": "https://vikingfile.com/f/rkEjlTYtBu",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/xj024ppcyjni",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/9oh5if0dzuek",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP EUR v1.000]",
@@ -53682,6 +53734,23 @@
           "url": "https://akirabox.com/qLQ36Wa8Pz19/file",
           "group": "Backport",
           "version": "01.005",
+          "mirror": "Akia",
+          "fileName": "PPSA11079.exfat",
+          "sizeBytes": 17931488460
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 17 Go]",
+          "url": "https://link-vault.org/c/JOZKZrf0#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "PPSA11079.exfat",
+          "sizeBytes": 17931488460
+        },
+        {
+          "name": "[GAME BP exFAT 17 Go]",
+          "url": "https://akirabox.com/QN9mE6dd436d/file",
+          "group": "Backport",
+          "version": "01.007",
           "mirror": "Akia",
           "fileName": "PPSA11079.exfat",
           "sizeBytes": 17931488460
@@ -58105,63 +58174,9 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT Dump]",
-          "url": "https://akirabox.com/rk9zKW1wyz0l/file",
-          "group": "exFAT · Dump",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
           "url": "https://vikingfile.com/f/4bsjoMRrxp",
           "group": "exFAT · Dump",
           "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://datanodes.to/cdstxasfxx3z",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://filekeeper.net/9molr4f65p9q",
-          "group": "exFAT · Dump",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://datavaults.co/w6wp9dwciny2",
-          "group": "exFAT · Dump",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/9QWmpAr7L3EB/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/MQOHVfDwMx",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/xk905zjezp5g",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://filekeeper.net/9jnmq8g8wh8o",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[#01 GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/xf2bqbiefu3e",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
         },
         {
           "name": "[GAME exFAT BP 4.xx 76 Go]",
@@ -58196,7 +58211,7 @@
           "mirror": "Filek"
         },
         {
-          "name": "[#02 GAME exFAT BP 4.xx]",
+          "name": "[#01 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/160fyetpz3wy",
           "group": "exFAT · Backport 4.xx",
           "fileName": "PPSA24662 exfat",
@@ -58235,7 +58250,7 @@
           "sizeBytes": 71725953843
         },
         {
-          "name": "[#03 GAME exFAT BP 4.xx]",
+          "name": "[#02 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/z1f4anuzbu73",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Vault",
@@ -69171,13 +69186,6 @@
           "mirror": "1File"
         },
         {
-          "name": "[UPD PKG Folder v1.000]",
-          "url": "https://akirabox.com/0Kezkb2R3D1X/file",
-          "group": "Standard",
-          "version": "01.000",
-          "mirror": "Akia"
-        },
-        {
           "name": "[FIX PKG Folder 36 Mo EUR v1.000]",
           "url": "https://akirabox.com/BnkmWwqL0mR0/file",
           "group": "Standard",
@@ -70609,14 +70617,29 @@
       "title": "Gothic 1 Remake",
       "version": "01.000.015",
       "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/09/2-vfe.jpg",
-      "description": "Tags: PPSA09826, v1.000.015",
-      "downloadLinks": [],
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Gothic_1_Remake.avif",
+      "description": "Format: Backport\nTags: PPSA09826, v1.000.015\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/1M42z5cQ#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/s-Tl5Iux#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 78383153152,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PS5"
+        "Backport"
       ],
       "fileFormat": [
+        "Backport",
         "unknown"
       ],
       "_enrichedAt": "2026-10-31T05:12:46.138838+00:00",
@@ -70632,7 +70655,8 @@
           "RPG"
         ],
         "rawgBackground": "https://media.rawg.io/media/games/f24/f24d20c6fddb77fe83d39cbfd7d4687f.jpg"
-      }
+      },
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA26049",
@@ -72077,15 +72101,21 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/wgWGqMLnEG4o/file",
+          "url": "https://vikingfile.com/f/9oec90ZWP2",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/2b9nd67e2hqq",
+          "url": "https://filekeeper.net/fd952gb9gqrc",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/gv1gcy8nz1iu",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
         },
         {
           "name": "[GAME FPKG APR-EMU EUR]",
@@ -72236,13 +72266,24 @@
           "mirror": "Vault"
         },
         {
-          "name": "[UPD FPKG PKG APR-EMU USA v1.005]",
+          "name": "[GAME exFAT PKG APR-EMU 96 Go v1.000]",
+          "url": "https://akirabox.com/0Kezkb2R3D1X/file",
+          "group": "Standard",
+          "version": "01.000",
+          "mirror": "Akia",
+          "fileName": "PPSA04264.exfat",
+          "sizeBytes": 103583873761
+        },
+        {
+          "name": "[#01 UPD FPKG PKG APR-EMU 85 Go USA v1.005]",
           "url": "https://akirabox.com/0JgG7lAqKmoY/file",
           "group": "Standard",
           "version": "01.005",
           "region": "USA",
           "editionId": "PPSA04264",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "PPSA04264 [ 01.005.000 ]-[DLPSGAME.COM].rar",
+          "sizeBytes": 91472065986
         },
         {
           "name": "[UPD FPKG PKG APR-EMU 85 Go USA v1.005]",
@@ -72319,7 +72360,7 @@
           "mirror": "1File"
         },
         {
-          "name": "[UPD FPKG PKG APR-EMU 85 Go USA v1.005]",
+          "name": "[#02 UPD FPKG PKG APR-EMU 85 Go USA v1.005]",
           "url": "https://akirabox.com/dZxG54RvNzVj/file",
           "group": "Standard",
           "version": "01.005",
@@ -73674,15 +73715,6 @@
           "editionId": "PPSA03865",
           "fileName": "[DLPSGAME.COM]-PPSA03865.part1.rar",
           "mirror": "Rootz"
-        },
-        {
-          "name": "[GAME FPKG PKG APR-EMU USA]",
-          "url": "https://buzzheavier.com/fhfa9g5auuk6",
-          "group": "Standard",
-          "version": "06.001",
-          "region": "USA",
-          "editionId": "PPSA03865",
-          "mirror": "Buzz"
         },
         {
           "name": "[GAME FPKG PKG APR-EMU USA]",
@@ -75194,17 +75226,18 @@
       "description": "Format: FPKG · Backport\nTags: PPSA28038, v17.661.002, 9.xx, 4.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/bUGLi7fz#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
           "name": "[DLC FPKG Fix]",
           "url": "https://link-vault.org/c/nI1ITNY2#DataNodes",
           "group": "exFAT · DLC",
           "mirror": "Data",
           "fileName": "Halo Campaign Evolved (Premium Edition(v17.661.002)(Coop Fix) - DLCs (PKG) - PPSA28038 - FPKG + Dump"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/bUGLi7fz#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "Halo Campaign Evolved (Premium Edition(v17.661.002)(Coop Fix) - BP 4.xx - PPSA28038 - Dump"
         },
         {
           "name": "[FIX FPKG BP 4.xx]",
@@ -78769,6 +78802,12 @@
           "sizeBytes": 124543314165
         },
         {
+          "name": "[GAME exFAT BP]",
+          "url": "https://vikingfile.com/f/ytlAdbExPm",
+          "group": "exFAT · Backport",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT BP 116 Go]",
           "url": "https://datanodes.to/w815mry9bvvk",
           "group": "exFAT · Backport",
@@ -80107,22 +80146,25 @@
       "description": "Format: Backport\nTags: PPSA22408, v1.000.000, 5.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/XGUwI-7o#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/d2biniIg#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[DLC exFAT]",
+          "name": "[DLC FPKG]",
           "url": "https://link-vault.org/c/mY3cU_VM#DataNodes",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "HOT WHEELS Infinite Rush (v01.000) - DLCs (PKG) - PPSA22408 - FPKG + Dump"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/XGUwI-7o#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "HOT WHEELS Infinite Rush (v01.000) - BP 4.xx Only + BP 5.xx - PPSA22408 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/d2biniIg#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "HOT WHEELS Infinite Rush (v01.000) - BP 4.xx Only + BP 5.xx - PPSA22408 - FPKG"
         }
       ],
       "sizeBytes": 40802189312,
@@ -81126,21 +81168,37 @@
     },
     {
       "titleId": "PPSA21349",
-      "title": "Hotel Barcelona",
+      "title": "HOTEL BARCELONA",
       "version": "02.000",
       "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/09/2-fxs.jpg",
-      "description": "Tags: PPSA21349, v2.000",
-      "downloadLinks": [],
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/HOTEL_BARCELONA.avif",
+      "description": "Format: Backport\nTags: PPSA21349, v2.000\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/A_umI2IO#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/yVIJI8ez#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 9663676416,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PS5"
+        "Backport"
       ],
       "fileFormat": [
+        "Backport",
         "unknown"
       ],
       "_enrichedAt": "2026-10-31T05:12:55.433477+00:00",
-      "_rawgMatched": false
+      "_rawgMatched": false,
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA09682",
@@ -84290,6 +84348,68 @@
       "_igdbEnrichedAt": "2026-06-28T21:36:53.644852+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · PKG"
+    },
+    {
+      "titleId": "PPSA21755",
+      "title": "Iron Lung",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Iron_Lung.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/Dcb7pRX0#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/DlAUk6G7#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 265289728,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
+    },
+    {
+      "titleId": "PPSA37001",
+      "title": "Is This Seat Taken?",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Is_This_Seat_Taken.jpg",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/Wpk9JM2E#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/d-fRKM1c#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 503316480,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA02343",
@@ -95448,6 +95568,12 @@
           "sizeBytes": 27992449351
         },
         {
+          "name": "[GAME exFAT BP]",
+          "url": "https://vikingfile.com/f/XkiG2vMkBp",
+          "group": "exFAT · Backport",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME PKG USA]",
           "url": "https://vikingfile.com/f/2hlmuAlxRy",
           "group": "Standard",
@@ -95488,6 +95614,12 @@
           "mirror": "Akia",
           "fileName": "All_6DLCs_Pkykzhack.rar",
           "sizeBytes": 5788139
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://vikingfile.com/f/Sx06PutuWZ",
+          "group": "exFAT · DLC",
+          "mirror": "Viki"
         },
         {
           "name": "[FIX BP 39 Mo USA]",
@@ -108701,17 +108833,18 @@
       "description": "Format: Backport\nTags: PPSA30630, v1.018, 4.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/e8TbixfM#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
           "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/1s90btBA#DataNodes",
           "group": "exFAT · Dump",
           "mirror": "Data",
           "fileName": "MLB The Show 26 (v02.018) - BP 4.xx - PPSA30630 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/e8TbixfM#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "MLB The Show 26 (v02.018) - BP 4.xx - PPSA30630 - FPKG"
         }
       ],
       "sizeBytes": 332859965440,
@@ -116858,12 +116991,6 @@
           "sizeBytes": 33264521707
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/89suBBgK5i",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME exFAT BP 4.xx 31 Go]",
           "url": "https://datanodes.to/cljk2miv2ylt",
           "group": "exFAT · Backport 4.xx",
@@ -123559,10 +123686,11 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[DLC exFAT]",
+          "name": "[DLC FPKG]",
           "url": "https://link-vault.org/c/82IPPZ5L#DataNodes",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Out of Sight (Complete Edition)(v01.006) - DLCs (PKG) - PPSA28511 - FPKG + Dump"
         },
         {
           "name": "[FIX exFAT Dump BP]",
@@ -129601,12 +129729,6 @@
           "mirror": "Filek"
         },
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://akirabox.com/gXeGOAwaA3Aa/file",
-          "group": "exFAT · Dump",
-          "mirror": "Akia"
-        },
-        {
           "name": "[#01 GAME exFAT Dump]",
           "url": "https://fileditchfiles.st/balpha25/47f8c8cfe7361e9a491f/PPSA25063.7z",
           "group": "exFAT · Dump",
@@ -129617,12 +129739,6 @@
           "url": "https://vikingfile.com/f/W1MP1dRI4L",
           "group": "exFAT · Dump",
           "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/0rpmvpBYgzRg/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
         },
         {
           "name": "[#01 GAME exFAT BP 4.xx]",
@@ -138550,16 +138666,18 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/fMVHQmmL#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Return To Monkey Island (v01.101) - BP 4.xx Only + BP 5.xx - PPSA10122 - Dump"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/ScHBmd36#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "Return To Monkey Island (v01.101) - BP 4.xx Only + BP 5.xx - PPSA10122 - FPKG"
         }
       ],
       "sizeBytes": 4294967296,
@@ -166310,6 +166428,37 @@
       "formatLabel": "FPKG · exFAT · Backport"
     },
     {
+      "titleId": "PPSA38010",
+      "title": "Suika Game",
+      "version": "01.002",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/Suika_Game.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/qsFVNrLb#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/QDgesnLd#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 1073741824,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA18305",
       "title": "Suikoden I&II HD Remaster Gate Rune and Dunan Unification Wars",
       "version": "01.000",
@@ -174386,16 +174535,18 @@
       "description": "Format: Backport\nTags: PPSA32193, v1.100.000, 4.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/woceccjb#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "The Adventures of Elliot The Millennium Tales (Deluxe Edition)(v01.100) - BP 4.xx Only + BP 5.xx - PPSA32193 - Dump"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/B3tVdH9P#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "The Adventures of Elliot The Millennium Tales (Deluxe Edition)(v01.100) - BP 4.xx Only + BP 5.xx - PPSA32193 - FPKG"
         }
       ],
       "sizeBytes": 44023414784,
@@ -174903,16 +175054,18 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/pTMXS-Ml#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "The Beast Inside (v01.000) - BP 4.xx - PPSA10720 - Dump"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/ViVM0mSv#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "The Beast Inside (v01.000) - BP 4.xx - PPSA10720 - FPKG"
         }
       ],
       "sizeBytes": 23622320128,
@@ -186903,14 +187056,42 @@
       "title": "The Walking Dead Streets of Survival Deluxe Edition",
       "version": "01.000.001",
       "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/10/5-ngf.jpg",
-      "description": "Tags: PPSA38510, v1.000.001",
-      "downloadLinks": [],
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/exFAT/The_Walking_Dead_Streets_of_Survival.avif",
+      "description": "Format: Backport\nTags: PPSA38510, v1.000.001\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/Het_u9Xp#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/ViCEOKdI#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://datanodes.to/jg12436muanv/DLCs_Pippo_DUPLEX.rar",
+          "group": "exFAT · DLC",
+          "mirror": "Data"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://datavaults.co/r1t8k891v7wx/DLCs_Pippo_DUPLEX.rar",
+          "group": "exFAT · DLC",
+          "mirror": "Vault"
+        }
+      ],
+      "sizeBytes": 2147483648,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "PS5"
+        "Backport"
       ],
       "fileFormat": [
+        "RAR",
+        "Backport",
         "unknown"
       ],
       "_enrichedAt": "2026-11-01T05:17:18.472666+00:00",
@@ -186928,7 +187109,8 @@
           "Fighting"
         ],
         "rawgBackground": "https://media.rawg.io/media/screenshots/6f7/6f79f7dc24cd88493f24bba3aa0162f8.jpg"
-      }
+      },
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA07680",
@@ -190849,10 +191031,11 @@
           "mirror": "Mocha"
         },
         {
-          "name": "[GAME BP]",
+          "name": "[GAME BP 2 Go]",
           "url": "https://vikingfile.com/f/tK7U3YR69F",
           "group": "Standard",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "sizeBytes": 2072321720
         },
         {
           "name": "[UPD BP v1.060]",
@@ -190862,11 +191045,12 @@
           "mirror": "Mocha"
         },
         {
-          "name": "[UPD BP v1.060]",
+          "name": "[UPD BP 864 Mo v1.060]",
           "url": "https://vikingfile.com/f/u1ujd5TsVG",
           "group": "Standard",
           "version": "01.060",
-          "mirror": "Viki"
+          "mirror": "Viki",
+          "sizeBytes": 905644605
         }
       ],
       "sizeBytes": 5368709120,
@@ -203503,6 +203687,12 @@
           "version": "01.033",
           "fileName": "PPSA07836",
           "mirror": "Vault"
+        },
+        {
+          "name": "[GAME exFAT BP]",
+          "url": "https://akirabox.com/Z9dzBPQ85mk1/file",
+          "group": "exFAT · Backport",
+          "mirror": "Akia"
         },
         {
           "name": "[GAME exFAT BP]",
