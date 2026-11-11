@@ -8,6 +8,7 @@ title,title_id,format,file_formats,version
 41 Hours,PPSA04583,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, ZIP, PKG",01.000
 63 Days,PPSA21022,exFAT · PKG · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx, PKG",01.090
 7 Days To Die Console Edition,PPSA16645,FPKG · exFAT · Backport,"Backport, FPKG, PKG, APR-EMU, Backport 4.xx, exFAT",01.320.002
+A Game About Digging A Hole,PPSA30552,Backport,Backport,01.100
 A Memoir Blue,PPSA05265,exFAT · PKG · Backport,"Backport, exFAT, APR-EMU, PKG",01.002
 A Plague Tale Innocence,PPSA02387,FPKG · exFAT,"exFAT, FPKG, PKG",01.000
 A Plague Tale Requiem,PPSA05366,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Backport 4.xx, PKG",01.005
@@ -18,7 +19,10 @@ Abandoned Realtime Trailers Demo,PPSA04366,PKG,"unknown, PKG",01.009
 Abiotic Factor,PPSA26012,FPKG · PKG · Backport,"Backport, FPKG, PKG, Backport 4.xx",01.004.003
 Absolum,PPSA28311,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG, RAR, Backport 4.xx",01.002
 Absolute TacticsDaughters of Mercy,,PKG,PKG,01.000
+Abyssus Brine Edition,PPSA32559,Backport,Backport,02.000
 Ace Combat 8 Wings of Theve Deluxe Edition,PPSA24913,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, APR-EMU, Backport 4.xx",01.001.001
+Achilles Legends Untold,PPSA16626,Backport,Backport,01.014
+Achilles Survivor,PPSA30454,Backport,Backport,01.007
 Ad Infinitum,PPSA10600,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, PKG, ZIP, Backport 5.xx",01.000
 Aeterna Noctis,PPSA04109,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG",03.003.001
 AEW Fight Forever,PPSA09351,exFAT · PKG · Backport,"RAR, Backport, exFAT, PKG, ZIP, Backport 4.xx",01.010
@@ -181,6 +185,7 @@ Call of Duty Black Ops,PPSA34501,FPKG · exFAT · Backport,"Backport, FPKG, PKG,
 Call of Duty Black Ops 2,PPSA34502,FPKG · PKG · Backport,"Backport, FPKG, PKG, APR-EMU, Backport 4.xx",01.010.000
 Call of Duty Black Ops Cold War,PPSA01628,FPKG · FFPFSC,"exFAT, FPKG, FFPFSC, Folder, APR-EMU, PKG, RAR",01.040
 Call of Duty Modern Warfare 2,PPSA23012,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, APR-EMU, Backport 4.xx, PKG, RAR",01.001
+Call of Duty Modern Warfare 3,PPSA24263,Backport,Backport,01.004
 Call of Duty Modern Warfare 3,PPSA01649,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Folder, APR-EMU, Backport 4.xx, RAR",01.055
 Call of Duty Vanguard,PPSA01687,FPKG · FFPFSC,"exFAT, FPKG, FFPFSC, Folder, APR-EMU, PKG, RAR",01.027
 Call of The Sea,PPSA01546,PKG,"unknown, PKG",02.000
@@ -258,6 +263,7 @@ Dead of Darkness,PPSA28010,unknown,unknown,01.004.000
 Dead Rising Deluxe Remaster,PPSA18259,exFAT · PKG · Backport 4.xx,"exFAT, RAR, Backport 4.xx, PKG",01.000
 Dead Space,PPSA03845,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG, ZIP, Backport 4.xx",01.000.006
 DEADCRAFT Deluxe Edition,PPSA06929,FPKG · exFAT,"exFAT, FPKG, PKG",01.000.004
+Death Howl,PPSA30896,Backport,Backport,01.000
 Death Stranding 2 On The Beach,PPSA02015,FPKG · FFPFSC · Backport 4.xx,"7z, FPKG, FFPFSC, exFAT, APR-EMU, Backport 4.xx, PKG, RAR",01.013
 Death Stranding Directors Cut,PPSA01969,FPKG · exFAT · Backport,"7z, Backport, FPKG, exFAT, APR-EMU, Backport 4.xx, PKG, RAR",01.005
 Death Stranding Director’s Cut,PPSA01968,exFAT · PKG,"PKG, exFAT, APR-EMU, RAR",01.004
@@ -466,6 +472,7 @@ God Of War Ragnarok,PPSA08330,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, 
 God of War Ragnarök,PPSA08329,exFAT · PKG · Backport 4.xx,"PKG, exFAT, RAR, Backport 4.xx, ZIP",05.005
 God of War Sons of Sparta Deluxe Edition,PPSA28997,FPKG · exFAT · Backport,"7z, Backport, FPKG, exFAT, PKG, APR-EMU, Backport 4.xx",01.008.001
 GODS EATER BURST,PPSA07715,unknown,unknown,01.000.000
+Golfing Over It with Alva Majo,PPSA27950,Backport,Backport,01.000
 Goosebumps Terror in Little Creek,PPSA27305,exFAT · PKG · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx, PKG",01.000
 Gori Cuddly Carnage,PPSA07393,exFAT · PKG · Backport,"Backport, exFAT, PKG, RAR, ZIP, Backport 4.xx",01.009
 Gori Cuddly Carnage,PPSA07394,exFAT · PKG · Backport 4.xx,"exFAT, PKG, RAR, ZIP, Backport 4.xx",01.009
@@ -479,7 +486,7 @@ Granblue Fantasy Versus Rising,PPSA16603,FPKG · PKG · Backport,"7z, Backport, 
 Grand Theft Auto 3 The Definitive Edition,PPSA03527,FPKG · exFAT,"exFAT, FPKG, PKG, unknown",01.007
 Grand Theft Auto San Andreas The Definitive Edition,PPSA03524,FPKG · FFPFSC,"exFAT, FPKG, FFPFSC, PKG, RAR, unknown",01.007
 Grand Theft Auto V,PPSA04263,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, APR-EMU, Backport 4.xx, Backport 5.xx",01.010.002
-Grand Theft Auto V,PPSA04264,FPKG · exFAT · Backport 4.xx,"FPKG, exFAT, APR-EMU, Backport 4.xx, PKG",01.011.001
+Grand Theft Auto V,PPSA04264,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, APR-EMU, Backport 4.xx, PKG",01.011.001
 Grand Theft Auto Vice City The Definitive Edition,PPSA03530,FPKG · exFAT,"exFAT, FPKG, PKG, unknown",01.007
 Grand Theft Auto: The Trilogy – The Definitive Edition,PPSA03525,PKG,"PKG, unknown",01.006
 Graven,PPSA09614,exFAT · Folder · Backport,"Backport, exFAT, Folder, Backport 4.xx, ZIP, Backport 5.xx",01.001
@@ -614,6 +621,7 @@ KLONOA Phantasy Reverie Series Deluxe Edition,PPSA04795,exFAT · PKG,"exFAT, RAR
 Knowledge or know Lady,PPSA30883,unknown,unknown,01.000.003
 Kong Survivor Instinct,PPSA20289,exFAT · PKG · Backport 4.xx,"exFAT, APR-EMU, Backport 4.xx, PKG",01.004
 Kunitsu Gami Path of The Goddess,PPSA19577,unknown,unknown,01.410
+Kusan City of Wolves,PPSA29617,Backport,Backport,01.001
 KYOTO XANADU The Blooming Phantom,PPSA36992,unknown,unknown,01.004.001
 Last Days of Lazarus,PPSA09196,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, PKG, ZIP",01.001
 Layers of Fear,PPSA07265,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG",01.010
