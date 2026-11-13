@@ -14382,9 +14382,27 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/nrrph9im59cx",
+          "url": "https://akirabox.com/LJlGnWOAVm15/file",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/1Uh2ipiv9q",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://filekeeper.net/3hfvafqkpr1m",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/raxfki3lzc7r",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
         },
         {
           "name": "[#01 GAME PKG EUR]",
@@ -36792,6 +36810,12 @@
           "mirror": "Akia"
         },
         {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/wwt22u6ycT",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT BP 4.xx USA]",
           "url": "https://buzzheavier.com/k771uobz5dkl",
           "group": "exFAT · Backport 4.xx",
@@ -36883,6 +36907,12 @@
           "fileName": "DLC_Psykzhack.rar",
           "sizeBytes": 824064,
           "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://vikingfile.com/f/fp8UM6vz9P",
+          "group": "exFAT · DLC",
+          "mirror": "Viki"
         },
         {
           "name": "[DLC FPKG PKG 1 Mo USA]",
@@ -38656,6 +38686,12 @@
           "fileName": "PPSA01670.exfat",
           "sizeBytes": 77395310673,
           "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/zmdHhtGsWO",
+          "group": "exFAT",
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 72 Go]",
@@ -43750,9 +43786,9 @@
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/K4ug-ABl#VikingFile",
+          "url": "https://link-vault.org/c/K4ug-ABl#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
+          "mirror": "Akia"
         },
         {
           "name": "[GAME exFAT EUR]",
@@ -46941,6 +46977,12 @@
           "mirror": "Akia"
         },
         {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/FsPFEuqPjp",
+          "group": "exFAT",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT 79 Go USA]",
           "url": "https://datanodes.to/26w9yvhheume",
           "group": "exFAT",
@@ -47061,6 +47103,12 @@
           "fileName": "PPSA15211.exfat",
           "sizeBytes": 67753109094,
           "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/y0U3kEUnkk",
+          "group": "exFAT",
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 63 Go USA]",
@@ -53634,15 +53682,9 @@
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/xj024ppcyjni",
+          "url": "https://vikingfile.com/f/rkEjlTYtBu",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/9oh5if0dzuek",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP EUR v1.000]",
@@ -56739,6 +56781,37 @@
       "formatLabel": "exFAT · Backport"
     },
     {
+      "titleId": "PPSA26145",
+      "title": "EVERYBODYS GOLF Hot Shots",
+      "version": "01.0017",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/EVERYBODYS_GOLF_Hot_Shots.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/C70qrVGX#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/jpmos5rC#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 48318382080,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA04170",
       "title": "Evil Genius 2 World Domination",
       "version": "01.002.000",
@@ -58330,51 +58403,9 @@
         },
         {
           "name": "[GAME exFAT Dump]",
-          "url": "https://datanodes.to/cdstxasfxx3z",
+          "url": "https://vikingfile.com/f/4bsjoMRrxp",
           "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://filekeeper.net/9molr4f65p9q",
-          "group": "exFAT · Dump",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://datavaults.co/w6wp9dwciny2",
-          "group": "exFAT · Dump",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/9QWmpAr7L3EB/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/MQOHVfDwMx",
-          "group": "exFAT · Backport 4.xx",
           "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/xk905zjezp5g",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://filekeeper.net/9jnmq8g8wh8o",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[#01 GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/xf2bqbiefu3e",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
         },
         {
           "name": "[GAME exFAT BP 4.xx 76 Go]",
@@ -58409,7 +58440,7 @@
           "mirror": "Filek"
         },
         {
-          "name": "[#02 GAME exFAT BP 4.xx]",
+          "name": "[#01 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/160fyetpz3wy",
           "group": "exFAT · Backport 4.xx",
           "fileName": "PPSA24662 exfat",
@@ -58448,7 +58479,7 @@
           "sizeBytes": 71725953843
         },
         {
-          "name": "[#03 GAME exFAT BP 4.xx]",
+          "name": "[#02 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/z1f4anuzbu73",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Vault",
@@ -70305,16 +70336,18 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/rsy1-rKA#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Golfing Over It with Alva Majo (v01.000) - BP 4.xx - PPSA27950 - Dump"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/MvL75xae#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "Golfing Over It with Alva Majo (v01.000) - BP 4.xx - PPSA27950 - FPKG"
         }
       ],
       "sizeBytes": 278921216,
@@ -72331,18 +72364,6 @@
       "description": "Format: FPKG · exFAT · Backport\nTags: PPSA04264, v01.005, 10.xx – 9.xx, USA\nSize: 88GB\nPassword: SuperPSX\nFW Compat: 10.xx – 9.xx\nVoices: English\nWorking 10.xx – 9.xx – 8.xx – 7.xx – 6.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/gk3O2SC4#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/Rk2Ei6mA#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
           "name": "[GAME exFAT BP 4.xx 96 Go]",
           "url": "https://akirabox.com/wgWGqMLnEG4o/file",
           "group": "exFAT · Backport 4.xx",
@@ -72475,6 +72496,20 @@
           "mirror": "Akia",
           "fileName": "[SuperPSX]-Grand.Theft.Auto.V-PPSA04264-USA-Game-v01.005-PS5.rar",
           "sizeBytes": 91472065986
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/gk3O2SC4#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "Grand Theft Auto V (v01.011.001) - BP 4.xx - PPSA04264 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/Rk2Ei6mA#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "Grand Theft Auto V (v01.011.001) - BP 4.xx - PPSA04264 - FPKG"
         }
       ],
       "sizeBytes": 110595407872,
@@ -79028,6 +79063,12 @@
           "sizeBytes": 124543314165
         },
         {
+          "name": "[GAME exFAT BP]",
+          "url": "https://vikingfile.com/f/ytlAdbExPm",
+          "group": "exFAT · Backport",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT BP 116 Go]",
           "url": "https://datanodes.to/w815mry9bvvk",
           "group": "exFAT · Backport",
@@ -81395,17 +81436,18 @@
       "description": "Format: Backport\nTags: PPSA21349, v2.000\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/yVIJI8ez#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
           "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/A_umI2IO#DataNodes",
           "group": "exFAT · Dump",
           "mirror": "Data",
           "fileName": "HOTEL BARCELONA (v02.000) - BP 4.xx - PPSA21349 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/yVIJI8ez#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "HOTEL BARCELONA (v02.000) - BP 4.xx - PPSA21349 - FPKG"
         }
       ],
       "sizeBytes": 9663676416,
@@ -88642,6 +88684,37 @@
       "formatLabel": "exFAT · APR-EMU"
     },
     {
+      "titleId": "PPSA23172",
+      "title": "Keylocker",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Keylocker.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/uKOih0KH#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/9vt06302#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 811597824,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA02210",
       "title": "KeyWe",
       "version": "01.000",
@@ -90138,16 +90211,17 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/UpOZNB1o#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
           "name": "[GAME exFAT BP 4.xx]",
           "url": "https://link-vault.org/c/gS7o8IcY#AkiraBox",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Akia"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/UpOZNB1o#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "Kusan City of Wolves (v01.001.004) - BP 4.xx - PPSA29617 - Dump"
         }
       ],
       "sizeBytes": 13958643712,
@@ -95824,6 +95898,12 @@
           "sizeBytes": 27992449351
         },
         {
+          "name": "[GAME exFAT BP]",
+          "url": "https://vikingfile.com/f/XkiG2vMkBp",
+          "group": "exFAT · Backport",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME PKG USA]",
           "url": "https://vikingfile.com/f/2hlmuAlxRy",
           "group": "Standard",
@@ -95864,6 +95944,12 @@
           "mirror": "Akia",
           "fileName": "All_6DLCs_Pkykzhack.rar",
           "sizeBytes": 5788139
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://vikingfile.com/f/Sx06PutuWZ",
+          "group": "exFAT · DLC",
+          "mirror": "Viki"
         },
         {
           "name": "[FIX BP 39 Mo USA]",
@@ -97514,6 +97600,37 @@
       "_igdbEnrichedAt": "2026-06-28T21:37:04.619981+00:00",
       "_igdbMatched": true,
       "formatLabel": "FPKG · exFAT · Backport 4.xx"
+    },
+    {
+      "titleId": "PPSA33829",
+      "title": "Lost Ember Rekindled Edition",
+      "version": "01.100",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Lost_Ember_Rekindled_Edition.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/R3Lvg66x#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/drOy8ud7#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 18253611008,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA07429",
@@ -117235,12 +117352,6 @@
           "sizeBytes": 33264521707
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/89suBBgK5i",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME exFAT BP 4.xx 31 Go]",
           "url": "https://datanodes.to/cljk2miv2ylt",
           "group": "exFAT · Backport 4.xx",
@@ -117650,6 +117761,37 @@
       "_igdbEnrichedAt": "2026-06-28T21:37:22.828748+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · PKG · Backport"
+    },
+    {
+      "titleId": "PPSA31665",
+      "title": "Neon Inferno",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Neon_Inferno.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/wlec8lE1#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/iFjdPBbM#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 3221225472,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA02721",
@@ -125452,6 +125594,37 @@
       "formatLabel": "PKG"
     },
     {
+      "titleId": "PPSA28979",
+      "title": "Oxide Room 208",
+      "version": "01.007",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Oxide_Room_208.png",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/f92ZRgjH#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/R8NHu3BW#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 19327352832,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA18189",
       "title": "Pac Man World 2 Re PAC",
       "version": "01.004",
@@ -128682,6 +128855,37 @@
         "rawgBackground": "https://media.rawg.io/media/games/c61/c61a8959e0cb3cdcb2bd52a2f3aa0c2c.jpg"
       },
       "formatLabel": "FPKG · PKG"
+    },
+    {
+      "titleId": "PPSA29934",
+      "title": "Planet Zoo 2 Deluxe Edition",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Planet_Zoo_2_DE.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/lMwn4_Cj#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/KAsepB2b#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 52613349376,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA18026",
@@ -186134,6 +186338,37 @@
       "formatLabel": "Backport"
     },
     {
+      "titleId": "PPSA27102",
+      "title": "The Sinking Forest",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/The_Sinking_Forest.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/ZxAKj1G3#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/VwDO0dkz#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 12884901888,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA16716",
       "title": "The Smurfs 2 The Prisoner of the Green Stone",
       "version": "01.000",
@@ -203864,6 +204099,14 @@
           "sizeBytes": 38278896025
         },
         {
+          "name": "[GAME exFAT BP 4.xx 36 Go]",
+          "url": "https://link-vault.org/c/K4ug-ABl#VikingFile",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Viki",
+          "fileName": "PPSA07837.7z",
+          "sizeBytes": 38278896025
+        },
+        {
           "name": "[UPD FPKG APR-EMU 36 Go v1.000]",
           "url": "https://akirabox.com/Z9dzBxgk5mk1/file",
           "group": "Standard",
@@ -203952,12 +204195,6 @@
           "version": "01.033",
           "fileName": "PPSA07836",
           "mirror": "Vault"
-        },
-        {
-          "name": "[GAME exFAT BP]",
-          "url": "https://akirabox.com/Z9dzBPQ85mk1/file",
-          "group": "exFAT · Backport",
-          "mirror": "Akia"
         },
         {
           "name": "[GAME exFAT BP]",
@@ -209309,6 +209546,37 @@
       "_igdbEnrichedAt": "2026-06-28T21:57:45.210431+00:00",
       "_igdbMatched": true,
       "formatLabel": "FPKG · exFAT · Backport"
+    },
+    {
+      "titleId": "PPSA35023",
+      "title": "YinYang Street",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/YinYang_Street.jpg",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/uYubiinh#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/d12Rs5Ou#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 4294967296,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA03076",
