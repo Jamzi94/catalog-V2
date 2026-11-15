@@ -251,7 +251,7 @@ Darkest Dungeon II,PPSA19590,PKG,PKG,01.000
 Darkest Dungeon II,PPSA19591,exFAT · PKG,"exFAT, PKG, RAR",01.015
 Darksiders 2 Deathinitive Edition,PPSA23806,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, APR-EMU, Backport 7.xx, PKG, RAR",01.000.002
 Darksiders Warmastered Edition,PPSA31977,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Backport 4.xx, PKG, RAR, unknown",01.000
-Darwins Paradox,PPSA28608,unknown,unknown,01.000.003
+Darwins Paradox,PPSA28608,Backport,"Backport, unknown",01.000.003
 DAVE THE DIVER Complete Edition,PPSA19115,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, APR-EMU, Backport 4.xx",01.041.000
 Daxter,PPSA09695,FPKG · PKG · Backport,"Backport, FPKG, PKG, Backport 4.xx",01.000.003
 Daymare 1994 Sandcastle,PPSA09483,PKG · Backport,"Backport, PKG",02.004
@@ -352,7 +352,7 @@ EA SPORTS FC 27,PPSA34015,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG,
 EA Sports FIFA 23,PPSA06275,PKG · Backport 4.xx,"PKG, Backport 4.xx, ZIP",01.024
 EA Sports PGA Tour,PPSA02227,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, PKG",01.002
 EA Sports UFC 5,PPSA03541,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, APR-EMU, Backport 4.xx, Backport 7.xx, PKG, RAR",01.031
-EA Sports UFC 6,PPSA23566,Backport 4.xx,Backport 4.xx,01.004.000
+EA SPORTS UFC 6 Ultimate Edition,PPSA23566,Backport,"Backport, Backport 4.xx",01.004.000
 EA Sports WRC,PPSA06092,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, Backport 6.xx, PKG, ZIP",01.000
 Earth Defense Force World Brothers 2,PPSA19406,exFAT · Folder · Backport,"Backport, exFAT, Folder, PKG, Backport 4.xx, Backport 5.xx, ZIP",01.005
 Earthion,PPSA28061,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, PKG",01.006
@@ -433,6 +433,7 @@ Fobia St Dinfna Hotel,PPSA05626,exFAT,"exFAT, unknown",01.000
 Fobia: St. Dinfna Hotel,PPSA05625,PKG,PKG,01.000
 Football Manager 26 Console Edition,PPSA29707,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx",01.009
 For The King 2,PPSA23123,FPKG,FPKG,01.000.040
+Foreclosed,PPSA02483,exFAT,exFAT,01.002
 Forever Skies,PPSA07867,unknown,unknown,01.003.010
 Forgive Me Father 2,PPSA29035,unknown,unknown,01.003.000
 Formula Retro Racing World Tour Special Edition,PPSA17189,Folder · PKG,"APR-EMU, Folder, PKG",01.002
@@ -473,6 +474,7 @@ God Of War Ragnarok,PPSA08330,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, 
 God of War Ragnarök,PPSA08329,exFAT · PKG · Backport 4.xx,"PKG, exFAT, RAR, Backport 4.xx, ZIP",05.005
 God of War Sons of Sparta Deluxe Edition,PPSA28997,FPKG · exFAT · Backport,"7z, Backport, FPKG, exFAT, PKG, APR-EMU, Backport 4.xx",01.008.001
 GODS EATER BURST,PPSA07715,unknown,unknown,01.000.000
+Godzilla Destroy All Monsters Melee Remastered,PPSA35245,Backport,Backport,01.000
 Golfing Over It with Alva Majo,PPSA27950,Backport,Backport,01.000
 Goosebumps Terror in Little Creek,PPSA27305,exFAT · PKG · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx, PKG",01.000
 Gori Cuddly Carnage,PPSA07393,exFAT · PKG · Backport,"Backport, exFAT, PKG, RAR, ZIP, Backport 4.xx",01.009
@@ -867,6 +869,7 @@ Palworld,PPSA23126,FPKG · PKG · Backport,"Backport, FPKG, PKG",01.102.999
 Panda Hero Remastered,PPSA02798,exFAT · PKG,"exFAT, APR-EMU, PKG",01.000
 Park Beyond,PPSA05326,PKG · Backport,"Backport, PKG",04.001
 Park Beyond,PPSA05344,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG",04.001
+Patapon 3,PPSA14322,Backport,Backport,01.000
 Pathologic 3,PPSA30449,unknown,unknown,01.011.000
 Pavlov,PPSA14240,unknown,unknown,01.012.001
 PAW Patrol Grand Prix,PPSA05521,exFAT · Backport,"Backport, exFAT, Backport 4.xx, RAR, ZIP",01.000
@@ -950,7 +953,7 @@ Resident Evil 4 Gold Edition,PPSA07411,FPKG · exFAT · Backport,"Backport, FPKG
 Resident Evil 7 Biohazard Gold Edition,PPSA04404,FPKG · exFAT · Backport 4.xx,"exFAT, FPKG, Backport 4.xx, PKG, Backport",01.004
 Resident Evil Directors Cut,PPSA07811,unknown,unknown,01.000.001
 Resident Evil Requiem,PPSA30803,FPKG · exFAT · Backport 4.xx,"FPKG, exFAT, Backport 4.xx",01.200
-Resident Evil Requiem Deluxe Edition,PPSA31246,exFAT · PKG · Backport 4.xx,"7z, exFAT, PKG, RAR, Backport 4.xx",01.200.000
+RESIDENT EVIL requiem Deluxe Edition,PPSA31246,exFAT · PKG · Backport,"Backport, 7z, exFAT, PKG, RAR, Backport 4.xx",01.200.000
 Resident Evil Village Gold Edition,PPSA01556,FPKG · exFAT · Backport 4.xx,"exFAT, FPKG, RAR, Backport 4.xx, PKG",01.210
 Resident Evil Village Maiden Demo,PPSA01859,PKG,"unknown, PKG",01.001
 Resistance Retribution,PPSA06788,unknown,unknown,01.000.004
@@ -1022,6 +1025,7 @@ Shadows of The Damned Hella Remastered,PPSA17858,exFAT · PKG · Backport,"Backp
 Shame Legacy,PPSA13742,exFAT · PKG · Backport,"Backport, exFAT, RAR, ZIP, Backport 4.xx, Backport 5.xx, PKG",01.030
 Share Factory Studio,PPSA01280,Backport 4.xx,Backport 4.xx,04.510.000
 Shin Megami Tensei V Vengeance,PPSA15716,exFAT · Folder · Backport,"Backport, exFAT, Folder, PKG, Backport 4.xx, Backport 6.xx, ZIP, Backport 5.xx",01.000
+Shing!,PPSA02957,exFAT,exFAT,01.003
 SHINOBI Art of Vengeance,PPSA19461,FPKG · exFAT · Backport 4.xx,"exFAT, FPKG, PKG, RAR, Backport 4.xx",01.200
 Ship of Fools Completely Foolish Edition,PPSA07582,FPKG · exFAT · Backport,"Backport, FPKG, Folder, PKG, Backport 4.xx, exFAT",01.006.000
 Shogun Showdown,PPSA22779,FPKG · exFAT · Backport,"Backport, FPKG, Folder, PKG, APR-EMU, Backport 4.xx, exFAT",01.004.000
@@ -1165,7 +1169,7 @@ Tactics Ogre: Reborn,PPSA03840,exFAT · Backport 4.xx,"exFAT, RAR, ZIP, Backport
 Taiko no Tatsujin Donderful Festival Demo,PPSA24083,unknown,"unknown, RAR",01.001
 Taiko no Tatsujin Rhythm Festival,PPSA16441,Folder · PKG,"Folder, RAR, PKG",01.003
 Tails of Iron,PPSA03999,exFAT,"exFAT, unknown",01.000
-Tainted Grail The Fall of Avalon,PPSA19411,PKG · Backport 4.xx,"Backport 4.xx, PKG, RAR, unknown",01.025.000
+Tainted Grail Fall of Avalon Excalibur Edition,PPSA19411,PKG · Backport,"Backport, Backport 4.xx, PKG, RAR, unknown",01.025.000
 Tales of Arise,PPSA02745,FPKG · exFAT · Backport,"exFAT, FPKG, PKG, Backport",01.004
 Tales of Berseria Remastered,PPSA22826,PKG,"unknown, PKG, RAR",01.002
 Tales of Graces F Remastered,PPSA19990,exFAT,exFAT,01.000
