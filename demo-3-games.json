@@ -3,6 +3,290 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA10240",
+      "title": "Stroke The Snake",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/Library_Saves_1/Stroke_The_Snake.avif",
+      "description": "Format: exFAT · Backport\nTags: PPSA10240, v1.000, 4.xx, 5.xx, USA\nSize: 292 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT BP 4.xx 292 Mo]",
+          "url": "https://akirabox.com/wgWGq7xEQ34o/file",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "PPSA10240.exfat",
+          "sizeBytes": 306184192
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 292 Mo]",
+          "url": "https://vikingfile.com/f/uyl0iqiQWG",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA10240.exfat",
+          "sizeBytes": 306184192,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 292 Mo]",
+          "url": "https://datanodes.to/nsz5al1349a3",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA10240.exfat",
+          "sizeBytes": 306184192,
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 292 Mo]",
+          "url": "https://filekeeper.net/li74mkxkud6k",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA10240.exfat",
+          "sizeBytes": 306184192,
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/22qqqzqerm8r",
+          "group": "exFAT · Backport 4.xx",
+          "fileName": "PPSA10240 exfat",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[GAME exFAT BP USA]",
+          "url": "https://www.rootz.so/d/uNXJQ",
+          "group": "Standard",
+          "version": "01.000",
+          "region": "USA",
+          "editionId": "PPSA10240",
+          "fileName": "[DLPSGAME.COM]-01.000.000 PPSA10240.rar",
+          "mirror": "Rootz"
+        }
+      ],
+      "sizeBytes": 306184192,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT · Backport"
+      ],
+      "fileFormat": [
+        "Backport",
+        "exFAT",
+        "Backport 4.xx",
+        "unknown"
+      ],
+      "_enrichedAt": "2026-11-15T05:14:05.482098+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "exFAT · Backport"
+    },
+    {
+      "titleId": "PPSA13557",
+      "title": "VR Skater",
+      "version": "01.013",
+      "category": "game",
+      "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zh1.jpg",
+      "description": "Format: Folder · Backport 4.xx\nTags: PPSA13557, v1.013, 6.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME Folder 16 Go EUR]",
+          "url": "https://vikingfile.com/f/QIylefoOGV",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "[DLPSGAME.COM]-PPSA13557-app0.rar",
+          "sizeBytes": 17201344020,
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#01 GAME Folder EUR]",
+          "url": "https://1fichier.com/?o1szuys3hoa1cytfvm5h",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "1File"
+        },
+        {
+          "name": "[GAME Folder EUR]",
+          "url": "https://rootz.so/d/1pUjk8",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "[DLPSGAME.COM]-PPSA13557-app0.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[GAME Folder 16 Go EUR]",
+          "url": "https://akirabox.com/jJD3VvV2l3a5/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "Akia",
+          "fileName": "01.013 PPSA13557-[DLPSGAME.COM].rar",
+          "sizeBytes": 16804059545
+        },
+        {
+          "name": "[GAME Folder EUR]",
+          "url": "https://vikingfile.com/f/kkU5cmRpqK",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "01.013 PPSA13557-[DLPSGAME.COM].rar",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[#02 GAME Folder EUR]",
+          "url": "https://1fichier.com/?6oqp38e2lm4jeayshtyu",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "1File"
+        },
+        {
+          "name": "[#03 GAME Folder EUR]",
+          "url": "https://1fichier.com/?tulmscys1kbd0hga4dok",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "1File"
+        },
+        {
+          "name": "[GAME Folder EUR]",
+          "url": "https://akirabox.com/l76mZDkKnzan/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[#04 GAME Folder EUR]",
+          "url": "https://1fichier.com/?7otzc0dxrgofe80904ir",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "mirror": "1File"
+        },
+        {
+          "name": "[DLC Folder EUR]",
+          "url": "https://www.rootz.so/d/KSliy",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "VR.Skater.incl.DLC.VR2.PS5-DUPLEX.part1.rar",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[DLC Folder EUR]",
+          "url": "https://vikingfile.com/f/deUSxR3mUK",
+          "group": "Standard",
+          "version": "01.013",
+          "fileName": "VR.Skater.incl.DLC.VR2.PS5-DUPLEX.part1.rar",
+          "mirror": "Viki",
+          "region": "EUR",
+          "editionId": "PPSA13557"
+        },
+        {
+          "name": "[#01 FIX BP 69 Mo EUR]",
+          "url": "https://www.mediafire.com/file/avar230khrv02vq/4_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "4_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 72529570,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#01 FIX Folder BP 69 Mo EUR]",
+          "url": "https://vikingfile.com/f/1WCpvzYh0C",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "4_XX PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 72530001
+        },
+        {
+          "name": "[#01 FIX Folder BP EUR]",
+          "url": "https://www.rootz.so/d/2AAPVA",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "4_XX PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        },
+        {
+          "name": "[#02 FIX BP 69 Mo EUR]",
+          "url": "https://www.mediafire.com/file/lx86n21akui73gv/5_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip/file",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "5_XX+PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "sizeBytes": 72529567,
+          "mirror": "Mediafire"
+        },
+        {
+          "name": "[#02 FIX Folder BP 69 Mo EUR]",
+          "url": "https://vikingfile.com/f/cXQTuIedcX",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "5_XX PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Viki",
+          "sizeBytes": 72530001
+        },
+        {
+          "name": "[#02 FIX Folder BP EUR]",
+          "url": "https://www.rootz.so/d/tSJwO",
+          "group": "Standard",
+          "version": "01.013",
+          "region": "EUR",
+          "editionId": "PPSA13557",
+          "fileName": "5_XX PPSA13557_–_EUR_v01_13_VR_Skater_backport__By_BADERLINK-[DLPSGAME.COM].zip",
+          "mirror": "Rootz"
+        }
+      ],
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Folder · Backport 4.xx"
+      ],
+      "fileFormat": [
+        "Folder",
+        "ZIP",
+        "Backport 4.xx",
+        "Backport 5.xx"
+      ],
+      "sizeBytes": 72529570,
+      "_enrichedAt": "2026-11-15T05:14:26.919733+00:00",
+      "_rawgMatched": false,
+      "metadata": {
+        "rawgSlug": "vr-skater",
+        "rawgName": "VR Skater",
+        "rating": 0.0,
+        "metacritic": null,
+        "released": "2021-04-30",
+        "genres": [
+          "Racing",
+          "Action",
+          "Simulation",
+          "Sports",
+          "Indie"
+        ]
+      },
+      "_igdbEnrichedAt": "2026-06-28T21:57:34.573331+00:00",
+      "_igdbMatched": true,
+      "formatLabel": "Folder · Backport 4.xx"
+    },
+    {
       "titleId": "PPSA03596",
       "title": "Among Us",
       "version": "1.0",
@@ -51,116 +335,6 @@
       },
       "_igdbEnrichedAt": "2026-06-28T21:35:19.199919+00:00",
       "_igdbMatched": true
-    },
-    {
-      "titleId": "PPSA18528",
-      "title": "Mighty Morphin Power Rangers Ritas Rewind",
-      "version": "01.009",
-      "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/Library_Saves_1/Mighty_Morphin_Power_Rangers_Ritas_Rewind.avif",
-      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[GAME exFAT BP 4.xx 736 Mo]",
-          "url": "https://akirabox.com/0rpmvprrazRg/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia",
-          "fileName": "PPSA18528.exfat",
-          "sizeBytes": 771751936
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 736 Mo]",
-          "url": "https://vikingfile.com/f/fSDeEdGGYH",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA18528.exfat",
-          "sizeBytes": 771751936,
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 736 Mo]",
-          "url": "https://datanodes.to/dw9ggs5nuvgk",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA18528.exfat",
-          "sizeBytes": 771751936,
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 736 Mo]",
-          "url": "https://filekeeper.net/7wypltj460rz",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA18528.exfat",
-          "sizeBytes": 771751936,
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/6jj1ob4zoi18",
-          "group": "exFAT · Backport 4.xx",
-          "fileName": "PPSA18528 exfat",
-          "mirror": "Vault"
-        }
-      ],
-      "sizeBytes": 771751936,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "Backport"
-      ],
-      "fileFormat": [
-        "Backport"
-      ],
-      "_enrichedAt": "2026-11-15T05:12:34.755664+00:00",
-      "_rawgMatched": true,
-      "metadata": {
-        "rawgSlug": "mighty-morphin-power-rangers-ritas-rewind",
-        "rawgName": "Mighty Morphin Power Rangers: Rita's Rewind",
-        "rating": 0.0,
-        "metacritic": null,
-        "released": "2024-12-10",
-        "genres": [
-          "Action"
-        ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/a74/a7458dd39aaa05bd55411a1a914543f1.jpg"
-      },
-      "formatLabel": "Backport"
-    },
-    {
-      "titleId": "PPSA31872",
-      "title": "Ball X Pit",
-      "version": "01.301.000",
-      "category": "game",
-      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/Library_Saves_2/Ball_X_Pit.jpg",
-      "description": "Format: FPKG · Folder · Backport\nTags: PPSA31872, v1.301.000, 4.xx, USA\nSize: 595 MB\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
-      "downloadLinks": [
-        {
-          "name": "[FIX exFAT Dump BP]",
-          "url": "https://link-vault.org/c/J8JtDiVJ#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data",
-          "fileName": "Ball X Pit (v01.301) - BP 4.xx - PPSA31872 - Dump"
-        },
-        {
-          "name": "[FIX FPKG BP 4.xx]",
-          "url": "https://link-vault.org/c/5v4-JfiC#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia",
-          "fileName": "Ball X Pit (v01.301) - BP 4.xx - PPSA31872 - FPKG"
-        }
-      ],
-      "sizeBytes": 623902720,
-      "downloadSource": "https://phoenixdl.com",
-      "source": [
-        "FPKG · Folder · Backport"
-      ],
-      "fileFormat": [
-        "Backport",
-        "FPKG",
-        "Folder",
-        "PKG",
-        "Backport 4.xx"
-      ],
-      "_enrichedAt": "2026-11-15T05:12:55.458639+00:00",
-      "_rawgMatched": false,
-      "formatLabel": "FPKG · Folder · Backport"
     }
   ]
 }

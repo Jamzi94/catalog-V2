@@ -263,6 +263,7 @@ Dead of Darkness,PPSA28010,unknown,unknown,01.004.000
 Dead Rising Deluxe Remaster,PPSA18259,exFAT · PKG · Backport 4.xx,"exFAT, RAR, Backport 4.xx, PKG",01.000
 Dead Space,PPSA03845,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG, ZIP, Backport 4.xx",01.000.006
 DEADCRAFT Deluxe Edition,PPSA06929,FPKG · exFAT,"exFAT, FPKG, PKG",01.000.004
+Deadzone Rogue,PPSA26767,Backport,Backport,01.001
 Death Howl,PPSA30896,Backport,Backport,01.000
 Death Stranding 2 On The Beach,PPSA02015,FPKG · FFPFSC · Backport 4.xx,"7z, FPKG, FFPFSC, exFAT, APR-EMU, Backport 4.xx, PKG, RAR",01.013
 Death Stranding Directors Cut,PPSA01969,FPKG · exFAT · Backport,"7z, Backport, FPKG, exFAT, APR-EMU, Backport 4.xx, PKG, RAR",01.005
@@ -364,9 +365,9 @@ Ed-0: Zombie Uprising,PPSA11079,PKG,PKG,01.007
 EDENS ZERO,PPSA25348,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG",01.000
 eFootball 2027,PPSA03073,FPKG · PKG · Backport,"7z, FPKG, APR-EMU, Backport, PKG",06.000.000
 Elden Ring,PPSA05510,PKG,PKG,01.000
+ELDEN RING Deluxe Edition,PPSA04609,exFAT · Folder,"exFAT, Folder, PKG, RAR",01.017.001
 Elden Ring Nightreign,PPSA25380,FPKG · exFAT · Backport 4.xx,"FPKG, exFAT, APR-EMU, Backport 4.xx, RAR, ZIP",01.003.002
-ELDEN RING NIGHTREIGN Deluxe Edition,PPSA25381,exFAT · PKG · Backport,"Backport, PKG, exFAT, ZIP, Backport 4.xx",01.000.000
-ELDEN RING Shadow of the Erdtree Edition,PPSA04609,exFAT · Folder,"exFAT, Folder, PKG, RAR",01.017.001
+Elden Ring Nightreign Deluxe Edition,PPSA25381,exFAT · PKG · Backport,"Backport, PKG, exFAT, ZIP, Backport 4.xx",01.000.000
 Electronics Puzzle Lab,PPSA20931,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx, RAR",01.000
 Elex 2,PPSA03803,exFAT · PKG,"exFAT, PKG, unknown",01.003
 Empire of the Ants,PPSA14455,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG, ZIP",02.004
@@ -415,7 +416,7 @@ FIFA 22,PPSA03180,APR-EMU,"APR-EMU, RAR",01.019
 FIFA 23,GAME_7B85EA4B9B,Backport 4.xx,Backport 4.xx,01.024
 FINAL FANTASY RESONANCE Deluxe Edition,PPSA31544,FPKG · Backport,"Backport, FPKG, Backport 4.xx",01.000.001
 FINAL FANTASY TACTICS The Ivalice Chronicles,PPSA21783,exFAT · PKG · Backport 4.xx,"exFAT, PKG, APR-EMU, Backport 4.xx, APR",01.040
-Final Fantasy VII Rebirth,PPSA08668,FPKG · Folder · Backport 4.xx,"FPKG, Folder, APR-EMU, Backport 4.xx, PKG, RAR",01.080
+FINAL FANTASY VII REBIRTH Deluxe Edition,PPSA08668,FPKG · Folder · Backport,"Backport, FPKG, Folder, APR-EMU, Backport 4.xx, PKG, RAR",01.080
 Final Fantasy VII Remake Intergrade,PPSA01903,FPKG · exFAT,"FPKG, exFAT, PKG, APR-EMU",01.005
 Final Fantasy VII Remake Intergrade Deluxe Edition,PPSA01911,exFAT,exFAT,01.005
 Final Fantasy XVI Complete Edition,PPSA10665,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Folder, APR-EMU, Backport 4.xx, RAR, PKG",01.003.004
@@ -434,6 +435,7 @@ Fobia: St. Dinfna Hotel,PPSA05625,PKG,PKG,01.000
 Football Manager 26 Console Edition,PPSA29707,exFAT · APR-EMU · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx",01.009
 For The King 2,PPSA23123,FPKG,FPKG,01.000.040
 Foreclosed,PPSA02483,exFAT,exFAT,01.002
+Forest Grove,PPSA07663,Backport,Backport,01.001
 Forever Skies,PPSA07867,unknown,unknown,01.003.010
 Forgive Me Father 2,PPSA29035,unknown,unknown,01.003.000
 Formula Retro Racing World Tour Special Edition,PPSA17189,Folder · PKG,"APR-EMU, Folder, PKG",01.002
@@ -745,7 +747,7 @@ Miasma Chronicles,PPSA06217,exFAT · PKG · Backport,"Backport, exFAT, Backport 
 Mighty Morphin Power Rangers Ritas Rewind,PPSA18528,Backport,Backport,01.009
 Mighty Morphin Power Rangers Ritas Rewind,PPSA18529,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG, unknown",01.009
 MindsEye,PPSA28209,exFAT · Folder · Backport,"Backport, exFAT, Folder, PKG, RAR, Backport 4.xx, Backport 9.xx",01.017
-Minecraft,PPSA17221,FPKG · exFAT · Backport 4.xx,"exFAT, FPKG, Backport 4.xx, PKG",01.044
+Minecraft,PPSA17221,FPKG · exFAT · Backport,"Backport, exFAT, FPKG, Backport 4.xx, PKG",01.059
 Minecraft Dungeons 2,PPSA16064,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, Backport 4.xx",01.100.100
 Minecraft Legends,GAME_F0D7B34191,Backport 4.xx,"Backport 4.xx, RAR",01.013
 Minecraft Preview,PPSA19639,Backport 4.xx,"Backport 4.xx, RAR",01.024.000
@@ -925,6 +927,7 @@ Quake,PPSA01880,FPKG · exFAT,"exFAT, FPKG, PKG, unknown",01.009
 Quake 2,PPSA09477,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Backport 4.xx, PKG, RAR, ZIP",01.003.000
 Quantum Error,PPSA04479,exFAT · PKG · Backport,"Backport, exFAT, RAR, Backport 6.xx, Backport 4.xx, PKG",01.009
 QUBE 10th Anniversary,PPSA05591,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG, RAR, ZIP",01.001.000
+QUBE 2 Ultimate Edition,PPSA06246,Backport,Backport,01.000
 R Type Delta HD Boosted,PPSA26414,PKG,"unknown, PKG",01.000.002
 R Type Final 3 Evolved,PPSA08394,exFAT · PKG · Backport,"Backport, exFAT, PKG, Backport 4.xx, RAR, ZIP, Backport 5.xx",01.000.004
 R4 RIDGE RACER TYPE 4,PPSA07699,unknown,unknown,01.000.001
@@ -1015,6 +1018,7 @@ Seeker My Shadow,PPSA12500,PKG · Backport 4.xx,"ZIP, Backport 4.xx, Backport 5.
 Sektori,PPSA27604,unknown,unknown,01.000.003
 Selfloss,PPSA21085,exFAT · Folder · Backport,"Backport, exFAT, Folder, RAR, Backport 4.xx, PKG, ZIP, Backport 5.xx",01.000
 Senuas Saga Hellblade 2,PPSA25991,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, APR-EMU, unknown",01.002
+Serious Sam Siberian Mayhem,PPSA07020,exFAT,exFAT,01.000
 Session Skate Sim,PPSA06510,PKG · Backport,"Backport, PKG",01.000
 Severed Steel,PPSA05106,PKG,"unknown, PKG",01.000
 Shadow Labyrinth,PPSA20298,exFAT · PKG · Backport,"Backport, exFAT, Backport 4.xx, PKG, RAR, unknown",01.100
@@ -1411,6 +1415,7 @@ Weird West Definitive Edition,PPSA10887,exFAT · PKG · Backport,"Backport, exFA
 Welcome to ParadiZe,PPSA09258,PKG,"unknown, PKG",01.014.000
 Werewolf The Apocalypse Earthblood,PPSA02113,FPKG · PKG,"FPKG, PKG",01.005
 Werewolf: The Apocalypse – Earthblood,PPSA02114,PKG,PKG,01.005
+What Remains of Edith Finch,PPSA06207,Backport,Backport,01.001
 White Day 2 The Flower That Tells Lies Complete Edition,PPSA21120,Backport,Backport,01.000
 White Day A Labyrinth Named School,PPSA07973,exFAT,exFAT,01.000
 Who Wants To Be A Millionaire New Edition,PPSA04933,exFAT,"exFAT, RAR, unknown",01.008
