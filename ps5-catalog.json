@@ -4716,9 +4716,9 @@
         },
         {
           "name": "[DLC exFAT]",
-          "url": "https://link-vault.org/c/70y_qlsU#DataVaults",
+          "url": "https://link-vault.org/c/70y_qlsU#DataNodes",
           "group": "exFAT · DLC",
-          "mirror": "Vault"
+          "mirror": "Data"
         }
       ],
       "sizeBytes": 62277025792,
@@ -7092,12 +7092,12 @@
         "exFAT",
         "FPKG"
       ],
-      "_enrichedAt": "2026-10-23T05:13:07.753870+00:00",
+      "_enrichedAt": "2026-11-23T05:12:17.404900+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "arcade-paradise",
         "rawgName": "Arcade Paradise",
-        "rating": 3.53,
+        "rating": 3.4,
         "metacritic": null,
         "released": "2022-08-11",
         "genres": [
@@ -14406,27 +14406,9 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/LJlGnWOAVm15/file",
+          "url": "https://datanodes.to/nrrph9im59cx",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/1Uh2ipiv9q",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://filekeeper.net/3hfvafqkpr1m",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/raxfki3lzc7r",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Data"
         },
         {
           "name": "[#01 GAME PKG EUR]",
@@ -23912,6 +23894,56 @@
       "_igdbEnrichedAt": "2026-06-28T21:35:40.859583+00:00",
       "_igdbMatched": true,
       "formatLabel": "PKG"
+    },
+    {
+      "titleId": "PPSA28769",
+      "title": "Cairn Deluxe Edition",
+      "version": "01.001",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Cairn_DE.jpg",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/jhxLAPuB#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/U9XCGO4I#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://link-vault.org/c/SMdcCzZj#DataNodes",
+          "group": "exFAT · DLC",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 12884901888,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-23T05:12:16.579732+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "cairn",
+        "rawgName": "Cairn",
+        "rating": 4.14,
+        "metacritic": null,
+        "released": "2026-01-28",
+        "genres": [
+          "Adventure"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/e13/e1395f34907fdcc9da63e72e24d868f8.jpg"
+      },
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA34501",
@@ -36856,12 +36888,6 @@
           "mirror": "Akia"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/wwt22u6ycT",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME exFAT BP 4.xx USA]",
           "url": "https://buzzheavier.com/k771uobz5dkl",
           "group": "exFAT · Backport 4.xx",
@@ -36953,12 +36979,6 @@
           "fileName": "DLC_Psykzhack.rar",
           "sizeBytes": 824064,
           "mirror": "Akia"
-        },
-        {
-          "name": "[DLC exFAT]",
-          "url": "https://vikingfile.com/f/fp8UM6vz9P",
-          "group": "exFAT · DLC",
-          "mirror": "Viki"
         },
         {
           "name": "[DLC FPKG PKG 1 Mo USA]",
@@ -37096,7 +37116,7 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-23T05:13:07.792663+00:00",
+      "_enrichedAt": "2026-11-23T05:12:17.404952+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "deadcraft",
@@ -38768,12 +38788,6 @@
           "fileName": "PPSA01670.exfat",
           "sizeBytes": 77395310673,
           "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT]",
-          "url": "https://vikingfile.com/f/zmdHhtGsWO",
-          "group": "exFAT",
-          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 72 Go]",
@@ -47061,12 +47075,6 @@
           "mirror": "Akia"
         },
         {
-          "name": "[GAME exFAT]",
-          "url": "https://vikingfile.com/f/FsPFEuqPjp",
-          "group": "exFAT",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME exFAT 79 Go USA]",
           "url": "https://datanodes.to/26w9yvhheume",
           "group": "exFAT",
@@ -47187,12 +47195,6 @@
           "fileName": "PPSA15211.exfat",
           "sizeBytes": 67753109094,
           "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT]",
-          "url": "https://vikingfile.com/f/y0U3kEUnkk",
-          "group": "exFAT",
-          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 63 Go USA]",
@@ -53792,9 +53794,21 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/rkEjlTYtBu",
+          "url": "https://akirabox.com/obj3j7OdPzDx/file",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datanodes.to/xj024ppcyjni",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/9oh5if0dzuek",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
         },
         {
           "name": "[GAME exFAT BP EUR v1.000]",
@@ -58528,15 +58542,51 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT Dump]",
-          "url": "https://vikingfile.com/f/4bsjoMRrxp",
+          "url": "https://akirabox.com/rk9zKW1wyz0l/file",
           "group": "exFAT · Dump",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://datanodes.to/cdstxasfxx3z",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://filekeeper.net/9molr4f65p9q",
+          "group": "exFAT · Dump",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://datavaults.co/w6wp9dwciny2",
+          "group": "exFAT · Dump",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/MQOHVfDwMx",
+          "group": "exFAT · Backport 4.xx",
           "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/9QWmpAr7L3EB/file",
+          "url": "https://datanodes.to/xk905zjezp5g",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://filekeeper.net/9jnmq8g8wh8o",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[#01 GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/xf2bqbiefu3e",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
         },
         {
           "name": "[GAME exFAT BP 4.xx 76 Go]",
@@ -58571,7 +58621,7 @@
           "mirror": "Filek"
         },
         {
-          "name": "[#01 GAME exFAT BP 4.xx]",
+          "name": "[#02 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/160fyetpz3wy",
           "group": "exFAT · Backport 4.xx",
           "fileName": "PPSA24662 exfat",
@@ -58610,7 +58660,7 @@
           "sizeBytes": 71725953843
         },
         {
-          "name": "[#02 GAME exFAT BP 4.xx]",
+          "name": "[#03 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/z1f4anuzbu73",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Vault",
@@ -59584,7 +59634,7 @@
         "exFAT",
         "FPKG"
       ],
-      "_enrichedAt": "2026-10-23T05:13:07.795187+00:00",
+      "_enrichedAt": "2026-11-23T05:12:17.593627+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "far-changing-tides",
@@ -62464,7 +62514,8 @@
           "name": "[GAME exFAT]",
           "url": "https://link-vault.org/c/unGN9ocw#DataNodes",
           "group": "exFAT",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Final Fantasy VII Remake Intergrade (v01.005)(Deluxe Edition) – PPSA01911 - exFAT"
         },
         {
           "name": "[GAME FPKG]",
@@ -63442,6 +63493,39 @@
       "_igdbEnrichedAt": "2026-06-28T21:36:31.006393+00:00",
       "_igdbMatched": true,
       "formatLabel": "exFAT · Folder · Backport"
+    },
+    {
+      "titleId": "PPSA18431",
+      "title": "Five Nights at Freddys Into the Pit",
+      "version": "02.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Five_Nights_at_Freddys_Into_the_Pit.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/69R1CZUj#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/gxh-ERFU#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 4294967296,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-23T05:12:16.912861+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA25682",
@@ -65709,10 +65793,11 @@
           "mirror": "Data"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/yIotQbWR#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "Front Mission 1st Remake (v03.001) - BP 4.xx - PPSA16439 - FPKG"
         }
       ],
       "sizeBytes": 16106127360,
@@ -79462,12 +79547,6 @@
           "sizeBytes": 124543314165
         },
         {
-          "name": "[GAME exFAT BP]",
-          "url": "https://vikingfile.com/f/ytlAdbExPm",
-          "group": "exFAT · Backport",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME exFAT BP 116 Go]",
           "url": "https://datanodes.to/w815mry9bvvk",
           "group": "exFAT · Backport",
@@ -82092,13 +82171,15 @@
           "name": "[GAME exFAT Dump]",
           "url": "https://link-vault.org/c/OHIbrgF6#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Human Fall Flat (v01.017) - PPSA02429 - Dump"
         },
         {
-          "name": "[GAME exFAT]",
+          "name": "[GAME FPKG]",
           "url": "https://link-vault.org/c/yPF39lhY#AkiraBox",
           "group": "exFAT",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "Human Fall Flat (v01.017) - PPSA02429 - FPKG"
         }
       ],
       "sizeBytes": 4294967296,
@@ -90712,10 +90793,11 @@
           "mirror": "Data"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/JESAlDrK#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "Laika Aged Through Blood (v04.000) - BP 4.xx - PPSA17775 - FPKG"
         }
       ],
       "sizeBytes": 16106127360,
@@ -96378,12 +96460,6 @@
           "sizeBytes": 27992449351
         },
         {
-          "name": "[GAME exFAT BP]",
-          "url": "https://vikingfile.com/f/XkiG2vMkBp",
-          "group": "exFAT · Backport",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME PKG USA]",
           "url": "https://vikingfile.com/f/2hlmuAlxRy",
           "group": "Standard",
@@ -96424,12 +96500,6 @@
           "mirror": "Akia",
           "fileName": "All_6DLCs_Pkykzhack.rar",
           "sizeBytes": 5788139
-        },
-        {
-          "name": "[DLC exFAT]",
-          "url": "https://vikingfile.com/f/Sx06PutuWZ",
-          "group": "exFAT · DLC",
-          "mirror": "Viki"
         },
         {
           "name": "[FIX BP 39 Mo USA]",
@@ -107171,6 +107241,39 @@
       "_enrichedAt": "2026-11-15T05:13:37.811250+00:00",
       "_rawgMatched": false,
       "formatLabel": "FPKG · PKG · Backport"
+    },
+    {
+      "titleId": "PPSA15476",
+      "title": "METAL SLUG ATTACK RELOADED",
+      "version": "01.001",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/METAL_SLUG_ATTACK_RELOADED.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/fySIHQd8#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/4O5VLxgR#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 7516192768,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-23T05:12:16.912892+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA20643",
@@ -117941,6 +118044,12 @@
           "mirror": "Akia",
           "fileName": "PPSA01716-Compressed.7z",
           "sizeBytes": 33264521707
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/89suBBgK5i",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 4.xx 31 Go]",
@@ -130867,6 +130976,12 @@
           "url": "https://vikingfile.com/f/W1MP1dRI4L",
           "group": "exFAT · Dump",
           "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://akirabox.com/0rpmvpBYgzRg/file",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
         },
         {
           "name": "[#01 GAME exFAT BP 4.xx]",
@@ -146254,12 +146369,12 @@
         "Backport 4.xx",
         "Backport 9.xx"
       ],
-      "_enrichedAt": "2026-10-23T05:13:08.395908+00:00",
+      "_enrichedAt": "2026-11-23T05:12:17.685362+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "samson",
         "rawgName": "Samson",
-        "rating": 2.08,
+        "rating": 2.15,
         "metacritic": null,
         "released": "2026-04-08",
         "genres": [
@@ -160283,15 +160398,6 @@
           "mirror": "1File"
         },
         {
-          "name": "[GAME PKG Folder USA]",
-          "url": "https://buzzheavier.com/qkfb3rk7wt0u",
-          "group": "Standard",
-          "version": "01.009",
-          "region": "USA",
-          "editionId": "PPSA28336",
-          "mirror": "Buzz"
-        },
-        {
           "name": "[UPD PKG Folder v1.000]",
           "url": "https://gofile.io/d/yF8NxY",
           "group": "Standard",
@@ -171881,18 +171987,6 @@
       "description": "Format: PKG · Backport\nTags: PPSA19411, v01.015.004, EUR\nSize: 39GB\nPassword: SuperPSX\nVoices: English\nWorking 12.xx to 10.xx\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/Dx9QnU6k#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/tat0RO7A#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
           "name": "[UPD PKG EUR v1.015.004]",
           "url": "https://gofile.io/d/xUmb8R",
           "group": "Standard",
@@ -171934,10 +172028,11 @@
           "mirror": "1File"
         },
         {
-          "name": "[DLC exFAT]",
+          "name": "[DLC FPKG]",
           "url": "https://link-vault.org/c/eu0JPfim#DataNodes",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Tainted Grail Fall of Avalon (Excalibur Edition)(v01.025) - DLCs (PKG) - PPSA19411 - FPKG + Dump"
         },
         {
           "name": "[DLC 3 Mo EUR v1.015.004]",
@@ -171970,6 +172065,20 @@
           "group": "DLC",
           "version": "01.015.004",
           "mirror": "1File"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/Dx9QnU6k#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "Tainted Grail Fall of Avalon (Excalibur Edition)(v01.025) - BP 4.xx - PPSA19411 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/tat0RO7A#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "Tainted Grail Fall of Avalon (Excalibur Edition)(v01.025) - BP 4.xx - PPSA19411 - FPKG"
         }
       ],
       "sizeBytes": 46170898432,
@@ -173145,16 +173254,18 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/szv-k-9X#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "TCG Card Shop Simulator (v01.300) - BP 4.xx - PPSA36301 - Dump"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/GKTXbKyL#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "TCG Card Shop Simulator (v01.300) - BP 4.xx - PPSA36301 - FPKG"
         }
       ],
       "sizeBytes": 6442450944,
@@ -183677,6 +183788,45 @@
       "formatLabel": "FPKG · Folder · Backport"
     },
     {
+      "titleId": "PPSA18986",
+      "title": "The Legend of Heroes Trails through Daybreak Ultimate Edition",
+      "version": "01.002",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/The_Legend_of_Heroes_Trails_through_Daybreak_UE.avif",
+      "description": "Format: exFAT\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/oUUxNHk4#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://link-vault.org/c/x0GQns8R#AkiraBox",
+          "group": "exFAT",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://link-vault.org/c/uBip3kAR#DataNodes",
+          "group": "exFAT · DLC",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 37580963840,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT"
+      ],
+      "fileFormat": [
+        "exFAT"
+      ],
+      "_enrichedAt": "2026-11-23T05:12:16.912901+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "exFAT"
+    },
+    {
       "titleId": "PPSA12562",
       "title": "The Light Brigade",
       "version": "02.013",
@@ -189568,6 +189718,45 @@
       "_igdbEnrichedAt": "2026-06-28T21:57:17.831187+00:00",
       "_igdbMatched": true,
       "formatLabel": "FPKG · exFAT · Backport"
+    },
+    {
+      "titleId": "PPSA05103",
+      "title": "This War of Mine Final Cut",
+      "version": "01.001",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/This_War_of_Mine_Final_Cut.avif",
+      "description": "Format: exFAT\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/7jPNl9dn#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://link-vault.org/c/UV8i52JA#AkiraBox",
+          "group": "exFAT",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://link-vault.org/c/OVTRElli#DataNodes",
+          "group": "exFAT · DLC",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 2147483648,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "exFAT"
+      ],
+      "fileFormat": [
+        "exFAT"
+      ],
+      "_enrichedAt": "2026-11-23T05:12:17.072001+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "exFAT"
     },
     {
       "titleId": "PPSA05213",
@@ -205332,12 +205521,6 @@
         },
         {
           "name": "[GAME exFAT BP]",
-          "url": "https://akirabox.com/Z9dzBPQ85mk1/file",
-          "group": "exFAT · Backport",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP]",
           "url": "https://vikingfile.com/f/lGE0geMH6Z",
           "group": "exFAT · Backport",
           "mirror": "Viki"
@@ -210990,6 +211173,45 @@
       "_enrichedAt": "2026-11-15T05:14:31.351498+00:00",
       "_rawgMatched": false,
       "formatLabel": "FPKG · Folder · Backport"
+    },
+    {
+      "titleId": "PPSA07528",
+      "title": "Ys IX Monstrum Nox Deluxe Edition",
+      "version": "01.001",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Ys_IX_Monstrum_Nox_DE.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/vVv081KP#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/Kxea9fKL#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://link-vault.org/c/JN_NCz01#DataNodes",
+          "group": "exFAT · DLC",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 9663676416,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-23T05:12:17.266585+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA32457",

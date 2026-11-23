@@ -181,6 +181,7 @@ Bugsnax,PPSA01502,PKG,PKG,02.000
 Bum Simulator,PPSA19624,exFAT · Backport,"Backport, exFAT, Backport 4.xx, RAR, ZIP",01.000.004
 Burnhouse Lane,PPSA16612,unknown,unknown,02.000.000
 Bye Sweet Carole,PPSA22924,PKG,"unknown, PKG",01.008
+Cairn Deluxe Edition,PPSA28769,Backport,Backport,01.001
 Call of Duty Black Ops,PPSA34501,FPKG · exFAT · Backport,"Backport, FPKG, PKG, APR-EMU, Backport 4.xx, exFAT",01.008.000
 Call of Duty Black Ops 2,PPSA34502,FPKG · PKG · Backport,"Backport, FPKG, PKG, APR-EMU, Backport 4.xx",01.010.000
 Call of Duty Black Ops Cold War,PPSA01628,FPKG · FFPFSC,"exFAT, FPKG, FFPFSC, Folder, APR-EMU, PKG, RAR",01.040
@@ -426,6 +427,7 @@ Firefighting Simulator Ignite,PPSA17456,FPKG · PKG · Backport,"Backport, FPKG,
 Fishing North Atlantic Enhanced Edition,PPSA02985,PKG,"unknown, PKG",02.001
 FIST Forged In Shadow Torch,PPSA03969,PKG · Backport,"Backport, PKG",01.201.001
 Five Nights at Freddy's Help Wanted 2,PPSA18887,exFAT · Folder · Backport,"Backport, exFAT, Folder, Backport 4.xx, Backport 6.xx, ZIP, Backport 5.xx, PKG",01.004
+Five Nights at Freddys Into the Pit,PPSA18431,Backport,Backport,02.000
 Five Nights at Freddys Secret of The Mimic,PPSA25682,Backport 5.xx,Backport 5.xx,01.007.000
 Five Nights at Freddys Security Breach,PPSA04677,exFAT · PKG,"exFAT, APR-EMU, PKG, unknown",01.005
 Flashback 2,PPSA08546,exFAT · PKG · Backport 4.xx,"exFAT, RAR, Backport 4.xx, PKG",01.007
@@ -742,6 +744,7 @@ METAL GEAR SOLID Master Collection,PPSA14363,exFAT · PKG · Backport,"Backport,
 Metal Gear Solid Master Collection Vol 1 Bonus Content,PPSA16256,exFAT · Folder · Backport,"Backport, exFAT, Folder, Backport 4.xx, ZIP, Backport 5.xx",01.500
 METAL GEAR SOLID MASTER COLLECTION Vol 2 BONUS CONTENT,PPSA24040,FPKG · PKG · Backport,"Backport, FPKG, PKG, Backport 4.xx",01.200.001
 METAL GEAR SOLID Peace Walker Master Collection Version,PPSA18216,FPKG · PKG · Backport,"Backport, FPKG, PKG, Backport 4.xx",01.301.000
+METAL SLUG ATTACK RELOADED,PPSA15476,Backport,Backport,01.001
 Metal Slug Tactics,PPSA20643,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG",02.000
 Metaphor ReFantazio,PPSA20800,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, APR-EMU, Backport 4.xx, PKG, RAR",01.013
 Metro Awakening,PPSA19383,Backport 5.50,"Backport 5.50, Backport",01.008
@@ -1261,6 +1264,7 @@ The Last of Us Part II Remastered Deluxe Edition,PPSA15508,FPKG · FFPFSC · Bac
 The Last Oricru,PPSA04867,FPKG · exFAT,"exFAT, FPKG",01.005
 The Last Stand Aftermath,PPSA04460,exFAT · APR-EMU,"exFAT, APR-EMU, RAR, unknown",01.050
 The Legend of Heroes Trails beyond the Horizon,PPSA26392,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, APR-EMU, Backport 4.xx",01.006
+The Legend of Heroes Trails through Daybreak Ultimate Edition,PPSA18986,exFAT,exFAT,01.002
 The Light Brigade,PPSA12562,exFAT · PKG · Backport 4.xx,"exFAT, RAR, ZIP, Backport 4.xx, PKG",02.013
 The Long Dark,PPSA30659,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, APR-EMU, Backport 4.xx",02.055.000
 The Lord of The Rings Gollum Precious Edition,PPSA06367,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, PKG, APR-EMU, Backport 4.xx, RAR, ZIP, Backport 5.xx",01.004
@@ -1304,6 +1308,7 @@ The Walking Dead Saints and Sinners Chapter 2 Retribution,PPSA07681,Backport 4.x
 The Walking Dead Streets of Survival Deluxe Edition,PPSA38510,Backport,"RAR, Backport, unknown",01.000.001
 The Walking Dead: Saints & Sinners - Chapter 2: Retribution,PPSA07680,PKG,PKG,01.000
 The Witcher 3 Wild Hunt Complete Edition,PPSA03977,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, ZIP, Backport 4.xx, PKG",04.040.100
+This War of Mine Final Cut,PPSA05103,exFAT,exFAT,01.001
 Thymesia,PPSA05214,PKG,PKG,01.000
 Thymesia,PPSA05213,FPKG · exFAT,"exFAT, FPKG, RAR, PKG",01.004
 Tides of Tomorrow,PPSA29986,exFAT · PKG · Backport 4.xx,"exFAT, Backport 4.xx, PKG",01.000
@@ -1467,6 +1472,7 @@ YinYang Street,PPSA35023,Backport,Backport,01.000
 Yonder The Cloud Catcher Chronicles,PPSA03076,exFAT,"exFAT, unknown",01.000
 Yooka Replaylee,PPSA26097,FPKG · exFAT · Backport,"Backport, FPKG, exFAT, Folder, Backport 4.xx, PKG, unknown",02.000
 You Suck At Parking,PPSA08894,FPKG · Folder · Backport,"Backport, FPKG, Folder, PKG, Backport 4.xx",01.007.000
+Ys IX Monstrum Nox Deluxe Edition,PPSA07528,Backport,Backport,01.001
 Ys X Proud Nordics Ultimate Edition,PPSA32457,exFAT · PKG · Backport,"Backport, exFAT, PKG, APR-EMU, RAR, Backport 4.xx",01.003
 Zombie Cure Lab,PPSA22623,exFAT · PKG · Backport,"Backport, exFAT, APR-EMU, Backport 4.xx, PKG",01.000.004
 Zorro The Chronicles,PPSA06509,unknown,unknown,01.001
