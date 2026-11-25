@@ -986,7 +986,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:41.268163+00:00",
+      "_enrichedAt": "2026-11-25T05:12:14.050206+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "a-memoir-blue",
@@ -1259,7 +1259,7 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:41.599072+00:00",
+      "_enrichedAt": "2026-11-25T05:12:14.050263+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "a-plague-tale-innocence",
@@ -1578,7 +1578,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:41.621636+00:00",
+      "_enrichedAt": "2026-11-25T05:12:14.146994+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "a-plague-tale-requiem",
@@ -1863,14 +1863,14 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:42.441438+00:00",
+      "_enrichedAt": "2026-11-25T05:12:14.199923+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "a-quiet-place-the-road-ahead",
         "rawgName": "A Quiet Place: The Road Ahead",
         "rating": 2.69,
         "metacritic": null,
-        "released": "2024-10-17",
+        "released": "2024-10-16",
         "genres": [
           "Adventure",
           "Action",
@@ -2254,12 +2254,12 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:42.449766+00:00",
+      "_enrichedAt": "2026-11-25T05:12:14.457612+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "absolum",
         "rawgName": "Absolum",
-        "rating": 3.87,
+        "rating": 3.92,
         "metacritic": null,
         "released": "2025-10-09",
         "genres": [
@@ -2425,7 +2425,7 @@
         "APR-EMU",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:41.123528+00:00",
+      "_enrichedAt": "2026-11-25T05:12:14.723450+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ace-combat-8-wings-of-theve",
@@ -2690,7 +2690,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:42.449795+00:00",
+      "_enrichedAt": "2026-11-25T05:12:14.948977+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ad-infinitum-2",
@@ -2824,7 +2824,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:42.449821+00:00",
+      "_enrichedAt": "2026-11-25T05:12:14.949009+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "aeterna-noctis",
@@ -3470,7 +3470,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:42.824762+00:00",
+      "_enrichedAt": "2026-11-25T05:12:15.125362+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "afterimage-2",
@@ -4293,7 +4293,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:43.265656+00:00",
+      "_enrichedAt": "2026-11-25T05:12:15.572644+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "alan-wake-2",
@@ -4418,7 +4418,7 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:43.279353+00:00",
+      "_enrichedAt": "2026-11-25T05:12:15.572686+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "alan-wake-remastered",
@@ -4564,7 +4564,7 @@
         "exFAT",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:43.462089+00:00",
+      "_enrichedAt": "2026-11-25T05:12:15.572710+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "alex-kidd-in-miracle-world-dx",
@@ -4910,7 +4910,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:44.203229+00:00",
+      "_enrichedAt": "2026-11-25T05:12:15.626487+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "aliens-dark-descent",
@@ -5089,7 +5089,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:44.203265+00:00",
+      "_enrichedAt": "2026-11-25T05:12:16.015242+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "aliens-fireteam",
@@ -5400,12 +5400,12 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:44.493401+00:00",
+      "_enrichedAt": "2026-11-25T05:12:16.286044+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "alone-in-the-dark-2022",
         "rawgName": "Alone in the Dark",
-        "rating": 3.58,
+        "rating": 3.59,
         "metacritic": null,
         "released": "2024-03-20",
         "genres": [
@@ -5711,7 +5711,7 @@
         "unknown"
       ],
       "sizeBytes": 576716800,
-      "_enrichedAt": "2026-10-25T05:12:44.493434+00:00",
+      "_enrichedAt": "2026-11-25T05:12:16.286074+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "among-us",
@@ -6493,7 +6493,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:44.619587+00:00",
+      "_enrichedAt": "2026-11-25T05:12:17.104698+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ape-escape",
@@ -6680,7 +6680,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:44.809812+00:00",
+      "_enrichedAt": "2026-11-25T05:12:17.298289+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ape-escape",
@@ -6853,7 +6853,7 @@
         "PKG"
       ],
       "sizeBytes": 51539607552,
-      "_enrichedAt": "2026-10-25T05:12:45.148901+00:00",
+      "_enrichedAt": "2026-11-25T05:12:17.391261+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "apsulov-end-of-gods",
@@ -6904,7 +6904,7 @@
         "unknown"
       ],
       "sizeBytes": 11811160064,
-      "_enrichedAt": "2026-10-25T05:12:45.148941+00:00",
+      "_enrichedAt": "2026-11-25T05:12:17.956934+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "aragami-2",
@@ -7260,7 +7260,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:45.155938+00:00",
+      "_enrichedAt": "2026-11-25T05:12:18.117564+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "arcade-spirits-the-new-challengers",
@@ -7493,12 +7493,12 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:45.337743+00:00",
+      "_enrichedAt": "2026-11-25T05:12:18.117602+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "arcadegeddon",
         "rawgName": "Arcadegeddon",
-        "rating": 2.11,
+        "rating": 2.0,
         "metacritic": null,
         "released": "2021-07-08",
         "genres": [
@@ -8521,7 +8521,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:45.410478+00:00",
+      "_enrichedAt": "2026-11-25T05:12:18.117629+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "arkanoid-eternal-battle",
@@ -8872,7 +8872,7 @@
         "PKG",
         "APR-EMU"
       ],
-      "_enrichedAt": "2026-10-25T05:12:45.808748+00:00",
+      "_enrichedAt": "2026-11-25T05:12:18.481904+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "armored-core-vi",
@@ -9237,12 +9237,12 @@
         "ZIP",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:45.808800+00:00",
+      "_enrichedAt": "2026-11-25T05:12:18.481944+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "art-of-rally",
         "rawgName": "art of rally",
-        "rating": 3.47,
+        "rating": 3.45,
         "metacritic": 78,
         "released": "2020-09-23",
         "genres": [
@@ -11264,7 +11264,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:45.894568+00:00",
+      "_enrichedAt": "2026-11-25T05:12:18.576983+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "asterigos-curse-of-the-stars",
@@ -11671,7 +11671,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:46.612559+00:00",
+      "_enrichedAt": "2026-11-25T05:12:18.577024+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "asterix-obelix-slap-them-all",
@@ -12617,12 +12617,12 @@
         "Backport",
         "exFAT"
       ],
-      "_enrichedAt": "2026-10-25T05:12:46.612594+00:00",
+      "_enrichedAt": "2026-11-25T05:12:18.881314+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "astro-bot",
         "rawgName": "Astro Bot",
-        "rating": 4.36,
+        "rating": 4.35,
         "metacritic": null,
         "released": "2024-09-06",
         "genres": [
@@ -12766,12 +12766,12 @@
         "Backport 4.03",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:46.612606+00:00",
+      "_enrichedAt": "2026-11-25T05:12:19.007239+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "astro-bot",
         "rawgName": "Astro Bot",
-        "rating": 4.36,
+        "rating": 4.35,
         "metacritic": null,
         "released": "2024-09-06",
         "genres": [
@@ -13590,7 +13590,7 @@
         "PKG"
       ],
       "sizeBytes": 60129542144,
-      "_enrichedAt": "2026-10-25T05:12:46.709886+00:00",
+      "_enrichedAt": "2026-11-25T05:12:19.550769+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "atelier-ryza-3-alchemist-of-the-end-the-secret-key",
@@ -13805,7 +13805,7 @@
         "unknown"
       ],
       "sizeBytes": 69793218560,
-      "_enrichedAt": "2026-10-25T05:12:47.458600+00:00",
+      "_enrichedAt": "2026-11-25T05:12:19.550811+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "atlas-fallen",
@@ -14165,12 +14165,12 @@
         "RAR",
         "Backport"
       ],
-      "_enrichedAt": "2026-10-25T05:12:47.540372+00:00",
+      "_enrichedAt": "2026-11-25T05:12:19.550845+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "atomfall",
         "rawgName": "Atomfall",
-        "rating": 3.6,
+        "rating": 3.61,
         "metacritic": null,
         "released": "2025-03-27",
         "genres": [
@@ -14406,9 +14406,27 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/nrrph9im59cx",
+          "url": "https://akirabox.com/LJlGnWOAVm15/file",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/1Uh2ipiv9q",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://filekeeper.net/3hfvafqkpr1m",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/raxfki3lzc7r",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
         },
         {
           "name": "[#01 GAME PKG EUR]",
@@ -14637,12 +14655,12 @@
         "ZIP",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:47.548069+00:00",
+      "_enrichedAt": "2026-11-25T05:12:19.550872+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "atomic-heart",
         "rawgName": "Atomic Heart",
-        "rating": 3.84,
+        "rating": 3.85,
         "metacritic": 73,
         "released": "2023-02-21",
         "genres": [
@@ -14799,12 +14817,12 @@
         "Backport 6.xx",
         "Backport 7.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:47.548091+00:00",
+      "_enrichedAt": "2026-11-25T05:12:19.703339+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "avatar-frontiers-of-pandora",
         "rawgName": "Avatar: Frontiers of Pandora",
-        "rating": 2.64,
+        "rating": 2.61,
         "metacritic": null,
         "released": "2023-12-07",
         "genres": [
@@ -15002,7 +15020,7 @@
         "Backport 5.xx",
         "Backport 6.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:47.954015+00:00",
+      "_enrichedAt": "2026-11-25T05:12:19.806636+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "avatar-the-last-airbender-quest-for-balance",
@@ -15365,12 +15383,12 @@
         "APR-EMU",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:47.954058+00:00",
+      "_enrichedAt": "2026-11-25T05:12:19.986042+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "avatar-frontiers-of-pandora",
         "rawgName": "Avatar: Frontiers of Pandora",
-        "rating": 2.64,
+        "rating": 2.61,
         "metacritic": null,
         "released": "2023-12-07",
         "genres": [
@@ -15653,7 +15671,7 @@
         "PKG",
         "exFAT"
       ],
-      "_enrichedAt": "2026-10-25T05:12:47.998010+00:00",
+      "_enrichedAt": "2026-11-25T05:12:20.495105+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "back-4-blood",
@@ -15817,7 +15835,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:48.207133+00:00",
+      "_enrichedAt": "2026-11-25T05:12:20.495146+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "back-4-blood",
@@ -15960,7 +15978,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:48.324627+00:00",
+      "_enrichedAt": "2026-11-25T05:12:21.061415+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "balan-wonderworld",
@@ -16943,7 +16961,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:49.167110+00:00",
+      "_enrichedAt": "2026-11-25T05:12:21.630450+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "banishers-ghosts-of-new-eden",
@@ -17731,7 +17749,7 @@
         "Backport 5.xx"
       ],
       "sizeBytes": 6345814179,
-      "_enrichedAt": "2026-10-25T05:12:49.300159+00:00",
+      "_enrichedAt": "2026-11-25T05:12:21.630487+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "beat-saber",
@@ -18659,7 +18677,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:50.239612+00:00",
+      "_enrichedAt": "2026-11-25T05:12:21.630513+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "beyond-a-steel-sky",
@@ -18838,7 +18856,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:50.259130+00:00",
+      "_enrichedAt": "2026-11-25T05:12:21.630537+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "beyond-good-evil-20th-anniversary-edition",
@@ -19290,7 +19308,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:50.259160+00:00",
+      "_enrichedAt": "2026-11-25T05:12:21.681119+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "biomutant",
@@ -19962,12 +19980,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:50.259189+00:00",
+      "_enrichedAt": "2026-11-25T05:12:21.970676+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "black-myth-wu-kong",
         "rawgName": "Black Myth: Wukong",
-        "rating": 4.29,
+        "rating": 4.3,
         "metacritic": null,
         "released": "2024-08-20",
         "genres": [
@@ -20237,7 +20255,7 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:50.259199+00:00",
+      "_enrichedAt": "2026-11-25T05:12:21.970708+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "blackwind",
@@ -20373,7 +20391,7 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:50.618129+00:00",
+      "_enrichedAt": "2026-11-25T05:12:22.455761+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "blades-of-fire",
@@ -21264,7 +21282,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:50.780180+00:00",
+      "_enrichedAt": "2026-11-25T05:12:22.482859+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "bleak-faith-forsaken",
@@ -21497,7 +21515,7 @@
         "PKG"
       ],
       "sizeBytes": 45097156608,
-      "_enrichedAt": "2026-10-25T05:12:50.906958+00:00",
+      "_enrichedAt": "2026-11-25T05:12:22.571173+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "bloodrayne-betrayal-fresh-bites",
@@ -21862,7 +21880,7 @@
         "RAR"
       ],
       "sizeBytes": 3221225472,
-      "_enrichedAt": "2026-10-25T05:12:50.906994+00:00",
+      "_enrichedAt": "2026-11-25T05:12:22.774244+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "blue-prince",
@@ -22024,7 +22042,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:51.151380+00:00",
+      "_enrichedAt": "2026-11-25T05:12:22.981456+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "borderlands-3",
@@ -22262,12 +22280,12 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:51.398219+00:00",
+      "_enrichedAt": "2026-11-25T05:12:23.360598+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "borderlands-4",
         "rawgName": "Borderlands 4",
-        "rating": 3.58,
+        "rating": 3.48,
         "metacritic": null,
         "released": "2025-09-12",
         "genres": [
@@ -22754,7 +22772,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:51.398254+00:00",
+      "_enrichedAt": "2026-11-25T05:12:24.040608+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "bramble-the-mountain-king",
@@ -23585,7 +23603,7 @@
         "exFAT",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:51.398283+00:00",
+      "_enrichedAt": "2026-11-25T05:12:24.040641+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "bugsnax",
@@ -23876,7 +23894,7 @@
         "PKG"
       ],
       "sizeBytes": 138512695296,
-      "_enrichedAt": "2026-10-25T05:12:51.616864+00:00",
+      "_enrichedAt": "2026-11-25T05:12:24.040675+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "bye-sweet-carole",
@@ -24815,6 +24833,14 @@
           "url": "https://link-vault.org/c/S6I38kP5#AkiraBox",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Akia"
+        },
+        {
+          "name": "[DLC BP fix]",
+          "url": "https://akirabox.com/vgKGxxQA2G8Q/file",
+          "group": "Standard",
+          "version": "01.000",
+          "mirror": "Akia",
+          "fileName": "Call of Duty Modern Warfare 3 (v01.004)(All DLCs) - BP 4.xx - PPSA24263 - Dump"
         }
       ],
       "sizeBytes": 500363689984,
@@ -25553,12 +25579,12 @@
         "PKG"
       ],
       "sizeBytes": 16106127360,
-      "_enrichedAt": "2026-10-25T05:12:51.953177+00:00",
+      "_enrichedAt": "2026-11-25T05:12:24.402763+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "call-of-the-sea",
         "rawgName": "Call of the Sea",
-        "rating": 3.71,
+        "rating": 3.7,
         "metacritic": 77,
         "released": "2020-12-08",
         "genres": [
@@ -26611,8 +26637,8 @@
         "PKG"
       ],
       "sizeBytes": 33285996544,
-      "_enrichedAt": "2026-10-25T05:12:51.953214+00:00",
-      "_rawgMatched": true,
+      "_enrichedAt": "2026-11-25T05:12:24.402807+00:00",
+      "_rawgMatched": false,
       "metadata": {
         "rawgSlug": "charons-staircase",
         "rawgName": "Charon's Staircase",
@@ -26696,7 +26722,7 @@
         "PKG"
       ],
       "sizeBytes": 64424509440,
-      "_enrichedAt": "2026-10-25T05:12:51.953239+00:00",
+      "_enrichedAt": "2026-11-25T05:12:24.485669+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "chernobylite",
@@ -27604,7 +27630,7 @@
         "Backport 2.xx",
         "Backport 8.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:52.246992+00:00",
+      "_enrichedAt": "2026-11-25T05:12:24.643880+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "clair-obscur-expedition-33",
@@ -27822,7 +27848,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:53.149744+00:00",
+      "_enrichedAt": "2026-11-25T05:12:24.783701+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "clash-artifacts-of-chaos",
@@ -27971,7 +27997,7 @@
         "RAR"
       ],
       "sizeBytes": 23622320128,
-      "_enrichedAt": "2026-10-25T05:12:53.149788+00:00",
+      "_enrichedAt": "2026-11-25T05:12:25.220456+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "cobra-kai-2-dojos-rising",
@@ -28289,7 +28315,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:53.149826+00:00",
+      "_enrichedAt": "2026-11-25T05:12:25.220496+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "code-vein-ii",
@@ -28677,7 +28703,7 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:53.149845+00:00",
+      "_enrichedAt": "2026-11-25T05:12:25.970538+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "code-violet",
@@ -29307,7 +29333,7 @@
         "Backport 4.xx",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:53.366779+00:00",
+      "_enrichedAt": "2026-11-25T05:12:25.970569+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "contra-operation-galuga",
@@ -29540,12 +29566,12 @@
         "Backport",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:53.588956+00:00",
+      "_enrichedAt": "2026-11-25T05:12:25.970607+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "control-ultimate-edition",
         "rawgName": "Control Ultimate Edition",
-        "rating": 4.31,
+        "rating": 4.32,
         "metacritic": 82,
         "released": "2020-08-27",
         "genres": [
@@ -29838,7 +29864,7 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:53.588992+00:00",
+      "_enrichedAt": "2026-11-25T05:12:25.970632+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "crash-bandicoot-4-its-about-time",
@@ -30105,7 +30131,7 @@
         "Backport 5.xx"
       ],
       "sizeBytes": 123480309760,
-      "_enrichedAt": "2026-10-25T05:12:54.163911+00:00",
+      "_enrichedAt": "2026-11-25T05:12:26.651111+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "crime-boss-rockay-city",
@@ -30986,7 +31012,7 @@
         "Backport 5.xx",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:12:54.163947+00:00",
+      "_enrichedAt": "2026-11-25T05:12:26.651147+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "crimson-desert",
@@ -31180,12 +31206,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:54.468965+00:00",
+      "_enrichedAt": "2026-11-25T05:12:26.724640+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "cris-tales",
         "rawgName": "Cris Tales",
-        "rating": 3.16,
+        "rating": 3.1,
         "metacritic": 73,
         "released": "2021-07-20",
         "genres": [
@@ -31467,7 +31493,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:54.468999+00:00",
+      "_enrichedAt": "2026-11-25T05:12:27.225733+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "crisis-core-final-fantasy-vii-reunion",
@@ -31797,12 +31823,12 @@
         "Backport 7.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:54.914879+00:00",
+      "_enrichedAt": "2026-11-25T05:12:27.225763+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "cronos-the-new-dawn",
         "rawgName": "Cronos: The New Dawn",
-        "rating": 3.88,
+        "rating": 3.91,
         "metacritic": null,
         "released": "2025-09-04",
         "genres": [
@@ -32229,7 +32255,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:54.914912+00:00",
+      "_enrichedAt": "2026-11-25T05:12:27.685408+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "crown-wars-the-black-prince",
@@ -32612,7 +32638,7 @@
         "FPKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:55.664889+00:00",
+      "_enrichedAt": "2026-11-25T05:12:27.750201+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "curved-space",
@@ -33291,7 +33317,7 @@
         "FPKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:55.664929+00:00",
+      "_enrichedAt": "2026-11-25T05:12:27.758615+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "cyberpunk-2077",
@@ -33638,7 +33664,7 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:55.664971+00:00",
+      "_enrichedAt": "2026-11-25T05:12:28.068467+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "daemon-x-machina-titanic-scion",
@@ -33936,12 +33962,12 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:12:55.760581+00:00",
+      "_enrichedAt": "2026-11-25T05:12:28.336766+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dakar-desert-rally",
         "rawgName": "Dakar Desert Rally",
-        "rating": 3.0,
+        "rating": 2.88,
         "metacritic": null,
         "released": "2022-10-04",
         "genres": [
@@ -34836,7 +34862,7 @@
         "Backport",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:56.148107+00:00",
+      "_enrichedAt": "2026-11-25T05:12:28.472777+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "daymare-1994-sandcastle",
@@ -34969,7 +34995,7 @@
         "Backport 5.xx"
       ],
       "sizeBytes": 40802189312,
-      "_enrichedAt": "2026-10-25T05:12:57.231996+00:00",
+      "_enrichedAt": "2026-11-25T05:12:28.959519+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "daymare-1994-sandcastle",
@@ -36001,7 +36027,7 @@
         "Backport 6.xx"
       ],
       "sizeBytes": 22548578304,
-      "_enrichedAt": "2026-10-25T05:12:57.448203+00:00",
+      "_enrichedAt": "2026-11-25T05:12:28.959557+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dead-cells-return-to-castlevania",
@@ -36457,7 +36483,7 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:57.448238+00:00",
+      "_enrichedAt": "2026-11-25T05:12:28.959576+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dead-island-2",
@@ -36850,7 +36876,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:57.448283+00:00",
+      "_enrichedAt": "2026-11-25T05:12:29.156818+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dead-rising-deluxe-remaster",
@@ -36886,6 +36912,12 @@
           "fileName": "PPSA03845.exfat",
           "sizeBytes": 56199647068,
           "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/wwt22u6ycT",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 4.xx USA]",
@@ -36981,6 +37013,12 @@
           "mirror": "Akia"
         },
         {
+          "name": "[DLC exFAT]",
+          "url": "https://vikingfile.com/f/fp8UM6vz9P",
+          "group": "exFAT · DLC",
+          "mirror": "Viki"
+        },
+        {
           "name": "[DLC FPKG PKG 1 Mo USA]",
           "url": "https://akirabox.com/APVmarkA53Xo/file",
           "group": "Standard",
@@ -37058,7 +37096,7 @@
         "ZIP",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:57.531834+00:00",
+      "_enrichedAt": "2026-11-25T05:12:29.322363+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dead-space-5",
@@ -37825,12 +37863,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:57.859832+00:00",
+      "_enrichedAt": "2026-11-25T05:12:29.572003+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "death-stranding-2",
         "rawgName": "Death Stranding 2: On The Beach",
-        "rating": 4.35,
+        "rating": 4.36,
         "metacritic": null,
         "released": "2025-06-26",
         "genres": [
@@ -38790,6 +38828,12 @@
           "mirror": "Akia"
         },
         {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/zmdHhtGsWO",
+          "group": "exFAT",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT 72 Go]",
           "url": "https://datanodes.to/8h9nchfj11cq",
           "group": "exFAT",
@@ -39042,12 +39086,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:57.869788+00:00",
+      "_enrichedAt": "2026-11-25T05:12:29.979459+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "deathloop-2",
         "rawgName": "Deathloop",
-        "rating": 3.96,
+        "rating": 3.95,
         "metacritic": 88,
         "released": "2021-09-14",
         "genres": [
@@ -39267,7 +39311,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:58.657585+00:00",
+      "_enrichedAt": "2026-11-25T05:12:30.022688+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "deep-rock-galactic",
@@ -39648,7 +39692,7 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:58.657649+00:00",
+      "_enrichedAt": "2026-11-25T05:12:30.022723+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "demon-slayer-kimetsu-no-yaiba-the-hinokami-chronic",
@@ -39859,7 +39903,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:58.657714+00:00",
+      "_enrichedAt": "2026-11-25T05:12:30.616689+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "demon-slayer-kimetsu-no-yaiba-the-hinokami-chronic",
@@ -40561,12 +40605,12 @@
         "Folder",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:58.657773+00:00",
+      "_enrichedAt": "2026-11-25T05:12:30.616725+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "demons-souls-remake",
         "rawgName": "Demon's Souls (2020)",
-        "rating": 4.42,
+        "rating": 4.41,
         "metacritic": 92,
         "released": "2020-11-12",
         "genres": [
@@ -40762,7 +40806,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:58.657795+00:00",
+      "_enrichedAt": "2026-11-25T05:12:30.806166+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "destroy-all-humans-2-reprobed",
@@ -40987,7 +41031,7 @@
         "Backport 4.03",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:58.774301+00:00",
+      "_enrichedAt": "2026-11-25T05:12:31.013126+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "destruction-allstars",
@@ -41248,7 +41292,7 @@
         "RAR"
       ],
       "sizeBytes": 67645734912,
-      "_enrichedAt": "2026-10-25T05:12:59.060955+00:00",
+      "_enrichedAt": "2026-11-25T05:12:31.450519+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "devil-may-cry-5-special-edition",
@@ -41505,7 +41549,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:59.070403+00:00",
+      "_enrichedAt": "2026-11-25T05:12:31.495052+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "digimon-story-time-stranger",
@@ -41675,12 +41719,12 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:59.137656+00:00",
+      "_enrichedAt": "2026-11-25T05:12:31.589160+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-dark-pictures-directive-8020",
         "rawgName": "Directive 8020",
-        "rating": 2.94,
+        "rating": 2.97,
         "metacritic": null,
         "released": "2026-05-12",
         "genres": [
@@ -41834,7 +41878,7 @@
         "FPKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:12:59.633065+00:00",
+      "_enrichedAt": "2026-11-25T05:12:31.633232+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dirt-5",
@@ -42037,7 +42081,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:12:59.633103+00:00",
+      "_enrichedAt": "2026-11-25T05:12:31.897141+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "disciples-liberation",
@@ -42395,7 +42439,7 @@
         "ZIP",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:59.804771+00:00",
+      "_enrichedAt": "2026-11-25T05:12:32.289367+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "disgaea-7-vows-of-the-virtueless",
@@ -42598,7 +42642,7 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:05.803612+00:00",
+      "_enrichedAt": "2026-11-25T05:12:32.310112+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "disney-epic-mickey-rebrushed",
@@ -43601,12 +43645,12 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:05.803650+00:00",
+      "_enrichedAt": "2026-11-25T05:12:32.373183+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dnf-duel",
         "rawgName": "DNF DUEL",
-        "rating": 3.5,
+        "rating": 3.14,
         "metacritic": null,
         "released": "2022-06-28",
         "genres": [
@@ -43754,7 +43798,7 @@
         "PKG"
       ],
       "sizeBytes": 51539607552,
-      "_enrichedAt": "2026-10-25T05:13:06.115157+00:00",
+      "_enrichedAt": "2026-11-25T05:12:32.616026+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dolmen",
@@ -44095,7 +44139,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:06.145614+00:00",
+      "_enrichedAt": "2026-11-25T05:12:32.820249+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "doom-doom-ii",
@@ -45260,12 +45304,12 @@
         "Backport 7.xx",
         "Backport 9.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:06.183594+00:00",
+      "_enrichedAt": "2026-11-25T05:12:33.258098+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "doom-the-dark-ages",
         "rawgName": "Doom: The Dark Ages",
-        "rating": 4.31,
+        "rating": 4.32,
         "metacritic": null,
         "released": "2025-05-15",
         "genres": [
@@ -46532,7 +46576,7 @@
         "APR-EMU",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:06.520947+00:00",
+      "_enrichedAt": "2026-11-25T05:12:33.258135+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dragon-ball-z-kakarot",
@@ -47075,6 +47119,12 @@
           "mirror": "Akia"
         },
         {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/FsPFEuqPjp",
+          "group": "exFAT",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT 79 Go USA]",
           "url": "https://datanodes.to/26w9yvhheume",
           "group": "exFAT",
@@ -47159,7 +47209,7 @@
         "Backport 4.xx",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:07.031220+00:00",
+      "_enrichedAt": "2026-11-25T05:12:33.913042+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dragon-ball-z-kakarot",
@@ -47195,6 +47245,12 @@
           "fileName": "PPSA15211.exfat",
           "sizeBytes": 67753109094,
           "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT]",
+          "url": "https://vikingfile.com/f/y0U3kEUnkk",
+          "group": "exFAT",
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 63 Go USA]",
@@ -47359,7 +47415,7 @@
         "RAR",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:07.031253+00:00",
+      "_enrichedAt": "2026-11-25T05:12:33.913074+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dragon-ball-sparking-zero",
@@ -47542,7 +47598,7 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:07.031280+00:00",
+      "_enrichedAt": "2026-11-25T05:12:33.913108+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dragon-quest-i-ii-hd-2d-remake",
@@ -47995,7 +48051,7 @@
         "RAR"
       ],
       "sizeBytes": 47029891891,
-      "_enrichedAt": "2026-10-25T05:13:07.288165+00:00",
+      "_enrichedAt": "2026-11-25T05:12:34.274278+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dragon-quest-iii-hd-2d-remake",
@@ -48220,7 +48276,7 @@
         "RAR",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:07.448602+00:00",
+      "_enrichedAt": "2026-11-25T05:12:34.274327+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dragon-quest-vii-reimagined",
@@ -48945,7 +49001,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:07.463594+00:00",
+      "_enrichedAt": "2026-11-25T05:12:34.348060+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dreaming-sarah",
@@ -49334,12 +49390,12 @@
         "Backport 4.xx",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:07.463627+00:00",
+      "_enrichedAt": "2026-11-25T05:12:34.586803+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dredge",
         "rawgName": "Dredge",
-        "rating": 4.25,
+        "rating": 4.24,
         "metacritic": null,
         "released": "2023-03-29",
         "genres": [
@@ -49672,12 +49728,12 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:07.961394+00:00",
+      "_enrichedAt": "2026-11-25T05:12:43.059156+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dark-alliance",
         "rawgName": "Dungeons & Dragons: Dark Alliance",
-        "rating": 2.4,
+        "rating": 2.38,
         "metacritic": 56,
         "released": "2021-06-21",
         "genres": [
@@ -49834,7 +49890,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:08.100086+00:00",
+      "_enrichedAt": "2026-11-25T05:12:43.059195+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "dusk-diver-2",
@@ -51256,7 +51312,7 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:08.100123+00:00",
+      "_enrichedAt": "2026-11-25T05:12:43.059238+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ea-sports-college-football-27",
@@ -51319,12 +51375,12 @@
         "APR-EMU",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:08.100136+00:00",
+      "_enrichedAt": "2026-11-25T05:12:46.018300+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ea-sports-fc-24",
         "rawgName": "EA SPORTS FC 24",
-        "rating": 3.47,
+        "rating": 3.48,
         "metacritic": null,
         "released": "2023-09-22",
         "genres": [
@@ -51620,7 +51676,7 @@
         "Backport 7.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:08.534713+00:00",
+      "_enrichedAt": "2026-11-25T05:12:46.057757+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ea-sports-fc-25",
@@ -52038,12 +52094,12 @@
         "RAR",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:08.539145+00:00",
+      "_enrichedAt": "2026-11-25T05:12:46.057785+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ea-sports-fc-26",
         "rawgName": "EA SPORTS FC 26",
-        "rating": 3.52,
+        "rating": 3.54,
         "metacritic": null,
         "released": "2025-09-25",
         "genres": [
@@ -52545,7 +52601,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:08.539168+00:00",
+      "_enrichedAt": "2026-11-25T05:12:46.059406+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ea-sports-pga-tour",
@@ -53254,7 +53310,7 @@
         "PKG",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:08.762024+00:00",
+      "_enrichedAt": "2026-11-25T05:12:46.059422+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ea-sports-wrc-24",
@@ -53768,7 +53824,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:12:41.175673+00:00",
+      "_enrichedAt": "2026-11-25T05:12:49.457107+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "project-echoes-of-the-end",
@@ -53794,21 +53850,9 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/obj3j7OdPzDx/file",
+          "url": "https://vikingfile.com/f/rkEjlTYtBu",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/xj024ppcyjni",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/9oh5if0dzuek",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP EUR v1.000]",
@@ -54593,19 +54637,19 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:09.069038+00:00",
+      "_enrichedAt": "2026-11-25T05:12:49.457149+00:00",
       "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "elden-ring-shadow-of-the-erdtree",
-        "rawgName": "Elden Ring: Shadow of the Erdtree",
-        "rating": 4.46,
-        "metacritic": null,
-        "released": "2024-06-21",
+        "rawgSlug": "elden-ring",
+        "rawgName": "Elden Ring",
+        "rating": 4.38,
+        "metacritic": 95,
+        "released": "2022-02-25",
         "genres": [
           "Action",
           "RPG"
         ],
-        "rawgBackground": "https://media.rawg.io/media/screenshots/0ba/0bae7160eedc1f7d85a8d2db70cf1ec9.jpg"
+        "rawgBackground": "https://media.rawg.io/media/games/b29/b294fdd866dcdb643e7bab370a552855.jpg"
       },
       "_igdbEnrichedAt": "2026-06-28T21:36:22.105314+00:00",
       "_igdbMatched": true,
@@ -54998,7 +55042,7 @@
         "ZIP",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:08.919317+00:00",
+      "_enrichedAt": "2026-11-25T05:12:49.457183+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "elden-ring-nightreign",
@@ -55707,7 +55751,7 @@
         "ZIP",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:10.815899+00:00",
+      "_enrichedAt": "2026-11-25T05:12:49.457210+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "endling",
@@ -55936,7 +55980,7 @@
         "PKG"
       ],
       "sizeBytes": 86973087744,
-      "_enrichedAt": "2026-10-25T05:13:10.815939+00:00",
+      "_enrichedAt": "2026-11-25T05:12:49.627696+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "enotria-the-last-song",
@@ -56105,7 +56149,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:10.815967+00:00",
+      "_enrichedAt": "2026-11-25T05:12:50.357258+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "eriksholm-the-stolen-dream",
@@ -56275,7 +56319,7 @@
         "exFAT",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:10.815992+00:00",
+      "_enrichedAt": "2026-11-25T05:12:50.378740+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ever-forward",
@@ -57059,7 +57103,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:10.816016+00:00",
+      "_enrichedAt": "2026-11-25T05:12:50.662611+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "evil-genius-2",
@@ -57425,12 +57469,12 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:10.816028+00:00",
+      "_enrichedAt": "2026-11-25T05:12:51.235057+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "evil-west",
         "rawgName": "Evil West",
-        "rating": 3.6,
+        "rating": 3.59,
         "metacritic": 74,
         "released": "2022-11-21",
         "genres": [
@@ -58227,7 +58271,7 @@
         "RAR"
       ],
       "sizeBytes": 92341796864,
-      "_enrichedAt": "2026-10-25T05:13:10.816051+00:00",
+      "_enrichedAt": "2026-11-25T05:12:51.235097+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "f1-2021",
@@ -58542,51 +58586,15 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT Dump]",
-          "url": "https://akirabox.com/rk9zKW1wyz0l/file",
+          "url": "https://vikingfile.com/f/4bsjoMRrxp",
           "group": "exFAT · Dump",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://datanodes.to/cdstxasfxx3z",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://filekeeper.net/9molr4f65p9q",
-          "group": "exFAT · Dump",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://datavaults.co/w6wp9dwciny2",
-          "group": "exFAT · Dump",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/MQOHVfDwMx",
-          "group": "exFAT · Backport 4.xx",
           "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datanodes.to/xk905zjezp5g",
+          "url": "https://akirabox.com/9QWmpAr7L3EB/file",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://filekeeper.net/9jnmq8g8wh8o",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[#01 GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/xf2bqbiefu3e",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Akia"
         },
         {
           "name": "[GAME exFAT BP 4.xx 76 Go]",
@@ -58621,7 +58629,7 @@
           "mirror": "Filek"
         },
         {
-          "name": "[#02 GAME exFAT BP 4.xx]",
+          "name": "[#01 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/160fyetpz3wy",
           "group": "exFAT · Backport 4.xx",
           "fileName": "PPSA24662 exfat",
@@ -58660,7 +58668,7 @@
           "sizeBytes": 71725953843
         },
         {
-          "name": "[#03 GAME exFAT BP 4.xx]",
+          "name": "[#02 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/z1f4anuzbu73",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Vault",
@@ -59234,7 +59242,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:10.863361+00:00",
+      "_enrichedAt": "2026-11-25T05:12:51.845710+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "fallout-4",
@@ -59501,7 +59509,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:11.127300+00:00",
+      "_enrichedAt": "2026-11-25T05:12:51.845748+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "fantasian",
@@ -59817,7 +59825,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:11.127329+00:00",
+      "_enrichedAt": "2026-11-25T05:12:51.845770+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "far-cry-6",
@@ -59920,12 +59928,12 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:11.453028+00:00",
+      "_enrichedAt": "2026-11-25T05:12:52.053675+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "farming-simulator-22",
         "rawgName": "Farming Simulator 22",
-        "rating": 3.4,
+        "rating": 3.35,
         "metacritic": null,
         "released": "2021-11-22",
         "genres": [
@@ -60625,7 +60633,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:11.630951+00:00",
+      "_enrichedAt": "2026-11-25T05:12:52.718011+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "fatal-frame-project-zero-maiden-of-black-water",
@@ -60999,7 +61007,7 @@
         "RAR",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:11.630982+00:00",
+      "_enrichedAt": "2026-11-25T05:12:53.226206+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "fatal-fury-city-of-the-wolves",
@@ -61403,12 +61411,12 @@
         "RAR"
       ],
       "sizeBytes": 5070288315,
-      "_enrichedAt": "2026-10-25T05:13:11.878034+00:00",
+      "_enrichedAt": "2026-11-25T05:12:53.226251+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "fifa-22-xbox-one",
         "rawgName": "FIFA 22",
-        "rating": 3.39,
+        "rating": 3.38,
         "metacritic": 76,
         "released": "2021-09-27",
         "genres": [
@@ -61568,7 +61576,7 @@
         "Backport 4.xx",
         "APR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:12.531610+00:00",
+      "_enrichedAt": "2026-11-25T05:12:53.226283+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "final-fantasy-tactics-the-ivalice-chronicles",
@@ -62008,20 +62016,20 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:12.531646+00:00",
+      "_enrichedAt": "2026-11-25T05:12:54.233906+00:00",
       "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "final-fantasy-vii-rebirth",
-        "rawgName": "Final Fantasy VII Rebirth",
-        "rating": 4.3,
-        "metacritic": null,
-        "released": "2024-02-29",
+        "rawgSlug": "final-fantasy-vii-remake",
+        "rawgName": "Final Fantasy VII",
+        "rating": 4.37,
+        "metacritic": 87,
+        "released": "2020-04-10",
         "genres": [
           "Adventure",
           "Action",
           "RPG"
         ],
-        "rawgBackground": "https://media.rawg.io/media/games/511/511995d5dfcf18965dbb354d2ba9e176.jpg"
+        "rawgBackground": "https://media.rawg.io/media/games/d89/d89bd0cf4fcdc10820892980cbba0f49.jpg"
       },
       "_igdbEnrichedAt": "2026-06-28T21:36:27.951695+00:00",
       "_igdbMatched": true,
@@ -62483,12 +62491,12 @@
         "APR-EMU"
       ],
       "sizeBytes": 224412041216,
-      "_enrichedAt": "2026-10-25T05:13:12.531678+00:00",
+      "_enrichedAt": "2026-11-25T05:12:54.233946+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "final-fantasy-vii-remake-intergrade",
         "rawgName": "FINAL FANTASY VII REMAKE INTERGRADE",
-        "rating": 4.37,
+        "rating": 4.38,
         "metacritic": null,
         "released": "2021-06-10",
         "genres": [
@@ -62848,7 +62856,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:13.227963+00:00",
+      "_enrichedAt": "2026-11-25T05:12:54.233988+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "final-fantasy-xvi",
@@ -63001,12 +63009,12 @@
         "exFAT",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:13.227997+00:00",
+      "_enrichedAt": "2026-11-25T05:12:54.643198+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "final-vendetta",
         "rawgName": "Final Vendetta",
-        "rating": 3.88,
+        "rating": 3.89,
         "metacritic": null,
         "released": "2022-06-16",
         "genres": [
@@ -63503,16 +63511,17 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/69R1CZUj#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
           "name": "[GAME exFAT BP 4.xx]",
           "url": "https://link-vault.org/c/gxh-ERFU#AkiraBox",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Akia"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/69R1CZUj#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "Five Nights at Freddys Into the Pit (v02.000.001) - BP 4.xx - PPSA18431 - Dump"
         }
       ],
       "sizeBytes": 4294967296,
@@ -63673,7 +63682,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:13.228031+00:00",
+      "_enrichedAt": "2026-11-25T05:12:54.644846+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "five-nights-at-freddys-security-breach",
@@ -63835,7 +63844,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:13.228063+00:00",
+      "_enrichedAt": "2026-11-25T05:12:54.720136+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "flashback-2-2",
@@ -64045,12 +64054,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:14.017601+00:00",
+      "_enrichedAt": "2026-11-25T05:12:54.859473+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "flintlock-the-siege-of-dawn",
         "rawgName": "Flintlock: The Siege of Dawn",
-        "rating": 2.86,
+        "rating": 2.89,
         "metacritic": null,
         "released": "2024-07-17",
         "genres": [
@@ -65078,7 +65087,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:14.017640+00:00",
+      "_enrichedAt": "2026-11-25T05:12:55.383171+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "project-athia",
@@ -65324,7 +65333,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:14.017675+00:00",
+      "_enrichedAt": "2026-11-25T05:12:55.540281+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "fort-solis",
@@ -65742,7 +65751,7 @@
         "PKG",
         "Backport"
       ],
-      "_enrichedAt": "2026-10-25T05:13:14.023825+00:00",
+      "_enrichedAt": "2026-11-25T05:12:55.540333+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "forza-horizon-5",
@@ -65787,10 +65796,11 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/bYixT7s9#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Front Mission 1st Remake (v03.001) - BP 4.xx - PPSA16439 - Dump"
         },
         {
           "name": "[FIX FPKG BP 4.xx]",
@@ -65900,7 +65910,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:14.347473+00:00",
+      "_enrichedAt": "2026-11-25T05:12:55.615634+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "frostpunk-2",
@@ -66716,7 +66726,7 @@
         "PKG"
       ],
       "sizeBytes": 13958643712,
-      "_enrichedAt": "2026-10-25T05:13:14.636605+00:00",
+      "_enrichedAt": "2026-11-25T05:12:55.928679+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "gangs-of-sherwood",
@@ -67395,12 +67405,12 @@
         "Folder",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:14.988508+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.003241+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "gears-of-war-reloaded",
         "rawgName": "Gears of War: Reloaded",
-        "rating": 2.86,
+        "rating": 2.91,
         "metacritic": null,
         "released": "2025-08-26",
         "genres": [
@@ -67771,7 +67781,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:15.159990+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.048075+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ghost-of-tsushima",
@@ -67982,7 +67992,7 @@
         "PKG"
       ],
       "sizeBytes": 119185342464,
-      "_enrichedAt": "2026-10-25T05:13:15.160031+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.555411+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ghost-of-tsushima",
@@ -68457,7 +68467,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:15.371788+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.555446+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ghost-of-yotei",
@@ -68773,7 +68783,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:15.529554+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.555463+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ghostbusters-spirits-unleashed-ecto-edition",
@@ -69009,7 +69019,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:15.852947+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.555495+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ghostrunner",
@@ -69241,12 +69251,12 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:15.852978+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.693960+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ghostrunner-2",
         "rawgName": "Ghostrunner 2",
-        "rating": 3.77,
+        "rating": 3.78,
         "metacritic": null,
         "released": "2023-10-26",
         "genres": [
@@ -69397,7 +69407,7 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:16.431275+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.816203+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ghostwire-tokio",
@@ -69813,7 +69823,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:16.431309+00:00",
+      "_enrichedAt": "2026-11-25T05:12:56.858639+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "goat-simulator-3",
@@ -70029,7 +70039,7 @@
         "PKG",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:16.624074+00:00",
+      "_enrichedAt": "2026-11-25T05:12:57.029845+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "god-of-rock",
@@ -70292,7 +70302,7 @@
         "Backport 4.xx",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:16.761088+00:00",
+      "_enrichedAt": "2026-11-25T05:12:57.480828+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "god-of-war-ragnarok-valhalla",
@@ -71303,12 +71313,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:16.915841+00:00",
+      "_enrichedAt": "2026-11-25T05:12:57.561381+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "batman-gotham-knights",
         "rawgName": "Gotham Knights",
-        "rating": 2.61,
+        "rating": 2.62,
         "metacritic": 66,
         "released": "2022-10-21",
         "genres": [
@@ -72505,7 +72515,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:17.210197+00:00",
+      "_enrichedAt": "2026-11-25T05:12:58.108551+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "grand-theft-auto-iii-the-definitive-edition",
@@ -72785,7 +72795,7 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:17.483287+00:00",
+      "_enrichedAt": "2026-11-25T05:12:58.108591+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "grand-theft-auto-san-andreas-the-definitive-editio",
@@ -73090,7 +73100,7 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:17.483324+00:00",
+      "_enrichedAt": "2026-11-25T05:12:58.684750+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "grand-theft-auto-v",
@@ -73246,7 +73256,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:18.100941+00:00",
+      "_enrichedAt": "2026-11-25T05:12:58.684788+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "grand-theft-auto-vice-city-the-definitive-edition",
@@ -73370,7 +73380,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:18.100975+00:00",
+      "_enrichedAt": "2026-11-25T05:12:58.684815+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "grand-theft-auto-the-trilogy-the-definitive-editio",
@@ -73527,7 +73537,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:18.101000+00:00",
+      "_enrichedAt": "2026-11-25T05:12:58.870674+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "graven-2",
@@ -74493,7 +74503,7 @@
         "FPKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.419127+00:00",
+      "_enrichedAt": "2026-11-25T05:12:59.131677+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "grid-legends",
@@ -74737,7 +74747,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.419167+00:00",
+      "_enrichedAt": "2026-11-25T05:12:59.131716+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "gris",
@@ -75032,12 +75042,12 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.419201+00:00",
+      "_enrichedAt": "2026-11-25T05:12:59.386602+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "guilty-gear-2020",
         "rawgName": "Guilty Gear -Strive",
-        "rating": 4.23,
+        "rating": 4.24,
         "metacritic": 85,
         "released": "2021-06-11",
         "genres": [
@@ -75661,7 +75671,7 @@
         "Backport 5.xx",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.419230+00:00",
+      "_enrichedAt": "2026-11-25T05:12:59.499008+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "gylt",
@@ -76664,14 +76674,14 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.419258+00:00",
+      "_enrichedAt": "2026-11-25T05:12:59.922983+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "hell-is-us",
         "rawgName": "Hell is Us",
-        "rating": 3.52,
+        "rating": 3.55,
         "metacritic": null,
-        "released": "2025-09-04",
+        "released": "2025-09-03",
         "genres": [
           "Adventure",
           "Action"
@@ -76881,7 +76891,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.419283+00:00",
+      "_enrichedAt": "2026-11-25T05:12:59.923019+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "hellboy-web-of-wyrd",
@@ -77049,7 +77059,7 @@
         "ZIP",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.681663+00:00",
+      "_enrichedAt": "2026-11-25T05:13:00.023797+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "hellboy-web-of-wyrd",
@@ -78003,7 +78013,7 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.742960+00:00",
+      "_enrichedAt": "2026-11-25T05:13:01.138841+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "high-on-life",
@@ -78096,7 +78106,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.789672+00:00",
+      "_enrichedAt": "2026-11-25T05:13:01.138876+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "high-on-life-2",
@@ -78537,7 +78547,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:19.969297+00:00",
+      "_enrichedAt": "2026-11-25T05:13:01.138890+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "hoa",
@@ -79041,7 +79051,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:20.367053+00:00",
+      "_enrichedAt": "2026-11-25T05:13:01.639665+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "hogwarts-legacy",
@@ -79547,6 +79557,12 @@
           "sizeBytes": 124543314165
         },
         {
+          "name": "[GAME exFAT BP]",
+          "url": "https://vikingfile.com/f/ytlAdbExPm",
+          "group": "exFAT · Backport",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME exFAT BP 116 Go]",
           "url": "https://datanodes.to/w815mry9bvvk",
           "group": "exFAT · Backport",
@@ -79764,7 +79780,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:20.732224+00:00",
+      "_enrichedAt": "2026-11-25T05:13:01.681490+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "horizon-forbidden-westtm-complete-edition",
@@ -80392,7 +80408,7 @@
         "RAR"
       ],
       "sizeBytes": 186831077376,
-      "_enrichedAt": "2026-10-25T05:13:20.977511+00:00",
+      "_enrichedAt": "2026-11-25T05:13:01.681517+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "horizon-forbidden-westtm-complete-edition",
@@ -80724,7 +80740,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:20.977550+00:00",
+      "_enrichedAt": "2026-11-25T05:13:01.685272+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "horizon-zero-dawn-remastered",
@@ -81524,7 +81540,7 @@
         "PKG"
       ],
       "sizeBytes": 53687091200,
-      "_enrichedAt": "2026-10-25T05:13:21.191351+00:00",
+      "_enrichedAt": "2026-11-25T05:13:02.060726+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "hot-wheels-unleashed",
@@ -81888,7 +81904,7 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:21.631469+00:00",
+      "_enrichedAt": "2026-11-25T05:13:02.157310+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "hot-wheels-unleashed",
@@ -82141,7 +82157,7 @@
         "Backport 5.xx"
       ],
       "sizeBytes": 34359738368,
-      "_enrichedAt": "2026-10-25T05:13:21.631522+00:00",
+      "_enrichedAt": "2026-11-25T05:13:02.228386+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "hubris-2",
@@ -82720,12 +82736,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:21.631553+00:00",
+      "_enrichedAt": "2026-11-25T05:13:02.309571+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "gods-monsters",
         "rawgName": "Immortals: Fenyx Rising",
-        "rating": 3.73,
+        "rating": 3.72,
         "metacritic": 78,
         "released": "2020-12-03",
         "genres": [
@@ -83009,12 +83025,12 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:22.194177+00:00",
+      "_enrichedAt": "2026-11-25T05:13:02.470047+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "immortals-of-aveum",
         "rawgName": "Immortals of Aveum",
-        "rating": 2.79,
+        "rating": 2.82,
         "metacritic": null,
         "released": "2023-08-21",
         "genres": [
@@ -83220,12 +83236,12 @@
         "unknown",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:22.194213+00:00",
+      "_enrichedAt": "2026-11-25T05:13:02.898101+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "in-sound-mind",
         "rawgName": "In Sound Mind",
-        "rating": 4.05,
+        "rating": 4.0,
         "metacritic": 74,
         "released": "2021-09-28",
         "genres": [
@@ -83899,7 +83915,7 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:22.219075+00:00",
+      "_enrichedAt": "2026-11-25T05:13:02.898131+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "indiana-jones-and-the-great-circle",
@@ -84250,12 +84266,12 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:23.242755+00:00",
+      "_enrichedAt": "2026-11-25T05:13:03.115370+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "indika",
         "rawgName": "Indika",
-        "rating": 3.97,
+        "rating": 3.96,
         "metacritic": null,
         "released": "2024-05-02",
         "genres": [
@@ -84977,7 +84993,7 @@
         "Backport 4.xx",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:23.242786+00:00",
+      "_enrichedAt": "2026-11-25T05:13:03.358811+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "invincible-vs",
@@ -85272,7 +85288,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:23.242803+00:00",
+      "_enrichedAt": "2026-11-25T05:13:04.179066+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "it-takes-two-2",
@@ -86106,12 +86122,12 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:23.242848+00:00",
+      "_enrichedAt": "2026-11-25T05:13:04.179103+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "jitsu-squad",
         "rawgName": "Jitsu Squad",
-        "rating": 3.17,
+        "rating": 2.86,
         "metacritic": null,
         "released": "2021-02-18",
         "genres": [
@@ -86385,7 +86401,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:23.242880+00:00",
+      "_enrichedAt": "2026-11-25T05:13:04.179148+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "jojos-bizarre-adventure-all-star-battle-r",
@@ -86640,7 +86656,7 @@
         "RAR"
       ],
       "sizeBytes": 37580963840,
-      "_enrichedAt": "2026-10-25T05:13:23.657170+00:00",
+      "_enrichedAt": "2026-11-25T05:13:04.179181+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "judgment-2",
@@ -87013,7 +87029,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:23.657204+00:00",
+      "_enrichedAt": "2026-11-25T05:13:04.323697+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "jumping-flash",
@@ -87324,7 +87340,7 @@
         "Backport 6.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:24.125605+00:00",
+      "_enrichedAt": "2026-11-25T05:13:04.887339+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "jurassic-park-classic-games-collection",
@@ -88170,7 +88186,7 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:24.125642+00:00",
+      "_enrichedAt": "2026-11-25T05:13:05.394550+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "jusant",
@@ -88691,12 +88707,12 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:24.580280+00:00",
+      "_enrichedAt": "2026-11-25T05:13:05.394586+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "kao-the-kangaroo-2022",
         "rawgName": "Kao the Kangaroo",
-        "rating": 3.39,
+        "rating": 3.46,
         "metacritic": null,
         "released": "2022-05-27",
         "genres": [
@@ -89078,7 +89094,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:24.580306+00:00",
+      "_enrichedAt": "2026-11-25T05:13:05.394599+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "kena-bridge-of-spirits",
@@ -89285,12 +89301,12 @@
         "exFAT",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:25.013998+00:00",
+      "_enrichedAt": "2026-11-25T05:13:05.451240+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "keywe",
         "rawgName": "KeyWe",
-        "rating": 3.76,
+        "rating": 3.77,
         "metacritic": 74,
         "released": "2021-08-31",
         "genres": [
@@ -89398,12 +89414,12 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:25.014031+00:00",
+      "_enrichedAt": "2026-11-25T05:13:05.888903+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "kid-a-mnesia-exhibition",
         "rawgName": "Kid A Mnesia: Exhibition",
-        "rating": 4.26,
+        "rating": 4.17,
         "metacritic": null,
         "released": "2021-11-18",
         "genres": [
@@ -90278,7 +90294,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:25.014047+00:00",
+      "_enrichedAt": "2026-11-25T05:13:05.918808+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "kitaria-fables",
@@ -90787,10 +90803,11 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/mAempS5d#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Laika Aged Through Blood (v04.000) - BP 4.xx - PPSA17775 - Dump"
         },
         {
           "name": "[FIX FPKG BP 4.xx]",
@@ -91030,7 +91047,7 @@
         "PKG",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.115974+00:00",
+      "_enrichedAt": "2026-11-25T05:13:05.977265+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "last-days-of-lazarus",
@@ -91178,7 +91195,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.116010+00:00",
+      "_enrichedAt": "2026-11-25T05:13:06.227628+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "layers-of-fears",
@@ -91469,7 +91486,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.116030+00:00",
+      "_enrichedAt": "2026-11-25T05:13:06.573519+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "legacy-of-kaintm-soul-reaver-12-remastered",
@@ -91796,12 +91813,12 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.116048+00:00",
+      "_enrichedAt": "2026-11-25T05:13:06.713526+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lego-2k-drive",
         "rawgName": "LEGO 2K Drive",
-        "rating": 2.81,
+        "rating": 2.88,
         "metacritic": null,
         "released": "2023-05-18",
         "genres": [
@@ -92634,7 +92651,7 @@
         "Backport 6.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.116086+00:00",
+      "_enrichedAt": "2026-11-25T05:13:06.927224+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lego-horizon-adventures",
@@ -92927,7 +92944,7 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.424131+00:00",
+      "_enrichedAt": "2026-11-25T05:13:06.927255+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lego-star-wars-the-sywalker-saga",
@@ -93541,7 +93558,7 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.571465+00:00",
+      "_enrichedAt": "2026-11-25T05:13:07.346286+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lies-of-p-overture",
@@ -93736,7 +93753,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.991737+00:00",
+      "_enrichedAt": "2026-11-25T05:13:07.346331+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "life-is-strange-double-exposure",
@@ -93865,7 +93882,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:26.991776+00:00",
+      "_enrichedAt": "2026-11-25T05:13:07.735645+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "life-is-strange-remastered",
@@ -93972,7 +93989,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.474034+00:00",
+      "_enrichedAt": "2026-11-25T05:13:07.735684+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "life-is-strange-true-colors",
@@ -94042,7 +94059,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.474071+00:00",
+      "_enrichedAt": "2026-11-25T05:13:07.960354+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "life-is-strange-remastered",
@@ -95017,7 +95034,7 @@
         "APR-EMU",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.474109+00:00",
+      "_enrichedAt": "2026-11-25T05:13:08.175782+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "like-a-dragon-infinite-wealth",
@@ -95455,7 +95472,7 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.474151+00:00",
+      "_enrichedAt": "2026-11-25T05:13:09.904979+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "like-a-dragon-ishin",
@@ -96460,6 +96477,12 @@
           "sizeBytes": 27992449351
         },
         {
+          "name": "[GAME exFAT BP]",
+          "url": "https://vikingfile.com/f/XkiG2vMkBp",
+          "group": "exFAT · Backport",
+          "mirror": "Viki"
+        },
+        {
           "name": "[GAME PKG USA]",
           "url": "https://vikingfile.com/f/2hlmuAlxRy",
           "group": "Standard",
@@ -96500,6 +96523,12 @@
           "mirror": "Akia",
           "fileName": "All_6DLCs_Pkykzhack.rar",
           "sizeBytes": 5788139
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://vikingfile.com/f/Sx06PutuWZ",
+          "group": "exFAT · DLC",
+          "mirror": "Viki"
         },
         {
           "name": "[FIX BP 39 Mo USA]",
@@ -97119,7 +97148,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.474183+00:00",
+      "_enrichedAt": "2026-11-25T05:13:09.905021+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lollipop-chainsaw-remake",
@@ -97669,12 +97698,12 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.474218+00:00",
+      "_enrichedAt": "2026-11-25T05:13:09.905055+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lords-of-the-fallen-2",
         "rawgName": "Lords of the Fallen",
-        "rating": 3.31,
+        "rating": 3.28,
         "metacritic": null,
         "released": "2023-10-13",
         "genres": [
@@ -98343,7 +98372,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.474234+00:00",
+      "_enrichedAt": "2026-11-25T05:13:09.905069+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lost-epic",
@@ -98507,7 +98536,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.474256+00:00",
+      "_enrichedAt": "2026-11-25T05:13:09.905091+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lost-in-random",
@@ -98582,7 +98611,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:28.980237+00:00",
+      "_enrichedAt": "2026-11-25T05:13:09.905114+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lost-judgment",
@@ -98706,7 +98735,7 @@
         "RAR"
       ],
       "sizeBytes": 69793218560,
-      "_enrichedAt": "2026-10-25T05:13:29.316133+00:00",
+      "_enrichedAt": "2026-11-25T05:13:09.905137+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lost-judgment",
@@ -98982,7 +99011,7 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:29.316165+00:00",
+      "_enrichedAt": "2026-11-25T05:13:10.338785+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "lost-soul-aside",
@@ -99407,7 +99436,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:29.316206+00:00",
+      "_enrichedAt": "2026-11-25T05:13:10.338833+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "luto",
@@ -100466,7 +100495,7 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:29.517255+00:00",
+      "_enrichedAt": "2026-11-25T05:13:10.338871+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "madison",
@@ -100672,12 +100701,12 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:29.839270+00:00",
+      "_enrichedAt": "2026-11-25T05:13:10.513972+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "mafia-the-old-country",
         "rawgName": "Mafia: The Old Country",
-        "rating": 3.81,
+        "rating": 3.79,
         "metacritic": null,
         "released": "2025-08-08",
         "genres": [
@@ -101784,7 +101813,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:29.839307+00:00",
+      "_enrichedAt": "2026-11-25T05:13:10.575970+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "maneater",
@@ -101978,7 +102007,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:30.453398+00:00",
+      "_enrichedAt": "2026-11-25T05:13:10.917913+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "martha-is-dead",
@@ -102322,7 +102351,7 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:30.453434+00:00",
+      "_enrichedAt": "2026-11-25T05:13:11.023447+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "guardians-of-the-galaxy",
@@ -104581,7 +104610,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:33.610578+00:00",
+      "_enrichedAt": "2026-11-25T05:13:11.144710+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "marvels-spider-man-miles-morales",
@@ -106128,7 +106157,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:33.997406+00:00",
+      "_enrichedAt": "2026-11-25T05:13:11.732560+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "metal-gear-solid-d-snake-eater",
@@ -106805,7 +106834,7 @@
         "Backport 7.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:33.997439+00:00",
+      "_enrichedAt": "2026-11-25T05:13:11.955107+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "metal-gear-solid-delta-snake-eater",
@@ -106938,7 +106967,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:33.997451+00:00",
+      "_enrichedAt": "2026-11-25T05:13:11.955145+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "metal-gear-solid-master-collection-vol-1",
@@ -107138,7 +107167,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:34.339363+00:00",
+      "_enrichedAt": "2026-11-25T05:13:11.955167+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "metal-gear-solid-master-collection-vol-1",
@@ -107251,16 +107280,18 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/fySIHQd8#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "METAL SLUG ATTACK RELOADED (v01.001) - BP 4.xx - PPSA15476 - Dump"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/4O5VLxgR#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "METAL SLUG ATTACK RELOADED (v01.001) - BP 4.xx - PPSA15476 - FPKG"
         }
       ],
       "sizeBytes": 7516192768,
@@ -107867,12 +107898,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:35.230709+00:00",
+      "_enrichedAt": "2026-11-25T05:13:12.258725+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "metaphor-refantazio",
         "rawgName": "Metaphor: ReFantazio",
-        "rating": 4.27,
+        "rating": 4.28,
         "metacritic": null,
         "released": "2024-10-11",
         "genres": [
@@ -107927,7 +107958,7 @@
         "Backport"
       ],
       "sizeBytes": 96636764160,
-      "_enrichedAt": "2026-10-25T05:13:35.230745+00:00",
+      "_enrichedAt": "2026-11-25T05:13:12.279234+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "metro-awakening",
@@ -108196,7 +108227,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:35.230783+00:00",
+      "_enrichedAt": "2026-11-25T05:13:12.550789+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "metro-exodus",
@@ -109365,7 +109396,7 @@
         "Backport 4.xx",
         "Backport 9.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:35.230829+00:00",
+      "_enrichedAt": "2026-11-25T05:13:12.765754+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "mindseye",
@@ -109538,7 +109569,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:35.230866+00:00",
+      "_enrichedAt": "2026-11-25T05:13:12.931327+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "minecraft-legends",
@@ -109653,7 +109684,7 @@
         "RAR"
       ],
       "sizeBytes": 7191848373,
-      "_enrichedAt": "2026-10-25T05:13:35.230899+00:00",
+      "_enrichedAt": "2026-11-25T05:13:13.419972+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "minecraft-legends",
@@ -110161,7 +110192,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:35.405751+00:00",
+      "_enrichedAt": "2026-11-25T05:13:13.799449+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "monster-boy-and-the-cursed-kingdom",
@@ -110412,7 +110443,7 @@
         "PKG"
       ],
       "sizeBytes": 26843545600,
-      "_enrichedAt": "2026-10-25T05:13:35.433642+00:00",
+      "_enrichedAt": "2026-11-25T05:13:13.799479+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "monster-energy-supercross-the-official-videogame-4",
@@ -110515,7 +110546,7 @@
         "PKG"
       ],
       "sizeBytes": 51539607552,
-      "_enrichedAt": "2026-10-25T05:13:35.713816+00:00",
+      "_enrichedAt": "2026-11-25T05:13:14.114376+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "monster-energy-supercross-the-official-videogame-4",
@@ -110756,7 +110787,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:35.405797+00:00",
+      "_enrichedAt": "2026-11-25T05:13:14.114414+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "monster-energy-supercross-the-official-videogame-4",
@@ -110892,12 +110923,12 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:35.970198+00:00",
+      "_enrichedAt": "2026-11-25T05:13:14.114441+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "monster-hunter-stories-3-twisted-reflection",
         "rawgName": "Monster Hunter Stories 3: Twisted Reflection",
-        "rating": 4.25,
+        "rating": 4.33,
         "metacritic": null,
         "released": "2026-03-13",
         "genres": [
@@ -110999,7 +111030,7 @@
         "unknown"
       ],
       "sizeBytes": 121332826112,
-      "_enrichedAt": "2026-10-25T05:13:35.970230+00:00",
+      "_enrichedAt": "2026-11-25T05:13:14.358092+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "monster-hunter-wilds",
@@ -111528,7 +111559,7 @@
         "PKG"
       ],
       "sizeBytes": 48318382080,
-      "_enrichedAt": "2026-10-25T05:13:36.072607+00:00",
+      "_enrichedAt": "2026-11-25T05:13:14.436149+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "monster-truck-championship",
@@ -111786,7 +111817,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:36.368050+00:00",
+      "_enrichedAt": "2026-11-25T05:13:14.813793+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "morbid-the-lords-of-ire",
@@ -112228,7 +112259,7 @@
         "Backport 6.xx",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:36.410331+00:00",
+      "_enrichedAt": "2026-11-25T05:13:15.466523+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "mortal-kombat-1-2023",
@@ -112487,7 +112518,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:36.764108+00:00",
+      "_enrichedAt": "2026-11-25T05:13:15.466558+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "mortal-kombat-11-ultimate",
@@ -112872,7 +112903,7 @@
         "PKG",
         "Backport 9.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:37.192848+00:00",
+      "_enrichedAt": "2026-11-25T05:13:15.466585+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "mortal-kombat-legacy-kollection",
@@ -113093,12 +113124,12 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:37.192876+00:00",
+      "_enrichedAt": "2026-11-25T05:13:15.466600+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "mortal-shell",
         "rawgName": "Mortal Shell",
-        "rating": 3.22,
+        "rating": 3.21,
         "metacritic": 75,
         "released": "2020-08-18",
         "genres": [
@@ -113298,7 +113329,7 @@
         "unknown"
       ],
       "sizeBytes": 19327352832,
-      "_enrichedAt": "2026-10-25T05:13:37.192906+00:00",
+      "_enrichedAt": "2026-11-25T05:13:15.933837+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "motogp-21",
@@ -113418,7 +113449,7 @@
         "PKG"
       ],
       "sizeBytes": 21474836480,
-      "_enrichedAt": "2026-10-25T05:13:37.532280+00:00",
+      "_enrichedAt": "2026-11-25T05:13:15.933876+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "motogp-22",
@@ -114121,6 +114152,45 @@
       "formatLabel": "FPKG · PKG · Backport"
     },
     {
+      "titleId": "PPSA35314",
+      "title": "MudRunner American Wilds Edition",
+      "version": "01.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/MudRunner_AWE.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/h8MDTohe#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/TUybB52w#DataVaults",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://link-vault.org/c/sTeQjokA#DataNodes",
+          "group": "exFAT · DLC",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 2147483648,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-25T05:12:13.680627+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA03190",
       "title": "MultiVersus",
       "version": "01.055",
@@ -114692,7 +114762,7 @@
         "PKG"
       ],
       "sizeBytes": 32212254720,
-      "_enrichedAt": "2026-10-25T05:13:37.670655+00:00",
+      "_enrichedAt": "2026-11-25T05:13:23.497498+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "mxgp-2020-the-official-motocross-videogame",
@@ -116476,7 +116546,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:38.914820+00:00",
+      "_enrichedAt": "2026-11-25T05:13:23.497536+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "nba-2k24",
@@ -117078,7 +117148,7 @@
         "RAR"
       ],
       "sizeBytes": 149250113536,
-      "_enrichedAt": "2026-10-25T05:13:38.914886+00:00",
+      "_enrichedAt": "2026-11-25T05:13:23.787253+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "nba-2k25",
@@ -117970,12 +118040,12 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:38.914946+00:00",
+      "_enrichedAt": "2026-11-25T05:13:23.787292+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "necromunda-hired-gun",
         "rawgName": "Necromunda: Hired Gun",
-        "rating": 2.91,
+        "rating": 2.92,
         "metacritic": null,
         "released": "2021-05-31",
         "genres": [
@@ -118044,12 +118114,6 @@
           "mirror": "Akia",
           "fileName": "PPSA01716-Compressed.7z",
           "sizeBytes": 33264521707
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/89suBBgK5i",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 4.xx 31 Go]",
@@ -118306,7 +118370,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:38.914996+00:00",
+      "_enrichedAt": "2026-11-25T05:13:23.787328+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "need-for-speed-unbound",
@@ -118603,7 +118667,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:38.915039+00:00",
+      "_enrichedAt": "2026-11-25T05:13:24.466845+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "neptunia-reverse",
@@ -118787,7 +118851,7 @@
         "PKG"
       ],
       "sizeBytes": 21474836480,
-      "_enrichedAt": "2026-10-25T05:13:38.915052+00:00",
+      "_enrichedAt": "2026-11-25T05:13:24.810642+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "nerf-legends",
@@ -118959,7 +119023,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:39.226505+00:00",
+      "_enrichedAt": "2026-11-25T05:13:25.057871+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "neva-2",
@@ -119461,7 +119525,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:39.226547+00:00",
+      "_enrichedAt": "2026-11-25T05:13:25.057908+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "new-tales-from-the-borderlands",
@@ -120081,7 +120145,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:39.516063+00:00",
+      "_enrichedAt": "2026-11-25T05:13:26.130329+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "nickelodeon-all-star-brawl",
@@ -120255,7 +120319,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:44.962114+00:00",
+      "_enrichedAt": "2026-11-25T05:13:26.872741+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "nickelodeon-all-star-brawl",
@@ -120434,7 +120498,7 @@
         "PKG"
       ],
       "sizeBytes": 10737418240,
-      "_enrichedAt": "2026-10-25T05:13:44.962180+00:00",
+      "_enrichedAt": "2026-11-25T05:13:26.872778+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "nickelodeon-kart-racers-3-slime-speedway",
@@ -120807,7 +120871,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:44.962235+00:00",
+      "_enrichedAt": "2026-11-25T05:13:26.872816+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ninja-gaiden-2-black",
@@ -121098,7 +121162,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:44.962277+00:00",
+      "_enrichedAt": "2026-11-25T05:13:27.051284+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ninja-gaiden-4",
@@ -121210,7 +121274,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:44.962319+00:00",
+      "_enrichedAt": "2026-11-25T05:13:27.083854+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ninja-gaiden-ragebound",
@@ -122156,7 +122220,7 @@
         "exFAT",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:45.343322+00:00",
+      "_enrichedAt": "2026-11-25T05:13:27.372878+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "nioh-3",
@@ -122954,7 +123018,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:45.354991+00:00",
+      "_enrichedAt": "2026-11-25T05:13:27.415441+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "no-more-heroes-3",
@@ -123018,14 +123082,6 @@
           "mirror": "Viki",
           "fileName": "PPSA22652-Compressed.7z",
           "sizeBytes": 9244917104
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx 9 Go]",
-          "url": "https://datanodes.to/xk905zjezp5g",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Data",
-          "fileName": "PPSA22652-Compressed.7z",
-          "sizeBytes": 9234179686
         },
         {
           "name": "[GAME exFAT BP 4.xx 9 Go]",
@@ -123290,7 +123346,7 @@
         "FPKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:45.389652+00:00",
+      "_enrichedAt": "2026-11-25T05:13:27.554703+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "observer-system-redux",
@@ -123709,12 +123765,12 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:45.585323+00:00",
+      "_enrichedAt": "2026-11-25T05:13:27.646516+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "octopath-traveller-2",
         "rawgName": "Octopath Traveler 2",
-        "rating": 4.29,
+        "rating": 4.27,
         "metacritic": null,
         "released": "2023-02-24",
         "genres": [
@@ -124538,12 +124594,12 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:45.912940+00:00",
+      "_enrichedAt": "2026-11-25T05:13:29.522078+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "one-piece-odyssey",
         "rawgName": "One Piece Odyssey",
-        "rating": 3.08,
+        "rating": 3.11,
         "metacritic": null,
         "released": "2023-01-13",
         "genres": [
@@ -125076,7 +125132,7 @@
         "Folder",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:45.912981+00:00",
+      "_enrichedAt": "2026-11-25T05:13:29.526289+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "outcast-2-a-new-beginning",
@@ -126002,7 +126058,7 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:45.912999+00:00",
+      "_enrichedAt": "2026-11-25T05:13:30.701146+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "override-2-super-mech-league",
@@ -126283,13 +126339,6 @@
           "group": "Standard",
           "version": "01.000",
           "mirror": "1File"
-        },
-        {
-          "name": "[GAME PKG v01.000]",
-          "url": "https://akirabox.com/vgKGxxQA2G8Q/file",
-          "group": "Standard",
-          "version": "01.000",
-          "mirror": "Akia"
         }
       ],
       "downloadSource": "https://phoenixdl.com",
@@ -126301,20 +126350,20 @@
         "PKG"
       ],
       "sizeBytes": 93415538688,
-      "_enrichedAt": "2026-10-25T05:12:45.894602+00:00",
+      "_enrichedAt": "2026-11-25T05:13:30.701187+00:00",
       "_rawgMatched": true,
       "metadata": {
-        "rawgSlug": "asterigos-curse-of-the-stars",
-        "rawgName": "Asterigos: Curse of the Stars",
-        "rating": 3.36,
+        "rawgSlug": "oxide-room-104",
+        "rawgName": "Oxide Room 104",
+        "rating": 2.92,
         "metacritic": null,
-        "released": "2022-10-11",
+        "released": "2022-06-15",
         "genres": [
+          "Indie",
           "Adventure",
-          "Action",
-          "RPG"
+          "Action"
         ],
-        "rawgBackground": "https://media.rawg.io/media/games/a32/a32694acd6a88dc463e58082d49d272a.jpg"
+        "rawgBackground": "https://media.rawg.io/media/screenshots/e7c/e7cab15e02755da713ea534419f9b058.jpg"
       },
       "_igdbEnrichedAt": "2026-06-28T21:35:28.324114+00:00",
       "_igdbMatched": true,
@@ -126612,7 +126661,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:46.098743+00:00",
+      "_enrichedAt": "2026-11-25T05:13:30.701244+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "pac-man-world-re-pac",
@@ -126971,7 +127020,7 @@
         "Backport 5.xx"
       ],
       "sizeBytes": 47244640256,
-      "_enrichedAt": "2026-10-25T05:13:46.175244+00:00",
+      "_enrichedAt": "2026-11-25T05:13:30.701272+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "pacific-drive",
@@ -127345,7 +127394,7 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:46.368436+00:00",
+      "_enrichedAt": "2026-11-25T05:13:30.816004+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "painkiller-2025",
@@ -127712,7 +127761,7 @@
         "Backport",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:46.438095+00:00",
+      "_enrichedAt": "2026-11-25T05:13:31.021811+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "park-beyond",
@@ -127841,7 +127890,7 @@
         "PKG"
       ],
       "sizeBytes": 31138512896,
-      "_enrichedAt": "2026-10-25T05:13:46.736046+00:00",
+      "_enrichedAt": "2026-11-25T05:13:31.722076+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "park-beyond",
@@ -128623,12 +128672,12 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:46.736081+00:00",
+      "_enrichedAt": "2026-11-25T05:13:31.722117+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "persona-3-reload",
         "rawgName": "Persona 3 Reload",
-        "rating": 4.36,
+        "rating": 4.37,
         "metacritic": null,
         "released": "2024-02-01",
         "genres": [
@@ -129563,7 +129612,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:46.980618+00:00",
+      "_enrichedAt": "2026-11-25T05:13:31.722159+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "planet-coaster",
@@ -130354,12 +130403,12 @@
         "PKG"
       ],
       "sizeBytes": 66571993088,
-      "_enrichedAt": "2026-10-25T05:13:47.204730+00:00",
+      "_enrichedAt": "2026-11-25T05:13:32.012711+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "police-simulator-patrol-officers",
         "rawgName": "Police Simulator: Patrol Officers",
-        "rating": 3.34,
+        "rating": 3.4,
         "metacritic": null,
         "released": "2021-06-17",
         "genres": [
@@ -130960,12 +131009,6 @@
           "mirror": "Filek"
         },
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://akirabox.com/gXeGOAwaA3Aa/file",
-          "group": "exFAT · Dump",
-          "mirror": "Akia"
-        },
-        {
           "name": "[#01 GAME exFAT Dump]",
           "url": "https://fileditchfiles.st/balpha25/47f8c8cfe7361e9a491f/PPSA25063.7z",
           "group": "exFAT · Dump",
@@ -130976,12 +131019,6 @@
           "url": "https://vikingfile.com/f/W1MP1dRI4L",
           "group": "exFAT · Dump",
           "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/0rpmvpBYgzRg/file",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
         },
         {
           "name": "[#01 GAME exFAT BP 4.xx]",
@@ -131586,7 +131623,7 @@
         "PKG",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:47.807626+00:00",
+      "_enrichedAt": "2026-11-25T05:13:32.012753+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "potion-permit",
@@ -132126,12 +132163,12 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:47.807660+00:00",
+      "_enrichedAt": "2026-11-25T05:13:32.208133+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "powerwash-simulator",
         "rawgName": "PowerWash Simulator",
-        "rating": 3.96,
+        "rating": 3.97,
         "metacritic": null,
         "released": "2022-07-14",
         "genres": [
@@ -132496,7 +132533,7 @@
         "Backport 5.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:47.807688+00:00",
+      "_enrichedAt": "2026-11-25T05:13:32.514352+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "pragmata",
@@ -132931,12 +132968,12 @@
         "Folder",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:47.903630+00:00",
+      "_enrichedAt": "2026-11-25T05:13:32.538691+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "prince-of-persia-the-lost-crown",
         "rawgName": "Prince of Persia: The Lost Crown",
-        "rating": 3.99,
+        "rating": 3.97,
         "metacritic": null,
         "released": "2024-01-18",
         "genres": [
@@ -133573,12 +133610,12 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:48.047200+00:00",
+      "_enrichedAt": "2026-11-25T05:13:32.643978+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "quake",
         "rawgName": "Quake",
-        "rating": 4.26,
+        "rating": 4.25,
         "metacritic": 94,
         "released": "1996-06-22",
         "genres": [
@@ -133763,12 +133800,12 @@
         "RAR",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:48.943433+00:00",
+      "_enrichedAt": "2026-11-25T05:13:32.644017+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "quake",
         "rawgName": "Quake",
-        "rating": 4.26,
+        "rating": 4.25,
         "metacritic": 94,
         "released": "1996-06-22",
         "genres": [
@@ -134042,7 +134079,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:48.943479+00:00",
+      "_enrichedAt": "2026-11-25T05:13:33.107249+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "quantum-error",
@@ -135205,7 +135242,7 @@
         "PKG"
       ],
       "sizeBytes": 31138512896,
-      "_enrichedAt": "2026-10-25T05:13:48.943517+00:00",
+      "_enrichedAt": "2026-11-25T05:13:33.110173+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "raidou-remastered-the-mystery-of-the-soulless-army",
@@ -135369,7 +135406,7 @@
         "APR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:48.943559+00:00",
+      "_enrichedAt": "2026-11-25T05:13:33.549178+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ratchet-clank-rift-apart",
@@ -135864,12 +135901,12 @@
         "Backport 4.xx",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:49.282465+00:00",
+      "_enrichedAt": "2026-11-25T05:13:33.549223+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "reanimal",
         "rawgName": "Reanimal",
-        "rating": 4.24,
+        "rating": 4.25,
         "metacritic": null,
         "released": "2026-02-12",
         "genres": [
@@ -135993,7 +136030,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:13:49.387345+00:00",
+      "_enrichedAt": "2026-11-25T05:13:33.858151+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "record-of-lodoss-war-deedlit-in-wonder-labyrinth",
@@ -136163,7 +136200,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:49.628127+00:00",
+      "_enrichedAt": "2026-11-25T05:13:33.858186+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "red-dead-redemption",
@@ -137277,7 +137314,7 @@
         "Backport 5.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:49.935048+00:00",
+      "_enrichedAt": "2026-11-25T05:13:34.012823+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "remnant-2",
@@ -137525,7 +137562,7 @@
         "Backport",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:49.935080+00:00",
+      "_enrichedAt": "2026-11-25T05:13:34.066962+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "resident-evil-2-2019",
@@ -137795,7 +137832,7 @@
         "PKG",
         "Backport"
       ],
-      "_enrichedAt": "2026-10-25T05:13:50.250430+00:00",
+      "_enrichedAt": "2026-11-25T05:13:34.127782+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "resident-evil-3",
@@ -138366,7 +138403,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:50.250477+00:00",
+      "_enrichedAt": "2026-11-25T05:13:34.451141+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "resident-evil-4-2023",
@@ -138643,12 +138680,12 @@
         "Backport 4.xx"
       ],
       "sizeBytes": 132070244352,
-      "_enrichedAt": "2026-10-25T05:13:51.443160+00:00",
+      "_enrichedAt": "2026-11-25T05:13:34.493209+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "resident-evil-9-requiem",
         "rawgName": "Resident Evil 9: Requiem",
-        "rating": 4.43,
+        "rating": 4.44,
         "metacritic": null,
         "released": "2026-02-27",
         "genres": [
@@ -139834,7 +139871,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:51.443190+00:00",
+      "_enrichedAt": "2026-11-25T05:13:34.507007+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "resident-evil-village",
@@ -139900,7 +139937,7 @@
         "PKG"
       ],
       "sizeBytes": 45097156608,
-      "_enrichedAt": "2026-10-25T05:13:51.443231+00:00",
+      "_enrichedAt": "2026-11-25T05:13:34.770633+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "resident-evil-village",
@@ -140336,7 +140373,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:51.443268+00:00",
+      "_enrichedAt": "2026-11-25T05:13:34.857802+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "returnal",
@@ -140761,7 +140798,7 @@
         "RAR"
       ],
       "sizeBytes": 13958643712,
-      "_enrichedAt": "2026-10-25T05:13:51.443295+00:00",
+      "_enrichedAt": "2026-11-25T05:13:35.351148+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "reynatis",
@@ -141263,7 +141300,7 @@
         "PKG"
       ],
       "sizeBytes": 53687091200,
-      "_enrichedAt": "2026-10-25T05:13:51.680464+00:00",
+      "_enrichedAt": "2026-11-25T05:13:35.351186+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ride-4",
@@ -142026,7 +142063,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:51.773336+00:00",
+      "_enrichedAt": "2026-11-25T05:13:35.351240+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "riders-republic",
@@ -143957,7 +143994,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:52.108793+00:00",
+      "_enrichedAt": "2026-11-25T05:13:36.374514+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "roadcraft-2",
@@ -144266,7 +144303,7 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:52.108831+00:00",
+      "_enrichedAt": "2026-11-25T05:13:36.374553+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "robocop-rogue-city",
@@ -144546,12 +144583,12 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:52.385508+00:00",
+      "_enrichedAt": "2026-11-25T05:13:36.374602+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "robocop-rogue-city-unfinished-business",
         "rawgName": "RoboCop: Rogue City - Unfinished Business",
-        "rating": 3.46,
+        "rating": 3.44,
         "metacritic": null,
         "released": "2025-07-16",
         "genres": [
@@ -144933,7 +144970,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:52.470110+00:00",
+      "_enrichedAt": "2026-11-25T05:13:36.374643+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "romancing-saga-2-revenge-of-the-seven",
@@ -145371,7 +145408,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:52.858059+00:00",
+      "_enrichedAt": "2026-11-25T05:13:36.374673+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "rugrats-adventures-in-gameland",
@@ -145696,12 +145733,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:52.953615+00:00",
+      "_enrichedAt": "2026-11-25T05:13:36.661713+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sackboy-a-big-adventure-2",
         "rawgName": "Sackboy: A Big Adventure",
-        "rating": 4.08,
+        "rating": 4.07,
         "metacritic": 81,
         "released": "2020-11-12",
         "genres": [
@@ -145764,12 +145801,12 @@
       "fileFormat": [
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:53.220394+00:00",
+      "_enrichedAt": "2026-11-25T05:13:37.524434+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sackboy-a-big-adventure-2",
         "rawgName": "Sackboy: A Big Adventure",
-        "rating": 4.08,
+        "rating": 4.07,
         "metacritic": 81,
         "released": "2020-11-12",
         "genres": [
@@ -146048,7 +146085,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:53.272167+00:00",
+      "_enrichedAt": "2026-11-25T05:13:37.524467+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "saints-row-the-third-remastered",
@@ -146814,7 +146851,7 @@
         "Backport 5.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:53.619824+00:00",
+      "_enrichedAt": "2026-11-25T05:13:37.524518+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sand-land",
@@ -147222,12 +147259,12 @@
         "Backport 5.xx",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:13:54.276561+00:00",
+      "_enrichedAt": "2026-11-25T05:13:37.676653+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "saros",
         "rawgName": "Saros",
-        "rating": 3.55,
+        "rating": 3.58,
         "metacritic": null,
         "released": "2026-04-30",
         "genres": [
@@ -147400,7 +147437,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:54.276593+00:00",
+      "_enrichedAt": "2026-11-25T05:13:37.676679+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "scarlet-nexus",
@@ -147681,7 +147718,7 @@
         "PKG",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:54.276647+00:00",
+      "_enrichedAt": "2026-11-25T05:13:38.845145+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "scars-above",
@@ -148079,7 +148116,7 @@
         "Backport 5.xx",
         "Backport 10.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:54.389605+00:00",
+      "_enrichedAt": "2026-11-25T05:13:38.845177+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "screamer-2026",
@@ -148205,7 +148242,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:54.621452+00:00",
+      "_enrichedAt": "2026-11-25T05:13:38.845191+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sd-gundam-battle-alliance",
@@ -148421,7 +148458,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:54.659257+00:00",
+      "_enrichedAt": "2026-11-25T05:13:38.846102+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sea-of-stars-2",
@@ -148863,7 +148900,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:54.828828+00:00",
+      "_enrichedAt": "2026-11-25T05:13:38.846114+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "selfloss",
@@ -149080,7 +149117,7 @@
         "PKG"
       ],
       "sizeBytes": 24696061952,
-      "_enrichedAt": "2026-10-25T05:13:55.475183+00:00",
+      "_enrichedAt": "2026-11-25T05:13:38.953544+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "session-skate-sim",
@@ -149176,12 +149213,12 @@
         "PKG"
       ],
       "sizeBytes": 24696061952,
-      "_enrichedAt": "2026-10-25T05:13:55.555198+00:00",
+      "_enrichedAt": "2026-11-25T05:13:38.985420+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "severed-steel",
         "rawgName": "Severed Steel",
-        "rating": 3.97,
+        "rating": 3.96,
         "metacritic": null,
         "released": "2021-09-16",
         "genres": [
@@ -149194,6 +149231,59 @@
       "_igdbEnrichedAt": "2026-06-28T21:56:32.280810+00:00",
       "_igdbMatched": true,
       "formatLabel": "PKG"
+    },
+    {
+      "titleId": "PPSA13896",
+      "title": "Shadow Gambit The Cursed Crew Complete Edition",
+      "version": "01.002",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Shadow_Gambit_The_Cursed_Crew_CE.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/2czeAJOJ#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/7zy9jfgB#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://link-vault.org/c/ZRkWI5DX#DataNodes",
+          "group": "exFAT · DLC",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 28991029248,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-25T05:12:13.680655+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "shadow-gambit-the-cursed-crew",
+        "rawgName": "Shadow Gambit: The Cursed Crew",
+        "rating": 4.21,
+        "metacritic": null,
+        "released": "2023-08-17",
+        "genres": [
+          "Strategy",
+          "Adventure",
+          "Action",
+          "RPG"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/e63/e63debd47c79933a6814fbc88b1198c3.jpg"
+      },
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA20298",
@@ -149612,7 +149702,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:55.555243+00:00",
+      "_enrichedAt": "2026-11-25T05:13:39.426473+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "shadow-warrior-3",
@@ -149782,7 +149872,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:55.786289+00:00",
+      "_enrichedAt": "2026-11-25T05:13:39.715331+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "shadows-of-the-damned-hella-remastered",
@@ -150127,6 +150217,56 @@
       "_rawgMatched": false
     },
     {
+      "titleId": "PPSA08069",
+      "title": "Sherlock Holmes The Awakened Deluxe Edition",
+      "version": "01.002",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Sherlock_Holmes_The_Awakened_DE.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/dsHi4q_c#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/Vu6XDbbY#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[DLC exFAT]",
+          "url": "https://link-vault.org/c/QDWuJWxQ#DataNodes",
+          "group": "exFAT · DLC",
+          "mirror": "Data"
+        }
+      ],
+      "sizeBytes": 42949672960,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-25T05:12:13.680682+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "sherlock-holmes-the-awakened-2",
+        "rawgName": "Sherlock Holmes The Awakened",
+        "rating": 3.58,
+        "metacritic": null,
+        "released": "2023-04-11",
+        "genres": [
+          "Adventure"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/ced/cede44bc5df6d77540f585f24bc4ecda.jpg"
+      },
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA15716",
       "title": "Shin Megami Tensei V Vengeance",
       "version": "01.000",
@@ -150377,7 +150517,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:56.004140+00:00",
+      "_enrichedAt": "2026-11-25T05:13:39.868119+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "shin-megami-tensei-v",
@@ -150575,7 +150715,7 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:56.123762+00:00",
+      "_enrichedAt": "2026-11-25T05:13:39.868158+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "shinobi-art-of-vengeance",
@@ -150985,12 +151125,12 @@
         "FPKG",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:56.782039+00:00",
+      "_enrichedAt": "2026-11-25T05:13:40.158437+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sifu",
         "rawgName": "Sifu",
-        "rating": 4.07,
+        "rating": 4.06,
         "metacritic": 79,
         "released": "2022-02-08",
         "genres": [
@@ -151593,12 +151733,12 @@
         "Backport 6.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:56.782089+00:00",
+      "_enrichedAt": "2026-11-25T05:13:40.158486+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "silent-hill-2-remake",
         "rawgName": "Silent Hill 2",
-        "rating": 4.45,
+        "rating": 4.46,
         "metacritic": null,
         "released": "2024-10-08",
         "genres": [
@@ -152137,12 +152277,12 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:56.782125+00:00",
+      "_enrichedAt": "2026-11-25T05:13:40.514775+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "silent-hill-f",
         "rawgName": "Silent Hill f",
-        "rating": 3.75,
+        "rating": 3.76,
         "metacritic": null,
         "released": "2025-09-24",
         "genres": [
@@ -152352,12 +152492,12 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:57.068368+00:00",
+      "_enrichedAt": "2026-11-25T05:13:40.988258+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "silent-hill-the-short-message",
         "rawgName": "Silent Hill: The Short Message",
-        "rating": 3.15,
+        "rating": 3.14,
         "metacritic": null,
         "released": "2024-02-01",
         "genres": [
@@ -153184,7 +153324,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:57.068397+00:00",
+      "_enrichedAt": "2026-11-25T05:13:41.082948+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "skull-island-rise-of-kong",
@@ -153698,7 +153838,7 @@
         "Backport 5.xx",
         "Backport 6.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:57.481134+00:00",
+      "_enrichedAt": "2026-11-25T05:13:41.082981+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "slave-zero-x-episode-enyo",
@@ -153960,7 +154100,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:57.481169+00:00",
+      "_enrichedAt": "2026-11-25T05:13:41.901943+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "slitterhead-2",
@@ -154826,7 +154966,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:58.048966+00:00",
+      "_enrichedAt": "2026-11-25T05:13:41.901984+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sniper-elite-5",
@@ -155022,7 +155162,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:58.049015+00:00",
+      "_enrichedAt": "2026-11-25T05:13:42.254329+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sniper-elite-resistance",
@@ -155749,12 +155889,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:58.049060+00:00",
+      "_enrichedAt": "2026-11-25T05:13:42.254365+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "snowrunner",
         "rawgName": "SnowRunner",
-        "rating": 3.96,
+        "rating": 3.97,
         "metacritic": 80,
         "released": "2020-04-28",
         "genres": [
@@ -156215,7 +156355,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:58.966900+00:00",
+      "_enrichedAt": "2026-11-25T05:13:42.582107+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sonic-frontiers",
@@ -156360,7 +156500,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:58.966941+00:00",
+      "_enrichedAt": "2026-11-25T05:13:43.013032+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sonic-origins",
@@ -156732,7 +156872,7 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:13:58.966984+00:00",
+      "_enrichedAt": "2026-11-25T05:13:43.378852+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sonic-racing-crossworlds",
@@ -156903,7 +157043,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:58.967018+00:00",
+      "_enrichedAt": "2026-11-25T05:13:43.549788+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sonic-superstars",
@@ -157281,7 +157421,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:59.531241+00:00",
+      "_enrichedAt": "2026-11-25T05:13:43.718224+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "sonic-x-shadow-generations",
@@ -157698,7 +157838,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:13:59.531282+00:00",
+      "_enrichedAt": "2026-11-25T05:13:43.718262+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "soulstice-2",
@@ -158642,7 +158782,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:13:59.531321+00:00",
+      "_enrichedAt": "2026-11-25T05:13:43.922085+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "spirit-of-the-north-2",
@@ -158766,7 +158906,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:00.173918+00:00",
+      "_enrichedAt": "2026-11-25T05:13:44.040600+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "spirit-of-the-north",
@@ -159671,7 +159811,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:00.173948+00:00",
+      "_enrichedAt": "2026-11-25T05:13:44.197736+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "split-fiction",
@@ -161522,7 +161662,7 @@
         "PKG",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:14:00.173994+00:00",
+      "_enrichedAt": "2026-11-25T05:13:44.197785+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "star-ocean-the-divine-force",
@@ -161925,7 +162065,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:00.805472+00:00",
+      "_enrichedAt": "2026-11-25T05:13:44.380182+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "star-trek-resurgence",
@@ -162361,7 +162501,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:00.805526+00:00",
+      "_enrichedAt": "2026-11-25T05:13:44.571696+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "jedi-the-fallen-order",
@@ -162586,7 +162726,7 @@
         "Backport",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:00.805556+00:00",
+      "_enrichedAt": "2026-11-25T05:13:44.813779+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "star-wars-jedi-survivor",
@@ -162986,12 +163126,12 @@
         "Backport 4.xx",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:14:00.860426+00:00",
+      "_enrichedAt": "2026-11-25T05:13:44.813821+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "star-wars-outlaws",
         "rawgName": "Star Wars Outlaws",
-        "rating": 3.29,
+        "rating": 3.28,
         "metacritic": null,
         "released": "2024-08-30",
         "genres": [
@@ -164299,7 +164439,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:01.778545+00:00",
+      "_enrichedAt": "2026-11-25T05:13:44.813865+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "steel-seed",
@@ -164571,7 +164711,7 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:01.778578+00:00",
+      "_enrichedAt": "2026-11-25T05:13:45.148192+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "steelrising",
@@ -164857,12 +164997,12 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:01.778621+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.719682+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "project-eve-tba",
         "rawgName": "Stellar Blade",
-        "rating": 4.23,
+        "rating": 4.22,
         "metacritic": null,
         "released": "2024-04-26",
         "genres": [
@@ -165151,7 +165291,7 @@
         "Backport 6.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:01.778658+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.719727+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "still-wakes-the-deep",
@@ -165963,12 +166103,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:01.939064+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.719755+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "stranger-of-paradise-final-fantasy-origin",
         "rawgName": "Stranger of Paradise: Final Fantasy Origin",
-        "rating": 3.44,
+        "rating": 3.4,
         "metacritic": null,
         "released": "2022-03-18",
         "genres": [
@@ -166234,12 +166374,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:02.533911+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.719788+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "stray-2",
         "rawgName": "Stray",
-        "rating": 4.15,
+        "rating": 4.14,
         "metacritic": 82,
         "released": "2022-07-19",
         "genres": [
@@ -166420,7 +166560,7 @@
         "Folder",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:02.533957+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.719818+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "street-fighter-6",
@@ -166920,12 +167060,12 @@
         "PKG",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:02.533997+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.719844+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "styx-blades-of-greed",
         "rawgName": "Styx: Blades of Greed",
-        "rating": 3.83,
+        "rating": 3.86,
         "metacritic": null,
         "released": "2026-02-18",
         "genres": [
@@ -167132,12 +167272,12 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:02.971376+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.719855+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "subnautica-below-zero",
         "rawgName": "Subnautica: Below Zero",
-        "rating": 4.0,
+        "rating": 3.99,
         "metacritic": 80,
         "released": "2021-05-14",
         "genres": [
@@ -167965,7 +168105,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:02.971411+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.776157+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "suicide-squad-kill-the-justice-league",
@@ -168904,7 +169044,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:03.395943+00:00",
+      "_enrichedAt": "2026-11-25T05:13:46.928148+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "super-monkey-ball-banana-mania",
@@ -170537,7 +170677,7 @@
         "Backport 5.xx"
       ],
       "sizeBytes": 4294967296,
-      "_enrichedAt": "2026-10-25T05:14:03.653861+00:00",
+      "_enrichedAt": "2026-11-25T05:13:47.112484+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "syphon-filter",
@@ -170728,7 +170868,7 @@
         "ZIP",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:03.653892+00:00",
+      "_enrichedAt": "2026-11-25T05:13:47.354371+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "syphon-filter-2",
@@ -171156,7 +171296,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:04.265125+00:00",
+      "_enrichedAt": "2026-11-25T05:13:47.354405+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "system-shock",
@@ -171571,7 +171711,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:04.265161+00:00",
+      "_enrichedAt": "2026-11-25T05:13:48.969649+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tactics-ogre-reborn",
@@ -171618,7 +171758,7 @@
         "Backport 4.xx"
       ],
       "sizeBytes": 8589934592,
-      "_enrichedAt": "2026-10-25T05:14:04.265207+00:00",
+      "_enrichedAt": "2026-11-25T05:13:48.969685+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tactics-ogre-reborn",
@@ -171958,7 +172098,7 @@
         "exFAT",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:04.620905+00:00",
+      "_enrichedAt": "2026-11-25T05:13:48.969725+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tails-of-iron",
@@ -172093,12 +172233,12 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:04.762341+00:00",
+      "_enrichedAt": "2026-11-25T05:13:48.969767+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tainted-grail-the-fall-of-avalon",
         "rawgName": "Tainted Grail: The Fall of Avalon",
-        "rating": 3.95,
+        "rating": 3.94,
         "metacritic": null,
         "released": "2025-05-23",
         "genres": [
@@ -172230,12 +172370,12 @@
         "PKG",
         "Backport"
       ],
-      "_enrichedAt": "2026-10-25T05:14:04.762384+00:00",
+      "_enrichedAt": "2026-11-25T05:13:48.969812+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tales-of-arise",
         "rawgName": "Tales of Arise",
-        "rating": 3.92,
+        "rating": 3.93,
         "metacritic": 85,
         "released": "2021-09-10",
         "genres": [
@@ -173976,22 +174116,24 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/RLVtbkCc#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/Yy2wSN3i#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
           "name": "[DLC exFAT]",
           "url": "https://link-vault.org/c/k4Bb1_hZ#DataNodes",
           "group": "exFAT · DLC",
           "mirror": "Data"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/RLVtbkCc#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "Teenage Mutant Ninja Turtles Shredders Revenge (Ultimate Edition)(v01.010) - BP 4.xx - PPSA06732 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/Yy2wSN3i#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "Teenage Mutant Ninja Turtles Shredders Revenge (Ultimate Edition)(v01.010) - BP 4.xx - PPSA06732 - FPKG"
         }
       ],
       "sizeBytes": 1073741824,
@@ -174055,7 +174197,7 @@
         "PKG"
       ],
       "sizeBytes": 4294967296,
-      "_enrichedAt": "2026-10-25T05:14:04.916232+00:00",
+      "_enrichedAt": "2026-11-25T05:13:48.969851+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "teenage-mutant-ninja-turtles-splintered-fate",
@@ -174261,7 +174403,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:05.625277+00:00",
+      "_enrichedAt": "2026-11-25T05:13:48.969884+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "teenage-mutant-ninja-turtles-the-cowabunga-collect",
@@ -174963,7 +175105,7 @@
         "Backport 4.xx",
         "Backport 6.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:05.625314+00:00",
+      "_enrichedAt": "2026-11-25T05:13:48.969913+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tekken-8",
@@ -175521,7 +175663,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:05.762824+00:00",
+      "_enrichedAt": "2026-11-25T05:13:49.381809+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "terminator-resistance",
@@ -176590,7 +176732,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:05.832805+00:00",
+      "_enrichedAt": "2026-11-25T05:13:49.422537+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-ascent-2",
@@ -176873,12 +177015,12 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:05.894990+00:00",
+      "_enrichedAt": "2026-11-25T05:13:50.424234+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-binding-of-isaac-repentance",
         "rawgName": "The Binding of Isaac: Repentance",
-        "rating": 4.72,
+        "rating": 4.71,
         "metacritic": null,
         "released": "2021-03-31",
         "genres": [
@@ -177106,7 +177248,7 @@
         "Backport 5.xx"
       ],
       "sizeBytes": 56470274,
-      "_enrichedAt": "2026-10-25T05:14:06.425010+00:00",
+      "_enrichedAt": "2026-11-25T05:13:50.424278+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-bridge-curse-2-the-extrication",
@@ -177723,12 +177865,12 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:06.669947+00:00",
+      "_enrichedAt": "2026-11-25T05:13:50.424347+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-calisto-protocol",
         "rawgName": "The Callisto Protocol",
-        "rating": 3.54,
+        "rating": 3.55,
         "metacritic": 69,
         "released": "2022-12-01",
         "genres": [
@@ -177870,12 +178012,12 @@
         "Backport 4.xx"
       ],
       "sizeBytes": 130996502528,
-      "_enrichedAt": "2026-10-25T05:14:06.669992+00:00",
+      "_enrichedAt": "2026-11-25T05:13:50.424395+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-calisto-protocol",
         "rawgName": "The Callisto Protocol",
-        "rating": 3.54,
+        "rating": 3.55,
         "metacritic": 69,
         "released": "2022-12-01",
         "genres": [
@@ -178535,7 +178677,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:06.670046+00:00",
+      "_enrichedAt": "2026-11-25T05:13:50.630570+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-chant",
@@ -178767,7 +178909,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:06.969969+00:00",
+      "_enrichedAt": "2026-11-25T05:13:50.630610+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-crown-of-wu",
@@ -178864,7 +179006,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:07.239902+00:00",
+      "_enrichedAt": "2026-11-25T05:13:50.867376+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-dark-pictures-anthology-house-of-ashes",
@@ -179236,7 +179378,7 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:07.558978+00:00",
+      "_enrichedAt": "2026-11-25T05:13:51.077742+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-dark-pictures-anthology-the-devil-in-me",
@@ -180419,12 +180561,12 @@
         "PKG",
         "Backport 9.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:07.559017+00:00",
+      "_enrichedAt": "2026-11-25T05:13:51.292195+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-elder-scrolls-iv-oblivion-remastered",
         "rawgName": "The Elder Scrolls IV: Oblivion Remastered",
-        "rating": 3.81,
+        "rating": 3.82,
         "metacritic": null,
         "released": "2025-04-22",
         "genres": [
@@ -180532,7 +180674,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:07.941152+00:00",
+      "_enrichedAt": "2026-11-25T05:13:51.710821+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-elder-scrolls-v-skyrim",
@@ -180750,7 +180892,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:07.941190+00:00",
+      "_enrichedAt": "2026-11-25T05:13:51.710863+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-eternal-cylinder",
@@ -181434,7 +181576,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:08.598283+00:00",
+      "_enrichedAt": "2026-11-25T05:13:52.004499+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-first-berserker-khazan",
@@ -182179,7 +182321,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:08.598322+00:00",
+      "_enrichedAt": "2026-11-25T05:13:52.004536+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-invincible",
@@ -182566,7 +182708,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:08.598367+00:00",
+      "_enrichedAt": "2026-11-25T05:13:52.893818+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-king-of-fighters-xv",
@@ -183094,12 +183236,12 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:08.868147+00:00",
+      "_enrichedAt": "2026-11-25T05:13:52.893853+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-last-of-us-part-i",
         "rawgName": "The Last of Us Part I",
-        "rating": 4.67,
+        "rating": 4.68,
         "metacritic": null,
         "released": "2022-09-02",
         "genres": [
@@ -183513,7 +183655,7 @@
         "Backport 4.xx",
         "Backport 6.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:09.380071+00:00",
+      "_enrichedAt": "2026-11-25T05:13:52.893891+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-last-of-us-part-2",
@@ -183716,12 +183858,12 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:09.380102+00:00",
+      "_enrichedAt": "2026-11-25T05:13:53.351581+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-last-stand-aftermath",
         "rawgName": "The Last Stand: Aftermath",
-        "rating": 3.61,
+        "rating": 3.53,
         "metacritic": null,
         "released": "2021-11-16",
         "genres": [
@@ -183786,6 +183928,39 @@
         "rawgBackground": "https://media.rawg.io/media/screenshots/683/6833ba60f09b664c3d6b8c7cb3a7bb06.jpg"
       },
       "formatLabel": "FPKG · Folder · Backport"
+    },
+    {
+      "titleId": "PPSA24326",
+      "title": "The Legend of Heroes Trails through Daybreak 2 Ultimate Edition",
+      "version": "01.002",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/The_Legend_of_Heroes_Trails_through_Daybreak_2_UE.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/sAswQB_4#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/yRzkSTe4#DataVaults",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
+        }
+      ],
+      "sizeBytes": 50465865728,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-25T05:12:13.680703+00:00",
+      "_rawgMatched": false,
+      "formatLabel": "Backport"
     },
     {
       "titleId": "PPSA18986",
@@ -184352,7 +184527,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:09.380148+00:00",
+      "_enrichedAt": "2026-11-25T05:13:53.351622+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-lord-of-the-rings-gollum",
@@ -184625,12 +184800,12 @@
         "Backport 6.xx"
       ],
       "sizeBytes": 77758199,
-      "_enrichedAt": "2026-10-25T05:14:09.565799+00:00",
+      "_enrichedAt": "2026-11-25T05:13:53.351661+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-lord-of-the-rings-return-to-moria",
         "rawgName": "The Lord of the Rings: Return to Moria",
-        "rating": 3.25,
+        "rating": 3.24,
         "metacritic": null,
         "released": "2023-10-24",
         "genres": [
@@ -184674,7 +184849,7 @@
         "FPKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:10.636049+00:00",
+      "_enrichedAt": "2026-11-25T05:14:00.449376+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-matrix-awakens",
@@ -184748,7 +184923,7 @@
       "fileFormat": [
         "exFAT"
       ],
-      "_enrichedAt": "2026-10-25T05:14:10.636083+00:00",
+      "_enrichedAt": "2026-11-25T05:14:00.449407+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "medium",
@@ -184814,7 +184989,7 @@
         "PKG",
         "exFAT"
       ],
-      "_enrichedAt": "2026-10-25T05:14:10.636125+00:00",
+      "_enrichedAt": "2026-11-25T05:14:02.565539+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "medium",
@@ -185235,12 +185410,12 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:10.636158+00:00",
+      "_enrichedAt": "2026-11-25T05:14:02.565580+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-midnight-walk",
         "rawgName": "The Midnight Walk",
-        "rating": 4.35,
+        "rating": 4.33,
         "metacritic": null,
         "released": "2025-05-07",
         "genres": [
@@ -186090,7 +186265,7 @@
         "PKG",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:14:10.636189+00:00",
+      "_enrichedAt": "2026-11-25T05:14:02.565622+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-outer-worlds-spacers-choice-edition",
@@ -186188,7 +186363,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:11.810739+00:00",
+      "_enrichedAt": "2026-11-25T05:14:02.565656+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-pathless",
@@ -186839,12 +187014,12 @@
         "RAR",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:11.810777+00:00",
+      "_enrichedAt": "2026-11-25T05:14:02.674946+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-precinct",
         "rawgName": "The Precinct",
-        "rating": 3.46,
+        "rating": 3.47,
         "metacritic": null,
         "released": "2025-05-13",
         "genres": [
@@ -187100,7 +187275,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:11.969056+00:00",
+      "_enrichedAt": "2026-11-25T05:14:02.916051+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-quarry-3",
@@ -188023,7 +188198,7 @@
         "PKG"
       ],
       "sizeBytes": 30064771072,
-      "_enrichedAt": "2026-10-25T05:14:11.969108+00:00",
+      "_enrichedAt": "2026-11-25T05:14:02.916086+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-smurfs-mission-vileaf",
@@ -188565,7 +188740,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:11.969161+00:00",
+      "_enrichedAt": "2026-11-25T05:14:03.415083+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-thing-remastered",
@@ -188657,7 +188832,7 @@
         "Backport 6.xx"
       ],
       "sizeBytes": 42949672960,
-      "_enrichedAt": "2026-10-25T05:14:12.687417+00:00",
+      "_enrichedAt": "2026-11-25T05:14:03.415125+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-walking-dead-destinies",
@@ -188746,7 +188921,7 @@
         "Backport 4.xx"
       ],
       "sizeBytes": 78383153152,
-      "_enrichedAt": "2026-10-25T05:14:13.146082+00:00",
+      "_enrichedAt": "2026-11-25T05:14:03.504942+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-walking-dead-saints-sinners-chapter-2-retribut",
@@ -189701,7 +189876,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:13.146109+00:00",
+      "_enrichedAt": "2026-11-25T05:14:03.563389+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "the-witcher-3-game-of-the-year",
@@ -189893,7 +190068,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:13.146138+00:00",
+      "_enrichedAt": "2026-11-25T05:14:03.957175+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "thymesia",
@@ -190629,7 +190804,7 @@
         "Backport 6.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:14.335121+00:00",
+      "_enrichedAt": "2026-11-25T05:14:04.124386+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tintin-reporter-cigars-of-the-pharaoh",
@@ -190826,7 +191001,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:14.335158+00:00",
+      "_enrichedAt": "2026-11-25T05:14:04.124432+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tiny-tinas-wonderlands",
@@ -191366,7 +191541,7 @@
         "PKG",
         "ZIP"
       ],
-      "_enrichedAt": "2026-10-25T05:14:14.399464+00:00",
+      "_enrichedAt": "2026-11-25T05:14:04.124484+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tomb-raider-i-iii-remastered",
@@ -191787,7 +191962,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:14.399520+00:00",
+      "_enrichedAt": "2026-11-25T05:14:05.254850+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tony-hawks-pro-skater-12",
@@ -191877,7 +192052,7 @@
         "PKG"
       ],
       "sizeBytes": 45097156608,
-      "_enrichedAt": "2026-10-25T05:14:14.399584+00:00",
+      "_enrichedAt": "2026-11-25T05:14:05.254898+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tony-hawks-pro-skater-12",
@@ -192027,7 +192202,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:14.399560+00:00",
+      "_enrichedAt": "2026-11-25T05:14:05.254953+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tony-hawks-pro-skater-3-4",
@@ -192377,7 +192552,7 @@
         "Backport",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:14.666312+00:00",
+      "_enrichedAt": "2026-11-25T05:14:05.254991+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tormented-souls",
@@ -192475,7 +192650,7 @@
         "Backport 4.xx"
       ],
       "sizeBytes": 13958643712,
-      "_enrichedAt": "2026-10-25T05:14:15.294670+00:00",
+      "_enrichedAt": "2026-11-25T05:14:05.255033+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tormented-souls",
@@ -192644,7 +192819,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:15.294714+00:00",
+      "_enrichedAt": "2026-11-25T05:14:05.255071+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "tormented-souls-2",
@@ -195930,7 +196105,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:15.294765+00:00",
+      "_enrichedAt": "2026-11-25T05:14:05.858257+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "treasures-of-the-aegean",
@@ -197805,7 +197980,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:15.294797+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.030381+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "ufo-robot-grendizer-the-feast-of-the-wolves",
@@ -198027,7 +198202,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:15.751164+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.048857+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "unbound-worlds-apart",
@@ -198216,7 +198391,7 @@
         "ZIP",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:15.794238+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.048887+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "uncharted-legacy-of-thieves-collection",
@@ -198433,7 +198608,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:15.794270+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.368812+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "undefeated-2019",
@@ -198723,7 +198898,7 @@
         "Backport 5.xx"
       ],
       "sizeBytes": 13421772800,
-      "_enrichedAt": "2026-10-25T05:14:15.812427+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.444558+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "under-the-waves-2",
@@ -198870,7 +199045,7 @@
         "exFAT",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:16.156401+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.562575+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "undisputed",
@@ -199845,7 +200020,7 @@
         "APR-EMU",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:16.307335+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.583726+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "unpacking-2",
@@ -200096,7 +200271,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:19.352973+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.872023+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "until-dawn-2",
@@ -200287,7 +200462,7 @@
         "Backport 4.xx"
       ],
       "sizeBytes": 25984552140,
-      "_enrichedAt": "2026-10-25T05:14:19.524467+00:00",
+      "_enrichedAt": "2026-11-25T05:14:06.922623+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "valkyrie-elysium",
@@ -200946,12 +201121,12 @@
         "RAR",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:19.789834+00:00",
+      "_enrichedAt": "2026-11-25T05:14:07.342994+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "vampire-the-masquerade-bloodlines-2",
         "rawgName": "Vampire: The Masquerade – Bloodlines 2",
-        "rating": 3.83,
+        "rating": 3.82,
         "metacritic": null,
         "released": "2025-10-21",
         "genres": [
@@ -200997,7 +201172,7 @@
         "unknown"
       ],
       "sizeBytes": 19327352832,
-      "_enrichedAt": "2026-10-25T05:14:19.789864+00:00",
+      "_enrichedAt": "2026-11-25T05:14:07.343031+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "bloodhunt",
@@ -201125,7 +201300,7 @@
         "PKG"
       ],
       "sizeBytes": 52613349376,
-      "_enrichedAt": "2026-10-25T05:14:19.789897+00:00",
+      "_enrichedAt": "2026-11-25T05:14:08.991997+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "vampire-the-masquerade-swansong",
@@ -201754,7 +201929,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:20.012376+00:00",
+      "_enrichedAt": "2026-11-25T05:14:08.992033+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "v-i-e-w-f-i-n-d-e-r",
@@ -202127,7 +202302,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:20.298515+00:00",
+      "_enrichedAt": "2026-11-25T05:14:08.992072+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "visions-of-mana",
@@ -202657,7 +202832,7 @@
         "Backport"
       ],
       "sizeBytes": 26843545600,
-      "_enrichedAt": "2026-10-25T05:14:20.314671+00:00",
+      "_enrichedAt": "2026-11-25T05:14:08.992109+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wanted-dead",
@@ -204026,7 +204201,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:20.319880+00:00",
+      "_enrichedAt": "2026-11-25T05:14:08.992145+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "watch-dogs-legion",
@@ -204261,7 +204436,7 @@
         "RAR"
       ],
       "sizeBytes": 86973087744,
-      "_enrichedAt": "2026-10-25T05:14:20.503397+00:00",
+      "_enrichedAt": "2026-11-25T05:14:08.992184+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "watch-dogs-legion",
@@ -204406,7 +204581,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:20.784419+00:00",
+      "_enrichedAt": "2026-11-25T05:14:08.992236+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "way-of-the-hunter",
@@ -204645,7 +204820,7 @@
         "PKG"
       ],
       "sizeBytes": 20401094656,
-      "_enrichedAt": "2026-10-25T05:14:20.813356+00:00",
+      "_enrichedAt": "2026-11-25T05:14:08.992263+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "we-love-katamari-royal-reverie",
@@ -204756,7 +204931,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:20.813383+00:00",
+      "_enrichedAt": "2026-11-25T05:14:09.194326+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "weird-west",
@@ -204897,7 +205072,7 @@
         "PKG"
       ],
       "sizeBytes": 18672370319,
-      "_enrichedAt": "2026-10-25T05:14:21.031104+00:00",
+      "_enrichedAt": "2026-11-25T05:14:09.220100+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "werewolf-the-apocalypse-earthblood",
@@ -205521,6 +205696,12 @@
         },
         {
           "name": "[GAME exFAT BP]",
+          "url": "https://akirabox.com/Z9dzBPQ85mk1/file",
+          "group": "exFAT · Backport",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP]",
           "url": "https://vikingfile.com/f/lGE0geMH6Z",
           "group": "exFAT · Backport",
           "mirror": "Viki"
@@ -205616,7 +205797,7 @@
         "exFAT",
         "APR-EMU"
       ],
-      "_enrichedAt": "2026-10-25T05:14:21.296418+00:00",
+      "_enrichedAt": "2026-11-25T05:14:10.089761+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wild-hearts",
@@ -206427,7 +206608,7 @@
         "ZIP",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-25T05:14:21.296451+00:00",
+      "_enrichedAt": "2026-11-25T05:14:10.089798+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wo-long-fallen-dynasty",
@@ -206860,7 +207041,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:21.296472+00:00",
+      "_enrichedAt": "2026-11-25T05:14:10.089824+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "world-war-z-aftermath",
@@ -207311,7 +207492,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:21.504360+00:00",
+      "_enrichedAt": "2026-11-25T05:14:10.125735+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wrc-generations",
@@ -207634,7 +207815,7 @@
         "RAR",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:21.548339+00:00",
+      "_enrichedAt": "2026-11-25T05:14:10.325275+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wreckreation",
@@ -207949,12 +208130,12 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:21.788685+00:00",
+      "_enrichedAt": "2026-11-25T05:14:10.423965+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wuchang-fallen-feathers",
         "rawgName": "Wuchang: Fallen Feathers",
-        "rating": 3.59,
+        "rating": 3.58,
         "metacritic": null,
         "released": "2025-07-23",
         "genres": [
@@ -208044,7 +208225,7 @@
         "Backport 4.xx",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:22.347977+00:00",
+      "_enrichedAt": "2026-11-25T05:14:10.989865+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wwe-2k22",
@@ -208305,7 +208486,7 @@
         "Backport 4.xx",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:22.348008+00:00",
+      "_enrichedAt": "2026-11-25T05:14:10.989902+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wwe-2k23",
@@ -209234,7 +209415,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:22.348047+00:00",
+      "_enrichedAt": "2026-11-25T05:14:11.231690+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "wytchwood",
@@ -210373,7 +210554,7 @@
         "PKG",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-25T05:14:22.962007+00:00",
+      "_enrichedAt": "2026-11-25T05:14:11.653984+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "yakuza-kiwami-3",
@@ -210438,7 +210619,7 @@
         "exFAT",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-25T05:14:22.962035+00:00",
+      "_enrichedAt": "2026-11-25T05:14:11.654019+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "yakuza-7",
@@ -211117,7 +211298,7 @@
         "PKG",
         "unknown"
       ],
-      "_enrichedAt": "2026-10-25T05:14:23.918372+00:00",
+      "_enrichedAt": "2026-11-25T05:14:11.834274+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "yooka-replaylee",
