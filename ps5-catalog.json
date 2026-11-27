@@ -13548,7 +13548,7 @@
         "PKG"
       ],
       "sizeBytes": 32212254720,
-      "_enrichedAt": "2026-10-27T05:12:49.600092+00:00",
+      "_enrichedAt": "2026-11-27T05:12:10.958118+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "atelier-ryza-2-lost-legends-the-secret-fairy",
@@ -14412,21 +14412,9 @@
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/1Uh2ipiv9q",
+          "url": "https://datanodes.to/nrrph9im59cx",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://filekeeper.net/3hfvafqkpr1m",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Filek"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://datavaults.co/raxfki3lzc7r",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
+          "mirror": "Data"
         },
         {
           "name": "[#01 GAME PKG EUR]",
@@ -34414,15 +34402,6 @@
         },
         {
           "name": "[GAME FPKG PKG EUR]",
-          "url": "https://gofile.io/d/dJQGvX",
-          "group": "Standard",
-          "version": "01.000",
-          "region": "EUR",
-          "editionId": "PPSA31977",
-          "mirror": "Gofile"
-        },
-        {
-          "name": "[GAME FPKG PKG EUR]",
           "url": "https://www.mediafire.com/file/xpg0wh8pr8nxr1a/[DLPSGAME.COM]-PPSA31977.part1.rar/file",
           "group": "Standard",
           "version": "01.000",
@@ -34654,12 +34633,6 @@
           "mirror": "Data"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/N5V0xXNz#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
           "name": "[GAME BP 7 Go]",
           "url": "https://akirabox.com/jar3XlKAQ32d/file",
           "group": "Standard",
@@ -34674,6 +34647,13 @@
           "group": "Standard",
           "version": "01.000.003",
           "mirror": "Rootz"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/N5V0xXNz#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "Darwins Paradox (v01.000.003) - BP 4.xx - PPSA28608 - FPKG"
         }
       ],
       "sizeBytes": 18253611008,
@@ -34698,12 +34678,6 @@
       "description": "Format: FPKG · Folder · Backport\nTags: PPSA19115, v01.041.000, USA\nSize: 5.1 GB\nPassword: SuperPSX\nWorks on 11.xx and higher\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/Ev3PXQm9#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
           "name": "[GAME FPKG PKG APR-EMU Folder USA]",
           "url": "https://link-vault.org/c/deznqBwx",
           "group": "Standard",
@@ -34719,10 +34693,17 @@
           "fileName": "DAVE THE DIVER (Complete Edition)(v01.041)(FIXED DLCs) - BP 4.xx - PPSA19115 - Dump"
         },
         {
+          "name": "[DLC FPKG BP 4.xx fix]",
+          "url": "https://link-vault.org/c/Ev3PXQm9#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "DAVE THE DIVER (Complete Edition)(v01.041)(FIXED DLCs) - BP 4.xx - PPSA19115 - FPKG"
+        },
+        {
           "name": "[DLC exFAT]",
-          "url": "https://link-vault.org/c/Gwd3Ai08#DataNodes",
+          "url": "https://link-vault.org/c/Gwd3Ai08#DataVaults",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Vault"
         },
         {
           "name": "[DLC FPKG PKG APR-EMU Folder BP fix]",
@@ -36914,12 +36895,6 @@
           "mirror": "Akia"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/wwt22u6ycT",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME exFAT BP 4.xx USA]",
           "url": "https://buzzheavier.com/k771uobz5dkl",
           "group": "exFAT · Backport 4.xx",
@@ -37011,12 +36986,6 @@
           "fileName": "DLC_Psykzhack.rar",
           "sizeBytes": 824064,
           "mirror": "Akia"
-        },
-        {
-          "name": "[DLC exFAT]",
-          "url": "https://vikingfile.com/f/fp8UM6vz9P",
-          "group": "exFAT · DLC",
-          "mirror": "Viki"
         },
         {
           "name": "[DLC FPKG PKG 1 Mo USA]",
@@ -37179,10 +37148,18 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[DLC exFAT BP fix]",
+          "url": "https://link-vault.org/c/Gwd3Ai08#DataNodes",
+          "group": "exFAT · DLC",
+          "mirror": "Data",
+          "fileName": "Deadzone Rogue (v01.001.022) - BP 4.xx - PPSA26767 - Dump"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/WR1QFtC5#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Deadzone Rogue (v01.001.022) - BP 4.xx - PPSA26767 - Dump"
         },
         {
           "name": "[FIX FPKG BP 4.xx]",
@@ -37213,16 +37190,18 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
+          "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/fGM3aePZ#DataNodes",
           "group": "exFAT · Dump",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Death Howl (v01.000.004) - BP 4.xx - PPSA30896 - Dump"
         },
         {
-          "name": "[GAME exFAT BP 4.xx]",
+          "name": "[FIX FPKG BP 4.xx]",
           "url": "https://link-vault.org/c/wQvusx-U#AkiraBox",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Akia",
+          "fileName": "Death Howl (v01.000.004) - BP 4.xx - PPSA30896 - FPKG"
         }
       ],
       "sizeBytes": 3221225472,
@@ -38826,12 +38805,6 @@
           "fileName": "PPSA01670.exfat",
           "sizeBytes": 77395310673,
           "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT]",
-          "url": "https://vikingfile.com/f/zmdHhtGsWO",
-          "group": "exFAT",
-          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 72 Go]",
@@ -47119,12 +47092,6 @@
           "mirror": "Akia"
         },
         {
-          "name": "[GAME exFAT]",
-          "url": "https://vikingfile.com/f/FsPFEuqPjp",
-          "group": "exFAT",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME exFAT 79 Go USA]",
           "url": "https://datanodes.to/26w9yvhheume",
           "group": "exFAT",
@@ -47245,12 +47212,6 @@
           "fileName": "PPSA15211.exfat",
           "sizeBytes": 67753109094,
           "mirror": "Akia"
-        },
-        {
-          "name": "[GAME exFAT]",
-          "url": "https://vikingfile.com/f/y0U3kEUnkk",
-          "group": "exFAT",
-          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT 63 Go USA]",
@@ -53850,9 +53811,21 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://vikingfile.com/f/rkEjlTYtBu",
+          "url": "https://akirabox.com/obj3j7OdPzDx/file",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Viki"
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datanodes.to/xj024ppcyjni",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/9oh5if0dzuek",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
         },
         {
           "name": "[GAME exFAT BP EUR v1.000]",
@@ -57213,7 +57186,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-27T05:12:50.085186+00:00",
+      "_enrichedAt": "2026-11-27T05:12:10.958152+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "evil-inside",
@@ -58586,15 +58559,51 @@
       "downloadLinks": [
         {
           "name": "[GAME exFAT Dump]",
-          "url": "https://vikingfile.com/f/4bsjoMRrxp",
+          "url": "https://akirabox.com/rk9zKW1wyz0l/file",
           "group": "exFAT · Dump",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://datanodes.to/cdstxasfxx3z",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://filekeeper.net/9molr4f65p9q",
+          "group": "exFAT · Dump",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://datavaults.co/w6wp9dwciny2",
+          "group": "exFAT · Dump",
+          "mirror": "Vault"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/MQOHVfDwMx",
+          "group": "exFAT · Backport 4.xx",
           "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://akirabox.com/9QWmpAr7L3EB/file",
+          "url": "https://datanodes.to/xk905zjezp5g",
           "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://filekeeper.net/9jnmq8g8wh8o",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Filek"
+        },
+        {
+          "name": "[#01 GAME exFAT BP 4.xx]",
+          "url": "https://datavaults.co/xf2bqbiefu3e",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault"
         },
         {
           "name": "[GAME exFAT BP 4.xx 76 Go]",
@@ -58629,7 +58638,7 @@
           "mirror": "Filek"
         },
         {
-          "name": "[#01 GAME exFAT BP 4.xx]",
+          "name": "[#02 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/160fyetpz3wy",
           "group": "exFAT · Backport 4.xx",
           "fileName": "PPSA24662 exfat",
@@ -58668,7 +58677,7 @@
           "sizeBytes": 71725953843
         },
         {
-          "name": "[#02 GAME exFAT BP 4.xx]",
+          "name": "[#03 GAME exFAT BP 4.xx]",
           "url": "https://datavaults.co/z1f4anuzbu73",
           "group": "exFAT · Backport 4.xx",
           "mirror": "Vault",
@@ -61256,7 +61265,7 @@
         "RAR"
       ],
       "sizeBytes": 139586437120,
-      "_enrichedAt": "2026-10-27T05:12:50.139310+00:00",
+      "_enrichedAt": "2026-11-27T05:12:10.958176+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "fifa-21",
@@ -63511,17 +63520,18 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/gxh-ERFU#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
           "name": "[FIX exFAT Dump BP]",
           "url": "https://link-vault.org/c/69R1CZUj#DataNodes",
           "group": "exFAT · Dump",
           "mirror": "Data",
           "fileName": "Five Nights at Freddys Into the Pit (v02.000.001) - BP 4.xx - PPSA18431 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/gxh-ERFU#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "Five Nights at Freddys Into the Pit (v02.000.001) - BP 4.xx - PPSA18431 - FPKG"
         }
       ],
       "sizeBytes": 4294967296,
@@ -79555,12 +79565,6 @@
           "mirror": "Akia",
           "fileName": "PPSA17905.7z",
           "sizeBytes": 124543314165
-        },
-        {
-          "name": "[GAME exFAT BP]",
-          "url": "https://vikingfile.com/f/ytlAdbExPm",
-          "group": "exFAT · Backport",
-          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 116 Go]",
@@ -96477,12 +96481,6 @@
           "sizeBytes": 27992449351
         },
         {
-          "name": "[GAME exFAT BP]",
-          "url": "https://vikingfile.com/f/XkiG2vMkBp",
-          "group": "exFAT · Backport",
-          "mirror": "Viki"
-        },
-        {
           "name": "[GAME PKG USA]",
           "url": "https://vikingfile.com/f/2hlmuAlxRy",
           "group": "Standard",
@@ -96523,12 +96521,6 @@
           "mirror": "Akia",
           "fileName": "All_6DLCs_Pkykzhack.rar",
           "sizeBytes": 5788139
-        },
-        {
-          "name": "[DLC exFAT]",
-          "url": "https://vikingfile.com/f/Sx06PutuWZ",
-          "group": "exFAT · DLC",
-          "mirror": "Viki"
         },
         {
           "name": "[FIX BP 39 Mo USA]",
@@ -110808,6 +110800,51 @@
       "formatLabel": "exFAT · Backport"
     },
     {
+      "titleId": "PPSA08035",
+      "title": "Monster Hunter Rise + Sunbreak Deluxe",
+      "version": "16.000",
+      "category": "game",
+      "posterUrl": "https://raw.githubusercontent.com/Pippo26442999/decode-encode/refs/heads/main/Library%20Images/November_2026/Monster_Hunter_Rise_Sunbreak_Deluxe.avif",
+      "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "downloadLinks": [
+        {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/cAm4cZ5K#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/XFYQyKoF#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        }
+      ],
+      "sizeBytes": 60129542144,
+      "downloadSource": "https://phoenixdl.com",
+      "source": [
+        "Backport"
+      ],
+      "fileFormat": [
+        "Backport"
+      ],
+      "_enrichedAt": "2026-11-27T05:12:10.958086+00:00",
+      "_rawgMatched": true,
+      "metadata": {
+        "rawgSlug": "monster-hunter-rise-sunbreak",
+        "rawgName": "Monster Hunter Rise: Sunbreak",
+        "rating": 4.32,
+        "metacritic": null,
+        "released": "2022-06-30",
+        "genres": [
+          "Action",
+          "RPG"
+        ],
+        "rawgBackground": "https://media.rawg.io/media/games/b09/b09dca67cbd73300040728da3e30dc88.jpg"
+      },
+      "formatLabel": "Backport"
+    },
+    {
       "titleId": "PPSA26873",
       "title": "Monster Hunter Stories 3 Twisted Reflection",
       "version": "01.002",
@@ -114160,22 +114197,25 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/h8MDTohe#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/TUybB52w#DataVaults",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Vault"
-        },
-        {
-          "name": "[DLC exFAT]",
+          "name": "[DLC FPKG]",
           "url": "https://link-vault.org/c/sTeQjokA#DataNodes",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "MudRunner (American Wilds Edition)(v01.000) - DLCs (PKG) - PPSA35314 - FPKG + Dump"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/h8MDTohe#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "MudRunner (American Wilds Edition)(v01.000) - BP 4.xx - PPSA35314 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/TUybB52w#DataVaults",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Vault",
+          "fileName": "MudRunner (American Wilds Edition)(v01.000) - BP 4.xx - PPSA35314 - FPKG"
         }
       ],
       "sizeBytes": 2147483648,
@@ -118114,6 +118154,12 @@
           "mirror": "Akia",
           "fileName": "PPSA01716-Compressed.7z",
           "sizeBytes": 33264521707
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://vikingfile.com/f/89suBBgK5i",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Viki"
         },
         {
           "name": "[GAME exFAT BP 4.xx 31 Go]",
@@ -125462,7 +125508,7 @@
         "APR-EMU",
         "PKG"
       ],
-      "_enrichedAt": "2026-10-27T05:12:50.824065+00:00",
+      "_enrichedAt": "2026-11-27T05:12:11.578972+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "overcooked-all-you-can-eat",
@@ -128383,12 +128429,12 @@
         "Backport 4.xx",
         "RAR"
       ],
-      "_enrichedAt": "2026-10-27T05:12:50.864322+00:00",
+      "_enrichedAt": "2026-11-27T05:12:11.579027+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "persona-3-reload",
         "rawgName": "Persona 3 Reload",
-        "rating": 4.36,
+        "rating": 4.37,
         "metacritic": null,
         "released": "2024-02-01",
         "genres": [
@@ -131009,6 +131055,12 @@
           "mirror": "Filek"
         },
         {
+          "name": "[GAME exFAT Dump]",
+          "url": "https://akirabox.com/gXeGOAwaA3Aa/file",
+          "group": "exFAT · Dump",
+          "mirror": "Akia"
+        },
+        {
           "name": "[#01 GAME exFAT Dump]",
           "url": "https://fileditchfiles.st/balpha25/47f8c8cfe7361e9a491f/PPSA25063.7z",
           "group": "exFAT · Dump",
@@ -131019,6 +131071,12 @@
           "url": "https://vikingfile.com/f/W1MP1dRI4L",
           "group": "exFAT · Dump",
           "mirror": "Viki"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://akirabox.com/0rpmvpBYgzRg/file",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
         },
         {
           "name": "[#01 GAME exFAT BP 4.xx]",
@@ -149241,22 +149299,25 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/2czeAJOJ#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/7zy9jfgB#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[DLC exFAT]",
+          "name": "[DLC FPKG]",
           "url": "https://link-vault.org/c/ZRkWI5DX#DataNodes",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Shadow Gambit The Cursed Crew (Complete Edition)(v01.002.004) - DLCs (PKG) - PPSA13896 - FPKG + Dump"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/2czeAJOJ#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "Shadow Gambit The Cursed Crew (Complete Edition)(v01.002.004) - BP 4.xx - PPSA13896 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/7zy9jfgB#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "Shadow Gambit The Cursed Crew (Complete Edition)(v01.002.004) - BP 4.xx - PPSA13896 - FPKG"
         }
       ],
       "sizeBytes": 28991029248,
@@ -150225,22 +150286,25 @@
       "description": "Format: Backport\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT Dump]",
-          "url": "https://link-vault.org/c/dsHi4q_c#DataNodes",
-          "group": "exFAT · Dump",
-          "mirror": "Data"
-        },
-        {
-          "name": "[GAME exFAT BP 4.xx]",
-          "url": "https://link-vault.org/c/Vu6XDbbY#AkiraBox",
-          "group": "exFAT · Backport 4.xx",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[DLC exFAT]",
+          "name": "[DLC FPKG]",
           "url": "https://link-vault.org/c/QDWuJWxQ#DataNodes",
           "group": "exFAT · DLC",
-          "mirror": "Data"
+          "mirror": "Data",
+          "fileName": "Sherlock Holmes The Awakened (Deluxe Edition)(v01.002) - DLCs (PKG) - PPSA08069 - FPKG + Dump"
+        },
+        {
+          "name": "[FIX exFAT Dump BP]",
+          "url": "https://link-vault.org/c/dsHi4q_c#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data",
+          "fileName": "Sherlock Holmes The Awakened (Deluxe Edition)(v01.002) - BP 4.xx - PPSA08069 - Dump"
+        },
+        {
+          "name": "[FIX FPKG BP 4.xx]",
+          "url": "https://link-vault.org/c/Vu6XDbbY#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia",
+          "fileName": "Sherlock Holmes The Awakened (Deluxe Edition)(v01.002) - BP 4.xx - PPSA08069 - FPKG"
         }
       ],
       "sizeBytes": 42949672960,
@@ -159978,7 +160042,7 @@
         "Backport 4.xx",
         "Backport 5.xx"
       ],
-      "_enrichedAt": "2026-10-27T05:12:51.259193+00:00",
+      "_enrichedAt": "2026-11-27T05:12:11.579065+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "spongebob-squarepants-titans-of-the-tide",
@@ -160431,14 +160495,26 @@
     },
     {
       "titleId": "PPSA28336",
-      "title": "STALKER 2: Heart of Chornobyl",
-      "version": "01.009",
+      "title": "STALKER 2 Heart of Chornobyl Ultimate Edition",
+      "version": "01.022",
       "category": "game",
       "posterUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pxn.jpg",
-      "description": "Format: exFAT · Folder · Backport 4.xx\nTags: PPSA28336, v01.000, 12.xx – 11.xx, USA\nSize: 47GB\nPassword: SuperPSX\nFW Compat: 12.xx – 11.xx\nVoices: English, Ukrainian\nWorking 12.xx – 11.xx – 10.xxBackport files for [9.xx to 8.xx] (Copy all files to folder game)This is not full game (Game need patch day 1 we can’t dump patch because update need 12.40 and we dont have jb on 12.40)\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
+      "description": "Format: exFAT · Folder · Backport\nTags: PPSA28336, v01.000, 12.xx – 11.xx, USA\nSize: 47GB\nPassword: SuperPSX\nFW Compat: 12.xx – 11.xx\nVoices: English, Ukrainian\nWorking 12.xx – 11.xx – 10.xxBackport files for [9.xx to 8.xx] (Copy all files to folder game)This is not full game (Game need patch day 1 we can’t dump patch because update need 12.40 and we dont have jb on 12.40)\nBP = Backport\nGAME = le jeu · UPD = mise a jour · DLC = contenu additionnel · FIX = binaire a deposer",
       "downloadLinks": [
         {
-          "name": "[GAME exFAT BP 4.xx 150 Go USA]",
+          "name": "[GAME exFAT Dump]",
+          "url": "https://link-vault.org/c/MRtbF9Mc#DataNodes",
+          "group": "exFAT · Dump",
+          "mirror": "Data"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx]",
+          "url": "https://link-vault.org/c/qfHBWiNt#AkiraBox",
+          "group": "exFAT · Backport 4.xx",
+          "mirror": "Akia"
+        },
+        {
+          "name": "[GAME exFAT BP 4.xx 150 Go USA v1.009]",
           "url": "https://akirabox.com/0JgG7LKnlmoY/file",
           "group": "exFAT · Backport 4.xx",
           "version": "01.009",
@@ -160449,7 +160525,7 @@
           "sizeBytes": 160545877524
         },
         {
-          "name": "[GAME exFAT BP 4.xx 150 Go USA]",
+          "name": "[GAME exFAT BP 4.xx 150 Go USA v1.009]",
           "url": "https://vikingfile.com/f/cUQPZl8wdM",
           "group": "exFAT · Backport 4.xx",
           "version": "01.009",
@@ -160460,7 +160536,7 @@
           "mirror": "Viki"
         },
         {
-          "name": "[GAME exFAT BP 4.xx 150 Go USA]",
+          "name": "[GAME exFAT BP 4.xx 150 Go USA v1.009]",
           "url": "https://datanodes.to/ervta8jz19j8",
           "group": "exFAT · Backport 4.xx",
           "version": "01.009",
@@ -160471,16 +160547,7 @@
           "mirror": "Data"
         },
         {
-          "name": "[GAME PKG Folder USA]",
-          "url": "https://gofile.io/d/C1IdZh",
-          "group": "Standard",
-          "version": "01.009",
-          "region": "USA",
-          "editionId": "PPSA28336",
-          "mirror": "Gofile"
-        },
-        {
-          "name": "[#01 GAME PKG Folder USA]",
+          "name": "[#01 GAME PKG Folder USA v1.009]",
           "url": "https://vikingfile.com/f/MVGaVTWT5y",
           "group": "Standard",
           "version": "01.009",
@@ -160490,7 +160557,7 @@
           "mirror": "Viki"
         },
         {
-          "name": "[GAME PKG Folder USA]",
+          "name": "[GAME PKG Folder USA v1.009]",
           "url": "https://www.rootz.so/d/xZttw",
           "group": "Standard",
           "version": "01.009",
@@ -160500,7 +160567,7 @@
           "mirror": "Rootz"
         },
         {
-          "name": "[GAME PKG Folder]",
+          "name": "[GAME PKG Folder v1.009]",
           "url": "https://www.mediafire.com/file/bc3ba3yh6cvz7g5/[DLPSGAME.COM]-PPSA28336.part01.rar/file",
           "group": "Standard",
           "version": "01.009",
@@ -160508,7 +160575,7 @@
           "mirror": "Mediafire"
         },
         {
-          "name": "[GAME PKG Folder 10 Go USA]",
+          "name": "[GAME PKG Folder 10 Go USA v1.009]",
           "url": "https://akirabox.com/dkD3YZQgkzLQ/file",
           "group": "Standard",
           "version": "01.009",
@@ -160519,7 +160586,7 @@
           "editionId": "PPSA28336"
         },
         {
-          "name": "[#02 GAME PKG Folder USA]",
+          "name": "[#02 GAME PKG Folder USA v1.009]",
           "url": "https://vikingfile.com/f/2smd8OJMt7",
           "group": "Standard",
           "version": "01.009",
@@ -160529,7 +160596,16 @@
           "editionId": "PPSA28336"
         },
         {
-          "name": "[GAME PKG Folder USA]",
+          "name": "[UPD PKG Folder USA v1.009]",
+          "url": "https://gofile.io/d/C1IdZh",
+          "group": "Standard",
+          "version": "01.009",
+          "region": "USA",
+          "editionId": "PPSA28336",
+          "mirror": "Gofile"
+        },
+        {
+          "name": "[UPD PKG Folder USA v1.009]",
           "url": "https://1fichier.com/?7yt49r70x1khhdnv0277",
           "group": "Standard",
           "version": "01.009",
@@ -160553,7 +160629,7 @@
         },
         {
           "url": "https://gofile.io/d/jqwUwsp3",
-          "name": "[01/14 DLC 10 Go USA]",
+          "name": "[01/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part01.rar",
           "sizeBytes": 10737418240,
@@ -160562,7 +160638,7 @@
         },
         {
           "url": "https://gofile.io/d/s3vrTTA6",
-          "name": "[02/14 DLC 10 Go USA]",
+          "name": "[02/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part02.rar",
           "sizeBytes": 10737418240,
@@ -160571,7 +160647,7 @@
         },
         {
           "url": "https://gofile.io/d/NQCnKUUu",
-          "name": "[03/14 DLC 10 Go USA]",
+          "name": "[03/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part03.rar",
           "sizeBytes": 10737418240,
@@ -160580,7 +160656,7 @@
         },
         {
           "url": "https://gofile.io/d/3OE0vAlZ",
-          "name": "[04/14 DLC 10 Go USA]",
+          "name": "[04/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part04.rar",
           "sizeBytes": 10737418240,
@@ -160589,7 +160665,7 @@
         },
         {
           "url": "https://gofile.io/d/0UhrpKrP",
-          "name": "[05/14 DLC 10 Go USA]",
+          "name": "[05/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part05.rar",
           "sizeBytes": 10737418240,
@@ -160598,7 +160674,7 @@
         },
         {
           "url": "https://gofile.io/d/XSjFVugc",
-          "name": "[06/14 DLC 10 Go USA]",
+          "name": "[06/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part06.rar",
           "sizeBytes": 10737418240,
@@ -160607,7 +160683,7 @@
         },
         {
           "url": "https://gofile.io/d/Z05tsXkU",
-          "name": "[07/14 DLC 10 Go USA]",
+          "name": "[07/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part07.rar",
           "sizeBytes": 10737418240,
@@ -160616,7 +160692,7 @@
         },
         {
           "url": "https://gofile.io/d/fUtf5HI5",
-          "name": "[08/14 DLC 10 Go USA]",
+          "name": "[08/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part08.rar",
           "sizeBytes": 10737418240,
@@ -160625,7 +160701,7 @@
         },
         {
           "url": "https://gofile.io/d/Nq6GHHtl",
-          "name": "[09/14 DLC 10 Go USA]",
+          "name": "[09/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part09.rar",
           "sizeBytes": 10737418240,
@@ -160634,7 +160710,7 @@
         },
         {
           "url": "https://gofile.io/d/XHKmQrYU",
-          "name": "[10/14 DLC 10 Go USA]",
+          "name": "[10/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part10.rar",
           "sizeBytes": 10737418240,
@@ -160643,7 +160719,7 @@
         },
         {
           "url": "https://gofile.io/d/EIoGeHHz",
-          "name": "[11/14 DLC 10 Go USA]",
+          "name": "[11/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part11.rar",
           "sizeBytes": 10737418240,
@@ -160652,7 +160728,7 @@
         },
         {
           "url": "https://gofile.io/d/Xbio49LS",
-          "name": "[12/14 DLC 10 Go USA]",
+          "name": "[12/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part12.rar",
           "sizeBytes": 10737418240,
@@ -160661,7 +160737,7 @@
         },
         {
           "url": "https://gofile.io/d/hhcm7WTi",
-          "name": "[13/14 DLC 10 Go USA]",
+          "name": "[13/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part13.rar",
           "sizeBytes": 10737418240,
@@ -160670,7 +160746,7 @@
         },
         {
           "url": "https://gofile.io/d/ZA7D8A0c",
-          "name": "[14/14 DLC 10 Go USA]",
+          "name": "[14/14 DLC 10 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part14.rar",
           "sizeBytes": 10737418240,
@@ -160679,7 +160755,7 @@
         },
         {
           "url": "https://gofile.io/d/2ujvgMn7",
-          "name": "[DLC 7 Go USA]",
+          "name": "[DLC 7 Go USA v1.009]",
           "mirror": "Gofile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part15.rar",
           "sizeBytes": 7516192768,
@@ -160688,7 +160764,7 @@
         },
         {
           "url": "https://vikingfile.com/f/p9piRNQCwb",
-          "name": "[01/14 DLC 10 Go USA]",
+          "name": "[01/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part01.rar",
           "sizeBytes": 10737418240,
@@ -160697,7 +160773,7 @@
         },
         {
           "url": "https://vikingfile.com/f/5JN7YsSVhg",
-          "name": "[02/14 DLC 10 Go USA]",
+          "name": "[02/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part02.rar",
           "sizeBytes": 10737418240,
@@ -160706,7 +160782,7 @@
         },
         {
           "url": "https://vikingfile.com/f/2AXkjdLRYP",
-          "name": "[03/14 DLC 10 Go USA]",
+          "name": "[03/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part03.rar",
           "sizeBytes": 10737418240,
@@ -160715,7 +160791,7 @@
         },
         {
           "url": "https://vikingfile.com/f/WEtn32ajsY",
-          "name": "[04/14 DLC 10 Go USA]",
+          "name": "[04/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part04.rar",
           "sizeBytes": 10737418240,
@@ -160724,7 +160800,7 @@
         },
         {
           "url": "https://vikingfile.com/f/ZtYnId5iG1",
-          "name": "[05/14 DLC 10 Go USA]",
+          "name": "[05/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part05.rar",
           "sizeBytes": 10737418240,
@@ -160733,7 +160809,7 @@
         },
         {
           "url": "https://vikingfile.com/f/XA1ecC2Ff6",
-          "name": "[06/14 DLC 10 Go USA]",
+          "name": "[06/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part06.rar",
           "sizeBytes": 10737418240,
@@ -160742,7 +160818,7 @@
         },
         {
           "url": "https://vikingfile.com/f/2mXPgWpa4T",
-          "name": "[07/14 DLC 10 Go USA]",
+          "name": "[07/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part07.rar",
           "sizeBytes": 10737418240,
@@ -160751,7 +160827,7 @@
         },
         {
           "url": "https://vikingfile.com/f/0ZWTV6wISt",
-          "name": "[08/14 DLC 10 Go USA]",
+          "name": "[08/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part08.rar",
           "sizeBytes": 10737418240,
@@ -160760,7 +160836,7 @@
         },
         {
           "url": "https://vikingfile.com/f/Xq67biIYpL",
-          "name": "[09/14 DLC 10 Go USA]",
+          "name": "[09/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part09.rar",
           "sizeBytes": 10737418240,
@@ -160769,7 +160845,7 @@
         },
         {
           "url": "https://vikingfile.com/f/1TU652L04m",
-          "name": "[10/14 DLC 10 Go USA]",
+          "name": "[10/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part10.rar",
           "sizeBytes": 10737418240,
@@ -160778,7 +160854,7 @@
         },
         {
           "url": "https://vikingfile.com/f/ANx4dXlUSZ",
-          "name": "[11/14 DLC 10 Go USA]",
+          "name": "[11/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part11.rar",
           "sizeBytes": 10737418240,
@@ -160787,7 +160863,7 @@
         },
         {
           "url": "https://vikingfile.com/f/68L6TinohD",
-          "name": "[12/14 DLC 10 Go USA]",
+          "name": "[12/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part12.rar",
           "sizeBytes": 10737418240,
@@ -160796,7 +160872,7 @@
         },
         {
           "url": "https://vikingfile.com/f/uMq8aCCZJE",
-          "name": "[13/14 DLC 10 Go USA]",
+          "name": "[13/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part13.rar",
           "sizeBytes": 10737418240,
@@ -160805,7 +160881,7 @@
         },
         {
           "url": "https://vikingfile.com/f/47HXziQrOC",
-          "name": "[14/14 DLC 10 Go USA]",
+          "name": "[14/14 DLC 10 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part14.rar",
           "sizeBytes": 10737418240,
@@ -160814,7 +160890,7 @@
         },
         {
           "url": "https://vikingfile.com/f/vc9n0LxZau",
-          "name": "[DLC 7 Go USA]",
+          "name": "[DLC 7 Go USA v1.009]",
           "mirror": "Vikingfile",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part15.rar",
           "sizeBytes": 7516192768,
@@ -160823,7 +160899,7 @@
         },
         {
           "url": "https://1fichier.com/?xso62rdrv46ozu5x3r05&af=4186346",
-          "name": "[#01 DLC]",
+          "name": "[#01 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160831,7 +160907,7 @@
         },
         {
           "url": "https://1fichier.com/?nwvdpnvqndmxtroyqktf&af=4186346",
-          "name": "[#02 DLC]",
+          "name": "[#02 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160839,7 +160915,7 @@
         },
         {
           "url": "https://1fichier.com/?70ory0tdglxl0p0owuo8&af=4186346",
-          "name": "[#03 DLC]",
+          "name": "[#03 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160847,7 +160923,7 @@
         },
         {
           "url": "https://1fichier.com/?t26a62towicm5au7i32o&af=4186346",
-          "name": "[#04 DLC]",
+          "name": "[#04 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160855,7 +160931,7 @@
         },
         {
           "url": "https://1fichier.com/?lbra20yx5pbrjf4c3xpx&af=4186346",
-          "name": "[#05 DLC]",
+          "name": "[#05 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160863,7 +160939,7 @@
         },
         {
           "url": "https://1fichier.com/?gcyyjm0uwbg2mm63c7no&af=4186346",
-          "name": "[#06 DLC]",
+          "name": "[#06 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160871,7 +160947,7 @@
         },
         {
           "url": "https://1fichier.com/?lz3c8nikib7axyle8ys8&af=4186346",
-          "name": "[#07 DLC]",
+          "name": "[#07 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160879,7 +160955,7 @@
         },
         {
           "url": "https://1fichier.com/?k1j8wgz4wiud2j8jqkzz&af=4186346",
-          "name": "[#08 DLC]",
+          "name": "[#08 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160887,7 +160963,7 @@
         },
         {
           "url": "https://1fichier.com/?p8d3mkigbpbv00jyv1n3&af=4186346",
-          "name": "[#09 DLC]",
+          "name": "[#09 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160895,7 +160971,7 @@
         },
         {
           "url": "https://1fichier.com/?922zowddalv4us767kje&af=4186346",
-          "name": "[#10 DLC]",
+          "name": "[#10 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160903,7 +160979,7 @@
         },
         {
           "url": "https://1fichier.com/?z2s3cuyl6ss4d5f8z92c&af=4186346",
-          "name": "[#11 DLC]",
+          "name": "[#11 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160911,7 +160987,7 @@
         },
         {
           "url": "https://1fichier.com/?6bbgyuivppw95sko8qb8&af=4186346",
-          "name": "[#12 DLC]",
+          "name": "[#12 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160919,7 +160995,7 @@
         },
         {
           "url": "https://1fichier.com/?ot9gc9d79ssv8raf2qev&af=4186346",
-          "name": "[#13 DLC]",
+          "name": "[#13 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160927,7 +161003,7 @@
         },
         {
           "url": "https://1fichier.com/?9yqt0o0s7nxa2evp75it&af=4186346",
-          "name": "[#14 DLC]",
+          "name": "[#14 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160935,7 +161011,7 @@
         },
         {
           "url": "https://1fichier.com/?pz2c4ug2zc5shke5jxt4&af=4186346",
-          "name": "[#15 DLC]",
+          "name": "[#15 DLC v1.009]",
           "mirror": "1Fichier",
           "fileName": "Untitled File",
           "group": "DLC",
@@ -160943,7 +161019,7 @@
         },
         {
           "url": "https://www.rootz.so/d/2IDvqC",
-          "name": "[01/14 DLC 10 Go USA]",
+          "name": "[01/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part01.rar",
           "sizeBytes": 10737418240,
@@ -160952,7 +161028,7 @@
         },
         {
           "url": "https://www.rootz.so/d/15Xh8y",
-          "name": "[02/14 DLC 10 Go USA]",
+          "name": "[02/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part02.rar",
           "sizeBytes": 10737418240,
@@ -160961,7 +161037,7 @@
         },
         {
           "url": "https://www.rootz.so/d/19ZY0W",
-          "name": "[03/14 DLC 10 Go USA]",
+          "name": "[03/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part03.rar",
           "sizeBytes": 10737418240,
@@ -160970,7 +161046,7 @@
         },
         {
           "url": "https://www.rootz.so/d/vA6i",
-          "name": "[04/14 DLC 10 Go USA]",
+          "name": "[04/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part04.rar",
           "sizeBytes": 10737418240,
@@ -160979,7 +161055,7 @@
         },
         {
           "url": "https://www.rootz.so/d/4x0yG",
-          "name": "[05/14 DLC 10 Go USA]",
+          "name": "[05/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part05.rar",
           "sizeBytes": 10737418240,
@@ -160988,7 +161064,7 @@
         },
         {
           "url": "https://www.rootz.so/d/1DbOs4",
-          "name": "[06/14 DLC 10 Go USA]",
+          "name": "[06/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part06.rar",
           "sizeBytes": 10737418240,
@@ -160997,7 +161073,7 @@
         },
         {
           "url": "https://www.rootz.so/d/F9c36",
-          "name": "[07/14 DLC 10 Go USA]",
+          "name": "[07/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part07.rar",
           "sizeBytes": 10737418240,
@@ -161006,7 +161082,7 @@
         },
         {
           "url": "https://www.rootz.so/d/1RpqkK",
-          "name": "[08/14 DLC 10 Go USA]",
+          "name": "[08/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part08.rar",
           "sizeBytes": 10737418240,
@@ -161015,7 +161091,7 @@
         },
         {
           "url": "https://www.rootz.so/d/1Vrhbs",
-          "name": "[09/14 DLC 10 Go USA]",
+          "name": "[09/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part09.rar",
           "sizeBytes": 10737418240,
@@ -161024,7 +161100,7 @@
         },
         {
           "url": "https://www.rootz.so/d/1ZtYTQ",
-          "name": "[10/14 DLC 10 Go USA]",
+          "name": "[10/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part10.rar",
           "sizeBytes": 10737418240,
@@ -161033,7 +161109,7 @@
         },
         {
           "url": "https://www.rootz.so/d/1dvPKy",
-          "name": "[11/14 DLC 10 Go USA]",
+          "name": "[11/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part11.rar",
           "sizeBytes": 10737418240,
@@ -161042,7 +161118,7 @@
         },
         {
           "url": "https://www.rootz.so/d/RFAZc",
-          "name": "[12/14 DLC 10 Go USA]",
+          "name": "[12/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part12.rar",
           "sizeBytes": 10737418240,
@@ -161051,7 +161127,7 @@
         },
         {
           "url": "https://www.rootz.so/d/1hxGCW",
-          "name": "[13/14 DLC 10 Go USA]",
+          "name": "[13/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part13.rar",
           "sizeBytes": 10737418240,
@@ -161060,7 +161136,7 @@
         },
         {
           "url": "https://www.rootz.so/d/VH1RA",
-          "name": "[14/14 DLC 10 Go USA]",
+          "name": "[14/14 DLC 10 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part14.rar",
           "sizeBytes": 10737418240,
@@ -161069,7 +161145,7 @@
         },
         {
           "url": "https://www.rootz.so/d/NDJmC",
-          "name": "[DLC 7 Go USA]",
+          "name": "[DLC 7 Go USA v1.009]",
           "mirror": "Rootz",
           "fileName": "[SuperPSX]-STALKER.2.Heart.of.Chernobyl-PPSA28336 – USA-Game (v01.009) + DLC-PS5.part15.rar",
           "sizeBytes": 7516192768,
@@ -161077,17 +161153,17 @@
           "version": "01.009"
         }
       ],
-      "sizeBytes": 159987531776,
+      "sizeBytes": 190052302848,
       "downloadSource": "https://phoenixdl.com",
       "source": [
-        "exFAT · Folder · Backport 4.xx"
+        "exFAT · Folder · Backport"
       ],
       "fileFormat": [
+        "Backport",
         "exFAT",
         "Backport 4.xx",
         "PKG",
         "Folder",
-        "Backport",
         "RAR"
       ],
       "_enrichedAt": "2026-11-15T05:14:02.664279+00:00",
@@ -161107,7 +161183,7 @@
       },
       "_igdbEnrichedAt": "2026-06-28T22:31:56.782946+00:00",
       "_igdbMatched": true,
-      "formatLabel": "exFAT · Folder · Backport 4.xx"
+      "formatLabel": "exFAT · Folder · Backport"
     },
     {
       "titleId": "PPSA21732",
@@ -193859,7 +193935,7 @@
         "PKG",
         "Backport 4.xx"
       ],
-      "_enrichedAt": "2026-10-27T05:12:48.509857+00:00",
+      "_enrichedAt": "2026-11-27T05:12:11.579099+00:00",
       "_rawgMatched": true,
       "metadata": {
         "rawgSlug": "disneypixar-toy-story-3-complete-edition",
@@ -202363,14 +202439,6 @@
         },
         {
           "name": "[GAME FPKG PKG USA]",
-          "url": "https://akirabox.com/wgWGqEBwG4oy/file",
-          "group": "Standard",
-          "region": "USA",
-          "editionId": "PPSA03061",
-          "mirror": "Akia"
-        },
-        {
-          "name": "[GAME FPKG PKG USA]",
           "url": "https://vikingfile.com/f/akzzfn0uPY",
           "group": "Standard",
           "region": "USA",
@@ -205693,12 +205761,6 @@
           "version": "01.033",
           "fileName": "PPSA07836",
           "mirror": "Vault"
-        },
-        {
-          "name": "[GAME exFAT BP]",
-          "url": "https://akirabox.com/Z9dzBPQ85mk1/file",
-          "group": "exFAT · Backport",
-          "mirror": "Akia"
         },
         {
           "name": "[GAME exFAT BP]",
